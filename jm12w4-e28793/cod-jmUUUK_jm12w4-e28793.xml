@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="43-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e28793"> <!--l1d8q3 -->
+            <head xml:id="jm12w4-e28793-Hd1e106">Quaestio 3</head>
+            <head xml:id="jm12w4-e28793-Hd1e109" type="question-title">An Deus est spiritus simplex et impartibilis</head>
+            <p xml:id="jm12w4-e28793-d1e112">
+               <lb ed="#P" n="70"/>⁋ <quote xml:id="jm12w4-e28793-Qd1e116" source="http://scta.info/resource/pll1d8c3-d1e3475" synch="1-14">Eademque sola proprie ac vere simplex est: 
+              <lb ed="#P" n="71"/>vbi nec partium nec accipientium nec quarumlibet</quote>. 
+            </p>
+            <p xml:id="jm12w4-e28793-d1e122">
+               <lb ed="#P" n="72"/>⁋ Distinctionis octaue questio 
+              tertia<lb ed="#P" n="73" break="no"/>se eterea tertio inquiramus: an deus est 
+              <lb ed="#P" n="74"/>spiritus simplex et impartibilis.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e132">
+      ⁋ Iuxta 
+              <lb ed="#P" n="75"/>quaesita in hac octaua distinctione cap. iiii 
+              <lb ed="#P" n="76"/>et sequantibus a Magistro capitur 
+              multiph<lb ed="#P" n="77" break="no"/>riam sperius. Alionm sumitur pro vento et fiatu 
+              <lb ed="#P" n="78"/>aeris. interdum a medicis pro corpore quodam 
+              subtilis<lb ed="#P" n="79" break="no"/>simo: per quod fit pulsus in homine. vel pro quadam virtu 
+              <lb ed="#P" n="80"/>te vitali vel animali ortum habente a corde vel a cere 
+              <lb ed="#P" n="81"/>bro: per quem fit motus et sensus pulsus et anhelitus 
+              <lb ed="#P" n="82"/>Aliquando anima dicitur speriuns. et sic anima bruti dicitur 
+              spiri<lb ed="#P" n="83" break="no"/>tus. et per consequens substantia spiuealis. sed quia spiritus 
+              <lb ed="#P" n="84"/>hoc modo est res extensa habens partes loco a situ di 
+              <lb ed="#P" n="85"/>stinctas: ideo ponebatur in titulo questionis 
+              impartibi<lb ed="#P" n="86" break="no"/>lis.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e161">
+      ⁋ Respondetur per conclusiones sequentes.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e164">
+      ⁋ Pri 
+              <lb ed="#P" n="87"/>ma est: deus est impartibilis substantia. hanc conclusio 
+              <lb ed="#P" n="88"/>nem multiplici patrum testimonio <name xml:id="jm12w4-e28793-Nd1e170" ref="#Lombard">Magister</name> in liter 
+              <lb ed="#P" n="89"/>roborat.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e176">
+      ⁋ Insuper quintodecimo d trinitate capiti 
+              <lb ed="#P" n="90"/>bus quarto a quinto dicit <name xml:id="jm12w4-e28793-Nd1e180" ref="#Augustine">Aug.</name> incorporalia 
+              praefe<lb ed="#P" n="91" break="no"/>runtur corporalibus.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e186">
+      ⁋ Insuper inferius patebit deum 
+              <lb ed="#P" n="92"/>esse vbique: nullum corpus est vbique. igitur.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e191">
+      ⁋ Secunda conclusio 
+              <lb ed="#P" n="93"/>potest multum probabiliter probari in lumine 
+              natura<lb ed="#P" n="94" break="no"/>li quod deus est substantia immaterialis et impartibilis: 
+            </p>
+            <p xml:id="jm12w4-e28793-d1e199">
+               <lb ed="#P" n="95"/>⁋ Probatur hoc optime. naturalitur loquantes 
+              posue<lb ed="#P" n="96" break="no"/>runt: et non dixerunt illud gratis: quin aliquibus ratio 
+              <lb ed="#P" n="97"/>nibus ad hoc essent moti. Unde <name xml:id="jm12w4-e28793-Nd1e207" ref="#Aristotle">aristoteles</name> octauo phi 
+              <lb ed="#P" n="98"/>sicorutum. primum inquit mouens necesse est esse 
+              impartibi<lb ed="#P" n="99" break="no"/>le: nec hatre magnitudinem. hoc ipsum dicit duodecimo 
+              <lb ed="#P" n="100"/>metaphysice. oensum est inquit quaniam non conuenit substam 
+              <lb ed="#P" n="101"/>tiam hanc habere vllam magnitudinem: sed est sine per 
+              <lb ed="#P" n="102"/>te et indiuisibilis.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e222">
+      ⁋ hoc <name xml:id="jm12w4-e28793-Nd1e224" ref="#Aristotle">aristoteles</name> ex via motus 
+              <lb ed="#P" n="103"/>probare conatur tripliciter. Primo ex infinita potem 
+              <lb ed="#P" n="104"/>tia primi motoris.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e232">
+      ⁋ Secundo ex praepetuitate motus cele 
+              <lb ed="#P" n="105"/>stis. Tertio ex immobilitate primi motoris.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e237">
+      ⁋ Qua 
+              <lb ed="#P" n="106"/>tum ad primum octauo physicorum sic argumentatur. Si 
+              <lb ed="#P" n="107"/>virtus primi motoris est corporea et extensa. igitur 
+              <lb ed="#P" n="108"/>aut est in magnitudine finita vel infinita. non secundum 
+              <lb ed="#P" n="109"/>qui talis magnitudo non est. non primum: quia in 
+              magnitu<lb ed="#P" n="110" break="no"/>dine finita non est vertus infinita extesa. talis enim vertus est 
+              <lb ed="#P" n="111"/>maior secundum extensionem: et secundum efficientiam 
+              <lb ed="#P" n="112"/>causandi in maiore parte: et per consequens si est infinita erit 
+              <lb ed="#P" n="113"/>in magnitudine infinita.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e257">
+      ⁋ Quid autem virtus primi mo 
+              <lb ed="#P" n="114"/>toris sit infinita probauit paiuo per hoc quod mouet tem 
+              <lb ed="#P" n="115"/>pore infinito.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e264">
+      ⁋ hec ratio philosophi non demonstrat 
+              <lb ed="#P" n="116"/>propositum licet subtiliter disputet primo de celo ter 
+              <lb ed="#P" n="117"/>tio physicorum: quod non detur magnitudo infinita. 
+              ratio<lb ed="#P" n="118" break="no"/>nes eius non concludunt vt post in distinctione quaedra 
+              <lb ed="#P" n="119"/>gesima quarta patebit. Et quod amplius est) probat 
+              <lb ed="#P" n="120"/>gnotum per ignotius. multo enim difficilius est ei proba 
+              <lb ed="#P" n="121"/>re in lumine naturali virtutem primi motoris esse 
+              infi<lb ed="#P" n="122" break="no"/>nitam in perfectione et vigore: quam ipsam esse extensam et in 
+              <lb ed="#P" n="123"/>copoream. Quod talis infinitas non concludatur ex praepetui 
+              <lb ed="#P" n="124"/>tate motus: in materia de infinito patebit.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e287">
+      ⁋ Secund 
+              <lb ed="#P" n="125"/>arguit exppetuitate motus celestis octauo physico 
+              <lb ed="#P" n="126"/>rum sic: nulla virtus corporea et extensa mouet in tem 
+              <lb ed="#P" n="127"/>pore infinito ex se. sed vrtus primi motoris mouet ex 
+              <lb ed="#P" n="128"/>se tempore infinito: igitur. maior probatur. quia si a virtus 
+              <lb ed="#P" n="129"/>extensa moueat tempore infinito. b. igitur c certa 
+      <!--101.xml-->
+      <pb ed="#P" n="43-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pars ipsius a mouebit b vel aliquam partem eius: vel 
+              <lb ed="#P" n="2"/>mobile sibi proportionatum in tempore minori. et 
+              <lb ed="#P" n="3"/>non infinito. potentia enim totius est maior quam poten 
+              <lb ed="#P" n="4"/>tia parte. potentia eie maior potest mouere longiori tempore: et 
+              <lb ed="#P" n="5"/>quia quae erit proportio motoris ad motorem: eadem erit temporis 
+              <lb ed="#P" n="6"/>ad tempus: igitur cpars certa ipsius a motoris 
+              moue<lb ed="#P" n="7" break="no"/>bit tantum tempore finito. igitur equalis pars 
+              moue<lb ed="#P" n="8" break="no"/>bit equali tempore finito. ergo cum a contineat tantum partes ta 
+              <lb ed="#P" n="9"/>les finitas: sequitur quod totum tempus quo a mouebit erit 
+              <lb ed="#P" n="10"/>finitum.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e328">
+      ⁋ hanc deductionem probat Commentator in 
+              <lb ed="#P" n="11"/>de substantia orbis tractatu. ii. et addit. quod sicut mo 
+              <lb ed="#P" n="12"/>tus celi non esset infinitus nisi esset a virtute non in 
+              <lb ed="#P" n="13"/>corpore: ita corpus celeste /(quia est finitum) non esset 
+              <lb ed="#P" n="14"/>permanentie infinite nisi vrtus quae largitur ei motum 
+              <lb ed="#P" n="15"/>eternum largiretur ei in sua substantia permanentia 
+              <lb ed="#P" n="16"/>eternam.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e344">
+      ⁋ hec ratio est debilis. procedit enim ex illo 
+              <lb ed="#P" n="17"/>quod si a vertus extensa motiua mouet tempore infinito ccer 
+              <lb ed="#P" n="18"/>ta paro eius mouebit tantum tempore finito. sed hoc est du 
+              <lb ed="#P" n="19"/>biu. immo falsum: sicut solnatus est illuminare 
+              perpe<lb ed="#P" n="20" break="no"/>tuo: ita et medietas solis: igitur si per possibile vel 
+              <lb ed="#P" n="21"/>impossibile esset diuisus possit illuminare 
+              perpe<lb ed="#P" n="22" break="no"/>tuo: licet non tam extense.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e360">
+      ⁋ Preterea virtus mo 
+              <lb ed="#P" n="23"/>tiua incorruptibilis et inalterabilis si mouet 
+              tem<lb ed="#P" n="24" break="no"/>pore aliquo: pariratione potest mouere tempore infi 
+              <lb ed="#P" n="25"/>nito. patet. quia est infatigabilis. et ita quocumque tem 
+              <lb ed="#P" n="26"/>pore finito dato in quo mouet eque potens est 
+              ite<lb ed="#P" n="27" break="no"/>rum mouere in fine illius temporis sicut in princi 
+              <lb ed="#P" n="28"/>pio: sed quelibet pars ipsius a est virtus 
+              incorru<lb ed="#P" n="29" break="no"/>ptibilis: quia ex quo a est in corruptibile non com 
+              <lb ed="#P" n="30"/>ponitur ex corruptibilibus.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e380">
+      ⁋ Insuper virtus mo 
+              <lb ed="#P" n="31"/>tiua subdupla vel subtripla ad a potest equali tem 
+              <lb ed="#P" n="32"/>pore mouere sicut a: ergo et si medietas ipsius a se 
+              <lb ed="#P" n="33"/>orsum existens potest mouere: sequitur quod potest mo 
+              <lb ed="#P" n="34"/>uere equali tempore cum a. antecedens patet: quia 
+              <lb ed="#P" n="35"/>vnus planeta vel stella est minoris potentie et eff 
+              <lb ed="#P" n="36"/>cacie quam alter: patet de luna minori terra: et sole ma 
+              <lb ed="#P" n="37"/>iore eadem. et tamen luna perpetuo mouetur sicut 
+              <lb ed="#P" n="38"/>sol.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e400">
+      ⁋ Amplius pars totius passi incorruptibilis 
+              <lb ed="#P" n="39"/>potest pati et transmutari a tempore infinito (vt pa 
+              <lb ed="#P" n="40"/>tet de portione materie que est in hoc lapide) sicut 
+              <lb ed="#P" n="41"/>et totum passum. igitur pari ratione de actiuo: vel 
+              <lb ed="#P" n="42"/>de motiuo incorruptibili.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e412">
+      ⁋ Aliter arguitur ex. xli 
+              <lb ed="#P" n="43"/>commento duodecimi metaphysice. ex dictis Commen 
+              <lb ed="#P" n="44"/>tatoris et themistii. nullus motus necessario 
+              prerpe<lb ed="#P" n="45" break="no"/>tuus fit precise a motore possibili: quiescere et ce 
+              <lb ed="#P" n="46"/>sare a motu: sed omne corporeum natum est 
+              quie<lb ed="#P" n="47" break="no"/>scere: et a motu cessare. igitur nullus motus necet 
+              <lb ed="#P" n="48"/>sario perpetuus fit precise a motore corporeo. Se 
+              <lb ed="#P" n="49"/>motor celi in lumine naturali ponendus est perpe 
+              <lb ed="#P" n="50"/>tuus et de necessitate. maior est nota. et probatur mi 
+              <lb ed="#P" n="51"/>nor. omne enim corpus (quantum est de se) natum est 
+              <lb ed="#P" n="52"/>quiescere: et moueri. motus et quies sunt priuatime 
+              <lb ed="#P" n="53"/>opposita circa corpus mobile. igitur idem suble 
+              <lb ed="#P" n="54"/>ctum est ex se possibile ad vtrunque oppositorum i 
+              <lb ed="#P" n="55"/>uatiue.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e443">
+      ⁋ Tum secundo: quia natura est 
+              principi<lb ed="#P" n="56" break="no"/>um motus et quietis. ii. physicorum.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e448">
+      ⁋ Sed haec ra 
+              <lb ed="#P" n="57"/>tio non concludit: quia fundatur in hoc quod motus ce 
+              <lb ed="#P" n="58"/>li simpliciter perpetuatur ex hoc quod primus motor 
+              <lb ed="#P" n="59"/>moueat mere necessitate naturali: et quod agat ad ex 
+              <lb ed="#P" n="60"/>tra naturaliter. quod est falsum. et oppositum est pro 
+              <lb ed="#P" n="61"/>babile in lumine naturali.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e461">
+      ⁋ Dicetur vlterius quod 
+              <lb ed="#P" n="62"/>non est de ratione cuiustibet corporis quiescere 
+            </p>
+            <p xml:id="jm12w4-e28793-d1e466">
+               <lb ed="#P" n="63"/>⁋ Potest dici quod argumenta <name xml:id="jm12w4-e28793-Nd1e470" ref="#Aristotle">aristotelis</name>. viii. phi 
+              <lb ed="#P" n="64"/>sicorum licet non sufficienter virtutem primi 
+              mo<lb ed="#P" n="65" break="no"/>toris inextensam simpliciter concludant: tamen vi 
+      <!--101.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 43vb -->
+               <lb ed="#P" n="66"/>dentur probare quod non sufficit extensa materialis 
+              <lb ed="#P" n="67"/>sicut mouentia physica inferiora. generabilis ei 
+              <lb ed="#P" n="68"/>corruptibilis. talis enim virtus ( si est finita in cor 
+              <lb ed="#P" n="69"/>pore finito) non potest mouere motu continuo / 
+              per<lb ed="#P" n="70" break="no"/>petuo et vniformi. pobatur: quia aliqua certa para 
+              <lb ed="#P" n="71"/>eius mouebit tantum tempore finito. et non 
+              tan<lb ed="#P" n="72" break="no"/>to tempore quanto totum cuius est pars. quia 
+              ta<lb ed="#P" n="73" break="no"/>le mouens est alterabile / et passibile a contrariis re 
+              <lb ed="#P" n="74"/>sistiuis: et corruptiuis. et per consequens 
+              fatigabi<lb ed="#P" n="75" break="no"/>le / et diminuibile ob contrarietates mutuas. et per 
+              <lb ed="#P" n="76"/>consequens minus durabit quam maior virtus. vt 
+              par<lb ed="#P" n="77" break="no"/>uus ignis minus durat quam magnus. cum igitur sit 
+              <lb ed="#P" n="78"/>proportio partis ad totum in efficacia virtuti mo 
+              <lb ed="#P" n="79"/>tiue et actiue: sequitur quod erit proportio temporis 
+              <lb ed="#P" n="80"/>quo potest minor potentia durare: et agere ad tem 
+              <lb ed="#P" n="81"/>pus quo maior potentia eiusdem rationis finita 
+              po<lb ed="#P" n="82" break="no"/>test sic mouendo et agendo durare. et per conseqns 
+              <lb ed="#P" n="83"/>virtus materialis / et passibilis / non potest mouere 
+              <lb ed="#P" n="84"/>nisi sit infinita) motu infinito. hoc autem est impossi 
+              <lb ed="#P" n="85"/>bile. quia vel esset in magnitudine finita vel infini 
+              <lb ed="#P" n="86"/>ta. quorum vtrunque reprobatur. hoc modo 
+              vide<lb ed="#P" n="87" break="no"/>tur rationem <name xml:id="jm12w4-e28793-Nd1e532" ref="#Aristotle">aristotelis</name> Commentator in de substantia 
+              <lb ed="#P" n="88"/>orbis tractatu. iii. accipe. et ipsa est topica.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e538">
+      ⁋ 
+              Ea<lb ed="#P" n="89" break="no"/>dem conclusio sic pobatur. ens simpliciter primum 
+              <lb ed="#P" n="90"/>non est causatum et dependens essentialiter ab aliis 
+              <lb ed="#P" n="91"/>tanquam a causis prioribus. omne ens extensum et 
+              cor<lb ed="#P" n="92" break="no"/>oreum est causatum et essentialiter dependens ab 
+              ali<lb ed="#P" n="93" break="no"/>quibus tanquam causis prioribus: quia est compositum 
+              <lb ed="#P" n="94"/>ex principiis componentibus que sunt cause secundum 
+              <lb ed="#P" n="95"/>
+               <name xml:id="jm12w4-e28793-Nd1e555" ref="#Aristotle">Aristotelem</name> quinto metaphysice.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e560">
+      ⁋ Preterea om 
+              <lb ed="#P" n="96"/>nis substantia corporea nata est informari accidem 
+              <lb ed="#P" n="97"/>tibus: vt quantitate et qualitatibus variis. quod 
+              duo<lb ed="#P" n="98" break="no"/>decimo metaphysice negatur a philosophis.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e569">
+      ⁋ 
+              Ul<lb ed="#P" n="99" break="no"/>terius per rationem que tangitur. viii. physicorum 
+              ci<lb ed="#P" n="100" break="no"/>tra medium: et duodecimo metaphysice commento. 
+              <lb ed="#P" n="101"/>xxxv. contingit dare mobile mouens: et est dare 
+              mo<lb ed="#P" n="102" break="no"/>bile non mouens. igitur est dare mouens non 
+              mo<lb ed="#P" n="103" break="no"/>bile. Vides quod in lumine naturali aduersarius non 
+              <lb ed="#P" n="104"/>conuincetur. Et illud potest colorari sicut habetur 
+              <lb ed="#P" n="105"/>actuum. xxiii. saducei dicunt neque angelum neque 
+              <lb ed="#P" n="106"/>spiritum esse. Et Cassianus decima collatione pri 
+              <lb ed="#P" n="107"/>me partis / que est secunda collatio abbatis isaac 
+              <lb ed="#P" n="108"/>letfert quod fere ab vniuerso genere monachorum per 
+              <lb ed="#P" n="109"/>prouincias egvpati commorantium hic error susci 
+              <lb ed="#P" n="110"/>piebatur / scilicet quod deus emnipotens humane 
+              figu<lb ed="#P" n="111" break="no"/>re compositione formatus esset sicut dicit scriptura 
+              <lb ed="#P" n="112"/>quod homo ad imaginem dei factus est. et epistolas potes 
+              <lb ed="#P" n="113"/>tificis hunc errorem reprobantis cum graui amaritu 
+              <lb ed="#P" n="114"/>dine receperunt: inter quos quidam pater antiqu 
+              <lb ed="#P" n="115"/>famose sanctitatis noine seraphion cum magna dif 
+              <lb ed="#P" n="116"/>ficultate abhhoc errore reuocatus est. post quam 
+              re<lb ed="#P" n="117" break="no"/>uocationem erat in omnibus mente confusus eo quod 
+              ima<lb ed="#P" n="118" break="no"/>ginem deitatis quam in oratione sibi proponere 
+              consue<lb ed="#P" n="119" break="no"/>uerat aboleri de suo corde sentiret: et cum fletu ama 
+              <lb ed="#P" n="120"/>ro diceret. heu me. sublatum a me deum meum: et nunc 
+              <lb ed="#P" n="121"/>quem adorem ignoro. hoc tenuerunt pytbagorici 
+              <lb ed="#P" n="122"/>vt tangitur. xii. metaphysice circa medium. Posue 
+              <lb ed="#P" n="123"/>runt enim optimum a nobilissimum non in principio 
+              <lb ed="#P" n="124"/>sed in composito ex principiis. et <name xml:id="jm12w4-e28793-Nd1e627" ref="#Anselm">Anselmus</name> de incar 
+              <lb ed="#P" n="125"/>natione verbi dicit: quod dialectici moderni nihil es 
+              <lb ed="#P" n="126"/>credunt nisi quod imaginationibus comprehendere pot 
+              <lb ed="#P" n="127"/>sint. nec putant aliquid esse in quae partes nature non sunt 
+              <lb ed="#P" n="128"/>Et plerique coluerunt planetas: vt egvyptii solem. ergo si 
+              <lb ed="#P" n="129"/>gnum est quod non est demonstrata hec conclusio in lumine 
+              <lb ed="#P" n="130"/>naturali quod / primum ens est impartibile. tamen rationes ad illam 
+      <!--102.xml-->
+      <pb ed="#P" n="44-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>partem sunt apparentes: et alique earum apud sa 
+              <lb ed="#P" n="2"/>num ingenium concludentes quod sufficit in istis 
+              abdi<lb ed="#P" n="3" break="no"/>tissimis naturae ad debere assentire.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e657">
+      ⁋ Quocirca 
+              <lb ed="#P" n="4"/>peccant planetas et coporea colentes in lumine 
+              na<lb ed="#P" n="5" break="no"/>turali. Non stemus in talibus: deus est corporeus per 
+              <lb ed="#P" n="6"/>comunicationem idiomatum. Et licet sint tres 
+              per<lb ed="#P" n="7" break="no"/>sone quarum vna non est alia in deo: tamen nulla est compo 
+              <lb ed="#P" n="8"/>sitio.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e670">
+      ⁋ Sed dices quomodo deus est smplicior 
+              an<lb ed="#P" n="9" break="no"/>gelo vel anima intellectiva.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e675">
+      ⁋ Respondetur nec 
+              <lb ed="#P" n="10"/>angelus nec anima intellectiua habet partes: sed 
+              <lb ed="#P" n="11"/>anima potest informare corpus: angelus potest in se 
+              <lb ed="#P" n="12"/>suscipere accidens: et materia prima accidens susci 
+              <lb ed="#P" n="13"/>pere potest: quia est subiectum inhesionis acciden 
+              <lb ed="#P" n="14"/>tis corporei secundum aliquos. De accidente indi 
+              <lb ed="#P" n="15"/>uisibili babet partes intensiuas: a naturaliter non 
+              <lb ed="#P" n="16"/>potest esse extra subiectum. deo autem ista non con 
+              <lb ed="#P" n="17"/>petunt.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e695">
+      ⁋ Sed contra istud arguitur: simplicitas 
+              <lb ed="#P" n="18"/>non est perfectio simpliciter: ergo non est ponenda 
+              <lb ed="#P" n="19"/>in deo.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e703">
+      ⁋ Antecedens pobatur. quia omne habens 
+              <lb ed="#P" n="20"/>illam esset perfectius non habente: consequens est 
+              <lb ed="#P" n="21"/>falsum. quia nec materia nec forma est perfectior 
+              <lb ed="#P" n="22"/>toto composito. Consequentia pobatur. quia perfe 
+              <lb ed="#P" n="23"/>ctio simpliciter est vbique perfectio simpliciter. igi 
+              <lb ed="#P" n="24"/>tur dat perfectius esse simpliciter. immo tunc quan 
+              <lb ed="#P" n="25"/>to aliquid: perfectius appopinquat essentiae: tan 
+              <lb ed="#P" n="26"/>to pius participat oe simplicitate.
+            </p>
+            <p xml:id="jm12w4-e28793-d1e721">
+      ⁋ Aid istud 
+              ne<lb ed="#P" n="27" break="no"/>gatur antecedens. et dicitur quod non oportet quod sit 
+              sim<lb ed="#P" n="28" break="no"/>pliciter et absolute perfectius: nisi ceteris paribus 
+              <lb ed="#P" n="29"/>vel quo ad hanc conditionem. Et eodem modo 
+              di<lb ed="#P" n="30" break="no"/>catur ad aliud.  
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="17-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e10781"> <!--l1d1q1 -->
+            <head xml:id="jm12w4-e10781-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e10781-Hd1e109" type="question-title">An omnis actus voluntatis sit usus vel fruitio?</head>
+            <p xml:id="jm12w4-e10781-d1e112">
+               <lb ed="#P" n="21"/>⁋ Id ergo in rebus considerandum est: vt 
+              <lb ed="#P" n="22"/>in eodem <name xml:id="jm12w4-e10781-Nd1e118" ref="#Augustine">Aug.</name> ait quod res alie sunt: quibus etc. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e122">
+               <lb ed="#P" n="23"/>⁋ Distinctionis prime questio prima. 
+              <lb ed="#P" n="24"/>Irca hanc primam distinctio 
+              <lb ed="#P" n="25"/>nem huius primi quero: an 
+              om<lb ed="#P" n="26" break="no"/>nis actus voluntatis sit vsus 
+              <lb ed="#P" n="27"/>vel fruitio. In primis explica 
+              <lb ed="#P" n="28"/>buntur duo termini de quibus 
+              <lb ed="#P" n="29"/>potissimum est questio: postea 
+              <lb ed="#P" n="30"/>respodebitur ad questionem. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e143">
+               <lb ed="#P" n="31"/>⁋ Multifariam terminus frui 
+              <lb ed="#P" n="32"/>accipitur. Primo 
+              communi<lb ed="#P" n="33" break="no"/>ter pro omni actu potentie 
+              ap<lb ed="#P" n="34" break="no"/>petitiue delectabili: et sic sumitur Ecclesiastes. ii. Ua 
+              <lb ed="#P" n="35"/>dam et affluam delitiis: et fruar bonis. et. vi. eiusdem et  
+              <lb ed="#P" n="36"/>non fuerit perfruitus bonis. Et prouerbiorum. vii. frua 
+              <lb ed="#P" n="37"/>mur cupitis amplexibus. Et <name xml:id="jm12w4-e10781-Nd1e160" ref="#Augustine">Augustinus.</name> lxxxiii. 
+              quae<lb ed="#P" n="38" break="no"/>stionum questione. xxx. dicimur (inquit) frui cibo e po 
+              <lb ed="#P" n="39"/>tu. ad Philemonem quoque Apostolus ait. Ego te 
+              <lb ed="#P" n="40"/>fruar in domino. Sic delectatio potest dici fruitio. et 
+              qui<lb ed="#P" n="41" break="no"/>libet amor naturalis sequens apprehensionem rei con 
+              <lb ed="#P" n="42"/>uenientis vel placentis.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e175">
+      ⁋ Secundo modo accipitur 
+              <lb ed="#P" n="43"/>pro amore libero voluntatis quo non tenditur in aliud.  
+              <lb ed="#P" n="44"/>Et hoc bifariam: vel actu non tenditur in aliud: bene 
+              <lb ed="#P" n="45"/>tamen habitualiter: vt quando diligo virtutem non propter 
+              <lb ed="#P" n="46"/>aliquod aliud: adhuc est relatio habitualis. Alio mo 
+              <lb ed="#P" n="47"/>do diligo aliquid propter se: ita quod nullatenus illam 
+              di<lb ed="#P" n="48" break="no"/>lectionem refero in aliud: vt diligo deum propter se. 
+              <lb ed="#P" n="49"/>Similiter diligo aliquid propter se tanquam finem 
+              vlti<lb ed="#P" n="50" break="no"/>mum et super omnia / vel non super omnia / vel non 
+              <lb ed="#P" n="51"/>tanquam finem vltimum. primum istorum vltimorum 
+              mem<lb ed="#P" n="52" break="no"/>brorum vocatur propriissime fruitio. Unde primo de 
+              <lb ed="#P" n="53"/>doctrina christiana dicit diuus Augu. Si vero 
+              inhe<lb ed="#P" n="54" break="no"/>seris finem in ea ponens letitie tuae: tunc vere et 
+              pro<lb ed="#P" n="55" break="no"/>prie dicendus es frui. non enim omne quod diligitur 
+              <lb ed="#P" n="56"/>propter se diligitur vt summum. Nec idem est dilige 
+              <lb ed="#P" n="57"/>re aliquid propter se et vt summum bonum. primi Ethi 
+              <lb ed="#P" n="58"/>corum. vii. aliquid enim est diligibile propter se tantum: vt fe 
+              <lb ed="#P" n="59"/>licitas. secundo propter se propter aliud. vt bonum. 
+              <lb ed="#P" n="60"/>delectabile / et bonum honestum vt virtutes: aliquid  
+              <lb ed="#P" n="61"/>enim est diligendum propter aliud tantum: vt potio amara 
+              <lb ed="#P" n="62"/>propter sanitatem. Similiter vsus interdum 
+              exten<lb ed="#P" n="63" break="no"/>ditur ad operationem naturalem cuiuscunque 
+              poten<lb ed="#P" n="64" break="no"/>tiae: vt in topicis: cuius vsus bonus est ipsum quoque 
+              <lb ed="#P" n="65"/>bonum est. sicut vtimur oculis ad videndum / calamo 
+      <!--49.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 17vb -->
+               <lb ed="#P" n="66"/>ad scribendum. Capitur item interdum de 
+              assuefa<lb ed="#P" n="67" break="no"/>ctione: quo modo dicimus de absoluto Philosopho 
+              <lb ed="#P" n="68"/>iste habuit magnum vsum in ocio literario. Et sic vltra 
+              <lb ed="#P" n="69"/>priorem acceptionem addit frequentiam. Istas 
+              du<lb ed="#P" n="70" break="no"/>as acceptiones conuincimus ex vsu quem potissimum 
+              <lb ed="#P" n="71"/>consulere oportebit in vocabulorum significantiis. 
+              <lb ed="#P" n="72"/>sic tamen in questione non vtimur termino vsus. Sed in 
+              <lb ed="#P" n="73"/>proposito est actus voluntatis quo quis tendit in alid: 
+              <lb ed="#P" n="74"/>vt dilectio qua sortes diligit platonem propter deum: et 
+              <lb ed="#P" n="75"/>hoc potest esse actualiter vel habitualiter. et 
+              proportiona<lb ed="#P" n="76" break="no"/>biliter dicatur de termino frui. Non respiciendum est ad 
+              <lb ed="#P" n="77"/>impugnationem caninam <name xml:id="jm12w4-e10781-Nd1e259">Laurentii vallensis</name> de 
+              ter<lb ed="#P" n="78" break="no"/>minis his / scilicet vti et frui. quelibet enim scientia habet 
+              <lb ed="#P" n="79"/>suos terminos peculiares. theologi autem sic 
+              termi<lb ed="#P" n="80" break="no"/>nis vtuntur. Et his sequitur quod aliquis est vsus orci 
+              <lb ed="#P" n="81"/>natus: aliquis inordinatus. similiter aliqua fruitio 
+              or<lb ed="#P" n="82" break="no"/>dinata: et aliqua inordinata. Fruitio ordinata est quando 
+              <lb ed="#P" n="83"/>diligitur summum diligibile propter se. Inordinata est si al 
+              <lb ed="#P" n="84"/>quid citra deum sume diligatur. pari forma de vsu dicatur. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e278">
+               <lb ed="#P" n="85"/>⁋ Isto premisso pono conclusiones.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e283">
+      ⁋ Prima est. 
+              <lb ed="#P" n="86"/>Aliquod nolle est vsus. patet de actu quo nolo pec⁋ 
+              <lb ed="#P" n="87"/>catum propter deum: ille enim actus est vsus: vt patet per 
+              <lb ed="#P" n="88"/>tius definitionem. hoc etiam patet per <name xml:id="jm12w4-e10781-Nd1e291" ref="#Augustine">Augustinum</name> libro 
+              <lb ed="#P" n="89"/>lxxxiii. questionum questione. xxx. dicentem. perfecta ho 
+              <lb ed="#P" n="90"/>minis ratio que virtus vocatur. vtitur et sequitur. Utitur 
+              <lb ed="#P" n="91"/>etiam his a quibus se abstinet ad temperantiam. sed  
+              <lb ed="#P" n="92"/>palam est quod non vtitur eis volendo: ergo nolendo. 
+              In<lb ed="#P" n="93" break="no"/>super tale nolle est meritorium in habente gratiam: igitur 
+              <lb ed="#P" n="94"/>vsus vel fruitio. consequentia patet: quia iuxta 
+              Au<lb ed="#P" n="95" break="no"/>gustinum in loco prefato: omnis ordinatio que virtus 
+              <lb ed="#P" n="96"/>etiam vocatur est fruendis frui: et vtendis vti. De 
+              <lb ed="#P" n="97"/>nolle vitioso id idem patet per <name xml:id="jm12w4-e10781-Nd1e314" ref="#Augustine">Augustinum.</name> x. de trini 
+              <lb ed="#P" n="98"/>tate. cap. x. dicentem. Non est alia vita bominis 
+              vi<lb ed="#P" n="99" break="no"/>tiosa: atque culpabilis quam male vtens et iale fruens. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e322">
+               <lb ed="#P" n="100"/>⁋ Secundam conclusio. Non omne nolle liberum est 
+              <lb ed="#P" n="101"/>vsus. probatur. aliquod nolle est fruitio: ergo aliquod 
+              <lb ed="#P" n="102"/>nolle non est vsus. consequentia est clara apud illum contra 
+              <lb ed="#P" n="103"/>quem disputamus. vel dicamus in antecedente: 
+              ali<lb ed="#P" n="104" break="no"/>quod nolle est fruitio simplex: ergo aliquod nolle non 
+              <lb ed="#P" n="105"/>est vsus. consequentia ista tenet apud omnes. pobatur 
+              <lb ed="#P" n="106"/>antecedens. nam capio nolitionem qua nolo deum esse 
+              <lb ed="#P" n="107"/>malum: vel nolle quo nolo patrem esse filium. iste est 
+              <lb ed="#P" n="108"/>actus voluntatis: et non referibilis in aliud: ergo est 
+              <lb ed="#P" n="109"/>fruitio. tenet consequentia: quia omnis actus 
+              volun<lb ed="#P" n="110" break="no"/>tatis deliberatus est vsus vel fruitio.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e348">
+      ⁋ Tertiam con 
+              <lb ed="#P" n="111"/>clusio. Est certare de termino an omnis actus 
+              volun<lb ed="#P" n="112" break="no"/>tatis sit vsus vel fruitio: vel sit actus medius inte 
+              <lb ed="#P" n="113"/>vti et frui. hoc patebit obiectionibus aduersariorum 
+              re<lb ed="#P" n="114" break="no"/>spondendo. Videtur namque quod sicut de eodem obiecto 
+              for<lb ed="#P" n="115" break="no"/>mamus per intellectum actum simplicem et iudicium 
+              <lb ed="#P" n="116"/>complexum: ita in voluntate est actus simplex quo 
+              vo<lb ed="#P" n="117" break="no"/>luntas fertur in obiectum: alius est complexus 
+              volen<lb ed="#P" n="118" break="no"/>do ei bonum: vel nolendo illi malum. vterque autem 
+              isto<lb ed="#P" n="119" break="no"/>rum potest vocari vsus vel fruitio. Vel dicatur sic. 
+              du<lb ed="#P" n="120" break="no"/>plex est amor scilicet sensualis et intellectualis. et 
+              ite<lb ed="#P" n="121" break="no"/>rum intellectualis diuiditur in amorem naturaliter 
+              se<lb ed="#P" n="122" break="no"/>quentem simplicem apprehensionem veri boni vel 
+              appa<lb ed="#P" n="123" break="no"/>rentis: et in amorem sequentem compositionem et diuisionem 
+              <lb ed="#P" n="124"/>secundum aliquos. secundus autem amor potissimum est 
+              <lb ed="#P" n="125"/>in pleno dominio voluntatis de quo nunc loquimur. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e384">
+               <lb ed="#P" n="126"/>⁋ Contra secundam conclusionem arguitur sic. per nullum 
+              <lb ed="#P" n="127"/>nolle assumitur aliquid propter se in facultatem voluntatis:  
+              <lb ed="#P" n="128"/>igitur nullum nolle est fruitio. antecedens probatur: quia 
+              <lb ed="#P" n="129"/>nolle est quedam fuga voluntatis: voluntas vero nihil 
+              <lb ed="#P" n="130"/>refugit nisi quia aliud diligit cui ipsum repugnat: vel 
+              <lb ed="#P" n="131"/>repugnare putatur. Et per consequens quia aliud di¬ 
+      <!--50.xml-->
+      <pb ed="#P" n="18-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ligitur: illud refugitur et oditur.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e408">
+      ⁋ Confirmatur per 
+              <lb ed="#P" n="2"/>
+               <name xml:id="jm12w4-e10781-Nd1e412" ref="#Augustine">Augustinum.</name> xiiii. de ciuitate de capitibus. v. vii. viii. et 
+              <lb ed="#P" n="3"/>ix. vbi vult quod amor sit causa omnium aliarum affectionum 
+              <lb ed="#P" n="4"/>voluntatis.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e420">
+      ⁋ Ad primum nego antecedens. Et ad  
+              <lb ed="#P" n="5"/>probationem conceditur quod nolle est quedam fuga vo 
+              <lb ed="#P" n="6"/>luntatis. et nego quod voluntas nihil refugit nisi quia 
+              <lb ed="#P" n="7"/>aliud diligit cui ipsum repugnat. immo renuit aliquid  
+              <lb ed="#P" n="8"/>alicui conuenire propter se. vt nolo deum esse nullipo 
+              <lb ed="#P" n="9"/>tentem: vel inscientem: deus enim est causa: et propter 
+              ipsum<lb ed="#P" n="10" break="no"/>met nolo eum esse nullipotentem.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e436">
+      ⁋ Ad confirmatio 
+              <lb ed="#P" n="11"/>nem conceditur quod amor est causa omnium aliarum 
+              affe<lb ed="#P" n="12" break="no"/>ctionum. aliquod enim nolle est amor. nam sicut dilectio dei 
+              <lb ed="#P" n="13"/>propter se est amor dei: ita nolitio qua nolo ei malum 
+              <lb ed="#P" n="14"/>propter se est amor.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e447">
+      ⁋ Secundo arguitur. omnis 
+              frui<lb ed="#P" n="15" break="no"/>tio est amor: nullum nolle est amor. igitur. minor 
+              pa<lb ed="#P" n="16" break="no"/>tet: quia omnis amor est quoddam velle secundum illud 
+      <ref xml:id="jm12w4-e10781-Rd1e453">
+                  <name xml:id="jm12w4-e10781-Nd1e455">Augu<lb ed="#P" n="17" break="no"/>stinum</name> primo de doctrina christiana. capitulo. iii</ref>. Et vt 
+              ha<lb ed="#P" n="18" break="no"/>betur in <ref xml:id="jm12w4-e10781-Rd1e463" target="http://scta.info/resource/pll1d1c3-d1e3836" synch="4-12">litera</ref>: <quote xml:id="jm12w4-e10781-Qd1e467" source="http://scta.info/resource/addc-l1-d1e143" synch="1-11"><!-- range approximate -->frui est amore inherere alicui rei propter 
+              <lb ed="#P" n="19"/>seipsam</quote>.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e474">
+      ⁋ Respondetur negando minorem. Et ad 
+              <lb ed="#P" n="20"/>probationem nego antecedens: nec ipsum probatur ab aduersariis. 
+            </p>
+            <p xml:id="jm12w4-e10781-d1e480">
+               <lb ed="#P" n="21"/>⁋ Contra tertiam conclusionem arguitur: 
+              proban<lb ed="#P" n="22" break="no"/>do quod non sit actus medius inter vti et frui. patet: nam 
+              <lb ed="#P" n="23"/>per omne velle quis vult aliquid propter se vel alid.  
+              <lb ed="#P" n="24"/>igitur omne velle est vsus vel fruitio. consequentia 
+              pa<lb ed="#P" n="25" break="no"/>tet quia quocunque velle assumitur aliquid in 
+              faculta<lb ed="#P" n="26" break="no"/>tem voluntatis volendo vel nolendo. Si autem quis 
+              <lb ed="#P" n="27"/>vult propter aliud / vtitur: si assumit propter se / fruitur. 
+              <lb ed="#P" n="28"/>vt patet ex significationibus terminorum. antecedens cla 
+              <lb ed="#P" n="29"/>rum est cum non sit dare medium: sicut non est dare me 
+              <lb ed="#P" n="30"/>dium inter propter aliud / et non propter aliud.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e504">
+      ⁋ Se 
+              <lb ed="#P" n="31"/>cundo probatur illud auctoritate <name xml:id="jm12w4-e10781-Nd1e508" ref="#Augustine">Augustini.</name> ii. de 
+              do<lb ed="#P" n="32" break="no"/>ctrina christiana. querit enim cum scriptura dei 
+              dile<lb ed="#P" n="33" break="no"/>ctionem erga nos multum commendet: quomodo nos 
+              <lb ed="#P" n="34"/>diligit deus vtendo scilicet an fruendo: e postquam 
+              proba<lb ed="#P" n="35" break="no"/>uit quod non fruendo: infert quod vtendo. Undem 
+              concluden<lb ed="#P" n="36" break="no"/>do ait. Non igitur fruitur nobis sed vtitur. nam si neque 
+              <lb ed="#P" n="37"/>vtitur neque fruitur: non inuenio inquit queadmodum 
+              <lb ed="#P" n="38"/>diligat. hec ratio nulla esset si esset aliqua dilectio 
+              <lb ed="#P" n="39"/>media quae nec esset vsus nec fruitio. Si autem esset 
+              <lb ed="#P" n="40"/>aliqua volitio media que nec esset vsus nec fruitio: 
+              <lb ed="#P" n="41"/>esset aliqua talis dilectio: cum omnis volitio sit 
+              dile<lb ed="#P" n="42" break="no"/>ctio.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e536">
+      ⁋ Iste rationes non concludunt: et earum pon 
+              <lb ed="#P" n="43"/>dus in hoc iacet: diceretur quod requiritur relatio actua 
+              <lb ed="#P" n="44"/>lis ad vsum: et quod aliquid diligatur tanquam finis vltimus. 
+              <lb ed="#P" n="45"/>ad fruitionem: modo quando diligo virtutes non 
+              refe<lb ed="#P" n="46" break="no"/>rendo actu illas: illa dilectio non est fruitio: quia non 
+              <lb ed="#P" n="47"/>diligo virtutes tanquam summum bonum: nec eas 
+              actua<lb ed="#P" n="48" break="no"/>liter refero in deum: et tunc talis dilectio est media 
+              <lb ed="#P" n="49"/>nter vti et frui. Et quando dicit arguens: diligo vir- 
+              <lb ed="#P" n="50"/>tutes: vel ergo propter se vel propter aliud. 
+              Distin<lb ed="#P" n="51" break="no"/>tuo: vel propter se tanquam finem vltimum: et sic negatur: 
+              <lb ed="#P" n="52"/>vel propter aliud ad quas eas refero habitualiter: et sic 
+              <lb ed="#P" n="53"/>conceditur.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e562">
+      ⁋ Ad secundam probationem beati 
+              Augu<lb ed="#P" n="54" break="no"/>stini dico quod non concludit. nam primo dicetur quod ipse 
+              <lb ed="#P" n="55"/>loquitur de virtuali relatione. et sic esset certare de 
+              <lb ed="#P" n="56"/>termino. Vel sic et melius concedendo quod deus 
+              sem<lb ed="#P" n="57" break="no"/>per fruitur vel vtitur: quia refert dilectionem creatu 
+              <lb ed="#P" n="58"/>re in seipsum actu: et diligit se propter seipsum: 
+              qua<lb ed="#P" n="59" break="no"/>re non ponitur actus medius voluntatis inter vti et 
+              <lb ed="#P" n="60"/>frui in deo: secus est in nobis quia aliter referimus 
+              <lb ed="#P" n="61"/>Ppropterea <name xml:id="jm12w4-e10781-Nd1e581" ref="#Lombard">Magister</name> capitulo penultimo huius disti 
+              <lb ed="#P" n="62"/>ctionis elaborat facere aliquas auctoritates Augu 
+              <lb ed="#P" n="63"/>stini et <name xml:id="jm12w4-e10781-Nd1e589" ref="#Ambrose">Ambrosii</name> conuenire in vnum: vbi <name xml:id="jm12w4-e10781-Nd1e592" ref="#Augustine">Augustinus</name> 
+               <lb ed="#P" n="64"/>dicit non fruendum esse virtutibus. <name xml:id="jm12w4-e10781-Nd1e597" ref="#Ambrose">Ambrosius</name> autem dicit 
+              <lb ed="#P" n="65"/>oppositum: et sic licite creatur a frueremur. Sed talis 
+              <lb ed="#P" n="66"/>dilectio vocaretur apud alios actus medius. Propter 
+      <!--50.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 18rb -->
+               <lb ed="#P" n="67"/>ea mirandum est de doctis viris seriose laborantibus 
+              <lb ed="#P" n="68"/>hincinde ad tenendum et impugnandum esse actu 
+              me<lb ed="#P" n="69" break="no"/>dium inter vti et fui. Potest etiassm dici: quod sufficit rela- 
+              <lb ed="#P" n="70"/>tio virtualis ad vsum vel habitualis: non capiendo 
+              ha<lb ed="#P" n="71" break="no"/>bituale pro habitu generato ex actibus: sed vt 
+              coinci<lb ed="#P" n="72" break="no"/>dit cum virtuali. An autem relatio requiratur et sufficiat ad  
+              <lb ed="#P" n="73"/>actum esse moraliter bonum et meritorium: tractatur 
+              <lb ed="#P" n="74"/>in. xli. distinctione. ii. quia illic suam sedem retinet. Et 
+              <lb ed="#P" n="75"/>quia res est inuoluta / malo cum Sallustio de 
+              Carthagi<lb ed="#P" n="76" break="no"/>ne: de ea hic tacere quam paru de eam loqui. quia alterum. 
+              <lb ed="#P" n="77"/>est necessarium: vel materia nodosam ieiune 
+              pertran<lb ed="#P" n="78" break="no"/>sire: vel materiam impertinentem huic distinctioni 
+              <lb ed="#P" n="79"/>dic pertractare. Unum est tamen notandum quod est 
+              con<lb ed="#P" n="80" break="no"/>entio realis: an detur actus indifferens inter bonum 
+              <lb ed="#P" n="81"/>moraliter t malum: quod pendet ex loco preallegato. 
+              <lb ed="#P" n="82"/>Et sic non respondeo ad rationes doctorum hincinde 
+              <lb ed="#P" n="83"/>allegatas. vtroque autem modo dicendi secundum 
+              mate<lb ed="#P" n="84" break="no"/>riam subiectam vtar.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e651">
+      ⁋ Sed dices. actus liberalita 
+              <lb ed="#P" n="85"/>tis et temperantie sunt actus voluntatis: et nec vsus 
+              <lb ed="#P" n="86"/>nec fruitiones: dato quod teneas relationem virtualem. igi 
+              <lb ed="#P" n="87"/>tur.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e660">
+      ⁋ Ad hoc dicitur negando minorem: quia tales 
+              <lb ed="#P" n="88"/>actus vel sunt propter aliud actualiter vel habituali 
+              <lb ed="#P" n="89"/>ter: vel non propter aliud: et sic sunt vsus et fruitiones 
+              <lb ed="#P" n="90"/>Et istorum actuum habitus tales denominationes 
+              <lb ed="#P" n="91"/>cum actibus induunt. non tamen inficior quin dari 
+              <lb ed="#P" n="92"/>possit aliquod peccatum: quod nec sit vsus 
+              necfrui<lb ed="#P" n="93" break="no"/>tio. vt patet de pura omissione que non est actus volun 
+              <lb ed="#P" n="94"/>tatis: ergo nec vsus nec fruitio: a supiori ad inferius nega 
+              <lb ed="#P" n="95"/>tiue.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e681">
+      ⁋ Preterea arguitur. habeat intellectus hoc 
+              <lb ed="#P" n="96"/>iudicium siue rectum siue erroneum non refert: aliquid  
+              <lb ed="#P" n="97"/>est diligendum nec propter se nec propter aliud: vel 
+              <lb ed="#P" n="98"/>voluntas potest se conformare illi dictamini: vel non. 
+              <lb ed="#P" n="99"/>si primum: spropositum. si secundum: ergo de 
+              neces<lb ed="#P" n="100" break="no"/>sitate peccat cum contraueniat sue conscientie. vnde  
+              <lb ed="#P" n="101"/>dicitur <ref xml:id="jm12w4-e10781-Rd1e696">ad Romanos. xiiii.</ref> 
+               <quote xml:id="jm12w4-e10781-Qd1e699" source="http://scta.info/resource/rom14_23">Omne autem quod est ex 
+              <lb ed="#P" n="102"/>fide / peccatum est</quote>.
+            </p>
+            <p xml:id="jm12w4-e10781-d1e705">
+      ⁋ Respondetur. difficile est quod ho<lb ed="#P" n="103" break="no"/>mo 
+      habeat istud iudicium: sed illo dato / vel habet
+              di<lb ed="#P" n="104" break="no"/>ctamen tale ex ignorantia inuincibili vel vincibili. si 
+              <lb ed="#P" n="105"/>primum: non peccat: si nitatur abncere cum primum 
+              po<lb ed="#P" n="106" break="no"/>test. Si vero ex ignorantia vincibili: non excusatur 
+              con<lb ed="#P" n="107" break="no"/>traueniens conscientie sue pro tempore quo potest 
+              <lb ed="#P" n="108"/>illam deponere potissimum: cum sine culpa in illud  
+              <lb ed="#P" n="109"/>incidit non peccat: quod patet in continuatione 
+              na<lb ed="#P" n="110" break="no"/>turali actus dummodo faciat quod potest ad 
+              deponen<lb ed="#P" n="111" break="no"/>dum illam conscientiam 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

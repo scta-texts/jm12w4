@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prooemium</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prooemium</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e3ad4g"> <!--l1prolpro -->
+            <head xml:id="jm12w4-e3ad4g-Hd1e106">Prooemium</head>
+            <p xml:id="jm12w4-e3ad4g-d1e109">
+               <pb ed="#P" n="1-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Upientes aliquod one 
+              pe<lb ed="#P" n="2" break="no"/>nuria ac tenuitate 
+              no<lb ed="#P" n="3" break="no"/>stra cum paupercula in
+              ga<lb ed="#P" n="4" break="no"/>zophilatium domini mittere: 
+              <lb ed="#P" n="5"/>ardua scandere opus vltra 
+              <lb ed="#P" n="6"/>vires nostras agere prae 
+              <lb ed="#P" n="7"/>sumpsimus / 
+              consumma<lb ed="#P" n="8" break="no"/>tionis fiduciam laborisque 
+              <lb ed="#P" n="9"/>mercedem in Samaritano statuentes: qui prola 
+              <lb ed="#P" n="10"/>tis in curationem semiuiui duobus denariis / 
+              <lb ed="#P" n="11"/>supereroganti cuncta reddere professus est. 
+              De<lb ed="#P" n="12" break="no"/>lectat nos veritas pollicentis: sed terret im 
+              <lb ed="#P" n="13"/>mensitas laborio. Desiderium hortatur 
+              proficien<lb ed="#P" n="14" break="no"/>di: sed dehortatur infirmitas deficiendi: 
+              <lb ed="#P" n="15"/>quam vincit zelus domus dei: quo inarde, 
+              <lb ed="#P" n="16"/>scentes / fidem nostram aduersus errores 
+              carna<lb ed="#P" n="17" break="no"/>lium atque animalium homnium: dauidice turris cly 
+              <lb ed="#P" n="18"/>peis munire / vel potius munitam ostendere. 
+              <lb ed="#P" n="19"/>N proemio huius Primi 
+              sen<lb ed="#P" n="20" break="no"/>tentiarum clypeis turris daui 
+              <lb ed="#P" n="21"/>dice fidem aduersus errores 
+              <lb ed="#P" n="22"/>carnalium hominium <name xml:id="jm12w4-e3ad4g-Nd1e163" ref="#Lombard">Magister</name> mu 
+              <lb ed="#P" n="23"/>nire satagit: et vt a labe haere 
+              <lb ed="#P" n="24"/>sis syncera veritas defensetur: 
+              <lb ed="#P" n="25"/>conformiter ad illa / questiones 
+              <lb ed="#P" n="26"/>non nullas pertinentes proponam. 
+              <lb ed="#P" n="27"/>Et quia inter sapientes vulga- 
+              <lb ed="#P" n="28"/>ris est quaestio haud captu 
+              faci<lb ed="#P" n="29" break="no"/>cilis de modo procreationis fidei: prima quaestio erit de mo 
+              <lb ed="#P" n="30"/>do generationis fidei acquirende. Et quia in vna 
+              dubita<lb ed="#P" n="31" break="no"/>tiuncusam illius quaestionois de obiecto fidei mentionem facimus 
+              <lb ed="#P" n="32"/>quod complexum putamus. Secundo / an ex pluribus partialibus 
+              <lb ed="#P" n="33"/>notitiis mentalis enunciatio confletur / rogabimus. Tertio 
+              <lb ed="#P" n="34"/>an in facultate viatoris per legem communes situm sit: notitiam evi 
+              <lb ed="#P" n="35"/>dentem de veritatibus theologicis acquirere / petemus. 
+              <lb ed="#P" n="36"/>Quarto / an per discursum theologicum quispiam scientiam 
+              <lb ed="#P" n="37"/>adipisci valeat. Quinto / an fides / opinio: et scientia sese 
+              <lb ed="#P" n="38"/>respectu eiusdem obiecti complexi in eodem subiecto primo 
+              <lb ed="#P" n="39"/>compatiantur: vel an suapte natura inter se aduersentur. 
+              <lb ed="#P" n="40"/>Sexto / an theologia sit scientia speculatiua / an practi 
+              <lb ed="#P" n="41"/>ca. Septimo / de obiecto scientie: et incidentaliter propter 
+              <lb ed="#P" n="42"/>connexionem materie / de obiecto fidei vltra illa qua in pri 
+              <lb ed="#P" n="43"/>ma quaestione tanguntur / non nihil breuissime tangemus. In 
+              <lb ed="#P" n="44"/>hoc autem numero septenario inclusiue / proemialiter 
+              <lb ed="#P" n="45"/>descere instituimus.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

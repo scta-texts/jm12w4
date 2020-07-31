@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="33-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e21845"> <!--l1d3q2 -->
+            <head xml:id="jm12w4-e21845-Hd1e106">Quaestio 2</head>
+            <head xml:id="jm12w4-e21845-Hd1e109" type="question-title">
+      An notitia abstractiva terminatur 
+      ad idem obiectum ad quod terminabatur intuitiva
+    </head>
+            <p xml:id="jm12w4-e21845-d1e112">
+               <lb ed="#P" n="83"/>⁋ <quote xml:id="jm12w4-e21845-Qd1e116" source="http://scta.info/resource/pll1d3c1-d1e3519" synch="1-13">Nam sicut ait <name xml:id="jm12w4-e21845-Nd1e118" ref="#Ambrose">Ambrosius</name>: Ut deus qui 
+              <lb ed="#P" n="84"/>natura inuisibilis est: etiam a vilibilibus</quote> etc. 
+            </p>
+            <p xml:id="jm12w4-e21845-d1e125">
+               <lb ed="#P" n="85"/>⁋ Distinctionis tertie questio secunda. 
+              <lb ed="#P" n="86"/>Ecundo quero circa hanc distinctionem 
+              <lb ed="#P" n="87"/>An notitia abstractiua terminatur ad  
+              <lb ed="#P" n="88"/>idem obiectum ad quod terminabatur 
+              <lb ed="#P" n="89"/>intuitiva.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e139">
+      ⁋ Circa hanc questionem due 
+              <lb ed="#P" n="90"/>sunt opiniones. vna negatiue 
+              respon<lb ed="#P" n="91" break="no"/>dens: tenes quod notitia intuitiua immediate 
+              termi<lb ed="#P" n="92" break="no"/>natur ad obiectum: abstractiua autem habet duo 
+              <lb ed="#P" n="93"/>obiecta. vnum est species respectu cuius est 
+              noti<lb ed="#P" n="94" break="no"/>tia intuitiua. alterum est obiectum prius intuitiue 
+              <lb ed="#P" n="95"/>cognitum ad quod secundario terminatur: 
+              respe<lb ed="#P" n="96" break="no"/>ctu cuius dicitur notitia abstractiua. Et licet spe 
+              <lb ed="#P" n="97"/>cies illa per illam cogitationem cognoscatur: non 
+              <lb ed="#P" n="98"/>tamen experimur: nec euidenter cognoscimus 
+              <lb ed="#P" n="99"/>virtute illius cognitionis quod illa sit species talis rei 
+              <lb ed="#P" n="100"/>doc est rem que est species experimur: non tamen 
+              <lb ed="#P" n="101"/>experimur illam esse speciem. sed hoc solum discur 
+              <lb ed="#P" n="102"/>siue et pobabiliter concludimus. sicut in simili: ima 
+              <lb ed="#P" n="103"/>ginem in speculo intuitiue videmus: et tamen vir 
+              <lb ed="#P" n="104"/>tute huius visionis non experimur: nec euidenter 
+              <lb ed="#P" n="105"/>cognoscimus que res sit: et vbi sit. sicut enim cattus 
+              <lb ed="#P" n="106"/>in simulaero catti ibi decipitur: sic nos fallimur:  
+              <lb ed="#P" n="107"/>licet altius iudicemus.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e181">
+      ⁋ Contra istam opinionem 
+              <lb ed="#P" n="108"/>arguitur sic. per cognitionem abstractiuam 
+              natu<lb ed="#P" n="109" break="no"/>raliter consequentem intuitiuam cognoscitur 
+              dire<lb ed="#P" n="110" break="no"/>cte: et primo illud quod primo fuit cognitum 
+              intui<lb ed="#P" n="111" break="no"/>tiue. Sed illud non fuit species manens in anima. 
+              <lb ed="#P" n="112"/>ergo. maior probatur. quia nullius rei naturaliter 
+              <lb ed="#P" n="113"/>habemus propriam simplicem abstractiuam: nisi 
+              peri<lb ed="#P" n="114" break="no"/>us fuerit cognitum intuitiue. quia experientia docet: 
+              <lb ed="#P" n="115"/>quod cogitatio mea fertur indifferenter super ea que 
+              <lb ed="#P" n="116"/>vidi: vel audiui: quia cogito directe de re tali et tanta. 
+            </p>
+            <p xml:id="jm12w4-e21845-d1e203">
+               <lb ed="#P" n="117"/>⁋ Et confirmatur per concurrentem grego. sic 
+              ar<lb ed="#P" n="118" break="no"/>guentem. delectio / odium / vel desiderium fertur 
+              <lb ed="#P" n="119"/>ad rem ad extra: et non ad speciem rei diligibilis. e 
+              <lb ed="#P" n="120"/>go notitia fertur ad rem ad extra. tenet consequem 
+              <lb ed="#P" n="121"/>tia. a conueniente similitudine. Licet grego. in se 
+              <lb ed="#P" n="122"/>tima distinctione secundi consequentiam neget. 
+              <lb ed="#P" n="123"/>bissimile non dat. nec dare potest nisi voluntarium. 
+            </p>
+            <p xml:id="jm12w4-e21845-d1e221">
+               <lb ed="#P" n="124"/>⁋ Preterea frustra ponitur quod per eandem 
+              noti<lb ed="#P" n="125" break="no"/>tiam cognoscamus duo obiecta: vnum intuitiue: 
+              <lb ed="#P" n="126"/>t aliud abstractiue cum omnia possint saluari 
+              co<lb ed="#P" n="127" break="no"/>gnoscendo solum per illam notitiam obiectum ad  
+              <lb ed="#P" n="128"/>extra.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e234">
+      ⁋ Rursus vel species terminatur ad rem ad  
+              <lb ed="#P" n="129"/>extra immediate vel non. secundum non est dicen 
+      <!--81.xml-->
+      <pb ed="#P" n="33-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dum per te Siprimum. ergo eodem modo notitia 
+              <lb ed="#P" n="2"/>abstractiua debet immediate terminari ad 
+              obie<lb ed="#P" n="3" break="no"/>ctum ad extra. Et sic supuacanee ponis notitiam actu 
+              <lb ed="#P" n="4"/>alem terminariad speciem immediate: et mediato 
+              <lb ed="#P" n="5"/>ad obiectum ad extra.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e256">
+      ⁋ Alia est opinio 
+              affirma<lb ed="#P" n="6" break="no"/>tiue ad titulum questionis respondens: quam 
+              tene<lb ed="#P" n="7" break="no"/>re volumus.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e264">
+      ⁋ Sed contra istam opinionem 
+              diffu<lb ed="#P" n="8" break="no"/>se insistit grego. ponit Eregorius aliquas conclu 
+              <lb ed="#P" n="9"/>siones quas reputo veras: licet in probationesopi 
+              <lb ed="#P" n="10"/>nione mea) falsa assumat. et assumo solum aliqua 
+              <lb ed="#P" n="11"/>que conclusioni posite repugnare videntur. Et pri 
+              <lb ed="#P" n="12"/>mo supponit vnum quod quilibet experiri potest in se 
+              <lb ed="#P" n="13"/>ipso: videlicet quod quandocumque aliquis cogitat de ali 
+              <lb ed="#P" n="14"/>qua re sensibili non tunc presente: quam alias 
+              vi<lb ed="#P" n="15" break="no"/>dit. verbi gratia de leone ita sue cognitioni imme 
+              <lb ed="#P" n="16"/>diate obiicitur aliquid quod est leo vel simile 
+              leo<lb ed="#P" n="17" break="no"/>ni. sicut cum quis intuetur oculis colorem in parie 
+              <lb ed="#P" n="18"/>te immediate sue visioni obiicitur color ille. Sic 
+              er<lb ed="#P" n="19" break="no"/>go pro certo semper experior dicit Ioannem 
+              sco<lb ed="#P" n="20" break="no"/>tum hanc suppositionem negasse: sed ei non credit 
+              <lb ed="#P" n="21"/>supposito quod sit homo vniuoce secum. verbum quidem 
+              <lb ed="#P" n="22"/>satis leuiter dictum. supponendo alium hominem 
+              <lb ed="#P" n="23"/>vniuoce secum. sed illam suppositionem admitto. 
+              <lb ed="#P" n="24"/>quia sic ego experior. Et credo alium voluisse 
+              di<lb ed="#P" n="25" break="no"/>cere quod cogitatio non terminatur ad speciem: quia 
+              <lb ed="#P" n="26"/>responsiones illuc tendunt.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e308">
+      ⁋ Arguit ratione Gere 
+              <lb ed="#P" n="27"/>go. sic. quia nulla ratio est propter quam videns 
+              re<lb ed="#P" n="28" break="no"/>aliquam immediate per sensum exteriorem nouit 
+              <lb ed="#P" n="29"/>illam esse: et alias veritates contingentes de ipsa 
+              <lb ed="#P" n="30"/>nisi quia illam in seipsa immediate cognoscit. ita 
+              <lb ed="#P" n="31"/>igitur esset in proposito: si cogitatio ipsa interior ad  
+              <lb ed="#P" n="32"/>rem extra immediate terminaretur.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e324">
+      ⁋ Ad hoc re 
+              <lb ed="#P" n="33"/>spondebat eius concurrens dicens. quod alia ratio erat 
+              <lb ed="#P" n="34"/>scilicet: quia visio sensus exterioris est notitia intuiti 
+              <lb ed="#P" n="35"/>ua: cuius virtute tales veritates contingentes co 
+              <lb ed="#P" n="36"/>gnosci possunt, cogitatio vero rei absentis est 
+              no<lb ed="#P" n="37" break="no"/>titia abstractiua per quam non possunt tales verita 
+              <lb ed="#P" n="38"/>tes cognosci.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e340">
+      ⁋ Sed contra hoc arguit ipse que 
+              <lb ed="#P" n="39"/>rendo quam notitiam et qua ratione vocabat intuiti 
+              <lb ed="#P" n="40"/>uam alicuius rei: aut enim eam que immediate 
+              ter<lb ed="#P" n="41" break="no"/>minatur obiectiue ad illam rem: et ideo dicis eam 
+              <lb ed="#P" n="42"/>intuitiuam quia sic immediate terminatur. Et tunc 
+              <lb ed="#P" n="43"/>sequitur quod si cogitatio interior immediate 
+              termi<lb ed="#P" n="44" break="no"/>natur ad rem ad extra: ipsa est notitia intuitiua. Et 
+              <lb ed="#P" n="45"/>vlterius sequitur illatum. Vel dicis intuitiuam: 
+              <lb ed="#P" n="46"/>quia (vt aliqui dicunt) potest per illam sciri rem esse si est: et non 
+              <lb ed="#P" n="47"/>esse si non est. et alias veritates contingentes de illa 
+              <lb ed="#P" n="48"/>Et cum dicitur hoc non potest sciri per 
+              huiusmo<lb ed="#P" n="49" break="no"/>di notitiam: quia non est ituitiua et per illam potest quia 
+              <lb ed="#P" n="50"/>est intuitiua: non est aliud quam dicere per illam non 
+              <lb ed="#P" n="51"/>potest: et illam potest: quia potest per illam. et est sol 
+              <lb ed="#P" n="52"/>uere questionem per seipsam. Similiter poteret ali 
+              <lb ed="#P" n="53"/>us dicere per cogitationem potest illud cognosci: 
+              <lb ed="#P" n="54"/>et non per visionem. eo quod illam dicet intuitiuam: 
+              <lb ed="#P" n="55"/>et visionem exteriorem abstractiuam.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e379">
+      ⁋ 
+              Respon<lb ed="#P" n="56" break="no"/>deo. negando quod responsio data non valeat. Et quam 
+              <lb ed="#P" n="57"/>do arguit inquisitiue. do secundum membrum quia 
+              <lb ed="#P" n="58"/>naturaliter ratione notitie intuitiue formamus iu 
+              <lb ed="#P" n="59"/>dicium de existentia rei: et de praedicatis 
+              accidenta<lb ed="#P" n="60" break="no"/>libus eius. non quod illa notitia causat iudicium de non 
+              <lb ed="#P" n="61"/>existentia rei: licet per desitionem notitie 
+              intuiti<lb ed="#P" n="62" break="no"/>ue et eius iudicii discursiue cognoscimus rem non 
+              <lb ed="#P" n="63"/>esse praesentem: sicut per defectum luminis 
+              intelle<lb ed="#P" n="64" break="no"/>ctis cognoscit tenebras. Et cum dicit hoc est soli 
+              <lb ed="#P" n="65"/>uere questionem per seipsam: quia alius diceret per noti 
+      <!--81.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 33vb -->
+               <lb ed="#P" n="66"/>tiam abstractiuam generatur iudicium quo 
+              iudi<lb ed="#P" n="67" break="no"/>camus praedicata accidentalia de re: et non per in 
+              <lb ed="#P" n="68"/>tuitiuam.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e416">
+      ⁋ Istud nihil est dictu. palam enim est nos 
+              <lb ed="#P" n="69"/>habere duas notitias. et virtute vnius multa pos 
+              <lb ed="#P" n="70"/>sumus iudicare quae non possumus iudicare virtute 
+              <lb ed="#P" n="71"/>alterius. priorem intuitiuam vocamus et posterio 
+              <lb ed="#P" n="72"/>rem abstractiuam. abstractiua terminatur 
+              imme<lb ed="#P" n="73" break="no"/>diate ad rem ad extra. Et tamen vertute illius non pos 
+              <lb ed="#P" n="74"/>sumus iudicare de paedicatis accidentalibus 
+              illi<lb ed="#P" n="75" break="no"/>us rei.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e435">
+      ⁋ Secundo arguit qnerendo quare per 
+              il<lb ed="#P" n="76" break="no"/>lam quam dicis intuit iuam possunt tales veritates 
+              <lb ed="#P" n="77"/>cognosci. nec videtur quod ratio aliqua reddi potest 
+              <lb ed="#P" n="78"/>preter hanc scilicet quod immediate obiectiue terminatur 
+              <lb ed="#P" n="79"/>ad rem ipsam: igitur similiter dicendum erit de co 
+              <lb ed="#P" n="80"/>gitatione: si immediate ad remad extra terminetur. 
+              <lb ed="#P" n="81"/>si eam postmodum velles vocare intuitiuam siue 
+              <lb ed="#P" n="82"/>abstractiuam: quia de vocabulis non debet esse 
+              cu<lb ed="#P" n="83" break="no"/>ra. Relinquitur ergo quod illud ad quod cogitatio ta 
+              <lb ed="#P" n="84"/>lis immediate obiectiue terminetur non est res ali 
+              <lb ed="#P" n="85"/>qua ad extra.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e459">
+      ⁋ Ad secundum dico: quod causa est quia 
+              <lb ed="#P" n="86"/>ipsa est talis nature. Quero ab eo quare ignis 
+              ca<lb ed="#P" n="87" break="no"/>lefacit. experimur quod in praesentia obiecti habemus 
+              <lb ed="#P" n="88"/>vnam notitiam que in nobis causat iudicium 
+              eui<lb ed="#P" n="89" break="no"/>dens quod res praesens est talis coloris / talis figure. 
+              <lb ed="#P" n="90"/>secus est de notitia quam habemus in absentia rei. 
+              <lb ed="#P" n="91"/>quocunque nomine vocetur non refert. sed in modo 
+              <lb ed="#P" n="92"/>loquendi vna vocatur intuitiua: et altera 
+              abstracti<lb ed="#P" n="93" break="no"/>ua. Et potest dici quod iudicium complexum sequans illam 
+              <lb ed="#P" n="94"/>notitiam intuitiuam etiam vocetur notitia intuitiua 
+            </p>
+            <p xml:id="jm12w4-e21845-d1e481">
+               <lb ed="#P" n="95"/>⁋ Ex isto pataet quod non est propterea quia terminatur 
+              <lb ed="#P" n="96"/>ad obiectum ad extra: cum vtraque eque immediate ad  
+              <lb ed="#P" n="97"/>obiectum ad exrra terminetur.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e490">
+      ⁋ Secundo 
+              proba<lb ed="#P" n="98" break="no"/>re intendit idem antecedens: supponendo duo. vnum est quod quando 
+              <lb ed="#P" n="99"/>cunque aliquis sic cogitat de sensibili non praesenti 
+              <lb ed="#P" n="100"/>idipsum obiicitur immediate eius cogitationi: si 
+              <lb ed="#P" n="101"/>aliquod tale sensibile sit actu extra animam quod  
+              <lb ed="#P" n="102"/>obiiceretur: si nullum tale erit penitus. et hoc est cla 
+              <lb ed="#P" n="103"/>rum. ei enim qui vidit rosam si cogitat de rosa 
+              posi<lb ed="#P" n="104" break="no"/>to quod nulla esset sibi presens: sint tamen multe in mum 
+              <lb ed="#P" n="105"/>do: non aliud obiicitur quam si nulla tunc esset. alias 
+              <lb ed="#P" n="106"/>posset vi cogitationis cognoscere vtrum aliqua esset 
+              <lb ed="#P" n="107"/>in mundo an non.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e514">
+      ⁋ Item cogitando in estate quando 
+              mul<lb ed="#P" n="108" break="no"/>te sunt: et cogitando in hyeme quando nulla est: ex 
+              <lb ed="#P" n="109"/>periretur vel expiri posset diuersitatem obiectorum 
+              <lb ed="#P" n="110"/>immediate terminantium suas cogitationes: quod 
+              <lb ed="#P" n="111"/>est contra omnem experientiam.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e525">
+      ⁋ Secundo suppo 
+              <lb ed="#P" n="112"/>nit. quod quandocunque aliquis cogitat de sensibili non 
+              <lb ed="#P" n="113"/>presenti: illu quod sibi obiicitur: immediate est aliqua 
+              <lb ed="#P" n="114"/>entitas vel entitates actu existens vel existentes in rerum 
+              <lb ed="#P" n="115"/>natura siue in anima subiectiue: siue extra animam. 
+              <lb ed="#P" n="116"/>hoc patet. quia ad non ens nulla simplex notitia no 
+              <lb ed="#P" n="117"/>stra naturaliter habita mediate terminatur.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e542">
+      ⁋ 
+              Pri<lb ed="#P" n="118" break="no"/>mam eius suppositionem admittimus: mirantes 
+              <lb ed="#P" n="119"/>quomodo secundam suppositionem supponat: cum 
+              <lb ed="#P" n="120"/>circa veritatem eius certetur ab aduersariis: et sine 
+              <lb ed="#P" n="121"/>conflictu petit castra quae oppositi protegere satagunt. 
+              <lb ed="#P" n="122"/>illam negamus: sed nititur illam probare. sed ad 
+              pro<lb ed="#P" n="123" break="no"/>bationem eius non respondemus. quia constat ex dicti 
+              <lb ed="#P" n="124"/>eam esse inualidam.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e560">
+      ⁋ Confirmat secundam super 
+              <lb ed="#P" n="125"/>positionem auctoritate <name xml:id="jm12w4-e21845-Nd1e564" ref="#Augustine">Aug.</name> xi. confessionum 
+              capi<lb ed="#P" n="126" break="no"/>xviii et xix. vbi narrat quod preteritum non possit nar 
+              <lb ed="#P" n="127"/>rari secundum se naturaliter. neque etiam futura 
+              preco<lb ed="#P" n="128" break="no"/>gnosci vel praedici. nisi ex cogitatione aliquorum 
+              <lb ed="#P" n="129"/>presentium. Fateor quod notitia habitualis vel 
+              spe<lb ed="#P" n="130" break="no"/>cies est causa quare cognoscopraeterita: sed nego quod 
+      <!--82.xml-->
+      <pb ed="#P" n="34-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>notitia actualis ad illam speciem terminetur.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e587">
+      ⁋ Item 
+              <lb ed="#P" n="2"/>per praesentia aliqua prognosticamus.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e592">
+      ⁋ Tertio 
+              ar<lb ed="#P" n="3" break="no"/>uitur. contingit alicui cogitanti rem aliquam quam numquam 
+              <lb ed="#P" n="4"/>sensit per sensum exteriorem similem obiici: sicut 
+              alte<lb ed="#P" n="5" break="no"/>ri qui illam vidit. Videlicet aliquis qui vidit 
+              elepham<lb ed="#P" n="6" break="no"/>tem narrat alicni qui nunquam vidit: qualis figure siue 
+              <lb ed="#P" n="7"/>dispositionis membrorum sit: audienti occurrit simile 
+              <lb ed="#P" n="8"/>eius quod occurrit narranti presertim si ille distincte 
+              <lb ed="#P" n="9"/>larrat et perfecte: et audiens bene viget potentiis in 
+              <lb ed="#P" n="10"/>terioribus. et constat quod audienti non obiicitur verus 
+              <lb ed="#P" n="11"/>elephas extra animam: quia non vniuersalis: cum non 
+              <lb ed="#P" n="12"/>sit dare talem. nec quelibet vel omnis singularis. hoc 
+              <lb ed="#P" n="13"/>est clarum. Nec est ratio quare vnus singularis 
+              po<lb ed="#P" n="14" break="no"/>tius quam alius: cum ipse nunquam aliquem viderit: igitur 
+              <lb ed="#P" n="15"/>nullus verus elephas obiicitur immediate tali 
+              au<lb ed="#P" n="16" break="no"/>dienti. igitur nec narranti.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e625">
+      ⁋ Istud argumentum 
+              ter<lb ed="#P" n="17" break="no"/>tium deducit prolixe contra duos secum 
+              concurren<lb ed="#P" n="18" break="no"/>tes: quorum solutionibus pretermissis deueniendum est 
+              <lb ed="#P" n="19"/>ad punctum argumenti: quia videtur potissimum in hac 
+              <lb ed="#P" n="20"/>parte. In primis reduco argumentum contra arguen 
+              <lb ed="#P" n="21"/>tem. quia secundum eum notitia abstractiua terminatur im 
+              <lb ed="#P" n="22"/>nediate ad species. et mediate ad rem ad extra: 
+              ta<lb ed="#P" n="23" break="no"/>men quero ad quas species ista notitia terminatur: 
+              <lb ed="#P" n="24"/>non ad species a elephantis: quia talis non est 
+              sen<lb ed="#P" n="25" break="no"/>satus. et per consequens nulla simplex et 
+              singula<lb ed="#P" n="26" break="no"/>ris notitia habetur a. elephantis. Et eodem modo 
+              re<lb ed="#P" n="27" break="no"/>spectu cuiuslibet alterius elephantis.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e651">
+      ⁋ Rursus. 
+              no<lb ed="#P" n="28" break="no"/>titia abstractiua terminatur mediate ad obiectum per 
+              <lb ed="#P" n="29"/>eum. et obiectum mediatum est elephas quero ad quem 
+              <lb ed="#P" n="30"/>elephantem terminatur. Et sic hoc videtur equalis 
+              <lb ed="#P" n="31"/>ponderis contra factorem sicut contra aduersarios 
+              <lb ed="#P" n="32"/>ergo siue soluatur siue non nemo debet duci hoc 
+              ar<lb ed="#P" n="33" break="no"/>gumento ad opinandum cum eo.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e668">
+      ⁋ Et dico ad 
+              ar<lb ed="#P" n="34" break="no"/>gumentum duo. Primum est. quacuque specie 
+              reper<lb ed="#P" n="35" break="no"/>ta ad quam illa cogitatio terminatur illa est species 
+              <lb ed="#P" n="36"/>alicuius obiecti: vel aliquorum. cogitatio autem 
+              termi<lb ed="#P" n="37" break="no"/>natur ad illud obiectum: vel illa obiecta cuius vel quo 
+              <lb ed="#P" n="38"/>rum species: sed nullatenus ad species.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e681">
+      ⁋ 
+              Secun<lb ed="#P" n="39" break="no"/>do dico. quod nullam notitiam habet terminatam ad ali 
+              <lb ed="#P" n="40"/>quem elephantem: sed habet notitiam terminatam ad 
+              <lb ed="#P" n="41"/>res sensatas. narratur mihi elephantus est animal 
+              <lb ed="#P" n="42"/>nagno a curuo naso / albi coloris / ferens castellum 
+              <lb ed="#P" n="43"/>in dorso / ante ea vidi nasos: et equos albos: et castel 
+              <lb ed="#P" n="44"/>la: formo notitias illarum rerum alias a me sensatarum. 
+              <lb ed="#P" n="45"/>cogito de equo albo a me viso: et de naso lapideo quem 
+              <lb ed="#P" n="46"/>vidi depictum. Et ita de castro. intellectus autem 
+              po<lb ed="#P" n="47" break="no"/>test vnire illas notitias simplices: et eas applicare 
+              <lb ed="#P" n="48"/>mutuo credens quod ille notitie representent 
+              elephan<lb ed="#P" n="49" break="no"/>tem que nullum representant. forte credit se 
+              habe<lb ed="#P" n="50" break="no"/>re conceptum elephantis: sicut homo habens conce 
+              <lb ed="#P" n="51"/>ptum hominis et asini vnit illos conceptus modo 
+              in<lb ed="#P" n="52" break="no"/>compossibili. vt patet in somniante. et hoc facere 
+              po<lb ed="#P" n="53" break="no"/>test in vigilia. Interdum quis potest vnire conceptus 
+              <lb ed="#P" n="54"/>rerum sensatarum mutuo: quod enti possibili conueniant. 
+              <lb ed="#P" n="55"/>ego iam de facto nunquam vidi vrbem nomine sanctum 
+              an<lb ed="#P" n="56" break="no"/>dream: per eos qui mihi referunt de arce / cenobio 
+              <lb ed="#P" n="57"/>oceano / et collegio / et reliquis / fingo cogitatum meum 
+              <lb ed="#P" n="58"/>super res alias a me sensatas. que cogitatio ad res 
+              <lb ed="#P" n="59"/>illas ante visas terminatur et ad illaru rerum congo 
+              <lb ed="#P" n="60"/>riem: que possunt simul colligi ad vbis compositionem. 
+              <lb ed="#P" n="61"/>et sic est compositio rerum possibilium. An impossibile  
+              <lb ed="#P" n="62"/>sit imaginabile vel intelligibile non est presentis 
+              spe<lb ed="#P" n="63" break="no"/>culationis. Et hoc patet per <name xml:id="jm12w4-e21845-Nd1e737" ref="#Anselm">Anselmum</name> monologion 
+              <lb ed="#P" n="64"/>capitulo. ii. vbi ait. Faber paius concepit mente quod 
+              <lb ed="#P" n="65"/>postea secundum mentis conceptionem opere perficit et  
+              <lb ed="#P" n="66"/>sequitur. faber penitus non potest mente aliquid cor¬ 
+      <!--82.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 34rb -->
+               <lb ed="#P" n="67"/>poreum imaginando concipere: nisi id quod ad totum 
+              <lb ed="#P" n="68"/>simul: aut partes ex aliquibus rebus aliquo modo 
+              di<lb ed="#P" n="69" break="no"/>dicerit. Et subdit. quamquam enim homo tale aliquod 
+              ani<lb ed="#P" n="70" break="no"/>nal posset cogitando: siue pingendo quale nunquam scit 
+              <lb ed="#P" n="71"/>confingere. nequaquam tamen hoc facere valet: nisi 
+              con<lb ed="#P" n="72" break="no"/>ponendo in eo partes: quas ex rebus alias cognitis 
+              <lb ed="#P" n="73"/>in memoriam attraxit. patet etiam per <name xml:id="jm12w4-e21845-Nd1e768" ref="#Augustine">Augustinum</name> viii. 
+              <lb ed="#P" n="74"/>de trinitate cap. iiii. vbi ait. Neque enim in fide nostra 
+              <lb ed="#P" n="75"/>quam a domino nostro Iesu christo habemus: illud 
+              <lb ed="#P" n="76"/>salubre est quod sibi animus fingit: longefortasse ali 
+              <lb ed="#P" n="77"/>ter quam res se habet: secundum illud quod secundum 
+              spe<lb ed="#P" n="78" break="no"/>ciem de homine cogitamus. habemus enim quasi re 
+              <lb ed="#P" n="79"/>gulariter infixam nature humane notitiam: secundum 
+              <lb ed="#P" n="80"/>quam quicquam tale aspicimus: statim hominem esse cogno 
+              <lb ed="#P" n="81"/>icimus: aut hominis formam. Ecce quod propter 
+              noti<lb ed="#P" n="82" break="no"/>tiam habitualem in nobis de homine aspicientes fictam 
+              <lb ed="#P" n="83"/>ormam hominis cognoscimus illam esse formam eius 
+              <lb ed="#P" n="84"/>Et sic per illam de homine cogitamus. notitiam 
+              au<lb ed="#P" n="85" break="no"/>tem illam per quam cognoscimus. hoc non nisi 
+              sentien<lb ed="#P" n="86" break="no"/>do aliquem: vel aliquos homines extra in se primo 
+              <lb ed="#P" n="87"/>potuimus habere. patet per eandem rationem.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e802">
+      ⁋ Sed 
+              <lb ed="#P" n="88"/>contra. dices secundum Auicennam. vi. naturalium parte pri 
+              <lb ed="#P" n="89"/>ma. cap. vltimo. vis existimatiua apprehendit 
+              inten<lb ed="#P" n="90" break="no"/>tiones non sensatas in singulis sensibus. sicut vis que 
+              <lb ed="#P" n="91"/>est in oue diiudicans quod ab hoc lupo est fugiendum. et 
+              <lb ed="#P" n="92"/>quod huius agni est miserendum. Et idem dicit parte 
+              quar<lb ed="#P" n="93" break="no"/>ta cap. primo: vbi ait. quod ouis diiudicat de inimicitia 
+              <lb ed="#P" n="94"/>lupi per intentionem quam apprehendit de inimicitia 
+              <lb ed="#P" n="95"/>eius. Et tamen inimicitiam non sensit sensu 
+              exterio<lb ed="#P" n="96" break="no"/>ri.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e824">
+      ⁋ Sed dices: inimicitia est res insensibilis: et non 
+              <lb ed="#P" n="97"/>est inconueniens quod vnum insensibile representet aliud 
+              <lb ed="#P" n="98"/>insensibile. secus est de sensibilibus. Sic dicunt aliqu 
+              <lb ed="#P" n="99"/>doctores. Sed hoc non valet: quia naturaliter 
+              insi<lb ed="#P" n="100" break="no"/>tum est oui fugere a lupo: intuitiue enim apprehendit s 
+              <lb ed="#P" n="101"/>dellem et colorem lupitanquam disconuenientem. propterea li 
+              <lb ed="#P" n="102"/>uib ea aufugit. et sic faceret dummodo pellis esset re 
+              <lb ed="#P" n="103"/>pleta straminibus instar lupi. Nec sequitur: hoc 
+              ap<lb ed="#P" n="104" break="no"/>prehenditur disconueniens oui: ergo alteri lupo. 
+              si<lb ed="#P" n="105" break="no"/>cut cardo est disconueniens homini: conueniens tamen 
+              <lb ed="#P" n="106"/>asino. Et si vna res sensibilis sensata produceret no 
+              <lb ed="#P" n="107"/>titiam rei insensibilis: a fortiori produceret notitiam 
+              <lb ed="#P" n="108"/>rei sensibilis secum magis conuenientis.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e853">
+      ⁋ Sed for 
+              <lb ed="#P" n="109"/>te dices: albedo producit notitiam viriditatis: ergo vna 
+              <lb ed="#P" n="110"/>res notitiam propriam alterius rei. consequentia claret. 
+              <lb ed="#P" n="111"/>probatur assumptum. apparet vnus color in iride qui 
+              <lb ed="#P" n="112"/>non est. similiter in collo columbe: vnus stans ex vna 
+              <lb ed="#P" n="113"/>parte iudicat collum columle taliter colorari: alius 
+              <lb ed="#P" n="114"/>in alio situ iudicat aliter. vnus habet iudicum 
+              comple<lb ed="#P" n="115" break="no"/>cum quod hic color est viridis: potius viriditas. et alius. 
+              <lb ed="#P" n="116"/>hic color est niger: potius nigredo. et ista iudicia 
+              con<lb ed="#P" n="117" break="no"/>lexa non possunt causari nisi a nigredine et 
+              viridita<lb ed="#P" n="118" break="no"/>te: et alter illorum colorum ibi non est. quia si notitie 
+              <lb ed="#P" n="119"/>intuitiue simplices in istis duobus fierent eiusdem 
+              na<lb ed="#P" n="120" break="no"/>ture producerentur iudicia complexa eiusdem ratio 
+              <lb ed="#P" n="121"/>nis. quia secundum <name xml:id="jm12w4-e21845-Nd1e883" ref="#Aristotle">Aristotelem</name>. viii. Metaphysice. si 
+              effi<lb ed="#P" n="122" break="no"/>ciens et materia sit eadem: effectus erit idem.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e889">
+      ⁋ Sed  
+              <lb ed="#P" n="123"/>dices quod a causis naturalibus eiusdem rationis 
+              pro<lb ed="#P" n="124" break="no"/>cedunt nunc effectus alterius rationis quam paius: vel 
+              <lb ed="#P" n="125"/>propter maiorem et minorem excessum in causa acti 
+              <lb ed="#P" n="126"/>ua. vel in quibusdam dispositionibus passi vel medii. 
+              <lb ed="#P" n="127"/>et specialiter circa operationes vitales animatorum. 
+              <lb ed="#P" n="128"/>vt medicina temperata sanat: que nimis intensa 
+              de<lb ed="#P" n="129" break="no"/>trueret. Similiter sensibile proportionatum et in 
+              con<lb ed="#P" n="130" break="no"/>uenienti distantia positum immutat sensum immuta 
+              <lb ed="#P" n="131"/>tione delectante: et tamen positum supra sensum non 
+              <lb ed="#P" n="132"/>immutat. nimis etiam intensum vel excellens sensi¬ 
+      <!--83.xml-->
+      <pb ed="#P" n="34-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bile corrumpit vel ledit sensum. secundum 
+              Aristote<lb ed="#P" n="2" break="no"/>lem. ii. et. iii. de anima. quia vt dicit ibi: sensus 
+              consi<lb ed="#P" n="3" break="no"/>stit in determinata complexione et proportione 
+              qua<lb ed="#P" n="4" break="no"/>rundam qualitatum: sicut harmonia in debita propor 
+              <lb ed="#P" n="5"/>tione vocum. ideo sicut modica variatio destruit 
+              me<lb ed="#P" n="6" break="no"/>lodiam: ita in proposito. In actionibus aliis ab 
+              ani<lb ed="#P" n="7" break="no"/>malibus simile reperitur. sol enim in tanta distantia 
+              <lb ed="#P" n="8"/>et tanto calore generat vermem ex tali materia: et 
+              <lb ed="#P" n="9"/>in alia distantia et oppositione: et alio calore intensic 
+              <lb ed="#P" n="10"/>ri vel remissiori generat aliud. propterea non 
+              sequi<lb ed="#P" n="11" break="no"/>tur: sensationes exteriores sunt eiusdem speciei in 
+              <lb ed="#P" n="12"/>sensibus particularibus: causate ab eodem obiector 
+              <lb ed="#P" n="13"/>ergo apparentie vel iudicia sunt eiusdem rationis 
+              <lb ed="#P" n="14"/>propter dispositionem variam corporum et habitus 
+              pre<lb ed="#P" n="15" break="no"/>uios: eger in somno multa iudicia habet que non 
+              ha<lb ed="#P" n="16" break="no"/>bet in vigilia. et multa que non habet sanus nec 
+              habe<lb ed="#P" n="17" break="no"/>re potest. Propterea non ab re medici prudentes 
+              ex<lb ed="#P" n="18" break="no"/>plorant somnium infirmitate laborantis: quia secundum hu 
+              <lb ed="#P" n="19"/>mores superabundantes et complexionem homo 
+              som<lb ed="#P" n="20" break="no"/>niat: et iudicia facit in mente dormiendo. si enim 
+              hu<lb ed="#P" n="21" break="no"/>mor peccans fuerit melancholicus: vel complexio: de 
+              <lb ed="#P" n="22"/>rebus nigris et demonibus somniabit: si humor 
+              fue<lb ed="#P" n="23" break="no"/>rit phlegnaticus: de aqua et humidis. Et de multis 
+              <lb ed="#P" n="24"/>ludificationibus dare punctualem causam est diffici 
+              <lb ed="#P" n="25"/>cile.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e975">
+      ⁋ Ad <name xml:id="jm12w4-e21845-Nd1e977" ref="#Aristotle">Aristotelem</name>. viii. Metaphysice dicitur 
+              <lb ed="#P" n="26"/>quod hoc intelligitur si non sit alia differentia circunstar 
+              <lb ed="#P" n="27"/>tiarum adiacentium. et illud potissimum prouenit in 
+              <lb ed="#P" n="28"/>actionibus vitalibus.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e987">
+      ⁋ Sed dices. quare citius 
+              di<lb ed="#P" n="29" break="no"/>cimus iudicia esse alterius rationis quam notitias 
+              sim<lb ed="#P" n="30" break="no"/>plices.
+            </p>
+            <p xml:id="jm12w4-e21845-d1e994">
+      ⁋ Respondetur. hoc experimur de apparen 
+              <lb ed="#P" n="31"/>tiis. et ratio ducit nos ad illud quod vnus color non 
+              pro<lb ed="#P" n="32" break="no"/>ducit notitiam propriam alterius. iudicia erronea mul 
+              <lb ed="#P" n="33"/>tifariam procreantur. raro sunt in intellectu: immo 
+              <lb ed="#P" n="34"/>habet oppositum iudicii erronei intellectus. non sunt 
+              <lb ed="#P" n="35"/>n sensu exteriori. quia ille solum habet notitias intu 
+              <lb ed="#P" n="36"/>tiuas singulares rei cognite. et nulla iudicis sunt in 
+              <lb ed="#P" n="37"/>eo. ergo in sensu communi sunt. Unde sensus 
+              com<lb ed="#P" n="38" break="no"/>munis iudicat solem esse bipedalem: eo quod sub equali 
+              <lb ed="#P" n="39"/>angulo pyramidis sol videtur: sicut cacobus 
+              pinna<lb ed="#P" n="40" break="no"/>culi sancte Genouefes in collegio montis. sed ratio 
+              <lb ed="#P" n="41"/>sensum corrigit quod res a remotis apparet minor quam a 
+              <lb ed="#P" n="42"/>propinquo ceteris paribus. hoc dixerim propter can 
+              <lb ed="#P" n="43"/>delas et res lucentes que maiores apparent in tene 
+              <lb ed="#P" n="44"/>bris a remotis quam a propinquo: vt in perspectiua 
+              de<lb ed="#P" n="45" break="no"/>clarari solet. ratio dirigit se ad alia: vt quia vmbra 
+              so<lb ed="#P" n="46" break="no"/>lis causata a terra est pyramidalis: et non columnaris 
+              <lb ed="#P" n="47"/>vel pyramis euersa: mox concludit solem esse 
+              maio<lb ed="#P" n="48" break="no"/>rem tota terra: vt efficaciter concluditur ex 
+              perspe<lb ed="#P" n="49" break="no"/>ctiua. febricitans iudicat amygdalatum vel ordeatum 
+              <lb ed="#P" n="50"/>quod comedit esse amarum: propter humores 
+              cru<lb ed="#P" n="51" break="no"/>dos os et linguam inficientes: qui assumuntur cum 
+              ci<lb ed="#P" n="52" break="no"/>bo. sed ratio hoc corrigit. assentiens quod hoc totum assum 
+              <lb ed="#P" n="53"/>ptum est crudum. et non ordeatum. Similiter 
+              appa<lb ed="#P" n="54" break="no"/>ret circulus ignitus quando baculus cuius 
+              extremi<lb ed="#P" n="55" break="no"/>tas est ignita circunuoluitur repente: et aqua in 
+              stilli<lb ed="#P" n="56" break="no"/>cidio celeriter cadens apparet esse vnum continuum: 
+              <lb ed="#P" n="57"/>vt apparet de inflammationibus meteorologicis. 
+              gut<lb ed="#P" n="58" break="no"/>ta non solum a visu sed a visu et a sensu communi fuit 
+              <lb ed="#P" n="59"/>apprehensa et priusquam impressio in sensu communi cau 
+              <lb ed="#P" n="60"/>sata deleta fuerit: propter motus velocitatem visa 
+              <lb ed="#P" n="61"/>est gutta in sitibus intermediis. quare a sensu compre 
+              <lb ed="#P" n="62"/>henditur esse corpus vnum longum a principio ad 
+              fi<lb ed="#P" n="63" break="no"/>nem descensus protensum. Et hoc patet per 
+              Auicen<lb ed="#P" n="64" break="no"/>nam prima sexti naturalium vltimo capitulo dum 
+              in<lb ed="#P" n="65" break="no"/>quit. Cum autem volueris differentiam scire inter opus 
+              <lb ed="#P" n="66"/>sensus exterioris: et opus sensus coonis / attende dispo¬ 
+      <!--83.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 34vb -->
+               <lb ed="#P" n="67"/>sitionem vnius gutte cadentis de pluuia. et 
+              videbi<lb ed="#P" n="68" break="no"/>rectam lineam. et attende dispositionem vnius recti 
+              <lb ed="#P" n="69"/>cuius summitas moueatur in circuitu / et videbitur cit 
+              <lb ed="#P" n="70"/>culus. cum autem describitur in sensu communi: et reno 
+              <lb ed="#P" n="71"/>uatur antequam deleatur forma: sensus communis compre 
+              <lb ed="#P" n="72"/>dendit eam sensus exterior illic vbi est et comprehen 
+              <lb ed="#P" n="73"/>dit eam sensus communis quasi esset illic vbi fuit et 
+              <lb ed="#P" n="74"/>quasi esset illic vbi est: et videt dispositionem 
+              circula<lb ed="#P" n="75" break="no"/>rem aut rectam. hoc autem est impossibile comparare 
+              <lb ed="#P" n="76"/>ensu exteriore vllo modo. et illud patet. si tarde 
+              mo<lb ed="#P" n="77" break="no"/>ueas baculum: vel magnum circulum fabricare nite 
+              <lb ed="#P" n="78"/>ris percipietur non esse circulus. idem est si gutta tar 
+              <lb ed="#P" n="79"/>de cadit. ratio in his omnibus corrigit sensum. 
+              quemad<lb ed="#P" n="80" break="no"/>modum quando sensus communis iudicat baculunm 
+              <lb ed="#P" n="81"/>fractum cuius vna medietas est in aqua: et alia in 
+              <lb ed="#P" n="82"/>aere: et vna pars apparet grossior: quia videtur per 
+              <lb ed="#P" n="83"/>medium densius. sicut patet inspicienti literas per 
+              <lb ed="#P" n="84"/>ocularia: ratio autem hoc cohibet. cum durum non ce 
+              <lb ed="#P" n="85"/>dat molli. Sic de arboribus que videntur in naui mo 
+              <lb ed="#P" n="86"/>ueri. Innumere sunt ludificationes in sensu commu 
+              <lb ed="#P" n="87"/>ni: quarum rationem ex variis sontibus inquirere opi 
+              <lb ed="#P" n="88"/>reprecium est: que crebro castigantur a ratione. 
+              In<lb ed="#P" n="89" break="no"/>terdum ratio non habet motiuum has 
+              ludificatio<lb ed="#P" n="90" break="no"/>nes castigare. et tunc assentit erronee cum sensu 
+              con<lb ed="#P" n="91" break="no"/>muni: sicut cattus (quia rationis est expers) in fine 
+              <lb ed="#P" n="92"/>temporis querit cattum ex altera parte speculi sicut 
+              <lb ed="#P" n="93"/>a principio. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

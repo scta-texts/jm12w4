@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="75-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e52106"> <!--l1d17q15 -->
+            <head xml:id="jm12w4-e52106-Hd1e106">Quaestio 15</head>
+            <head xml:id="jm12w4-e52106-Hd1e109" type="question-title">
+      An est status in maxima forma possibili vel in maxima magnitudine?
+    </head>
+            <p xml:id="jm12w4-e52106-d1e112">
+               <lb ed="#P" n="15"/>⁋ his itaque respondemus dicentes quod 
+              spi<lb ed="#P" n="16" break="no"/>ritus sanctus siue charitas penitus immutabilis 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e119">
+               <lb ed="#P" n="17"/>⁋ Distinctionis septimedecime questio. xv 
+              <lb ed="#P" n="18"/>Via in superiori locuti sumus de 
+              inten<lb ed="#P" n="19" break="no"/>sione forme secundum quatuor opiniones: 
+              <lb ed="#P" n="20"/>nunc consequenter illam materiam 
+              prose<lb ed="#P" n="21" break="no"/>quentes petemus an est status in maxia 
+              <lb ed="#P" n="22"/>u. fforma possibili: vel in maxima 
+              magni<lb ed="#P" n="23" break="no"/>tudine. Et erit quaestio sexta huius secunde partis: et de 
+              <lb ed="#P" n="24"/>cimaquita totius distinctionis.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e140">
+      ⁋ Septimo quarems 
+              <lb ed="#P" n="25"/>an detur minimum forme vel minimum naturale.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e145">
+      ⁋ 
+              D<lb ed="#P" n="26" break="no"/>ctauo: penes quid attenditur intensio qualitatis tan 
+              <lb ed="#P" n="27"/>in vniformibus quam difformibus: et erit quaestio decima 
+              <lb ed="#P" n="28"/>octaua et vltima huius distinctionis.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e154">
+      ⁋ Circa hanc 
+              <lb ed="#P" n="29"/>distinctionem decimoquinto quaro: an est dabilis 
+              ma<lb ed="#P" n="30" break="no"/>xima charitas possibilis vel quecunque alia forma. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e161">
+               <lb ed="#P" n="31"/>⁋ Circa titulum quaestionis varius est modus respondendi: 
+              <lb ed="#P" n="32"/>Unus est affirmatiuus scilicet quod status est in infinita charita 
+              <lb ed="#P" n="33"/>te: et cum hoc tenendo vnum infinitum esse maius alio. Alio 
+              <lb ed="#P" n="34"/>rum est positio negantium deum producere posse infinitum 
+              <lb ed="#P" n="35"/>actu: et isti sunt biptiti. aliqui enim ponunt statum in 
+              ma<lb ed="#P" n="36" break="no"/>xima forma possibili finita: alioqui non ponunt. Et hoc 
+              <lb ed="#P" n="37"/>potest esse biphariam: vel in subiecto vel ex subiectum 
+              <lb ed="#P" n="38"/>Primum membrum inferius tangemus in disti. xliiii. Circa 
+              <lb ed="#P" n="39"/>alia duo membra nunc versabimur.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e183">
+      ⁋ Quidam docto 
+              <lb ed="#P" n="40"/>bonit statum in maxia forma: et quidem finita: siue in 
+              subie<lb ed="#P" n="41" break="no"/>cto siue ess sbentem cui repugnat esse maiorem. Et probat 
+              <lb ed="#P" n="42"/>positio sic supposita coi opinione apud veteres quod de 
+              <lb ed="#P" n="43"/>us non poterat producere infinitum actu: accepta alie 
+              <lb ed="#P" n="44"/>charitate a finita (sit gratia exempli duorum graduum 
+              <lb ed="#P" n="45"/>quero vtrum ascendendo sit status ad aliquam extreman 
+              <lb ed="#P" n="46"/>possibilem. et si sic / tunc non proceditur in infinitum in eius auce 
+              <lb ed="#P" n="47"/>mento: aut non est status: et tunc quia quanto aliqua ma 
+              <lb ed="#P" n="48"/>gis excedit tanto fit perfectior: sequitur quod illa qua in inf 
+              <lb ed="#P" n="49"/>nitum excedit sit in infinitum perfectior. Et per consequens in se est sin 
+              <lb ed="#P" n="50"/>finita. et cum ipsa videatur a deo vt quoddam vnum facti 
+              <lb ed="#P" n="51"/>bile: poterit ab ipso vnica causatione causari: et 
+              po<lb ed="#P" n="52" break="no"/>test fieri aliqua charitas infinita quod est impossibi 
+              <lb ed="#P" n="53"/>le.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e216">
+      ⁋ Et confirmatur sic. quantamcumque charitatem de 
+              <lb ed="#P" n="54"/>posset creare tantam potest facere: hoc patet quia praedicatum 
+              <lb ed="#P" n="55"/>includitur in subiecto ponatur ergo inesse quod quantanmcunque 
+              <lb ed="#P" n="56"/>potest causare tantam causet: ergo non poterit vlterius mai 
+              <lb ed="#P" n="57"/>rem causare.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e228">
+      ⁋ Ista conclusio potest vtcumque defendi: 
+              ratio<lb ed="#P" n="58" break="no"/>nes tamen non concludunt: sed sunt sophistice.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e233">
+      ⁋ Ad 
+              pri<lb ed="#P" n="59" break="no"/>mam dico quod supra a charitatem datam potest procedi in 
+              in<lb ed="#P" n="60" break="no"/>finitum: et concedo quod quanto aliqua forma magis ex 
+              <lb ed="#P" n="61"/>cedit tanto est perfectior. Et quando infertur: ergo illa qua in inf 
+              <lb ed="#P" n="62"/>nitum excedit est infinite perfectior. cum eo pro nunc non ac 
+              <lb ed="#P" n="63"/>mittamus infinitum: vt argumentum heat omne suum poesdus  
+              <lb ed="#P" n="64"/>nego tamen consequentiam propter falsam implicationem: in sub¬ 
+      <!--165.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 75vb -->
+               <lb ed="#P" n="65"/>iecto enim consequentis est vna affirmatiua cuius subiecti 
+              <lb ed="#P" n="66"/>non supponit: sicut in simili non sequitur. In 
+              infini<lb ed="#P" n="67" break="no"/>tum parua est aliqua pars huius magnitudinis: eug 
+              <lb ed="#P" n="68"/>illa que est in infinitum parua est minima vel aliquod 
+              <lb ed="#P" n="69"/>tale. argumentum enim probaret statum in maximo nune 
+              <lb ed="#P" n="70"/>ro patet accepto binario quero an ascendendo sit 
+              <lb ed="#P" n="71"/>status an non. Si primum: propositum. Si secundum: ergo 
+              <lb ed="#P" n="72"/>quantomagis numerus excedit binarium tanto es 
+              <lb ed="#P" n="73"/>perfectior: ergo ille qui in infinitum excedit est infi 
+              <lb ed="#P" n="74"/>nite perfectus. et denique pobaret quod aliquod cor 
+              <lb ed="#P" n="75"/>pus finitum esset maximum possibile. patet appli 
+              <lb ed="#P" n="76"/>canti argumentum. sed hoc est falsum: quia tunc debe 
+              <lb ed="#P" n="77"/>ret dicere supremam spheram corpus maximum 
+              po<lb ed="#P" n="78" break="no"/>sibile: sed hoc est contra <name xml:id="jm12w4-e52106-Nd1e285" ref="#Augustine">augustinum</name> octogesima 
+              <lb ed="#P" n="79"/>epistola nebridio scribentem sic. Nescio cur tantus 
+              <lb ed="#P" n="80"/>mundus sit cum rationes figurarum per quas est 
+              ni<lb ed="#P" n="81" break="no"/>hil prohibeant esse quando quis voluerit ampliorem. 
+              <lb ed="#P" n="82"/>Et infra. cur tantus est mundus poterat enim esse 
+              <lb ed="#P" n="83"/>maior vel minor / nescio.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e299">
+      ⁋ Insuper in infinitum 
+              po<lb ed="#P" n="84" break="no"/>test esse magnus circulus: ergo a aliud corpus: consequenti 
+              <lb ed="#P" n="85"/>liquet. probatur autem antecedens per illam petitionem 
+              <lb ed="#P" n="86"/>primi euclidis super centrum quodlibet quantumli 
+              <lb ed="#P" n="87"/>bet occupando spatium circulum designare. et de 
+              <lb ed="#P" n="88"/>linea recta est aliam: quacumque linea recta data: in in 
+              <lb ed="#P" n="89"/>finitum protrahere.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e315">
+      ⁋ Sed dices non esse idem de 
+              <lb ed="#P" n="90"/>forma propter eius actiuitatem. hoc autem non suffi 
+              <lb ed="#P" n="91"/>cit. nam cape illam rationem quam maxime ponderas: ea 
+              <lb ed="#P" n="92"/>equaliter magnitudini multitudini et forme appli 
+              <lb ed="#P" n="93"/>catur. etiam dic mihi quid impedimenti prestat 
+              ma<lb ed="#P" n="94" break="no"/>ior actiuitas.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e328">
+      ⁋ Ad confirmationem multiplex est 
+              <lb ed="#P" n="95"/>responsio. Primo non omnis modalis diuisa vera 
+              he<lb ed="#P" n="96" break="no"/>de inesse veram vel possibilem: et hoc est verum non va 
+              <lb ed="#P" n="97"/>riando terminos sed omnes seruando qui in 
+              proposi<lb ed="#P" n="98" break="no"/>tione ponuntur. patet cum signo vniuersali et sine signo 
+              <lb ed="#P" n="99"/>vt in talibus: tum fuisti iunior quam tues: tu eris senior 
+              <lb ed="#P" n="100"/>quam tum es. extra propositionem terminus potest suppo 
+              <lb ed="#P" n="101"/>nere ens possibiliter non est ens: sed talibus possunt 
+              <lb ed="#P" n="102"/>dari de inesse per variationem terminorum quod omnia 
+              <lb ed="#P" n="103"/>sufficient. vt de his tactis patet er paruis logica 
+              <lb ed="#P" n="104"/>libus. modo propositio assumpta licet sit inde finita 
+              <lb ed="#P" n="105"/>er parte enunciationis) est tamen ex parte 
+              distributio<lb ed="#P" n="106" break="no"/>nis vniuersalis. vt patet per signum quantamcumque: 
+              <lb ed="#P" n="107"/>oportetque illam ponere in esse per singulares 
+              plu<lb ed="#P" n="108" break="no"/>res. vt quilibet homo potest esse in bibliotbeca mea 
+              <lb ed="#P" n="109"/>et sic oportet arguentem dicere: hanc concederet: quotcumquod 
+              <lb ed="#P" n="110"/>animas deus potest creare tot deus potest creare. si 
+              <lb ed="#P" n="111"/>det hanc de inesse tot quot potest creare tot creat: 
+              <lb ed="#P" n="112"/>innuendo vniuersalitatem in tot a quot: constat illam esse 
+              <lb ed="#P" n="113"/>falsam a non opinor illum velle dicere. quod dato vno 
+              <lb ed="#P" n="114"/>numero animarum deus non potest creare vnam ad¬  
+              <lb ed="#P" n="115"/>dendo illi priori numero.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e376">
+      ⁋ Quidam doctor arguit 
+              <lb ed="#P" n="116"/>sic contra hoc. non datur minima forma: ergo neque maxima 
+              <lb ed="#P" n="117"/>hec consequentia est tenebrosa: quia naturaliter datur vnum: et 
+              <lb ed="#P" n="118"/>non aliud. sic argumentum nihil probat contra aduen 
+              <lb ed="#P" n="119"/>sarium.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e388">
+      ⁋ Si dicas tunc potest esse maior gratia quam gratia 
+              <lb ed="#P" n="120"/>anime christi. hoc nego. illa enim est infinita in gra 
+              <lb ed="#P" n="121"/>du. vt patet in. xiii. distin. tertii. sed si poneretur fi 
+              <lb ed="#P" n="122"/>nita concedo quod potest esse maior de potentia de i 
+              ab<lb ed="#P" n="123" break="no"/>soluta.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e399">
+      ⁋ Sed adhuc arguitur probando quod datur ma 
+              <lb ed="#P" n="124"/>xima forma et hoc sic: datur maximus homo: fimili 
+              <lb ed="#P" n="125"/>ter maxima velocitas: et maxia tarditas: ergo 
+              da<lb ed="#P" n="126" break="no"/>tur maxima forma etiam citra infinitum Quod detur ma 
+              <lb ed="#P" n="127"/>xima velocitas patet de primo mobili quod est maximum 
+              <lb ed="#P" n="128"/>corpus e maxima eius velocitas.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e412">
+      ⁋ Respondetur quod si 
+              <lb ed="#P" n="129"/>sit sermo de maxima forma naturaliter: bene hoc ad  
+      <!--166.xml-->
+      <pb ed="#P" n="76-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mittimus et sic de maximo homine quod detur aliquis 
+              <lb ed="#P" n="2"/>homo qui non posset esse maior entitatiue: sed 
+              tume<lb ed="#P" n="3" break="no"/>fiat et extendatur extensiue non est maior 
+              entita<lb ed="#P" n="4" break="no"/>tiuae: etiam tenendo lineas latitudinis et profundita 
+              <lb ed="#P" n="5"/>tis immunes tunc datur maxima velocitas. patet de 
+              <lb ed="#P" n="6"/>equinoctiali circulo: licet sic non detur maxima tar 
+              <lb ed="#P" n="7"/>ditas. neuter enim polorum mouetur: nec aliquod ptum 
+              <lb ed="#P" n="8"/>ctum prope polum tardissime mouetur: nec descri 
+              <lb ed="#P" n="9"/>bens circulum minimum: quoniam inter quodcunque puctum 
+              <lb ed="#P" n="10"/>et polum mediant infinita puncta: quorum propinqo 
+              <lb ed="#P" n="11"/>ra polo tardius mouentur et remotiora velocius: sed 
+              <lb ed="#P" n="12"/>ponendo lineas latas et profundas tunc non datur ma 
+              <lb ed="#P" n="13"/>xima velocitas: pars enim superior equatoris remotior 
+              <lb ed="#P" n="14"/>a terra ocvus mouetur quam pars propinquiorterre. nec 
+              <lb ed="#P" n="15"/>totum celum mouetur ita velociter sicut equator: cum ha 
+              <lb ed="#P" n="16"/>beat partesdifformes quarum alique lente a alique com 
+              <lb ed="#P" n="17"/>leriter mouentur. Secundum enim vnam positionem oportet duce 
+              <lb ed="#P" n="18"/>re lineam imaginariam a medio equatoris ad alterum 
+              <lb ed="#P" n="19"/>polorum scilicet a b et trahere c dlineam ab alto in profundum 
+              <lb ed="#P" n="20"/>circa lineam a b et dicere quod totale celum mouetur ita ve 
+              <lb ed="#P" n="21"/>lociter sicut pars illa: et scet celum supremum sit maxi 
+              <lb ed="#P" n="22"/>mum: eius tamen velocitas non est maxima velocitas. Et 
+              <lb ed="#P" n="23"/>nullo istorum sensuum concludere potes maximam for 
+              <lb ed="#P" n="24"/>mam possibilem finitam: deus enim potest celerius mouere 
+              <lb ed="#P" n="25"/>celum quam mouerit immo subito.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e477">
+      ⁋ Ulterius deus videt 
+              <lb ed="#P" n="26"/>omnem charitatem a se factibilem: aut ergo videt ali 
+              <lb ed="#P" n="27"/>quam factibilem infinitam: et tunc potest infinitam 
+              fa<lb ed="#P" n="28" break="no"/>cere quod est falsum: aut non videt aliquam factibilem inf 
+              <lb ed="#P" n="29"/>nitam: et tunc sequitur quod non posset facere 
+              infinita<lb ed="#P" n="30" break="no"/>maiorem.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e490">
+      ⁋ Amplius quantacuque charitas vel perfe 
+              <lb ed="#P" n="31"/>ctio potest fieri a deo successiue tanta potest fieri ab 
+              <lb ed="#P" n="32"/>eo simul: sed nulla perfectio infinita potest simul fieri: ergo 
+              <lb ed="#P" n="33"/>nec successiue.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e499">
+      ⁋ Rursus sequeretur quod esset possibi 
+              <lb ed="#P" n="34"/>lis aliquis motus rectus continuus in infinitum. patet 
+              con<lb ed="#P" n="35" break="no"/>sequentia. quia augmentum vel intensio motus recti sunt 
+              <lb ed="#P" n="36"/>onsequens est falsum vt patet perphilosophum et Commen 
+              <lb ed="#P" n="37"/>tatorem octauo physicorum. Et patet ratione. quia omnis mot 
+              <lb ed="#P" n="38"/>rectus est inter duos terminos: inter autem duos 
+              <lb ed="#P" n="39"/>terminos impossibile est infinitum rectum moueri. quia 
+              <lb ed="#P" n="40"/>tunc natura inciperet mouere ad id quod non potest attin 
+              <lb ed="#P" n="41"/>gere: et esset aliquis motus sine termino ad quem: hoc 
+              <lb ed="#P" n="42"/>autem est impossibile. quia motus ex intrinseco suo requ 
+              <lb ed="#P" n="43"/>rit terminum ad quem. et consequentia patet: quia si potest esse aliqua 
+              <lb ed="#P" n="44"/>talis intensio infinita nullus terminus citra infiniturm 
+              <lb ed="#P" n="45"/>potest esse essentialis terminuseius.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e529">
+      ⁋ Ad primum deus 
+              <lb ed="#P" n="46"/>os arguenti rodendum de corpe vel de linea: puta quoa 
+              <lb ed="#P" n="47"/>deus videt omne corpus a se factibile vel maximum 
+              <lb ed="#P" n="48"/>corpus et omnem animam a se factibilem: et si respondeat ad vnum 
+              <lb ed="#P" n="49"/>responsionem in promptu habebit ad alid. concedo au 
+              <lb ed="#P" n="50"/>quod hanc omnem charitatem a se factibilem deus vide  
+              <lb ed="#P" n="51"/>Et quando infertur ergo videt aliquam infinitam: quicquid 
+              <lb ed="#P" n="52"/>sit de consequentia consequens concedimus: sed vt argumenta pius 
+              po<lb ed="#P" n="53" break="no"/>deris habeant: negemus in isto processu deum posse fa 
+              <lb ed="#P" n="54"/>cere infinitam: quia non loquimur seriose de hac materia 
+              <lb ed="#P" n="55"/>nego quod videt aliquam infinitam formam factibilem 
+              <lb ed="#P" n="56"/>immo nullam videt infinitam. Et quando infert. er 
+              <lb ed="#P" n="57"/>go non potest facere maiorem: consequentia est nulla: vt 
+              p<lb ed="#P" n="58" break="no"/>quodlibet enim corpus et quantumlibet magnum 
+              <lb ed="#P" n="59"/>quod deus potest facere videt: tamen nullum 
+              co<lb ed="#P" n="60" break="no"/>pus videt infinitum ex hypothesi. tamen non sed 
+              <lb ed="#P" n="61"/>tur quod infinitum magnum corpus deus non potest 
+              <lb ed="#P" n="62"/>creare.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e568">
+      ⁋ Ad secundum quidam doctor negat mi 
+              <lb ed="#P" n="63"/>iorem: ipsa tamen non est neganda. hoc patet per omnes 
+              <lb ed="#P" n="64"/>singulares termini distributi. quacunque enim chi 
+              <lb ed="#P" n="65"/>ritate data vel perfectione que potest fieri succen 
+      <!--166.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 76rb -->
+               <lb ed="#P" n="66"/>siue potest fieri subito: ista charitate data: quae prait fic 
+              <lb ed="#P" n="67"/>ri successiue praet fieri subito. et sic uond singlis. Et si ca 
+              <lb ed="#P" n="68"/>pit infinite categorematice concedo totum argumem 
+              <lb ed="#P" n="69"/>tum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e592">
+      ⁋ Ad tertium conceditur e admittitur sequam 
+              <lb ed="#P" n="70"/>la quod est possibilis aliquis motus rectus continuus 
+              <lb ed="#P" n="71"/>in infinitum. infinitam lineam deus potest facere 
+              <lb ed="#P" n="72"/>sic scilicet quod vnum mobile puta angelus perpetuo 
+              <lb ed="#P" n="73"/>duret super illud mobile qualibet hora 
+              pertranseu<lb ed="#P" n="74" break="no"/>do vnam leucam: semper progrediendo superlineam in nul 
+              <lb ed="#P" n="75"/>lo instanti erit in fine spatii. quia ponatur quod deus au 
+              <lb ed="#P" n="76"/>geat continuo illam lineam cum illo motu vel anti 
+              <lb ed="#P" n="77"/>motum de leuca in leucam faciendo in instanti tantum 
+              <lb ed="#P" n="78"/>spatium quantum illud mobile potest pertransire in centum mi 
+              <lb ed="#P" n="79"/>lionibus. immo potest facere quod vnus angelus 
+              con<lb ed="#P" n="80" break="no"/>tinuo moueatur super spatium pedale semper progredi 
+              <lb ed="#P" n="81"/>endo in vna hora pertranseat primam partem 
+              proportio<lb ed="#P" n="82" break="no"/>nalem illius pedalitatis. in secunda hora secundam 
+              par<lb ed="#P" n="83" break="no"/>tem proportionalem. in tertia hora tertiam partem il 
+              <lb ed="#P" n="84"/>lius pedalitatis semper in qualibet hora sequenti 
+              retar<lb ed="#P" n="85" break="no"/>dando suum motum ad subduplum respectu 
+              par<lb ed="#P" n="86" break="no"/>tis precedentis. licet quamlibet partem 
+              proportiona<lb ed="#P" n="87" break="no"/>lem illius pedalitatis iste angelus pertransibit 
+              in<lb ed="#P" n="88" break="no"/>nullo instanti vel hora attinget punctum 
+              terminati<lb ed="#P" n="89" break="no"/>uum illius pedalitatis: ibi enim multi sunt termini 
+              <lb ed="#P" n="90"/>ad quos / non vltimati. nec est de ratione motus 
+              <lb ed="#P" n="91"/>attingere terminum vltimatum. patet de pergen 
+              <lb ed="#P" n="92"/>te romam a moriente in itinere.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e644">
+      ⁋ Dstenso quod rati 
+              <lb ed="#P" n="93"/>ones iste non vincant: ostendendum est quomodo 
+              <lb ed="#P" n="94"/>eius positio sustentabilis est non innitendo illis 
+              ra<lb ed="#P" n="95" break="no"/>tionibus quas recitauimus: sed si verisimile est quod 
+              <lb ed="#P" n="96"/>anima christi habuerit summam gratiam possibilem quia 
+              <lb ed="#P" n="97"/>quod perfectionis est / est illi anime tribuendum vbi non 
+              con<lb ed="#P" n="98" break="no"/>stat de opposito: sed non est possibile dare 
+              infinita<lb ed="#P" n="99" break="no"/>formam intensiue: igitur datur maxima gratia possibilis fi 
+              <lb ed="#P" n="100"/>nita: et qua ratione est status in gratia: eadem ratione 
+              <lb ed="#P" n="101"/>eadem erit in qualibet alia forma status. et set sit stat 
+              <lb ed="#P" n="102"/>in forma propter eius actiuitatem: non tamen est status in ma 
+              <lb ed="#P" n="103"/>gnitudine. quocumque enim corpore dato finito deus 
+              <lb ed="#P" n="104"/>potest addere pedale illi: et reddere totum maius. non est 
+              <lb ed="#P" n="105"/>autem apparentia magna in oppositum: sed volenti 
+              ap<lb ed="#P" n="106" break="no"/>plicare rationes prefatas ad oppositum difficile est il 
+              <lb ed="#P" n="107"/>lud reprobare.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e679">
+      ⁋ Sed arguitur data maxia cera possibili: 
+              <lb ed="#P" n="108"/>vel deus potest rarefacere vnum pedale illius vel non 
+              <lb ed="#P" n="109"/>si secundum est preter rationem. si primum dabile est mai 
+              <lb ed="#P" n="110"/>maximo possibili: maximum enim possibile est in 
+              ce<lb ed="#P" n="111" break="no"/>ra maxima rarissima et est maxima raritas. 
+              Con<lb ed="#P" n="112" break="no"/>tra: absurdum est dicere quod deus non potest addere illi cere 
+              <lb ed="#P" n="113"/>vnam ceram pedalem. et eodemmodo de ligno dicas tu 
+              <lb ed="#P" n="114"/>consequenter: nolo admittere maximum corpus possi 
+              <lb ed="#P" n="115"/>bile finitum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e699">
+      ⁋ Sed contra positionem dices data ma 
+              <lb ed="#P" n="116"/>xima forma possibili sit centum graduum: deus potest 
+              <lb ed="#P" n="117"/>addere duos gradus illi in eodem subiecto primo ve 
+              <lb ed="#P" n="118"/>extra subiectum et tunc erit forma intensior per ad 
+              <lb ed="#P" n="119"/>ditionem duorum graduum. Nego quod erit intensior 
+              <lb ed="#P" n="120"/>non enim componitur aliquod vnum ex priori 
+              for<lb ed="#P" n="121" break="no"/>ma et gradibus sequentibus: quia altera forma iam 
+              <lb ed="#P" n="122"/>fuit in termino non potest maiorari: duo siquid em ac 
+              <lb ed="#P" n="123"/>cidentia solo numerodifferentia inhererent eidem 
+              <lb ed="#P" n="124"/>subiecto a non constituunt aliquod vnum quando 
+              <lb ed="#P" n="125"/>vna forma est in termino: et siet quilibet gradus istius 
+              for<lb ed="#P" n="126" break="no"/>me maxime possibilis sit intensibilis quantum est de 
+              <lb ed="#P" n="127"/>se: hoc eim patet per separationem ab aliis gradibus: tamen 
+              <lb ed="#P" n="128"/>ei non potest esse additio quod componatur aliquod vnum 
+              <lb ed="#P" n="129"/>stantibus aliis gradibus secum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e733">
+      ⁋ Ex hoc pateni 
+              <lb ed="#P" n="130"/>tales propositiones: deus potest facere duas tres quaetuo¬ 
+      <!--167.xml-->
+      <pb ed="#P" n="76-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>formas: quarum quelibet est maxima possibilis in 
+              <lb ed="#P" n="2"/>eodem subiecto: sed non erit intensior. et si vna 
+              ha<lb ed="#P" n="3" break="no"/>beret vnam maximam charitatem possibilem inten 
+              <lb ed="#P" n="4"/>siue ipsa erit ita chara intensiue sicut anima 
+              quat<lb ed="#P" n="5" break="no"/>tuor tales maximas habens: sed non extensiue. eodemmo 
+              <lb ed="#P" n="6"/>do est de beatitudine.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e757">
+      ⁋ Secundo patet quod nulla 
+              <lb ed="#P" n="7"/>forma potest vniri huic forme maxime ad compositio 
+              <lb ed="#P" n="8"/>nem alicuius vnius forme. sed an aliqua forma sit 
+              <lb ed="#P" n="9"/>ei vnibilis: potest dici quod sic. vnibile est passio 
+              for<lb ed="#P" n="10" break="no"/>me et aliqua forma est vnibilis que vniri non potest 
+              <lb ed="#P" n="11"/>alia forma finita est apta nata huic vniri quantum 
+              <lb ed="#P" n="12"/>est de se: sed vniri non potest ob existentiam in ter 
+              <lb ed="#P" n="13"/>mino alterius forme. sed de forma infinita non est 
+              <lb ed="#P" n="14"/>hoc modo alteri forme vnibilis: sicut digitus 
+              sor<lb ed="#P" n="15" break="no"/>tis est risibilis qui ridere non potest.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e779">
+      ⁋ Potes eti 
+              <lb ed="#P" n="16"/>am dicere. quod sic non est repugnantia intrinseca quam 
+              <lb ed="#P" n="17"/>tum est ex parte forme que est eiusdem speciei cum 
+              <lb ed="#P" n="18"/>alia forma sed vniri non potest. De potentia dei ab 
+              <lb ed="#P" n="19"/>soluta potest quispiam dicere quod alia forma infinita 
+              <lb ed="#P" n="20"/>puic forme non est vnibilis: quia si aliquid est 
+              vnibi<lb ed="#P" n="21" break="no"/>le aptum natum est vniri et deus potest illud vnire 
+              <lb ed="#P" n="22"/>et negatur quod vnibile est passio forme: et hoc est cer 
+              <lb ed="#P" n="23"/>tare de termino vnibile.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e799">
+      ⁋ Tertio patet quod si 
+              remo<lb ed="#P" n="24" break="no"/>uetur vnus gradus ab illa maxima forma 
+              possibi<lb ed="#P" n="25" break="no"/>li alius gradus potest ei addi et fieri aliquod vnum 
+              <lb ed="#P" n="26"/>et si duo gradus remouerentur duo possunt addi. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e808">
+               <lb ed="#P" n="27"/>⁋ Sed contra colorem quem posuimus arguitur 
+              <lb ed="#P" n="28"/>inc: non datur maxima gratia quam anima christi potest 
+              <lb ed="#P" n="29"/>habere: nec maxima beatitudo: et hoc sic. non repu 
+              <lb ed="#P" n="30"/>gnat anime christi habere duas maximas 
+              beatitudi<lb ed="#P" n="31" break="no"/>nes possibiles secundum hanc viam tres quatuor et sine 
+              <lb ed="#P" n="32"/>statu: quia in multitudine non est status: sed melius 
+              <lb ed="#P" n="33"/>esset dicere animam christi et decentius hatre duas bea 
+              <lb ed="#P" n="34"/>titudines maxias tres quattuor et sic de maximis 
+              <lb ed="#P" n="35"/>gratiis: igitur. Dices quod non est melius intensiue licicet 
+              <lb ed="#P" n="36"/>bene extensiue.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e832">
+      ⁋ Contra: bene est anime christi per vnam 
+              <lb ed="#P" n="37"/>beatitudinem quam habet: et ita bene illi erit per secundam 
+              <lb ed="#P" n="38"/>formam sicut per primam et sic consequenter.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e840">
+      ⁋ Respondetur 
+              <lb ed="#P" n="39"/>quod hoc non concluderet: fateor enim quod esset melius sed 
+              <lb ed="#P" n="40"/>deus non dat nec dedit omne quod dare potuit anime chri 
+              <lb ed="#P" n="41"/>ti: sicut secundum alios non est status in maxima forma: 
+              <lb ed="#P" n="42"/>deus enim poterat dedisse maiorem gratiam in gradu 
+              <lb ed="#P" n="43"/>quam dederat anime christi et si maiorem adhuc dare 
+              de<lb ed="#P" n="44" break="no"/>um deceret.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e856">
+      ⁋ Aliorum est modus quod deus non potest 
+              <lb ed="#P" n="45"/>creare maximam forimam extra subiectum: dabilis est tame 
+              <lb ed="#P" n="46"/>maxia que potest inherere subiecto: vt sicut anime repu 
+              <lb ed="#P" n="47"/>gnat suscipere calorem: ita est aliqua forma inten 
+              <lb ed="#P" n="48"/>sa quam anima suscipere nequit: sed minorem 
+              suscipe<lb ed="#P" n="49" break="no"/>re potest a multi doctores hoc tenent. Contra secundam 
+              <lb ed="#P" n="50"/>partem arguitur: non videtur repugnantia quod 
+              quacun<lb ed="#P" n="51" break="no"/>que forma data que potest inherere vni subiecto ma 
+              <lb ed="#P" n="52"/>ior intensiue illi inhereat: patet si anima est receptiua 
+              <lb ed="#P" n="53"/>vnius indiuidui non videtur vnde oritur repugnam 
+              <lb ed="#P" n="54"/>tia quin potest suscipere quecumque indiuidua: si duo 
+              <lb ed="#P" n="55"/>lapides possunt esse in eodem loco adequato sic tres: 
+              <lb ed="#P" n="56"/>quattuor / et sine fine.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e885">
+      ⁋ Rursus: deus potest idem 
+              <lb ed="#P" n="57"/>vas replere albedie et dulcedie: materia et forma 
+              <lb ed="#P" n="58"/>simul: ita quod eorum quodlibet repleat totam 
+              capa<lb ed="#P" n="59" break="no"/>citatem contentiuam per penetrationem partium 
+              <lb ed="#P" n="60"/>ergo potest ponere quoscumque gradus albedinis in eodem 
+              <lb ed="#P" n="61"/>va se. ergo notitias non habituales.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e898">
+      ⁋ Dices quod potest 
+              po<lb ed="#P" n="62" break="no"/>nere habitus specie distinctos in anima tot quot 
+              vo<lb ed="#P" n="63" break="no"/>lueris sicut de albedine et dulcedine: in vase enim pater 
+              <lb ed="#P" n="64"/>tali. albedis et alia dulcedis.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e907">
+      ⁋ Contra potsitur pinta p 
+              <lb ed="#P" n="65"/>te est dabilis intensissimus habitus quem anima praet capere 
+      <!--167.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 76vb -->
+               <lb ed="#P" n="66"/>in hac specie licet potest capere alium ita intensum 
+              <lb ed="#P" n="67"/>alterius speciei: vt de albedine et forma lactis 
+              di<lb ed="#P" n="68" break="no"/>ctum est.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e925">
+      ⁋ Contra. si potest capere plures specie di 
+              <lb ed="#P" n="69"/>stinctos iam habet plures et cum duos gradus eiusdem 
+              <lb ed="#P" n="70"/>speciei recipiat non videtur dandus status.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e933">
+      ⁋ Iter 
+              <lb ed="#P" n="71"/>exemplum potest reduci in oppositum: set enim istud sit 
+              ve<lb ed="#P" n="72" break="no"/>rum de lacte e eins albedine: tamen deus potest facere du 
+              <lb ed="#P" n="73"/>as partes pinte lactis sepenetrare et intrare cops 
+              <lb ed="#P" n="74"/>nam: et rursus illud ponere in vas in subduplo minus 
+              <lb ed="#P" n="75"/>et non erit minus de entitate in paruo vase quam 
+              ma<lb ed="#P" n="76" break="no"/>gno: ergo potest facere habitum infinitum esse in anima 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e949">
+               <lb ed="#P" n="77"/>⁋ Tertii dicunt vt aliacenser quaestione nona sui 
+              prim<lb ed="#P" n="78" break="no"/>quod duplex est capacitas: quedam actiua quedam pat 
+              <lb ed="#P" n="79"/>siua: secunda est infinita. capacitas autem actiua termina 
+              <lb ed="#P" n="80"/>tur: et sic licet infinita charitas potest esse in subiecto 
+              <lb ed="#P" n="81"/>tamen in nullo subiecto potest esse infinita charitas: 
+              <lb ed="#P" n="82"/>primum patet cum ly subiecto stet confuse tantum dato ei vno 
+              <lb ed="#P" n="83"/>subiecto potente suscipere decem gradus datur ali 
+              <lb ed="#P" n="84"/>ud potens suscipere maiorem gratiam et sine statu. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e969">
+               <lb ed="#P" n="85"/>⁋ Contra hunc modum ponentur propositiones 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e974">
+               <lb ed="#P" n="86"/>⁋ Prima est. in anima potest esse infinita charitas 
+              <lb ed="#P" n="87"/>patet: quia anima non concurrit actiue ad habitu: sed 
+              po<lb ed="#P" n="88" break="no"/>tentia passiua per te est infinita: sed anima pure passiue 
+              <lb ed="#P" n="89"/>se habet ad charitatem ergo in anima potest esse charitas in 
+              <lb ed="#P" n="90"/>finita: et per consequens in aliquo subiecto potest esse 
+              infini<lb ed="#P" n="91" break="no"/>ta charitas.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e990">
+      ⁋ Secunda propositio. quod non est status in 
+              <lb ed="#P" n="92"/>actu voluntatis anime vel intellectus: quia probo. anima 
+              <lb ed="#P" n="93"/>sine habitu potest habere actum alicuius intensionis: 
+              <lb ed="#P" n="94"/>sit ita vt decem: sed intensiorem actum potest anima hatre 
+              <lb ed="#P" n="95"/>cum habitu quam sine habitu: et non est status in 
+              inten<lb ed="#P" n="96" break="no"/>sissimo habitum nec in multitudine habituum: ergo 
+              <lb ed="#P" n="97"/>nec in intensissimo actu. hic sunt aliqua ambigua 
+              <lb ed="#P" n="98"/>assumpta quae oportet probare. s. quod anima potest exire in maiorem 
+              <lb ed="#P" n="99"/>actum cum habitu quam sine habitu. Similiter quod non est 
+              <lb ed="#P" n="100"/>status in intensione habitus nec in multitudine 
+              ha<lb ed="#P" n="101" break="no"/>dituum. Primum probo: quia quaecumque potentia potest exire in 
+              <lb ed="#P" n="102"/>aliquem effectum cum ope alterius cause / eadem 
+              po<lb ed="#P" n="103" break="no"/>test in maiorem effectum cum ope alterius cause 
+              maio<lb ed="#P" n="104" break="no"/>ris: sed sic est quod anima potest habere decem actus sine 
+              ha<lb ed="#P" n="105" break="no"/>pitu. ergo plures gradus potest habere cum habitu 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1023">
+               <lb ed="#P" n="106"/>⁋ Sed de statu in habitu arguitur sic: crescente 
+              <lb ed="#P" n="107"/>actu coalescit habitus vt patet ex secundo ethicorum. et licet 
+              <lb ed="#P" n="108"/>vnus actus esset productiuus alicuius habitus et 
+              <lb ed="#P" n="109"/>non intensioris: tamen actus augetur ex intensiore 
+              habi<lb ed="#P" n="110" break="no"/>tu: ergo non est status in intensione habitus nec in mul 
+              <lb ed="#P" n="111"/>titudine habituum. Qod probo. quia da oppositum super 
+              <lb ed="#P" n="112"/>uacaneum foret amplius incumbere litatris: quia ad cremen 
+              <lb ed="#P" n="113"/>tum vnius habitus periret alius.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1044">
+      ⁋ Sed adam in 
+              pri<lb ed="#P" n="114" break="no"/>ma distinctione primi tenet quod non est status in 
+              ha<lb ed="#P" n="115" break="no"/>bitibus spe differentibus: tamen est status in habitibus 
+              <lb ed="#P" n="116"/>eiusdem speciei: et sic conceditur quod si quis videret 
+              mul<lb ed="#P" n="117" break="no"/>tos homines successiue: aliquis eorum non producit 
+              spe<lb ed="#P" n="118" break="no"/>ciem vel habitum representantem illum: nec potest de illo 
+              <lb ed="#P" n="119"/>reminisci memoria singulari: ratio est secundum eum 
+              <lb ed="#P" n="120"/>qui omnia eiusdem speciei naturaliter simul receptibilia e 
+              <lb ed="#P" n="121"/>eodem informatiue praesent constituere aliquid vere vnum il 
+              <lb ed="#P" n="122"/>lius speciei: et de qualibet forma vnius speciei sub 
+              <lb ed="#P" n="123"/>ecto aliquo informatiue receptibili est dare tantum 
+              <lb ed="#P" n="124"/>quod non maius intensiueet naturalitur sine miraculo 
+              si<lb ed="#P" n="125" break="no"/>mul est receptibile in illo: ergo etiam et tot alicuius 
+              deter<lb ed="#P" n="126" break="no"/>minate perfectionis simul quod non paeles. Unam partem reci 
+              <lb ed="#P" n="127"/>pio quia dictis et dicendis rationi consentaneum iudicor 
+              <lb ed="#P" n="128"/>aliam partem reputo falsam scilicet quod detur status in 
+              habi<lb ed="#P" n="129" break="no"/>tibus eiusdem speciei. Unde sic arguo. capacitas anime pa 
+              f<lb ed="#P" n="130" break="no"/>siua est infinita et tantum in se recipe praet quantum agens praet 
+      <!--168.xml-->
+      <pb ed="#P" n="77-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>introducere in eam: et quoniam inter aliquos habitus 
+              eius<lb ed="#P" n="2" break="no"/>dem speciei nulla est repugnantia: et ad habitum anima 
+              <lb ed="#P" n="3"/>non cocurrit actiue sic non est status in habitu eiu 
+              <lb ed="#P" n="4"/>dem speciei.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1098">
+      ⁋ Secundo arguitur ad idem. signetur maximus 
+              <lb ed="#P" n="5"/>habitus possibilis naturaliter ad intentionem tuam: et 
+              <lb ed="#P" n="6"/>sit a conflata ex habitibus viginti homnium: vel notitia 
+              <lb ed="#P" n="7"/>sortis viginti vnius producit speciem vel habitum 
+              <lb ed="#P" n="8"/>vel non potest producere. si primum habeo propositum quod 
+              <lb ed="#P" n="9"/>non est status. si secundo quero abs te vnde hoc prouenit 
+              <lb ed="#P" n="10"/>cum enim secundus habitus non repugnet prioribus: et 
+              <lb ed="#P" n="11"/>anima non impediatur circa habitus: nisi voluntarie lo 
+              <lb ed="#P" n="12"/>quaris debes pariratione ponere statum in habiti 
+              <lb ed="#P" n="13"/>bus diuersarum specierum. Teneo itaque nullatenus 
+              <lb ed="#P" n="14"/>statum in habitibus quin quibuscumque habitibus datis in 
+              <lb ed="#P" n="15"/>anima ipsa posset habere plures et numero a specie 
+              <lb ed="#P" n="16"/>differentes.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1127">
+      ⁋ Et quando ille sic arguit: quia omnia eiusdem 
+              <lb ed="#P" n="17"/>speciei naturalter simul receptibilia in eodem infor 
+              <lb ed="#P" n="18"/>matiue possunt constituere etc.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1134">
+      ⁋ Insuper lac cum 
+              sum<lb ed="#P" n="19" break="no"/>ma albedine recipiet summam dulcedinem: et ita in 
+              <lb ed="#P" n="20"/>aliis qualitatibus specie differentibus: et tamen est status 
+              <lb ed="#P" n="21"/>in forma.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1143">
+      ⁋ Ad primum nego illud quod assumit nec 
+              <lb ed="#P" n="22"/>in hoc apparentiam video.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1148">
+      ⁋ Ad secundum dico: quod lac 
+              <lb ed="#P" n="23"/>quantum est de se / recipere potest infinitam albedinem: sed 
+              <lb ed="#P" n="24"/>quia agens non producit vltra albedinem datam: 
+              il<lb ed="#P" n="25" break="no"/>lam recipit et non aliam: et est simile: datur intensissimum 
+              <lb ed="#P" n="26"/>lumen de facto in orbe vel in aere productum a sole 
+              <lb ed="#P" n="27"/>si deus produceret alium solem (quod est bene possibile  
+              <lb ed="#P" n="28"/>magis illuminatiuum: et aer  orbes celestes 
+              inten<lb ed="#P" n="29" break="no"/>sius illuminarentur.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1167">
+      ⁋ Preterea: dato quod sit status 
+              <lb ed="#P" n="30"/>in intensissimo habitu: tamen non euitabitur propositum: pa 
+              <lb ed="#P" n="31"/>lam enim est animam posse exire in intensiorem actum cum 
+              <lb ed="#P" n="32"/>habitu quam sine eo: et tunc sic argumentor. anima adiuta 
+              <lb ed="#P" n="33"/>auxilio habitus potest exire in actum intensum vt vnde  
+              <lb ed="#P" n="34"/>cim que non poterat exire in actum nisi vt decem sine 
+              <lb ed="#P" n="35"/>habitu: sed quicquod deus facit cum causa secunda hoc 
+              po<lb ed="#P" n="36" break="no"/>test facere sine ea: alioquin non esset omnipotens cum 
+              <lb ed="#P" n="37"/>egeret ope cause secunde ad productionem vnius 
+              ef<lb ed="#P" n="38" break="no"/>fectus quem se solo producere nequit: ergo quicquid 
+              <lb ed="#P" n="39"/>potest producere cum habitu potest se solo: sed potest 
+              pro<lb ed="#P" n="40" break="no"/>ducere vndecim gradus actus cum habitu in intelle 
+              <lb ed="#P" n="41"/>ctu sortis: ergo e totidem potest producere sine 
+              ha<lb ed="#P" n="42" break="no"/>bitu: et non pure passiue se habebit. vt supra patuit 
+              <lb ed="#P" n="43"/>in productione vndecimi gradus. et qua ratione potest 
+              <lb ed="#P" n="44"/>producere vnum gradum: potest duos / tres / quattuor 
+              <lb ed="#P" n="45"/>et sic sine statu. ergo cum ope speciali dei anima potest habere 
+              <lb ed="#P" n="46"/>actum infinite intensum a quo vitaliter immutatur:: 
+              <lb ed="#P" n="47"/>ad quem concurrit.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1209">
+      ⁋ Sed tunc (dices) capacitas 
+              a<lb ed="#P" n="48" break="no"/>ctiua anime augetur
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1214">
+      ⁋ Respondetur per propositiones 
+              <lb ed="#P" n="49"/>Prima est: capacitas anime non potest augeri. bene enim 
+              <lb ed="#P" n="50"/>sequitur: capacitas anime potest augeri: et omnis 
+              capaci<lb ed="#P" n="51" break="no"/>tas anime est anima: ergo anima potest augeri in disamis 
+              <lb ed="#P" n="52"/>conclusio est falsa: et minor vera. ergo maior falsa 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1225">
+               <lb ed="#P" n="53"/>⁋ Secunda propositio. potest augeri capacitas 
+              acti<lb ed="#P" n="54" break="no"/>ua anime. patet: quia plura potest capere per auxilium spe 
+              <lb ed="#P" n="55"/>ciale dei. licet semper equaliter conetur: tamen ad 
+              cognitio<lb ed="#P" n="56" break="no"/>nem vel dilectionem plurium concurrit cum auxilio de 
+              <lb ed="#P" n="57"/>speciali quam cum concursu dei generali.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1238">
+      ⁋ Tertia 
+              pro<lb ed="#P" n="58" break="no"/>positio. licet capacitas passiua anime non sit res 
+              ma<lb ed="#P" n="59" break="no"/>ior quam actiua eiusdem: tamen ipsa est maior 
+              capaci<lb ed="#P" n="60" break="no"/>tas passiua quam actiua: semper loquendo de lege 
+              coni<lb ed="#P" n="61" break="no"/>anima enim potest recipere infinitos gradus habitus:  
+              <lb ed="#P" n="62"/>non potest vitaliter immutari cum illa influentia to 
+              <lb ed="#P" n="63"/>gradibus actus.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1254">
+      ⁋ Quarta proositio: respectu act 
+              <lb ed="#P" n="64"/>anima equalter recipit et immutatur: hoc est ipsa equalit 
+              <lb ed="#P" n="65"/>in agendo e recipiendo agit semper ad actum sicut 
+      <!--168.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 77rb -->
+               <lb ed="#P" n="66"/>ipsum recipit.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1271">
+      ⁋ Tertia propositio principalis. dabi 
+              <lb ed="#P" n="67"/>lis est intensissimus actus quem ania potest habere 
+              <lb ed="#P" n="68"/>cum influentia dei generali sine habitu vel cum 
+              habi<lb ed="#P" n="69" break="no"/>tu certe intensionis. Probatur: quia potentia acti 
+              <lb ed="#P" n="70"/>ua terminatur ad maximum in quod potest. primo de celo &amp; 
+              <lb ed="#P" n="71"/>mundo. et quicquid sit de minimo in quod non potest quando es 
+              <lb ed="#P" n="72"/>resistentia prorie dicta respectu potentie aciiue: tame 
+              <lb ed="#P" n="73"/>in maximum in proposito terminatur: quoniam actus est 
+              sa<lb ed="#P" n="74" break="no"/>lus anime: et hoc intelligitur cum concursu dei generali 
+              <lb ed="#P" n="75"/>qui concursus ad omnem effectum producibilem est 
+              ne<lb ed="#P" n="76" break="no"/>cessarius: experientia etiam docet finitatem 
+              poten<lb ed="#P" n="77" break="no"/>tiae actiue
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1297">
+      ⁋ Contra tertiam positionem arguitur sic 
+              <lb ed="#P" n="78"/>anima concurrit ad actum infinite intensum: ergo est 
+              in<lb ed="#P" n="79" break="no"/>finite potentie.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1304">
+      ⁋ Insuper: difficilius est habere 
+              du<lb ed="#P" n="80" break="no"/>os gradus actus quam vnum: et difficilius tres quam duos 
+              <lb ed="#P" n="81"/>et sic sine statu. ergo est infinite difficultatis habe 
+              <lb ed="#P" n="82"/>re actum infinite intensum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1313">
+      ⁋ Ad primum negatur consequenti 
+              <lb ed="#P" n="83"/>quando est infinitum auxilium extrinsecum: quemadmodum si 
+              <lb ed="#P" n="84"/>sortes traheret corpus infinite grauitatis cum 
+              infin<lb ed="#P" n="85" break="no"/>tis hominibus non est propterea maioris 
+              actiuita<lb ed="#P" n="86" break="no"/>tis quam si ferret vnam libra solum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1324">
+      ⁋ Ad secundum nego 
+              <lb ed="#P" n="87"/>antecedens de actu elicito quo ad gradus quis potest habe 
+              <lb ed="#P" n="88"/>re non est difficultas in actu voluntatis: et fit diffi 
+              <lb ed="#P" n="89"/>cultas si sine ope extrinseca nulla est coalescente 
+              <lb ed="#P" n="90"/>auxilio sicut coalescit effectus.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1335">
+      ⁋ Sed Adam in 
+              <lb ed="#P" n="91"/>questione prelata tenet quod anima separata vel 
+              ange<lb ed="#P" n="92" break="no"/>lus sine miraculo in statu patrie vbi corpus non 
+              ag<lb ed="#P" n="93" break="no"/>grauat animam: potest habere infinitas notitias 
+              syn<lb ed="#P" n="94" break="no"/>categorematice specie differentes equaliter 
+              perfe<lb ed="#P" n="95" break="no"/>ctas: et hoc concedit in puris naturalibus sine 
+              glo<lb ed="#P" n="96" break="no"/>ria: et ratio est (dicit) quod cognoscere aliquid non est ni 
+              <lb ed="#P" n="97"/>si potentiam cognitiuam habere cognitionem 
+              for<lb ed="#P" n="98" break="no"/>maliter: sed inter illas cognitiones nulla est 
+              repu<lb ed="#P" n="99" break="no"/>gnantia: sed vna potest stare cum vna. ergo cum 
+              <lb ed="#P" n="100"/>quibuscunque aliis.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1360">
+      ⁋ Insuper: hoc contingit de 
+              <lb ed="#P" n="101"/>habitibus: ergo a de actibus.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1365">
+      ⁋ Iste rationes non 
+              <lb ed="#P" n="102"/>concludunt propositum: et opinor oppositum verum 
+              <lb ed="#P" n="103"/>in primo enim argumento committit fallaciam non 
+              <lb ed="#P" n="104"/>cause vt cause. relinquit enim punctum quare anina 
+              <lb ed="#P" n="105"/>separata non potest habere infinitos actus cum 
+              in<lb ed="#P" n="106" break="no"/>fluentia dei generali a sine habitu: scilicet quod anima est 
+              <lb ed="#P" n="107"/>magis impedita cum pluribus actibus quam cum 
+              pau<lb ed="#P" n="108" break="no"/>cioribus. ergo tot possunt esse actus in anima quod ipsa 
+              <lb ed="#P" n="109"/>non poterit habere / plures stantibus prioribus. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1385">
+               <lb ed="#P" n="110"/>⁋ Ad secundum dico: quod consequentia est nulla: anima enim non 
+              <lb ed="#P" n="111"/>vitaliter immutatur ab habitu. patet in dormiente: fe 
+              <lb ed="#P" n="112"/>cus est in actu. Oregorius in. ii hunc doctorem sed 
+              <lb ed="#P" n="113"/>tur in notitiis actualibus: quarum habentur habitus 
+              <lb ed="#P" n="114"/>propter supplementum habitus: sed rationes eius 
+              <lb ed="#P" n="115"/>in quarto distinctione quarta euacuasse putamus. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1401">
+               <lb ed="#P" n="116"/>⁋ Sed pro elucidiori enucleatione questionis poe 
+              <lb ed="#P" n="117"/>non propositiones. Prima est: non datur maximum cor 
+              <lb ed="#P" n="118"/>pus possibile.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1410">
+      ⁋ Secunda propositio: non datur ma 
+              <lb ed="#P" n="119"/>xima multitudo creaturarum producibilium. 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1415">
+               <lb ed="#P" n="120"/>⁋ Tertia propositio. non datur maxima forma 
+              pos<lb ed="#P" n="121" break="no"/>sibilis quo ad intensionem.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1423">
+      ⁋ Quarta propositio. 
+              <lb ed="#P" n="122"/>gratia anime Christi est infinita intensiue. Due 
+              <lb ed="#P" n="123"/>prime propositiones patefiunt ex dictis cum 
+              au<lb ed="#P" n="124" break="no"/>xilio probationis tertie: que sic patet. vel illa 
+              for<lb ed="#P" n="125" break="no"/>ma est infinite intensa: vel adhuc deus potest ad  
+              <lb ed="#P" n="126"/>dere illi forme vnum gradum: quo facto erit ma 
+              <lb ed="#P" n="127"/>ior: quia continet tantundem et amplius: si teneat 
+              <lb ed="#P" n="128"/>deum non posse producere infinitum. patet propos 
+              <lb ed="#P" n="129"/>tio / quia si non: hoc est propter aliquas rationes addu  
+              <lb ed="#P" n="130"/>ctas vel adducibiles probantes aliquam formam finita 
+      <!--169.xml-->
+      <pb ed="#P" n="77-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>esse maximam possibilem: sed adducte sunt sophistice 
+              <lb ed="#P" n="2"/>nec video quonam pacto alique sunt adducibiles 
+              <lb ed="#P" n="3"/>ad probandum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1458">
+      ⁋ Quarta propositio probatur sic. quoc 
+              <lb ed="#P" n="4"/>est perfectionis attribuendum est anime Christi vb 
+              <lb ed="#P" n="5"/>non constat de opposito: ita quod si oportet ex ignoram 
+              <lb ed="#P" n="6"/>tia nostra in alterum istorumincidere: vel tribuendo 
+              il<lb ed="#P" n="7" break="no"/>li anime quod non habet: vel auferendo ab ea 
+              perfectio<lb ed="#P" n="8" break="no"/>nem quam habet: satius est incidere in primum: sed 
+              de<lb ed="#P" n="9" break="no"/>tens est habere magnam gratiam: et non repugnat 
+              <lb ed="#P" n="10"/>aliquam esse infinitam. vt in distin. xliiii. posterius 
+              elu<lb ed="#P" n="11" break="no"/>cescet: ergo etc.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1478">
+      ⁋ Item per aduersarios datur illi 
+              ani<lb ed="#P" n="12" break="no"/>me maxima gratia possibilis: addo illi positioni: quod 
+              <lb ed="#P" n="13"/>nulla est maxima possibilis finita: oportet enim quod 
+              <lb ed="#P" n="14"/>sit infinita. Sed hanc quartam propositionem prosequa 
+              <lb ed="#P" n="15"/>mur in. xiii. distinctione. iii.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1489">
+      ⁋ Contra secundam co 
+              <lb ed="#P" n="16"/>clusionem arguitur sic. omnes anime causabiles deus 
+              <lb ed="#P" n="17"/>potest causare: quo posito inesse deus nullas plures 
+              <lb ed="#P" n="18"/>potest causare nec aliquas alias. antecedens patet: quia istas ani 
+              <lb ed="#P" n="19"/>mas causabiles deus potest causare demonstrando 
+              <lb ed="#P" n="20"/>tres animas causabiles: et istas animas etc. potest causa 
+              <lb ed="#P" n="21"/>re et sic sine statu. ergo omnes animas causabile s 
+              <lb ed="#P" n="22"/>deus potest causare: tenet consequentia per 
+              ascen<lb ed="#P" n="23" break="no"/>sum.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1509">
+      ⁋ Forte dices: quod illa est vera capiendo omnis 
+              <lb ed="#P" n="24"/>distributiue: sed non capiendo collectiue.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1514">
+      ⁋ Con 
+              <lb ed="#P" n="25"/>tra hoc arguitur sic. omnes anime sunt causate: ergo omnes 
+              <lb ed="#P" n="26"/>anime possunt esse causate: ab esse ad posse sine signo 
+              <lb ed="#P" n="27"/>distributiuo. Sed dices (et ita dicendum est) consequentia non 
+              <lb ed="#P" n="28"/>valet cum signo collectiuo magis quam cum signo 
+              distri<lb ed="#P" n="29" break="no"/>butiuo. quemadmodum non sequitur: omnes homines cui 
+              <lb ed="#P" n="30"/>runt: ergo omnia animalia currunt.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1531">
+      ⁋ Sed contra hoc ar 
+              <lb ed="#P" n="31"/>gumentor. demonstro omnes homines possibiles qst 
+              <lb ed="#P" n="32"/>obiiciuntur intellectui diuino: isti homines possunt esse 
+              <lb ed="#P" n="33"/>causati: ergo possibile est istos omnes esse causatos. 
+              <lb ed="#P" n="34"/>illa est vera in sensu diuiso: ergo a in sensu 
+              composi<lb ed="#P" n="35" break="no"/>to.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1544">
+      ⁋ Sed dices non sequitur: iste possunt esse vere 
+              <lb ed="#P" n="36"/>demonstro duas contradictorias) ergo possibile 
+              <lb ed="#P" n="37"/>est istas duas esse veras: et regula illa non habet 
+              <lb ed="#P" n="38"/>verum in plurali numero. Proptrerea aliter 
+              ar<lb ed="#P" n="39" break="no"/>guitur. ista est indefinita: omnes anime causabiles 
+              <lb ed="#P" n="40"/>possunt esse causate siue omnes sit pars extremi 
+              <lb ed="#P" n="41"/>siue non: supponamus autem quod non sit pars 
+              extremi<lb ed="#P" n="42" break="no"/>iam anime causabiles stat confuse tantum copulatim. tunc 
+              <lb ed="#P" n="43"/>sic: iste anime causabiles demonstrando duas: et iste 
+              <lb ed="#P" n="44"/>demonstrando tres vel quattuor. et sic sine statu 
+              <lb ed="#P" n="45"/>possunt esse causate. ergo omnes anime causabiles pot 
+              <lb ed="#P" n="46"/>sunt esse causate copulatim ascendendo totum 
+              co<lb ed="#P" n="47" break="no"/>pulatum supponit. Quod patet: quia quelibet parso eius 
+              sup<lb ed="#P" n="48" break="no"/>ponit: ergo hoc praedicatum causate enunciatur de 
+              subie<lb ed="#P" n="49" break="no"/>cto cum modo possibilitatis: et ascendens est vera. igister 
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1577">
+               <lb ed="#P" n="50"/>⁋ Sed dices: totum subiectum non suppoit: et hoc constat 
+              <lb ed="#P" n="51"/>tenendo omnes esse partem extremi: quia nulle praesent esse omnes 
+              <lb ed="#P" n="52"/>anime causabiles: etiam anime causabiles non 
+              sup<lb ed="#P" n="53" break="no"/>ponit: coarctatur enima signo collectiuo stare secundum 
+              <lb ed="#P" n="54"/>exigentiam signi: vt in ista. quilibet homo currit: 
+              <lb ed="#P" n="55"/>in qua ly homo stat pro masculis tantum. et hoc patet: quia 
+              <lb ed="#P" n="56"/>istam concedimus: omnes apostoli dei pauciores duode 
+              <lb ed="#P" n="57"/>cim sunt duodecim: et omnes apostoli dei: qui sunt pau 
+              <lb ed="#P" n="58"/>ciores duodecim sunt duodecim: si ly qui referat 
+              <lb ed="#P" n="59"/>ly apostoli dei solum: et non hoc totum omnes apostoli 
+              <lb ed="#P" n="60"/>dei. et probabile est quod omnes non sit pars extremi: tamen 
+              <lb ed="#P" n="61"/>si apostoli dei pauciores duodecim non staret secundum 
+              <lb ed="#P" n="62"/>coarctationem signi collectiui illa esset falsa. vt pr 
+              <lb ed="#P" n="63"/>inter repugnantiam subiecti et paedicati.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1610">
+      ⁋ Sed 
+              di<lb ed="#P" n="64" break="no"/>ces: tunc in ista omnes apostoli dei sunt duodecim stat 
+              <lb ed="#P" n="65"/>solum pro omnibus: ergo non debemus descendere ad 
+      <!--169.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 77vb -->
+               <lb ed="#P" n="66"/>duos vel ad tres copulatim cum non capimus 
+              infe<lb ed="#P" n="67" break="no"/>riora illius termini apostoli dei: quia secundum 
+              acceptio<lb ed="#P" n="68" break="no"/>nem secundum quam capitur nulla pars copulati est 
+              in<lb ed="#P" n="69" break="no"/>ferior ad apostoli dei.
+            </p>
+            <p xml:id="jm12w4-e52106-d1e1632">
+      ⁋ Aid istud nego: quod non suf 
+              <lb ed="#P" n="70"/>ficienter descenditur: et transeat: quod nulla pars copu 
+              <lb ed="#P" n="71"/>lati sit inferior ad terminum illum. sufficit enim quod ille 
+              <lb ed="#P" n="72"/>simul sumpte complent inferioritatem respectu 
+              ter<lb ed="#P" n="73" break="no"/>mini: vt iste et iste demonstrando duodecim sunt apo 
+              <lb ed="#P" n="74"/>stoli dei: inferioritas saluatur per hoc quod destruantur. ist 
+              <lb ed="#P" n="75"/>et capiantur alii duodecimiapli: et ponendo illam in esse 
+              <lb ed="#P" n="76"/>seruetur similis coarctatio sicut in illa de possibili. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

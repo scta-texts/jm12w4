@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="44-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e29417"> <!--l1d9q1 -->
+            <head xml:id="jm12w4-e29417-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e29417-Hd1e109" type="question-title">
+      An Pater aliquo modo sit prior Filio?
+    </head>
+            <p xml:id="jm12w4-e29417-d1e112">
+               <lb ed="#P" n="31"/>⁋ Eidem quoque arrianice questioni 
+              Am<lb ed="#P" n="32" break="no"/>bio. in hunc modum respondet. Ego inquam. 
+            </p>
+            <p xml:id="jm12w4-e29417-d1e119">
+               <lb ed="#P" n="33"/>⁋ Distinctionis none questio vnica. 
+              <lb ed="#P" n="34"/>Irca distinctionem nonam in qua <name xml:id="jm12w4-e29417-Nd1e125" ref="#Lombard">Magister</name> 
+               <lb ed="#P" n="35"/>de coeternitate patris et filii agit: 
+              osten<lb ed="#P" n="36" break="no"/>dens patrem non paius fuisse quam filium. 
+              <lb ed="#P" n="37"/>Queritur an pater aliquo modo sit prior 
+              <lb ed="#P" n="38"/>filio.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e139">
+      ⁋ Premittemus aliquas acceptiones 
+              prio<lb ed="#P" n="39" break="no"/>ris ad nostrum propositum pertinentes: postea responde¬  
+              <lb ed="#P" n="40"/>bimus ad titulum questionis.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e146">
+      ⁋ Quintupliciter (vt ad 
+              <lb ed="#P" n="41"/>propositum sufficit) vna res dicitur prior alia: scilicet 
+              <lb ed="#P" n="42"/>eternitate / tempore / perfectione / natura et causali 
+              <lb ed="#P" n="43"/>tate.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e155">
+      ⁋ Eternitate prior est res eterna re non eterna: 
+              <lb ed="#P" n="44"/>sumendom eternum proprie pao incommutabili: et 
+              <lb ed="#P" n="45"/>non possibili non esse: aut aliter se habere. Isto mo 
+              <lb ed="#P" n="46"/>do sumit <name xml:id="jm12w4-e29417-Nd1e163" ref="#Augustine">Augustinus</name> libro octoginta trium questio 
+              <lb ed="#P" n="47"/>num q. xix. vbi ait: quod incommutabile est 
+              eter<lb ed="#P" n="48" break="no"/>num est. semper enim huiusmodi est. quod autem 
+              <lb ed="#P" n="49"/>commutabile est: tempori obnoxium est. non enim semper 
+              <lb ed="#P" n="50"/>huiusmodi est. et ideo eternum non recte dicitur et iiii de 
+              <lb ed="#P" n="51"/>trinitate capitulo xix ait: non enim poprie vocatur eter 
+              <lb ed="#P" n="52"/>num qud aliqua er parte mutatur. hoc est quod 
+              ali<lb ed="#P" n="53" break="no"/>quo modo mutabile est: et infert. inquantum ergo mu 
+              <lb ed="#P" n="54"/>tabiles sumus intantum ab eternitate distamus. Quo 
+              <lb ed="#P" n="55"/>fit si aliqua creatura infinito tempore fuisset adhuc 
+              <lb ed="#P" n="56"/>mutabilis esset: et deus immutabilis: et per consequens deus 
+              <lb ed="#P" n="57"/>eternitate prior esset quam illa. Cui sententie concordat 
+              <lb ed="#P" n="58"/>
+               <name xml:id="jm12w4-e29417-Nd1e192" ref="#Boethius">Boetius.</name> v. de consolatione philosophie. vbi ait: quod illi 
+              <lb ed="#P" n="59"/>errant quod cum audiunt visum fuisse platoni mundum 
+              <lb ed="#P" n="60"/>neque habere initium temporis neque finem habiturum: 
+              <lb ed="#P" n="61"/>putant hoc modo sequi quod deo sit mundus 
+              coeter<lb ed="#P" n="62" break="no"/>nus. Aliud est enim ( inquit) per interminabilem duci 
+              <lb ed="#P" n="63"/>vitam: quod plato mundo tribuit: aliud 
+              interminabi<lb ed="#P" n="64" break="no"/>lis vite totam pariter connexam esse praesentiam: quod 
+      <!--102.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 44rb -->
+               <lb ed="#P" n="65"/>divinae mentis proprium esse manifestum est. Neque enim 
+              <lb ed="#P" n="66"/>deus conditis rebus antiquior videri debet 
+              tempo<lb ed="#P" n="67" break="no"/>ris quantitate: sed simplicis potius proprietate 
+              na<lb ed="#P" n="68" break="no"/>ture. et isto modo non est possibile creaturam 
+              fuis<lb ed="#P" n="69" break="no"/>se ab etemo.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e227">
+      ⁋ Prius tempore est quod precedit 
+              <lb ed="#P" n="70"/>aliud.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e232">
+      ⁋ Prius perfectione dicitur omne 
+              perfe<lb ed="#P" n="71" break="no"/>etius respectu imperfectioris: saltem omne perfe 
+              <lb ed="#P" n="72"/>ctius est prius perfectione respectu 
+              imperfectio<lb ed="#P" n="73" break="no"/>ris.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e241">
+      ⁋ Prius natura dicitur vnum sine quo aliud  
+              <lb ed="#P" n="74"/>esse non potest: sed non econuerso. sicut capit 
+              phi<lb ed="#P" n="75" break="no"/>losophus prius natura. v. metaphysice capitulo de 
+              <lb ed="#P" n="76"/>priori. hoc modo anima est prior natura quam totum 
+              <lb ed="#P" n="77"/>compositum: et istud potest intelligi naturatiter vel 
+              <lb ed="#P" n="78"/>supernaturaliter. Et iste est vnus modus prioris ac 
+              <lb ed="#P" n="79"/>ceptus a philosopho in post paedicamentis: qui est 
+              <lb ed="#P" n="80"/>quando non conuertitur subsistendi consequantis.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e260">
+      ⁋ Pri 
+              <lb ed="#P" n="81"/>us causalitate vel secundum causam dicitur illud quod 
+              <lb ed="#P" n="82"/>est causa alterius: et non econuerso. &amp; istud potest du 
+              <lb ed="#P" n="83"/>pliciter intelligi: vel in eodem genere cause: vel in 
+              <lb ed="#P" n="84"/>diuersis generibus. et sic vnum potest esse causa al 
+              <lb ed="#P" n="85"/>terius: et econuerso cause sunt sibi inuicem cause. ii 
+              <lb ed="#P" n="86"/>physicorum.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e276">
+      ⁋ his premissis ponuntur tres con 
+              <lb ed="#P" n="87"/>clusiones.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e281">
+      ⁋ Prima est pater non prior est filio eter 
+              <lb ed="#P" n="88"/>nitate / tempore / perfectione / aut natura. probatio. 
+              <lb ed="#P" n="89"/>pater a filius sunt vnus et idem simplex deus. ergo 
+              <lb ed="#P" n="90"/>pater non est prior filio eternitate / tempore / perfectio 
+              <lb ed="#P" n="91"/>ne / vel natura. antecedens est de fide: consequentia 
+              <lb ed="#P" n="92"/>est clara.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e294">
+      ⁋ Secunda. pater est prior filio produci  
+              <lb ed="#P" n="93"/>bilitate.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e299">
+      ⁋ Tertiam conclusio filius fuit ab eterno. 
+              <lb ed="#P" n="94"/>Iste due conclusiones ex fide habentur vt patet 
+              <lb ed="#P" n="95"/>per symbola apostolorum ephesinum a athanasii ibi 
+              <lb ed="#P" n="96"/>in hac trinitate nihil prius aut posterius: nihil ma 
+              <lb ed="#P" n="97"/>us aut minus. Sed tote tres personae coeterne 
+              si<lb ed="#P" n="98" break="no"/>bi sunt et coequales. Probatur tertia conclusio 
+              <lb ed="#P" n="99"/>ratione filius est deus. ergo fuit ab eterno. ergo pater 
+              <lb ed="#P" n="100"/>non fuit prius filio.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e317">
+      ⁋ Sed contra istam conclusionem tertiam ar 
+              <lb ed="#P" n="101"/>guitur sic. omne producens est prius producto ab 
+              <lb ed="#P" n="102"/>illo: ergo pater est prior filio instanti vel tempore. 
+              <lb ed="#P" n="103"/>consequentia patet: quia pater producit filium. antecedens 
+              <lb ed="#P" n="104"/>probatur dupliciter. Tum primo per <name xml:id="jm12w4-e29417-Nd1e327" ref="#Augustine">Augustinum</name> 
+               <lb ed="#P" n="105"/>de immortalitate anime. capite tertio. nulla res se facit 
+              <lb ed="#P" n="106"/>aut gignit: alioquin erat antequam esset. si hoc falsum 
+              <lb ed="#P" n="107"/>est verum est illud, consequentia autem nulla esset ni 
+              <lb ed="#P" n="108"/>si verum sit quod quodlibet faciens vel gignens sit an 
+              <lb ed="#P" n="109"/>tequam sit illud quod ab eo gignitur. et omne producens 
+              <lb ed="#P" n="110"/>sit paiuo producto ab illo. Tum secundo idem pro 
+              <lb ed="#P" n="111"/>batur per philosophum q. xii. metaphysice causas agentes 
+              <lb ed="#P" n="112"/>et mouentes dicit differre a formalibus: in hoc quod ipse prae 
+              <lb ed="#P" n="113"/>cedunt res quarum sunt causae: formales autem non praecedunt:  
+              <lb ed="#P" n="114"/>sed sunt simul. Et Commentator ibidem commento. xvi. causa 
+              <lb ed="#P" n="115"/>inquit agens differt a formali: quia agens praecedit illo quod 
+              <lb ed="#P" n="116"/>agitur: a mouetur ab eo. formatis autem materialis est 
+              <lb ed="#P" n="117"/>cum geneatione. Et infra ponens exemplum philoso 
+              <lb ed="#P" n="118"/>phus ait. quod sanitas non precedit hominem sanum: qui 
+              <lb ed="#P" n="119"/>sanitas in sano est quasi forma. sanans autem necesse 
+              <lb ed="#P" n="120"/>est vt precedat sanitatem, necesse est etiam secundum 
+            </p>
+            <p xml:id="jm12w4-e29417-d1e367">
+               <lb ed="#P" n="121"/>⁋ Commentatorem agens praecedere actum ab eo produ-  
+              <lb ed="#P" n="122"/>cens productum.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e374">
+      ⁋ Ad hoc dicitur si capiatur prius pro priorita 
+              <lb ed="#P" n="123"/>te productibilitatis vel originis: conceditur. si pro 
+              <lb ed="#P" n="124"/>prioritate eternitatis temporis: perfectionis vel natu 
+              <lb ed="#P" n="125"/>re negatur. non mirandum autem est quod filius producatur a patre 
+              <lb ed="#P" n="126"/>et sit illi coeuus: ita enim contingit in aliqua causa na 
+              <lb ed="#P" n="127"/>turali a suo effectu. Nam si ignis fuisset ab eterno / splen 
+              <lb ed="#P" n="128"/>dor ignis fuisset ab eterno secundum <name xml:id="jm12w4-e29417-Nd1e389" ref="#Augustine">Augustinum.</name> vi. de 
+              <lb ed="#P" n="129"/>trinitate capitulo primo. nec philosophus vult quod agens vel 
+      <!--103.xml-->
+      <pb ed="#P" n="44-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mouens praecedit tempore illud quod fit vel mouetur. intelli 
+              <lb ed="#P" n="2"/>gentia enim celum mouens / non praecedit tempore celum ne 
+              <lb ed="#P" n="3"/>motum eius.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e408">
+      ⁋ Secundo arguitur: ista: filius dei est 
+              <lb ed="#P" n="4"/>natus: nunquam habuit hanc de praesenti veram filius 
+              <lb ed="#P" n="5"/>dei nascitur. quia si interdum illa erat vera: filius 
+              <lb ed="#P" n="6"/>dei nascitur: semper fuisset vera si fuisset formata 
+            </p>
+            <p xml:id="jm12w4-e29417-d1e417">
+               <lb ed="#P" n="7"/>⁋ Respondetur. vtraque est de praesenti adhuc dato 
+              <lb ed="#P" n="8"/>quod natus capiatur participialiter. <name xml:id="jm12w4-e29417-Nd1e423" ref="#Lombard">Magister</name> enim in li 
+              <lb ed="#P" n="9"/>tera adducit auctoritates patrum an vtraque illarum 
+              <lb ed="#P" n="10"/>debeat concedi. Et citat originem: <name xml:id="jm12w4-e29417-Nd1e431" ref="#Augustine">augustinu:</name> hilari 
+              <lb ed="#P" n="11"/>um: et grego. et eos conuenire: et rationabiliter 
+              fa<lb ed="#P" n="12" break="no"/>cit quod vtraque istarum debeat concedi. Sed satius 
+              <lb ed="#P" n="13"/>ista conceditur filius est semper natus / quam ista: filius 
+              sem<lb ed="#P" n="14" break="no"/>per nascitur. propterea ca. xiiii. huius distinctionis 
+              <lb ed="#P" n="15"/>inquit: dicamus ergo filium natum ante tempura: et sem 
+              <lb ed="#P" n="16"/>per nasci de patre: sed congruentius semper natum e 
+              <lb ed="#P" n="17"/>eundem ab eterno semper esse. Sicut res que suc 
+              <lb ed="#P" n="18"/>cessiue producitur hoc perfectionis habet: quod quando fit est: 
+              <lb ed="#P" n="19"/>hoc im perfectiouis habet: quando facta est non est 
+              <lb ed="#P" n="20"/>res permanens quo ad esse et successiua quo ad fic 
+              <lb ed="#P" n="21"/>ri. hoc imperfectionis habet in fieri non est: sed hoc 
+              <lb ed="#P" n="22"/>perfectionis capit: quod quando dicitur facta est / sic 
+              perfe<lb ed="#P" n="23" break="no"/>ctionem similitudinariam persona filii capit non quod de 
+              <lb ed="#P" n="24"/>nouo incipit esse: sed quod semper generatur et semper 
+              <lb ed="#P" n="25"/>genita est.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e467">
+      ⁋ Dubitatur an sit aliquis ordo origiu 
+              <lb ed="#P" n="26"/>nis in diuinis.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e472">
+      ⁋ hic multi quendam doctorem 
+              impu<lb ed="#P" n="27" break="no"/>gnant de istis signis originis. eo quod dicat patrem in 
+              <lb ed="#P" n="28"/>primo signo originis: filium in secundo: spiritum san 
+              <lb ed="#P" n="29"/>ctum in tertio. Sed nodus rei est pro quo supponit 
+              <lb ed="#P" n="30"/>hoc complexum signum originis Et in primis dicitur quod hic 
+              <lb ed="#P" n="31"/>doctor non sententialiter differt ab aliis: cum filium e spiri 
+              <lb ed="#P" n="32"/>tum sanctum ponat ab eterno fuisse cum patre: nec patrem 
+              <lb ed="#P" n="33"/>eos praecessisse per instans vel tempus. hoc complexum primum 
+              <lb ed="#P" n="34"/>signum originis supponit pro ipsomet patre. et illa 
+              <lb ed="#P" n="35"/>constructio transitiua capitur loco vnius intransi 
+              <lb ed="#P" n="36"/>tiue. vt iustitia dei: vel misericordia est in deo hoc 
+              <lb ed="#P" n="37"/>ergo complexum primum signum originis supponit pro 
+              <lb ed="#P" n="38"/>patre connotando quod est prima origo in diuinis. hoc 
+              <lb ed="#P" n="39"/>est a nullo alio procedit. Sed quaelibet alia persona in 
+              <lb ed="#P" n="40"/>diuinis est a patre filius est in secundo signo origi 
+              <lb ed="#P" n="41"/>nis eodem modo identice: quia est a solo patre: spiri 
+              <lb ed="#P" n="42"/>tus sanctus est in tertio signo: quia ab vtraque prsona 
+              <lb ed="#P" n="43"/>emanat. Et quia est emanatio (vt fide constat) diui 
+              <lb ed="#P" n="44"/>narum personarum inter se: Filius est origo spiritus san 
+              <lb ed="#P" n="45"/>cti. sicut et pater. propter nostram intelligentiam dicit 
+              <lb ed="#P" n="46"/>spiritum sanctum esse in tertio signo originis. quia not 
+              <lb ed="#P" n="47"/>ita intelligimus in creaturis. si / a / sit causab / etl 
+              <lb ed="#P" n="48"/>sit causaic / dicimus quod est aliqua prioritas temporis 
+              <lb ed="#P" n="49"/>instantis / vel nature inter a et b: pariter inter b et c 
+              <lb ed="#P" n="50"/>Sic licet non sit vsitatus modus loquendi doctorum 
+              <lb ed="#P" n="51"/>dicere patrem esse causam filii: tamen est eius origo: et si 
+              <lb ed="#P" n="52"/>sententialiter non discrepat ab aliis: sed solum est 
+              mo<lb ed="#P" n="53" break="no"/>dus differendi vbalis.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e534">
+      ⁋ Serson in secunda lectione 
+              <lb ed="#P" n="54"/>super Marcum circa medium et plerique alii subsannam 
+              <lb ed="#P" n="55"/>ista inania signa originis. et imitatores istius 
+              docto<lb ed="#P" n="56" break="no"/>ris sunt in causa non descendentes ad rationem sed 
+              <lb ed="#P" n="57"/>ad suparficiem verborum contra intentionem docto 
+              <lb ed="#P" n="58"/>ris.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e547">
+      ⁋ Potest etiam non inconuenienter dici quod ille 
+              pro<lb ed="#P" n="59" break="no"/>positiones de actibus exercitis capiuntur loco 
+              pro<lb ed="#P" n="60" break="no"/>positionum de actibus signatis. Pater est in prime 
+              <lb ed="#P" n="61"/>signo originis: id est significatur per primum signunm 
+              <lb ed="#P" n="62"/>originis. syllogismus est in barbara vel darii. diffi 
+              <lb ed="#P" n="63"/>nitio e diffinitum sunt idem. sicut creberrime noina 
+              <lb ed="#P" n="64"/>les loquuntur. generare est prius origine quam spira 
+              <lb ed="#P" n="65"/>re: quia generare secundum multos et eum est per mo 
+      <!--103.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 44vb -->
+               <lb ed="#P" n="66"/>dum intellectus: spirare autem per modum voluntatis 
+              <lb ed="#P" n="67"/>et quia ita est in aliis quod actus intellectus praecedit actum 
+              <lb ed="#P" n="68"/>voluntatis iuxta illud vulgare beati <name xml:id="jm12w4-e29417-Nd1e577" ref="#Augustine">Augustini:</name> in 
+              <lb ed="#P" n="69"/>uisa diligere possumus: incognita nequamquam. Sic quo ad 
+              <lb ed="#P" n="70"/>nostram intelligentiam dicatur generare esse in aliquo signo 
+              <lb ed="#P" n="71"/>priori quam spirare.
+            </p>
+            <p xml:id="jm12w4-e29417-d1e587">
+      ⁋ Si potes dicere de praedicatis et 
+              <lb ed="#P" n="72"/>sentialibus in ordine ad notionalia et personalia 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

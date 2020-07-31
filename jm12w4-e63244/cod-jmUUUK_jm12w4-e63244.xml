@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="91-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e63244"> <!--l1d33et34q1 -->
+            <head xml:id="jm12w4-e63244-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e63244-Hd1e109" type="question-title">
+      Utrum in Deo persona vel proprietas personalis
+      distinguatur ab essentia divina seu deitati communi
+      personarum aliquo modo ex natura rei seu circumscripta
+      omni operatione animae?
+    </head>
+            <p xml:id="jm12w4-e63244-d1e112">
+               <lb ed="#P" n="112"/>⁋ Post supradicta vlterius considerari 
+              at<lb ed="#P" n="113" break="no"/>que subtiliter inquiri oportet. Utrum propetates. 
+            </p>
+            <p xml:id="jm12w4-e63244-d1e119">
+               <lb ed="#P" n="114"/>⁋ Distinct. xxxiii. et xxxiiii. questio vnica. 
+              <lb ed="#P" n="115"/>Irca distinctiones trigesimantertiam et tri 
+              <lb ed="#P" n="116"/>gesimamquartam. Queritur vtrum in deo 
+              per<lb ed="#P" n="117" break="no"/>sona vel proprietas parsonalis distinguat 
+              <lb ed="#P" n="118"/>ab essentia diuina seu deitati communi perso 
+              <lb ed="#P" n="119"/>narum aliquo modo ex natura rei seu cit 
+              <lb ed="#P" n="120"/>cunscripta omni operatione anime.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e138">
+      ⁋ Responden 
+              <lb ed="#P" n="121"/>per duas conclusiones.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e143">
+      ⁋ Prima conclusio est.
+              essen<lb ed="#P" n="122" break="no"/>tia diuina non distinguitur a persona vel personis 
+              <lb ed="#P" n="123"/>in diuinis. Probatio: quia bene sequitur: essentia
+              di<lb ed="#P" n="124" break="no"/>tina distinguitur a persona: ergo essentia diuina 
+              <lb ed="#P" n="125"/>non est persona: ab exponibili copulatiue ad 
+              alte<lb ed="#P" n="126" break="no"/>ram eius exponentem, consequens est falsum: 
+              er<lb ed="#P" n="127" break="no"/>go et antecedens. Oppositum antecedenti est 
+              con<lb ed="#P" n="128" break="no"/>clusio posita. falsitas consequentis patet extra de 
+              <lb ed="#P" n="129"/>summa trinitate et fide catholica ca. damnamus. 
+      <!--197.xml-->
+      <pb ed="#P" n="91-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="jm12w4-e63244-d1e169">
+               <lb ed="#P" n="1"/>⁋ Secunda conclusio: ista praedicatio non est
+              forma<lb ed="#P" n="2" break="no"/>lis: essentia est pater. capio formale vt tantum
+              va<lb ed="#P" n="3" break="no"/>leat quantum in primo modo dicendi per se: quia sic 
+              ali<lb ed="#P" n="4" break="no"/>qui vtuntur vocabulo: conclusio est clara: nunquam eis 
+              <lb ed="#P" n="5"/>terminus vnius praedicamenti praedicatur
+              quiddita<lb ed="#P" n="6" break="no"/>tiue ei essentialiter de termino alterius 
+              praedicamen<lb ed="#P" n="7" break="no"/>ti: immo neque essentialiter nisi fuerit differentia
+              ma<lb ed="#P" n="8" break="no"/>gis poprie dicta: quod in proposito non contingit 
+              <lb ed="#P" n="9"/>pater aut est de praedicamento ad aliquid seu
+              rela<lb ed="#P" n="10" break="no"/>tionis: et essentia non est de illo praedicamento.
+              Si<lb ed="#P" n="11" break="no"/>cut enim dicimus in aliis: iste non sunt formales 
+              pre<lb ed="#P" n="12" break="no"/>dicationes: pater est animat: similitudo est qualitas 
+              <lb ed="#P" n="13"/>licet eadem res sit pater a animal: similitudo e
+              quali<lb ed="#P" n="14" break="no"/>tas secundum modum loquendi <ref xml:id="jm12w4-e63244-Rd1e201">
+                  <name xml:id="jm12w4-e63244-Nd1e203" ref="#Augustine">Augustini</name> quinto 
+              <lb ed="#P" n="15"/>de trinitate</ref> dicentis: quod nullum illorum que
+              relati<lb ed="#P" n="16" break="no"/>ue dicuntur dicitur secundum substantiam. nec
+              ta<lb ed="#P" n="17" break="no"/>men omne tale dicitur secundum accidens: vt 
+              pa<lb ed="#P" n="18" break="no"/>tet <ref xml:id="jm12w4-e63244-Rd1e216">illic cap. quinto</ref>. Et <ref xml:id="jm12w4-e63244-Rd1e219">septimo de trinitate 
+              capi<lb ed="#P" n="19" break="no"/>tulo quarto</ref>. dicit: quod aliud est deum esse et patrem 
+              <lb ed="#P" n="20"/>esse. Et <ref xml:id="jm12w4-e63244-Rd1e226">
+                  <name xml:id="jm12w4-e63244-Nd1e228" ref="#Anselm">anselmus</name> in libro de processione spiritus 
+              <lb ed="#P" n="21"/>sancti cap. ii.</ref> dicit. non est enim inquit idem deum 
+              <lb ed="#P" n="22"/>esse quod est esse patrem aut filium: et quia hec est formalis 
+              <lb ed="#P" n="23"/>homo est animal ideo dicitur quod esse hominem est esse animal 
+            </p>
+            <p xml:id="jm12w4-e63244-d1e240">
+               <lb ed="#P" n="24"/>⁋ De talibus: pater formaliter est deitas: quidam 
+              distin<lb ed="#P" n="25" break="no"/>tunt penes sensum compositum et diuisum. set istud non 
+              <lb ed="#P" n="26"/>videatur logicum nec conforme principiis modalium 
+              <lb ed="#P" n="27"/>nec est conuenientia in terminis. Pater formaliter 
+              <lb ed="#P" n="28"/>est deus in sensu composito est falsa. sensus enim hu 
+              <lb ed="#P" n="29"/>ius est: hec est formalis pater est deus: siue in primo 
+              <lb ed="#P" n="30"/>modo dicendi per se quod idem est: quod liquet esse falsum. 
+              <lb ed="#P" n="31"/>In sensu diuiso illa est vesra: per illam autem non denotatur 
+              <lb ed="#P" n="32"/>quod sua de inesse sit in primo modo per seitatis: capiendo 
+              <lb ed="#P" n="33"/>pro de inesse terminos reliquos dempto modo: sed 
+              <lb ed="#P" n="34"/>sufficit quod praedicatio in qua idem praedicatum praedicatur 
+              <lb ed="#P" n="35"/>de promine demonstrante illud pro quo subiectum 
+              <lb ed="#P" n="36"/>supponit est formalis: nam demonstrato eo pro quo 
+              <lb ed="#P" n="37"/>supponit: hec est formalis: hoc est deitas. Et in si 
+              <lb ed="#P" n="38"/>mili patet intelligenti logicam. album est animal: non 
+              <lb ed="#P" n="39"/>est quidditatiua: et tamen signato albo
+              demonstra<lb ed="#P" n="40" break="no"/>to hec est quidditatiua: hoc est animal.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e279">
+      ⁋ Contra 
+              <lb ed="#P" n="41"/>primam conclusionem arguitur sic. de quibuscumque ve 
+              <lb ed="#P" n="42"/>rificantur praedicata contradictoria (si quodlibbet est 
+              <lb ed="#P" n="43"/>res) sunt distincte res: sed de patre a essentia ver 
+              <lb ed="#P" n="44"/>ficantur duo contradictoria: verificatur enim de 
+              <lb ed="#P" n="45"/>patre quod generat et de essentia verificatur quod non 
+              ge<lb ed="#P" n="46" break="no"/>nerat: vt patet in capitulo allegato damnamus. et 
+              con<lb ed="#P" n="47" break="no"/>stat quod tam pater quam essentia est res: ergo essentia et 
+              <lb ed="#P" n="48"/>pater snt distincte res. maior est euidens. nam 
+              ali<lb ed="#P" n="49" break="no"/>as sequeretur quod de aliquibus pro eodem omnino 
+              <lb ed="#P" n="50"/>supponentibus verificarentur contradictoria 
+              praedica<lb ed="#P" n="51" break="no"/>ta: et per consequens contradictoria aliqua erunt si 
+              <lb ed="#P" n="52"/>mul vera: quod est impossibile.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e308">
+      ⁋ Respondetur quod si maior tea 
+              <lb ed="#P" n="53"/>telligatur quod de quibuscumque etc. illa sunt res distincte 
+              <lb ed="#P" n="54"/>intur se: ita quod res quae est vna non est alia: propositio est fela 
+              <lb ed="#P" n="55"/>nec contradictoria verificabuntur de eodem licet non 
+              <lb ed="#P" n="56"/>sit distinctio vnius rei ab alia: tamen non est omnino idem 
+              <lb ed="#P" n="57"/>nec est conuertibilitas inter illos terminos. Vel sic. 
+              <lb ed="#P" n="58"/>illa maior est vera quando illa de quibus 
+              vifican<lb ed="#P" n="59" break="no"/>tur contradictoris sunt ad inuicem res distincte. 
+              pri<lb ed="#P" n="60" break="no"/>dicationes autem huius modi non sunt contradictorie 
+              <lb ed="#P" n="61"/>nec eas inferentes: impossibile enim est contradictoria 
+              <lb ed="#P" n="62"/>esse vera de quibuscunque extremis fuerint: cum au 
+              <lb ed="#P" n="63"/>tem ex tali verificatione praedicatorum 
+              contradi<lb ed="#P" n="64" break="no"/>ctoriorum non sequitur aliquas praedicationes esse 
+              <lb ed="#P" n="65"/>veras posito quod illa pro quibus verificantur non sunt 
+      <!--197.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 91vb -->
+               <lb ed="#P" n="66"/>res distincte adinuicem: tunc ex tali verificatione 
+              <lb ed="#P" n="67"/>non necessario arguitur res esse distinctas: nec ex 
+              <lb ed="#P" n="68"/>talibus praedicationibus illa maior verum habet: et ra 
+              <lb ed="#P" n="69"/>tio est: quia finalis probatio illius resoluitur ad hoc quod 
+              <lb ed="#P" n="70"/>contradictoris sunt vera: sed propositiones in quibus 
+              <lb ed="#P" n="71"/>verificantur illa praedicata non sunt contradictorie. 
+              <lb ed="#P" n="72"/>quoniam pater a essentia diuina non sunt termini 
+              syno<lb ed="#P" n="73" break="no"/>nymi. nec tales propositiones inferunt contradictori 
+              <lb ed="#P" n="74"/>as vt patuit superius distinctionibus quarta  qui 
+              <lb ed="#P" n="75"/>ta: vbi specialem mentionem de contradictoriis feci 
+              <lb ed="#P" n="76"/>mus in diuinis. Nec sequitur quod tunc perit omnis via pro 
+              <lb ed="#P" n="77"/>bandi aliqua esse adinuicem distincta: quia per 
+              possibili<lb ed="#P" n="78" break="no"/>tatem separationis vnius ab alio e corruptionis cum 
+              <lb ed="#P" n="79"/>constantia alterius vt de materia et forma probauit 
+              <lb ed="#P" n="80"/>
+               <name xml:id="jm12w4-e63244-Nd1e377" ref="#Aristotle">Aristoteles</name> primo physicorum: reperitur modus distin 
+              <lb ed="#P" n="81"/>guendi res.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e384">
+      ⁋ Secundo arguitur sic. hec essentia est ex 
+              <lb ed="#P" n="82"/>natura rei formaliter infinita et necesse esse: propetas 
+              <lb ed="#P" n="83"/>ex se non est necesse esse: nec formaliter infinita ergo 
+              <lb ed="#P" n="84"/>essentia et proprietas ex natura rei distinguntur. 
+              pri<lb ed="#P" n="85" break="no"/>ma pars ancedentis coniter conceditur: et secunda probatur. 
+              <lb ed="#P" n="86"/>qui si sic in diuinis essent tria infinita et tria necesse es 
+              <lb ed="#P" n="87"/>se: contra illud athanasii in symbolo: non tres immensi 
+              <lb ed="#P" n="88"/>sed vnus immensus.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e402">
+      ⁋ Preterea essentia est perfectio 
+              <lb ed="#P" n="89"/>simpliciter secundum <name xml:id="jm12w4-e63244-Nd1e406" ref="#Anselm">Anselmum</name> mono. xv. proprietas non est 
+              <lb ed="#P" n="90"/>perfectio simpliciter: alioquin cuilibet persone diuine 
+              <lb ed="#P" n="91"/>aliqua perfectio simpliciter deesset: et sic nulla esset 
+              <lb ed="#P" n="92"/>summe perfecta.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e416">
+      ⁋ Ad primum istorum nego quod 
+              pro<lb ed="#P" n="93" break="no"/>prietas non est necesse esse nec formaliter infinita 
+              <lb ed="#P" n="94"/>accipiendo proprietatem pro persona ipsa. et quando infers: 
+              <lb ed="#P" n="95"/>tunc essent tria infinita esse et necesse esse. si 
+              intelli<lb ed="#P" n="96" break="no"/>gas quod sunt tres persone quarum quelibet est 
+              infini<lb ed="#P" n="97" break="no"/>ta et necesse esse conceditur: tamen non sequitur quod sunt tres 
+              <lb ed="#P" n="98"/>diuinitates. Sicut in simili. sunt tres persone qua 
+              <lb ed="#P" n="99"/>rum quaelibet est deus: non tamen propterea sequitur quod 
+              <lb ed="#P" n="100"/>sunt tres dii: sicut <name xml:id="jm12w4-e63244-Nd1e435" ref="#Augustine">Augustinus</name> dicit. vii. de trini. ca. 
+              <lb ed="#P" n="101"/>vi.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e441">
+      ⁋ Ad aliud dicitur quod quelibet proprietas est 
+              per<lb ed="#P" n="102" break="no"/>fectio simpliciter: quia ipsa est deitas. Quis enim 
+              po<lb ed="#P" n="103" break="no"/>test vocare distinctionem formalem inter aliqua 
+              <lb ed="#P" n="104"/>quando sic se habent quod supponunt pro eodem singu 
+              <lb ed="#P" n="105"/>lari: et aliquid dicitur de vno quod non dicitur de alio 
+              <lb ed="#P" n="106"/>et contra. Sed de hoc non est vis: quia nomina signifi 
+              <lb ed="#P" n="107"/>cant ad placitum: sed non propterea ponenda est alt 
+              <lb ed="#P" n="108"/>qua formalitas distincta a re ipsa.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e459">
+      ⁋ Ex his patet 
+              <lb ed="#P" n="109"/>cum suffragio dictorum de relationibus distinctio 
+              <lb ed="#P" n="110"/>ne. xxx. quod sapientia et paternitas non sunt termini 
+              <lb ed="#P" n="111"/>synon yemi.
+            </p>
+            <p xml:id="jm12w4-e63244-d1e468">
+      ⁋ Secundo patet quod sapientia dei est paterni 
+              <lb ed="#P" n="112"/>tas dei: iustitia dei est misericordia dei. sed propter 
+              <lb ed="#P" n="113"/>aliam et aliam ad creaturas habitudinem deo simplici et 
+              <lb ed="#P" n="114"/>indiuisibili alia et alia praedicata attribuimus. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

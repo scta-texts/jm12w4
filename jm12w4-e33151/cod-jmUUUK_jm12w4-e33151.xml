@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="49-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e33151"> <!--l1d17q3 -->
+            <head xml:id="jm12w4-e33151-Hd1e106">Quaestio 3</head>
+            <head xml:id="jm12w4-e33151-Hd1e109" type="question-title">
+      An actus elicitus a maiori gratia sit magis meritorius?
+    </head>
+            <p xml:id="jm12w4-e33151-d1e112">
+               <lb ed="#P" n="47"/>⁋ Re autem in retanta aliquid de nostro in 
+              <lb ed="#P" n="48"/>fluere videamur sacris auctoritar ibus. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e119">
+               <lb ed="#P" n="49"/>⁋ Distinctionis decimeseptime questio tertia. 
+              <lb ed="#P" n="50"/>Ertio circa hanc distinctionem Quo 
+              <lb ed="#P" n="51"/>ro de causalitate gratie an actus 
+              <lb ed="#P" n="52"/>elicitus a maiori gratia sit magis 
+              <lb ed="#P" n="53"/>ique Imeritorius /
+            </p>
+            <p xml:id="jm12w4-e33151-d1e133">
+      ⁋ Pono conclusiones. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e136">
+               <lb ed="#P" n="54"/>⁋ Prima est: non omnis actus 
+              pro<lb ed="#P" n="55" break="no"/>q dcedens ex maiori gratia est magis 
+              <lb ed="#P" n="56"/>meritorius. Probatio: quia illo dato sequitur quod 
+              le<lb ed="#P" n="57" break="no"/>uare festucam: vel mouere digitum in aere propter 
+              <lb ed="#P" n="58"/>deum a maiori gratia esset magis meritorium quam edi 
+              <lb ed="#P" n="59"/>ficare templum a minori gratia: ve perpessio 
+              mar<lb ed="#P" n="60" break="no"/>tyrii: hoc est falsum: et licet ab antiquis doctoribus 
+              <lb ed="#P" n="61"/>concessum: ita absurdum est: vt impugnatione non 
+              <lb ed="#P" n="62"/>egeat.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e158">
+      ⁋ Secundo arguitur ad idem sic: non solum 
+              <lb ed="#P" n="63"/>respiciendum est ad gratiam: sed ad conatum: modo  
+              <lb ed="#P" n="64"/>cum minori gratia potest esse maior conatus: sed no 
+              <lb ed="#P" n="65"/>quilibet gradus gratie pius facit ad rationem meriti 
+      <!--112.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 49rb -->
+               <lb ed="#P" n="66"/>quam quicunque conatus: ergo sic potest crescere 
+              cona<lb ed="#P" n="67" break="no"/>tus: quod vna portio eius veniat ad equalitatem 
+              gra<lb ed="#P" n="68" break="no"/>tie in valore actus: vtputa essent octo gradus 
+              cona<lb ed="#P" n="69" break="no"/>tus cum vno gradu gratie: et duo gradus gratie cunm 
+              <lb ed="#P" n="70"/>vnico gradu conatus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e184">
+      ⁋ Secunda conclusio: 
+              imperti<lb ed="#P" n="71" break="no"/>nens est magnitudo gratiae ad magnitudinem meriti. 
+              <lb ed="#P" n="72"/>Probatur: stat cum magna gratia habere paruum meritum: 
+              <lb ed="#P" n="73"/>cum parua gratia habere magnum meritum: vt patet ex prio 
+              <lb ed="#P" n="74"/>ri.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e195">
+      ⁋ Tertiam conclusio. licet gratia et conatus 
+              requi<lb ed="#P" n="75" break="no"/>rantur ad actum meritorium: tamen conatus pius 
+              <lb ed="#P" n="76"/>facit ad actum meritorium quam gratia. Quid ambo 
+              requi<lb ed="#P" n="77" break="no"/>rantur patet ex premissis. Quod secundum pius facit pa 
+              <lb ed="#P" n="78"/>tet: quia magnus conatus cum parua gratia facit actum 
+              <lb ed="#P" n="79"/>multum meritorium: magna autem gratia cum paruo 
+              <lb ed="#P" n="80"/>conatu non facit actum multum meritorium: igitur 
+              <lb ed="#P" n="81"/>conatus pius facit ad magnitudinem meriti quam gratia. 
+              <lb ed="#P" n="82"/>consequentia videtur lucida.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e215">
+      ⁋ Contra istas 
+              conclusio<lb ed="#P" n="83" break="no"/>nes simul argumentor: habens maiorem gratiam est 
+              <lb ed="#P" n="84"/>deo gratior quad paruam habens: ergo eius actus est me 
+              <lb ed="#P" n="85"/>lior.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e225">
+      ⁋ Preterea sequeretur. si essent duo 
+              habente<lb ed="#P" n="86" break="no"/>gratias impares: puta sortes gratiam vt octo a plato 
+              <lb ed="#P" n="87"/>vt duo: elicientes actus equaliter intensos inequali 
+              <lb ed="#P" n="88"/>ter mererentur: consequens est falsum: habent enim actus 
+              <lb ed="#P" n="89"/>equales circa simile obiectum: et consequentia patet: quia vnus 
+              <lb ed="#P" n="90"/>apponit pius conatus: cum minus auxilii naturalis 
+              ha<lb ed="#P" n="91" break="no"/>beat si meritum consurgat: igitur potius a conatu quam gratia 
+              <lb ed="#P" n="92"/>minus gratie habens pius merebitur: et sic gratia 
+              im<lb ed="#P" n="93" break="no"/>pediet virum ne tantum mereatur quantum nullam gratiam 
+              <lb ed="#P" n="94"/>habens.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e247">
+      ⁋ Ad primum dicitur quod consequentia est nulla.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e250">
+      ⁋ Ad 
+              se<lb ed="#P" n="95" break="no"/>cundum argumentum quod tangit dubium an actus 
+              equa<lb ed="#P" n="96" break="no"/>lis elicitus a gratia parua e magna circa idem 
+              obie<lb ed="#P" n="97" break="no"/>ctum vel simile: sit eque meritorius.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e259">
+      ⁋ Aliqui tenent 
+              <lb ed="#P" n="98"/>quod actus elicitus a minori gratia est magis meritorius 
+              <lb ed="#P" n="99"/>Sed pro nunc respondeo concedendo quod est eque meri 
+              <lb ed="#P" n="100"/>torius: et concedo quod pius gratie habens habet pius 
+              <lb ed="#P" n="101"/>auxilii naturalis: hoc me mouet: quia enim illud cquisiuit 
+              <lb ed="#P" n="102"/>ex bonis actibus suis / equaliter meretur cum alio qui 
+              <lb ed="#P" n="103"/>minus gratie habet et pius conatus apponit. 
+              Diffi<lb ed="#P" n="104" break="no"/>cultas operis opati est eadem ad vtrumque actum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e277">
+      ⁋ 
+              Si<lb ed="#P" n="105" break="no"/>mile est de duobus quorum vnus habet temperantiam 
+              <lb ed="#P" n="106"/>virtutem in gradu temperantiae: et alter continens in  
+              <lb ed="#P" n="107"/>gradu: ieiunantes eundem diem eque merentur. postquam 
+              <lb ed="#P" n="108"/>vnus acquisiuit habitum ex multis bonis actibus qui 
+              <lb ed="#P" n="109"/>facilitat habentem: alter vero non acquisiuit. 
+              Ablo<lb ed="#P" n="110" break="no"/>num videtur concedere quod intemperatus ieiunans 
+              pri<lb ed="#P" n="111" break="no"/>mum diem quadragesime pius mereatur quam eremita 
+              <lb ed="#P" n="112"/>vel cenobita cum actibus interioribus equalibus eius 
+              <lb ed="#P" n="113"/>ceteris omnibus / dempta difficultate proueniente ex 
+              par<lb ed="#P" n="114" break="no"/>te ipsius operantis) paribus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e301">
+      ⁋ At dices esse probabile 
+              <lb ed="#P" n="115"/>quod minus mereatur habens magnam gratiam quam paruam: 
+              <lb ed="#P" n="116"/>et male habituatus magis mereatur circa simile 
+              obie<lb ed="#P" n="117" break="no"/>ctum quam non habituatus vel bene habituatus: nec 
+              pro<lb ed="#P" n="118" break="no"/>pterea culpa alicui prodest: per actus enim culpabiles sem 
+              <lb ed="#P" n="119"/>per cquisiuit damnum: magna autemgratia non est causa 
+              qua<lb ed="#P" n="120" break="no"/>re minus meretur: sed eius voluntas que non coagit tantum 
+              <lb ed="#P" n="121"/>quantum paruam gratiam in habente: quia si sortes haberet 
+              gra<lb ed="#P" n="122" break="no"/>tiam vt octo: et equaliter conaretur cum platone haben 
+              <lb ed="#P" n="123"/>te gratiam vt quatuor: haberet actum magis intensum 
+              <lb ed="#P" n="124"/>quam alter: quia actus eius esset intensus vt quatuor vel quinque 
+              <lb ed="#P" n="125"/>vbi alterius esset intensus vt duo vel tria.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e328">
+      ⁋ Contra istud 
+              <lb ed="#P" n="126"/>argumentor. quia si essent duo quorum vnus haberet gratiam 
+              <lb ed="#P" n="127"/>infinitam: et alter finitam: sequitur quod infinita gratiam habens 
+              <lb ed="#P" n="128"/>minus mereretur quam paruam gratiam habens.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e337">
+      ⁋ Forte dices 
+              <lb ed="#P" n="129"/>non est idem de parua gratia et magna respectu boni 
+              ha<lb ed="#P" n="130" break="no"/>bitus et mali: cum habitus generentur naturaliter ex 
+              a<lb ed="#P" n="131" break="no"/>ctibus nostris: gratia autem a deo creetur.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e346">
+      ⁋ Contra. hoc non 
+      <!--113.xml-->
+      <pb ed="#P" n="49-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sufficit: quoniam ipsa gratia datur proter actus voluntarie a 
+              <lb ed="#P" n="2"/>nobis benefactos: et si habitus virtutum moralium 
+              <lb ed="#P" n="3"/>crearentur a solo deo non debes dicere continentem 
+              <lb ed="#P" n="4"/>plus mereri quam temperantem. Propterea primum no 
+              <lb ed="#P" n="5"/>bis videtur rationabilius.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e366">
+      ⁋ Sed contra hoc argu 
+              <lb ed="#P" n="6"/>mentor. sequitur quod habens gratia datam sine meritis min 
+              <lb ed="#P" n="7"/>mereretur quam gratiam habens ex meritis.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e373">
+      ⁋ Insuper 
+              <lb ed="#P" n="8"/>male natus et habens tarda naturalia pius merereur 
+              <lb ed="#P" n="9"/>continens a vicio ad quod est inclinatus / quam benem natus: 
+              <lb ed="#P" n="10"/>et tamen est eadem difficultas ex parte obiecti. igitur. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e382">
+               <lb ed="#P" n="11"/>⁋ Ad primum (si ita esset) conceditur corollarie. de pu 
+              <lb ed="#P" n="12"/>ris hominibus: de Christo secundum legem non oportet: 
+              da<lb ed="#P" n="13" break="no"/>to quod gratiam et beatitatem gratis habeat. quia 
+              acce<lb ed="#P" n="14" break="no"/>ptat actum specialiter sicut vult.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e394">
+      ⁋ Ad aliud 
+              conce<lb ed="#P" n="15" break="no"/>do quod male natus pius meretur quam bene natus: cum 
+              dif<lb ed="#P" n="16" break="no"/>ficultas non acquiratur ab eius vitio: sed vel est vitiun 
+              <lb ed="#P" n="17"/>gentile vel ab influentia celi vel aliunde sine eius 
+              cul<lb ed="#P" n="18" break="no"/>pa hoc prouenit.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e405">
+      ⁋ Si ponas male habituatum 
+              peni<lb ed="#P" n="19" break="no"/>tere de sua feda vita / quires an pius mereatur quam bene 
+              <lb ed="#P" n="20"/>habituatus: Et videtur quod sic. sicut de ebrio post penitem 
+              <lb ed="#P" n="21"/>tiam qui tempore ebrietatis non peccat: ergo hic ha 
+              <lb ed="#P" n="22"/>bens malos habitus: et penitens actuum per quos illos 
+              <lb ed="#P" n="23"/>acquisiuit / exiens in actus oppositos suo habitui 
+              eo<lb ed="#P" n="24" break="no"/>dem modo se habebit ad mereri ac si illam inclinationem 
+              <lb ed="#P" n="25"/>a celo accepisset.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e423">
+      ⁋ Dico quod penitentia nihil facit ad 
+              <lb ed="#P" n="26"/>hoc quod pius mereatur: cum habitum ex culpa acquisi 
+              <lb ed="#P" n="27"/>uit: et ratione vtitur tempore quo actum facit. secus 
+              <lb ed="#P" n="28"/>est de alio. Rationabilius est tenere ebrium nullatenus 
+              <lb ed="#P" n="29"/>tempore ebrietatis peccare. Propterea etiam tenendo 
+              <lb ed="#P" n="30"/>oppositum querimus omnem occasionem ad 
+              excusan<lb ed="#P" n="31" break="no"/>dos ebrios.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e439">
+      ⁋ Sed dices quando homo est male 
+              in<lb ed="#P" n="32" break="no"/>clinatus sine culpa sua ab influentia celi: vel a 
+              paren<lb ed="#P" n="33" break="no"/>tibus impudicis et male morigeratis pius meretur quam 
+              <lb ed="#P" n="34"/>alius bene natus actum equaliter intensum habens: 
+              <lb ed="#P" n="35"/>ergo cum actu minori in gradu tantum merebitur 
+              si<lb ed="#P" n="36" break="no"/>cut bene natus habens actum paulo intensiorem. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e452">
+               <lb ed="#P" n="37"/>⁋ Item tunc si quis ex culpa parentum fuerit mal 
+              <lb ed="#P" n="38"/>educatus tempore iuuentutis antequam vtatur ratione 
+              <lb ed="#P" n="39"/>sine eius vitio culpabili / magis merebitur abstinens 
+              <lb ed="#P" n="40"/>ab illicitis quam bene educatus: et sic prodesset ad mere 
+              <lb ed="#P" n="41"/>ri male alere iuuenes: hoc autem est contra <name xml:id="jm12w4-e33151-Nd1e465" ref="#Aristotle">Aristotelem</name> 
+               <lb ed="#P" n="42"/>secundo Ethicorum. non parum refert (immo totum) vt iu 
+              <lb ed="#P" n="43"/>uenes sic vel sic assuescant.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e473">
+      ⁋ Ad primum conceditur 
+              <lb ed="#P" n="44"/>illatum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e479">
+      ⁋ Si pius meretur actum equalem habens cum 
+              <lb ed="#P" n="45"/>alio auferatur aliquid de intensione actus quousque 
+              <lb ed="#P" n="46"/>sit meritum equale.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e486">
+      ⁋ Ad secundum concedo etiam 
+              <lb ed="#P" n="47"/>illatum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e491">
+      ⁋ Sed nego quod conducit sic iuuenes irreligio 
+              <lb ed="#P" n="48"/>se alere. taliter enim in senecta regulariter incedunt quaeles 
+              <lb ed="#P" n="49"/>erat iuuenes. secundum illud Horatii. Quo semel est imbu 
+              <lb ed="#P" n="50"/>ta recens seruabit odorem Testa diu.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e500">
+      ⁋ Sed contra 
+              <lb ed="#P" n="51"/>istud arguitur: male educatus pius meretur quam bene 
+              <lb ed="#P" n="52"/>educatus similem actum habens: quia est ei difficilius 
+              <lb ed="#P" n="53"/>talem actum habere: ergo si angelus tempore quo erat 
+              <lb ed="#P" n="54"/>viator elicuisset maximum bonum actum quem pote 
+              <lb ed="#P" n="55"/>rat habere / non pius meruisset quam homo eliciendo ma 
+              <lb ed="#P" n="56"/>ximum actum quem poterat habere. et sic vnus 
+              ange<lb ed="#P" n="57" break="no"/>lus qui per breue tempus erat viator minus premii 
+              ha<lb ed="#P" n="58" break="no"/>bebit quam vnus homo communis: et etiam angelus inferio 
+              <lb ed="#P" n="59"/>ris speciei eliciendo optimum actum possibilem sibi tantum 
+              <lb ed="#P" n="60"/>beatitudinis habebit quantum angelus supioris speciei max 
+              <lb ed="#P" n="61"/>mum sibi possibilem eliciendo.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e526">
+      ⁋ Tangitur in hac repli 
+              <lb ed="#P" n="62"/>ca vnum dubium: et forte illatum est concedendum. videlicet 
+              <lb ed="#P" n="63"/>quod homo eliciens actum intensum vt quatuor tantum 
+              <lb ed="#P" n="64"/>meretur quantum angelus eliciendo actu meritorium 
+              in<lb ed="#P" n="65" break="no"/>tensum in gradu vt centum. Ex isto autem non sequitur quod quo 
+              <lb ed="#P" n="66"/>libet adultus beatus pius primii habebit quam quicumque 
+      <!--113.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 49vb -->
+               <lb ed="#P" n="67"/>angelus: secundus enim continuo stat in actu bono a in inten 
+              <lb ed="#P" n="68"/>so in gradu: quaniam nullum retractiuum ab actibus meritoriis 
+              <lb ed="#P" n="69"/>habebit: sicut homo per potentiam debilitabi lem cum carne con 
+              <lb ed="#P" n="70"/>tra rationem tedente plerumque dormiente et parum merenti. For 
+              <lb ed="#P" n="71"/>te etiam in istis indiuiduis spe distinctis ob gratitudinem 
+              per<lb ed="#P" n="72" break="no"/>sone deus magis acceptat actum altioris speciei quae actum in 
+              <lb ed="#P" n="73"/>diuidui inferioris: esto quod equaliter conentur. sicut pro simili 
+              <lb ed="#P" n="74"/>actu plus primii accipit dux exercitus quam alius inferior equalit 
+              <lb ed="#P" n="75"/>cum eo laborans propter circunstantiam parsone: secus est in 
+              co<lb ed="#P" n="76" break="no"/>natibus eiusdem speciei. <name xml:id="jm12w4-e33151-Nd1e567" ref="#Lombard">Magister</name> diceret angelos habere 
+              <lb ed="#P" n="77"/>betitudinem pro actibus quis exercebunt erga nos. hoc aute 
+              <lb ed="#P" n="78"/>non est penitus extraneum: vt patet per hoc argumentum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e575">
+      ⁋ Se 
+              <lb ed="#P" n="79"/>cundo principalitur arguitur. sequitur quod aliquis habens actum 
+              <lb ed="#P" n="80"/>infinitum diligendo deum et proximum / non mereretur in illo actu 
+              <lb ed="#P" n="81"/>multum. hoc autem est inconueniens: ergo illud ex quo sequitur. Patet 
+              <lb ed="#P" n="82"/>sequaela: ponendo quod quis habeat gratiam infinitam in gradu: 
+              <lb ed="#P" n="83"/>iam talis cum quocuque conatu quantumcumque paruo 
+              habe<lb ed="#P" n="84" break="no"/>bit actum magnum vel paruum: quinimmo infinitum: sed paruitu 
+              <lb ed="#P" n="85"/>do conatus facit actum minus meritorium perte. igitur. Quod 
+              <lb ed="#P" n="86"/>gratia infinita faciat actum infinite intensum cum quocumque par 
+              <lb ed="#P" n="87"/>uo conatu: patet. quia nisi sic quis cum gratia finita posset habe 
+              <lb ed="#P" n="88"/>re actum ita intensum sicut alter cum infinita: etiam dato equal 
+              <lb ed="#P" n="89"/>conatu: quod est falsum. Et probo quod sequatur / ponatur sortes 
+              <lb ed="#P" n="90"/>habere conatum vt vnum: et gratiam infinitam. Et quaro si est pos 
+              <lb ed="#P" n="91"/>sibile illum actum esse vt vnum vel vt octor tunc plato cum vno 
+              <lb ed="#P" n="92"/>gradu gratiae et conatu vt vnum habebit vnum gradum 
+              dile<lb ed="#P" n="93" break="no"/>ctionis: cicero cum maiori gratia et vno gradu conatus habe 
+              <lb ed="#P" n="94"/>bit duos gradus actus: et sic sine statu: ergo tandem dabis 
+              <lb ed="#P" n="95"/>aliquem quie cum finita gratia habebit actum intensum vt octo 
+              <lb ed="#P" n="96"/>cum conatu vt vnum: et sic habentes gratiam finitam et infini 
+              <lb ed="#P" n="97"/>tam cum equali conatu habebunt actus pares: quod non est 
+              <lb ed="#P" n="98"/>dicendum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e622">
+      ⁋ Respondetur. si esset aliquis qui de coni lege haberet 
+              <lb ed="#P" n="99"/>gratiam infinitam ex meritis talis  mereretur: quia nullum actum 
+              <lb ed="#P" n="100"/>habere praiet meritorium nisi infinitum: et sic r multum mere 
+              <lb ed="#P" n="101"/>retur: sed nullum ponimus de lege communi. vbi enim de gratia 
+              <lb ed="#P" n="102"/>anime Christi loquimur: ponimus eam infinitam in gradu: sed  
+              <lb ed="#P" n="103"/>illud nulli alteri attribuimus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e635">
+      ⁋ Sed dices. tunc 
+              nul<lb ed="#P" n="104" break="no"/>lus actus ab eo elicitus secundum voluntatem potest esse 
+              fini<lb ed="#P" n="105" break="no"/>tus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e642">
+      ⁋ hoc non sequitur: quia deus potest concurrere cum vna 
+              <lb ed="#P" n="106"/>parte gratie. et non cum tota: vel potest non concurrere 
+              se<lb ed="#P" n="107" break="no"/>cundum extremum causalitatis gratiae. Sed fateor: si quis 
+              <lb ed="#P" n="108"/>haberet gratiam infinitam in gradu / is nullum actum 
+              fi<lb ed="#P" n="109" break="no"/>nitum elicere potest totalem cum quocunque conatu 
+              <lb ed="#P" n="110"/>quantumcumque paruo a influentia dei generali qua 
+              concur<lb ed="#P" n="111" break="no"/>rit: et licet cum conatu magno potest aliquis gradus quos 
+              <lb ed="#P" n="112"/>non produxit producere non tamen producit plures poprie 
+              <lb ed="#P" n="113"/>quando semper erit infinitas actuu gradualiter.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e662">
+      ⁋ 
+              Ter<lb ed="#P" n="114" break="no"/>tio argumentor. nihil est conatus voluntatis: ergo 
+              con<lb ed="#P" n="115" break="no"/>clusiones presupponunt falsum. ancedens patet. vel est 
+              <lb ed="#P" n="116"/>actus elicitus: et hoc non. dicimus enim actum magnum produ 
+              <lb ed="#P" n="117"/>ci a maiori conatu: set actus non producitur ab actu. Si 
+              di<lb ed="#P" n="118" break="no"/>cas animam esse conatum eius: tuc conatus voluntatis 
+              <lb ed="#P" n="119"/>frequenter nihil conaretur nec haberet gradus: dicimus tamer 
+              <lb ed="#P" n="120"/>conatum vt tria vel vt quatuor.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e680">
+      ⁋ Insuper vel duo gra 
+              <lb ed="#P" n="121"/>dus conatus plus faciunt ad productionem actus quam duo 
+              gra<lb ed="#P" n="122" break="no"/>dus gratiae: vel minus vel equaliters
+            </p>
+            <p xml:id="jm12w4-e33151-d1e687">
+      ⁋ Dicitur voluntas est suus 
+              <lb ed="#P" n="123"/>conatus: dicitur voluntas magis conari quando magis nititur 
+              <lb ed="#P" n="124"/>efficere. Concedo illam negatiuam conatus voluntatis 
+              fre<lb ed="#P" n="125" break="no"/>quenter nihil conaretur: pot enim esse negatiua de subiecto 
+              <lb ed="#P" n="126"/>non supponente. Licet conatus non habeat gradus: vtimur 
+              <lb ed="#P" n="127"/>illo modo loquendi gratia nostre intelligentie: quando parum agit 
+              <lb ed="#P" n="128"/>dicimus conatur vt vnum vel vt duo: quando multum: vt sex vel 
+              <lb ed="#P" n="129"/>octo. prait etiam dici quodactus voluntatis est suus conatus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e706">
+      ⁋ Ad  
+              <lb ed="#P" n="130"/>aliud quando actus elicitus habet quatuor gradus dubium est an 
+              <lb ed="#P" n="131"/>conatus vt duo plus faciat quam gratia vt duo. Duo gradus po 
+              <lb ed="#P" n="132"/>tentie aiacis plus faciunt ad ferendum gue poesdu quam duo gra 
+      <!--114.xml-->
+      <pb ed="#P" n="50-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dus potentie Tersite.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e724">
+      ⁋ Quarto argumentor. 
+              quan<lb ed="#P" n="2" break="no"/>do sortes et plato ferunt vnum scamnum simul sortes 
+              <lb ed="#P" n="3"/>nihil fert: quia non totum scamnum. Quod clare patet 
+              <lb ed="#P" n="4"/>qui si plato abiret scamnum caderet: non potes ire ad 
+              me<lb ed="#P" n="5" break="no"/>dietates si sortes sit platone fortior: ergo pari forma 
+              <lb ed="#P" n="6"/>gratia nullum actum facit nec partem eius: ergo 
+              con<lb ed="#P" n="7" break="no"/>clusiones falsum supponunt.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e740">
+      ⁋ Respondetur quod interdum mul 
+              <lb ed="#P" n="8"/>ti faciunt vnum opus: sed ipsum atribuitur principali 
+              <lb ed="#P" n="9"/>factori: vt patet de psalmis Dauidi attributis. non numquam 
+              <lb ed="#P" n="10"/>vnum agens ponit vnam partem effectus determinata 
+              <lb ed="#P" n="11"/>et alterum agens aliam eque principales: tunc attribuimus 
+              ef<lb ed="#P" n="12" break="no"/>fectum illis agentibus copulatim: vt a ignis et b. ignis 
+              ca<lb ed="#P" n="13" break="no"/>lefecerunt hoc lignum: posito quod a produxit calorem in vna 
+              <lb ed="#P" n="14"/>medietatem et b. in aliam.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e758">
+      ⁋ Nonnumquam non praet separari 
+              ef<lb ed="#P" n="15" break="no"/>fectus quo ad partem productam ab hoc agente vel illo 
+              <lb ed="#P" n="16"/>Et hoc bifariam: vel est effectus de nouo productus 
+              <lb ed="#P" n="17"/>vel conseruatus sic quod sit efficientia proprie dicta: et tunc 
+              <lb ed="#P" n="18"/>effectum copulatim et copulatiue attribuimus causis. 
+              <lb ed="#P" n="19"/>Dicimus enim quod deus et ignis calefaciunt in sensu categori 
+              <lb ed="#P" n="20"/>co: et ignis calefacit et ita in aliis causis subordinatis 
+              <lb ed="#P" n="21"/>Quedam cause taliter faciunt rem se habere: vt sortes 
+              <lb ed="#P" n="22"/>et plato in portatione scamni: tunc dicimus sufficienter sor 
+              <lb ed="#P" n="23"/>tes nihil fert: sed sortes et plato simul portant hoc 
+              <lb ed="#P" n="24"/>scamnum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e782">
+      ⁋ Vel si non placet tibi hec nouissima 
+              par<lb ed="#P" n="25" break="no"/>titio agentiu) concedere potes sortem totum scamnum ferre. 
+              <lb ed="#P" n="26"/>et platonem similite / de per accidens: sicut aliquis emit ca 
+              <lb ed="#P" n="27"/>put equi viginti scutis de per accidens.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e791">
+      ⁋ Tertio 
+              no<lb ed="#P" n="28" break="no"/>bis sufficit quod deus et ignis copulatim a non copulatiue 
+              <lb ed="#P" n="29"/>producunt calorem: gratia et voluntas simul producunt actum 
+              <lb ed="#P" n="30"/>meritorium: et voluntas nihil producit. Aliqua sunt 
+              hi<lb ed="#P" n="31" break="no"/>de nomine: dum rem ipsam obserues non est magna 
+              <lb ed="#P" n="32"/>vis: sed satius est loqui vt plures in toto.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e805">
+      ⁋ Quinto 
+              <lb ed="#P" n="33"/>argmentor dare gratie aliquam causalitatem est indigni 
+              <lb ed="#P" n="34"/>ficare voluntatem: dicendo quod ipsa sine ope 
+              causali<lb ed="#P" n="35" break="no"/>tatis gratie non potest producere actum meritorium: e 
+              <lb ed="#P" n="36"/>dignificando gratiam indignificatur voluntas.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e816">
+      ⁋ Insut 
+              <lb ed="#P" n="37"/>sequitur quod actus voluntatis meritorius esset magis 
+              na<lb ed="#P" n="38" break="no"/>turalis quam liber: cum producatur a gratia.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e823">
+      ⁋ Preterea 
+              <lb ed="#P" n="39"/>voluntas paius incipit actum meritorium quam gratia. ergo in 
+              <lb ed="#P" n="40"/>illa poritate actus meritorius est a sola voluntate: et 
+              <lb ed="#P" n="41"/>nullatenus a gratia.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e832">
+      ⁋ Negatur assumptum. dando 
+              Ce<lb ed="#P" n="42" break="no"/>sari que Cesaris sunt non indignificatur deus. dando 
+              <lb ed="#P" n="43"/>gratie suam causalitatem quo modo indignificatur volun 
+              <lb ed="#P" n="44"/>tas / nec partialiter causare dicit imperfectionem: quia 
+              <lb ed="#P" n="45"/>hoc deo conuenit.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e843">
+      ⁋ Ad secundum nego assumptum. 
+              <lb ed="#P" n="46"/>licet enim ad productionem actus meritorii multe cause na 
+              <lb ed="#P" n="47"/>turales concurrant: vt notitia et gratia: tamen quia vna 
+              cau<lb ed="#P" n="48" break="no"/>sa secunda est libera: aggregatum omnium causarum libere 
+              <lb ed="#P" n="49"/>agit ad nutum voluntatis: et hoc potissimum in 
+              cau<lb ed="#P" n="50" break="no"/>sis secundis. Dicimus lignum naturaliter calefieri et ta 
+              <lb ed="#P" n="51"/>men cum igne concurrit causa spotestanea scilicet deus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e859">
+      ⁋ Ad 
+              <lb ed="#P" n="52"/>tertium dico quod licet voluntas paius natura concurrat 
+              <lb ed="#P" n="53"/>ad actum meritorium quam gratia: non tamen tempore 
+              <lb ed="#P" n="54"/>vel instanti: ideo argumentum praesupponit falsum. Quod 
+              <lb ed="#P" n="55"/>prius natura concurrat: patet ex acceptionibus prioris in  
+              <lb ed="#P" n="56"/>postpaedicamentis.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e873">
+      ⁋ Sexto argumentor. gratia non 
+              <lb ed="#P" n="57"/>concurrit ad efficientiam actus meritorii: ergo 
+              conclu<lb ed="#P" n="58" break="no"/>liones falsum presupponunt. assumptum patet: quia si sic 
+              <lb ed="#P" n="59"/>esse reciproca productio actus meritorii ad gratiam 
+              <lb ed="#P" n="60"/>et econuerso. patet: quia gratia est causa efficiens actus 
+              me<lb ed="#P" n="61" break="no"/>ritorii vt dictum est: et actus meritorius est causa 
+              gra<lb ed="#P" n="62" break="no"/>tie: immo eiusdem gratie: ergo effectus producit suam 
+              <lb ed="#P" n="63"/>causam effectiuam.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e891">
+      ⁋ Dices quod gratia est causa 
+              natu<lb ed="#P" n="64" break="no"/>ralis respectu actus meritorii: et actus meritorius est 
+              cau<lb ed="#P" n="65" break="no"/>sa improprie dicta respectu gratiae: deus autem creat se solo 
+              <lb ed="#P" n="66"/>gratiam ex pacto propter actum meritorium.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e900">
+      ⁋ Contra: 
+      <!--114.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 50rb -->
+               <lb ed="#P" n="67"/>gratia est causa actus meritorii prior ipso poritate na 
+              <lb ed="#P" n="68"/>ture: et actus meritorius talem prioritatem habet 
+              re<lb ed="#P" n="69" break="no"/>spectu gratie: cum ratione eius datur gratia: ergo est 
+              <lb ed="#P" n="70"/>gratia prior prioritate nature. Et vt res sit lucidior 
+              <lb ed="#P" n="71"/>ponatur sic casus in terminis: quod sortes eliciat actum 
+              me<lb ed="#P" n="72" break="no"/>ritorium in hoc instanti: tunc in isto infunditur gratia 
+              <lb ed="#P" n="73"/>in hoc instanti dato quod fuerit gratia precedens hoc 
+              <lb ed="#P" n="74"/>enim non obstat quin gratia nunc producta concurrat. dica 
+              <lb ed="#P" n="75"/>tur gratia nunc infusa b. et gratia praecedens a. Arguitur 
+              <lb ed="#P" n="76"/>sic: a concurrit ad productionem actus meritorli c in hoc 
+              <lb ed="#P" n="77"/>instanti eliciti: b. est agens naturale in hoc instanti in anima 
+              <lb ed="#P" n="78"/>eiusdem speciei cum a. ergo eodem modo concurrit cum 
+              <lb ed="#P" n="79"/>a. sed a. concurrit. alioquin non ad omnem actum meritorium 
+              <lb ed="#P" n="80"/>concurrit gratia: contra conclusiones harum duarum 
+              quae<lb ed="#P" n="81" break="no"/>stionum. Quod si concedas quod b, concurrit ad productionem 
+              <lb ed="#P" n="82"/>c. actus meritorii: ergo actus meritorius erit intensior 
+              <lb ed="#P" n="83"/>quam si b. non concurisset: semper enim a maiori gratia prodit 
+              in<lb ed="#P" n="84" break="no"/>ensior actus meritorius: si cactus fuisset intensus vt 
+              <lb ed="#P" n="85"/>duo per actionem a. actus meritorii solum cum 
+              volun<lb ed="#P" n="86" break="no"/>tate: iam per concursum b. gratie c. erit intensus 
+              supe<lb ed="#P" n="87" break="no"/>duo sit vt tria: tunc ratione intensionis actus meritorii 
+              da<lb ed="#P" n="88" break="no"/>bitur intensior gratia: et iterum per intensiorem gratiam 
+              da<lb ed="#P" n="89" break="no"/>bitur intensior actus meritorius: et sic in abyssum 
+              reci<lb ed="#P" n="90" break="no"/>proce.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e961">
+      ⁋ Argumentum hoc potest fieri ita apparenter de 
+              <lb ed="#P" n="91"/>reciproca productione actus et habitus in instanti: si enim 
+              <lb ed="#P" n="92"/>a. actus producatur in hoc instanti intensus vt vnum 
+              pro<lb ed="#P" n="93" break="no"/>ducit habitum vt vnum: et ille habitus quare non producit 
+              <lb ed="#P" n="94"/>suum effectum / non eundem actum qui habitum produxit: sed 
+              <lb ed="#P" n="95"/>alium eiusdem speciei specialissime cum actu qui habitum 
+              <lb ed="#P" n="96"/>produxit: qui actum augmentabit: quia si sic. erit habitus 
+              in<lb ed="#P" n="97" break="no"/>tensior forte vt vnum cu dimidio: vel vt duo: duo autem 
+              <lb ed="#P" n="98"/>gradus actus producunt intensiorem habitum quam vnus gradus: 
+              <lb ed="#P" n="99"/>ergo totus habitus erit vt duo: sed augmentato habi 
+              <lb ed="#P" n="100"/>tu augetur actus: ergo in eodem instanti erit actio in 
+              <lb ed="#P" n="101"/>abyssum: nec erit status citra summum habitum et actum. 
+              <lb ed="#P" n="102"/>Nequeas autem euadere per hoc quod actus naturalius producit 
+              <lb ed="#P" n="103"/>habitum quam econuerso: cum habendo actum non sit situm in 
+              <lb ed="#P" n="104"/>facultate viri quin habeat habitum. iii. Ethicorum. secus 
+              <lb ed="#P" n="105"/>est de habitu: patet in dormiente et de non applicante 
+              <lb ed="#P" n="106"/>se ad obiectum habitus quem habet. anima enim vtitur ha 
+              <lb ed="#P" n="107"/>bitu cum vult. hic hoc dicere nequis: quoniam anima habet 
+              <lb ed="#P" n="108"/>illum actum in illo instanti: ergo tunc habitus agit suam 
+              <lb ed="#P" n="109"/>efficientiam ad productionem actus: et econuerso. Vel ne 
+              <lb ed="#P" n="110"/>muoluaris: pro a gratia precedente ponamus sortem 
+              fuis<lb ed="#P" n="111" break="no"/>se in mortali ad hoc instans vsque: et nunc primum in hoc 
+              <lb ed="#P" n="112"/>instanti sufficienter suum peccatu detestari detestatione 
+              <lb ed="#P" n="113"/>bene circunstantionata sufficiente ad introductionem 
+              <lb ed="#P" n="114"/>charitatis et dimissionis peccati: sicut dicitur in quarto 
+              <lb ed="#P" n="115"/>distinctione. xiiii.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1018">
+      ⁋ hoc argumentum est senticosum e ad ipsum 
+              <lb ed="#P" n="116"/>multifariam respondetur.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1023">
+      ⁋ Primo quod gratia producta 
+              <lb ed="#P" n="117"/>in instanti non concurrit ad productionem actus meritorit 
+              <lb ed="#P" n="118"/>in illo instanti producti: quoniam actus meritorius est 
+              cau<lb ed="#P" n="119" break="no"/>sa quare deus illam gratiam creat: et sic cum 
+              efficien<lb ed="#P" n="120" break="no"/>tie naturam induit incouenit quod suus quodam modo effe 
+              <lb ed="#P" n="121"/>ctus ad ipsum producendum concurrat. Et hoc praet colorari per 
+              <lb ed="#P" n="122"/>illa quae dicemus de productione actus et habitus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1040">
+      ⁋ Sed  
+              <lb ed="#P" n="123"/>tunc dices: ergo erit aliquis actus meritorius ad que non con 
+              <lb ed="#P" n="124"/>currit charitas. patet de actu in illo instanti producto. 
+              <lb ed="#P" n="125"/>Quod erit meritorius patet: quia ei coassistit charitas. et est 
+              <lb ed="#P" n="126"/>actus bonus moraliter: et immediate post hoc erit 
+              bo<lb ed="#P" n="127" break="no"/>nus. Dices quod immediate post hoc erit meritorius non au 
+              <lb ed="#P" n="128"/>tem nunc vel aliquis actus est meritorius ad quem non 
+              <lb ed="#P" n="129"/>concurrit gratia quando subito insunditur.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1058">
+      ⁋ 
+              Insu<lb ed="#P" n="130" break="no"/>per a concurrit in casu argumenti ad productionen 
+              <lb ed="#P" n="131"/>c. actus: ergo b. vt supra argutum est. Sed hanc conse 
+              <lb ed="#P" n="132"/>quentiam negabit aduersarius.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1067">
+      ⁋ Dicitur secundo quod 
+      <!--115.xml-->
+      <pb ed="#P" n="50-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>gratia producta in hoc instanti concurrit profecto ad 
+              <lb ed="#P" n="2"/>actum instantaneum: et est prior eo natura. actus enim es 
+              <lb ed="#P" n="3"/>gratia prior tanquam causa sine qua non: et transeat quod 
+              <lb ed="#P" n="4"/>actus est intensior propter gratiae concursum: et econuerso: sed  
+              <lb ed="#P" n="5"/>semper posterior concursus erit minor: et erit cessatio. 
+              <lb ed="#P" n="6"/>deus enim videt istum eliciturum aliquem actum qui fuisset vt 
+              <lb ed="#P" n="7"/>duo cum voluntate sine gratia: et supinfundit gratiam que 
+              <lb ed="#P" n="8"/>facit quod actus erit intensior puta erit vt tria.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1093">
+      ⁋ Sed quia 
+              <lb ed="#P" n="9"/>statim diceres: actus meritorius vt tria meretur maio 
+              <lb ed="#P" n="10"/>rem gratiam quam actus vt duo:  magnitudo gratiae facit ad 
+              <lb ed="#P" n="11"/>intensionem actus: ergo semper regnat argumentum de con 
+              <lb ed="#P" n="12"/>cursu in abyssum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1104">
+      ⁋ Dicitur quod vna medietas vel 
+              po<lb ed="#P" n="13" break="no"/>tius due tertie vnius gradus actus fiunt ob intensioren 
+              <lb ed="#P" n="14"/>gratiam causantem actu: et quia actus est magis meritorius 
+              <lb ed="#P" n="15"/>ob intensionem eius paulo maior gratia datur ratione illi 
+              <lb ed="#P" n="16"/>excessus: et sic in paruo actus erit magis meritorius. 
+              <lb ed="#P" n="17"/>conatus vt duo a gratia vt duo faciunt actum meritorium in 
+              <lb ed="#P" n="18"/>tensum vt quattuor. gratia infunditur vt vnum. semper 
+              ma<lb ed="#P" n="19" break="no"/>net idem conatus: cum est in eodem instanti: ergo ille vnus gra 
+              <lb ed="#P" n="20"/>dus gratiae non facit vnum gradum meriti: vel dimidium cum 
+              <lb ed="#P" n="21"/>est idem conatus: intensio actus crescit sic a gratia: et non a 
+              co<lb ed="#P" n="22" break="no"/>natu: si gratione quattuor graduum actus detur 
+              gra<lb ed="#P" n="23" break="no"/>tia vt vnu: et actus erit intensior solum ratione gratiae infule de 
+              <lb ed="#P" n="24"/>nouo per vnum gradum: dabitur nisi quarta pars gradus 
+              <lb ed="#P" n="25"/>gratie: et ille vix facit octauam partem actus: et ille 
+              exces<lb ed="#P" n="26" break="no"/>sus adhuc meretur minorem gratiam quam paius: et sic de inten 
+              <lb ed="#P" n="27"/>sione actus: ergo erit status: vel si non sit status: non sequitur 
+              <lb ed="#P" n="28"/>quod erit aliqua forma infinita per additionem partium 
+              <lb ed="#P" n="29"/>inequalium.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1143">
+      ⁋ Ulterius dicetur quod deus videt in hoc insta 
+              <lb ed="#P" n="30"/>ti: et ab eterno videbat conatum voluntatis vt duo: et 
+              <lb ed="#P" n="31"/>gratiam vt duo quantum possunt in intensione actus 
+              <lb ed="#P" n="32"/>producere et quantum illa gratia in illo instanti 
+              col<lb ed="#P" n="33" break="no"/>lata potest facere ad intensionem actus: et ratione to 
+              <lb ed="#P" n="34"/>tius quod tuimaginaris in argumento facit actum essi 
+              <lb ed="#P" n="35"/>intensum et gratiam proportionabiliter intendit et 
+              <lb ed="#P" n="36"/>vtrumque erit finitum. Sed arguens non acquiescet. dicet 
+              <lb ed="#P" n="37"/>enim quod debet secundum legem infundi infinita gratia. Quod si 
+              ne<lb ed="#P" n="38" break="no"/>ges adibit discursum argumenti vt pius.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1166">
+      ⁋ Ulteri 
+              <lb ed="#P" n="39"/>dices ab equali conatu semper actus est equaliter mer 
+              <lb ed="#P" n="40"/>torius. licet inequaliter intensus. si vnus haberet gratia 
+              <lb ed="#P" n="41"/>vt vnum acquisitam ex suis meritis: et alius haberet mil 
+              <lb ed="#P" n="42"/>le gradus gratie equaliter conantes vt vnum. secun 
+              <lb ed="#P" n="43"/>dus habebit intensiorem actum quam prior. puta actus 
+              se<lb ed="#P" n="44" break="no"/>secundi erit vt duodecim: et prioris vt vnum in 
+              gra<lb ed="#P" n="45" break="no"/>dum: sed illi actus erunt equaliter meritorii: quia isti actu 
+              <lb ed="#P" n="46"/>procedunt ab equali conatu. Non valet dicere hic actus 
+              <lb ed="#P" n="47"/>est intensus vt decem: hic actus est actus meritorius 
+              <lb ed="#P" n="48"/>ergo hic actus est meritorius vt decem: oportet enim conclu 
+              <lb ed="#P" n="49"/>dere: hic actus meritorius est vt decem: et hoc est verum 
+              <lb ed="#P" n="50"/>in gradu.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1195">
+      ⁋ Non enim refert vnum actum esse alio 
+              maio<lb ed="#P" n="51" break="no"/>rem in gradu a minus meritorium. patet in gradu 
+              heroi<lb ed="#P" n="52" break="no"/>co er parte obiecti vel circunstantie: et in gradu 
+              inferio<lb ed="#P" n="53" break="no"/>ri intensiore in gradu. In reciproca productione actus et 
+              <lb ed="#P" n="54"/>habitus aliquid super ista difficultate tangetur.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1206">
+      ⁋ Se 
+              <lb ed="#P" n="55"/>ptimo si gratia concurrit ad actum meritorium / seque 
+              <lb ed="#P" n="56"/>retur quod habens magnam gratiam facilius potest leuar 
+              <lb ed="#P" n="57"/>vnam libram propter deum quam alius equaliter fortis 
+              <lb ed="#P" n="58"/>et ceteris paribus potest aliam libram leuare qui 
+              mi<lb ed="#P" n="59" break="no"/>nus gratie habet. patet. illa leuatio exterior est meri 
+              <lb ed="#P" n="60"/>tum: modo ad omne meritum concurrit gratia. qui itaque 
+              <lb ed="#P" n="61"/>multum gratie habet pius habet adminiculi quam alius. 
+              <lb ed="#P" n="62"/>igitur. Si concedas. tunc eremita vel multum gratie habens 
+              <lb ed="#P" n="63"/>potest leuare pius de grauitate quam alius in quadruplo 
+              <lb ed="#P" n="64"/>neruosior non impeditus. immo hac via nec erit status 
+              <lb ed="#P" n="65"/>in maximo pondere quod iste potest leuare: nec in mi 
+              <lb ed="#P" n="66"/>nimo quod non potest leuare: cum ad crementum gra¬ 
+      <!--115.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 50vb -->
+               <lb ed="#P" n="67"/>tie crescit actiuitas leuandi.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1243">
+      ⁋ Ad septimum respon 
+              <lb ed="#P" n="68"/>detur negando consequentiam: gratia enim effectiue 
+              con<lb ed="#P" n="69" break="no"/>currit ad elicitionem actus voluntatis eliciti: sed non 
+              <lb ed="#P" n="70"/>agit ad illam lationem exteriorem immediate: quia 
+              demon<lb ed="#P" n="71" break="no"/>strato minimo pondere quod sortes non potest leuare 
+              <lb ed="#P" n="72"/>sine gratia stante simili disposit one in corpore a 
+              me<lb ed="#P" n="73" break="no"/>dio ob supuenientem gratiam qualemcumque non 
+              pote<lb ed="#P" n="74" break="no"/>rit illud pondus leuare: sed indirecte gratia 
+              concur<lb ed="#P" n="75" break="no"/>rit ad lcuationem illius ponderis: pro quanto 
+              concur<lb ed="#P" n="76" break="no"/>rit ad productionem cause requisite ad hanc 
+              leuatio<lb ed="#P" n="77" break="no"/>nem propter deum: scilicet ad velle leuare: quia ad actum 
+              <lb ed="#P" n="78"/>liberum immediate solum gratia concurrit: non enim 
+              vtro<lb ed="#P" n="79" break="no"/>bique illud vulgare dictum verum habet: quicquid est 
+              <lb ed="#P" n="80"/>causa cause / est causa causati.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1274">
+      ⁋ Sed dicis. aliquis 
+              <lb ed="#P" n="81"/>actus imperatus voluntatis est meritorius: patet de 
+              dile<lb ed="#P" n="82" break="no"/>ctione proximi que imperatur a dilectione dei: tunc ad 
+              il<lb ed="#P" n="83" break="no"/>lum actum imperatu concurrit gratia immediate: et 
+              <lb ed="#P" n="84"/>videtur par ratio in aliis actibus imperatis siue 
+              ex<lb ed="#P" n="85" break="no"/>terioribus siue interioribus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1287">
+      ⁋ Respondetur quod non est 
+              <lb ed="#P" n="86"/>idem in actibus voluntatis: et in actibus alterius 
+              po<lb ed="#P" n="87" break="no"/>tentie a voluntate imperatis: non enim facilitat actum 
+              <lb ed="#P" n="88"/>meritorium exteriorem: quod maior fiat cum gratia quam sine 
+              <lb ed="#P" n="89"/>ea: nisi indirecte pro quanto quis habens gratiam 
+              <lb ed="#P" n="90"/>ocvus et libentius exit in actum interiorem imperatiuum 
+              <lb ed="#P" n="91"/>actus exterioris: secundum illud Apost. prime ad Corinth. 
+              <lb ed="#P" n="92"/>xiii.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1306">
+      ⁋ Charitas omnia suffert etc.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1309">
+      ⁋ Ectauo 
+              argumen<lb ed="#P" n="93" break="no"/>tor sic: charitas est agens naturale: ergo quantum est ex 
+              par<lb ed="#P" n="94" break="no"/>te eius tatum inclinat in dilectionem proximi sicut in 
+              dile<lb ed="#P" n="95" break="no"/>ctionem dei: quod est absonum de instrumento speus sancti. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1318">
+               <lb ed="#P" n="96"/>⁋ Insuper tunc charitas impediet hominem a 
+              merito<lb ed="#P" n="97" break="no"/>Quod patet: quia quando quis est perplexus inter minus bonum et 
+              <lb ed="#P" n="98"/>magis bonum: et vult facere minus bonum: charitas 
+              in<lb ed="#P" n="99" break="no"/>clinat eum ad magis bonum: et sic impediet habentem ne 
+              <lb ed="#P" n="100"/>exeat in actum meritorium.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1331">
+      ⁋ Rursus: tunc quanto quis 
+              <lb ed="#P" n="101"/>plixius oraret tanto plus cresceret feruor deuotionis: 
+              <lb ed="#P" n="102"/>onsequens est contra experientiam. Forte negas: quia enim homo est 
+              <lb ed="#P" n="103"/>potentia debilitabilis: vires eius fatigantur: et sic non opor 
+              <lb ed="#P" n="104"/>tet.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1342">
+      ⁋ Contra ponatur quod tantum augeatur actiuitas gratiae 
+              si<lb ed="#P" n="105" break="no"/>cut est impedimentum in debilitatione membrorum: per diuturnt 
+              <lb ed="#P" n="106"/>tatem orationis crescit gratia.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1349">
+      ⁋ Preterea vel gratia equa 
+              <lb ed="#P" n="107"/>liter agit cum voluntate multum conante et cum voluntate pa 
+              <lb ed="#P" n="108"/>rum conante vel inedlitur. non secundum: cum est agens naturale 
+              <lb ed="#P" n="109"/>equalitur inclinet quantum est er parte eius. Non primum. producetur 
+              <lb ed="#P" n="110"/>em actus intensior cum voluntate multum inclinante quam volun 
+              <lb ed="#P" n="111"/>tate parum inclinante: ergo pius facit cum magno conatu quam 
+              <lb ed="#P" n="112"/>cum paruo.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1366">
+      ⁋ Ad primum dicitur quod inclinat in vtriusque 
+              di<lb ed="#P" n="113" break="no"/>lectionem: sed sicut superius dictum est quod charitas 
+              incli<lb ed="#P" n="114" break="no"/>nat in contraria: et nunc in vnum: et postea in suum 
+              op<lb ed="#P" n="115" break="no"/>positum: sic potest magis inclinare in dilectionem dei 
+              <lb ed="#P" n="116"/>quam proximi.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1377">
+      ⁋ Ad secundum negatur consequentia. 
+              da<lb ed="#P" n="117" break="no"/>ta imaginatione argumenti non sequitur quod erit 
+              impe<lb ed="#P" n="118" break="no"/>dimento merenti: sed solum quod retrahit a minore 
+              me<lb ed="#P" n="119" break="no"/>rito: vt habens pius consequatur meriti: tamen ad 
+              om<lb ed="#P" n="120" break="no"/>nem actum meritorium inclinat secundum quod voluntati 
+              bo<lb ed="#P" n="121" break="no"/>ne placet eam amplicare.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1390">
+      ⁋ Ad tertium inter 
+              arguen<lb ed="#P" n="122" break="no"/>dum ad calcem vsque sufficienter responsum est: et ad  
+              <lb ed="#P" n="123"/>punctum finale dicitur quod potietur equaliter: vt de Ia 
+              <lb ed="#P" n="124"/>cobo fratre domini contigit.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1399">
+      ⁋ Aliud soluitur ex dictis. 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1402">
+               <lb ed="#P" n="125"/>⁋ Nono argumentor sic: si gratia ad quemlibet actum 
+              <lb ed="#P" n="126"/>meritorium concurrit tunc inclinat in actum spei: quandao ille est 
+              <lb ed="#P" n="127"/>neritorius. Sed hoc est falum. spes enim immediate inclinat 
+              <lb ed="#P" n="128"/>in actum suum: ergo non charitas. ex opposito consequentis sequitur 
+              <lb ed="#P" n="129"/>quod voluntas facilius potest producere actum spei quam charitatem 
+              <lb ed="#P" n="130"/>cum plura habeat adiumenta.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1418">
+      ⁋ Iterum: ponatur quod deus praeci 
+              <lb ed="#P" n="131"/>piat sorti diligere vt quinque et prohibeat vltra dilectionem 
+              <lb ed="#P" n="132"/>vt quinque: ponatur quod quattuor gradus gratie faciant 
+      <!--116.xml-->
+      <pb ed="#P" n="51-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ad tres gradus actus. et quod voluntas habeat 
+              qua<lb ed="#P" n="2" break="no"/>tuor gradus conatus: qui sufficiunt producere tres 
+              <lb ed="#P" n="3"/>gradus actus.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1439">
+      ⁋ Insuper ex isto voluntas non potest 
+              <lb ed="#P" n="4"/>remittere suum actum meritorium gradualiter vni 
+              <lb ed="#P" n="5"/>formiter / difformiter ab octo ad non gradum vsque 
+              <lb ed="#P" n="6"/>supposito quod habeat gratiam vt octo: quia licet nul 
+              <lb ed="#P" n="7"/>la gratia concurrit ad actum sine conatu volunta 
+              <lb ed="#P" n="8"/>tis: tamen cum conatu gratia vt octo habet certum 
+              con<lb ed="#P" n="9" break="no"/>cursum: quod tantum facit: puta duos vel tres gradus 
+              <lb ed="#P" n="10"/>et quoniam agit secundum extremum sue potentiae: non est situm 
+              <lb ed="#P" n="11"/>in facultate voluntatis remittere actum a 
+              quatu<lb ed="#P" n="12" break="no"/>or vsque ad non gradum: vel vsque ad vnum gradum: nisi 
+              <lb ed="#P" n="13"/>mortaliter peccet.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1463">
+      ⁋ Ad primum concedo quod 
+              cha<lb ed="#P" n="14" break="no"/>ritas inclinat in actum spei: et concedo quod spes infusa 
+              <lb ed="#P" n="15"/>et charitas simul inclinant in illum actum. et facili 
+              <lb ed="#P" n="16"/>us erit producere actum spei quam actum charitatis 
+              <lb ed="#P" n="17"/>in aliqua intensione graduali propter maiorem cau 
+              <lb ed="#P" n="18"/>salitatem. Nec sequitur. ad actum charitatis concur 
+              <lb ed="#P" n="19"/>rit gratia: ergo spes infusa vel acquisita est inanis 
+              <lb ed="#P" n="20"/>quia ad idem dantur multa adminicula. sed quia omnis 
+              <lb ed="#P" n="21"/>actus spei elicitur a charitate: dummodo est in subie 
+              <lb ed="#P" n="22"/>cto est difficultas de illarum virtutum et actuum ab eis 
+              <lb ed="#P" n="23"/>elicitorum distinctione ad materiam tert ii spectans 
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1487">
+               <lb ed="#P" n="24"/>⁋ Ad vltimum transeat illatum: et similis difficul 
+              <lb ed="#P" n="25"/>tas fieri potest de illo qui habet gratiam valde in 
+              <lb ed="#P" n="26"/>tensam an is posset incipere elicere actum merito 
+              <lb ed="#P" n="27"/>rium a non gradu ad aliquem certum gradum inclusi 
+              <lb ed="#P" n="28"/>ue.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1500">
+      ⁋ Decimo arguitur: gratia concurrit ad actum non 
+              <lb ed="#P" n="29"/>meritorium. et qua ratione ad vnum actum non me 
+              <lb ed="#P" n="30"/>ritorium eademad alium non meritorium concurrit: et 
+              <lb ed="#P" n="31"/>ad veniale peccatum contra proprietates quas 
+              Apo<lb ed="#P" n="32" break="no"/>tolus prime ad corinthios. xiii. charitati attribuit 
+              <lb ed="#P" n="33"/>Assumptum patet: quia concurrit ad beatitudinem actus 
+              <lb ed="#P" n="34"/>voluntatis in patria: puta ad dilectionem dei 
+              cla<lb ed="#P" n="35" break="no"/>re visi: que est actus moraliter bonus in vltimum 
+              <lb ed="#P" n="36"/>finem optime tendens. gratia ei assistit: quid 
+              impe<lb ed="#P" n="37" break="no"/>dimenti est quod non concurrit.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1522">
+      ⁋ Item ad omnem actum 
+              <lb ed="#P" n="38"/>meritorium gratia concurrit: aliquod peccatum est a 
+              <lb ed="#P" n="39"/>ctus meritorius: ergo ad aliquod peccatum 
+              gra<lb ed="#P" n="40" break="no"/>tia concurrit. consequentia tenet in darii. et maior patet 
+              <lb ed="#P" n="41"/>ex positione. pobatio minoris de actu imperato a 
+              <lb ed="#P" n="42"/>duobus sorte et platone: quorum sortes habet 
+              bo<lb ed="#P" n="43" break="no"/>num actum plato malum interiorem et ob inanem 
+              <lb ed="#P" n="44"/>gloriam. fert scumnum gratia exempli.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1540">
+      ⁋ Responde 
+              <lb ed="#P" n="45"/>tur quod gratia ad solum actum meritorium concurrit: 
+              beati<lb ed="#P" n="46" break="no"/>tudo in patria est actus meritorius: non tamen noui pre 
+              <lb ed="#P" n="47"/>mii distincti a bono actu. sicut actus difformes dam 
+              <lb ed="#P" n="48"/>natorum dicuntur peccata
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1552">
+      ⁋ Ad secundum 
+              conce<lb ed="#P" n="49" break="no"/>ditur quod ad peccatum concurrit gratia effectiue. pec 
+              <lb ed="#P" n="50"/>catum fit a gratia. quando idem actus est meritum et pecca 
+              <lb ed="#P" n="51"/>tum. quod de actu exteriori contingit. sed gratia no 
+              concu<lb ed="#P" n="52" break="no"/>rit ratione qua ille actus est peccatum: sed ea ratione 
+              <lb ed="#P" n="53"/>qua est meritum.
+            </p>
+            <p xml:id="jm12w4-e33151-d1e1565">
+      ⁋ Sed dicis tunc idem actus est 
+              di<lb ed="#P" n="54" break="no"/>gnus vita eterna et pena. hoc conceditur. Non enim 
+              <lb ed="#P" n="55"/>valet confugere ad hoc quod est alius actus 
+              impera<lb ed="#P" n="56" break="no"/>tus ab vno alio. sicut de actu interiori. illa latio er 
+              <lb ed="#P" n="57"/>terior est lignum latum: quod est idem. Et insuper pona 
+              <lb ed="#P" n="58"/>tur idem homo cum duobus actibus interioribus 
+              <lb ed="#P" n="59"/>veniali et merito: et sic non euades 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

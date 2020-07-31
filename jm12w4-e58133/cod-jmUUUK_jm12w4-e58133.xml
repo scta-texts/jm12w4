@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="84-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e58133"> <!--l1d11et24q1 -->
+            <head xml:id="jm12w4-e58133-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e58133-Hd1e109" type="question-title">
+      An quantitas discreta sit aliqua res quantis inhaerens, 
+      et universaliter an sit aliquod indivisibile 
+      in quanto?
+    </head>
+            <p xml:id="jm12w4-e58133-d1e112">
+               <lb ed="#P" n="33"/>⁋ hic diligenter inquiri oportet: cum in
+              tri<lb ed="#P" n="34" break="no"/>nitate non sit diuersitas vel singulari tas.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e119">
+               <lb ed="#P" n="35"/>⁋ Distinctionis. xxiiii. questio prima 
+              <lb ed="#P" n="36"/>
+               <name xml:id="jm12w4-e58133-Nd1e125" ref="#Lombard">MAgister</name> in hac vigesimaquarta distin 
+              <lb ed="#P" n="37"/>aactione tractat materiam an in personis 
+              <lb ed="#P" n="38"/>diuinis sit nunerus: et an sit in deo 
+              quan<lb ed="#P" n="39" break="no"/>uatitas.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e137">
+      ⁋ Contemplatione cuius quere 
+              <lb ed="#P" n="40"/>Q. emus aliqua que conducunt ad intelliger 
+              <lb ed="#P" n="41"/>tiam illius quesiti. Postea respondebimus ad 
+              qua<lb ed="#P" n="42" break="no"/>stionem Magistri.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e146">
+      ⁋ Petemus autem primo an quanti 
+              <lb ed="#P" n="43"/>tas discreta sit aliqua resquantis inherens. Et vni 
+              <lb ed="#P" n="44"/>uersalter an fit aliquod indiuisibile in quato.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e153">
+      ⁋ Re 
+              <lb ed="#P" n="45"/>spondetur vnicam ponendo conclusionem: nullum est 
+              indi<lb ed="#P" n="46" break="no"/>uisibile in pure continuo continuans vel terminans per 
+              <lb ed="#P" n="47"/>tes eius.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e162">
+      ⁋ Pro intelligentia istius conclusionis 
+              no<lb ed="#P" n="48" break="no"/>tabis partitam esse positionem imprsentiarum. Quarum 
+              <lb ed="#P" n="49"/>vna tenet punctum esse impartibile: lineam 
+              pro<lb ed="#P" n="50" break="no"/>funditatis et latitudinis expertem. hoc sic declara 
+              <lb ed="#P" n="51"/>tur. Data a linea pedali in ea sunt duo puncta ter 
+              <lb ed="#P" n="52"/>minatiua: quorum vnum terminat in vno 
+              extrem<lb ed="#P" n="53" break="no"/>et reliquum in alio. Et infinita sunt puncta 
+              continu<lb ed="#P" n="54" break="no"/>tiua in hac linea: quia continuum est cuius partes copul 
+              <lb ed="#P" n="55"/>tur ad aliquem terminum communem: hoc est ad punctum 
+              <lb ed="#P" n="56"/>Et ita dicatur de quaelibet linea recta et finita quod duo 
+              <lb ed="#P" n="57"/>puncta terminatiua habet. Cinea gyaratiua habet terim 
+              <lb ed="#P" n="58"/>per accidens. Partes dicuntur terminari ad punctum 
+              <lb ed="#P" n="59"/>qui duas medietates terminat et continuat. Nulla 
+              <lb ed="#P" n="60"/>sunt puncta immediata in hac linea. hoc patet quia tum 
+              <lb ed="#P" n="61"/>nullum erit continuum: sed sola puncta essent in hac 
+              <lb ed="#P" n="62"/>linea. Sed immediate post primum punctum term 
+              <lb ed="#P" n="63"/>natiuum et continuatiuum aliud sequitur 
+              puncti<lb ed="#P" n="64" break="no"/>Quod patet: quia immediate post b punctum sequitun 
+      <!--182.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 84rb -->
+               <lb ed="#P" n="65"/>continuum et quantum et tale non potest habere partes coniun 
+              <lb ed="#P" n="66"/>ctas sine punctis: ergo post b punctum immediate sequitur 
+              <lb ed="#P" n="67"/>punctum. Ex quo sequuntur corollaris.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e214">
+      ⁋ Primum 
+              <lb ed="#P" n="68"/>est. Inter quecunqueduo puncta mediant infinita: 
+              <lb ed="#P" n="69"/>loquor de punctis continuatiuis. Probatio corollarius 
+              <lb ed="#P" n="70"/>inter quaecunque puncta intercipitur linea: modo in 
+              qua<lb ed="#P" n="71" break="no"/>libet linea sunt infinite partes que non possunt continua 
+              <lb ed="#P" n="72"/>ri sine punctis: ergo interquaecumque puncta mediant infini 
+              <lb ed="#P" n="73"/>ta.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e230">
+      ⁋ Secundo sequitur quod infinita est multitudo 
+              cate<lb ed="#P" n="74" break="no"/>gorematice entium non facientium aliquod vnum. Pa 
+              <lb ed="#P" n="75"/>tet de punctis datis. Nec hoc inconuenit in continuo 
+              <lb ed="#P" n="76"/>quia infinita est multitudo paertium proportionalium 
+              <lb ed="#P" n="77"/>in continuo secundum omnem proportionem.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e242">
+      ⁋ Tertium corol 
+              <lb ed="#P" n="78"/>larium inter b punctum inchoatiuum linee et quodlibet ali 
+              <lb ed="#P" n="79"/>ud mediat punctum. Patet ascendendo sub termino 
+              <lb ed="#P" n="80"/>distributo.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e251">
+      ⁋ Quartum corollarium: nullum punctum in 
+              <lb ed="#P" n="81"/>tercipitur inter b punctum et quodlibet aliud  
+              <lb ed="#P" n="82"/>Probatur: quia da oppositum: signetur et sit ciam vel c 
+              <lb ed="#P" n="83"/>est immediatum b contra paius dicta vel mediatum: et 
+              ha<lb ed="#P" n="84" break="no"/>betur corollarium.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e262">
+      ⁋ Quintum corollarium. hec tamen est 
+              <lb ed="#P" n="85"/>neganda: inter primum punctum et omnia alia puncta 
+              me<lb ed="#P" n="86" break="no"/>diat punctum / capiendo omnia collectiue) quia tunc 
+              opor<lb ed="#P" n="87" break="no"/>teret aliquod punctum precedere omnia puncta sequem 
+              <lb ed="#P" n="88"/>tia b. Eodemmodo illa est falsa capiendo distribut 
+              <lb ed="#P" n="89"/>ue. habebit enim vnam singularem falsam in qua de mod 
+              <lb ed="#P" n="90"/>strantur omnia puncta collectiue. Sicut dictum est de 
+              <lb ed="#P" n="91"/>punctis eodem modo dicatur de lineis et superficiebus 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e280">
+               <lb ed="#P" n="92"/>⁋ Ex fluxum puncti consurgit line a que nullam latitur 
+              <lb ed="#P" n="93"/>dinem neque profunditatem habet. Quod sic dinoscitur: si 
+              <lb ed="#P" n="94"/>vnum punctum de flueret ab a puncto ad o punctum 
+              <lb ed="#P" n="95"/>secundum longitudinem relinquendo vestigium 
+              re<lb ed="#P" n="96" break="no"/>tro se iam habebitur linea quam duo puncta terminant. 
+              <lb ed="#P" n="97"/>Et si hec linea fiuat secundum latum relinquendo 
+              ve<lb ed="#P" n="98" break="no"/>stigium post se nullo pacto relinquens aliquid secum 
+              <lb ed="#P" n="99"/>dum profunditatem: erit suparficies: quia longitudo a lati 
+              <lb ed="#P" n="100"/>tudo. Si rursus superficies relinquat vestigium 
+              <lb ed="#P" n="101"/>retro se siue sursum siue deorsum erit corpus: quia li 
+              <lb ed="#P" n="102"/>nea terminatur: et non per diuisibile quia ipsum iterum 
+              <lb ed="#P" n="103"/>terminabitur: oportet ergo ponere duo puncta indiui 
+              <lb ed="#P" n="104"/>sibilia. Eodemmodo probatur de linea claudente super 
+              <lb ed="#P" n="105"/>ficiem: et de superficie corpus terminante.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e313">
+      ⁋ Con 
+              <lb ed="#P" n="106"/>tra fundamentum huius positionis: et corollaria 
+              <lb ed="#P" n="107"/>arguitur sic. Ex hac positione sequitur quod aliquod ac 
+              <lb ed="#P" n="108"/>cidens indiuisibile inhereret subiecto diuisibili: patet 
+              <lb ed="#P" n="109"/>de b puncto terminante lineam.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e324">
+      ⁋ Forte dices quod 
+              <lb ed="#P" n="110"/>oc non inconuenit tanquam in subiecto inadequato 
+              <lb ed="#P" n="111"/>vel tanquam terminus in suo terminato. Nec sic incon 
+              <lb ed="#P" n="112"/>uenit quod idem punctum sit in duobus tanquam 
+              termi<lb ed="#P" n="113" break="no"/>nis: patet de puncto continuante quod etiam 
+              ter<lb ed="#P" n="114" break="no"/>minat.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e338">
+      ⁋ Non valet quod alii dicunt: quod puncta 
+              con<lb ed="#P" n="115" break="no"/>tinuatiua non sunt nisi in potentia et non sunt actu 
+              <lb ed="#P" n="116"/>actualiter enim sunt in rerum natura.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e345">
+      ⁋ Propter 
+              <lb ed="#P" n="117"/>ea aliter arguitur: pono a lineam terminari cet li 
+              <lb ed="#P" n="118"/>punctis: alias non esset finita. Contra: deus potes 
+              <lb ed="#P" n="119"/>separare illa puncta de potentia sua absoluta linea 
+              <lb ed="#P" n="120"/>manente: quo facto linea erit finita.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e356">
+      ⁋ Sed dices 
+              <lb ed="#P" n="121"/>quod deus non potest separare puncta terminatiua 
+              <lb ed="#P" n="122"/>linee linea conseruata: quia tunc diffinitio 
+              negabi<lb ed="#P" n="123" break="no"/>tur de diffinito supponente. Linea ab euclide 
+              pri<lb ed="#P" n="124" break="no"/>mo elementorum sic diffinitur. Linea est longitu 
+              <lb ed="#P" n="125"/>do sine latitudine et profunditate cuius 
+              extremi<lb ed="#P" n="126" break="no"/>tates sunt: duo puncta.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e372">
+      ⁋ Vel melius sic (vel 
+              sal<lb ed="#P" n="127" break="no"/>tem minus male admittendo casum qui non clau 
+              <lb ed="#P" n="128"/>dit contradictionem dicitur: quod linea non erit fini 
+              <lb ed="#P" n="129"/>ta positiue: sed priuatiue. vel licet non habeat ter 
+      <!--183.xml-->
+      <pb ed="#P" n="84-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>minum intrinsecum habet extrinsecum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e390">
+      ⁋ Sed  
+              <lb ed="#P" n="2"/>contra ipsa terminatur: nec erit longior solito. Et 
+              <lb ed="#P" n="3"/>argumentum aduersarii ibi soluetur qua 
+              solutio<lb ed="#P" n="4" break="no"/>ne data: sufficit proposito. Dicere quod non potest cor 
+              <lb ed="#P" n="5"/>rumpere illa duo puncta terminatiua quin produ 
+              <lb ed="#P" n="6"/>cat duo de nouo: est vnum dictum voluntarium.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e403">
+      ⁋ Se 
+              <lb ed="#P" n="7"/>cundo arguitur sic. corrumpat deus omnia illa puncta 
+              <lb ed="#P" n="8"/>in linea / linea conseruata: iam habebitur linea sine pum 
+              <lb ed="#P" n="9"/>ctis. Quod hoc potest patet. potest enism corrumpere 
+              <lb ed="#P" n="10"/>puncta terminatiua a linee: et eadem est ratio de 
+              <lb ed="#P" n="11"/>aliis punctis continuatiuis que etiam terminant 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e417">
+               <lb ed="#P" n="12"/>⁋ Sed dices (et fuga nulla est alia) quod non est ide: 
+              <lb ed="#P" n="13"/>de punctis continuatiuis et aliis: quia tunc 
+              mane<lb ed="#P" n="14" break="no"/>bunt partes linee: et continuum in omnem suam 
+              par<lb ed="#P" n="15" break="no"/>tem diuidi est impossibile: ergo cum partes sut ne 
+              <lb ed="#P" n="16"/>cesse est eas continuari: et continuatio non potes 
+              <lb ed="#P" n="17"/>fieri sine punctis. igitur.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e433">
+      ⁋ Contra hoc arguitur 
+              <lb ed="#P" n="18"/>sic. quandocunque sunt due creature realiter distin 
+              <lb ed="#P" n="19"/>cte quarum neutra est pars alterius: deus potest quam 
+              <lb ed="#P" n="20"/>cumque illarum creaturarum destruere alia corrupta: 
+              <lb ed="#P" n="21"/>sic autem est de punctis et lineis continuatiuis.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e444">
+      ⁋ Refu 
+              <lb ed="#P" n="22"/>gium haberet hec positio negando illam Maximam 
+              <lb ed="#P" n="23"/>quando est dependentia vnius creature ab alia 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e451">
+               <lb ed="#P" n="24"/>⁋ Tertio arguitur sic. ex hac positione sequitur quo 
+              <lb ed="#P" n="25"/>due medietates continui non sint immediate: cum 
+              <lb ed="#P" n="26"/>inter eas aliquid mediet: puta punctum continuati 
+              <lb ed="#P" n="27"/>uum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e462">
+      ⁋ Secundo ex hac positione sequitur quod 
+              da<lb ed="#P" n="28" break="no"/>bitur circulus indiuisibilis: consequens implicat: ergo et 
+              <lb ed="#P" n="29"/>antecedens. probo tamen consequentiam: qui capio centrum mo 
+              <lb ed="#P" n="30"/>le fabri quod per hanc viam est accidens indiuisibile  
+              <lb ed="#P" n="31"/>Tunc illud mouetur ad motum rote octauo 
+              phy<lb ed="#P" n="32" break="no"/>sicorum: motis nobis mouentur ea que nobis sunt 
+              <lb ed="#P" n="33"/>Et tunc sic: non mouetur motu recto nec mixto: 
+              mo<lb ed="#P" n="34" break="no"/>uebitur ergo motu circulari. Ergo ex eius motu 
+              <lb ed="#P" n="35"/>causabitur circulus vt patet de tropico cancri et 
+              <lb ed="#P" n="36"/>capricorni. Et tunc sic. vel ille circulus descriptus 
+              <lb ed="#P" n="37"/>ab illo puncto est indiuisibilis: et sic habetur inten 
+              <lb ed="#P" n="38"/>tum: vel diuisibilis: et tunc sequitur quod punctum 
+              me<lb ed="#P" n="39" break="no"/>dium non erat centrum: quia quocunque circulo dato 
+              <lb ed="#P" n="40"/>qui describitur ab aliquo puncto illius rote 
+              dabi<lb ed="#P" n="41" break="no"/>lis est circulus minor. ergo circulo descripto ab il 
+              <lb ed="#P" n="42"/>lo punto dabilis est minor: ergo ille non erat 
+              cen<lb ed="#P" n="43" break="no"/>trum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e499">
+      ⁋ Ad primum istorum nego consequentiam: 
+              <lb ed="#P" n="44"/>qui mediatio puncti continuantis illas medietates 
+              <lb ed="#P" n="45"/>non arguit eas non esse immediatas.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e507">
+      ⁋ Ad 
+              secun<lb ed="#P" n="46" break="no"/>dum nego sequelam: centrum enim rote circulariter 
+              mo<lb ed="#P" n="47" break="no"/>te non mouetur. illud autem Motis nobis mouentur ea 
+              <lb ed="#P" n="48"/>qua in nobis sunt. intelligitur de partibus nostris: non 
+              <lb ed="#P" n="49"/>autem oportet sic esse de accidentibus. vel sic et de 
+              <lb ed="#P" n="50"/>his et de illis hoc verum habet nisi fuerit accidens 
+              <lb ed="#P" n="51"/>centrale. Et istud etiam intelligitur quando totum ra 
+              <lb ed="#P" n="52"/>tione totius de per se mouetur. Si maior pars cere 
+              <lb ed="#P" n="53"/>rarefiat tota augmentatur: et rarefit: et per consequens mo 
+              <lb ed="#P" n="54"/>uetur: sed non oportet ita esse de qualibet parte. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e529">
+               <lb ed="#P" n="55"/>⁋ Sed diceres: stella que est polus arcticus inter 
+              <lb ed="#P" n="56"/>dum percipitur moueri: et est polus octaui celi: ergo 
+              <lb ed="#P" n="57"/>polus corporis circulariter moti mouetur. 
+              Antece<lb ed="#P" n="58" break="no"/>dens expertum est ab experimentatoribus.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e540">
+      ⁋ 
+              Re<lb ed="#P" n="59" break="no"/>spondetur quod tunc illa stella non est polus arcticus: 
+              <lb ed="#P" n="60"/>sed punctum satis prope illam stellam quod nullate 
+              <lb ed="#P" n="61"/>nus mouetur. Et si dicas secundum illud Alani. 
+              Ethe<lb ed="#P" n="62" break="no"/>reus motus mouet omnia sidera preter Unum: sed 
+              <lb ed="#P" n="63"/>semper permanet illud idem. hoc est non notabili 
+              <lb ed="#P" n="64"/>ter percipitur a nautis mutare suum locum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e556">
+      ⁋ 
+              Quar<lb ed="#P" n="65" break="no"/>to arguitur probando puncta esse immediata: et hoc 
+      <!--183.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 84vb -->
+               <lb ed="#P" n="66"/>sic. diuisio linee cadit super punctum: volo quod 
+              diui<lb ed="#P" n="67" break="no"/>datur a linea pedalis in duas medietates: iam vtra 
+              <lb ed="#P" n="68"/>quam medietas terminatur puncto post separationem: 
+              <lb ed="#P" n="69"/>et ista puncta non producuntur de nouo: ergo 
+              an<lb ed="#P" n="70" break="no"/>te erant immediata in ista linea.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e578">
+      ⁋ Ulterius capiantur 
+              <lb ed="#P" n="71"/>due semipedalitates cooperientes linema pedalem: 
+              <lb ed="#P" n="72"/>puncta terminatiua sunt immediata: tunc respon 
+              <lb ed="#P" n="73"/>debunt eis duo puncta diuersa in linea pedali 
+              infe<lb ed="#P" n="74" break="no"/>riori: et sic habentur duo puncta immediata.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e589">
+      ⁋ 
+              Re<lb ed="#P" n="75" break="no"/>spondetur quod diuisio cadit super punctum et illud  
+              <lb ed="#P" n="76"/>manet in vna medietate et eam terminat et non in 
+              <lb ed="#P" n="77"/>alia medietate.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e599">
+      ⁋ Sed contra: sequereturquod accidens 
+              <lb ed="#P" n="78"/>migraret de subiecto in subiectum: illud enim 
+              pun<lb ed="#P" n="79" break="no"/>ctum ambabus medietatibus paius inherebat tam 
+              <lb ed="#P" n="80"/>quam terminus in terminato: nunc autem inheret solum 
+              <lb ed="#P" n="81"/>alteri.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e610">
+      ⁋ Iterum: non est maior ratio quod inhereat 
+              <lb ed="#P" n="82"/>vni medietati quam alteri.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e615">
+      ⁋ Propterea minus 
+              inap<lb ed="#P" n="83" break="no"/>parenter dicitur quod punctum corrumpitur a 
+              diui<lb ed="#P" n="84" break="no"/>sore: diuisio enim cadit supra punctum hoc est ipsum 
+              <lb ed="#P" n="85"/>continuans corrumpitur et producuntur duo de no 
+              <lb ed="#P" n="86"/>uo a diuidente. Et si plures diuidant duo producums 
+              <lb ed="#P" n="87"/>tur ab ambobus nisi deus impediat miraculose pro 
+              <lb ed="#P" n="88"/>ductionem istorum punctorum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e631">
+      ⁋ Sed dices si ex 
+              <lb ed="#P" n="89"/>duabus lineis terminatis fiat aliqua vna: iam erunt 
+              <lb ed="#P" n="90"/>duo puncta proxima in eadem linea.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e638">
+      ⁋ Responde¬  
+              <lb ed="#P" n="91"/>tur quod alterum istorum dicere oportebit esse corru 
+              <lb ed="#P" n="92"/>ptum. Et cum equa sit ratio de vtroque: dicitur quod vtrum 
+              <lb ed="#P" n="93"/>que corrumpitur: et producitur vnum de nouo. Si 
+              <lb ed="#P" n="94"/>enim duo faciant illam continuationem vnus 
+              appli<lb ed="#P" n="95" break="no"/>cat semipedalitatem et alter aliam iam illa duo 
+              si<lb ed="#P" n="96" break="no"/>mul producunt vnum punctum: quod non citius produ-  
+              <lb ed="#P" n="97"/>citur ab illis duobus copulatim quam ab vno illorum. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e656">
+               <lb ed="#P" n="98"/>⁋ Ad secundum dicitur quod non inconuenit duo 
+              pu<lb ed="#P" n="99" break="no"/>cta variarum linearum esse immediata immo sunt in 
+              <lb ed="#P" n="100"/>eodem loco: et eis respondet idem punctum nume 
+              <lb ed="#P" n="101"/>ro in linea inferiori. Et sic non habes eiusdem 
+              li<lb ed="#P" n="102" break="no"/>nee puncta immediata.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e670">
+      ⁋ Sed contra istud argui 
+              <lb ed="#P" n="103"/>tur sic. ponantur due linee pedales a b super se 
+              inui<lb ed="#P" n="104" break="no"/>cem sic scilicet: quod a superiori corrumpat deus totam quam 
+              <lb ed="#P" n="105"/>titatem continuam: puta omnes partes linee ipsi 
+              <lb ed="#P" n="106"/>us a ipsis punctis remanentibus in eisdem sitibus 
+              <lb ed="#P" n="107"/>in quibus erant: tunc sic: erunt duo puncta imme 
+              <lb ed="#P" n="108"/>diata post separationem partium linee: et non ma 
+              <lb ed="#P" n="109"/>gis appopinquant quam antea. ergo prius erant im 
+              <lb ed="#P" n="110"/>mediata. Casus non videtur negandus a potentia 
+              <lb ed="#P" n="111"/>dei: licet enim linea dependeat a punctis non 
+              ta<lb ed="#P" n="112" break="no"/>men econtrario. vt crebro in vsu est. Creatura enim 
+              <lb ed="#P" n="113"/>non potest esse sine deo: bene autem econuerso. 
+              Si<lb ed="#P" n="114" break="no"/>militer totum non potest esse sine sua materia bene 
+              <lb ed="#P" n="115"/>tamen contra: immo videtur vlterius in isto casu: quod 
+              <lb ed="#P" n="116"/>quelibet pars blinee inferioris erit cooperta ab ali 
+              <lb ed="#P" n="117"/>quo puncto quod erat linee superioris: ergo nihil erat in 
+              <lb ed="#P" n="118"/>a linea demptis punctis.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e707">
+      ⁋ Respondetur admisso ca 
+              <lb ed="#P" n="119"/>su: negatur quod duo puncta erunt immediata: quia inter 
+              qua<lb ed="#P" n="120" break="no"/>cumqueduo puncta mediant infinita. nec sequitur. multi 
+              <lb ed="#P" n="121"/>tudo omnium istorum punctorum demonstratis omnibus 
+              <lb ed="#P" n="122"/>punctis aliis a puncto inchoatiuo) est immediata pum 
+              <lb ed="#P" n="123"/>cto inchoatiuo: ergo aliquod punctum est 
+              immedia<lb ed="#P" n="124" break="no"/>tum illi: sicut digito tangens continuum in vno extre 
+              <lb ed="#P" n="125"/>no quod versus erant partes proportionabiles minores: 
+              <lb ed="#P" n="126"/>digitus est immediatus toti multitudini illarsi 
+              par<lb ed="#P" n="127" break="no"/>tium proportionabilium a nulli parti proportionali ille 
+              <lb ed="#P" n="128"/>digitus est immediatus. vel ponatur super quamlibum 
+              <lb ed="#P" n="129"/>partem proportionabilem vnus angelus digito remo 
+              <lb ed="#P" n="130"/>mente in eodem situm: tunc digitus est immediatus toti 
+      <!--184.xml-->
+      <pb ed="#P" n="85-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>muititudini istorum angelorum: et nulli angelo est 
+              in<lb ed="#P" n="2" break="no"/>mediatus: immo quocunque angelo in illa 
+              multitu<lb ed="#P" n="3" break="no"/>dine dato inter ipsum et digitum mediant infiniti an 
+              <lb ed="#P" n="4"/>geli. sic inter quecumque duo puncta mediant infinita. 
+              <lb ed="#P" n="5"/>Sed non est omnino simile quo ad analogiam: quia 
+              dabi<lb ed="#P" n="6" break="no"/>les sunt multi angeli immediati: vtputa angelus 
+              <lb ed="#P" n="7"/>super primam partem prportionalem et secundam super 
+              <lb ed="#P" n="8"/>posito quod repleant illas partes. Sic de quibuscunque an 
+              <lb ed="#P" n="9"/>gelis in partibus proximis.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e762">
+      ⁋ Ad aliud docitr: quod prio 
+              <lb ed="#P" n="10"/>non est cooptura a linee a punctis: sed si intelligas 
+              <lb ed="#P" n="11"/>quod quelibet pars linee inferioris habet punctum supra 
+              <lb ed="#P" n="12"/>se: et hoc vocas respondere: vel esse coopertum respon 
+              <lb ed="#P" n="13"/>detur per propositiones.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e773">
+      ⁋ Prima est: quodlibet 
+              <lb ed="#P" n="14"/>punctu linee inferioris erit coopertum ab aliquo pum 
+              <lb ed="#P" n="15"/>ctolinee superioris.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e780">
+      ⁋ Secunda propositio. quodlibet 
+              <lb ed="#P" n="16"/>punctum linee inferioris habet vnum punctum ei re 
+              <lb ed="#P" n="17"/>spondens in linea supriori: duo puncta tria puncta 
+              <lb ed="#P" n="18"/>et sic sine statu.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e789">
+      ⁋ Analogiam deprehendere potes 
+              <lb ed="#P" n="19"/>inferius in materia de infinito: vbi dabuntur 
+              infini<lb ed="#P" n="20" break="no"/>ti aurei in vna multitudine: et infiniti homines in alia 
+              <lb ed="#P" n="21"/>iam cuilibet homini respondent tres aurei quatuor: 
+              <lb ed="#P" n="22"/>et sic sine statu. Et cuilibet aureo duo vel tres 
+              ho<lb ed="#P" n="23" break="no"/>mines.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e803">
+      ⁋ Tertia propositio. ex duabus praemissis non 
+              se<lb ed="#P" n="24" break="no"/>quitur quod nihil erat in linea demptis punctis. 
+              Pro<lb ed="#P" n="25" break="no"/>batur hec propositio: quia dato opposito ex duobus 
+              ve<lb ed="#P" n="26" break="no"/>ris et concessis ab opinione ipsa corrueret. Opi 
+              <lb ed="#P" n="27"/>nantes non dicerent pro hoc argumento: colorem 
+              <lb ed="#P" n="28"/>tamen habet.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e816">
+      ⁋ Sed contra dices: supponatur quod 
+              an<lb ed="#P" n="29" break="no"/>gelus potest esse in loco punctali vel si lucteris in 
+              <lb ed="#P" n="30"/>terminis quod nullus sit locus punctalis: ponatur quod 
+              <lb ed="#P" n="31"/>potest coexistere puncto: vel ducatur argumeutum de 
+              <lb ed="#P" n="32"/>corpe spherico moto superlineam corpis plani: quod 
+              <lb ed="#P" n="33"/>secundum opinantes tangit planum in puncto. Tunc sic 
+              <lb ed="#P" n="34"/>iste angelus pertransiuit hanc lineam pedalem: et 
+              <lb ed="#P" n="35"/>semper erit in loco punctali: non lucteris ad nomen 
+              <lb ed="#P" n="36"/>ergo nihil ibi reperit nisi puncta.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e836">
+      ⁋ Respondetur: quod con 
+              <lb ed="#P" n="37"/>sequentia non valet: vt dictum est in casu praecedenti 
+              <lb ed="#P" n="38"/>Sed vterque habet colorem contra opinionem. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e843">
+               <lb ed="#P" n="39"/>⁋ Quinto ex isto sequitur: quod circulus erit 
+              indiuisi<lb ed="#P" n="40" break="no"/>bilis secundum latitudinem et profunditatem: et sic duo 
+              <lb ed="#P" n="41"/>puncta possunt esse in eodem loco in variis corpo 
+              <lb ed="#P" n="42"/>ribus. Sic etiam due superficies erunt in eodem loce 
+              <lb ed="#P" n="43"/>scilicet suparficies conuexa ignis et concaua lune. Sed 
+              <lb ed="#P" n="44"/>hoc est falsum: quia tunc non est maior ratio quod 
+              sphe<lb ed="#P" n="45" break="no"/>ra lune contineat spheram ignis quam contra.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e861">
+      ⁋ Sed di 
+              <lb ed="#P" n="46"/>ces: est ratio quia superficies concaua sphere lune in 
+              <lb ed="#P" n="47"/>heret corpi circundanti: non autem econtrario.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e868">
+      ⁋ Con 
+              <lb ed="#P" n="48"/>tra: ponat permutatio illarum superficierum. Tunc 
+              <lb ed="#P" n="49"/>sequitur quod suparficies ignis: vel qui fuit ignis esset 
+              <lb ed="#P" n="50"/>continens respectu ignis. Sed ibi concedes illatum. 
+              <lb ed="#P" n="51"/>Non enim inconuenit duas suparficies diuersorum cor 
+              <lb ed="#P" n="52"/>porum esse in eodem loco pius quam duo puncta vario 
+              <lb ed="#P" n="53"/>rum corporum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e885">
+      ⁋ Quo fit quod eadem est 
+              diametru<lb ed="#P" n="54" break="no"/>numero corpis locatiet locantis. Et si dicas: 
+              tertu<lb ed="#P" n="55" break="no"/>elementorum propositione sexta dicit Euclides: cit 
+              <lb ed="#P" n="56"/>culorum sese contingentium non idem centrum esse 
+              <lb ed="#P" n="57"/>necesse est. hoc non mouet: quia loquitur de circulis ec 
+              <lb ed="#P" n="58"/>centricis et non de concentricis: aliter enim non se con 
+              <lb ed="#P" n="59"/>tingunt. Oportet idem dicere secundum modum oppo 
+              <lb ed="#P" n="60"/>situm ducendo diametrum corpis locati ad superf 
+              <lb ed="#P" n="61"/>ciem conuexam eius: que diametrus est immediata 
+              <lb ed="#P" n="62"/>superficie concaue corporis locantis. Alioquin 
+              dabi<lb ed="#P" n="63" break="no"/>tur vacuum inter corpus locans et copus locatum: 
+              <lb ed="#P" n="64"/>vel quod non sit proprius locus eius cuius oppositum 
+              <lb ed="#P" n="65"/>supponimus. Sed ista diametrus non erit corpis am¬ 
+      <!--184.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 85rb -->
+               <lb ed="#P" n="66"/>bientis corpus locans.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e922">
+      ⁋ Possunt esse argumenta 
+              <lb ed="#P" n="67"/>similia de diuisione linearum et suparficierum: sicut de 
+              <lb ed="#P" n="68"/>segregatione punctorum. si enim deus separet primam 
+              <lb ed="#P" n="69"/>partem proportionalem a secunda: secundam a tertia: et ita 
+              <lb ed="#P" n="70"/>de qualibet alia: partibus remanentibus in eodem 
+              si<lb ed="#P" n="71" break="no"/>tu petis in qua parte erit vltima suparficies que 
+              cor<lb ed="#P" n="72" break="no"/>pus terminat.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e938">
+      ⁋ Respondetur: quod in nulla parte 
+              propor<lb ed="#P" n="73" break="no"/>tionali: vt patet per assensum: set terminat totam 
+              mul<lb ed="#P" n="74" break="no"/>titudinem partiu. Et propositiones logicales tangi 
+              <lb ed="#P" n="75"/>possunt: vtputa si sortes incipiat diuidere vnam 
+              su<lb ed="#P" n="76" break="no"/>perficiem per hoc instans quod est vltimum instans 
+              <lb ed="#P" n="77"/>non esse diuisionis iam incipit per remotionem de 
+              pre<lb ed="#P" n="78" break="no"/>senti vna linea diuidi quae nec desinit nec desinet 
+              di<lb ed="#P" n="79" break="no"/>uidi: et immediate post hoc diuidetur linea (immo 
+              li<lb ed="#P" n="80" break="no"/>nea immediate post hoc diuidetur. patet de linea 
+              ter<lb ed="#P" n="81" break="no"/>minante superficiem immediate: post hoc diuidetur 
+              <lb ed="#P" n="82"/>superficies. Sed illa logicalis sunt: vide in incipit et 
+              <lb ed="#P" n="83"/>desinit: de quibus supersedeo.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e964">
+      ⁋ Istud ( quia non est 
+              <lb ed="#P" n="84"/>petenda pluralitas sine necessitate: et alique solu 
+              <lb ed="#P" n="85"/>tiones forte non sufficiunt) videtur ad minus 
+              proba<lb ed="#P" n="86" break="no"/>bile. Sed quia ad multorum intelligentiam conducit:  
+              <lb ed="#P" n="87"/>et apud mathematicos et plerosque philosophos in 
+              <lb ed="#P" n="88"/>honore: non est penitus reiicienda.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e977">
+      ⁋ Ista positio 
+              <lb ed="#P" n="89"/>inferius ostendetur esse contra mentem beati 
+              Augu<lb ed="#P" n="90" break="no"/>tini. Et vlterius adducam dictum viri non multum 
+              <lb ed="#P" n="91"/>capientis in philosophia. Sed quia iustam causam ha 
+              <lb ed="#P" n="92"/>bere videtur recitabo. <ref xml:id="jm12w4-e58133-Rd1e987">
+                  <name xml:id="jm12w4-e58133-Nd1e989" ref="#per-lval8a">Laurentius valla</name> decimosex 
+              <lb ed="#P" n="93"/>to capite sue nuncupate logice</ref> dicit. <name xml:id="jm12w4-e58133-Nd1e996" ref="#Aristotle">Aristoteles</name>  
+               <lb ed="#P" n="94"/>negat in loco esse puncta: sed tinee terminos pucta 
+              <lb ed="#P" n="95"/>existimat. Et sequitur protinus. Et ego id ausim iu 
+              <lb ed="#P" n="96"/>rare: eum non intelligere quod dicit.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1006">
+      ⁋ Alia est po- 
+              <lb ed="#P" n="97"/>sintio rationi conformior: quod nulla sunt puncta indiui 
+              <lb ed="#P" n="98"/>sibilia in linea: nec est longitudo distincta a 
+              latitu<lb ed="#P" n="99" break="no"/>dine: immo implicat dare longitudinem sine 
+              latitu<lb ed="#P" n="100" break="no"/>dine.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1018">
+      ⁋ Modus huius positionis est talis: data li 
+              <lb ed="#P" n="101"/>nea siue sit quantitas accidens secundum vnam viam 
+              <lb ed="#P" n="102"/>vel quantitas substantia secundum aliam: ita habet 
+              ter<lb ed="#P" n="103" break="no"/>minos intrinsecos: dato quod ponatur in vacuo vel 
+              ex<lb ed="#P" n="104" break="no"/>tra vniuersum quolibet puncto sde quo locuti 
+              su<lb ed="#P" n="105" break="no"/>mus) secluso: vna pua pars que est linea: puta vna 
+              <lb ed="#P" n="106"/>vigesima vel vna trigesima vel alia quantalibet pare 
+              <lb ed="#P" n="107"/>que est terminus est punctum. Et sic puncti est 
+              pu<lb ed="#P" n="108" break="no"/>ctum: vt patet de parte illius. Si non capias partem 
+              <lb ed="#P" n="109"/>nulla pars. linee est vltra partem datam illius Et partes 
+              li<lb ed="#P" n="110" break="no"/>nee copulatiue ad terminum communem. id est con 
+              <lb ed="#P" n="111"/>tinuantur simul: et faciunt aliquod vnum: impossibi 
+              <lb ed="#P" n="112"/>le est enim dare longitudinem sine latitudine et pro 
+              <lb ed="#P" n="113"/>funditate. Quod patet: signatocorpe cubo. ibi non 
+              <lb ed="#P" n="114"/>est ratio accipiende longitudinis penes vnam 
+              di<lb ed="#P" n="115" break="no"/>mensionem potius quam penes aliam nisi ab libitum: 
+              <lb ed="#P" n="116"/>ergo nulla est distinctio latitudinis a longitudi 
+              <lb ed="#P" n="117"/>ne. Et adhuc si dimensiones fuerint equales vbi 
+              <lb ed="#P" n="118"/>longitudo attenditur penes diametrum 
+              longissi<lb ed="#P" n="119" break="no"/>mam: latitudo penes secundam dimensionem: et 
+              <lb ed="#P" n="120"/>profunditas secundum minimam. Ut patet de ar 
+              <lb ed="#P" n="121"/>cha Noe: que fuit trecentorum cubitorum 
+              longi<lb ed="#P" n="122" break="no"/>tudinis: latitudinis triginta: profunditatis 
+              trigi<lb ed="#P" n="123" break="no"/>ta. Senesis sex. Et in homine longitudo est a 
+              pe<lb ed="#P" n="124" break="no"/>dibus ad caput: latitudo a dextra ad sinistram: 
+              pro<lb ed="#P" n="125" break="no"/>funditas a tergo ad pectus. Sed cum totum sit suc 
+              <lb ed="#P" n="126"/>partes: longitudo realiter est latitudo: et pars 
+              in<lb ed="#P" n="127" break="no"/>ferior et superior pars sinistra et pars dextra copu 
+              <lb ed="#P" n="128"/>latim.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1081">
+      ⁋ Di dicas primo elementorum Euclidec 
+              <lb ed="#P" n="129"/>diffinit punctum sic. Punctum est cuius pars non 
+              <lb ed="#P" n="130"/>est. Et linea est longitudo sine latitudine et profundita 
+      <!--185.xml-->
+      <pb ed="#P" n="85-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>te cuius extrema sunt duo puncta. Et idem vult 
+              <lb ed="#P" n="2"/>
+               <name xml:id="jm12w4-e58133-Nd1e1098" ref="#Aristotle">Aristoteles</name> quinto Metaphysice dicens. omne in 
+              <lb ed="#P" n="3"/>diuisibile secundum quantitatem habens positionem dicitur 
+              <lb ed="#P" n="4"/>punctum. Sic megarensis suo modo suparficiemet corpus 
+              <lb ed="#P" n="5"/>diffinit.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1108">
+      ⁋ Ad hoc respondetur: quod ista sunt dicta mathe 
+              <lb ed="#P" n="6"/>maticorum. Ista indiuisibilia abstrahentium que relin 
+              <lb ed="#P" n="7"/>quunt metaphysice ad determinandum de entitate 
+              <lb ed="#P" n="8"/>talium. <name xml:id="jm12w4-e58133-Nd1e1116" ref="#Aristotle">Aristoteles</name> exemplariter eis vtitur. Quia erat 
+              <lb ed="#P" n="9"/>opinio famosa in diebus eius quod erant puncta indi 
+              <lb ed="#P" n="10"/>uisibilia in continuo: quorum aliqui asseruerunt cont 
+              <lb ed="#P" n="11"/>nuum componi ex praenctis: vt domins Democritus et 
+              <lb ed="#P" n="12"/>eius collega leucippus. Alii ponebant puncta acci 
+              <lb ed="#P" n="13"/>dentia. <name xml:id="jm12w4-e58133-Nd1e1130" ref="#Aristotle">Aristoteles</name> vsus est modo loquendi commun 
+              <lb ed="#P" n="14"/>primo enim Posteriorum inquit: puncta in linea non 
+              <lb ed="#P" n="15"/>sunt immediata: sed substantia linee ex his est. Quo 
+              <lb ed="#P" n="16"/>aliqua geometricalia rectificare necesse sit per Me 
+              <lb ed="#P" n="17"/>taphysicam. patet. est tertia positio Euclidis 
+              pri<lb ed="#P" n="18" break="no"/>mi elementorum. omnes angulos rectos sibiinuicem 
+              <lb ed="#P" n="19"/>esse equales: et tamen cum angulus rectus nihil aliud si 
+              <lb ed="#P" n="20"/>quam spatium inclusum inter duas lineas: quarum vna 
+              <lb ed="#P" n="21"/>cadit perpendiculariter supra aliam. In istis diffini 
+              <lb ed="#P" n="22"/>tionibus non est curandum de vacuo inter lineas: quia 
+              <lb ed="#P" n="23"/>naturaliter loquimur: etiam tunc non erit angulus: 
+              <lb ed="#P" n="24"/>palam est vnum angulum rectum alium includere. et 
+              <lb ed="#P" n="25"/>hoc modo loquendi non mathematici vtuntur. 
+              dimen<lb ed="#P" n="26" break="no"/>sio maxima vocatur longitudo sine latitudine et profum 
+              <lb ed="#P" n="27"/>ditate. hoc est non habendo respectum de latitudine 
+              <lb ed="#P" n="28"/>et de profunditate. Ad vlnam enim non respicimus ad  
+              <lb ed="#P" n="29"/>grossitiem et latitudinem dummodo longitudinem debi 
+              <lb ed="#P" n="30"/>tam habeat. Sic de suparficie et copore dici potest 
+              <lb ed="#P" n="31"/>suo more: non loquimur de corpore infinite longo dif 
+              <lb ed="#P" n="32"/>formiter lato a profundo quod nullius determinate 
+              <lb ed="#P" n="33"/>latitudinis et profunditatis est. Quod patet de 
+              redu<lb ed="#P" n="34" break="no"/>ctione ad vniformitatem: hoc est sophisma in 
+              proposi<lb ed="#P" n="35" break="no"/>to. Qundam quelibet pedalitas eius est lata et profunda. 
+              <lb ed="#P" n="36"/>Etiam ex illo concluditur quod est aliqua substantia longa 
+              <lb ed="#P" n="37"/>lata et non profunda contra opinionem oppositam. 
+              perti<lb ed="#P" n="38" break="no"/>tio enim linee cadit super punctum: non autem oportet aliquid 
+              <lb ed="#P" n="39"/>corrumpi ad diuisionem linee. patet de diuisione pe 
+              <lb ed="#P" n="40"/>dalis in duas medietates.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1193">
+      ⁋ Secundo principaliter 
+              ar<lb ed="#P" n="41" break="no"/>guitur sic. ex isto sequitur quod diameter circuli non esset 
+              <lb ed="#P" n="42"/>longissima linea in circulo. consequens est contra 
+              <lb ed="#P" n="43"/>QEuclidem tertio elementorum poositione octaua d 
+              <lb ed="#P" n="44"/>centem. Si extra circulum puncto signato ab eo ad 
+              <lb ed="#P" n="45"/>circumferentiam linee plurime ducantur circulum secem 
+              <lb ed="#P" n="46"/>do / que supra centrum transierit omnium erit longiss 
+              <lb ed="#P" n="47"/>ma. Et propositione decimaquarta eiusdem: si intra 
+              <lb ed="#P" n="48"/>circulum plurime recte linee ceciderint diametrum 
+              <lb ed="#P" n="49"/>eius omnium longissimam eique proinquiores 
+              remotio<lb ed="#P" n="50" break="no"/>ribus longiores esse necesse est. Eodem modo non 
+              <lb ed="#P" n="51"/>dabitur centrum in circulo a quo omnes linee recto 
+              <lb ed="#P" n="52"/>ad circumferentiam exeuntes sibiinuicem sunt equa 
+              <lb ed="#P" n="53"/>les: contra diffinitionem circuli primo elementorum. 
+              <lb ed="#P" n="54"/>Qniam quia per te centrum est diuisibile vna linea potest 
+              <lb ed="#P" n="55"/>duci ab extremo illius alia a medio: et sic ille line 
+              <lb ed="#P" n="56"/>non erunt equales. Sequela principalis argumen 
+              <lb ed="#P" n="57"/>ti probatur: quia diameter circuli per positionem est diui 
+              <lb ed="#P" n="58"/>sibilis et lata. Separo ad intellectum tres partes 
+              dia<lb ed="#P" n="59" break="no"/>metri a et cextremas b mediam. Tunc sic. a et c sunt 
+              <lb ed="#P" n="60"/>breuiores b: quia magis recedunt a centro secundu 
+              <lb ed="#P" n="61"/>Euclidem. et patet ad sensum. Et tunc sic. hec dlines 
+              <lb ed="#P" n="62"/>componitur ex abepartibus: quarum b est longior a 
+              <lb ed="#P" n="63"/>et longior c. ergo dlinea non est ita longa sicut bi 
+              <lb ed="#P" n="64"/>et d est diameter circuli data: ergo propositum. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1248">
+               <lb ed="#P" n="65"/>⁋ Sed forte dices: b erit diameter et longissima li 
+      <!--185.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 85vb -->
+               <lb ed="#P" n="66"/>nea in hoc circulo.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1261">
+      ⁋ Contra hoc argumentor sic. 
+              <lb ed="#P" n="67"/>vel b est diuisibilis quo ad latitudinem vel 
+              indiuisi<lb ed="#P" n="68" break="no"/>bilis. Si secundum: propositum habeo. Si primum. eodem 
+              <lb ed="#P" n="69"/>modo partiar b in tres partes secundum 
+              longitu<lb ed="#P" n="70" break="no"/>dinem.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1273">
+      ⁋ Forte dices: d linea est ita longa sicut c. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1276">
+               <lb ed="#P" n="71"/>⁋ Contra: omnis linea habens partes difformis lon 
+              <lb ed="#P" n="72"/>gitudinis non est ita longa sicut paro eius longior 
+              <lb ed="#P" n="73"/>Signo vnum asserem cuius vna medietas est octo 
+              <lb ed="#P" n="74"/>pedalis et alia decupedalis. Totus ille asser non est 
+              <lb ed="#P" n="75"/>ita longus sicut medietas decupedalis. patet: quia 
+              <lb ed="#P" n="76"/>eadem ratione erit ita breuis sicut latus breuius. 
+              <lb ed="#P" n="77"/>Et sic esset octupedalis: ergo oportet dicere quod totus 
+              <lb ed="#P" n="78"/>ille asser est longus nouem pedibus. hoc patet 
+              se<lb ed="#P" n="79" break="no"/>parando ad intellectum vnam pedalitatem a latere 
+              <lb ed="#P" n="80"/>longiori et addendo coste: iam totus asser est longus 
+              <lb ed="#P" n="81"/>nouem pedibus. Et non est longior vel breuior qua 
+              <lb ed="#P" n="82"/>prius fuit. Quia sicut latus longius decreuit: ita i 
+              <lb ed="#P" n="83"/>eadem prportione latus breuius creuit: sed nunc est 
+              <lb ed="#P" n="84"/>asser longus nouem pedibus: ergo prius erat 
+              lon<lb ed="#P" n="85" break="no"/>gus nouem pedibus.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1311">
+      ⁋ Sed forte dices. sicut 
+              pun<lb ed="#P" n="86" break="no"/>ctum velocissime motum metitur motum corpis 
+              dif<lb ed="#P" n="87" break="no"/>formiter moti quo ad partes: sic totus asser 
+              denomi<lb ed="#P" n="88" break="no"/>nabitur ab vna parte longiori. Et coloratur ex 
+              commu<lb ed="#P" n="89" break="no"/>ni modo loquendi: dicimus enim hominem esse ita 
+              lon<lb ed="#P" n="90" break="no"/>gum sicut est linea ducibilis a planta pedis ad 
+              ver<lb ed="#P" n="91" break="no"/>ticem capitis. Et si illa linea fuerit longa septen 
+              <lb ed="#P" n="92"/>pedibus: homo dicitur tante longitudinis. Tamen ille 
+              <lb ed="#P" n="93"/>idem habet duas partes difformes. Patet ducendo 
+              <lb ed="#P" n="94"/>tres lineas a parte exteriori pedis sinistri per armum 
+              <lb ed="#P" n="95"/>sinistrum c: a pede dextro ad humerum dextrum b de tamn 
+              <lb ed="#P" n="96"/>ta profunditate ad verticem capitis vsque a. Et sic 
+              <lb ed="#P" n="97"/>tinea infinite longa difformiter lata erit tante 
+              la<lb ed="#P" n="98" break="no"/>titudinis sicut latissima paro eius: et eodem modo  
+              <lb ed="#P" n="99"/>de profunditate dicatur. Sic in proposito dicitur quod dli 
+              <lb ed="#P" n="100"/>nea est longior a et longior c propter bpartem longio 
+              <lb ed="#P" n="101"/>rem.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1348">
+      ⁋ Sed contra hoc arguitur. licet sic dicere 
+              po<lb ed="#P" n="102" break="no"/>tes in linea difformi: cuius due partes erunt equa 
+              <lb ed="#P" n="103"/>liter breues: et tertia equaliter terminetur secundum 
+              lon<lb ed="#P" n="104" break="no"/>gitudinem: vt in homine vel in assere latitudinis 
+              <lb ed="#P" n="105"/>tripedalis: cuius due tertie extreme sunt octo 
+              pe<lb ed="#P" n="106" break="no"/>dum ae media decem pedum: tamen hoc non potes di 
+              <lb ed="#P" n="107"/>cere de diametro data: cum non detur longissima pars 
+              <lb ed="#P" n="108"/>eius.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1366">
+      ⁋ Respondetur. negando quod non detur 
+              longissi<lb ed="#P" n="109" break="no"/>ma pars illius diametri: quia b media quae est 
+              longissi<lb ed="#P" n="110" break="no"/>ma: est ita longa sicut aliqua paro eius. Et 
+              conce<lb ed="#P" n="111" break="no"/>do quod medietas b est longior duabus extremis. Sed 
+              <lb ed="#P" n="112"/>non sequitur quod illa medietas sit longior b cum b 
+              <lb ed="#P" n="113"/>includat illam. imaginemur enim in medio illius 
+              li<lb ed="#P" n="114" break="no"/>nee lineam mathematicam: volo dicere quod b et d 
+              co<lb ed="#P" n="115" break="no"/>pulatiue est ita longa: sicut illa linea mathematica 
+              <lb ed="#P" n="116"/>Sicut dicunt quod rota figuli mouetur ita velociter si 
+              <lb ed="#P" n="117"/>cut punctum velocissime motum in ea. Et si nullum 
+              <lb ed="#P" n="118"/>fuerit punctum in ea mouetur indiuisibiliter vele 
+              <lb ed="#P" n="119"/>cius quam aliquod punctum eius. Et si diameter mundi 
+              <lb ed="#P" n="120"/>est longissima linea possibilis naturaliter: erit ita 
+              <lb ed="#P" n="121"/>longa sicut aliqua paro eius. et quelibet paro eius 
+              <lb ed="#P" n="122"/>media est longissima linea: et equaliter longa cum 
+              <lb ed="#P" n="123"/>diametro totali.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1401">
+      ⁋ Sed dices: d diametri bpars est 
+              <lb ed="#P" n="124"/>longior a et cpartibus copulatiue: ergo nonem pos 
+              <lb ed="#P" n="125"/>sibile dare asserem difformis longitudinis: sic scilicet 
+              <lb ed="#P" n="126"/>quod a erit octo pedum et cocto pedum et b medium 
+              <lb ed="#P" n="127"/>decem pedum: sic scilicet quod partes a sint vniformis 
+              <lb ed="#P" n="128"/>ongitudinis: partes inquam non se includentes er 
+              <lb ed="#P" n="129"/>tense per longitudinem cum a potest esse diameter ha 
+              <lb ed="#P" n="130"/>bebit partes difformes.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1420">
+      ⁋ Respondetur: negando 
+      <!--186.xml-->
+      <pb ed="#P" n="86-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod partes a non sint equalis longitudinis si capiatur 
+              <lb ed="#P" n="2"/>prima pars proportionalis a partis proxima b 
+              parti<lb ed="#P" n="3" break="no"/>medie: et sic diuidendo a per partes proportionales 
+              <lb ed="#P" n="4"/>minoribus partibus proportionalibus remotioribus et 
+              <lb ed="#P" n="5"/>b: quelibet enim illarum partium proortionabilium erit 
+              <lb ed="#P" n="6"/>equaliter longa cum alia: et erit octo pedum. et nego quod 
+              <lb ed="#P" n="7"/>a potest esse adequata diameter circuli naturalitur. 
+              <lb ed="#P" n="8"/>hoc dico vt amoueam muscas semimortuas: vbi 
+              <lb ed="#P" n="9"/>poneres a in pluribus locis. Imaginare quod a ponat 
+              <lb ed="#P" n="10"/>supracentrum circuli expansa ad partes oppositas 
+              <lb ed="#P" n="11"/>minor est distantia circuli respondens medietati 
+              <lb ed="#P" n="12"/>quam partibus extremalibus proter suam incuruationem 
+              <lb ed="#P" n="13"/>Et secundum QEuclidem tertio elementorum proositio 
+              <lb ed="#P" n="14"/>ne septima. Quanto vero a centro remotiores 
+              tan<lb ed="#P" n="15" break="no"/>to breuiores esse conuenit. Due quoque distantes 
+              li<lb ed="#P" n="16" break="no"/>nee breuissime collaterales equales esse necesse est. 
+              <lb ed="#P" n="17"/>ergo cum b peripheriam contingunt a et 
+              cportrans<lb ed="#P" n="18" break="no"/>ibunt circunferentiam etiam partes extremales bi 
+              <lb ed="#P" n="19"/>tandem peripheriam pertransibunit vel supeream 
+              in<lb ed="#P" n="20" break="no"/>curuabuntur. Si debet esse diameter cuius partes 
+              <lb ed="#P" n="21"/>extremales non supergrediuntur peripheriam. esse enim 
+              <lb ed="#P" n="22"/>necesse est diametrum infinite acutam quod semper tendit 
+              <lb ed="#P" n="23"/>ad acutiem medium versus: et erit non gradus 
+              lati<lb ed="#P" n="24" break="no"/>tudinis in extremo. Ista (vt puto) sunt satis 
+              proba<lb ed="#P" n="25" break="no"/>bilia.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1483">
+      ⁋ Secundo dici potest: concedendo quod longitudo 
+              <lb ed="#P" n="26"/>linee finite difformiter late vel profunde est mensu 
+              <lb ed="#P" n="27"/>randa penes reductionem ad vniformitatem. Et ex 
+              <lb ed="#P" n="28"/>consequente conceditur quod diameter circuli non est 
+              <lb ed="#P" n="29"/>longissima linea in circulo neque negatiue neque 
+              af<lb ed="#P" n="30" break="no"/>firmatiue. Sufficit autem megarensi linea 
+              imagina<lb ed="#P" n="31" break="no"/>ria longissima.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1499">
+      ⁋ De centro circuli sufficit 
+              pun<lb ed="#P" n="32" break="no"/>ctum imaginarium impartibile. Et est eadem senten 
+              <lb ed="#P" n="33"/>tia. Quod sic declaratur: sit circulus descriptus ab 
+              <lb ed="#P" n="34"/>immani circino pedum multum distantium: sit centrum 
+              <lb ed="#P" n="35"/>illius circuli pedale secundum omnem dimensionem 
+              <lb ed="#P" n="36"/>potes ducere lineas taliter ab eodem pedali ad 
+              <lb ed="#P" n="37"/>circumferentiam quod erunt inequales: ducendo a 
+              li<lb ed="#P" n="38" break="no"/>neam ab extremo centri illius et b vltra extremum 
+              <lb ed="#P" n="39"/>per vnum digitum. Sed si ducas duas lineas rectas 
+              <lb ed="#P" n="40"/>equaliter a centro siue a partibus superficialibus 
+              si<lb ed="#P" n="41" break="no"/>ue interioribus siue prope punctum imaginarium in 
+              <lb ed="#P" n="42"/>medio: ille erunt equales. ergo non impedit propo 
+              <lb ed="#P" n="43"/>situm QEuclidis siue ponatur punctum partibile 
+              si<lb ed="#P" n="44" break="no"/>ue impertibile. Sed satius est pro lucidiori 
+              intelligen<lb ed="#P" n="45" break="no"/>tia ipsum reputare indiuisibile. Sicut expresse 
+              bea<lb ed="#P" n="46" break="no"/>tus <name xml:id="jm12w4-e58133-Nd1e1533" ref="#Augustine">Augustinus</name> nullas ponit lineas in continuo 
+              <lb ed="#P" n="47"/>indiuisibilis latitudinis et profunditatis: sed dicit 
+              <lb ed="#P" n="48"/>discipulo conducit eas more mathematico imagi 
+              <lb ed="#P" n="49"/>nari. vt patet in libro de quantitate anime quasi per 
+              <lb ed="#P" n="50"/>totum. et capitulo decimo illius libri sic ait. Enita 
+              <lb ed="#P" n="51"/>re cogitare longitudinem quae adhuc nullam latitudinam 
+              <lb ed="#P" n="52"/>assumpserit.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1550">
+      ⁋ Discipulus. nihil tale possum cum fi 
+              <lb ed="#P" n="53"/>lum aranee in animo constituero quo nihil exilius 
+              so<lb ed="#P" n="54" break="no"/>lemus videre. Dccurrit mihi etiam inesse tamen et 
+              lon<lb ed="#P" n="55" break="no"/>gitudo per se a latitudo a altitudo quae qualescumque 
+              sin<lb ed="#P" n="56" break="no"/>esse tamen negare non possum. Augusti. non vsquequa 
+              <lb ed="#P" n="57"/>que absurda est responsio tua. Sed certe cum ista tria 
+              <lb ed="#P" n="58"/>esse in aranee filo intelligis: discernis hoc e quid  
+              <lb ed="#P" n="59"/>inter se differant nosti. Discipulus haud aliter 
+              po<lb ed="#P" n="60" break="no"/>tui videre: nihil horum deesse huic filo. Et tunc 
+              con<lb ed="#P" n="61" break="no"/>cludit <name xml:id="jm12w4-e58133-Nd1e1571" ref="#Augustine">Augustinus.</name> igitur intellectu hoc discreuisti 
+              <lb ed="#P" n="62"/>hoc. potes etiam seiunctis illis solam longitudinem 
+              <lb ed="#P" n="63"/>cogitare ne aliquod corpus voluas animo. Nam 
+              quod<lb ed="#P" n="64" break="no"/>cunque fuerit his omnibus non carebit. Incorpor eum 
+              <lb ed="#P" n="65"/>est enim quod te intelligere cupio: nam sola longitu 
+      <!--186.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 86rb -->
+               <lb ed="#P" n="66"/>do non nisi animo intellsgi potest: corpe inueniri non 
+              <lb ed="#P" n="67"/>potest. Et subdit. hanc igitur longitudinem meram 
+              <lb ed="#P" n="68"/>simplicem ( si etiam placet) lineam vocemus. hoc 
+              <lb ed="#P" n="69"/>enim nomine a multis doctis appellari solet. Ex his 
+              <lb ed="#P" n="70"/>dabemus duo ad propositum nostrum: vnum est quod  
+              <lb ed="#P" n="71"/>in ipso corpore non est aliqua res quae sit longitudo 
+              <lb ed="#P" n="72"/>tantum. Sed mera longitudo est incorporea. et in 
+              ani<lb ed="#P" n="73" break="no"/>mo solum. Aliud est: quod ista longitudo incorporea 
+              <lb ed="#P" n="74"/>existens alio nomine a doctis consueuit vocari linea: et 
+              <lb ed="#P" n="75"/>ita vulta se vocari. Et sicut de longitudine dicit 
+              <lb ed="#P" n="76"/>ita in sequentibus de latitudine et puncto disserit. 
+              <lb ed="#P" n="77"/>nde a multis quo ad hanc materiam pertractato 
+              <lb ed="#P" n="78"/>concludendo principale propositum dicit. Dic 
+              que<lb ed="#P" n="79" break="no"/>so tesait) nunquid nunquam vera linea est que per longum 
+              <lb ed="#P" n="80"/>secari potest: aut verum signum (id est punctum) quod  
+              <lb ed="#P" n="81"/>nullo modo secari potest. hec vera latitudo que cum 
+              <lb ed="#P" n="82"/>erecta est vt dicimus sectionem per longum deorsum 
+              <lb ed="#P" n="83"/>versus adinittat. Discipulus: nihil minus: supple 
+              <lb ed="#P" n="84"/>verum est quodlibet istorum. <name xml:id="jm12w4-e58133-Nd1e1631" ref="#Augustine">Augustinus.</name> vnquam ne 
+              <lb ed="#P" n="85"/>igitur oculis istis corporeis vel tale punctum vel ta 
+              <lb ed="#P" n="86"/>lem lneam vel latitudinem vidisti.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1639">
+      ⁋ Discipulus 
+              <lb ed="#P" n="87"/>omnino nunquam: non sunt enim ista corpea. Et mox 
+              <lb ed="#P" n="88"/>ex istis concludit <name xml:id="jm12w4-e58133-Nd1e1645" ref="#Augustine">Augustinus</name> at qui si corpea cor 
+              <lb ed="#P" n="89"/>poreis oculis mira quadam rerum cognatione 
+              cer<lb ed="#P" n="90" break="no"/>nuntur. oportet animum quo videmus illa 
+              incor<lb ed="#P" n="91" break="no"/>poralia corporeum ve corpus non esse.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1656">
+      ⁋ Insuper 
+              <lb ed="#P" n="92"/>septimo super Genesim adliteram. xvii. capitulo de 
+              <lb ed="#P" n="93"/>paruis dicit. quod si anima esset corporea nullo modo  
+              <lb ed="#P" n="94"/>nosse posset tales lineas que per longum secari 
+              nea<lb ed="#P" n="95" break="no"/>queunt: quales in corpore non posse inueniri 
+              nihi<lb ed="#P" n="96" break="no"/>ominus nouit. Ex his patet quod secundum Augusti. 
+              <lb ed="#P" n="97"/>num nulla est incorporea longitudo aut suparficies 
+              <lb ed="#P" n="98"/>nec aliqua huiusmodi videri potest oculo corpali: 
+              <lb ed="#P" n="99"/>sedmente: curus oppositum aduersarii dicunt de 
+              <lb ed="#P" n="100"/>superficie.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1679">
+      ⁋ Tertio arguitur: corpus perfecte 
+              sphe<lb ed="#P" n="101" break="no"/>ricum tangit perfecte planum in puncto 
+              indiuisi<lb ed="#P" n="102" break="no"/>bile. ergo ponenda sunt puncta. Non valet 
+              nega<lb ed="#P" n="103" break="no"/>re sphericitatem corporis: quia deus potest tale 
+              <lb ed="#P" n="104"/>creare: et <name xml:id="jm12w4-e58133-Nd1e1689" ref="#Aristotle">Aristoteles</name> ex intentione secundo celi 
+              <lb ed="#P" n="105"/>probat celum sphericum. Quia sphericum tangat 
+              <lb ed="#P" n="106"/>planum in puncto: probatur. ponatur corpus sphericum 
+              <lb ed="#P" n="107"/>graue cadens super corpus planum iam sphericum 
+              tan<lb ed="#P" n="108" break="no"/>git planum a non in linea. Et per consequens nec in 
+              <lb ed="#P" n="109"/>superficie nec in corpore: ergo tangit ipsum in pium 
+              <lb ed="#P" n="110"/>cto. Sufficit pobare quod sphericum non tangat 
+              pla<lb ed="#P" n="111" break="no"/>num in linea. et hoc patet. quia da oppositum sphe 
+              <lb ed="#P" n="112"/>ricum ( vel circulus perinde est) tangit planum in li 
+              <lb ed="#P" n="113"/>nea: ducam ad terminos linee a c quam contingit a 
+              dcen<lb ed="#P" n="114" break="no"/>tro circuli. Tunc habebimus lineas ac et a d: et ducam 
+              <lb ed="#P" n="115"/>b d in medium. Et 
+              <lb ed="#P" n="116"/>erunt duo triangu 
+              <lb ed="#P" n="117"/>li a db et db c 
+              <lb ed="#P" n="118"/>Tunc arguitur sic. 
+              <lb ed="#P" n="119"/>aut linea b de ici 
+              <lb ed="#P" n="120"/>dit super a clinea 
+              <lb ed="#P" n="121"/>orthogonaliter 
+              <lb ed="#P" n="122"/>ut non. Si sic:  
+              <lb ed="#P" n="123"/>ergo invtroquetriangum 
+              <lb ed="#P" n="124"/>lo apud ber erit 
+              an<lb ed="#P" n="125" break="no"/>gulus rectus. Et 
+              <lb ed="#P" n="126"/>er consequens in illis triam 
+              <lb ed="#P" n="127"/>gulis latera a 
+              d<lb ed="#P" n="128" break="no"/>et scon sunt 
+              mato<lb ed="#P" n="129" break="no"/>ra b d: quia maiori 
+              <lb ed="#P" n="130"/>angulo opponuntur. 
+      <!--187.xml-->
+      <pb ed="#P" n="86-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Si non incidatorthogonaliter vnus angulus quem 
+              <lb ed="#P" n="2"/>facit b dest obtusus: et ei obtuso in suo triangulo 
+              <lb ed="#P" n="3"/>maius latus opponitur: vt claret apud QEuclidem et 
+              <lb ed="#P" n="4"/>intelligentes. Ex quo sequitur quod tres linee venien 
+              <lb ed="#P" n="5"/>tes a centro d vsque ad punctabc a non sunt 
+              equa<lb ed="#P" n="6" break="no"/>les. Sed tamen illa puncta sunt puncta 
+              circumferen<lb ed="#P" n="7" break="no"/>tie. igitur linee venientes a centro ad circumferentiam 
+              <lb ed="#P" n="8"/>non sunt equales. quod est inconueniens: et contra 
+              <lb ed="#P" n="9"/>diffinitionem circuli. ergo concluditur quod contingit 
+              <lb ed="#P" n="10"/>in puncto a non in linea.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1778">
+      ⁋ Item probatur alia via 
+              <lb ed="#P" n="11"/>quod impossibile est circulum tangere lineam per 
+              lon<lb ed="#P" n="12" break="no"/>gitudinem. Et hoc sic. da quod circulus tangat lineam 
+              <lb ed="#P" n="13"/>rectam circuli per aliquam longitudinem quantumcumque 
+              <lb ed="#P" n="14"/>parua sit illa: sit digitalis pars illius gratia exem 
+              <lb ed="#P" n="15"/>pli que tangit totam illam lineam secundum 
+              longitudi<lb ed="#P" n="16" break="no"/>nem: cuius extremitates erunt a et b cum medium non 
+              <lb ed="#P" n="17"/>exit ab extremis. Et a puncto a ad punctum b duca 
+              <lb ed="#P" n="18"/>tur linea breuissima. linea b est breuissima 
+              ducibi<lb ed="#P" n="19" break="no"/>lis inter illa duo puncta: ergo est recta. ergo 
+              circu<lb ed="#P" n="20" break="no"/>lus componitur ex lineis rectis quod est impossibile.  
+              <lb ed="#P" n="21"/>Semper abigo semimortuas muscas: ne ponas 
+              cir<lb ed="#P" n="22" break="no"/>culum in duobus locis et quod in vno loco rectificetur. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1807">
+               <lb ed="#P" n="23"/>⁋ Pretere a: videmus ad sensum si esset corpus 
+              <lb ed="#P" n="24"/>molle tangens tabulam planam secundum aliquam 
+              lon<lb ed="#P" n="25" break="no"/>gitudinem: si corpus molle crescat ad curuitatem 
+              <lb ed="#P" n="26"/>eleuatur a tabula: et non tangit per tantam latitu 
+              <lb ed="#P" n="27"/>dinem. quanto enim magis eleuatur: tanto per minorem 
+              <lb ed="#P" n="28"/>longitudinem. tangit ergo quando primo efficitur 
+              <lb ed="#P" n="29"/>circulus non tangit per lineam. hoc ostenso quod 
+              im<lb ed="#P" n="30" break="no"/>possibile est circulum vel corpus perfecte sphericum 
+              <lb ed="#P" n="31"/>tangere perfecte planum per lineam. Et cum 
+              tan<lb ed="#P" n="32" break="no"/>gat: reliquum est quod tangat per punctum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1831">
+      ⁋ 
+              Re<lb ed="#P" n="33" break="no"/>spondetur dupliciter. Tum primo: concedendo quod 
+              <lb ed="#P" n="34"/>corpus sphericum tangit perfecte planum. Sed 
+              ne<lb ed="#P" n="35" break="no"/>go quod tangat in puncto. id est in aliqua entitate quod 
+              <lb ed="#P" n="36"/>tum vocas punctum. tangit enim punctualiter: hoc est 
+              <lb ed="#P" n="37"/>non tangit rectam lineam: secundum enim nullam longi 
+              <lb ed="#P" n="38"/>tudinem tangit: secus est quando duo corpora 
+              pla<lb ed="#P" n="39" break="no"/>na se tangunt: quia ibi datur determinata pars 
+              con<lb ed="#P" n="40" break="no"/>tactus: hic nulla pars determinata tangit secundum 
+              <lb ed="#P" n="41"/>se et quodlibet sui. sed nego quod aliqua pars 
+              indiui<lb ed="#P" n="42" break="no"/>sibilis illius corporis tangat illud corpus planum 
+              <lb ed="#P" n="43"/>quelibet enim pars tangens corpus planum est diuisi 
+              <lb ed="#P" n="44"/>bilis: medietas autem inferior corporis spherici tan 
+              <lb ed="#P" n="45"/>git corpus planum: et medietas illius medietatis 
+              <lb ed="#P" n="46"/>planum versus tangit corpus planum: et sic sine statu¬ 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1864">
+               <lb ed="#P" n="47"/>⁋ Ex his habetur quod linea corporis spherici tangit 
+              <lb ed="#P" n="48"/>corpus planum: sed non tangit linealiter: hoc est non 
+              <lb ed="#P" n="49"/>tangit per longitudinem.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1873">
+      ⁋ Sed contra hoc argui 
+              <lb ed="#P" n="50"/>tur sic. illa se tangunt quorum vltima sunt simul. 
+              <lb ed="#P" n="51"/>sexto Physicorum. sed inter corpus sphericum et 
+              <lb ed="#P" n="52"/>corpus planum vndique aer mediat. ergo solum 
+              conse<lb ed="#P" n="53" break="no"/>quentur se habent. e quoquouersum aer intercipiu 
+              <lb ed="#P" n="54"/>sic deprehenditur quod deus remoueat corpus sphericum 
+              <lb ed="#P" n="55"/>a corpore plano: et quod deus ibi conseruet vacuum 
+              <lb ed="#P" n="56"/>Tunc sic. in illo vacuo non est aer: sed locus imagi 
+              <lb ed="#P" n="57"/>narius diuisibilis. Et corpus sphericum tetigit 
+              <lb ed="#P" n="58"/>corpus planum per totum illud spatium imagina 
+              <lb ed="#P" n="59"/>rium. ergo tetigit per longitudinem et linealiter. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1898">
+               <lb ed="#P" n="60"/>⁋ Respondetur: concedendo quod vndique 
+              media<lb ed="#P" n="61" break="no"/>bat aer inter corpus sphericum et planum: sed quia 
+              <lb ed="#P" n="62"/>decrescit ille aer ad non profundum hinc inde ex 
+              <lb ed="#P" n="63"/>barte contactus non dabitur pars diuisibilis post 
+              <lb ed="#P" n="64"/>separationem corporis plani vacua: sed totum 
+              cor<lb ed="#P" n="65" break="no"/>pus planum cooperietur ab aere qui ex duabus parti 
+      <!--187.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 86vb -->
+               <lb ed="#P" n="66"/>bus oppositis terminatur in non profundum: et illic 
+              <lb ed="#P" n="67"/>corpus sphericum attingebat corpus planum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1924">
+      ⁋ Sed 
+              <lb ed="#P" n="68"/>contra hoc arguitur sic. vel aliquid mediat inter 
+              il<lb ed="#P" n="69" break="no"/>las duas partes aeris quas dicis terminari ad non 
+              <lb ed="#P" n="70"/>rofundum: vel nihil. Si secundum: semper colligitur 
+              <lb ed="#P" n="71"/>quod illa duo corpora non erunt contigua. Si aliquid  
+              <lb ed="#P" n="72"/>mediat et non diuisibile per solutionem datam: ergo 
+              <lb ed="#P" n="73"/>indiuisibile quod venamur.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1940">
+      ⁋ Propter hoc datur 
+              se<lb ed="#P" n="74" break="no"/>cunda solutio in qua intellectus magis quiescit 
+              <lb ed="#P" n="75"/>negando quod illa corpesa se tangant: quia vndique aer 
+              <lb ed="#P" n="76"/>ntercipitur inter illa duo corpora: nec est 
+              possibi<lb ed="#P" n="77" break="no"/>le quod corpus perfecte sphericum tangat perfecte 
+              <lb ed="#P" n="78"/>planum vt argumentum deducit.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1953">
+      ⁋ Sed dices: aer 
+              <lb ed="#P" n="79"/>non potest superferre corpus graue sphericum: 
+              er<lb ed="#P" n="80" break="no"/>go non impedit ipsum descendere. Corpus 
+              sphe<lb ed="#P" n="81" break="no"/>ricum descendens super corpus planum vitreu 
+              ip<lb ed="#P" n="82" break="no"/>sum frangit. ergo ipsum attingit.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1964">
+      ⁋ Respondetur 
+              <lb ed="#P" n="83"/>negando presuppositum: quia non est aer qui corpori 
+              <lb ed="#P" n="84"/>graui resistere quit: sed ex natura corporis spheri 
+              <lb ed="#P" n="85"/>ci non potentis corpus planum tangere id prouenit. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1973">
+               <lb ed="#P" n="86"/>⁋ Ad secundum respondetur: quod consequentia est nulla: stat enim quod 
+              <lb ed="#P" n="87"/>quis frangat duram matrem et piammatrem per 
+              ali<lb ed="#P" n="88" break="no"/>uod lesiuum extraneum non contingens alterutram 
+              <lb ed="#P" n="89"/>matrum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e1985">
+      ⁋ Vel sic. duobus modis aliqua se 
+              tan<lb ed="#P" n="90" break="no"/>gunt. vno modo quando non possunt esse 
+              proinqo<lb ed="#P" n="91" break="no"/>ra saluis eorum riguris: et hoc modo corpus 
+              sphe<lb ed="#P" n="92" break="no"/>icum tangit corpus planum. Dixi saluis figuris: 
+              <lb ed="#P" n="93"/>quia inter corpus sphericum et lineam rectam 
+              incurua<lb ed="#P" n="94" break="no"/>tam potest esse contactus. Et sic de virtute 
+              sermo<lb ed="#P" n="95" break="no"/>nis conceditur quod corpus sphericum manens spheri 
+              <lb ed="#P" n="96"/>cum potest tangere planum.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2003">
+      ⁋ Alio modo aliqua qua 
+              <lb ed="#P" n="97"/>se tangunt sic se habent: quod determinata pars vnius 
+              <lb ed="#P" n="98"/>tangit determinatam partem alterius secundum se et 
+              <lb ed="#P" n="99"/>quodlibet sui superficiale: et ita est de corpibus quibus 
+              <lb ed="#P" n="100"/>communiter vtimur.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2014">
+      ⁋ Ultimo arguitur sic. illa se tam 
+              <lb ed="#P" n="101"/>gunt quorum vltima sunt simul: et non est penetra 
+              <lb ed="#P" n="102"/>tio corporum naturaliter. ergo oportet ponere su 
+              <lb ed="#P" n="103"/>perficies corporum in eodem loco.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2023">
+      ⁋ Ulterius 
+              po<lb ed="#P" n="104" break="no"/>natur corpus densum et opacum bene coloratum in 
+              <lb ed="#P" n="105"/>parte exteriori iam video illud corpus secundum 
+              su<lb ed="#P" n="106" break="no"/>perficiem: quia non video per protunditatem: quaniam 
+              <lb ed="#P" n="107"/>partes interiores illius corporis non intueor datur 
+              <lb ed="#P" n="108"/>lumen reflexum ab vno corpore non 
+              transparen<lb ed="#P" n="109" break="no"/>te suparficiale in illo.
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2039">
+      ⁋ Respondetur: quod in tactu 
+              cor<lb ed="#P" n="110" break="no"/>porum non oportet duas vltimas partes nec eorum 
+              <lb ed="#P" n="111"/>terminos esse in eodem loco adequato. Ad tactum 
+              <lb ed="#P" n="112"/>enim corporum sufficit quod determiata extrema sic 
+              <lb ed="#P" n="113"/>int apposita quod nihil potest inter illa mediare. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2050">
+               <lb ed="#P" n="114"/>⁋ Ad secundum dicitur: quod profunditatem video 
+              <lb ed="#P" n="115"/>ed non video secundum profunditatem. video enim su 
+              <lb ed="#P" n="116"/>perficiem et superficialiter video. Non capio 
+              super<lb ed="#P" n="117" break="no"/>ficialiter sicut capitur apud loquentes cum dicut 
+              <lb ed="#P" n="118"/>pominem in cortice a non in nucleo rem ipsam 
+              contempla<lb ed="#P" n="119" break="no"/>ri. De lumine dico quod quod cumque signetur subiectum eius 
+              <lb ed="#P" n="120"/>est corpus et aliquam profunditatem ( licet 
+              non<lb ed="#P" n="121" break="no"/>nun quam tenuem) habens. 
+            </p>
+            <p xml:id="jm12w4-e58133-d1e2071">
+               <lb ed="#P" n="122"/>⁋ Similiter cum dicitur: est erater vel vnus 
+              <lb ed="#P" n="123"/>est filius at huiusmodi: rario dicti hec est. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

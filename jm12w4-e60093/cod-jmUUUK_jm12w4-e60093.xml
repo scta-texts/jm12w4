@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="86-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e60093"> <!--l1d11et24q2 -->
+            <head xml:id="jm12w4-e60093-Hd1e106">Quaestio 2</head>
+            <head xml:id="jm12w4-e60093-Hd1e109" type="question-title">
+      An unum dicatur de quolibet, et unitas sit res 
+      superaddita rei uni sicut numerus res superaddita 
+      rebus numeratis?
+    </head>
+            <p xml:id="jm12w4-e60093-d1e112">
+               <lb ed="#P" n="124"/>⁋ Distinctionis. xxiiii. questio secunda. 
+              <lb ed="#P" n="125"/>Veritur secundo de vnitate principio numeri 
+              <lb ed="#P" n="126"/>et de nunero. Et quaero quaestionem 
+              hypotheti<lb ed="#P" n="127" break="no"/>vscam. An vnum dicatur de quolibet: et vnitas 
+              <lb ed="#P" n="128"/>isit res superaddita rei vni sicut numerus 
+              <lb ed="#P" n="129"/>res superaddita rebus numeratis.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e128">
+      ⁋ hic 
+      <!--188.xml-->
+      <pb ed="#P" n="87-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>varius est modus opinandi. nam quidam doctor in hac 
+              <lb ed="#P" n="2"/>distinctione tenet quod terminus vnum simpliciter non 
+              di<lb ed="#P" n="3" break="no"/>citer de quolibet sed solum de re indiuisibili. angelus 
+              <lb ed="#P" n="4"/>enim est vnum: homo non est ens sed entia. nec sequitur est 
+              <lb ed="#P" n="5"/>vnus homo: ergo est vnum ens.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e149">
+      ⁋ Unus alius 
+              rhe<lb ed="#P" n="6" break="no"/>tor cap. ii. primi libri sue dicte dialectices tenet quod se 
+              <lb ed="#P" n="7"/>lum res est transcendens: dicit enim quod transcendetia 
+              <lb ed="#P" n="8"/>sunt principum principes: hoc est praedicamentorum 
+              <lb ed="#P" n="9"/>principes: peripatetici inquit si detur eis optio 
+              opi<lb ed="#P" n="10" break="no"/>nor hac dignationem tribuerent illi vocabulo res. hoc 
+              <lb ed="#P" n="11"/>enim in ore semper habent: hoc velut talo qui multi 
+              <lb ed="#P" n="12"/>latera habet vtuntur et ludunt: apud me autem ex his 
+              <lb ed="#P" n="13"/>sex que quasi de regno contendunt: non aliter res erit 
+              <lb ed="#P" n="14"/>rex quam darius hytaspis filius futurus rex erat ex illis 
+              <lb ed="#P" n="15"/>sex persis qui regniim sorti permisere: inter que ens 
+              <lb ed="#P" n="16"/>vt maximam ad obtinendum regnum pre se fert 
+              spe<lb ed="#P" n="17" break="no"/>ciem: ita clam maximo vltio laborat: de quo ne dicam 
+              <lb ed="#P" n="18"/>pluribus breuissime dicam: quia nihil habet dubitatio 
+              <lb ed="#P" n="19"/>nis questio de aliis. Et vt apertius probet inquit id  
+              <lb ed="#P" n="20"/>enucleate exacteque disputabit. postea Quintilianum 
+              <lb ed="#P" n="21"/>priscianum ceterosque sue sortis in agmen euocat. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e186">
+               <lb ed="#P" n="22"/>⁋ Ulterius alii ponunt vnitatem praedicamentalem 
+              su<lb ed="#P" n="23" break="no"/>peradditam rei vni vnitatem transcendentalem 
+              identi<lb ed="#P" n="24" break="no"/>ficari.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e195">
+      ⁋ De numero aliqui putant eum identificari 
+              <lb ed="#P" n="25"/>rebus numeratis: aliqui inherere eisdem. tertii dicunt 
+              <lb ed="#P" n="26"/>solum numerum esse in anima.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e202">
+      ⁋ Ponam tres conclu 
+              <lb ed="#P" n="27"/>siones.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e207">
+      ⁋ Prima est. vnum est transcendens: et de 
+              quo<lb ed="#P" n="28" break="no"/>libet dicitur diuisibili et indiuisibili.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e212">
+      ⁋ Secunda conclu 
+              <lb ed="#P" n="29"/>sio. vnitas praedicamentalis non distinguitur a re vna 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e218">
+               <lb ed="#P" n="30"/>⁋ Tertia conclusio. numerus nihil aliud est quam res ni 
+              <lb ed="#P" n="31"/>merate vel numerabiles.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e225">
+      ⁋ Prima conciusionem 
+              pro<lb ed="#P" n="32" break="no"/>bo sic ratione: homo non est ens pearte: sed entia: ergo 
+              <lb ed="#P" n="33"/>ista vel illa posita constantia: consequens est vna disium 
+              <lb ed="#P" n="34"/>ctiua cuius quelibet pars est falsa: et ex falsitate con 
+              <lb ed="#P" n="35"/>sequentis cum veritate constantie redibimus ad 
+              falsi<lb ed="#P" n="36" break="no"/>tatem istius homo est entia: et quod illa est neganda: pro 
+              <lb ed="#P" n="37"/>batur falsitas consequentis: quia si aliqua categorica eius de 
+              <lb ed="#P" n="38"/>bet esse vera maxime esset ista: totum est ista entia 
+              oi<lb ed="#P" n="39" break="no"/>bus istis partibus demonstratis: quia tenes totum esse 
+              <lb ed="#P" n="40"/>suas partes vel omnia quorum quelibet est sua pars. 
+              <lb ed="#P" n="41"/>Taceo quod hic superaddis quintum pedem arieti. Qui 
+              <lb ed="#P" n="42"/>illa sit falsa patet: quia bene sequitur: totum est hec en 
+              <lb ed="#P" n="43"/>tia: ergo totum est hoc ens: et hoc ens et sic de 
+              singu<lb ed="#P" n="44" break="no"/>lis copulatim. sed illud consequens est falsum cum sit 
+              <lb ed="#P" n="45"/>vnum copulatum cuius nulla pars supponit: nulla enim 
+              <lb ed="#P" n="46"/>pars est hoc ens: quia negas continuum componi ex 
+              <lb ed="#P" n="47"/>punctis.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e262">
+      ⁋ Forte dices: hec consequentia non valet:  
+              <lb ed="#P" n="48"/>quia dato corpore habente quattuor gradus albedi 
+              <lb ed="#P" n="49"/>nis et quattuor nigredinis per totum iam hoc corpus 
+              <lb ed="#P" n="50"/>est album e nigrum copulatim et tamen nulla pars est 
+              <lb ed="#P" n="51"/>alba et nulla est nigra.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e273">
+      ⁋ hoc non est inconueniens: 
+              suffi<lb ed="#P" n="52" break="no"/>cit quod habeat albedinem et nigredinem ille qualitates 
+              <lb ed="#P" n="53"/>se iuuant ad denominationem copulatam: et vna earum 
+              <lb ed="#P" n="54"/>impedit aliam ne denominet totum. hic non est idem: quod 
+              <lb ed="#P" n="55"/>illud est he partes albe et nigre: et hoc albume hoc nigru. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e284">
+               <lb ed="#P" n="56"/>⁋ Insuper hac via vnum et ens non erunt transcen 
+              <lb ed="#P" n="57"/>dentia: cum non paedicentur de pronoine 
+              demonstran<lb ed="#P" n="58" break="no"/>te quancumque rem sine addito contra omnem scholam. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e293">
+               <lb ed="#P" n="59"/>⁋ Preterea: sortes est entia: ergo sortes est entia indi 
+              <lb ed="#P" n="60"/>uisibilia. patet: quia ens sine addito capitur pao ind 
+              <lb ed="#P" n="61"/>uisibili: ergo eodem modo in plurali numero.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e303">
+      ⁋ Sed 
+              <lb ed="#P" n="62"/>qui vellet tenere principium suum posset negare hanc: 
+              <lb ed="#P" n="63"/>homo est ens: similiter hanc homo est entia: sed ista 
+              <lb ed="#P" n="64"/>est vera homo est ens homo: sicut imago est homo ptei 
+              <lb ed="#P" n="65"/>ctus: tales concederentur: homo est animal: licet 
+              sub<lb ed="#P" n="66" break="no"/>lectum pro nullo supponat: dicerent enim quod supponit 
+      <!--188.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 87rb -->
+               <lb ed="#P" n="67"/>pro ente homine sicut secundum multos accidens non est ens 
+              <lb ed="#P" n="68"/>tamen concedcretur ista albedo est color. Sed tunc oporte 
+              <lb ed="#P" n="69"/>ret luctari de talibus: sortes est ens album: querendo pro 
+              <lb ed="#P" n="70"/>quo supponit: et quicquid dicatur teneo conclusionem 
+              pre<lb ed="#P" n="71" break="no"/>fatam.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e334">
+      ⁋ Secunda conclusio probatur sic: vnitas 
+              praedica<lb ed="#P" n="72" break="no"/>mentalis distinguitur a re vna per te: et ei inheret sepa 
+              <lb ed="#P" n="73"/>rata illa vnitate per potentiam dei absolutam res est 
+              <lb ed="#P" n="74"/>ita bene vna sicut paius erat.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e343">
+      ⁋ Distingues: vel vni 
+              <lb ed="#P" n="75"/>tate paedicamentali et sic negas: vel vnitate transcen 
+              <lb ed="#P" n="76"/>dentali a hoc concedis. sciebamus ante distinctionem tuam 
+              <lb ed="#P" n="77"/>nihil aliud esse quam subterfugium.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e352">
+      ⁋ Item ego quero a non 
+              <lb ed="#P" n="78"/>addicto opinioni quid diceret mihi <name xml:id="jm12w4-e60093-Nd1e356" ref="#per-lval8a">laurentius</name> si pre 
+              <lb ed="#P" n="79"/>sens esset: qui audet iurare quod non intelligunt se ponen 
+              <lb ed="#P" n="80"/>tes puncta indiuisibilia: an auderet iurare quod ista vni 
+              <lb ed="#P" n="81"/>tas praedicamentalis luctaretur cum sanctitate iouis. In 
+              <lb ed="#P" n="82"/>cassum est amplius circa hoc insistere.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e369">
+      ⁋ Tertiam 
+              con<lb ed="#P" n="83" break="no"/>clusio probatur: numerus formalis est accidens per te inhe 
+              <lb ed="#P" n="84"/>rens continuis: quia ex diuisione continni fluit numerus: vel 
+              <lb ed="#P" n="85"/>illud accidens est indiuisibile vel diuisibile.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e378">
+      ⁋ Si 
+              pri<lb ed="#P" n="86" break="no"/>mum quomodo inheret subiecto diuisibilis Sed quia 
+              <lb ed="#P" n="87"/>hec species aromatica est ita frequens apud tuam apo 
+              <lb ed="#P" n="88"/>thecam de relationibus intrinsecus et extrinsecus 
+              adue<lb ed="#P" n="89" break="no"/>nientibus compotum nullum facis: queritur an illud accidens 
+              <lb ed="#P" n="90"/>indiuisibile quod est numerus formaliter per te inherens 
+              <lb ed="#P" n="91"/>duobus lapidibus per quem dicis duos lapides esse duos: 
+              <lb ed="#P" n="92"/>inheret vtrique lapidum an illis duobus copulatims sit 
+              <lb ed="#P" n="93"/>vnus lapis Rome et alter Parisii. Si primum idem ac 
+              <lb ed="#P" n="94"/>cidens erit in duobus subiectis copulatiue: et mouebitur 
+              <lb ed="#P" n="95"/>motibus contrariis ad motum illorum duorum lapidum 
+              <lb ed="#P" n="96"/>et idem erit in duobus locis natnraliter non informan 
+              <lb ed="#P" n="97"/>do materam (vt de anima intellectiua contingit) immo 
+              <lb ed="#P" n="98"/>in duobus locis saparatis: si est in illis duobus 
+              sub<lb ed="#P" n="99" break="no"/>iectis copulatim queritur in quo loco est illud accidens 
+              <lb ed="#P" n="100"/>an Rome an Parisiius Si dicas in vtroque loco 
+              copu<lb ed="#P" n="101" break="no"/>latim. destruantur illi duo lapides illo accidente 
+              reser<lb ed="#P" n="102" break="no"/>uato: vbi manebit illud accidens:
+            </p>
+            <p xml:id="jm12w4-e60093-d1e418">
+      ⁋ Secundo arguitur ad  
+              <lb ed="#P" n="103"/>idem sic: possibile est quod due partes continui separarem 
+              <lb ed="#P" n="104"/>tur de potentia dei absoluta absque hoc quod producatur iste 
+              <lb ed="#P" n="105"/>numerus formalis: et tunc erunt duo lapides: ergo 
+              in<lb ed="#P" n="106" break="no"/>cassum ponis numerum binarium distingui a rebus 
+              nu<lb ed="#P" n="107" break="no"/>meratis.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e431">
+      ⁋ Et quicquid dicat quidam cum eo non 
+              opi<lb ed="#P" n="108" break="no"/>namur: nolo amplius certare de illa materia et id rois 
+              <lb ed="#P" n="109"/>est. scimus enim a nullo eis posse imponi silentium vt labia 
+              <lb ed="#P" n="110"/>non aperiant: sufficit nobis eam partem amplecti que 
+              <lb ed="#P" n="111"/>verior apparet.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e442">
+      ⁋ Ueniendo ad principale: 
+              contempla<lb ed="#P" n="112" break="no"/>tione cuius hec premisimus: dicitur quod numerus 
+              mul<lb ed="#P" n="113" break="no"/>tis modis capitur. Uno modo pro quacumque pluralita 
+              <lb ed="#P" n="114"/>te aliquorum siue illa essentialiter distinguantur siue 
+              <lb ed="#P" n="115"/>non: siue illa constituant vnum siue non. hoc modo 
+              con<lb ed="#P" n="116" break="no"/>tinuum est numerus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e455">
+      ⁋ Secundo modo sumitur stri 
+              <lb ed="#P" n="117"/>cte pro finitate rerum non constituentium vnum. Pri 
+              <lb ed="#P" n="118"/>mo istorum modorum deus est numerus: quia est sancta tri 
+              <lb ed="#P" n="119"/>nitas: sic sumit <name xml:id="jm12w4-e60093-Nd1e463" ref="#JohnDamascenus">damascenus</name>. li. iii. ca. v. dicens quod tres 
+              <lb ed="#P" n="120"/>hypostases sancte trinitatis indistanter diuise sunt et 
+              <lb ed="#P" n="121"/>numerantur: numerus tamen diuisionem vel distantiam 
+              <lb ed="#P" n="122"/>vel decisionem vel alienationem vel inscisionem non 
+              <lb ed="#P" n="123"/>operatur in eis. Qui poneret quantitatem discretam a rebus 
+              <lb ed="#P" n="124"/>numeratis distincta non potest ponere quantitatem in deo 
+              <lb ed="#P" n="125"/>et per istud soluuntur auctoritates quas <name xml:id="jm12w4-e60093-Nd1e479" ref="#Lombard">Magister</name> 
+              po<lb ed="#P" n="126" break="no"/>nit in littera.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e486">
+      ⁋ Contra primam conclusionem 
+              argui<lb ed="#P" n="127" break="no"/>tur sic: vnum et ens dicuntur tam de re diuisibili quam de 
+              <lb ed="#P" n="128"/>re indiuisibili per conclusionem: ergo domus dicetur aliquod 
+              <lb ed="#P" n="129"/>vnum et ens: consequens est falsum: quia componitur ex 
+              parti<lb ed="#P" n="130" break="no"/>bus diuersarum rationum quarum nulla est alia in forma:¬ 
+              <lb ed="#P" n="131"/>et quia hoc modo congeries lapidum erit ens quod est fal 
+              <lb ed="#P" n="132"/>sum.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e502">
+      ⁋ Respondetur quod tribus modis dicitur aliquid esse 
+      <!--189.xml-->
+      <pb ed="#P" n="87-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vnum. Uno modo quando caret partibus sicut anima intellecti 
+              <lb ed="#P" n="2"/>ua. Secundo modo quando componitur ex partibus diuersa 
+              <lb ed="#P" n="3"/>rum rationum quarum vna se habet per modum potentie et 
+              <lb ed="#P" n="4"/>altera per modum actus vt homo equus. Tertio modo 
+              <lb ed="#P" n="5"/>quando sunt accidentia eiusdem speciei in eodem 
+              sub<lb ed="#P" n="6" break="no"/>iecto primo modo vt albedo scientia secundum illud. v. me 
+              <lb ed="#P" n="7"/>taphysice: impossibile est plura accidentia eiusdem 
+              spe<lb ed="#P" n="8" break="no"/>ciei eidem subiecto inherere. quod exponere oportebit 
+              <lb ed="#P" n="9"/>nisi constituant aliquod vnum secundum rectum modum 
+              <lb ed="#P" n="10"/>opinandi de intensione forme. Ens potest capi vt 
+              distin<lb ed="#P" n="11" break="no"/>guitur contra entia. et sic nullum diuisibile est ens. et n 
+              <lb ed="#P" n="12"/>hil est vnum et multa. Non obstante in secunda acce 
+              <lb ed="#P" n="13"/>ptione ens et vnum de virtute sermonis capiuntur. et sic 
+              <lb ed="#P" n="14"/>sumit beatus <name xml:id="jm12w4-e60093-Nd1e541" ref="#Augustine">Augustinus</name> libro de libero arbitrio 
+              cap<lb ed="#P" n="15" break="no"/>xv. inquiens: vnum vero quisquis verissime cogitat profe 
+              <lb ed="#P" n="16"/>cto inuenit corpore: sensibus etiam non posse sentiri 
+              <lb ed="#P" n="17"/>quicquid enim sensum attingituriam non vnum sed mul 
+              <lb ed="#P" n="18"/>ta esse conuincitur. Et decio metaphysice philosophi 
+              <lb ed="#P" n="19"/>loquens de vno quod est metrum e principium numeri 
+              <lb ed="#P" n="20"/>quod in numeris est metrum certissimum ibi videtur 
+              pone<lb ed="#P" n="21" break="no"/>re vnitatem indiuisibilem. vbi con. iiii. commen ait: non 
+              <lb ed="#P" n="22"/>omnes vnitates que accipiuntur ad mensurandum sunt 
+              <lb ed="#P" n="23"/>indiuisibiles eodem modo: sed quaedam sunt indiuisibiles 
+              sim<lb ed="#P" n="24" break="no"/>pliciter vt vnum in nunero: et quedam per institutionem 
+              <lb ed="#P" n="25"/>vtpote vnum simpliciter potest vocari quod non est 
+              <lb ed="#P" n="26"/>multa: alio modo simpliciter quod sine addito sit. secun 
+              <lb ed="#P" n="27"/>dum illud philosophi primo porum: simpliciter dico quod 
+              <lb ed="#P" n="28"/>sine addito dico.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e576">
+      ⁋ Vel pro <name xml:id="jm12w4-e60093-Nd1e578" ref="#Aristotle">aristotele</name> et commen. potest 
+              <lb ed="#P" n="29"/>dici quod indiuisibile non capitur pro illo quod habemt plu 
+              <lb ed="#P" n="30"/>res partes: sed pro illo cuius partes apud communiter lo 
+              <lb ed="#P" n="31"/>quentes non suscipiunt denominationem totius. communt 
+              <lb ed="#P" n="32"/>ter autem loquentes non eoncedunt partem homins hominem: 
+              <lb ed="#P" n="33"/>et partem equi equum: et tales vocantur indiuisibiles. 
+              <lb ed="#P" n="34"/>patet. iii. physicorum commento. lxviii. vbi inquit: omne vnum 
+              <lb ed="#P" n="35"/>est indiuisibile vt vnus homo vnus equus: et ista enis 
+              <lb ed="#P" n="36"/>indiuisibilitas est speciei. Vel loquitur de specie 
+              spe<lb ed="#P" n="37" break="no"/>cialissima que non diuiditur in alias et sic est 
+              indiuisi<lb ed="#P" n="38" break="no"/>bilis. et sic reperitur metrum in mensura vt homo es 
+              <lb ed="#P" n="39"/>mensura animalium: albedo colorum.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e606">
+      ⁋ Ex his sequitur quod 
+              <lb ed="#P" n="40"/>domus non est aliquod vnum nec ens: similiter nec aceruus 
+              <lb ed="#P" n="41"/>lapidum.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e613">
+      ⁋ Secundo sequitur hec consequentiam est nulla 
+              <lb ed="#P" n="42"/>est vna domus ergo est vnum ens: nec sequitur hic 
+              exer<lb ed="#P" n="43" break="no"/>citus est vnus ergo est vnum ens.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e620">
+      ⁋ Tertio sequitu 
+              <lb ed="#P" n="44"/>hic populus est non ens: loquor de termino populus 
+              <lb ed="#P" n="45"/>habente primam breuem. Probatur corollarium. iste 
+              popu<lb ed="#P" n="46" break="no"/>lus non est ens et iste populus est populus: ergo iste 
+              <lb ed="#P" n="47"/>populus est non ens: a negatiua de praedicato finito 
+              <lb ed="#P" n="48"/>ad affirmatiuam de praedicato infinito posita constantia. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e633">
+               <lb ed="#P" n="49"/>⁋ Quarto sequitur quod non ens est populus per conue 
+              <lb ed="#P" n="50"/>sionem simplicem.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e640">
+      ⁋ Quinto sequitur quod hec est concedem 
+              <lb ed="#P" n="51"/>dua: non ens est non ens licet extrema pro nullo supp 
+              <lb ed="#P" n="52"/>nant: supponunt tamen pro aliquibus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e648">
+      ⁋ Sexto sequitur 
+              <lb ed="#P" n="53"/>quod hec consequentia est nulla: duodecim homines sunt duo 
+              <lb ed="#P" n="54"/>senarii: ergo sunt duo entia: pari forma non sequitur 
+              <lb ed="#P" n="55"/>duodecim angeli sunt tres quaternarii vel quattuor 
+              <lb ed="#P" n="56"/>ternarii ergo sunt tres vel quattuor.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e659">
+      ⁋ Sed contra 
+              <lb ed="#P" n="57"/>hoc arguitur: ex isto sequitur quod res est transcendens si 
+              <lb ed="#P" n="58"/>cut iste dicit et non ens: cum dicatur de populo homine et an 
+              <lb ed="#P" n="59"/>gelo non autem ens: similiter falsum non est verum: ergo 
+              <lb ed="#P" n="60"/>verum non est transcendens.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e670">
+      ⁋ Respondetur sicu 
+              <lb ed="#P" n="61"/>res in singulari et plurali praedicatur de quolibet et de 
+              <lb ed="#P" n="62"/>quibuslibet hoc est de pronoine quodcumque vel quecumque de 
+              <lb ed="#P" n="63"/>monstrante: sic ens in singulari et plurali.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e679">
+      ⁋ Nicet 
+              dissu<lb ed="#P" n="64" break="no"/>te probat res esse transcendens tamen non probat 
+              <lb ed="#P" n="65"/>hanc negatiuam: ens non est transcendens: sed por 
+              <lb ed="#P" n="66"/>tentosis verbis hoc preterit. Nihil est quod dicitur de 
+      <!--189.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 87vb -->
+               <lb ed="#P" n="67"/>falso a vero: verum secunde intentionaliter non est transcen 
+              <lb ed="#P" n="68"/>dens: sed vt tantum valet sicut ens verum: quod ipse 
+              <lb ed="#P" n="69"/>non reprobat. Non stamus an talis terminus sit 
+              tran<lb ed="#P" n="70" break="no"/>scendens: sortes si est sortes: homo si est sortes: homo 
+              <lb ed="#P" n="71"/>an non homo: sermo est apud loquentes de istis sex 
+              in<lb ed="#P" n="72" break="no"/>complexis.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e707">
+      ⁋ Contra tertiam conclusionem arguitur 
+              <lb ed="#P" n="73"/>sic: ex ea sequitur quod ternarius et quaternarius essent 
+              <lb ed="#P" n="74"/>eiusdem speciei specialisstme: consequens est falsum: 
+              <lb ed="#P" n="75"/>quia vnitas variat speciem nuneri octauo metaphysice. 
+              <lb ed="#P" n="76"/>probo consequentiam: demonstro enim tres homines ex vna 
+              <lb ed="#P" n="77"/>parte e quattuor ex alia: et sic argumentor. omnes isti sunt 
+              <lb ed="#P" n="78"/>eiusdem speciei specialissime: et isti sunt quaternarius 
+              <lb ed="#P" n="79"/>et ternarius: cum numerus nihil aliud sit quam res 
+              nume<lb ed="#P" n="80" break="no"/>rate.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e727">
+      ⁋ Preterea ex conclusione sequitur quod numerus 
+              <lb ed="#P" n="81"/>perfectus est numerus diminutus: et nunerus 
+              super<lb ed="#P" n="82" break="no"/>abundans: consequens est falsum et contra Arithimeticos: ergo 
+              <lb ed="#P" n="83"/>et antecedens: probo consequentiam: demonstro vnum 
+              <lb ed="#P" n="84"/>continuum a. a habet octo octauas tunc a est numerus 
+              <lb ed="#P" n="85"/>octonarius: ergo est numerus diminutus cum omnes partes 
+              <lb ed="#P" n="86"/>eius aliquote simul collecte minorem numerum ipso 
+              consti<lb ed="#P" n="87" break="no"/>tuant: et a est numerus senurius cum contineat sex 
+              sex<lb ed="#P" n="88" break="no"/>tas: ergo est nunerus perfectus: cum omnes partes eius 
+              <lb ed="#P" n="89"/>aliquote simul collecte equalem numerum ipsi constituunt:  
+              <lb ed="#P" n="90"/>et a est duodecim duodecime: ergo est numerus supabum 
+              <lb ed="#P" n="91"/>dans: quia partes eius aliquote simul sumpte maiorem 
+              <lb ed="#P" n="92"/>numerum ipso constituunt. Eodem modo probabitur quod 
+              nu<lb ed="#P" n="93" break="no"/>merus pariter par est pariter impar: et impariter par 
+              <lb ed="#P" n="94"/>demonstrato eodem continuo. Similiter sequitur quod 
+              nu<lb ed="#P" n="95" break="no"/>merus linealis erit numerus superficialis et 
+              corpora<lb ed="#P" n="96" break="no"/>lis: similiter quod numerus primus et incompositus esset nu 
+              <lb ed="#P" n="97"/>merus secundus et compositus. omnia ista facile est 
+              <lb ed="#P" n="98"/>deducere expositorie per partes continui. Isiud est 
+              <lb ed="#P" n="99"/>destruere totam Arithimeticam speculativam.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e772">
+      ⁋ Ad 
+              pri<lb ed="#P" n="100" break="no"/>mum dicitur distinguendo quod ternarius et quaternarius 
+              <lb ed="#P" n="101"/>sunt eiusdem speciei: vel in genere substantie et sic conce 
+              <lb ed="#P" n="102"/>ditur: vel eiusdem speciei specialissime in genere 
+              quan<lb ed="#P" n="103" break="no"/>titatis. et sic negatur.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e783">
+      ⁋ Ad secundum concedantur omnia 
+              <lb ed="#P" n="104"/>illa illata: nec hoc est mathematicam destruere: quia omne 
+              <lb ed="#P" n="105"/>verum omni vero consonat. primo ethi. distinctio rea 
+              <lb ed="#P" n="106"/>lis in istis est in rebus indiuisibilibus. distinctio rationis 
+              <lb ed="#P" n="107"/>in diuisibilibus: sufficit arithimeticis quod quattuor sint 
+              <lb ed="#P" n="108"/>pars aliquota de octo a non quinque. hoc est secundum 
+              deno<lb ed="#P" n="109" break="no"/>minationem de quattuor: licet de virtute sermonis 
+              qui<lb ed="#P" n="110" break="no"/>narius sit pars aliquota de octo: tamen non est de 
+              ratio<lb ed="#P" n="111" break="no"/>ne quinarii. Eedem passiones numerorum resultant per 
+              <lb ed="#P" n="112"/>distinctionem rationis sicut per distinctionem realem. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e805">
+               <lb ed="#P" n="113"/>⁋ Etiam pars opposita tantum reluctatur 
+              arithime<lb ed="#P" n="114" break="no"/>tice sicut ista: cum secundum arithimeticos ternarius nihil 
+              <lb ed="#P" n="115"/>aliud sit quam tres res nunerate. Unde in principio seprti 
+              <lb ed="#P" n="116"/>mi elementorum euclides numerum diffiniens sic inquit. 
+              <lb ed="#P" n="117"/>Numerus est multitudo ex vnitatibus composita. Et 
+              <lb ed="#P" n="118"/>decimo metaphysices: nunerus est pluralitas 
+              vnita<lb ed="#P" n="119" break="no"/>tum. et con. commen. lxviii. iii. physicorum dicit quod nunerus est 
+              <lb ed="#P" n="120"/>coaceruus vnitatum. et. x. metaphysice commen. duodecio 
+              <lb ed="#P" n="121"/>dicit quod in diffinitione numeri dictum est quod est 
+              multitu<lb ed="#P" n="122" break="no"/>do composita ex vnitatibus. Tu dicis numerum 
+              indiuisi<lb ed="#P" n="123" break="no"/>bile accidens distinctum a rebus nuneratis: et per consequens 
+              <lb ed="#P" n="124"/>nullus numerus est maior alio: nec erit totum a 
+              pars<lb ed="#P" n="125" break="no"/>et breuiter plura pugnantia videbis cum arithimetica 
+              <lb ed="#P" n="126"/>et omni scibili quam cum isto modo dicendi. Tu dicis praesuper 
+              <lb ed="#P" n="127"/>positiue quod numerus est vnitates et vadis contra vin 
+              <lb ed="#P" n="128"/>tutem sermonis.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e842">
+      ⁋ Secundo arguitur sic: ex isto 
+              se<lb ed="#P" n="129" break="no"/>quitur quod senarius esset bis tria: et quaternarius bis 
+              <lb ed="#P" n="130"/>duo. consequens est contra philosophum. v. metaphysice 
+              <lb ed="#P" n="131"/>dicentem: substanti a enim cuiuslibet est semel: vbi gra 
+              <lb ed="#P" n="132"/>tia sex. non enim bis tria sed semel sex. vbi commentator 
+      <!--190.xml-->
+      <pb ed="#P" n="88-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>com. xix. dicit quod substantia senarii est vnicum sex. non 
+              <lb ed="#P" n="2"/>tres binarii.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e864">
+      ⁋ Preterea nunerus canum e ouium specie 
+              <lb ed="#P" n="3"/>distinguerentur: hoc est contra philosophum. iiii. 
+              physico<lb ed="#P" n="4" break="no"/>rum in fine vbi dicit: quod est idem numerus canum a ouium: 
+              <lb ed="#P" n="5"/>non loquitur de identitate specifica sed de 
+              identita<lb ed="#P" n="6" break="no"/>te numerali. Unde per hoc quod tempus dicitur numerus mo 
+              <lb ed="#P" n="7"/>tuum et idem est nunerus diuersorum numeratorum equa 
+              <lb ed="#P" n="8"/>lium multitudine: probat quod omnium est idem et vnum 
+              nue<lb ed="#P" n="9" break="no"/>ro tempus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e882">
+      ⁋ Ad primum dicitur quod si coniunctio inclusa in ter 
+              <lb ed="#P" n="10"/>mino numerali dicat interruptionem sic nego / saltem in 
+              <lb ed="#P" n="11"/>diuisibilibus: si complexiue capiatur sic conceditur. Sed 
+              <lb ed="#P" n="12"/>ad intentionem philosophi conceditur quod ipse ibi distit 
+              <lb ed="#P" n="13"/>guit modos quibus dicitur quod quantitas et quale dicuntur 
+              <lb ed="#P" n="14"/>etiam in mathematicis: sicut numeri dominr quales: ve 
+              <lb ed="#P" n="15"/>bi gratia compositi superficiales et solidi. Unde quam 
+              <lb ed="#P" n="16"/>do aliquem numerum dicimus superficialem vel 
+              soli<lb ed="#P" n="17" break="no"/>dum non dicimus quid ipse est sed qualis: tunc vero 
+              <lb ed="#P" n="18"/>significamus illum superficialem cum significamus ipsum 
+              <lb ed="#P" n="19"/>consurgere ex ductu vnius duorum numerorum in alium: 
+              <lb ed="#P" n="20"/>verbi gratia cum dicitur de aliquo numero quod est bis 
+              <lb ed="#P" n="21"/>tria non significatur quid est a substantia eius sed 
+              qua<lb ed="#P" n="22" break="no"/>lis: cum vero dicitur quod est sex vel septem vel aliquis 
+              <lb ed="#P" n="23"/>numerus semel tantum tunc denotatur substantia eius. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e916">
+               <lb ed="#P" n="24"/>⁋ Ad aliud concedo quod numerus canum e ouium 
+              spe<lb ed="#P" n="25" break="no"/>cie specialissima in genere substantie distinguuntur sed 
+              <lb ed="#P" n="26"/>non in genere quantitatis: quia septem et septe quae sunt de 
+              <lb ed="#P" n="27"/>praedicamento quantitatis habent connotationes synonur 
+              <lb ed="#P" n="28"/>mas. Non inconuenit eandem rem poni in diuersis 
+              pre<lb ed="#P" n="29" break="no"/>dicamentis eo modo quo conuenit rei ad extra poni in 
+              pre<lb ed="#P" n="30" break="no"/>dicamento. Nec intendit dicere philosophus quod nume 
+              <lb ed="#P" n="31"/>rus canum e ouium sit idem septenarius nunero: sed sunt 
+              <lb ed="#P" n="32"/>idem numerus specie: sicut in parte sequenti statim d 
+              <lb ed="#P" n="33"/>cit quandocunque continentur sub aliqua differentia immediate 
+              <lb ed="#P" n="34"/>diuidente aliquod commune nec differunt per differentias 
+              <lb ed="#P" n="35"/>illius tale commune praedicari potest de illis adiuncto sibi hoc 
+              <lb ed="#P" n="36"/>termino idem. Contra autem si differant differentiis illius 
+              <lb ed="#P" n="37"/>communis. Verbi gratia ( secundum eum equilaterus et quadra 
+              <lb ed="#P" n="38"/>tus non differunt differentiis immediate diuidentibus 
+              figu<lb ed="#P" n="39" break="no"/>ram sed ambo sub eadem doeatria figure cadunt vterque enim 
+              <lb ed="#P" n="40"/>rectilineus. figura vo diuiditur per lineam rectam et 
+              circu<lb ed="#P" n="41" break="no"/>larem: ideo dicit quod ambo sunt eadem figura quia vo ipsi 
+              <lb ed="#P" n="42"/>differunt per differentias immediate diuidentes triangulum 
+              <lb ed="#P" n="43"/>quae sunt habens latera equalia et habens inequalia: ideo non 
+              <lb ed="#P" n="44"/>dicuntur idem triangulus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e964">
+      ⁋ Sic in proposito quia 
+              septe<lb ed="#P" n="45" break="no"/>narii omnes sub eadem differentia huius conis nunerus comprehen 
+              <lb ed="#P" n="46"/>duntur idec dicit quod sunt idem numerus. non autem dicit 
+              <lb ed="#P" n="47"/>quod sunt idem septenarius. immo infra expresse dicit op 
+              <lb ed="#P" n="48"/>positum. Et est ratio quia septenarius est species specia 
+              <lb ed="#P" n="49"/>lissima quae non diuiditur per differentias specificas sed 
+              im<lb ed="#P" n="50" break="no"/>mediate diuiditur in indiuidua et ideo de talibus nulla 
+              <lb ed="#P" n="51"/>praedicatur species cum hoc termino idem sicut duo equila 
+              <lb ed="#P" n="52"/>teri non dicuntur idem equilaterus quaeuis secundum modum 
+              <lb ed="#P" n="53"/>praedictum dicantur idem triangulus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e986">
+      ⁋ Tertio arguit 
+              <lb ed="#P" n="54"/>numerus et magnitudo sunt sensibilia distincta: 
+              secun<lb ed="#P" n="55" break="no"/>do de anima: ergo distinguuntur. alioqui non essent quinque 
+              <lb ed="#P" n="56"/>sensibilia communia.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e995">
+      ⁋ Insuper: si numerus esset res nu 
+              <lb ed="#P" n="57"/>merate: tunc quicumque videret vnum exercitum homnium: vt 
+              <lb ed="#P" n="58"/>deret numerum eorum et sciret quod essent centum vel mille  
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1002">
+               <lb ed="#P" n="59"/>⁋ Respondetur quod sunt quinque sensibilia coniahoc est sunt 
+              <lb ed="#P" n="60"/>quinque genera vel species sensibilium: et non requiritur 
+              <lb ed="#P" n="61"/>aliqua distinctio realis. Secundum enim aduersarios nu 
+              <lb ed="#P" n="62"/>merus nullo modo est sensibilis aliquo sensu exteriori 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1013">
+               <lb ed="#P" n="63"/>⁋ Ad aliud conceditur quod quicunque videt exercitum 
+              <lb ed="#P" n="64"/>hominum numerum eorudem videt cum idem sint:  
+              <lb ed="#P" n="65"/>sed non oportet quod habeat iudicium complexum quot sint. 
+              <lb ed="#P" n="66"/>Et patet in simili: quicumque videt albedinem: tres vel quat¬ 
+      <!--190.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 88rb -->
+               <lb ed="#P" n="67"/>tuor gradus quos habet videt: et tamen ignorat ipse 
+              <lb ed="#P" n="68"/>videns quot sunt gradus.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1036">
+      ⁋ Ultimo arguitur. si ani 
+              <lb ed="#P" n="69"/>ma non est: numerus non est. eg numerus non est aliqua 
+              <lb ed="#P" n="70"/>res ad extra: sed solum in anima. Et commentator commento 
+              <lb ed="#P" n="71"/>cxxxi. dicit: numerus non est nisi actio numerantis in 
+              <lb ed="#P" n="72"/>numerato. et manifestum est quod cum numerans non fuerit 
+              <lb ed="#P" n="73"/>actio eius non erit. impossibile autem est aliquid preter 
+              <lb ed="#P" n="74"/>animam numerare et anime intellectum: ergo manifestum 
+              <lb ed="#P" n="75"/>est quod cum anima non fuerit nec erit numerus. Et infra 
+              <lb ed="#P" n="76"/>dicit: esse vero nunc in anima non est esse omnibus modis 
+              <lb ed="#P" n="77"/>uanium esset fictitium: sicut chimera et hircdoceruus. sed esse 
+              <lb ed="#P" n="78"/>eius extra mentem est in potentia propter subiectum 
+              pro<lb ed="#P" n="79" break="no"/>prium: esse vero eius in anima est in actu: sed quando anima 
+              <lb ed="#P" n="80"/>egerit actionem illam quae dicitur numerus in subiecto pre 
+              <lb ed="#P" n="81"/>parato ad suscipiendam illam. Ex quibus etiam pater 
+              <lb ed="#P" n="82"/>quod numerus non est actu absque anime apprehensione. 
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1069">
+               <lb ed="#P" n="83"/>⁋ Respondetur: quod numerus capitur duobus modis 
+              <lb ed="#P" n="84"/>prout dictum est. vno modo pro rebus separatis non 
+              con<lb ed="#P" n="85" break="no"/>stituentibus aliquod vnum: vt duo homies / quedam est 
+              <lb ed="#P" n="86"/>mnltitudo rerum facientium vnum vt duarum medietatum 
+              <lb ed="#P" n="87"/>vel trium tertiarum continui que diuiduntur per actionem 
+              <lb ed="#P" n="88"/>anime. Secundo modo vt accipit <name xml:id="jm12w4-e60093-Nd1e1084" ref="#Aristotle">aristoteles</name> quarto phys 
+              <lb ed="#P" n="89"/>corum numerum. Ad numerum primo modo sufficit quod sint 
+              <lb ed="#P" n="90"/>vnitates finite separate. vt patet. v. metaphysice. vnde 
+              <lb ed="#P" n="91"/>commento. c. dicitur quod motus diuisus per duo 
+              instan<lb ed="#P" n="92" break="no"/>tia prius et posterius est ipsum tempus. et commento 
+              <lb ed="#P" n="93"/>xxxxi. tempus nihil aliud quam prius et posterius in mo 
+              <lb ed="#P" n="94"/>tu: sed secundum quod sunt numerata diuisa et discreta 
+              <lb ed="#P" n="95"/>et non indiget in hoc quod sit actu in anima scilicet quod est secun 
+              <lb ed="#P" n="96"/>dum quod prius est e posterius vt sunt numerata.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1105">
+      ⁋ Vel 
+              <lb ed="#P" n="97"/>dicitur numerus numerans est ipsa anima. Vel sic: quia ni 
+              <lb ed="#P" n="98"/>merus in praedicamento quantitatis ponitur species quam 
+              <lb ed="#P" n="99"/>titatis discrete. ergo connotatio eius debet esse inferior 
+              <lb ed="#P" n="100"/>ad connotationem termini multitudo. Dicitur quod nume 
+              <lb ed="#P" n="101"/>rus supponit pro rebus numeratis quando ab anima intelle 
+              <lb ed="#P" n="102"/>ctiua numerantur: et non alias. et si anima non esset 
+              <lb ed="#P" n="103"/>non esset numerus: bene autem multitudo: secundi 
+              <lb ed="#P" n="104"/>illud vulgare. gallina cognoscit multitudinem pullorum 
+              <lb ed="#P" n="105"/>uorum sed non numerum: quia non habet rationem discretiuam 
+              <lb ed="#P" n="106"/>inime.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1129">
+      ⁋ Ex his patet quod numerus formalis 
+              distin<lb ed="#P" n="107" break="no"/>guitur a rebus numeratis. Non respiciamus ad quen 
+              <lb ed="#P" n="108"/>dam qui. xvii. capitum. primi libri sue logices potius 
+              de<lb ed="#P" n="109" break="no"/>liramentoum logicalium et physicalium / dicit: nam nume 
+              <lb ed="#P" n="110"/>rum dicere alium esse qui numerat: alium qui numeratur 
+              <lb ed="#P" n="111"/>
+               <name xml:id="jm12w4-e60093-Nd1e1142" ref="#Aristotle">aristotelice</name> tantum confidentie est Est modus huius viri 
+              <lb ed="#P" n="112"/>omnia attribuere <name xml:id="jm12w4-e60093-Nd1e1147" ref="#Aristotle">aristoteli</name> que audit extra grammaticem et 
+              <lb ed="#P" n="113"/>rhetoricem vt portentosis verbis contra philosophum 
+              <lb ed="#P" n="114"/>clamet.
+            </p>
+            <p xml:id="jm12w4-e60093-d1e1155">
+      ⁋ Super primo dicto non miramur. certe non 
+              <lb ed="#P" n="115"/>credo virum hunc pagellam vnquam legisse in <name xml:id="jm12w4-e60093-Nd1e1159" ref="#Aristotle">aristotele</name>: 
+              <lb ed="#P" n="116"/>quia palam est quod pagellam nullam intellexit. 
+              audi<lb ed="#P" n="117" break="no"/>uit inter disputantes aliqua communia extra suam 
+              pro<lb ed="#P" n="118" break="no"/>fessionem: ignarus quis esset autor dictorum. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

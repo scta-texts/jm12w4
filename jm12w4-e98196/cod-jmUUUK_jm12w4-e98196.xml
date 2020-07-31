@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="16-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e98196"> <!--l1prolq7 -->
+            <head xml:id="jm12w4-e98196-Hd1e106">Quaestio 7</head>
+            <head xml:id="jm12w4-e98196-Hd1e109" type="question-title">De obiecto scientiae et fidei</head>
+            <p xml:id="jm12w4-e98196-d1e112">
+               <lb ed="#P" n="22"/>QVeritur septimo de obiecto scientie et 
+              <lb ed="#P" n="23"/>fidei. Circa hoc multiplex est modus 
+              <lb ed="#P" n="24"/> opinandi Quidam enim ponunt complexe si 
+              <lb ed="#P" n="25"/>gnificabilia esse obiectum scie: de quibus 
+              <lb ed="#P" n="26"/>nusquam loquor fundamentum positionis re 
+              <lb ed="#P" n="27"/>citando: tum quia ipsa satis est in vsu. tum secundo (a hoc 
+              pli<lb ed="#P" n="28" break="no"/>mouet) quod sunt voluntarie ficta: et sine auctoritater 
+              <lb ed="#P" n="29"/>sine ratione. Alii praecise dicunt rem significatam per 
+              extre<lb ed="#P" n="30" break="no"/>ma conclusionis esse obiectum scie. Tertii dicunt conclu 
+              <lb ed="#P" n="31"/>sionem esse obiectum scientie et fidei. et hoc multi
+              ar<lb ed="#P" n="32" break="no"/>tiquorum tenuerunt. vt <ref xml:id="jm12w4-e98196-Rd1e138">
+                  <name xml:id="jm12w4-e98196-Nd1e140">Altissiodorus</name>. in. iii. in mate 
+              <lb ed="#P" n="33"/>ria de fide.</ref> apud alios dicebatur res ad extra quo 
+              <lb ed="#P" n="34"/>dam modo obiectum tanquam res scita ad extra: hoc patet 
+              <lb ed="#P" n="35"/>apud <ref xml:id="jm12w4-e98196-Rd1e150">
+                  <name xml:id="jm12w4-e98196-Nd1e152">sactantum Thomam</name>. in pricipio secunde secunde.</ref> et api 
+              <lb ed="#P" n="36"/>
+               <ref xml:id="jm12w4-e98196-Rd1e158">
+                  <name xml:id="jm12w4-e98196-Nd1e160">Alexandrum halensem</name>
+               </ref>. Dens isti modi / demptis 
+              com<lb ed="#P" n="37" break="no"/>plexe significabilibus) non debent habere discrimem 
+              <lb ed="#P" n="38"/>magni momenti.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e170">
+      ⁋ Propterea respondetur ad 
+              titu<lb ed="#P" n="39" break="no"/>lum questionis. Et conclusio demonstrata: termini eius 
+              <lb ed="#P" n="40"/>et res significate per illos: dicuntur esse obiecta scientie 
+              <lb ed="#P" n="41"/>pariter et fidei. probatur conclusio sic: esse obiectum fidei: n 
+              <lb ed="#P" n="42"/>hil aliud est quam terminare assensum credendi: illud es 
+              <lb ed="#P" n="43"/>doiter esse obiectum credibile: in quod tendit assensus 
+              <lb ed="#P" n="44"/>credendi. Similiter illud est obiectum scientificum: in 
+              <lb ed="#P" n="45"/>quod actus scientificus dirigitur: hoc patet vbiqu 
+              <lb ed="#P" n="46"/>de obiecto a eius notitia: obiectum enim visionis est 
+              <lb ed="#P" n="47"/>color extenso termino: et sonus auditus: et italinducti 
+              <lb ed="#P" n="48"/>ue: modo intellectus assentiens huic: christus resur 
+              <lb ed="#P" n="49"/>rexit a mortuis habet assensum creditiuum: quo cre 
+              <lb ed="#P" n="50"/>dit huic complexo. et intellectus considerat partes illius 
+              <lb ed="#P" n="51"/>enunciabilis: et res significatas per eas. Quare imanis 
+              <lb ed="#P" n="52"/>est satyricus morsus virorum de vario modo opinam 
+              <lb ed="#P" n="53"/>di in hac parte pro difficultate verbali.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e206">
+      ⁋ Sed con 
+              <lb ed="#P" n="54"/>tra istud arguitur. ex isto sequitur quod fides: error: et opi 
+              <lb ed="#P" n="55"/>nio: essent de eodem: contra dicta in questione quinta 
+              <lb ed="#P" n="56"/>Insuper sequeretur quod scientia esset notitia reflexa. si 
+              <lb ed="#P" n="57"/>militer fides.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e217">
+      ⁋ Ad primum propter facilitatem non re 
+              <lb ed="#P" n="58"/>spodeo Secundum est facileletiam. si sufficiat ad esse 
+              noti<lb ed="#P" n="59" break="no"/>tiam reflexam esse notitiam iudicatiuam siue apprehensiuam 
+              <lb ed="#P" n="60"/>non iudicatiuam: nunquid est corollarium sequens 
+              <lb ed="#P" n="61"/>conceditur illatum.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e228">
+      ⁋ Secundo arguitur: sequeretu 
+              <lb ed="#P" n="62"/>quod scientia esset de corruptibilibus et potentibus 
+              ali<lb ed="#P" n="63" break="no"/>ter se habere: hoc est contra <name xml:id="jm12w4-e98196-Nd1e234" ref="#Aristotle">Aristotelem</name> primo 
+              poste<lb ed="#P" n="64" break="no"/>riorum. cosequentia est clara: siue ponantur conclusiones 
+              <lb ed="#P" n="65"/>siue res significate per eas esse obiecta.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e242">
+      ⁋ Pretea 
+      <!--46.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 16rb -->
+               <lb ed="#P" n="66"/>tunc omnis scientia esset de terminis. hoc est falsum 
+              <lb ed="#P" n="67"/>vt patet de quadriuialibus.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e255">
+      ⁋ Ad secundum distingui 
+              <lb ed="#P" n="68"/>tur: vel de corruptibilibus prime intentionaliter: et sic con 
+              <lb ed="#P" n="69"/>ceditur. quae libet eim creatura potest corrumpi a deo. vel de 
+              <lb ed="#P" n="70"/>corruptibilibus secunde intentionaliter. i. de propositioni 
+              <lb ed="#P" n="71"/>bus contingentibus: et sic negatur: etiam res ad extra 
+              ta<lb ed="#P" n="72" break="no"/>lem connexionem habent intur se: vt necesse sit praedicatum 
+              vni<lb ed="#P" n="73" break="no"/>ri cum subiecto eodem modo sicut denotatur per propositionem. 
+              <lb ed="#P" n="74"/>Illud argumentum est equaliter contra aduersarios 
+              <lb ed="#P" n="75"/>dicere complexe significabilia esse ab eterno a non cor 
+              <lb ed="#P" n="76"/>ruptibilia: et fingere acceptiones entis sine ratione 
+              <lb ed="#P" n="77"/>est glossa aurelianensem.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e279">
+      ⁋ Ad aliod conceditur de obie 
+              <lb ed="#P" n="78"/>cto complexo a partibus eius: negatur tamen de rebus 
+              si<lb ed="#P" n="79" break="no"/>gnificatis per conclusionem. quod dicitur nunc coniter sub ar 
+              <lb ed="#P" n="80"/>lio vocabulo: conceditur de obiecto proinquo a remo 
+              <lb ed="#P" n="81"/>tissimo. hoc verum est quia pricipalius intellectus rima 
+              <lb ed="#P" n="82"/>tur res significatas per terminos quam complexum et 
+              par<lb ed="#P" n="83" break="no"/>tes eius: vt patet de scientia huius: superlineam 
+              datam<lb ed="#P" n="84" break="no"/>etc. similibus. logica autem dicitur sermocinalis: quia potit 
+              <lb ed="#P" n="85"/>simum considerat de sermodne vero vel falso. sic rhetori 
+              <lb ed="#P" n="86"/>ca dicitur: quia cultum a barbaro segregat / et sermonem le 
+              <lb ed="#P" n="87"/>pidum considerat. et ita de grammatica. opposito modo i 
+              <lb ed="#P" n="88"/>vsu est de physica et quadriuialibus.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e306">
+      ⁋ Tertio arguitur. s 
+              <lb ed="#P" n="89"/>enunciabile est obiectum fidei: articli fidei sunt mutati: 
+              <lb ed="#P" n="90"/>et alia est fides in nobis et in antiquis: vt patet de hac: 
+              <lb ed="#P" n="91"/>christus morietur / christus mortuus est.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e315">
+      ⁋ Ad hoc di 
+              <lb ed="#P" n="92"/>cit quidam quod enunciabile commune ad omnia tempora est articulus 
+              <lb ed="#P" n="93"/>scilicet filium dei esse incarnandum. hoc non satisfacit. Pro 
+              <lb ed="#P" n="94"/>pterea dicitur: quod interdum erat fides de ista christus mo 
+              <lb ed="#P" n="95"/>rietur: nunc autem est assensus fidei de suo opposito: et 
+              <lb ed="#P" n="96"/>fides antiquorum non modo numero distinguitur a fide 
+              <lb ed="#P" n="97"/>nostra: sed specie: lodmur de fide ac quisita. vorobaturi. 
+              <lb ed="#P" n="98"/>qui distinctio obiectorum specifica ar guit distictione 
+              <lb ed="#P" n="99"/>specificam actuum et habituum.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e335">
+      ⁋ Sed contra istud argu 
+              <lb ed="#P" n="100"/>tur per glossam prime ad Corrinthi. x. In signis itaque d 
+              <lb ed="#P" n="101"/>uersis eadem est fides: tempora variata sunt: fides non 
+              <lb ed="#P" n="102"/>qui illi christum venturum / passurum crediderunt: nos au 
+              <lb ed="#P" n="103"/>tem venisse et passum esse. Respondetur. Primo est ea 
+              <lb ed="#P" n="104"/>dem fides in specie subalterna. palam est eim quod non loqui 
+              <lb ed="#P" n="105"/>tur glossa dei idetitate numerali. Secudo est eade 
+              <lb ed="#P" n="106"/>fides infusa in specie specialissima: sicut fides 
+              infu<lb ed="#P" n="107" break="no"/>sa abrahe inclinabat ad assensum istius: messias veniet 
+              <lb ed="#P" n="108"/>ita similis fides infusa inclinabit nos ad credendum 
+              <lb ed="#P" n="109"/>isti: messias iam venit. Tertio dicitur quod est eadem 
+              ob<lb ed="#P" n="110" break="no"/>iectiue: hoc est circa idem obiectum scilicet circa christum
+            </p>
+            <p xml:id="jm12w4-e98196-d1e361">
+               <lb ed="#P" n="111"/>Ic dubitatur: qua vnitate logica vel 
+              <lb ed="#P" n="112"/>qua scientia dicatur vna. Circa hanc 
+              <lb ed="#P" n="113"/>dubitationem varius est modus respondem 
+              <lb ed="#P" n="114"/>di. Quidam doctor tenet quod scientia 
+              to<lb ed="#P" n="115" break="no"/>tius physice est vna vnitate numera 
+              <lb ed="#P" n="116"/>li: dum modo sit idem medium demonstran 
+              <lb ed="#P" n="117"/>di: nec inconuenit conclusiones specit 
+              <lb ed="#P" n="118"/>distinctas hatere eandem scientiam numeralem: Et in rei ve 
+              <lb ed="#P" n="119"/>ritate multi antiquorum ibant ad illud in actibus intelle 
+              <lb ed="#P" n="120"/>ctus et voluntatis: ita quod volebant dicere quod quaelibet li 
+              <lb ed="#P" n="121"/>beralitas sit eiusdem speciei cum alio: et quaelibet tem pera 
+              <lb ed="#P" n="122"/>tia cum qualibet alia. hoc ante istum doctorem tenuerunt 
+              <lb ed="#P" n="123"/>Altissiodorus: Alexander / et alii innuneri. Sed contra eam 
+              <lb ed="#P" n="124"/>sunt rationes communes et fortes. nam habitus 
+              quoru<lb ed="#P" n="125" break="no"/>vnus potest esse sine alio distinguntur: sed quis potest hatre 
+              <lb ed="#P" n="126"/>scientiam vnius conclusionis logicalis habendo errori 
+              <lb ed="#P" n="127"/>praue dispositionis de alia. Item habens scientiam 
+              pri<lb ed="#P" n="128" break="no"/>me conclusionis geometrie non potest exire in actum cen 
+              <lb ed="#P" n="129"/>tesime conclusionis: sed per studium potest. queritur ergo 
+              <lb ed="#P" n="130"/>an acquirat aliud de nouo: an non. Si primum: cor¬ 
+      <!--47.xml-->
+      <pb ed="#P" n="16-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ruit opinio. si secundum: pari facilitate tenebo quod quis 
+              <lb ed="#P" n="2"/>assentit vni conclusioni: et nullum assensum illius habet. 
+              <lb ed="#P" n="3"/>Dices: acquirit nouum respectum ad aliam conclusionem 
+              <lb ed="#P" n="4"/>etc. hic modus est alienus in conischola a philosophia 
+              <lb ed="#P" n="5"/>propterea relinquatur sue secte: nec respicio an 
+              re<lb ed="#P" n="6" break="no"/>spondeant. sed consideret educatus in philosophia 
+              <lb ed="#P" n="7"/>
+               <name xml:id="jm12w4-e98196-Nd1e428" ref="#Aristotle">Aristotelis</name> neutralis / an sufficiens responsio dar 
+              <lb ed="#P" n="8"/>possit. Teneamus ergo pro constanti quod quot sunt 
+              conclu<lb ed="#P" n="9" break="no"/>siones geometrice / tot sunt assensus distincti vel 
+              es<lb ed="#P" n="10" break="no"/>sent si omnes illi haberentur: et quandocunque sunt due conclu 
+              <lb ed="#P" n="11"/>siones specie distincte a quibuscumque mediis natura 
+              <lb ed="#P" n="12"/>libus causentur: earum assensus specie distinguuntur. Et 
+              <lb ed="#P" n="13"/>stis patet quod multe sunt scientie logicales: et geometri 
+              <lb ed="#P" n="14"/>cales. Sed bifariam capitur scientia Uno modo pro simpli 
+              <lb ed="#P" n="15"/>ci habitu. Alio modo collectiue pro collectione 
+              multo<lb ed="#P" n="16" break="no"/>rum habituum vel actuum. Interdu includit opinionem 
+              <lb ed="#P" n="17"/>errorem et cetera id ganus: sed omnes illi habitus a scien 
+              <lb ed="#P" n="18"/>tia denominationem accipiunt. quod multe sunt 
+              opi<lb ed="#P" n="19" break="no"/>niones in logica et physica / est apertum: logica enim 
+              <lb ed="#P" n="20"/>est sylua opinionum. Sed quomodo tota logica dicitur 
+              <lb ed="#P" n="21"/>vna: est partita positio Dicit quidam doctor. iii. q. pro 
+              <lb ed="#P" n="22"/>logi primi sententiarum: quod ratio primi subiecti est contine 
+              <lb ed="#P" n="23"/>re in se primo virtualiter omnes veritates illius 
+              ha<lb ed="#P" n="24" break="no"/>bitus cuius est. hoc patet quia obiectum primum 
+              conti<lb ed="#P" n="25" break="no"/>net propositiones immediatas: quia subiecta istarum con 
+              <lb ed="#P" n="26"/>tinent praedicatum: et ita euidentiam totius propositionis. 
+              <lb ed="#P" n="27"/>propositiones autem immediate continent conclusiones: 
+              <lb ed="#P" n="28"/>ergo subiectum proprium immedia tarum continet omnes 
+              ve<lb ed="#P" n="29" break="no"/>ritates illius habitus. Primo virtualiter 
+              conti<lb ed="#P" n="30" break="no"/>nere est: quia illud primum est quod non dependet ab alior 
+              <lb ed="#P" n="31"/>sed alia ab illo. Ita ergo prio continere est ab aliis 
+              <lb ed="#P" n="32"/>non dependere in continendo: sed alia ab ipso. hoi 
+              <lb ed="#P" n="33"/>est quod si per imposibile circunscripto omni alio / manen 
+              <lb ed="#P" n="34"/>te intellectu eius adhuc contineret: et nihil aliud con 
+              <lb ed="#P" n="35"/>tinet nisi per rationem eius. Continentia virtualis est 
+              <lb ed="#P" n="36"/>duplex. quaedam in esse reali: et est illa qua aliquid 
+              conti<lb ed="#P" n="37" break="no"/>net aliud: quod potest ipsum producere in esse reali: quem 
+              <lb ed="#P" n="38"/>admodum quaelibet causa potens aliquem effectum 
+              pro<lb ed="#P" n="39" break="no"/>ducere ipsum continet in esse reali: sic sol ranam / ignis 
+              <lb ed="#P" n="40"/>calorem / et deus omnem creaturam continet. Alia est 
+              <lb ed="#P" n="41"/>virtualis continentia in esse cognito: in qua quid  
+              <lb ed="#P" n="42"/>tas in esse cognito obiectiue ab intellectu cognita 
+              <lb ed="#P" n="43"/>potest producere cognitionem alterius obiecti in esse 
+              co<lb ed="#P" n="44" break="no"/>gnito. hoc modo si homo sit a nobis cognitus: per 
+              ra<lb ed="#P" n="45" break="no"/>tionem obiectiuam eius / potest cognosci quaelibet eius 
+              <lb ed="#P" n="46"/>passio vt risibile / flebile / et sic de aliis. Item si homo esset 
+              <lb ed="#P" n="47"/>perfecte cognitus in esse cognito: ex illa cognitione 
+              <lb ed="#P" n="48"/>legeretur cognitio omnim passionum propriarum ipsius 
+              <lb ed="#P" n="49"/>homins. etiam hic est sermo de continentia propositio 
+              <lb ed="#P" n="50"/>num necessariarum. vbi gratia capiamus hunc syllogismum 
+              <lb ed="#P" n="51"/>per quem habetur scientia de homine: omne animal rationale eusa 
+              <lb ed="#P" n="52"/>risibile: omnis homo est animal rationale: ergo omnis homo est 
+              <lb ed="#P" n="53"/>risibilis. premisse continent virtualiter scientian 
+              <lb ed="#P" n="54"/>conclusionis quae est mediata: subiecta premissarum 
+              <lb ed="#P" n="55"/>continent notitiam primissarum: quia in qualibet 
+              propo<lb ed="#P" n="56" break="no"/>sitione immediata semper subiectum continet praedicatum 
+              <lb ed="#P" n="57"/>et termini cogniti continent notitiam propositionis 
+              im<lb ed="#P" n="58" break="no"/>mediate. propositiones erga immediate continent 
+              <lb ed="#P" n="59"/>vertualitur conclusionem: et notitie terminorum continent 
+              <lb ed="#P" n="60"/>vtualitur notitiam propositionum: quia vel in qualibet immo 
+              <lb ed="#P" n="61"/>diata praedicatum est de essentis subiecti: et sic conti 
+              <lb ed="#P" n="62"/>netur a subiecto essentialiter: sicut est in minore 
+              <lb ed="#P" n="63"/>omnis homo est animalrationale. vel continet vir 
+              <lb ed="#P" n="64"/>tualiter: et sic subiectum maioris scilicet animal 
+              ra<lb ed="#P" n="65" break="no"/>tionale continet vitualiter praedicatum scilicet risibile:  
+      <!--47.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 16vb -->
+               <lb ed="#P" n="66"/>quia si cognosceretur animal rationale / perfecte cognosceretur 
+              <lb ed="#P" n="67"/>risibile: tunc quicquid includit includens / includit in 
+              <lb ed="#P" n="68"/>clusum. Et subiectum minoris continet praedicatum 
+              <lb ed="#P" n="69"/>primo essentialiter: et subiectum maioris continet 
+              <lb ed="#P" n="70"/>raedicatum virtualiter. Exemplum: si homo includat animal 
+              <lb ed="#P" n="71"/>t animal includat substantia animatam sensibilem: homo 
+              in<lb ed="#P" n="72" break="no"/>cludit substantiam animatam sensibilem. si ergo homo 
+              <lb ed="#P" n="73"/>in minore essentialiter includat animal rationale: 
+              <lb ed="#P" n="74"/>et in maiore animal rationale includit risibile 
+              virtua<lb ed="#P" n="75" break="no"/>liter: ergo de primo ad vltimum / subiectum scilicet homo 
+              con<lb ed="#P" n="76" break="no"/>tinet totum virtualiter: et omnem euidentiam siue 
+              <lb ed="#P" n="77"/>omnem veritatem.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e590">
+      ⁋ Sed contra hunc modum 
+              ar<lb ed="#P" n="78" break="no"/>guitur: sequeretur quod homo contineret virtualiter 
+              euiden<lb ed="#P" n="79" break="no"/>tiam huius veritatis / homo est beatificabilis: et luna 
+              <lb ed="#P" n="80"/>huius / luna est eclypsabilis. sed hoc est falsum. igitur: 
+              <lb ed="#P" n="81"/>ralsitas consequentis patet: quia sequitur quod homo contineret 
+              <lb ed="#P" n="82"/>conceptum beatitudinis: et luna conceptum terre lu 
+              <lb ed="#P" n="83"/>nam eclypsantis. Cer sequatur patet per illam Maximam: 
+              <lb ed="#P" n="84"/>oem quod continet vrtualiter aliquam rem / continet etiam 
+              <lb ed="#P" n="85"/>virtualiter omnia requisita ad illam rem. sed per dicta 
+              <lb ed="#P" n="86"/>subiectum continet vertualiter euidentiam talis ve 
+              <lb ed="#P" n="87"/>ritatis: et illa euidentia non potest haberi absque conce 
+              <lb ed="#P" n="88"/>ptum beatitudinis: igitur continebit conceptum beati 
+              <lb ed="#P" n="89"/>tudinis.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e619">
+      ⁋ Respondetur illam Maximam distinguendo. vel 
+              <lb ed="#P" n="90"/>intelligitur de continente vertuali totali: et sic concedis 
+              <lb ed="#P" n="91"/>aut de continente partiali: et sic negas. non intendit 
+              <lb ed="#P" n="92"/>autem opinio attribuere subiecto continentiam totalem: 
+              <lb ed="#P" n="93"/>set solum partialem. Sed contra hoc arguitur. continere pvertua 
+              <lb ed="#P" n="94"/>liter est non dependere ab alio in continendo: sed omne quod par 
+              <lb ed="#P" n="95"/>tialiter continet / a coadiutore dependet in continendo. 
+              <lb ed="#P" n="96"/>ergo subiectum continet totaliter et non partialiter. 
+            </p>
+            <p xml:id="jm12w4-e98196-d1e638">
+               <lb ed="#P" n="97"/>⁋ Respondetur negando minorem: quaeuis omne tale 
+              de<lb ed="#P" n="98" break="no"/>pendeat a coadiutore in efficiendo. nam dependere in con 
+              <lb ed="#P" n="99"/>tinendo est praesupponere aliud continens. Dependere 
+              <lb ed="#P" n="100"/>vero in efficiendo est hatre coadiutorem sine quo effice 
+              <lb ed="#P" n="101"/>re non potest. cum ergo conceptus subiecti possit haberi 
+              <lb ed="#P" n="102"/>absque conceptu definitionis / et passionis: et ista non 
+              <lb ed="#P" n="103"/>possint haberi absque conceptu subiecti: sequitur quod 
+              <lb ed="#P" n="104"/>isti dependent a conceptu subiecti in continendo: a non 
+              <lb ed="#P" n="105"/>econuerso. hic autem est sermo de conceptu obiectiuo: et 
+              <lb ed="#P" n="106"/>non qualitatiuo. vt humanitas in scientia de homine. 
+            </p>
+            <p xml:id="jm12w4-e98196-d1e662">
+               <lb ed="#P" n="107"/>⁋ hunc modum quidam doctores multipliciter impu 
+              <lb ed="#P" n="108"/>gnant: quorum argumenta soluuntur per distinctionem 
+              <lb ed="#P" n="109"/>batam. Arguit quidam doctor sic. si quodlibet subiectum 
+              <lb ed="#P" n="110"/>scientie sic contineret suam passionem: quelibet huiusmodi 
+              <lb ed="#P" n="111"/>passio esset alia res ab haiumodi subiecto actualis vel 
+              <lb ed="#P" n="112"/>potentialis: actualis si actu ipsa est: potentialis si non 
+              <lb ed="#P" n="113"/>actu ipsa est. falsitatem consequentis diffuse probat 
+            </p>
+            <p xml:id="jm12w4-e98196-d1e680">
+               <lb ed="#P" n="114"/>⁋ Istud argumentum non est contra mentem doctoris con 
+              <lb ed="#P" n="115"/>tra quem argumentatur: quia non loquitur de continentia effe 
+              <lb ed="#P" n="116"/>ctiua: sic quod subiectum producat passionem. Sed 
+              con<lb ed="#P" n="117" break="no"/>tra instat arguens sic inquens: ita manu propria postquam 
+              <lb ed="#P" n="118"/>exposuerat quid est primo vertualiter continere magis 
+              <lb ed="#P" n="119"/>hoc ipsum declarans addit in margine: vide arguem 
+              <lb ed="#P" n="120"/>tem.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e698">
+      ⁋ Ad hoc dicitur quod non est verisimile quod doctor 
+              subti<lb ed="#P" n="121" break="no"/>is voluerit illud imaginari: cum secudum eum passio et 
+              <lb ed="#P" n="122"/>subiectum identificentur realiter: et distinguantur solum 
+              <lb ed="#P" n="123"/>formaliter. et nulli cadit in dubium quod nunquam idem pro 
+              <lb ed="#P" n="124"/>ducit seipsum. Sed ad hoc quod vir iste vidit in margine 
+              <lb ed="#P" n="125"/>non credo eum fuisse mentitum. Forte alius hoc immar 
+              <lb ed="#P" n="126"/>gine Duns annotauit / dicens scriptum fuisse a docto 
+              <lb ed="#P" n="127"/>re subtili. Secundo oportet illud in margine exponere ad  
+              <lb ed="#P" n="128"/>mentem eius in aliis principiis. Tertio non est 
+              magna<lb ed="#P" n="129" break="no"/>vis de hoc quid e notatum in margine. Scotiste enim non 
+              <lb ed="#P" n="130"/>habent tueri notatiunculas margieas. Qui ant voluerit 
+      <!--48.xml-->
+      <pb ed="#P" n="17-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>instare ad probandum vtrobique passio / em 
+              identifica<lb ed="#P" n="2" break="no"/>ri cum subiecto: eat ad Thomistas.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e733">
+      ⁋ Ad alia 
+              argu<lb ed="#P" n="3" break="no"/>menta non respondeo: quia vel procedunt de continentia 
+              rea<lb ed="#P" n="4" break="no"/>li: vel si de continentia in esse cognito / procedunt de 
+              conti<lb ed="#P" n="5" break="no"/>nentia totali. Et quia argumenta arguentum ad hoc ten 
+              <lb ed="#P" n="6"/>dunt: non est opus responsione
+            </p>
+            <p xml:id="jm12w4-e98196-d1e744">
+      ⁋ Alia est positio 
+              opi<lb ed="#P" n="7" break="no"/>nione mea solum verbaliter / vt plerumque fit / a priore 
+              dif<lb ed="#P" n="8" break="no"/>ferens: cuius dicta <name xml:id="jm12w4-e98196-Nd1e750" ref="#Scotus">doctor subtilis</name> admitteret. 
+              Sum<lb ed="#P" n="9" break="no"/>ma positionis est hec. quod logica non est vna aliquo mo 
+              <lb ed="#P" n="10"/>do dicto: nec est vna vnitate subiecti: quia sic omnes 
+              <lb ed="#P" n="11"/>cientie in eadem anima essent vna: sed oportet vide  
+              <lb ed="#P" n="12"/>re subiectum attributionis in illa scientia: hoc est 
+              prin<lb ed="#P" n="13" break="no"/>cipale consideratum in illa: et scientie ordiate immediate ad  
+              <lb ed="#P" n="14"/>hoc constituunt vnam scientiam. Analogia est de variis ho 
+              <lb ed="#P" n="15"/>minibus in eodem exercitu sub eodem imperatore ad 
+              eun<lb ed="#P" n="16" break="no"/>dem finem tendentibus qui faciunt vnum exercitum: 
+              <lb ed="#P" n="17"/>esto pius distent localiter quam exercitus oppositi. vt in 
+              <lb ed="#P" n="18"/>logica praedicabilia ordinantur propter intelligentiam 
+              <lb ed="#P" n="19"/>praedicamentorum: et simplicium apprehensio 
+              praedicamen<lb ed="#P" n="20" break="no"/>talis ordinatur propter compositionem et diuisionem 
+              <lb ed="#P" n="21"/>enunciationum: et ille propter argumentationem: ita vi 
+              <lb ed="#P" n="22"/>argumentatio praedicetur de contentis in logica in 
+              re<lb ed="#P" n="23" break="no"/>cto: vt de speciebus eius: et de partibus specierum in obl 
+              <lb ed="#P" n="24"/>quo: vt praedicamenta fiunt propter argumentationem. 
+              <lb ed="#P" n="25"/>praedicabilia autem habent suum subiectum 
+              attributio<lb ed="#P" n="26" break="no"/>nis distinctum a subiecto attributionis praedicamento 
+              <lb ed="#P" n="27"/>rum: et sic libri partiales distincta habent subiecta 
+              attri<lb ed="#P" n="28" break="no"/>butionis: sed omnia illa tendunt in subiectum 
+              preci<lb ed="#P" n="29" break="no"/>puum libri totalis: perinde ac decani / centuriones / et 
+              <lb ed="#P" n="30"/>similes in paruis classibus presidentes ad 
+              intentio<lb ed="#P" n="31" break="no"/>nem imperatoris obtutum iactat. Subiectum autem 
+              conclusio<lb ed="#P" n="32" break="no"/>nis precipue demonstrabilis in illa scientia est subiectum 
+              <lb ed="#P" n="33"/>attributionis illius. Potissima conclusio 
+              demonstrabi<lb ed="#P" n="34" break="no"/>lis in praedicabilibus est hec. omne vniuersale est 
+              pre<lb ed="#P" n="35" break="no"/>dicabile: cuius praedicatum demonstratur de subiecto 
+              <lb ed="#P" n="36"/>per definitionem subiecti. non enim est sermo de 
+              indiui<lb ed="#P" n="37" break="no"/>duo in praedicabilibus nisi ad intelligentiam vniuersalis 
+              <lb ed="#P" n="38"/>cum oppositorum eadem sit disciplina. sicut est serme 
+              <lb ed="#P" n="39"/>de elencho sophistico in elenchis pro vera cognitione 
+              <lb ed="#P" n="40"/>elenchi habenda. Quo fit: vt tot sint subiecta attribu 
+              <lb ed="#P" n="41"/>tionis partialia quot sunt scientie partiales. sed inter 
+              <lb ed="#P" n="42"/>illa est ordo attributionis. Erammatica autem licet 
+              pre<lb ed="#P" n="43" break="no"/>quiratur ad bene esse logice: tamen non fit propter 
+              ar<lb ed="#P" n="44" break="no"/>gumentationem vltimate: sed solum propter sermonem 
+              <lb ed="#P" n="45"/>congruum: et ille est finis propinquus eius. Et licet due 
+              <lb ed="#P" n="46"/>scientie partiales quarum vna est logica et alia grammati 
+              <lb ed="#P" n="47"/>ca pius conueniant essentialiter quam due scientie logica. 
+              <lb ed="#P" n="48"/>les inter se: tamen hoc non satis est: cum due secunde 
+              <lb ed="#P" n="49"/>plus tendant ad eundem finem quam due priores. et si due 
+              <lb ed="#P" n="50"/>plus conueniunt: videlicet Quod nomen proprium quod non ita 
+              <lb ed="#P" n="51"/>sit tibi notum. Id prop ium dices: quod non notat vniuoce 
+              <lb ed="#P" n="52"/>res Plures. et terminus singularis praedicatur de vna 
+              <lb ed="#P" n="53"/>solo: quam iste duae: terminus singularis praedicatur de vno 
+              <lb ed="#P" n="54"/>olo: et argumentum in Marbara regulatur per dici de 
+              <lb ed="#P" n="55"/>omni. sicut duo homines in variis exercitibus: vt in ex 
+              <lb ed="#P" n="56"/>ercitu Pompeii et Cesaris / pius conueniunt in colore / 
+              <lb ed="#P" n="57"/>ingua / vel moribus / quam duo de exercitu Pompeii. vterque 
+              <lb ed="#P" n="58"/>enim habuit Romanos: et Pompeius variarum gentium 
+              <lb ed="#P" n="59"/>homines in exercitu habuit: qui omnes tendebant in vnum finem. 
+              <lb ed="#P" n="60"/>Alia est autem ratio quare terminus singularis considera 
+              <lb ed="#P" n="61"/>tur a logico / et alia quaere a grammatico. grammaticus namque 
+              <lb ed="#P" n="62"/>considerat quis terminus dicatur de vno solo: et quis de 
+              plu<lb ed="#P" n="63" break="no"/>ribus propter passiones grammaticales. logicus vo conside 
+              <lb ed="#P" n="64"/>rat secundum subiicibile etpraedicabile. etiam habent alia principia 
+              <lb ed="#P" n="65"/>per quae deducuntur. Alid enim est principium grammaticale aliud 
+              <lb ed="#P" n="66"/>logicale. Sicut solet contingere de physica et geome 
+      <!--48.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 17rb -->
+               <lb ed="#P" n="67"/>tria: quarum vtraque considerat de magnitudinibus: a astro 
+              <lb ed="#P" n="68"/>nomia et physica demonstrant rotunditatem terre. Sed si 
+              <lb ed="#P" n="69"/>eadem conclusio demonstratur per varia principia: varie fiunt 
+              <lb ed="#P" n="70"/>scientie. Idem patet per Auicen. lib. i. sue sufficientie ca. viii. 
+              <lb ed="#P" n="71"/>vbi ostendens quo modo demonstrationes diuersas faciant 
+              <lb ed="#P" n="72"/>astrologus et physicus de rotunditate terre: ait: primus 
+              <lb ed="#P" n="73"/>inducit probationes sumptas ex comparatione oppositio 
+              <lb ed="#P" n="74"/>num / situum / et distantiarum: he autem sicut patet sunt 
+              cosidera<lb ed="#P" n="75" break="no"/>tiones pertinentes ad genus continui inquantum huiusmodi: sul 
+              <lb ed="#P" n="76"/>qua ratione considerat astrologus motus celorum: vt dicit 
+              Con<lb ed="#P" n="77" break="no"/>mentator secundo metaphy commento. xxxv. et subdit 
+              Aui<lb ed="#P" n="78" break="no"/>cemna. Et inuenimus quod secundus inducit probationes sumptas 
+              <lb ed="#P" n="79"/>ab eo quod debet natura corpis naturalis: vnde est na 
+              <lb ed="#P" n="80"/>turale. et sic patet quod terra non intrat considerationem 
+              vtri<lb ed="#P" n="81" break="no"/>usque sub vna ratione: sub alia atque alia: et per hoc et 
+              <lb ed="#P" n="82"/>ipse ex aliis et aliis demonstrant principiis.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e922">
+               <lb ed="#P" n="83"/>Ubitatur finaliter quod sit subiectum 
+              theolo<lb ed="#P" n="84" break="no"/>gie. Respondetur. de subiecto attributonis creber 
+              <lb ed="#P" n="85"/>rime pullulant positiones: et causa est: quia ad  
+              <lb ed="#P" n="86"/>nullam partem possunt haberi rationes 
+              vehemen<lb ed="#P" n="87" break="no"/>tes. quaere in talibus curiose insist ere imprudentis est. assumptum 
+              <lb ed="#P" n="88"/>patet: quia aliqui ponunt subiectum logice modum sciendi: aliqui 
+              <lb ed="#P" n="89"/>ens rationis: aliqui argumentationem: aliqui potissimam eius 
+              spe<lb ed="#P" n="90" break="no"/>ciem scilicet syllogismum: dicentes alias spes eius spectare ad  
+              <lb ed="#P" n="91"/>alias scientias. sic de subiecto physice. Silier in 
+              proposi<lb ed="#P" n="92" break="no"/>to aliqui ponunt deum sub ratione deitatis subiectu 
+              theolo<lb ed="#P" n="93" break="no"/>gie / alii Christum / alii deum sub ratione redemptoris / alii 
+              <lb ed="#P" n="94"/>deum sub ratione glorificatoris. loqmur autem de subiecto 
+              <lb ed="#P" n="95"/>attributionis totali. quia palam est tot esse subiecta attribu 
+              <lb ed="#P" n="96"/>tionis partialia quot sunt assensus theologici partiales 
+              <lb ed="#P" n="97"/>t secundum hoc alicuius theologie patur est subiectum: vt pater 
+              <lb ed="#P" n="98"/>generat filium: alicuius creatura est subiectum.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e959">
+      ⁋ Sed responde 
+              <lb ed="#P" n="99"/>tur ad dubitationem quod deus inquantum deus est subiectum 
+              <lb ed="#P" n="100"/>heologie. probatur sic Ilud est primum totalis theologie 
+              <lb ed="#P" n="101"/>ubiectu ad quod cetera subiecta theologica habet per 
+              <lb ed="#P" n="102"/>se analogiam et ordinem: sed deus est huismodi. igitur cosequenta patet cum 
+              <lb ed="#P" n="103"/>maiore. et minor probatur sic. quaecumque intrant considerationem 
+              <lb ed="#P" n="104"/>theologicam / vel cosiderantur inquantum effectus dei 
+              ma<lb ed="#P" n="105" break="no"/>nifestantes eius potentiam / iustitiam / vel misericordiam / et 
+              pro<lb ed="#P" n="106" break="no"/>uidentiam / vel inquantum praecepta dei et documenta manife 
+              <lb ed="#P" n="107"/>stantia eius voluntatem. hoc patet per <name xml:id="jm12w4-e98196-Nd1e980" ref="#Augustine">Augustinum.</name> ii. de ciuita 
+              <lb ed="#P" n="108"/>te dei. cap. penult. dicentem quod in sacra scriptura aut dei 
+              <lb ed="#P" n="109"/>raecepta insinuantur: aut mirabilia narrantur / aut dona 
+              <lb ed="#P" n="110"/>laudantur / aut bnficia postulantur: per hoc insinuans quod ni 
+              <lb ed="#P" n="111"/>bil in theologia continetur nisi inquantum reducitur seum analo 
+              <lb ed="#P" n="112"/>ratur aliquo modo ad deum. Quod non sub rtoe concta puta sub 
+              <lb ed="#P" n="113"/>itione redemptoris / aut glorificatoris. patet: quia ille rationes 
+              <lb ed="#P" n="114"/>sunt magis praedicati quam subiecti. iste enim sunt propositiones 
+              <lb ed="#P" n="115"/>theologice: deus est redemptor / deus est glificator / et 
+              or<lb ed="#P" n="116" break="no"/>dinate citius quam econuerso: sicut praedicatio indirecta in 
+              <lb ed="#P" n="117"/>raedicabilibus non reputatur praedicatio. Item multa consideram 
+              <lb ed="#P" n="118"/>tur in theologia que non habent attributionem ad 
+              reden<lb ed="#P" n="119" break="no"/>ptionem / vel ad glorificationem. vt deus est trinus et vnus: 
+              <lb ed="#P" n="120"/>ad neutrum anologatur.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e1012">
+      ⁋ Sed contra istud arguitur. si 
+              <lb ed="#P" n="121"/>deus inquantum deus esset subiectum theologie nostre / deus esset 
+              <lb ed="#P" n="122"/>comphensibilis per theologiam nostram actu habitam vel 
+              pos<lb ed="#P" n="123" break="no"/>sibilem haberi. consequens est falum: quia nullis creatis notitiis vel 
+              <lb ed="#P" n="124"/>creabilibus deus comprehendi potest: alioquin non veraciter 
+              in<lb ed="#P" n="125" break="no"/>comprehensibilis credetur. consequentia probatur: quia ad omnem habitum 
+              <lb ed="#P" n="126"/>habentem aliquod subiectum sub aliqua ratione absolute 
+              spe<lb ed="#P" n="127" break="no"/>ctat considerare quecumque illi conueniunt secundum illam rationem. ex 
+              <lb ed="#P" n="128"/>hoc enim Philosophus in proemio. iii. physi. probat quod ad  
+              <lb ed="#P" n="129"/>physicum spectat considerare de continuo: infinito: et 
+              fi<lb ed="#P" n="130" break="no"/>nito: loco: et tempore: quia ea conueniunt corpori secundum quod 
+              mobi<lb ed="#P" n="131" break="no"/>le est. Et hoc etiam probat. iiii. metaphysice quod ad 
+              meta<lb ed="#P" n="132" break="no"/>physicum spectat considerare de vno / et multo / eodem / 
+      <!--49.xml-->
+      <pb ed="#P" n="17-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ct diuerso / priori et posteriori: quia ipsa conueniunt enti 
+              <lb ed="#P" n="2"/>secundum quod ens: quod est metaphysice per se primum 
+              subie<lb ed="#P" n="3" break="no"/>ctum. Probatur etiam ratione: quia non est ratio 
+              qua<lb ed="#P" n="4" break="no"/>re potius habeat considerare aliqua eorum que per se 
+              <lb ed="#P" n="5"/>competunt subiecto sub ratione qua eius subiectum 
+              <lb ed="#P" n="6"/>est / quam alia.
+            </p>
+            <p xml:id="jm12w4-e98196-d1e1060">
+      ⁋ Respondetur negando consequentiam: quia 
+              <lb ed="#P" n="7"/>illud proprie comprehenditur ab aliquo quando est tanta 
+              <lb ed="#P" n="8"/>perfectio in actu cognoscendi / quanta est in obiecto 
+              co<lb ed="#P" n="9" break="no"/>gnito: quando est notitia rei sub omnibus praedicatis praedicabi 
+              <lb ed="#P" n="10"/>libus de re illa. Si accipiatur comprehensio pro cogni 
+              <lb ed="#P" n="11"/>tione: sic conceditur sequela. et conceditur quod ad theologum 
+              <lb ed="#P" n="12"/>spectat considerare secundum eius possibilitatem de omni 
+              <lb ed="#P" n="13"/>quod conuenit subiecto secundum illam considerationem. 
+              <lb ed="#P" n="14"/>sicut Philosophus probat: quod ad physicum spectat 
+              con<lb ed="#P" n="15" break="no"/>siderare de continuo / infinito / et motu. modo adhuc 
+              <lb ed="#P" n="16"/>sunt multa que considerare potest Philosophus. Ad 
+              <lb ed="#P" n="17"/>aliud negatur quod non sit maior ratio: quia per theolo 
+              <lb ed="#P" n="18"/>giam consideramus que nobis sunt reuelata et dedu 
+              <lb ed="#P" n="19"/>cibilia ab eis. in philosophia vero philosophantes 
+              com<lb ed="#P" n="20" break="no"/>siderarunt que eis in lumine naturali occurrebant. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="19-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e12176"> <!--l1d1q3 -->
+            <head xml:id="jm12w4-e12176-Hd1e106">Quaestio 3</head>
+            <head xml:id="jm12w4-e12176-Hd1e109" type="question-title">An plures actus possint esse in voluntate</head>
+            <p xml:id="jm12w4-e12176-d1e112">
+               <lb ed="#P" n="22"/>⁋ Distinctionis prime questio tertia. 
+              <lb ed="#P" n="23"/>CIrca hanc distinctionem primam tertio 
+              <lb ed="#P" n="24"/>iritur. An plures actus possint esse in 
+              <lb ed="#P" n="25"/>voluntate. Et mouetur quaestio protur 
+              quen<lb ed="#P" n="26" break="no"/>dam tenentem partem negatiua 
+              quaestio<lb ed="#P" n="27" break="no"/>nis. Et si sic: voluntas non potest 
+              habe<lb ed="#P" n="28" break="no"/>sre vsum et fruitionem distincta.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e130">
+      ⁋ Re 
+              <lb ed="#P" n="29"/>pondetur affirmatiue ad quaestionem. probatur sic. no 
+              <lb ed="#P" n="30"/>notitia intuitiua et iudicium affirmatiuum vel 
+              negati<lb ed="#P" n="31" break="no"/>uum quod est effectus notitie intuitiue sunt simul in 
+              in<lb ed="#P" n="32" break="no"/>tellectum. similiter actus directus et reflexus: notitia 
+              sensi<lb ed="#P" n="33" break="no"/>sitiua / et intellectiua: similiter due notitie intuitiue 
+              <lb ed="#P" n="34"/>distincte albedinis et nigredinis vt experimur. 
+              Si<lb ed="#P" n="35" break="no"/>militer in angelis est notitia rerum in verbo: et non 
+              <lb ed="#P" n="36"/>titia earum in proprio genere secundum <ref xml:id="jm12w4-e12176-Rd1e149">
+                  <name xml:id="jm12w4-e12176-Nd1e151" ref="#Augustine">Augustinum.</name> ii et iiii. 
+              <lb ed="#P" n="37"/>super genesim</ref>. ergo voluntas potest habere plures actus 
+              <lb ed="#P" n="38"/>voluntatis: quia non minoris potetie est voluntas ad  
+              <lb ed="#P" n="39"/>suos actus quam intellectus in suos.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e163">
+      Preterea 
+              inte<lb ed="#P" n="40" break="no"/>dum aliquis odit malum perpetratum. Amplius sequitur 
+              <lb ed="#P" n="41"/>quod nemo potest mentiri. patet: quia mentiens habet 
+              dis<lb ed="#P" n="42" break="no"/>sensum in mente illius quam profert: et habet mentalem vlti 
+              <lb ed="#P" n="43"/>matam illius vocalis quam dicit. Sed dicis. si quis di 
+              <lb ed="#P" n="44"/>cat papam dormire / dubius in mente: hoc est nullum 
+              <lb ed="#P" n="45"/>assensum habens: is mentitur: et sic non habetur 
+              iu<lb ed="#P" n="46" break="no"/>dicium in oppositum. hoc non euitat propositum: bene 
+              <lb ed="#P" n="47"/>volo quod mentiatur. sed interdum experimur nos proferre 
+              <lb ed="#P" n="48"/>aliquid exterius: cum tamen dissentimus actu in mente. Ulti 
+              <lb ed="#P" n="49"/>mo arguitur. si sortes proferret coram me terminum 
+              <lb ed="#P" n="50"/>asinus: et simul tempore plato terminum homo: velformo 
+              <lb ed="#P" n="51"/>vnum conceptum solum (supposito quod equaliter aduen 
+              <lb ed="#P" n="52"/>tam vel duos vel nullu. Tertium est contra expe 
+              <lb ed="#P" n="53"/>rientiam: et nescis dare causam primi: dandum est ergo 
+              <lb ed="#P" n="54"/>secundum. idem fit in primo argumento: nam quando video ni 
+              <lb ed="#P" n="55"/>gredinem prope albedinem: vtrumque illorum obiectorum 
+              <lb ed="#P" n="56"/>causat notitiam distinctam sui vt experimur. Sed 
+              di<lb ed="#P" n="57" break="no"/>cis. haec ratio est sophistica: quod patet ponendo 
+              centu<lb ed="#P" n="58" break="no"/>terminos simul prolatos: petendo cuius termini con 
+              <lb ed="#P" n="59"/>ceptum formet iste audiens. Sed non est simile propter 
+              <lb ed="#P" n="60"/>statum: quia formo conceptum terminorum ad quos magis 
+              <lb ed="#P" n="61"/>aduerto. si autem ponas me equaliter aduertentem 
+              cir<lb ed="#P" n="62" break="no"/>ca omnes: tunc non apparet ratio quare notitiam vnius 
+              ter<lb ed="#P" n="63" break="no"/>mini formo. Roones vo aduersarii probant quod auditio 
+              <lb ed="#P" n="64"/>visio e tactio non praesent esse simul: vel ille sensationes 
+              <lb ed="#P" n="65"/>anime inherent tanquam suo subiecto: et tunc palam estquod 
+      <!--53.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 19vb -->
+               <lb ed="#P" n="66"/>sunt in eodem subiecto. Et si ponatur quod subiectis 
+              <lb ed="#P" n="67"/>corporeis inhereant: causabuntur notitie in intellectu 
+              <lb ed="#P" n="68"/>eorum que sunt in sensu.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e235">
+      ⁋ Contra hanc conclusionem ar 
+              <lb ed="#P" n="69"/>guitur sic. si duo actus possunt esse in anima: quattuor et 
+              <lb ed="#P" n="70"/>inque et infiniti praesent: quemadmodum <name xml:id="jm12w4-e12176-Nd1e241" ref="#Aristotle">Aristoteles</name> arguit 
+              <lb ed="#P" n="71"/>iiii. physicorum secundi tractatus. capite primo. Si duo 
+              <lb ed="#P" n="72"/>corpora praesent esse in eodem loco: tria possunt esse in 
+              <lb ed="#P" n="73"/>eodem loco / et infinita.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e252">
+      ⁋ Confirmatur. quia 
+              seque<lb ed="#P" n="74" break="no"/>retur quod attentio intellectus circa vnum obiectum non 
+              <lb ed="#P" n="75"/>impediret attentionem circa aliud. consequens est contra 
+              ex<lb ed="#P" n="76" break="no"/>perientiam: quia pluribus intentus minor est ad singula 
+              <lb ed="#P" n="77"/>sensus.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e263">
+      ⁋ Ad primum re spondetur negando consequentiam: nec 
+              <lb ed="#P" n="78"/>est simile de corporibus. sed sic debet capi similitu 
+              <lb ed="#P" n="79"/>do. sicut vnum corpus replet vnum locum sic quod nullum 
+              <lb ed="#P" n="80"/>aliud corpus secum compatitur naturaliter: hoc est 
+              <lb ed="#P" n="81"/>quando tota capacitas loci repletur: sic si tota capacitas 
+              <lb ed="#P" n="82"/>actiua anime repleatur in multitudine actuum / non potest 
+              <lb ed="#P" n="83"/>plus habere.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e279">
+      ⁋ Ad confirmationem nego consequem 
+              <lb ed="#P" n="84"/>tiam. sed illa non prouenit ex repugnantia actuum duo 
+              <lb ed="#P" n="85"/>rum vel trium: sed solum prouenit ex hoc: quando potentia mul 
+              <lb ed="#P" n="86"/>tum occupatur circa vnum obiectum / parum aliud 
+              con<lb ed="#P" n="87" break="no"/>siderat. Sed dices. intellectus potest hatre infinitos se 
+              <lb ed="#P" n="88"/>paratos non constituentes vnum. patet: quia est ita facile 
+              <lb ed="#P" n="89"/>abere plures paruos actus quam haere tres: quorum 
+              <lb ed="#P" n="90"/>libet habet centies mille partes.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e297">
+      ⁋ Respondetur. hoc 
+              <lb ed="#P" n="91"/>argumentum militat contra factorem: si velit ponere 
+              <lb ed="#P" n="92"/>intensionem fieri per additionem partis ad partem. 
+              <lb ed="#P" n="93"/>nam cum vnus actus vt quatuor habet centies mille par 
+              <lb ed="#P" n="94"/>tes equales non communicantes: intellectus distra 
+              <lb ed="#P" n="95"/>ditur circa varia obiecta: et sic non potest habere tot 
+              <lb ed="#P" n="96"/>aruos actus circa varia obiecta quot habet circa 
+              <lb ed="#P" n="97"/>idem obiectum.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e316">
+      ⁋ Secundo arguitur. quando species 
+              super<lb ed="#P" n="98" break="no"/>me alicuius generis contrariantur formaliter: oes 
+              <lb ed="#P" n="99"/>species mediate sunt incompossibiles. patet de al 
+              <lb ed="#P" n="100"/>dedine et nigredine et de speciebus mediis. sed scia 
+              <lb ed="#P" n="101"/>et error contrariantur: ergo omnes species intensionum qua 
+              <lb ed="#P" n="102"/>sunt media inter ista / sunt naturaliter 
+              incompossi<lb ed="#P" n="103" break="no"/>biles.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e332">
+      ⁋ Confirinatur. secundum <name xml:id="jm12w4-e12176-Nd1e334" ref="#Aristotle">Aristotelem</name>. ii. topico 
+              <lb ed="#P" n="104"/>rum contingit plura scire: intelligere veronon.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e340">
+      ⁋ Ad  
+              <lb ed="#P" n="105"/>primum dicitur: quod hoc argumentum probaret contra fa 
+              <lb ed="#P" n="106"/>ctorem incompossibilitatem habituum. Habitus enim 
+              er<lb ed="#P" n="107" break="no"/>roneus et scientificus circa idem obiectum contrariam 
+              <lb ed="#P" n="108"/>tur secundum communem modum
+            </p>
+            <p xml:id="jm12w4-e12176-d1e351">
+      ⁋ Ad confirmationem 
+              <lb ed="#P" n="109"/>dicitur quod <name xml:id="jm12w4-e12176-Nd1e355" ref="#Aristotle">Aristoteles</name> per scire intelligit habitualiter: et 
+              <lb ed="#P" n="110"/>per intelligere notitiam actualem. modo actualis no 
+              <lb ed="#P" n="111"/>titia non ad tot extenditur quot habitualis. probat ei 
+              <lb ed="#P" n="112"/>ibi quod intelligere non est genus ad scire: cum 
+              mul<lb ed="#P" n="113" break="no"/>tiplicatis indiuiduis speciei multiplicentur respondem 
+              <lb ed="#P" n="114"/>ter indiuidua generis: vt plures homines sunt plura 
+              <lb ed="#P" n="115"/>animalia. modo dicit quod contingit plura scire: idest habitus 
+              <lb ed="#P" n="116"/>scientificos distinctos habere: sed stat quod non heat 
+              <lb ed="#P" n="117"/>duas intellectiones immo nec vnam. vel sic: contingit 
+              <lb ed="#P" n="118"/>plura scire. i. scientia est respectu complexi quod ex mu 
+              <lb ed="#P" n="119"/>tis componitur. intellectio vero est circa non plura 
+              <lb ed="#P" n="120"/>quia est tamcirca complexa quam incomplexa.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e383">
+      ⁋ Tertio 
+              <lb ed="#P" n="121"/>arguitur. Tunc per te sortes videt album et nigrum 
+              <lb ed="#P" n="122"/>simul et semel Et vltra: sortes videt nigrum: ergo 
+              <lb ed="#P" n="123"/>videt nihil quod est album. Et vltra: ergo nihil quod 
+              <lb ed="#P" n="124"/>est album videtur a sorte.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e394">
+      ⁋ Et confirmatur probando 
+              <lb ed="#P" n="125"/>quod si posset habere duas notitias posset habere infi 
+              <lb ed="#P" n="126"/>nitas. probatur sic. si iutellectus posset hatre duas 
+              pos<lb ed="#P" n="127" break="no"/>set hatre directam cum reflexa: et hic habebit infini 
+              <lb ed="#P" n="128"/>tas. probatur. sit a notitia albedinis: iam per te intellectus 
+              <lb ed="#P" n="129"/>potest habere bene notitiam reflexam de a. Quod 
+              pate<lb ed="#P" n="130" break="no"/>qui vnus angelus potest hatere notitiam intuitiuam de a. obiecto. 
+      <!--54.xml-->
+      <pb ed="#P" n="20-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ergo angelus habens notitiam potest habere notitiam refle 
+              <lb ed="#P" n="2"/>xam de a. quia qualemcumque notitiam potest habere vnus ango 
+              <lb ed="#P" n="3"/>lus / similem potest habere alius: nisi sit aliquid repugnans 
+              <lb ed="#P" n="4"/>tali cognitioni. modo per te non est repugnantia inter 
+              <lb ed="#P" n="5"/>duos actus intellectus: nec in angelo nec in 
+              homine<lb ed="#P" n="6" break="no"/>ergo habebit infinitas. quod probatur sic: a notitia dire 
+              <lb ed="#P" n="7"/>cta est agens naturale: et obiicitur potentie intellectiue 
+              <lb ed="#P" n="8"/>quae est pasiua. ergo naturaliter causat suam 
+              cognitio<lb ed="#P" n="9" break="no"/>nem scilicet b. Et iterum b. est agens naturale sicut a 
+              <lb ed="#P" n="10"/>ergo naturaliter causat suam cognitionem in intel 
+              <lb ed="#P" n="11"/>lectu sicut albedo exterior: cum sit agens perfectius 
+              <lb ed="#P" n="12"/>et sic sine statu. ergo erit infinita multitudo notitiarum 
+              <lb ed="#P" n="13"/>in intellectu. Sed dices quod notitia directa et 
+              poten<lb ed="#P" n="14" break="no"/>tia intellectiua non sunt cause naturales sufficientes 
+              <lb ed="#P" n="15"/>ad causandum b. effectum. sed voluntas concurrit vi 
+              <lb ed="#P" n="16"/>docet experientia. libere eim conuertimus nos super 
+              <lb ed="#P" n="17"/>cogitationes nostras aduertendo quid cogitemus 
+              <lb ed="#P" n="18"/>et in quo occupetur anima / quando placet: et sicut placet 
+              <lb ed="#P" n="19"/>nobis. Sed contra hoc arguitur. si a notitia directa 
+              <lb ed="#P" n="20"/>esset in a. angelo: sufficeret causare notitiam eius 
+              <lb ed="#P" n="21"/>in b. angelo: et ita bene obiicitur a angelo sicut b. cum 
+              <lb ed="#P" n="22"/>informatio non videatur impedire.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e465">
+      ⁋ Ad tertium con 
+              <lb ed="#P" n="23"/>ceditur quod videt nihil quod est album: hoc est aliqua vi 
+              <lb ed="#P" n="24"/>sione videt aliquid quod nullo modo est album. Et quando 
+              <lb ed="#P" n="25"/>infertur: nihil quod est album videtur a sorte. si capia 
+              <lb ed="#P" n="26"/>tur infinitanter: conceditur. si neganter: illatio est 
+              <lb ed="#P" n="27"/>nulla
+            </p>
+            <p xml:id="jm12w4-e12176-d1e478">
+      ⁋ Ad confirmationem respondetur conceden 
+              <lb ed="#P" n="28"/>do quod notitia reflexa distinguitur a notitia directa. 
+              pro<lb ed="#P" n="29" break="no"/>batur: quia alioqui quandocumque quis haberet notitiam 
+              di<lb ed="#P" n="30" break="no"/>rectam reflecteret se super illam contra experientiam 
+              <lb ed="#P" n="31"/>Item notitia sortis sortem representat: notitia no 
+              <lb ed="#P" n="32"/>titie sortis non repsentat sortem: ergo ille notitie di 
+              <lb ed="#P" n="33"/>stinguuntur. probatur minor: nunc habeo notitiam 
+              <lb ed="#P" n="34"/>patris mei: si autem notitia notitie patris patrem repsen 
+              <lb ed="#P" n="35"/>toret: tunc notitia intuitiua haberetur de re non 
+              exi<lb ed="#P" n="36" break="no"/>stente naturaliter: Insuper notitia intuitiua esset con 
+              <lb ed="#P" n="37"/>munis et transcendens. patet de notitia notitie entis qua 
+              <lb ed="#P" n="38"/>est notitia intuitiua illius conceptus. et si per aduersarium 
+              <lb ed="#P" n="39"/>representat omnia entia: sequitur oppositum. Iste tame 
+              <lb ed="#P" n="40"/>rationes non essent efficaces apud ponentes notitiam 
+              <lb ed="#P" n="41"/>abstractiuam immediate terminatam ad species. 
+              <lb ed="#P" n="42"/>Preterea de notitia propria arguitur. nulla notitia est 
+              <lb ed="#P" n="43"/>similitudo naturalis et proria sui ipsius. patet: quia vel 
+              <lb ed="#P" n="44"/>illa esse intuitiua: et illa causatur ab obiecto: ergo 
+              <lb ed="#P" n="45"/>idem causat se. vel est abstractiua propria: et illa pro 
+              <lb ed="#P" n="46"/>supponit intuitiuam fuisse de eodem obiecto. Sed quia 
+              <lb ed="#P" n="47"/>inter arguendum dictum esse videtur quod requiritur con 
+              <lb ed="#P" n="48"/>cursus voluntatis ad reflexionem: si vna istarum non 
+              <lb ed="#P" n="49"/>titiarum directa vel reflexa poneretur extra subie 
+              <lb ed="#P" n="50"/>ctum vel in alio angelo: conceditur quod tunc 
+              natu<lb ed="#P" n="51" break="no"/>raliter immutaret potentiam angelicam: non tamen opotet 
+              <lb ed="#P" n="52"/>quando informat. hoc enim in nobis docet experientia. 
+              <lb ed="#P" n="53"/>Nec sunt sufficienter praesentes in ratione obiectiua 
+              <lb ed="#P" n="54"/>totali: loquor de totalitate inter causas secundas 
+            </p>
+            <p xml:id="jm12w4-e12176-d1e539">
+               <lb ed="#P" n="55"/>⁋ Sed contra istud arguitur sic. voluntas est impossi 
+              <lb ed="#P" n="56"/>bilium: ergo voluntas potest ad cuiustibet notitie 
+              noti<lb ed="#P" n="57" break="no"/>tiam concurrere. et qlibet notitia est agens naturale: 
+              <lb ed="#P" n="58"/>ergo non euaditur infinitas notitiarum.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e550">
+      ⁋ Respon 
+              <lb ed="#P" n="59"/>detur. voluntas bene vult impossibile: sed ex finitate in 
+              <lb ed="#P" n="60"/>uellectus non potest quaelibet notitia esse distincte com 
+              <lb ed="#P" n="61"/>gnita. nam quando primo habuit notitiam albedinis forte 
+              <lb ed="#P" n="62"/>secundum magnu conatum adueniente notitia refle 
+              <lb ed="#P" n="63"/>xa remittitur directa. Et si habuero notitiam 
+              refle<lb ed="#P" n="64" break="no"/>xam illius reflexe: alie due remittuntur. vel sic. in aliqui 
+              <lb ed="#P" n="65"/>bus certis notitiis reflexis terminatur tota capaci¬ 
+      <!--54.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 20rb -->
+               <lb ed="#P" n="66"/>tas actiua intellectus: ita quod plures non potest hatre eis 
+              <lb ed="#P" n="67"/>stantibus neque directas neque reflexas.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e579">
+      ⁋ Contra 
+              <lb ed="#P" n="68"/>istud argumentaris. a notitia directa erat sex gra 
+              <lb ed="#P" n="69"/>duum: b. erat reflexa illius: remittatur a. iam 
+              variaturobie<lb ed="#P" n="70" break="no"/>ctum: b. ergo non remanebit b. Et ita si remi ttatur 
+              cu<lb ed="#P" n="71" break="no"/>iuscunque notitie obiectum: non manebit illa notitia. 
+            </p>
+            <p xml:id="jm12w4-e12176-d1e590">
+               <lb ed="#P" n="72"/>⁋ Adhuc arguitur sic. sequeretur quod esset aliqua 
+              noti<lb ed="#P" n="73" break="no"/>tia quam intellectus non posset cognoscere. patet 
+              sequa<lb ed="#P" n="74" break="no"/>la de vltima reflexa. Sed forte dices quod corruptis 
+              <lb ed="#P" n="75"/>prioribus reflexis potest illam distincte cognoscere: vt 
+              <lb ed="#P" n="76"/>ait quidam doctor. Contra. posterior semper habet 
+              prio<lb ed="#P" n="77" break="no"/>rem pro obiecto: et posterior est notitia intuitiua: ergo si 
+              <lb ed="#P" n="78"/>potest esse priore corrupta erit notitia intuitiua de 
+              <lb ed="#P" n="79"/>re absente naturaliter: et sic haberem notitiam intui 
+              <lb ed="#P" n="80"/>tiuam de magno Turco: quod est falsum: et contra opi 
+              <lb ed="#P" n="81"/>nantem.
+            </p>
+            <p xml:id="jm12w4-e12176-d1e615">
+      ⁋ Ad primum concedo quod si remittatur 
+              dire<lb ed="#P" n="82" break="no"/>cta reflexa non manet: sed erit alia reflexa 
+              alieta<lb ed="#P" n="83" break="no"/>te numerali
+            </p>
+            <p xml:id="jm12w4-e12176-d1e622">
+      ⁋ Ad secundum dicitur quod posterior non potest 
+              <lb ed="#P" n="84"/>esse sine priore: quia est concatenatio inter se: bene tamen prior 
+              <lb ed="#P" n="85"/>potest esse sine posteriori: sed non contra (naturaliter 
+              lo<lb ed="#P" n="86" break="no"/>quor. . et conceditur quod erit aliqua notitiarum reflexarum 
+              <lb ed="#P" n="87"/>non actualiter cognita propter finitam 
+              capacita<lb ed="#P" n="88" break="no"/>tem actiuam et perceptiuam ipsius intellectus: et hoc cum 
+              <lb ed="#P" n="89"/>concursu dei generali. Sed contra hoc arguitur. sic pos 
+              <lb ed="#P" n="90"/>se producere aliquem effectum cum aliquo auxilio: et du 
+              <lb ed="#P" n="91"/>plum effectum cum duplo auxilio: et triplum cum triplo 
+              <lb ed="#P" n="92"/>non arguit infinitatem potentie. Quod patet: quia sortes 
+              <lb ed="#P" n="93"/>qui est potentie finite / cum vno homine potest portare ma 
+              <lb ed="#P" n="94"/>us pondus quam solitarie: cum duobus homnibus adhuc 
+              ma<lb ed="#P" n="95" break="no"/>ius pondus: et cum infinitis infinitum pondus. sed quodli 
+              <lb ed="#P" n="96"/>bet obiectum adiuuat potentiam ad productionem no 
+              <lb ed="#P" n="97"/>titie intuitiue de ipsomet: et tria obiecta pius 
+              iu<lb ed="#P" n="98" break="no"/>uant quam duo: et obiecta infinita piusquam quaecunque finita 
+              <lb ed="#P" n="99"/>Rstespondetur distiguendo antecedens. vel quando agens non ma 
+              <lb ed="#P" n="100"/>gis conatur in productione plurium effectuum quam 
+              pau<lb ed="#P" n="101" break="no"/>corum: et sic conceditur: vt contingit in latione lignorum 
+              <lb ed="#P" n="102"/>cum alterius ope vel aliorum. Si pius conetur cum 
+              <lb ed="#P" n="103"/>pluribusquam cum paucioribus: hoc negatur: quia stat 
+              <lb ed="#P" n="104"/>quod sortes equalem nisum applicet vel minorem quam infi 
+              <lb ed="#P" n="105"/>niti homines ad tractum ponderis infiniti sicut ad  
+              <lb ed="#P" n="106"/>lationem vnius libre. modo experimur quod non tam 
+              <lb ed="#P" n="107"/>facile est intellectui habere octo notitias 
+              actua<lb ed="#P" n="108" break="no"/>les vt septem. Insuper habere decem actuales 
+              no<lb ed="#P" n="109" break="no"/>titias distinctas cum concursu. x. obiectorum 
+              argui<lb ed="#P" n="110" break="no"/>aliqualem perfectionem in intellectu: et habere. xx. 
+              <lb ed="#P" n="111"/>cum. xx. obiectis maiorem: et habere infinitas cum 
+              <lb ed="#P" n="112"/>oncursu infinitorum obiectorum infinitam perfectionem 
+              <lb ed="#P" n="113"/>Voluntas enim non videtur habere aliquam 
+              causa<lb ed="#P" n="114" break="no"/>itatem in productione notitie simplicis: quae habetur de vna 
+              <lb ed="#P" n="115"/>notitia inquantum voluntas: sed solum applicat 
+              a<lb ed="#P" n="116" break="no"/>ctiua passiuis: et imperat intellectui se conuertere su 
+              <lb ed="#P" n="117"/>per suam intellectionem intelligendam. Sed contra hoc 
+              <lb ed="#P" n="118"/>dices. nihil est volitum nisi cognitum: sed vltima refle 
+              <lb ed="#P" n="119"/>xa non est cognita: ergo voluntas non imperat intelle 
+              <lb ed="#P" n="120"/>ctui se reflectere super vltimam notitiam reflexam 
+              <lb ed="#P" n="121"/>nouam formando notitiam. Sed dices. voluntas 
+              <lb ed="#P" n="122"/>imperat intellectui intelligere vltimam reflexam 
+              <lb ed="#P" n="123"/>cilicet a. sed non per actum elicitum eius: et sic non est ali 
+              <lb ed="#P" n="124"/>quod volitum non cognitum per actum voluntatis. 
+              <lb ed="#P" n="125"/>Sed contra hoc arguitur. voluntas nullam actiuitatem ha 
+              <lb ed="#P" n="126"/>bet respectu alicuius potentie nisi mediante suo actu 
+              <lb ed="#P" n="127"/>elicito. Sed dices. est vna notitia confusa notitiarum dire 
+              <lb ed="#P" n="128"/>ctarum et reflexarum: et non inconuenit aliquid confuse cogni 
+              <lb ed="#P" n="129"/>tum esse volitum in particulari: vt patet de volente scire aliquid 
+              <lb ed="#P" n="130"/>quod eum fugit. Contra hoc argumentor. illa notitia confu 
+      <!--55.xml-->
+      <pb ed="#P" n="20-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sa equalitur respicit omnes actus: et non magis concurrit 
+              <lb ed="#P" n="2"/>cum actu voluntatis ad hoc quod voluntas velit 
+              intelle<lb ed="#P" n="3" break="no"/>ctum producere vnam notitiam quam aliam. sed cum voluntas si 
+              <lb ed="#P" n="4"/>libera: nihil impedimenti est. Dices. vna notitia for 
+              <lb ed="#P" n="5"/>tius mouet quam altera. modo intellectus producit notitiam 
+              <lb ed="#P" n="6"/>reflexam illius. Contra. tunc solum habebit notitiam pri 
+              <lb ed="#P" n="7"/>me notitie directe: quae videtur intensior et etiam perfe 
+              <lb ed="#P" n="8"/>ctior si obiectum eius fuerit substantia. Currere namque 
+              <lb ed="#P" n="9"/>ad influentiam celi: vel ad dispositionem corporis: non 
+              <lb ed="#P" n="10"/>videtur ita rationabile. Et simile contingit de noti 
+              <lb ed="#P" n="11"/>tia abstractiua quae habetir nunc et non alia: 
+              supposi<lb ed="#P" n="12" break="no"/>to quod species equaliter mouent quantum est de se. Ui 
+              <lb ed="#P" n="13"/>detur autem esse hic currendum ad libertatem voluntatis 
+              <lb ed="#P" n="14"/>Quo fit: vt brutum non possit habere notitiam abstra 
+              <lb ed="#P" n="15"/>ctiuam alicuius reicuius habet species aet non alterius: 
+              <lb ed="#P" n="16"/>nisi ille species magis moueant quam alie. Forte potes 
+              <lb ed="#P" n="17"/>dici: quando species equaliter mouent / intellectus non 
+              <lb ed="#P" n="18"/>potest habere vnam notitiam quin alias habeat: si sini 
+              <lb ed="#P" n="19"/>in sphera actiuitatis eius. Si vero transcendant eius 
+              <lb ed="#P" n="20"/>actiuitatem: nullam notitiam habebit: ceteris omnino 
+              <lb ed="#P" n="21"/>paribus. Sed interdum vna species magis 
+              mouet<lb ed="#P" n="22" break="no"/>et est via preuia: vt si quis videat bibliopolam / de 
+              <lb ed="#P" n="23"/>scendit gradatim in notitiam librorum in particu 
+              <lb ed="#P" n="24"/>lari. Vides quicquid in hac parte posuerimus: rem 
+              <lb ed="#P" n="25"/>ipsam caliginosam manere. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

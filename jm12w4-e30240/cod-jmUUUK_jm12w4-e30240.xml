@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="45-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e30240"> <!--l1d11et12q1 -->
+            <head xml:id="jm12w4-e30240-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e30240-Hd1e109" type="question-title">
+      An Spiritus Sanctus procedat a Patre et Filio?
+    </head>
+            <p xml:id="jm12w4-e30240-d1e112">
+      <!--104.xml-->
+               <cb ed="#P" n="b"/>
+               <!-- 45rb -->
+               <lb ed="#P" n="65"/>⁋ hic dicendum est spiritum sanctum a pa 
+              <lb ed="#P" n="66"/>tre esse et filio: et procedere a patre a filio. 
+            </p>
+            <p xml:id="jm12w4-e30240-d1e125">
+               <lb ed="#P" n="67"/>⁋ Distinctionum. xi et. xii. Questio vnica. 
+              <lb ed="#P" n="68"/>Irca hanc distinctionem vndecimam 
+              <lb ed="#P" n="69"/>et sequentem: in quibus <name xml:id="jm12w4-e30240-Nd1e133" ref="#Lombard">Magister</name> 
+              loqui<lb ed="#P" n="70" break="no"/>tur de processione spunssancti: vbi tan 
+              <lb ed="#P" n="71"/>zitur disceptatio inter grecos et 
+              la<lb ed="#P" n="72" break="no"/>tinos. Queritur: an spiritus sanctus 
+              proce<lb ed="#P" n="73" break="no"/>dat a patre a filio.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e147">
+      ⁋ Respondetur affir 
+              <lb ed="#P" n="74"/>natiue. probatio. omis conclusio ex contentis in 
+              sa<lb ed="#P" n="75" break="no"/>cra scriptura per se deducta est simpliciter vera: 
+              <lb ed="#P" n="76"/>et vt articutus fidei tenenda: hec est huiusmodi. igi 
+              <lb ed="#P" n="77"/>tur. maior est manifesta. minor est beati Augusti. 
+              <lb ed="#P" n="78"/>ni. xv. de trinitate. ca. xvii. vbi dicit expresse: quod de 
+              <lb ed="#P" n="79"/>filio spunssanctus procedere reperitur. et ca. xxvii. dicit 
+              <lb ed="#P" n="80"/>difficillimum est generationem a processione distinguere: 
+              <lb ed="#P" n="81"/>sufficiat interim eis qui extendi non amplius valent 
+              <lb ed="#P" n="82"/>id quod de hac re in sermone quodam proferendo ad 
+              au<lb ed="#P" n="83" break="no"/>res populi diximus / dictumque conscripsimus. et subdit 
+              <lb ed="#P" n="84"/>ad propositum immediate. inter cetera enim per 
+              san<lb ed="#P" n="85" break="no"/>ctarum scripturarum testimonia docui de vtroque 
+              pro<lb ed="#P" n="86" break="no"/>cedere sposritum sanctum. et libro. iiii. ca. liii. hoc deducit 
+              <lb ed="#P" n="87"/>per auctoritatem sacre scripture dicens. nec 
+              possu<lb ed="#P" n="88" break="no"/>mus dicere quod spunssanctus a filio non procedat. non 
+              <lb ed="#P" n="89"/>enim frustra et patris et filii speus diceretur. nec video 
+              <lb ed="#P" n="90"/>quid aliud voluit significare filius: cum sufflans ait 
+              <lb ed="#P" n="91"/>accipite spositum sanctum. neque eim siatus ille corporeus 
+              <lb ed="#P" n="92"/>cum sensu corporaliter tangendi procedens ex corpo 
+              <lb ed="#P" n="93"/>re substantia spunssancti fuit: sed demonstratio per 
+              <lb ed="#P" n="94"/>congruam significationem non tantu a patre: sed este s 
+              <lb ed="#P" n="95"/>i filio procedere spoasintum sanctum. Et subdit. quid ergo ait 
+              <lb ed="#P" n="96"/>domens quem ego mittam vobis a patre: ostendit sprimscteitnl 
+              <lb ed="#P" n="97"/>et patris et filii: quia etiam cum dixisset quem uttet addidit 
+              <lb ed="#P" n="98"/>in nonie meo. Et quia forte diceret aliquis si filius 
+              di<lb ed="#P" n="99" break="no"/>xisset: quem mittet pater a me: sicut dixit quem ego 
+              <lb ed="#P" n="100"/>mittam vobis a patre: vlicemt ostenderet quod totius diuinita 
+              <lb ed="#P" n="101"/>tis: vel (si melius dieibter totius deitatis pater est 
+              pri<lb ed="#P" n="102" break="no"/>cipium.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e212">
+      ⁋ Istas rationes facit ibidem <name xml:id="jm12w4-e30240-Nd1e214" ref="#Augustine">Augustinus.</name> libro 
+              <lb ed="#P" n="103"/>xv. ca. xxvi. Patet igitur ex intentione <name xml:id="jm12w4-e30240-Nd1e219" ref="#Augustine">Augustini</name> quod 
+              <lb ed="#P" n="104"/>sporitumsanctantum procedere a filio potest ex contentis in sacra 
+              <lb ed="#P" n="105"/>scriptura per se deduci. Testimonium efficax huius 
+              <lb ed="#P" n="106"/>conclusionis colligitur ex Concilio Lugdunensi sub 
+              <lb ed="#P" n="107"/>Eregorio. x. de summa trinitate et fide catholica. 
+              <lb ed="#P" n="108"/>lib. vi ca. fideli. Fideli ac deuota professione 
+              fate<lb ed="#P" n="109" break="no"/>nur quod spunssanctus eternaliter ex pare et filio: non tanquam 
+              <lb ed="#P" n="110"/>ex duobus principuis: sed tanquam ex vno principio: noni 
+              <lb ed="#P" n="111"/>duabus spirationibus: sed vnica spiratione procedit. 
+              <lb ed="#P" n="112"/>hoc professa est hactenus / praedicauit / et docuit / hoc 
+              <lb ed="#P" n="113"/>firmitur tenet / praedicat / profitetur / et docet sacroscta Ro 
+              <lb ed="#P" n="114"/>mana ecclia: mitr omnim fidelium: et magistra. hoc habet or 
+              <lb ed="#P" n="115"/>thodoxorum patrum /atque doctorum latinorum paritur et 
+              gre<lb ed="#P" n="116" break="no"/>corum / incommutabilis et vetra snia. Sed quia non nulli 
+              pro<lb ed="#P" n="117" break="no"/>pter irrefragabilis primisse veritatis ignorantiam in et 
+              <lb ed="#P" n="118"/>rores varios sunt prolapsi: nos igitur huiusmodi erroribus 
+              <lb ed="#P" n="119"/>viam praecludere cupientes: hoc sacro appobante Con 
+              <lb ed="#P" n="120"/>cilio damnamus atque reprobamus omnes qui negare 
+              pre<lb ed="#P" n="121" break="no"/>sumpserint eternaliter sporsitum sanctantum procedere ex patre et 
+              <lb ed="#P" n="122"/>filio: siue etiam temerario ausu asserere quod spunssctuns 
+              <lb ed="#P" n="123"/>ex patre et filio tanquam ex duobus prencipiis et non tanquam 
+              <lb ed="#P" n="124"/>ex vno procedat.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e269">
+      ⁋ Contra hanc conclusionem arguitur 
+              <lb ed="#P" n="125"/>sic. si ita esset sicut ipsa asserit ipsa esset articulus fidei 
+              <lb ed="#P" n="126"/>et per consequens greci tenentes oppositum sunt heretici et 
+              dan<lb ed="#P" n="127" break="no"/>nandi. hoc est inconueniens asserere de tot celebribus vi 
+              <lb ed="#P" n="128"/>ris. Unde <name xml:id="jm12w4-e30240-Nd1e279" ref="#JohnDamascenus">Damasce</name>. lib primo. ca. x. sic dicit. vnus speiuns 
+      <!--105.xml-->
+      <pb ed="#P" n="45-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sanctus prodiens quidem ex patre non filiater: sed 
+              pro<lb ed="#P" n="2" break="no"/>cessibiliter. et paulopost circa finem capituli sequitur. 
+              <lb ed="#P" n="3"/>nosse autem oportet nos non dicere patrem ex aliquo: 
+              <lb ed="#P" n="4"/>sed ipsum filii patrem. filium autem non dicimus sine 
+              <lb ed="#P" n="5"/>causa: neque patrem. dicimus autem ipsum esse a patre: et 
+              <lb ed="#P" n="6"/>filium patris. spiunm vero sanctum ex patre a spiritum 
+              <lb ed="#P" n="7"/>patris noinamus. ex filio autem spiunm sanctum non 
+              dici<lb ed="#P" n="8" break="no"/>mus: sed spiun um filii nominamus.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e307">
+      ⁋ Item in symbo 
+              <lb ed="#P" n="9"/>lo Constantinopolitane synodi sic legitur. credimur 
+              <lb ed="#P" n="10"/>in spoarentum sanctum dominim et viuificantem ex patre procedem 
+              <lb ed="#P" n="11"/>tem: cum patre a filio adorandum et glorificandum. Et 
+              <lb ed="#P" n="12"/>in symbolo quod cantatur in missa: quod fuit editur 
+              <lb ed="#P" n="13"/>in Niceno concilio: non continetur quod spiritus sanctus 
+              <lb ed="#P" n="14"/>procedit a filio.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e323">
+      ⁋ Respondetur negando consequemn 
+              <lb ed="#P" n="15"/>tiam: maxime de his qui precesserunt expressam 
+              de<lb ed="#P" n="16" break="no"/>terminationem ecclesie. licuit enim interdum aliquis 
+              <lb ed="#P" n="17"/>opinatiue tenere. et tamen post determinationem ec 
+              <lb ed="#P" n="18"/>clesie non licet: si sit sermo de posterioribus qui secu 
+              <lb ed="#P" n="19"/>ti sunt determinationem ecclesie: non habetur 
+              con<lb ed="#P" n="20" break="no"/>sequens inconuenies: potissimum de literatis.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e339">
+      ⁋ Ali 
+              <lb ed="#P" n="21"/>ter dicit <name xml:id="jm12w4-e30240-Nd1e343" ref="#Lombard">Magister</name> ca. iiii. xi. distinctionis dicens quod 
+              <lb ed="#P" n="22"/>greci et nos solo verbo differimus in sententia 
+              co<lb ed="#P" n="23" break="no"/>uenientes sic inquiens. Sciendum est tamen quod 
+              gre<lb ed="#P" n="24" break="no"/>ci spiritusanctum confitentes esse filui sicut et patris 
+              <lb ed="#P" n="25"/>Quare amplius dicit. spiritum filii et veritas in eua 
+              <lb ed="#P" n="26"/>gelio sporitum veritatis. sed cum non sit aliud spiritunsan 
+              <lb ed="#P" n="27"/>ctum esse patris et filii quam esse a patre a filio. etian 
+              <lb ed="#P" n="28"/>in hoc in eandem nobiscum fidei sententiam conuenire 
+              <lb ed="#P" n="29"/>videntur: licet in verbis dissentiant. et post in cap. v. 
+              <lb ed="#P" n="30"/>eiusdem distinctionis declarat ex famatissimis 
+              gre<lb ed="#P" n="31" break="no"/>cis quod spiritus sanctus procedit ex patre e filio. Ac 
+              <lb ed="#P" n="32"/>hoc autem Athanasium / Didimum / Cirillum / Ioannem 
+            </p>
+            <p xml:id="jm12w4-e30240-d1e372">
+               <lb ed="#P" n="33"/>⁋ Chrysostomum in medium adducit. Forte isti 
+              anti<lb ed="#P" n="34" break="no"/>qui greci volebant dicere quod spiritus sanctus princi 
+              <lb ed="#P" n="35"/>paliter procedit a patre: ad hunc sensum: quod quicquic 
+              <lb ed="#P" n="36"/>babet filius habet a patre: et cum spiritus sanctus 
+              pro<lb ed="#P" n="37" break="no"/>cedit a filio: hoc ipsum habet filius a patre: et non quia 
+              <lb ed="#P" n="38"/>prius vel magis procedit spiritus sanctus a patre quam 
+              <lb ed="#P" n="39"/>a filio. sic exponit <name xml:id="jm12w4-e30240-Nd1e389" ref="#Lombard">Magister</name> in tertio ca. xii. distin 
+              <lb ed="#P" n="40"/>ctionis.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e395">
+      ⁋ Sed non est verisimile de grecis post de 
+              <lb ed="#P" n="41"/>terminationem ecclesie quod haberent disputationem 
+              <lb ed="#P" n="42"/>vocalem cum latinis: sed potius realem. vt patet si 
+              <lb ed="#P" n="43"/>
+               <name xml:id="jm12w4-e30240-Nd1e403" ref="#Anselm">Anselmum</name> de processione spiritussancti. cap. iiii. ii 
+              <lb ed="#P" n="44"/>principio capituli: vbi loquens de quibusdam quae prae 
+              <lb ed="#P" n="45"/>miserat in principio. sic inquit. hoc supplere 
+              pri<lb ed="#P" n="46" break="no"/>dicta. pariter credimus indubitanter: et confitemur 
+              <lb ed="#P" n="47"/>et nos qui dicimus spiritumsanctum a filio procedere 
+              <lb ed="#P" n="48"/>et greci qui nobiscum non consentiunt ecclesie. E 
+              <lb ed="#P" n="49"/>istud patet cum interdum protestati sunt se velle ce 
+              <lb ed="#P" n="50"/>pere determinationem matris ecclesie: et illi adhere 
+              <lb ed="#P" n="51"/>re: protinus reuertentes in regionem suam per aliam 
+              <lb ed="#P" n="52"/>viam ad priorem redierunt vomitum.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e427">
+      ⁋ Dubitatur. 
+              <lb ed="#P" n="53"/>vtrum pater a filius sunt vnum principium spirans 
+              <lb ed="#P" n="54"/>spiritumsanctum.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e434">
+      ⁋ Respondetur. quaeuis de ista pa 
+              <lb ed="#P" n="55"/>ter a filius sunt vnus spirator: sint diuerse opinio 
+              <lb ed="#P" n="56"/>nes doctorum: hec tamen pater a filius sunt 
+              vnu<lb ed="#P" n="57" break="no"/>principium spirans: communiter conceditur. Unde Au 
+              <lb ed="#P" n="58"/>gustinus. xv. de trinitate. ca. xiiii. ait. Fatendum es 
+              <lb ed="#P" n="59"/>patrem et filium esse principium spiritussancti: non 
+              <lb ed="#P" n="60"/>duo principia: sed sicut pater a filius vnus sunt deus 
+              <lb ed="#P" n="61"/>et ad creaturam relatiue vnus creator et vnus domins 
+              <lb ed="#P" n="62"/>sic relatiue ad spiritumsanctum vnum principium. In 
+              <lb ed="#P" n="63"/>proposito vtimur termino spiritus sanctus notiona 
+              <lb ed="#P" n="64"/>liter (vt tertie parsone in diuinis conueniat) a non es 
+              <lb ed="#P" n="65"/>sentialiter.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e460">
+      ⁋ Circa veritatem huius propositionis 
+      <!--105.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 45vb -->
+               <lb ed="#P" n="66"/>plurime volitant positiones / aliquibus eam 
+              saluanti<lb ed="#P" n="67" break="no"/>bus de virtute sermonis: aliis eam saluantibus notn 
+              <lb ed="#P" n="68"/>de rigore sermonis. <name xml:id="jm12w4-e30240-Nd1e475" ref="#Aquinas">Beatus enim Thomas</name> currit 
+              <lb ed="#P" n="69"/>ad suppositionem confusam tantum. hoc reprobat 
+              Gre<lb ed="#P" n="70" break="no"/>gorius dicens: quod nullum cadit signum confusiuum su 
+              <lb ed="#P" n="71"/>per terminum principium. Sed hec impugnatio non 
+              <lb ed="#P" n="72"/>est magni ponderis: copulata enim praedicamenti vbi 
+              <lb ed="#P" n="73"/>et quando confundunt confuse tantum terminum communem 
+              <lb ed="#P" n="74"/>sequentem. vt solet dici de hac proositione: Pari 
+              <lb ed="#P" n="75"/>sius et Rome venditur piper. idem communiter 
+              admit<lb ed="#P" n="76" break="no"/>titur de copulatis praedicamenti substantie aut rela 
+              <lb ed="#P" n="77"/>tionis.
+            </p>
+            <p xml:id="jm12w4-e30240-d1e498">
+      ⁋ Sed licet illud sit probabile respectu ter 
+              <lb ed="#P" n="78"/>mini supponentis: questio tamen remanet pro quo 
+              sup<lb ed="#P" n="79" break="no"/>ponat. cui alii non satisfaciunt sufficienter. Relictis 
+              <lb ed="#P" n="80"/>igitur aliorum modis tanquam insufficientibus quos propoter 
+              <lb ed="#P" n="81"/>tedium nolo prosequi: adhereo illi dicto Altisiodo: 
+              <lb ed="#P" n="82"/>rensis in hac parte. vii. cap. sui primi libri. quod vnum 
+              prin<lb ed="#P" n="83" break="no"/>cipium supponit pro patre e filio copulatim: et non 
+              <lb ed="#P" n="84"/>sunt duo principia. sicut pater est deus: filius est 
+              <lb ed="#P" n="85"/>deus. et non sunt plures dii. et terminus principium 
+              <lb ed="#P" n="86"/>supponit determinate: et ly et capitur complexiue. licet 
+              <lb ed="#P" n="87"/>idem Altisiodorensis aliqua dissute ponat in hoc ca 
+              <lb ed="#P" n="88"/>pitulo dicens. quod hec est incongrua: hoc principium est 
+              <lb ed="#P" n="89"/>demonstrando parem et filium. dicit enim quod hec dictio 
+              <lb ed="#P" n="90"/>principium quantum ad formam singularis est. sicut hec 
+              <lb ed="#P" n="91"/>est incongrua iste deus vel aliquis deus est. sed 
+              ca<lb ed="#P" n="92" break="no"/>pimus illud quod verum reputamus: quod supponit 
+              <lb ed="#P" n="93"/>copulatim pro duabus parsonis. et hec singularis est 
+              <lb ed="#P" n="94"/>vera de monstratis patre e filio. hec sunt vnum 
+              <lb ed="#P" n="95"/>principium: et due persone. sicut duo lapides segre 
+              <lb ed="#P" n="96"/>gati sunt vnus binarius et non vnum ens. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

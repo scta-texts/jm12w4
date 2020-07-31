@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="45-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e30671"> <!--l1d13q1 -->
+            <head xml:id="jm12w4-e30671-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e30671-Hd1e109" type="question-title">
+      An processio Spiritus sancti sit generatio?
+    </head>
+            <p xml:id="jm12w4-e30671-d1e112">
+               <lb ed="#P" n="97"/>⁋ Post hec considerandum est quantum a 
+              ta<lb ed="#P" n="98" break="no"/>libus quales nos sumus: intelligi potest. 
+            </p>
+            <p xml:id="jm12w4-e30671-d1e119">
+               <lb ed="#P" n="99"/>⁋ Distinctionis tertiedecime questio vnica. 
+              <lb ed="#P" n="100"/>Veritur circa hanc distinctionem tertiam 
+              <lb ed="#P" n="101"/>decimam. an processio spiritus sancti sit
+              ge<lb ed="#P" n="102" break="no"/>neratio.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e131">
+      ⁋ Questio potest hatre multos 
+              sen<lb ed="#P" n="103" break="no"/>fi sus secundum quod verbalia in io euntia praesent su 
+              <lb ed="#P" n="104"/> mi passiue vel actiue. et adhuc isti 
+              ter<lb ed="#P" n="105" break="no"/>mini praesent capi vniformiter: quarendo an spiratio acti 
+              <lb ed="#P" n="106"/>ua filii sit gnatio actiua: et potissimum respectu filii 
+              <lb ed="#P" n="107"/>et similiter an generatio passiua sit generatio actiua. et de 
+              <lb ed="#P" n="108"/>istis sensibus quaerimus: si enim difformiter termini ca 
+              <lb ed="#P" n="109"/>perentur non esset difficultas.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e149">
+      ⁋ Respondetur per 
+              con<lb ed="#P" n="110" break="no"/>clusionem negativam. Probatio non est nisi vnus 
+              fi<lb ed="#P" n="111" break="no"/>lius genitus: sed si spiritus sanctus esset generatio 
+              passi<lb ed="#P" n="112" break="no"/>ua / esset genitus: quod est falsum. Nam doesiter Ioannis 
+              <lb ed="#P" n="113"/>tertio. Sic deus dilexit mundum vt filium suum 
+              vni<lb ed="#P" n="114" break="no"/>genitum daret. proter quod in symbolo Apostolorum 
+              con<lb ed="#P" n="115" break="no"/>fitemur vnicum dei filium. et quia filius: vtique genitus 
+              <lb ed="#P" n="116"/>vt dicit <name xml:id="jm12w4-e30671-Nd1e166" ref="#Augustine">Augustinus.</name> v. de trinitate. ca. vi.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e170">
+      ⁋ 
+              Con<lb ed="#P" n="117" break="no"/>tra hanc conclusionem arguitur sic. omnis productio vi 
+              <lb ed="#P" n="118"/>uentis a viuente eiusdem nature numero vel specie est 
+              <lb ed="#P" n="119"/>geneatio: spiratio est huiusmodoi: igitur. maior patet per locum a 
+              <lb ed="#P" n="120"/>diffinitione generationis. minor patet secundum fidem. Nam 
+              <lb ed="#P" n="121"/>spunssanctus est viuens et eiusdem nature cum patre: 
+              <lb ed="#P" n="122"/>et non minus quam pater a filius sunt eiusdem nature. 
+              <lb ed="#P" n="123"/>tius productio est productio viuentis etiam similis. p 
+              <lb ed="#P" n="124"/>consequens non solum erit generatio sed vniuoca 
+            </p>
+            <p xml:id="jm12w4-e30671-d1e190">
+               <lb ed="#P" n="125"/>⁋ Difficultas ista semper acerrima reputata fuit 
+              <lb ed="#P" n="126"/>apud maiores: et merito secundum illud Esaie. liii. GEe 
+              <lb ed="#P" n="127"/>nerationem eius quis enarrabit. pariforma de 
+              pro<lb ed="#P" n="128" break="no"/>cessione. Quapropter dicit beatus <name xml:id="jm12w4-e30671-Nd1e200" ref="#Augustine">Augustinus.</name> xv. de 
+      <!--106.xml-->
+      <pb ed="#P" n="46-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>trinitate. ca xxv. contra Maximinum. quod est ei imposi 
+              <lb ed="#P" n="2"/>sibile illud explicare. Et Io. <name xml:id="jm12w4-e30671-Nd1e214" ref="#JohnDamascenus">Damascenus</name>. libr 
+              <lb ed="#P" n="3"/>primo. de orthodoxa fide. ca. x. sic dicit. filius vero 
+              <lb ed="#P" n="4"/>a patre nascibiliter. speius autem non nascibiliter: sed 
+              <lb ed="#P" n="5"/>processibiliter. Et mox sequitur. generationis et proce 
+              <lb ed="#P" n="6"/>sionis differentiam esse didicimus. At quis 
+              differen<lb ed="#P" n="7" break="no"/>tie modus: nequaquam. Meatus <name xml:id="jm12w4-e30671-Nd1e228" ref="#Augustine">Augustinus</name> xv. 
+              d<lb ed="#P" n="8" break="no"/>trinitate. ca. xvii. et Ansel. mono. lv. hoc 
+              insequen<lb ed="#P" n="9" break="no"/>tes dant hoc discrimen. quando filius est ab vno tantum 
+              <lb ed="#P" n="10"/>spiritus sanctus autema duobus. filius autem nullus potest 
+              <lb ed="#P" n="11"/>esse duorum: nisi vnus sit pater. et alter mater. quod  
+              <lb ed="#P" n="12"/>trinitate imaginari absurdissimum est.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e243">
+      ⁋ Ista ratio 
+              <lb ed="#P" n="13"/>egre est sufficiens: quia vbi productum eodem modo 
+              p<lb ed="#P" n="14" break="no"/>nitus est a duobus: nec aliter ab vno quam ab altero 
+              <lb ed="#P" n="15"/>nec ab ambobus quam ab altero tantum: ibi productio ex hoc 
+              <lb ed="#P" n="16"/>precise quod est a duobus non videtur minus debere dic 
+              <lb ed="#P" n="17"/>generatio quam ab vno tantum et ceteris simul 
+              concurren<lb ed="#P" n="18" break="no"/>tibus. vnitas enim et pluralitas producentium non 
+              va<lb ed="#P" n="19" break="no"/>riat rationem productionis. Quod patet: productio enim 
+              <lb ed="#P" n="20"/>vnius ignis a duobus non minus diceretur generatio: quam 
+              <lb ed="#P" n="21"/>productio vnius ab vno. spunssanctus autem quaeuis sit a 
+              <lb ed="#P" n="22"/>duobus: eodem tamen modo penitus est ab vtroque: 
+              <lb ed="#P" n="23"/>vt superius dictum est.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e269">
+      ⁋ Et ex hoc patet: quod non sequi 
+              <lb ed="#P" n="24"/>tur si spiritus sanctus esset filius duorum: quod esset vnius 
+              <lb ed="#P" n="25"/>tanquam patris: et alterius velut matris: cum filius non 
+              <lb ed="#P" n="26"/>sit vniformiter ex patrea matre. Alioquin non esset 
+              <lb ed="#P" n="27"/>vnus pater a mater potius quam alter: vel econuerso 
+              <lb ed="#P" n="28"/>Et istud potest roborari: quia si idem semen numero es 
+              <lb ed="#P" n="29"/>set in duobus hominibus / ex quo debeat generari 
+              pro<lb ed="#P" n="30" break="no"/>les vterque illorum generantium esset pater. Potes pro 
+              <lb ed="#P" n="31"/>bto <name xml:id="jm12w4-e30671-Nd1e288" ref="#Augustine">Augustino</name> dicere quod licet istud verum habeat 
+              <lb ed="#P" n="32"/>creaturis: tamen verum non habet in diuinis.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e295">
+      ⁋ Alii 
+              va<lb ed="#P" n="33" break="no"/>dunt ad principium quod et principium quo. Sed hec 
+              <lb ed="#P" n="34"/>principia hactenus respuimus. Meatus Augu. 
+              <lb ed="#P" n="35"/>stinus dat alium modum. v. de trinitate. ca. xiiii. ex 
+              <lb ed="#P" n="36"/>diuersitate modi procedendi: quorum vnus procedit 
+              <lb ed="#P" n="37"/>quomodo natus alter quomodo datus. sed cum illud 
+              <lb ed="#P" n="38"/>non declaretur quomodo spiritus sanctus non 
+              proce<lb ed="#P" n="39" break="no"/>dat quomodo natus: manet res caliginosa.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e313">
+      ⁋ Fra 
+              <lb ed="#P" n="40"/>ter <name xml:id="jm12w4-e30671-Nd1e317" ref="#Rimini">Gregorus de Arimino</name>. dicit quod non est ei possibi 
+              <lb ed="#P" n="41"/>le intelligere hanc materiam: licet confiteatur se
+              cre<lb ed="#P" n="42" break="no"/>dere. Quam responsionem quidam doctor posterior 
+              di<lb ed="#P" n="43" break="no"/>cit esse scandalosam: vere enim turpe est theologo 
+              <lb ed="#P" n="44"/>materiam tractanti nihil penitus discriminis 
+              da<lb ed="#P" n="45" break="no"/>re. Sed iste doctor posterior dicit quod explicatio fic 
+              <lb ed="#P" n="46"/>ri non potest nisi per hoc quod generatio est ab vno 
+              tan<lb ed="#P" n="47" break="no"/>tum: spiratio autem a duobus.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e336">
+      ⁋ Item filius est ab 
+              <lb ed="#P" n="48"/>vno solo a non spiritus sanctus: et spiritus sanctus est 
+              <lb ed="#P" n="49"/>a duobus: quorum vnus scilicet pater dat alteri puta 
+              fi<lb ed="#P" n="50" break="no"/>lio: quod spiritus sanctus procedat ab eo. sic etiam potest 
+              <lb ed="#P" n="51"/>explicari quomodo spiritus sanctus procedit vt 
+              da<lb ed="#P" n="52" break="no"/>tus: sed non vt natus. Sed hic doctor imponit 
+              ter<lb ed="#P" n="53" break="no"/>minos ad placitum: et videtur petere principium in re 
+              <lb ed="#P" n="54"/>sipsa.
+            </p>
+            <p xml:id="jm12w4-e30671-d1e354">
+      ⁋ Dicetur itaque quod generatio proprie capiendo (vt 
+              <lb ed="#P" n="55"/>dicatur respectu filii) est productio non de nihilo 
+              ali<lb ed="#P" n="56" break="no"/>cuius viuentis cognoscentis ab aliquo eiusdem 
+              na<lb ed="#P" n="57" break="no"/>ture numero vel specie siue res habeat esse post non 
+              <lb ed="#P" n="58"/>esse: siue semper habeat esse: sic scilicet quod res producta 
+              <lb ed="#P" n="59"/>quando est generatio vniuoca potest sic facere in pro 
+              <lb ed="#P" n="60"/>ductione sicut res generans. Ponitur non de 
+              nihi<lb ed="#P" n="61" break="no"/>lo / ad secludendam creationem quae non est prorie 
+              gen<lb ed="#P" n="62" break="no"/>ratio. Doaiter viuentis et cognoscentis: quia sola ho 
+              ge<lb ed="#P" n="63" break="no"/>nerant hominem secundo Physicorum. sed homo non est fili 
+              <lb ed="#P" n="64"/>solis: nec sol eius pater. quia sol non viuit nec cogn 
+              <lb ed="#P" n="65"/>scit. Ultima particusa separat spiritumsanctum qui non 
+      <!--106.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 46rb -->
+               <lb ed="#P" n="66"/>generatur. palam est quod est productio vniuoca in 
+              per<lb ed="#P" n="67" break="no"/>sonis diuinis: nulla persona in diuinis est alia perfe 
+              <lb ed="#P" n="68"/>ctior: sed sunt eadem res: non modo specie: sed nume 
+              <lb ed="#P" n="69"/>ro. illa que assimilantur patribus propriissime vocantur 
+              <lb ed="#P" n="70"/>filii. potere a Philosophus quarta particula 
+              proble<lb ed="#P" n="71" break="no"/>matum problemate. xiii. causam reddit: quare 
+              ver<lb ed="#P" n="72" break="no"/>mis genitus ex nobis: vel aliud animal: ex nostris 
+              hu<lb ed="#P" n="73" break="no"/>moribus vel carne non vocetur filius noster: et tamen 
+              <lb ed="#P" n="74"/>sortes vel plato vocatur filius. prpoterea dicit Commen 
+              <lb ed="#P" n="75"/>tator ibide cum filius multum patri assimilatur: 
+              dici<lb ed="#P" n="76" break="no"/>mus prouerbialiter sic ei similatur: ac si eum spuisset. 
+              <lb ed="#P" n="77"/>et sic mulus vel mula secundum modum illum non vocal 
+              <lb ed="#P" n="78"/>filius asini et eque: sed satis bene apud diffinitionem 
+              <lb ed="#P" n="79"/>quam damus. Diximus in productione vniuoca / ad se 
+              <lb ed="#P" n="80"/>cludendas mulas a mulos: quos filios reputamus. 
+              <lb ed="#P" n="81"/>semper vtrobique res producens et producta sunt eiusdem 
+              <lb ed="#P" n="82"/>speciei in creaturis: si res producens potest 
+              produce<lb ed="#P" n="83" break="no"/>re aliquid: res producta potest simile producere: vel 
+              <lb ed="#P" n="84"/>ei non repugnat: si non proueniat impedimentum ac 
+              <lb ed="#P" n="85"/>cidentale. patet inducendo in singulis. modo filius i 
+              <lb ed="#P" n="86"/>diuinis maxime patriassimilatur. sicut pater producit 
+              <lb ed="#P" n="87"/>filium: sic filius producit spiritumsanctum. et in hoc 
+              <lb ed="#P" n="88"/>patri assimilatur producendo personam eiusdem peri 
+              <lb ed="#P" n="89"/>fectionis secum: sicut pater a filius. Adieci in 
+              ge<lb ed="#P" n="90" break="no"/>neratione vniuoca. <name xml:id="jm12w4-e30671-Nd1e440" ref="#Aristotle">Aristoteles</name> enim putabat 
+              mu<lb ed="#P" n="91" break="no"/>los generare nequire: quorum asini sunt patres apud 
+              <lb ed="#P" n="92"/>loquentes. nisi aliunde fiat orbatio accidentaria 
+              <lb ed="#P" n="93"/>propter frigidos a huiusmodi. Et nephas est hoc 
+              <lb ed="#P" n="94"/>spunisancto attribuere. Placet Theophrasto es 
+              <lb ed="#P" n="95"/>plerisque aliis quod muli generent: et ita frequenter (vt 
+              <lb ed="#P" n="96"/>aiunt) in asia compertum est. et sic quodlibet viuum 
+              <lb ed="#P" n="97"/>productum a viuente cognoscente iterum generare 
+              <lb ed="#P" n="98"/>potest: et sic quoquo versum potest iterum generare 
+              <lb ed="#P" n="99"/>quia tale apud loquentes cui hoc non conueniret 
+              <lb ed="#P" n="100"/>non vocatur filius vel pater: siue fuerit generatio 
+              <lb ed="#P" n="101"/>vniuoca siue equiuoca. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="68-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e47422"> <!--l1d17q12 -->
+            <head xml:id="jm12w4-e47422-Hd1e106">Quaestio 12</head>
+            <head xml:id="jm12w4-e47422-Hd1e109" type="question-title">
+      Utrum intensio fiat per deputationem a suo 
+      contrario?
+    </head>
+            <p xml:id="jm12w4-e47422-d1e112">
+               <lb ed="#P" n="101"/>⁋ Distinctionis septimedecime questio. xii. 
+              <lb ed="#P" n="102"/>Equitur tertia positio que ponit intens 
+              <lb ed="#P" n="103"/>sionem forme fieri perdepurationem a 
+              <lb ed="#P" n="104"/>suo contrario: que nequit intelligi quo ad 
+              <lb ed="#P" n="105"/>videatur aliquid de compossibilitate 
+              qua<lb ed="#P" n="106" break="no"/>litatum contrariarum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e128">
+      ⁋ Circa quod versantur 
+              <lb ed="#P" n="107"/>partite opiniones: quarum vnam prosequemur in hac 
+              <lb ed="#P" n="108"/>uaesti. reliquam in sequenti.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e136">
+      ⁋ Pro huius quaestionis elu 
+              <lb ed="#P" n="109"/>cidatione premittamus quod non loquimur de termi 
+              <lb ed="#P" n="110"/>nis contrariis qui sunt positiui: et non potentes simul 
+              <lb ed="#P" n="111"/>supponere pro eodem copulatiue: sed successiue. Nec 
+              <lb ed="#P" n="112"/>extendimus terminum ad priuatiue opposita: sicut 
+              <lb ed="#P" n="113"/>corruptibile et incorruptibile sunt contraria decimo 
+              <lb ed="#P" n="114"/>metaphysice. Nec loquimur de contrarietate 
+              propo<lb ed="#P" n="115" break="no"/>sitionum de opposito modo enunciandi: sed loquimur. 
+              <lb ed="#P" n="116"/>de contrarietate rerum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e156">
+      ⁋ Contemplemur ergo quid  
+              <lb ed="#P" n="117"/>noins qualitatum contrariarum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e161">
+      ⁋ Qualitates con 
+              <lb ed="#P" n="118"/>trarie sunt qualitates quarum naturis specificis 
+              <lb ed="#P" n="119"/>non repugnet successiue eidem subiecto inherere: 
+              <lb ed="#P" n="120"/>sed non simul inherere possunt naturaliter. Dictum 
+              <lb ed="#P" n="121"/>est quorum naturis specificis propter qualitates con 
+              <lb ed="#P" n="122"/>trarias in variis subiectis non potentes inherere eidem 
+              <lb ed="#P" n="123"/>subiecto: cum acecuens non migret de subiecto inhesionis 
+              <lb ed="#P" n="124"/>in subiectum inhesionis. Sed aliis quaelitatibus eiusdem 
+              <lb ed="#P" n="125"/>speciei non repugnat sibi succedere. dictum est natura 
+              <lb ed="#P" n="126"/>litur / quaecumque enim quaelitates contrarie supernaturalitur 
+              pos<lb ed="#P" n="127" break="no"/>sunt eidem subiecto inherere.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e185">
+      ⁋ Isto notato 
+              ponun<lb ed="#P" n="128" break="no"/>tur due conclusiones.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e190">
+      ⁋ Quarum prior est. Qualitates 
+              <lb ed="#P" n="129"/>contrarie possunt eidem subiecto inherere de potentia ab 
+              <lb ed="#P" n="130"/>soluta dei.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e197">
+      ⁋ Secunda est. Nulle qualitates con¬ 
+      <!--152.xml-->
+      <pb ed="#P" n="69-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>trarie possunt eidem subiecto naturaliter inherere. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e209">
+               <lb ed="#P" n="2"/>⁋ Prior conclusio probatur sic. duo corpura de praedi 
+              <lb ed="#P" n="3"/>camento substantie possunt se penetrare: christs enim 
+              <lb ed="#P" n="4"/>intrabat ad apostolos ianuis clausis. Et eadem est 
+              <lb ed="#P" n="5"/>ratio de corpe albo a nigro a aliis. ergo corpesa 
+              al<lb ed="#P" n="6" break="no"/>bum et nigrum possunt se penetrare: quo facto deus 
+              <lb ed="#P" n="7"/>potest destruere illa corpsa conseruatis albedine at ni 
+              <lb ed="#P" n="8"/>gredine in eodem loco. Et quod penetratiue se habeant 
+              <lb ed="#P" n="9"/>confirmatur idem sic. Calor et frigus non possunt se 
+              <lb ed="#P" n="10"/>compati: hoc autem est prpoter actionem et passionem illor 
+              <lb ed="#P" n="11"/>corporum: sed deus silam actionem potest impedire no 
+              <lb ed="#P" n="12"/>coagendo: igitur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e235">
+      ⁋ Secunda conclusio probatur: per 
+              dif<lb ed="#P" n="13" break="no"/>finitionem qualitatum contrariarum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e240">
+      ⁋ Sed aliqui 
+              so<lb ed="#P" n="14" break="no"/>lent dicere: quod qualitates remisse eiusdem speciei cum 
+              <lb ed="#P" n="15"/>gradibus intensis non sunt contrarie: solas enim vo 
+              <lb ed="#P" n="16"/>cant contrarias naturaliter repugnantes circa idem 
+              <lb ed="#P" n="17"/>obiectum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e251">
+      ⁋ hoc autem est de nomine dimicare: vo 
+              <lb ed="#P" n="18"/>cemus qualitates contrarias repugnantes: vel qua 
+              <lb ed="#P" n="19"/>sunt eiusdem speciei cum eis: quia sic multi loquentes ter 
+              <lb ed="#P" n="20"/>mino vtuntur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e260">
+      ⁋ Contra priorem conclusionem 
+              argui<lb ed="#P" n="21" break="no"/>sic. quia tunc pari ratione due forme substantiales pos 
+              <lb ed="#P" n="22"/>sent eandem materiam informare: consequens est impossibi 
+              <lb ed="#P" n="23"/>le: tunc enim idem erit bos a asinus: homo a asinus: et 
+              <lb ed="#P" n="24"/>sic asinus beatificabitur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e271">
+      ⁋ Respondetur negando se 
+              <lb ed="#P" n="25"/>quelam: binarius enim ex materia et forma bouis est 
+              <lb ed="#P" n="26"/>bos: et binarius ex eadem materia et forma equi est 
+              <lb ed="#P" n="27"/>equus. et sic non habetur quod bos sit equus: nec quod 
+              asi<lb ed="#P" n="28" break="no"/>nus beatificabitur. Quoa forma equi potest materiam qua 
+              <lb ed="#P" n="29"/>litercumque figuratam informare probatur sic: forma 
+              <lb ed="#P" n="30"/>equi est in qualibet parte materie equi saltem in quali 
+              <lb ed="#P" n="31"/>bet parte materie equi est forma equi. Capiatur 
+              for<lb ed="#P" n="32" break="no"/>ma partialis in oculo: deus potest illam formam in 
+              ocu<lb ed="#P" n="33" break="no"/>lo vel in quauis parte materie informatiue aliis parti 
+              <lb ed="#P" n="34"/>bus corruptis seruare: sic potest corrumpere qualitatum 
+              <lb ed="#P" n="35"/>uam dispositionem forma informante materiam. 
+              <lb ed="#P" n="36"/>Et hoc probatur per hoc quod narratur de lingua cuiu 
+              <lb ed="#P" n="37"/>dam pagani: que semper dedit rectam sententiam qua 
+              <lb ed="#P" n="38"/>anima informauit post mortem vt penitentia et fide sal 
+              <lb ed="#P" n="39"/>uaretur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e307">
+      ⁋ Secundo arguitur: si albedo a nigredo sum 
+              <lb ed="#P" n="40"/>ma essent in eodem subiecto adequato: tuc non 
+              pos<lb ed="#P" n="41" break="no"/>sent videri ab oculo prospiciente: quia vel oculus iud  
+              <lb ed="#P" n="42"/>caret ibi esse albedinem vel nigredinem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e316">
+      ⁋ 
+              Respon<lb ed="#P" n="43" break="no"/>detur: quod qualitates indistincte secundum situm 
+              existen<lb ed="#P" n="44" break="no"/>tes vel etiam simul secundum eandem lineam species suas 
+              <lb ed="#P" n="45"/>multiplicantes ad visum indistincte et confuse 
+              vi<lb ed="#P" n="46" break="no"/>dentur: quia si lumen multiplicetur per vitrum croceum 
+              <lb ed="#P" n="47"/>et per vitrum blaueum sibi inuicem supposita totur 
+              <lb ed="#P" n="48"/>apparebit viride. et niger carbo visus per flammam 
+              <lb ed="#P" n="49"/>apparet rubeus: et sol mane per grossos vapores ru 
+              <lb ed="#P" n="50"/>beus apparet.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e336">
+      ⁋ Contra secundam conclusionem ar 
+              <lb ed="#P" n="51"/>guitur sic. in aqua tepida sunt caliditas et 
+              frigidi<lb ed="#P" n="52" break="no"/>tas simul: sed ille sunt qualitates contrarie. ergo 
+              qua<lb ed="#P" n="53" break="no"/>litates contrarie se compatiuntur. maior patet: quia illa 
+              <lb ed="#P" n="54"/>aqua calefacit et frigefacit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e347">
+      ⁋ Sed dices (sicut di 
+              <lb ed="#P" n="55"/>cendum est) aqua tepida habet frigus in vna parte 
+              <lb ed="#P" n="56"/>et calorem in alia: et sic calefacit secundum vnam partem: et 
+              <lb ed="#P" n="57"/>frigefacit secundum aliam.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e356">
+      ⁋ Sed contra: quelibet pars 
+              <lb ed="#P" n="58"/>aque tepide est tepida: ergo quacumque parte data in 
+              <lb ed="#P" n="59"/>qua erit caliditas: in eadem erit frigiditas.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e363">
+      ⁋ Ulte 
+              <lb ed="#P" n="60"/>rius pono quod aqua fuerit calida in summo: et 
+              remo<lb ed="#P" n="61" break="no"/>ueatur ab igne: iam calor vniformiter corrumpetur 
+              <lb ed="#P" n="62"/>a forma substantiali aque: ergo in nulla parte erit 
+              <lb ed="#P" n="63"/>frigiditas. et tamen ipse adhuc calefacit: quia ibi est 
+              <lb ed="#P" n="64"/>calor. et frigefacit aquam ebullientem si cum eam 
+              com<lb ed="#P" n="65" break="no"/>misceatur. ergo necesse est ibi dare frigiditatem. 
+      <!--152.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 69rb -->
+            </p>
+            <p xml:id="jm12w4-e47422-d1e386">
+               <lb ed="#P" n="66"/>⁋ Respondetur. negando quod quelibet pars aque te 
+              <lb ed="#P" n="67"/>pide sit tepida: capiendo tepiditatem pro congerie 
+              <lb ed="#P" n="68"/>caliditatis et frigiditatis: aliqua enim pars est 
+              cali<lb ed="#P" n="69" break="no"/>da secundum se totam syncategorematice: identidem 
+              <lb ed="#P" n="70"/>aliqua pars minuta est frigida secundum se totam: et bi 
+              <lb ed="#P" n="71"/>narius est tepidus tali tepiditate.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e402">
+      ⁋ Ad aliud 
+              ne<lb ed="#P" n="72" break="no"/>go: quod aqua remisse calida commixta adue calide 
+              quo<lb ed="#P" n="73" break="no"/>uis modo eam frige faciat. nullum enim est ibi 
+              peni<lb ed="#P" n="74" break="no"/>tus frigus: immo contraia qua calida calefacit fri 
+              <lb ed="#P" n="75"/>gidam: nititur enim dissimile sibi assimilare. Sed certe 
+              <lb ed="#P" n="76"/>bene verum est quod tota aqua commixta apparet 
+              fri<lb ed="#P" n="77" break="no"/>gida: apud sapientes minus calida propter partes 
+              <lb ed="#P" n="78"/>intense calidas et remisse calidas commixtas. Nec 
+              <lb ed="#P" n="79"/>sequitur quod tota aqua calefiet: vel maneat diu illa ca 
+              <lb ed="#P" n="80"/>liditas summa. forma substantialis aque concurrit 
+              <lb ed="#P" n="81"/>ad vtriusque expulsionem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e426">
+      ⁋ Secundo arguit quidam 
+              <lb ed="#P" n="82"/>sic. aqua tepida calefacit manum impositam: et refri 
+              <lb ed="#P" n="83"/>gerat serrum ignitum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e433">
+      ⁋ Capiendo aquam tepidam 
+              <lb ed="#P" n="84"/>illud habet verum que est remisse calida. Dicit quod 
+              <lb ed="#P" n="85"/>ista ratio facit ei magnam fidem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e440">
+      ⁋ Certe vir iste 
+              <lb ed="#P" n="86"/>de facili fuisset fidelis vel firmiter errans: eius enim 
+              <lb ed="#P" n="87"/>argumentum probaret contra ipsum: quia tenet aquam 
+              <lb ed="#P" n="88"/>calidissimam non compati vnum gradum frigoris: et 
+              <lb ed="#P" n="89"/>certe si imponatur in aquam ebullientem ferrum igni 
+              <lb ed="#P" n="90"/>tum remittetur eius caliditas: vel saltem non erit 
+              <lb ed="#P" n="91"/>ita actiua: ergo ipse assignat non causam pro causa 
+              <lb ed="#P" n="92"/>quia data responsione in vno dabitur ei in alio. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e458">
+               <lb ed="#P" n="93"/>⁋ Amplius quando pius est de frigiditate in aqua qua 
+              <lb ed="#P" n="94"/>de caliditate: queres seriose ab eo quare non frige 
+              <lb ed="#P" n="95"/>facit manum sicut ferrum
+            </p>
+            <p xml:id="jm12w4-e47422-d1e468">
+      ⁋ Dico quod argumentum 
+              <lb ed="#P" n="96"/>est simpliciter contra arguentem. Illa enim aqua ca 
+              <lb ed="#P" n="97"/>lefacit quantum est de se: sed siccitas est connaturalis 
+              <lb ed="#P" n="98"/>caliditati conueniens igni qui habet calorem i 
+              <lb ed="#P" n="99"/>summo. humiditas autem licet compatiatur cali 
+              <lb ed="#P" n="100"/>ditatem secum (vt patet in aere) non est ei ita affe 
+              <lb ed="#P" n="101"/>nis: humiditas enim aque pugnat contra 
+              siccita<lb ed="#P" n="102" break="no"/>tem ferri. et clauduntur eius pori: vt exhalationes 
+              <lb ed="#P" n="103"/>non egrediantur. sic indirecte a: tenuatur vigor 
+              <lb ed="#P" n="104"/>caliditatis ferri: et si forma ferri maioris fuestt 
+              a<lb ed="#P" n="105" break="no"/>ctiuitatis quam resistentia aque frigefaciet ferrum: 
+              <lb ed="#P" n="106"/>et ex consequenti aquam ipsam. Tepiditas est 
+              ag<lb ed="#P" n="107" break="no"/>gregatum ex calore et frigore in partibus propin 
+              <lb ed="#P" n="108"/>quis: vel est calor remissus. si frigus remissum 
+              di<lb ed="#P" n="109" break="no"/>catur caliditas (nomina enim significant ad placitum. 
+              <lb ed="#P" n="110"/>accommodande sunt aures vulgariter 
+              loquenti<lb ed="#P" n="111" break="no"/>pus de hac tepiditate.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e505">
+      ⁋ Tertio arguitur sic. 
+              al<lb ed="#P" n="112" break="no"/>bedo a nigredo se compatiuntur: et tamen sunt 
+              qua<lb ed="#P" n="113" break="no"/>litates contrarie. antecedens patet. quando cadit 
+              a<lb ed="#P" n="114" break="no"/>tramentum super papyrum albam: iam albedo  
+              <lb ed="#P" n="115"/>et nigredo inherent papyro. Nam quoniam 
+              nigre<lb ed="#P" n="116" break="no"/>do non est actiua non corrumpit albedinem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e518">
+      ⁋ Et 
+              <lb ed="#P" n="117"/>confirmatur sic. in aqua calida manet frigiditas. 
+              <lb ed="#P" n="118"/>Quod patet: quia remoto igne producitur 
+              frigi<lb ed="#P" n="119" break="no"/>ditas in aqua: et non nisi a frigiditate.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e527">
+      ⁋ Sed 
+              di<lb ed="#P" n="120" break="no"/>ces (sicut dicit quidam corrumpitur illa caliditas a 
+              <lb ed="#P" n="121"/>frigiditate circunstante: nec inconuenit illam 
+              fri<lb ed="#P" n="122" break="no"/>giditatem producere pius frigoris in aquam quam 
+              <lb ed="#P" n="123"/>ipsa habeat: potissimum cum passum inclinetur ad  
+              <lb ed="#P" n="124"/>susceptionem illius forme.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e540">
+      ⁋ hoc non valet: nul 
+              <lb ed="#P" n="125"/>lum enim accidens producit intensiorem gradum 
+              <lb ed="#P" n="126"/>quam habet: alioquin diceretur sine lege quod vnus gradus 
+              <lb ed="#P" n="127"/>caloris producit duodecim: contra <name xml:id="jm12w4-e47422-Nd1e548" ref="#Aristotle">Aristotelem</name> 
+               <lb ed="#P" n="128"/>primo de generatione: et contra experientiam.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e554">
+      ⁋ 
+              Am<lb ed="#P" n="129" break="no"/>lius quando aer est remisse calidus aqua ebulliens frige 
+              <lb ed="#P" n="130"/>fit: aet non a frigiditate circunstante: cum nulla sit: igitur. 
+      <!--153.xml-->
+      <pb ed="#P" n="69-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="jm12w4-e47422-d1e568">
+               <lb ed="#P" n="1"/>⁋ Ad primum negatur antecedens: nigredo inheret 
+              atra<lb ed="#P" n="2" break="no"/>mento cui inbesit: et nullo modo inheret pappro. quia 
+              <lb ed="#P" n="3"/>tunc de vno subiecto inhesionis ad aliud migraret 
+              <lb ed="#P" n="4"/>quod est philosophiam colaphizare.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e579">
+      ⁋ Ad aliud ne 
+              <lb ed="#P" n="5"/>go: quod in aqua maneat frigiditas. forma enim substam 
+              <lb ed="#P" n="6"/>tialis aque corrumpit calorem: sed non reducit ipsam 
+              <lb ed="#P" n="7"/>aquam ad tantam frigiditatem propter contrarium cir 
+              <lb ed="#P" n="8"/>cunstans in medio calido sicut in medio frigido: vt 
+              <lb ed="#P" n="9"/>patet de aqua quae non est itafrigida in estate sicut in 
+              <lb ed="#P" n="10"/>hyeme nisi in fontibus propter antiparistasim. Est 
+              <lb ed="#P" n="11"/>contrarietas virtualis inter formam aque et calorem 
+              <lb ed="#P" n="12"/>cum producat qualitatem contrariam ipsi calori. vnum 
+              <lb ed="#P" n="13"/>formaliter contrarium a aliud virtualiter non 
+              pu<lb ed="#P" n="14" break="no"/>gnant mutuo. licet violente cohabitent simul. Nec 
+              <lb ed="#P" n="15"/>inconueniens quod forma aque sine frigore suo instru 
+              <lb ed="#P" n="16"/>mento agat in passum cuius est pars.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e608">
+      ⁋ Sed 
+              con<lb ed="#P" n="17" break="no"/>tra hoc arguitur sic. quia per illud oportet omnes 
+              gra<lb ed="#P" n="18" break="no"/>dus caloris remoueri ab aqua antequam introducatur 
+              <lb ed="#P" n="19"/>vnus gradus frigoris: sed hoc consequens est falsum: 
+              <lb ed="#P" n="20"/>ergo a antecedens consequentia est lucida. et probatur 
+              falsi<lb ed="#P" n="21" break="no"/>tas consequentis. quia tunc aqua debet subito produ- 
+              <lb ed="#P" n="22"/>cere frigus summum: consequens est falsum. et contra 
+              <lb ed="#P" n="23"/>experientiam. ergo a antecedens. et probo consequentiam: nul 
+              <lb ed="#P" n="24"/>la enim est resistentia in ipsa aqua: immo summe incli 
+              <lb ed="#P" n="25"/>uatur ad frigus. forma aque equaliter applicatur 
+              <lb ed="#P" n="26"/>comnibus partibus aque. ergo tantum producit subito quam: 
+              <lb ed="#P" n="27"/>tum producere potest per tempus.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e634">
+      ⁋ Respondetur 
+              <lb ed="#P" n="28"/>negando quod producit subito totale frigus. sed illud  
+              <lb ed="#P" n="29"/>on prouenit ex resistentia passi: sed quia talis est 
+              con<lb ed="#P" n="30" break="no"/>ditio qualitatis corporalis habentis contrarium quod 
+              <lb ed="#P" n="31"/>non producit suum effectum subito vt experientia 
+              do<lb ed="#P" n="32" break="no"/>cet. Dixi de qualitate habente contrarium propter lu 
+              <lb ed="#P" n="33"/>men quod subito producitur: et licet scientia habeat con 
+              <lb ed="#P" n="34"/>trarium: non inconuenit tamen ipsam subito produ  
+              <lb ed="#P" n="35"/>ci: vt supponitur alibi probatum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e654">
+      ⁋ Quarto arguitur 
+              <lb ed="#P" n="36"/>ponendo minimum naturale inter corpus summe ca 
+              <lb ed="#P" n="37"/>lidum ex vna parte: et corpus summe frigidum ex 
+              al<lb ed="#P" n="38" break="no"/>tera. sic scilicet: quod vna medietas sit in sphera 
+              actiuita<lb ed="#P" n="39" break="no"/>tis vnius: et alia medietas in sphera actiuitatis al 
+              <lb ed="#P" n="40"/>terius: ponatur illud minimum equaliter applicatum 
+              <lb ed="#P" n="41"/>et equaliter dispositum ad susceptionem caloris et 
+              <lb ed="#P" n="42"/>frigoris. tunc sic: illud minimum calefiet secundum 
+              <lb ed="#P" n="43"/>se totum syncategorematice et idem frigefiet. ergo 
+              <lb ed="#P" n="44"/>qualitates contrarie simul cohabitant in eodem 
+              sub<lb ed="#P" n="45" break="no"/>lecto suapte natura.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e678">
+      ⁋ Non valet dicere: quod altera 
+              <lb ed="#P" n="46"/>illarum medietatum calefiet et reliqua frigefiet: quia 
+              <lb ed="#P" n="47"/>tunc dabitur calor subduplus ad remississimum calorem 
+              <lb ed="#P" n="48"/>quod implicat. supponimus enim illud non esse maius 
+              <lb ed="#P" n="49"/>quam requirat extensio caloris remississimi vel frigoris 
+              <lb ed="#P" n="50"/>remississimi.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e692">
+      ⁋ Dicitur quod nullum agentium illorum aget 
+              <lb ed="#P" n="51"/>in illud passum: quia vnum agens impedit aliud: non 
+              <lb ed="#P" n="52"/>per effectum suum in passo: sed propter 
+              propinquita<lb ed="#P" n="53" break="no"/>tem suam: supposita equalitate in illis agentibus 
+              <lb ed="#P" n="54"/>sicut patet in hyeme quod aqua supposita igni non ita 
+              <lb ed="#P" n="55"/>cito calefit proter aerem vicinu: sicut in estate quando 
+              <lb ed="#P" n="56"/>aer non est frigidus.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e708">
+      ⁋ Quinto arguitur sic. sortes est 
+              <lb ed="#P" n="57"/>bonus et malus in eodem tempore adequato vel in 
+              <lb ed="#P" n="58"/>eodem instanti. et illi termini contrarii non possunt 
+              <lb ed="#P" n="59"/>verificari de eodem nisi qualitates cotrarie eidem 
+              <lb ed="#P" n="60"/>infuerint. Assumptum patet: posito quod sortes sit 
+              ten<lb ed="#P" n="61" break="no"/>peratus iam est bonus: quia in eo est virtus: ergo est 
+              stu<lb ed="#P" n="62" break="no"/>diosus. sit etiam auarus et timidus moraliter. Iam 
+              <lb ed="#P" n="63"/>est vitiosus: ergo est malus.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e726">
+      ⁋ Respondetur: 
+              negan<lb ed="#P" n="64" break="no"/>do quod bonum a malum contrarientur. Pro nunc 
+              au<lb ed="#P" n="65" break="no"/>tem supponimus illam opinionem falsam que tenet 
+      <!--153.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 69vb -->
+               <lb ed="#P" n="66"/>connexionem virtutum siue in gradu temperantie 
+              si<lb ed="#P" n="67" break="no"/>ue in gradu heroico: sed sufficit argumento de 
+              gra<lb ed="#P" n="68" break="no"/>du continentie. liberalitas enim et auaritia non contra 
+              <lb ed="#P" n="69"/>riantur circa diuersas materias nec circa candem 
+              <lb ed="#P" n="70"/>nateriam in actu et in habitu: sed apud loquentes 
+              <lb ed="#P" n="71"/>bene habituatus dum modo non constet de actibus: 
+              <lb ed="#P" n="72"/>alis / vocatur bonus.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e755">
+      ⁋ Potest esse argumentum 
+              <lb ed="#P" n="73"/>ad probandum si quis dubitet vel discredat vni 
+              pro<lb ed="#P" n="74" break="no"/>positioni fidei. credendo aliis / quod talis sit fidelis et 
+              <lb ed="#P" n="75"/>infidelis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e764">
+      ⁋ Sed dicetur quod fidelis est ille qui credit: et 
+              <lb ed="#P" n="76"/>non pertinaciter discredit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e769">
+      ⁋ Sexto arguitur. homo 
+              <lb ed="#P" n="77"/>secundum sensualitatem appetit prohibita sibi a deo &amp; 
+              <lb ed="#P" n="78"/>illicita: et renuit eadeim secundum rationem: ergo 
+              appeti<lb ed="#P" n="79" break="no"/>tus contrarii sunt in eodem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e779">
+      ⁋ Et confirmatur: quia 
+              <lb ed="#P" n="80"/>sortes diligit platonem: et prosequitur odio ciceronem 
+              <lb ed="#P" n="81"/>sed ille sunt qualitates contrarie. contrarietas enim 
+              <lb ed="#P" n="82"/>est a tota specie secundum hanc positionem. odium Cice 
+              <lb ed="#P" n="83"/>ronis et dilectio Ciceronis non se compatiuntur in 
+              <lb ed="#P" n="84"/>eodem subiecto primo: modo quicquid repugnat vni 
+              <lb ed="#P" n="85"/>indiuiduo vnius speciei idem repugnat cuilibet 
+              <lb ed="#P" n="86"/>indiuiduo eiusdem: alioquin ista contrarietas non esset 
+              <lb ed="#P" n="87"/>specifica.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e799">
+      ⁋ Ad sextum respondetur: negando quod in ho 
+              <lb ed="#P" n="88"/>mine sint qualitates contrarie: illud enim 
+              argumen<lb ed="#P" n="89" break="no"/>tum non probat diuersitatem animarum in homine: 
+              <lb ed="#P" n="90"/>quia omnia possunt saluari tenendo vnam aimam intel 
+              <lb ed="#P" n="91"/>lectiuam esse in homine. Nego autem quod ille qualitates 
+              <lb ed="#P" n="92"/>sint contrarie: licet sit actus elicitus liber distinctus 
+              <lb ed="#P" n="93"/>ab anima. forte enim nullus est actus naturalis vel sen 
+              <lb ed="#P" n="94"/>sualitatis: per quem anima tendat in obiectum. 
+              appe<lb ed="#P" n="95" break="no"/>titus enim naturalis non distinguitur a re cuius e 
+              ap<lb ed="#P" n="96" break="no"/>etitus. sed bene verum est quod contrario modo 
+              ten<lb ed="#P" n="97" break="no"/>dunt: quia per vnum tendit in prosecutionem obiecti per 
+              <lb ed="#P" n="98"/>aliud autem respuit obiectum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e825">
+      ⁋ Ad confirmationem 
+              <lb ed="#P" n="99"/>concedo casum: qui dilectio sortis et odium platonis 
+              <lb ed="#P" n="100"/>non repugnant. Contrarietas enim est solum 
+              specifi<lb ed="#P" n="101" break="no"/>ca in qualitatibus non vitalibus: sicut aduersarii di 
+              <lb ed="#P" n="102"/>cerent: licet enim qualitates contrarie se compatiantur 
+              <lb ed="#P" n="103"/>in gradibus remissis vel in qualitatibus eiusdem spe 
+              <lb ed="#P" n="104"/>ciei cum eis: tamen hoc negabunt in spiritualibus. As 
+              <lb ed="#P" n="105"/>sensus enim contradictoriarum sunt contrarii. iiii. 
+              <lb ed="#P" n="106"/>Metaphysice. id est non se compatiuntur in quibuscum 
+              <lb ed="#P" n="107"/>que gradibus. Eodem modo dicendum est in proposito. 
+              <lb ed="#P" n="108"/>Etiam non nego quin sortes posset eundem odire e di 
+              <lb ed="#P" n="109"/>ligere secundum diuersas apprehensiones.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e851">
+      ⁋ Septimo 
+              <lb ed="#P" n="110"/>arguitur. media regio aeris semper est frigida: saltem 
+              <lb ed="#P" n="111"/>semper media regio aeris est frigida. vt patet. ii. 
+              Me<lb ed="#P" n="112" break="no"/>teororum. non alias Philosophus in illa regione 
+              po<lb ed="#P" n="113" break="no"/>nit generationem pluuie: et aliarum impressionum 
+              <lb ed="#P" n="114"/>meteorologicarum. et tamen eadem regio est 
+              cali<lb ed="#P" n="115" break="no"/>da. Quod patet: sol quia calefacit ista inferiora cum ma 
+              <lb ed="#P" n="116"/>ior est calor in his climatibus sole existente in signis 
+              <lb ed="#P" n="117"/>septentrionalibus quam meridionalibus. igitur 
+              calefa<lb ed="#P" n="118" break="no"/>cit medium. omne enim agens fortius agit in 
+              proin<lb ed="#P" n="119" break="no"/>uum quam in distans.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e875">
+      ⁋ Forte dices (et apparenter. 
+              <lb ed="#P" n="120"/>quod sol ista inferiora calefacit suo lumine. et cum hic 
+              <lb ed="#P" n="121"/>inferius est lumen directum et reflexum generatur calor a 
+              <lb ed="#P" n="122"/>lumine: et tamen licet sit ita magnum lumen directum in 
+              me<lb ed="#P" n="123" break="no"/>dia regione aeris vel maius: illic nihil caloris produ  
+              <lb ed="#P" n="124"/>cit propoter indispositionem passi quod est frigidum. An ve 
+              <lb ed="#P" n="125"/>ro qlibet pars medie regionis aeris sit frigida non 
+              con<lb ed="#P" n="126" break="no"/>stat: et dato quod frigiditas non sit naturalis aeri 
+              inquam<lb ed="#P" n="127" break="no"/>tum est aer: tamen maior pars illius medie regionis aeris vel 
+              <lb ed="#P" n="128"/>tota manet frigida propter impressiones 
+              meteo<lb ed="#P" n="129" break="no"/>rologicas: et finaliter obsalutem homins opus est pluuia 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e899">
+               <lb ed="#P" n="130"/>⁋ Dctauo arguitur sic. <name xml:id="jm12w4-e47422-Nd1e903" ref="#Aristotle">Aristoteles</name> metaphysice et 
+      <!--154.xml-->
+      <pb ed="#P" n="70-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="jm12w4-e47422-d1e914">
+               <lb ed="#P" n="1"/>⁋ Commentator commento. xxiii dicunt quod omnia 
+              me<lb ed="#P" n="2" break="no"/>dia inter contraris sunt composita ex contrariis. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e921">
+               <lb ed="#P" n="3"/>⁋ Et tertio Topicorum dicit Philosophus: quae 
+              con<lb ed="#P" n="4" break="no"/>trariis sunt impermixtiora: sunt magis talia: vt 
+              al<lb ed="#P" n="5" break="no"/>bius est quod nigro impermixtius est. et quinto Physi 
+              <lb ed="#P" n="6"/>corum dicit Commentator commento. xix. quod album non 
+              <lb ed="#P" n="7"/>fit minus album nisi ex mixtione contrarii. et 
+              Commen<lb ed="#P" n="8" break="no"/>to. xlv. eiusdem dicit. quod diminutum in omni genere est 
+              <lb ed="#P" n="9"/>diminutum per mixtionem contrarii.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e939">
+      ⁋ Et confirmatur 
+              <lb ed="#P" n="10"/>qui vita consistit in calido a humido. vt patet in libro de 
+              <lb ed="#P" n="11"/>breuitate et longitudine vite: et aliqua pars animalis est 
+              <lb ed="#P" n="12"/>frigida: ergo calor et frigus sunt in eadem parte sub 
+              <lb ed="#P" n="13"/>iecti.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e950">
+      ⁋ Ad omnes has auctoritates diluendas dicit 
+              <lb ed="#P" n="14"/>quod color medius dupliciter accipitur: scilicet secundum 
+              verita<lb ed="#P" n="15" break="no"/>tem et existentiam: et secundum apparentiam solum. primo 
+              mo<lb ed="#P" n="16" break="no"/>do color medius est color secundum essentiam per se vnus 
+              <lb ed="#P" n="17"/>cuius quaelibet pars est homogenea cum alia. vt que 
+              <lb ed="#P" n="18"/>libet pars viriditatis est viriditas: et quelibet par 
+              <lb ed="#P" n="19"/>rubedinis realiter est rubedo. Nam quis recte putans 
+              <lb ed="#P" n="20"/>credit viriditatem / rubedinem / et colores medios 
+              <lb ed="#P" n="21"/>esse aggregata solum albedinis et nigredinis. 
+              Co<lb ed="#P" n="22" break="no"/>lor eim medius ab vtroque extremo e ab his copula 
+              <lb ed="#P" n="23"/>tim specie distinguitur. hoc autem patet per Commentato 
+              <lb ed="#P" n="24"/>rem. vi. Physicorum textu commenti. xxxii. Sed est a 
+              <lb ed="#P" n="25"/>medius per conuenientiam et secundum comparationem. 
+              <lb ed="#P" n="26"/>uandum color medius magis conuenit cum vtroque extre 
+              <lb ed="#P" n="27"/>no quam extrema inter se. vt patet per <name xml:id="jm12w4-e47422-Nd1e982" ref="#Aristotle">Aristotelem</name>. v. 
+              <lb ed="#P" n="28"/>hysicorum. fuscum enim comparatum albo est nigrum: et 
+              <lb ed="#P" n="29"/>comparatum nigro est album. et est communis modus 
+              lo<lb ed="#P" n="30" break="no"/>quendi hominum in multis aliis materiis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e993">
+      ⁋ Color 
+              <lb ed="#P" n="31"/>medius secundum apparentiam nihil aliud est quam varit 
+              <lb ed="#P" n="32"/>parui colores collecti in varuns partibus minutis vi 
+              <lb ed="#P" n="33"/>cinis: que quia non sunt secundum se distincte perceptibus 
+              <lb ed="#P" n="34"/>les: ppterea iuxta positi videntur vnus color medius 
+              <lb ed="#P" n="35"/>vt in collo columbe vel cauda pauonis. hoc patet per 
+              <lb ed="#P" n="36"/>philosophum in de sensu et sensato. sic dicatur ad si 
+              <lb ed="#P" n="37"/>miles auctoritates.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1011">
+      ⁋ Ad confirmationem dicitur: quod 
+              <lb ed="#P" n="38"/>calor naturalis est quedam substantia vt dicit Mai 
+              <lb ed="#P" n="39"/>silius. quest. xiiii. primi de generatione vix opposite 
+              <lb ed="#P" n="40"/>partis: et medicus / substatia inquam multu de sper 
+              <lb ed="#P" n="41"/>ritum participans: que conseruatur in humido radica 
+              <lb ed="#P" n="42"/>li: sicut flamma conseruatur in oleo: sicut dicit 
+              Phi<lb ed="#P" n="43" break="no"/>losophus primo de generatione. et continue general 
+              <lb ed="#P" n="44"/>a substantia calida ex humido radicali: sicut ignis 
+              <lb ed="#P" n="45"/>nutritur et generatur ex oleo. Vita dicitur consistere 
+              <lb ed="#P" n="46"/>calido a humido radicali. quia requiritur quod calor na 
+              <lb ed="#P" n="47"/>turalis non superetur notabiliter ab humido radica 
+              <lb ed="#P" n="48"/>li: quia tunc ipsum corrumperet. quo corrupto non mane 
+              <lb ed="#P" n="49"/>ret vita. Similiter calor naturalis continuo agit in 
+              <lb ed="#P" n="50"/>humidum radicale et cibale continuo consumendo: 
+              a<lb ed="#P" n="51" break="no"/>lioquin non indigeremus cibo. Experientia autem do 
+              <lb ed="#P" n="52"/>cet: quod animal operationes suas exercens indiget 
+              <lb ed="#P" n="53"/>spiritibus: propter quod si iunctura membri fortiter l 
+              <lb ed="#P" n="54"/>getur vt per ligaturam aduentus spirituum impedit 
+              <lb ed="#P" n="55"/>tur: patitur illud membrum tremorem et deficit. Et cum 
+              <lb ed="#P" n="56"/>membrum patitur tremorem non est ob aliud: nisi quia 
+              <lb ed="#P" n="57"/>non adueniunt noui spiritus ad vitam necessarii 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1058">
+               <lb ed="#P" n="58"/>⁋ hoc idem tenet Iacobus de forliuio questione. iii 
+              <lb ed="#P" n="59"/>en prima primi canonis Auicemne. per spiritum 
+              <lb ed="#P" n="60"/>enim vitalem procedentem a corde super toto 
+              conser<lb ed="#P" n="61" break="no"/>uatur vita in eo. per spiritum naturalem procedentem 
+              <lb ed="#P" n="62"/>ab hepate perficiuntur operationesnaturales: vt dim 
+              <lb ed="#P" n="63"/>gestio / nutritio. Per animalem spiritum qui a cerebro 
+              <lb ed="#P" n="64"/>procedit conseruantur operationes animales. vt est 
+              <lb ed="#P" n="65"/>sensus a motus: cum spiritus sit corpus vaporosum 
+      <!--154.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 70rb -->
+               <lb ed="#P" n="66"/>temporatum generatum er parte subtiliori 
+              sangui<lb ed="#P" n="67" break="no"/>nis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1089">
+      ⁋ Ex quo concludit iste quod non quodlibet 
+              vi<lb ed="#P" n="68" break="no"/>uens habet spiritus huiusmodi. non tamen nego quin 
+              <lb ed="#P" n="69"/>tum calore naturali frequenter sit calor accidens 
+              <lb ed="#P" n="70"/>sed non oportet quamlibet partem animalis esse eque 
+              cali<lb ed="#P" n="71" break="no"/>dam formaliter. vt patet de illa parte frigida. hoc vide  
+              <lb ed="#P" n="72"/>tur sentire Auerrovs secundo colliget. secundo capitu 
+              <lb ed="#P" n="73"/>o de declaratione prorie actionis et passionis in quo 
+              <lb ed="#P" n="74"/>libet membro. dicit em oportere speculari quod sit 
+              pri<lb ed="#P" n="75" break="no"/>mum corpus quod mouet: et apparet: quod sit calor na 
+              <lb ed="#P" n="76"/>turalis qui est in nobis: et hoc forsitan est illud 
+              cor<lb ed="#P" n="77" break="no"/>pus calidum in fine vaporosum in corde inuentum: quod 
+              <lb ed="#P" n="78"/>mittitur ab eo. et sequitur. quanquam calor et spiritus idem 
+              <lb ed="#P" n="79"/>realiter subiecto dicantur: nihilominus differunt 
+              ra<lb ed="#P" n="80" break="no"/>tione. calor enim dictus est eo quod calefacit / subtiliat 
+              <lb ed="#P" n="81"/>digerit / et maturat, congregat homogenea et hete 
+              <lb ed="#P" n="82"/>rogenea disgregat etc. talium spiritus autem ab eo 
+              <lb ed="#P" n="83"/>quod spirat pulsat illuminat: et virtutem ad suas 
+              de<lb ed="#P" n="84" break="no"/>fert actiones. hoc ipsum Galenus tenet 
+              simpli<lb ed="#P" n="85" break="no"/>cium quinto. capi. v. et facile est soluere argumenta 
+              <lb ed="#P" n="86"/>conciliatoris in oppositum differentia. lix. Sufficit 
+              <lb ed="#P" n="87"/>autem mihi si. color accidens sit nego quod cum ipso stet 
+              <lb ed="#P" n="88"/>frigus: sed solum cum spiritu.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1137">
+      ⁋ Nono arguitur: si 
+              <lb ed="#P" n="89"/>qualitates contrarie non se compaterentur: tunc 
+              sequa<lb ed="#P" n="90" break="no"/>retur quod daretur vnum instans in quo subiectum sub 
+              <lb ed="#P" n="91"/>neutra formarum contrariarum esset: immo hoc 
+              se<lb ed="#P" n="92" break="no"/>quitur de contrariis immediatis. consequens est 
+              fal<lb ed="#P" n="93" break="no"/>sum: et contra <name xml:id="jm12w4-e47422-Nd1e1150" ref="#Aristotle">Aristotelem</name> in post paedicamentis. 
+              <lb ed="#P" n="94"/>Inter sanum et egrum non est dare medium. et 
+              pro<lb ed="#P" n="95" break="no"/>bo consequentiam signando a corpus frigidum quod  
+              <lb ed="#P" n="96"/>per te nihil caliditatis habet: applicetur ei b 
+              cali<lb ed="#P" n="97" break="no"/>dum pure successiue corrumpens eius frigus nia 
+              <lb ed="#P" n="98"/>hil caliditatis per positionem erit in a toto tempo 
+              <lb ed="#P" n="99"/>re motus et frigiditas a successiue corrumpitur. et 
+              <lb ed="#P" n="100"/>go desinit per primum instans non esse: et 
+              calidi<lb ed="#P" n="101" break="no"/>tas etiam successiue producitur. ergo in illo 
+              instan<lb ed="#P" n="102" break="no"/>ti nec erit caliditas nec frigiditas in hoc subiecto 
+              <lb ed="#P" n="103"/>Eodem modo de sanitate et egritudine argumenta 
+              <lb ed="#P" n="104"/>bor.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1177">
+      ⁋ Respondetur: non curando nunc de minimo 
+              <lb ed="#P" n="105"/>naturali quod subito producetur: et sic aliqua pars 
+              <lb ed="#P" n="106"/>frigoris precedentis subito corrumpetur: sed dando ar 
+              <lb ed="#P" n="107"/>gumento omne suum pondus: conceditur illatum. 
+              <lb ed="#P" n="108"/>Nec hoc est inconueniens per illud instans. non 
+              da<lb ed="#P" n="109" break="no"/>tur medium inter sanum e egrum per tempus.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1190">
+      ⁋ Sed quia 
+              <lb ed="#P" n="110"/>potest esse difficultas de nomine sani vel egri que 
+              <lb ed="#P" n="111"/>est ad nomen tantum inter Philosophorum et 
+              Medi<lb ed="#P" n="112" break="no"/>corum principes: sanitas nihil aliud est quam 
+              disposi<lb ed="#P" n="113" break="no"/>tio naturalis viuentis: per quam viuens potest ope 
+              <lb ed="#P" n="114"/>rationes sibi debitas conuenienter exercere. hoc 
+              <lb ed="#P" n="115"/>colligitur ab Auicenna. Fen prima prime. capi. 
+              <lb ed="#P" n="116"/>primo. sanitas est dispositio vel habitus ex qua ope 
+              <lb ed="#P" n="117"/>rationes subiecti sani proueniunt. et Fen secuda 
+              <lb ed="#P" n="118"/>capit. ii. sanitas est dispositio per quam corpus ho 
+              <lb ed="#P" n="119"/>minis in sua complexione et compositione tale exi 
+              <lb ed="#P" n="120"/>stit: vt ab eo omnes operationes eius proueniant 
+              <lb ed="#P" n="121"/>incolumes.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1219">
+      ⁋ Auerrous secundo colliget primo 
+              <lb ed="#P" n="122"/>capitulo. sanitas est bona dispositio in membro cum 
+              <lb ed="#P" n="123"/>ua ipsum operatur operationem quam habet ope 
+              <lb ed="#P" n="124"/>tari secundum naturam: ac patitur passionem quam 
+              <lb ed="#P" n="125"/>habet pati secundum naturam.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1231">
+      ⁋ Terminus egri 
+              <lb ed="#P" n="126"/>udo dupliciter sumitur: primo communiter 
+              pro<lb ed="#P" n="127" break="no"/>qualibet dispositione preter naturam immediate 
+              <lb ed="#P" n="128"/>operationes corporis preter naturaliter 
+              leden<lb ed="#P" n="129" break="no"/>te: siue huiusmodi lesio sensibilis fuerit siue non 
+              <lb ed="#P" n="130"/>et taliter capitur ab nostro <name xml:id="jm12w4-e47422-Nd1e1244" ref="#Aristotle">Aristotele</name> in Postpre¬ 
+      <!--155.xml-->
+      <pb ed="#P" n="70-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dicamentis quod non est dare medium inter sanum et 
+              <lb ed="#P" n="2"/>egrum: et certe ipse medicorum princeps sic accipit 
+              <lb ed="#P" n="3"/>secundo Aphorismorum. commento quarto. vbi Hippo 
+              <lb ed="#P" n="4"/>crates in aphorismo dicit sic. non plenitudo / non 
+              in<lb ed="#P" n="5" break="no"/>digentia / neque aliud quodcumque maius natura fue 
+              <lb ed="#P" n="6"/>rit: nihil bonum. Ubi Galenus in commento cum in praece 
+              <lb ed="#P" n="7"/>dentibus vnum quoddam intellexit. in hoc subsequem 
+              <lb ed="#P" n="8"/>ti omnia subintroducit: ostendens sanitatem 
+              tempera<lb ed="#P" n="9" break="no"/>mentum esse et equalitatem. Et infert. exiens ergo 
+              <lb ed="#P" n="10"/>temperamentum vel equalitatem: proculdubio 
+              inci<lb ed="#P" n="11" break="no"/>dit in infirmitatem: si multum egreditur morbus: si ve 
+              <lb ed="#P" n="12"/>ro parum: causa morbi appellatur. Secundo sumitu 
+              <lb ed="#P" n="13"/>str icte pro dispositione humanum corpus sensibili 
+              <lb ed="#P" n="14"/>ledente. et sic reperitur neutralitas et copus neutrum 
+              <lb ed="#P" n="15"/>vbi non est notabilis discratia a bona harmonia con 
+              <lb ed="#P" n="16"/>plexionis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1289">
+      ⁋ Decimo arguitur sic. grauitas et leuitas 
+              <lb ed="#P" n="17"/>se compatiuntur in eodem subiecto. patet de aere qui est 
+              <lb ed="#P" n="18"/>euis in respectu quarto de celo: et aqua quae est 
+              gra<lb ed="#P" n="19" break="no"/>uis in respectu. aer in sphera aque ascendit: et in sphe 
+              <lb ed="#P" n="20"/>ra ignis descendit. ergo in eo sunt grauitas et leuitas. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1300">
+               <lb ed="#P" n="21"/>⁋ Confirmatur: quia si qualitates contrarie non se 
+              com<lb ed="#P" n="22" break="no"/>paterentur in medio: tunc esset transitus de 
+              extre<lb ed="#P" n="23" break="no"/>mo in extremum non transeundo per medium.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1309">
+      ⁋ Pre 
+              <lb ed="#P" n="24"/>terea: licet forme substantiales elementorum non ma 
+              <lb ed="#P" n="25"/>neant in mixto: tamen eorum qualitates manent in 
+              <lb ed="#P" n="26"/>mixto: alioquin non esset discrimem inter mixtum et 
+              ele<lb ed="#P" n="27" break="no"/>mentum. Non valet autem dicere: quod suntlin variis par 
+              <lb ed="#P" n="28"/>tibus mixti: cum quelibet pars mixti sit mixtum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1322">
+      ⁋ Ad 
+              <lb ed="#P" n="29"/>primum istorum dicitur: licet grauitas terre et leuitas 
+              <lb ed="#P" n="30"/>ignis contrarientur: tamen in acre a aqua non est gra 
+              <lb ed="#P" n="31"/>uitas et leuitas: sed est eadem qualitas que facit ae 
+              <lb ed="#P" n="32"/>rem conscendere super aquam: et descendere sub igne. 
+              <lb ed="#P" n="33"/>sicut eadem virtus trahit ad se cibum et expellit super 
+              <lb ed="#P" n="34"/>fluum: retinendo purum et benignum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1338">
+      ⁋ Ad aliud dicsitr: 
+              <lb ed="#P" n="35"/>quod non est transitus de extremo in extremum non tram 
+              <lb ed="#P" n="36"/>eundo per medium in motu locali: nec in motu 
+              alte<lb ed="#P" n="37" break="no"/>rationis successiuo. sed transit per gradus remissos 
+              <lb ed="#P" n="38"/>Sed palam est quod pilus niger efficitur cauus. et tamen non 
+              <lb ed="#P" n="39"/>transit per viriditatem vel per calores medios. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1352">
+               <lb ed="#P" n="40"/>⁋ Ad tertium dicitur: nec qualitates elementorum 
+              <lb ed="#P" n="41"/>nec eorum forme substantiales manent in mixto: 
+              be<lb ed="#P" n="42" break="no"/>ne tamen manent alique qualitates eiusdem specien 
+              <lb ed="#P" n="43"/>in eis. et multa mixta habent calorem in vna parte 
+              <lb ed="#P" n="44"/>et frigus in alia: vt animalia perfecta ficut cerebrum et 
+              <lb ed="#P" n="45"/>medulle sunt partes frigide. cor hepar spiritus sunt 
+              <lb ed="#P" n="46"/>calide. In aliquibus animalibus exanguibus et in 
+              <lb ed="#P" n="47"/>mixtis imperfectis parum caloris est: sed de hoc in 
+              <lb ed="#P" n="48"/>secundo. vbi queri solet: an elementa maneant in 
+              <lb ed="#P" n="49"/>elementato.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1376">
+      ⁋ Undecimo arguitur: ponendo a 
+              cali<lb ed="#P" n="50" break="no"/>dum in summo: et b frigidum sic applicata: quod vtrumque 
+              <lb ed="#P" n="51"/>sit in sphera actiuitatis alterius: et distent gratia exem 
+              <lb ed="#P" n="52"/>pli pedaliter. Iam a agit in ipsum frigefaciendo 
+              <lb ed="#P" n="53"/>et omne agens in agendo repatitur. primo de genere 
+              <lb ed="#P" n="54"/>tione. et nullum agens naturale agit in remotum quin 
+              <lb ed="#P" n="55"/>agat in medium. secundo de anima. ergo tunc illud medium 
+              <lb ed="#P" n="56"/>mouetur motibus contrariis. hoc est: erit calor et 
+              fri<lb ed="#P" n="57" break="no"/>gus in illo medio.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1396">
+      ⁋ Non iuuat hic currere ad 
+              va<lb ed="#P" n="58" break="no"/>rias partes: ponatur enim a tripedalis longitudinis 
+              <lb ed="#P" n="59"/>pedalis latitudinis applicatum secundum latum be fri 
+              <lb ed="#P" n="60"/>gido talium dimensionum. Iamsi a agat in partem 
+              me<lb ed="#P" n="61" break="no"/>dii interiecti in b frigidum: eadem ratione per aliam partem: 
+              <lb ed="#P" n="62"/>et econuerso. Eodem modo probabo quod erunt qualita 
+              <lb ed="#P" n="63"/>tes contrarie in parte repassa ipsius a quae dicatur c ips 
+              <lb ed="#P" n="64"/>sa cpars repassa frigefit a b passo: etcalefit a parte 
+              <lb ed="#P" n="65"/>non repassa ipsius a que dicatur d. tunc calor et 
+      <!--155.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 70vb -->
+               <lb ed="#P" n="66"/>frigus erunt in cparte repassa.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1425">
+      ⁋ Non autem valet 
+              <lb ed="#P" n="67"/>dicere (sicut dicit quidam) quod in hoc casub agit inc: et 
+              <lb ed="#P" n="68"/>quod b introducit aliquam frigiditatem ( prout ly intro 
+              <lb ed="#P" n="69"/>ducit facit terminum stare confuse tantum) tamen nulla: 
+              <lb ed="#P" n="70"/>frigiditatem introducit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1436">
+      ⁋ Aliter (et 
+              philosophi<lb ed="#P" n="71" break="no"/>ce dicit) respondet quod in hoc casu totaliter sicut fri 
+              <lb ed="#P" n="72"/>giditas introducitur a b: ita corrumpitur a d: et ideo 
+              <lb ed="#P" n="73"/>frigiditas habet hic naturam pure successiui: sicui 
+              <lb ed="#P" n="74"/>enim motus nulle due partes diuisim producte simul 
+              <lb ed="#P" n="75"/>manent: sed vnaqueque sicut producitur ita 
+              corrum<lb ed="#P" n="76" break="no"/>pitur. Sic est hic de frigiditate qua in producendo si 
+              <lb ed="#P" n="77"/>cut producitur ita corrumpitur: et ideo nulli duc 
+              <lb ed="#P" n="78"/>gradus nec aliqua virtus intensionis simul sunt in 
+              <lb ed="#P" n="79"/>subiecto eo quod partes paius genite non manent cum 
+              <lb ed="#P" n="80"/>partibus posterius genitis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1460">
+      ⁋ Neutra istarum solu 
+              <lb ed="#P" n="81"/>tionum sufficit. si enim repassum nullam frigiditatem 
+              <lb ed="#P" n="82"/>producit in a agens principale: nihil in ipsum 
+              pro<lb ed="#P" n="83" break="no"/>ducit: et sic non reagit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1470">
+      ⁋ Insuper non satisfacit ex 
+              <lb ed="#P" n="84"/>perientiis: carbo enim ignitus in paruo igne deni 
+              <lb ed="#P" n="85"/>gratur per appositionem magni pomi et frigidi vel 
+              <lb ed="#P" n="86"/>per appositionem plurium (vt intueri possumus) ergo 
+              <lb ed="#P" n="87"/>oportet dicere ibi plures esse gradus frigiditatis in 
+              <lb ed="#P" n="88"/>carbonae ex tincto: potissimum cum ipse ponat compos 
+              <lb ed="#P" n="89"/>sibilitatem qualitatum contrariarum: et vbi latitudo 
+              <lb ed="#P" n="90"/>non completur in vna forma ponuntur gradus al 
+              <lb ed="#P" n="91"/>terius forme ad complementum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1490">
+      ⁋ Potest dici quod 
+              <lb ed="#P" n="92"/>agens in agendo repatitur ad hunc sensum: quia mi 
+              <lb ed="#P" n="93"/>nus agit in conspectu sui contrarii: non quod aliqua pars 
+              <lb ed="#P" n="94"/>agentis repatiatur suscipiendo qualitatem illius 
+              pas<lb ed="#P" n="95" break="no"/>si.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1501">
+      ⁋ Sed contra hoc arguitur sic. quando pomum 
+              po<lb ed="#P" n="96" break="no"/>nitur in ignem calefit: et corrumpit partem ignis vici- 
+              <lb ed="#P" n="97"/>nam: videmus enim carbonem pomo vicinum denigra 
+              <lb ed="#P" n="98"/>tum: et hoc non esset nisi quia frigiditas a humiditas 
+              <lb ed="#P" n="99"/>pomi reagit. Idem potest ostendi per guttam aque 
+              <lb ed="#P" n="100"/>frigide cadentem super carbonem ignitum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1514">
+      ⁋ Iste ra 
+              <lb ed="#P" n="101"/>tiones non vincunt: quia illud non fit a frigore: aqua enim 
+              <lb ed="#P" n="102"/>calida vel pomum calefactum hoc facit: sed est 
+              propoter<lb ed="#P" n="103" break="no"/>ea quia erant exhalationes ignite in poris illius partis 
+              <lb ed="#P" n="104"/>que non poterant habere exitum obingressum illi 
+              <lb ed="#P" n="105"/>partis aque: ita quod ille exhalationes coguntur ingre 
+              <lb ed="#P" n="106"/>di illos poros. Nec valet experientia de ferro 
+              ca<lb ed="#P" n="107" break="no"/>lefacto in aquam misso quod aqua calefiat et ferrum fri 
+              <lb ed="#P" n="108"/>gefiat.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1534">
+      ⁋ Potest enim dici quod ferrum ignitum non 
+              <lb ed="#P" n="109"/>calefacit illam aquam frigidam: licet enim aqua 
+              <lb ed="#P" n="110"/>appareat esse calida tamen non est. In ferro enim 
+              <lb ed="#P" n="111"/>ignito erant alique exhaltationes que appetunt 
+              <lb ed="#P" n="112"/>ascendere sursum: et quia non possunt facile diuidere 
+              <lb ed="#P" n="113"/>aquam pro tempore manent commixte aque: et sic 
+              ap<lb ed="#P" n="114" break="no"/>paret aqua realiter frigida et calida.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1550">
+      ⁋ Secundo 
+              <lb ed="#P" n="115"/>dicitur: quod caliditas ferri corrumpit frigiditatem aque 
+              <lb ed="#P" n="116"/>sed frigiditas aque non corrumpit frigiditatem fer 
+              <lb ed="#P" n="117"/>ri. ferrum enim in fine apparet frigidum: quia aqua 
+              <lb ed="#P" n="118"/>ingressa poros ipsius ferri prohibet ne amplius pos 
+              <lb ed="#P" n="119"/>sent eleuari exhalationes in illis poris ferri inclu 
+              <lb ed="#P" n="120"/>se: et sic corrumpitur calor ferri. Et quod ita sit patet: quia 
+              <lb ed="#P" n="121"/>eodem modo frigefiet in aqua calida: sic etiam ignis 
+              <lb ed="#P" n="122"/>extingueretur in fornace bene clausa: in quam aer 
+              <lb ed="#P" n="123"/>non ingreditur. Propterea facientes carbones 
+              li<lb ed="#P" n="124" break="no"/>gneos relinquunt vnam discoperturam: vt ignis 
+              <lb ed="#P" n="125"/>non extinguatur:
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1577">
+      ⁋ Sed contra dices: non solum 
+              <lb ed="#P" n="126"/>erant exhalationes ignite incluse in poris ferri: sibed 
+              <lb ed="#P" n="127"/>et ipsum ferrum erat calidum. Modo aqua 
+              cali<lb ed="#P" n="128" break="no"/>da illum calorem non corrumpit: ergo ferrum in aqua 
+              <lb ed="#P" n="129"/>calida manebit calidum: et in aqua frigida erit fri 
+              <lb ed="#P" n="130"/>gidum. ergo calor et frigus erunt simul in eodem 
+      <!--156.xml-->
+      <pb ed="#P" n="71-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>subiecto. Non dubitamus quin vnum agens potest 
+              <lb ed="#P" n="2"/>agere in aliquod passum per vnam qualitatem illi calori 
+              <lb ed="#P" n="3"/>non contrariam: vtputa humiditas aque et siccitatem ignis. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1603">
+               <lb ed="#P" n="4"/>⁋ Si dicas: pomum frigidum frigefacit manum et 
+              cale<lb ed="#P" n="5" break="no"/>sit ab eadem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1610">
+      ⁋ hoc negatur: frigiditas enim pomi 
+              cor<lb ed="#P" n="6" break="no"/>rumpit alique calorem manus: et postea transmittitur 
+              <lb ed="#P" n="7"/>multum caloris naturalis vt calor corrumpat 
+              frigi<lb ed="#P" n="8" break="no"/>ditatem pomi: et tunc frigiditas pomi nihil agit in 
+              il<lb ed="#P" n="9" break="no"/>lum calorem. Et eodem modo de glacie vel niue in 
+              m<lb ed="#P" n="10" break="no"/>nu inclusa dicatur: et forte aliqua corpuscula pomi ingre 
+              <lb ed="#P" n="11"/>diuntur poros manus et ipsa non est realiter frigida. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1626">
+               <lb ed="#P" n="12"/>⁋ Sed contra istud arguitur: vel istud corpus frigidum 
+              <lb ed="#P" n="13"/>est alicuius actiuitatis vel nullius: secundum non est 
+              <lb ed="#P" n="14"/>dicendum: quia tunc nullum frigidum ageret in quodcumque 
+              <lb ed="#P" n="15"/>calidum: si alicuius actiuitatis sit: tunc stat calorem 
+              <lb ed="#P" n="16"/>esse minoris resistentie: modo ab omni proportione 
+              ma<lb ed="#P" n="17" break="no"/>ioris inequalitatis fit actio. vii. physicorum. Quod non in 
+              <lb ed="#P" n="18"/>conueniat (immo quod verum est. quod calor sit maioris actiu 
+              <lb ed="#P" n="19"/>tatis quam frigus et minoris resistentie quam frigus 
+              proba<lb ed="#P" n="20" break="no"/>tur sic: quia alioquin non videtur modus possibilis de 
+              <lb ed="#P" n="21"/>actione et reactione per medium: et quod aliqua pars passi 
+              <lb ed="#P" n="22"/>repatiatur contra <name xml:id="jm12w4-e47422-Nd1e1652" ref="#Aristotle">Aristotelem</name> et commentatorem primo 
+              <lb ed="#P" n="23"/>de generatione: vbi dicit Arist: quod omne agens in 
+              agen<lb ed="#P" n="24" break="no"/>do repatitur: et commentator tertio physicorum commento. xvii 
+              <lb ed="#P" n="25"/>dicit quod omne agens communicans in materia in agendo 
+              <lb ed="#P" n="26"/>repatitur. et ille est communis modus in philosophia 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1664">
+               <lb ed="#P" n="27"/>⁋ Insuper aliquid patitur quod non agit: et aliquid agit 
+              <lb ed="#P" n="28"/>uod non patitur: ergo non inconuenit dare eandem 
+              qua<lb ed="#P" n="29" break="no"/>litatem que agat a patiatur: que tamen magis agat 
+              <lb ed="#P" n="30"/>quam patiatur: et contra.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1675">
+      ⁋ hoc ipsum pobatur 
+              experi<lb ed="#P" n="31" break="no"/>mentis. homo enim aquam frigidam multo tempore 
+              susti<lb ed="#P" n="32" break="no"/>net in manu sine lesione: et non ebullientem: et hoc non 
+              <lb ed="#P" n="33"/>nisi calor esset frigore actiuior: humiditas etiam sen 
+              <lb ed="#P" n="34"/>sibilius et in breuiori tempore humectat quam siccitas 
+              de<lb ed="#P" n="35" break="no"/>siccat: aqua enim non desiccatur sensibiliter: quia 
+              humidi<lb ed="#P" n="36" break="no"/>tas et siccitas sunt maioris resistentie quam calor et 
+              fri<lb ed="#P" n="37" break="no"/>gus: patet secundum <name xml:id="jm12w4-e47422-Nd1e1692" ref="#Aristotle">Aristotelem</name>. ii. de generatione et 
+              quar<lb ed="#P" n="38" break="no"/>to meteororum: qualitatum primarum due sunt actiue scilicet 
+              <lb ed="#P" n="39"/>caliditas et frigiditas: et due passiue humiditas et sicci 
+              <lb ed="#P" n="40"/>citas: et facilius curatur lapsus ad humidum in 
+              cor<lb ed="#P" n="41" break="no"/>pore sanabili quam lapsus ad siccum: et facilius 
+              mouen<lb ed="#P" n="42" break="no"/>corpora sicca per corpora humida quam econuerso: diff 
+              <lb ed="#P" n="43"/>cilius etiam frigida calefiunt quam calida frigefiant: pa 
+              <lb ed="#P" n="44"/>tet de aqua calida quecito infrigidatur a non cito 
+              ca<lb ed="#P" n="45" break="no"/>lefit et de manu. Ex sibilabis modum laurentianum 
+              vnde<lb ed="#P" n="46" break="no"/>cimo capite primi libri qui negat siccitatem esse 
+              qua<lb ed="#P" n="47" break="no"/>litatem: dicit enim quod est priuatio a solum carentia humid 
+              <lb ed="#P" n="48"/>tatis. inscite inquit traditur a physicis esse in corpo 
+              <lb ed="#P" n="49"/>ribus nostris quattuor humores.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1723">
+      ⁋ Et ista tenende 
+              <lb ed="#P" n="50"/>patent aliqua.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1728">
+      ⁋ Primo quod in qualitatibus primis du 
+              <lb ed="#P" n="51"/>plex est latitudo: scilicet actiuitatis et resistentie: et vtragu 
+              <lb ed="#P" n="52"/>illarum latitudinum quadrifariam scinditur in actiuitate 
+              <lb ed="#P" n="53"/>inchoando a caliditate frigiditate humiditate vel sicci 
+              <lb ed="#P" n="54"/>tate: in resistentia econtrario.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1739">
+      ⁋ Secundo patet: quod con 
+              <lb ed="#P" n="55"/>uenientissime a deo hoc ordinatu est vt ignis maxime 
+              <lb ed="#P" n="56"/>actiuitatis minime esset resistentie: ne alia 
+              corrumpe<lb ed="#P" n="57" break="no"/>ret. Caurentius dicit si vna pars vnius elementi aliam 
+              <lb ed="#P" n="58"/>alterius corrumperet ia esset vacui vel penetratio cor 
+              <lb ed="#P" n="59"/>porum. gratiose certe disputat.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1752">
+      ⁋ Tertio patet quod siet hec 
+              <lb ed="#P" n="60"/>actiuitas ignis sit maior actiuitas quam sit resistetia: tamen 
+              <lb ed="#P" n="61"/>non est res maior cum vna et eadem res nunero sit 
+              actiui<lb ed="#P" n="62" break="no"/>tas et resistentia. potentia actiua et resistitiva.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1761">
+      ⁋ Qual 
+              <lb ed="#P" n="63"/>to patet quod licet resistentia caloris sit vt octo gradus 
+              <lb ed="#P" n="64"/>tamen solu resistentie vt qnattuor: patet si actiuitas signetur 
+              <lb ed="#P" n="65"/>ad octo a resistentia subdupla: iam resistentia est octo 
+              <lb ed="#P" n="66"/>gradus. Quod patet: quia hec actiuitas est octo gradus: et 
+      <!--156.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 71rb -->
+               <lb ed="#P" n="67"/>hec actiuitas est haec resistentia. igitur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1781">
+      ⁋ Si ponas quod 
+              <lb ed="#P" n="68"/>diminuantur ille latitudines vniformiter: iam quando 
+              <lb ed="#P" n="69"/>erunt quattuor gradus actiuitati nullus erit gradus 
+              <lb ed="#P" n="70"/>resistentie.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1791">
+      ⁋ Respondetur: non est possibile quod 
+              vnifor<lb ed="#P" n="71" break="no"/>miter remittantur sed bene eque proportionabiliter: 
+              si<lb ed="#P" n="72" break="no"/>cut homines dicere solent de euidentia premissarum et 
+              <lb ed="#P" n="73"/>conclusionis.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1800">
+      ⁋ Quinto patet quod male dicunt 
+              frigidita<lb ed="#P" n="74" break="no"/>tem esse tante actiuitatis quante resistentie: et ita in aliis 
+              <lb ed="#P" n="75"/>qualitatibus et male saluant aliqui reactionem: quod totum 
+              <lb ed="#P" n="76"/>reasit in partem totius: quia habet dominium super illam partem. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1809">
+               <lb ed="#P" n="77"/>⁋ hoc non valet: quia si parum frigoris agat in partem hu 
+              <lb ed="#P" n="78"/>ius parui ignis aget in totum ignem categorematice. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1816">
+               <lb ed="#P" n="79"/>⁋ Item pars magis resistit in suo toto quam extra suum 
+              <lb ed="#P" n="80"/>otum / quia iuuatur a reliquis partibus circunstantibus. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1823">
+               <lb ed="#P" n="81"/>⁋ Insuper hac via non esset dabile ita paruum frigus 
+              <lb ed="#P" n="82"/>quin ageret in maximum calorem: quod est inconueniens: patet 
+              <lb ed="#P" n="83"/>quia si pars in toto non sit maioris actiuitatis quam sepa 
+              <lb ed="#P" n="84"/>rata iam infinite parue resistentie dabitur vna pars 
+              to<lb ed="#P" n="85" break="no"/>tius.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1836">
+      ⁋ Possumus ergo dicere quod omne agens in 
+              agen<lb ed="#P" n="86" break="no"/>do repatitur a suo contrario: dum modo eius contrarium 
+              <lb ed="#P" n="87"/>sit actiuum et eius actiuitas exuperet resistentiam agen 
+              <lb ed="#P" n="88"/>tis principalis / et ipsum agens fuerit in sphera 
+              actiuita<lb ed="#P" n="89" break="no"/>tis ipsius passi. Stat enim passum esse infra spheram acti 
+              <lb ed="#P" n="90"/>uitatis ipsius agentis quando agens non erit infra spheram 
+              <lb ed="#P" n="91"/>actiuitatis ipsius passi: et tunc ad punctum argumenti quo 
+              <lb ed="#P" n="92"/>probatur quod idem medium moueretur motibus contrariis: 
+              simili<lb ed="#P" n="93" break="no"/>ter quod e pars repassa simul calefiet et frigefset: vtrumque 
+              <lb ed="#P" n="94"/>negatur. Corpus enim frigidum producit species 
+              frigidita<lb ed="#P" n="95" break="no"/>tis ad a calidum vsque: et corpus calidum producit species 
+              <lb ed="#P" n="96"/>vel calorem ad b passum vsque: species frigoris ipsius 
+              <lb ed="#P" n="97"/>b passi corrumpunt calorem vnius partis agentis scilicet c. 
+              <lb ed="#P" n="98"/>licet non sit contrarietas formalis inter species 
+              frigo<lb ed="#P" n="99" break="no"/>ris et calorem nec inter species caloris et frigoris 
+              quen<lb ed="#P" n="100" break="no"/>admodum est de speciebus albedinis et nigredinis: 
+              <lb ed="#P" n="101"/>lamen est virtualis contrarietas inter species 
+              fri<lb ed="#P" n="102" break="no"/>goris et calorem: sicut inter formam substantialem aque 
+              <lb ed="#P" n="103"/>et calorem: vel sicut inter lumen et frigus. Modo species 
+              <lb ed="#P" n="104"/>frigoris reflectuntur ab a calido a si multum vniuntur illic 
+              <lb ed="#P" n="105"/>corrumpunt caloremc partis: et sic nec est contrarietas in 
+              <lb ed="#P" n="106"/>medio nec in c parte rapassa.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1885">
+      ⁋ Sed contra hoc argui 
+              <lb ed="#P" n="107"/>tur: d pars non repassa agit in b passum modo omne 
+              <lb ed="#P" n="108"/>agens naturale fortius agit in propinquum quam in di 
+              <lb ed="#P" n="109"/>stans: secundo de anima: ergo si d pars agat in bpassum 
+              <lb ed="#P" n="110"/>impediet species frigoris producere frigus cin 
+              par<lb ed="#P" n="111" break="no"/>tem: et si frigus esset productum remitteret et eradicaret. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1898">
+               <lb ed="#P" n="112"/>⁋ Respondetur concedendo quod omne agens naturale 
+              for<lb ed="#P" n="113" break="no"/>tius agit in propinquum quam in distans ceteris paribus: 
+              <lb ed="#P" n="114"/>modo hic cetera sunt imparia: species enim frigoris pro 
+              <lb ed="#P" n="115"/>pe corpus calidum reperiunt contrarietatem et vniuntur et 
+              <lb ed="#P" n="116"/>fortificantur per antiparistasim: sicut generatur ignis 
+              <lb ed="#P" n="117"/>in radiis vnitis in speculo concauo e reflexis non autem 
+              <lb ed="#P" n="118"/>in alio loco prope corpus luminosum. similiter media 
+              <lb ed="#P" n="119"/>regio aeris est frigidior in estate quam in hyeme. Quod pa 
+              <lb ed="#P" n="120"/>tet: quia generantur grandines in estate at non hyeme. vt 
+              <lb ed="#P" n="121"/>patet. ii. meteororum. hic cauerne stre calidiores in 
+              hye<lb ed="#P" n="122" break="no"/>me sunt quam in estate. et secundum hypocratem aphorismo 
+              <lb ed="#P" n="123"/>xv. particula prima: ventres et vrma calidiores sunt 
+              <lb ed="#P" n="124"/>in hyeme quam in estate: et sic cetera sunt imparia. d pars 
+              <lb ed="#P" n="125"/>non repassa continue agit in b passum ipsum ei 
+              assi<lb ed="#P" n="126" break="no"/>milando quoad ipsum attenuauerit sic quod non potest 
+              <lb ed="#P" n="127"/>reagere: et tunc corrumpit fiigus in ec partem repassam et 
+              <lb ed="#P" n="128"/>ipsam ei assimilat.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1937">
+      ⁋ Sed contra hoc arguitur: 
+              spe<lb ed="#P" n="129" break="no"/>cies albedinis non producunt albedinem: ergo nec species 
+              <lb ed="#P" n="130"/>caloris calorem.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1944">
+      ⁋ Ulterius d pars non repassa erat 
+              <lb ed="#P" n="131"/>ta fortis a principio sicut nunc: ergo si ante non 
+              corrumpe<lb ed="#P" n="132" break="no"/>bat figus cpartis repasse: neque nunc.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1951">
+      ⁋ Respondetur quod 
+      <!--157.xml-->
+      <pb ed="#P" n="71-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>argumentum non est maioris ponderis: quam si diceres at 
+              <lb ed="#P" n="2"/>bedo non producit albedinem: ergo neque calor calorem. 
+              <lb ed="#P" n="3"/>deus enim qualitatibus actiuis dedit instrumenta ad eas 
+              <lb ed="#P" n="4"/>supplendas et producendas: non autem aliis: hoc partim 
+              <lb ed="#P" n="5"/>ratione partim experientia constat.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1971">
+      ⁋ Ad aliud 
+              con<lb ed="#P" n="6" break="no"/>ceditur quod d erat potens sicut nunc: sed b passum manu 
+              <lb ed="#P" n="7"/>tenuit species suas et do non poterat agere. Etiam dicitur 
+              <lb ed="#P" n="8"/>quod talis est natura agentis vt parius reducatur passum 
+              <lb ed="#P" n="9"/>ad impossibilitatem reactionis quam restituat se pristine 
+              <lb ed="#P" n="10"/>integritati.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e1985">
+      ⁋ Undecimo arguitur sic: idem ascendit a non 
+              <lb ed="#P" n="11"/>ascendit in eodem tempore secundum quamlibet partem sui 
+              naturali<lb ed="#P" n="12" break="no"/>ter. ergo ec. antecedens patet. proiiciatur faba sursum cui occui 
+              <lb ed="#P" n="13"/>it molaris tunc faba quiescit in puncto reflexionis. quia 
+              <lb ed="#P" n="14"/>omne quod reflectitur in puncto reflexionis quiescit: octa 
+              <lb ed="#P" n="15"/>uo physicorum: sed non quiescat sed continuo descendat cum 
+              <lb ed="#P" n="16"/>primum molari obuiat: patet: quia alioquin non ab omni 
+              <lb ed="#P" n="17"/>proportione maioris inequalitatis fieret actio quod est 
+              <lb ed="#P" n="18"/>falsum.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2005">
+      ⁋ Respondetur negando antecedens: et ad probationem 
+              <lb ed="#P" n="19"/>icitur quod faba per nullum tempus proprie quiescit: sed quiescit 
+              <lb ed="#P" n="20"/>quiete improprie dicta: hoc est instantanea: instans 
+              <lb ed="#P" n="21"/>enim contactus est primum instans non esse motus sursum: 
+              <lb ed="#P" n="22"/>cum eius non datur vltimum instans esse: et est vltimum 
+              <lb ed="#P" n="23"/>instans non esse illius motus deorsum. <name xml:id="jm12w4-e47422-Nd1e2018" ref="#Aristotle">Aristoteles</name> intel 
+              <lb ed="#P" n="24"/>igit quod detur tempus medium si fuerit reflexio ab 
+              intrin<lb ed="#P" n="25" break="no"/>seco. et hoc patet si quis proiiciat graue sursum cuius 
+              re<lb ed="#P" n="26" break="no"/>sistentia intrinseca sit vt duo a medium resistat vt vnum 
+              <lb ed="#P" n="27"/>virtus impressa ab impellente mouens sursum vt quinque 
+              <lb ed="#P" n="28"/>ille lapis continuo mouetur sursum donec illa virtus 
+              <lb ed="#P" n="29"/>remittatur ad tria: tunc cum virtus erit vt tria lapis 
+              <lb ed="#P" n="30"/>quiescet: quoniam tunc resistentia intrinseca et extrinseca erunt 
+              <lb ed="#P" n="31"/>equalis potentie a non statim incipiet descendere: quia 
+              <lb ed="#P" n="32"/>tunc virtus vt tria resistit ne fiat motus deorsum e me 
+              <lb ed="#P" n="33"/>dium resistit vt vnum: erit ergo resistentia vt quattuor 
+              <lb ed="#P" n="34"/>ne fiat motus deorsum moues erit solum vt duo. et cum 
+              <lb ed="#P" n="35"/>non fiat actio a proportione mi oris inequalitatis 
+              opi<lb ed="#P" n="36" break="no"/>virtutem vt tria remitti ad vnum: vt incipiat lapis iste 
+              <lb ed="#P" n="37"/>descendere: sed latitudo viitutis a tribus ad vnum vsque 
+              <lb ed="#P" n="38"/>non potest deperdi subito: ergo deperdetur in tempore in quo 
+              <lb ed="#P" n="39"/>graue datum quiescet: et hoc innuebat philosophus. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2056">
+               <lb ed="#P" n="40"/>⁋ Sed dices sol mouetur ab oriente et occidente in eodem 
+              <lb ed="#P" n="41"/>tempore: et illi motus contrariantur. Respondetur quod cum 
+              <lb ed="#P" n="42"/>illi motus sunt super diuersos polos (super polos 
+              mum<lb ed="#P" n="43" break="no"/>di ab oriente ad occidentem versus describendo equato 
+              <lb ed="#P" n="44"/>rem: et ab occidente orientem versus super polos zodia 
+              <lb ed="#P" n="45"/>ci non contrariantur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2072">
+      ⁋ Duodecimo arguitur de musca. 
+              <lb ed="#P" n="46"/>iscendente super lanceam descendentem: iam musca ascen 
+              <lb ed="#P" n="47"/>dit ea descendit: et tanta est repugnantia quod idem conscen 
+              <lb ed="#P" n="48"/>dat et descendat sicut quod qualitates contrarie se compa 
+              <lb ed="#P" n="49"/>tiantur. igitur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2083">
+      ⁋ Simile potest fieri de cera cuius vna 
+              <lb ed="#P" n="50"/>medietas descendit per rarefactionem: et alia ascendit 
+              ce<lb ed="#P" n="51" break="no"/>lum versus: et de homine in naui currente quiorientem ver 
+              <lb ed="#P" n="52"/>sus currit naui contra mota.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2092">
+      ⁋ Respondetur negando quod 
+              <lb ed="#P" n="53"/>musca ascendat et descendat. vel enim musca magis 
+              ap<lb ed="#P" n="54" break="no"/>propinquat celo e tunc ascendit simpliciter: vel 
+              econuer<lb ed="#P" n="55" break="no"/>o a tunc descendit. si equaliter nec descendit nec ascen 
+              <lb ed="#P" n="56"/>dit: non curamus de corpore quod potest esse motum extra 
+              <lb ed="#P" n="57"/>vniuersum bene tamen potest ascendere in respectu lancce. 
+              <lb ed="#P" n="58"/>Ascendere simpliciter est pius appopinquare celor 
+              <lb ed="#P" n="59"/>opposito modo descendere. si cera magis lucretur sursum 
+              <lb ed="#P" n="60"/>que deorsum conscendit simpliciter: si contra descendit: si 
+              <lb ed="#P" n="61"/>equaliter nec ascendit nec descendit copulatiue: bene 
+              <lb ed="#P" n="62"/>est ascendens et descendens copulatim: quia hoc 
+              ascen<lb ed="#P" n="63" break="no"/>dens et hoc descendens demonstrando duas medietates 
+              <lb ed="#P" n="64"/>eius. Sic potest solui argumentum de illo qui mouetur 
+              <lb ed="#P" n="65"/>n naui: vel enim est magis in oriente quam erat a principio 
+              <lb ed="#P" n="66"/>vel non: vel equaliter. Si primum: mouetur ad orientem sim¬ 
+      <!--157.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 71vb -->
+               <lb ed="#P" n="67"/>liciter. licet ad occidentem respectu nauis. si secundum 
+              <lb ed="#P" n="68"/>mouetur simpliciter ad occidentem: si tertium nec 
+              moue<lb ed="#P" n="69" break="no"/>tur ad orientem nec ad occidentem: nec aliam differentiam 
+              <lb ed="#P" n="70"/>positionis versus nec currit: quemadmodum: homo mouens 
+              <lb ed="#P" n="71"/>nembra continuo in eodem loco non currit: vt patet de 
+              <lb ed="#P" n="72"/>condente canabem vel linum: bene enim fatigatur ac si 
+              <lb ed="#P" n="73"/>curreret: non tamen currit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2148">
+      ⁋ Si lancea quinque vlnarum 
+              ha<lb ed="#P" n="74" break="no"/>beat vnum extremum in cetro a ipsum penetret semper descem 
+              <lb ed="#P" n="75"/>dit lancea quo ad medietas lacee tangat centrum terre 
+              <lb ed="#P" n="76"/>quia semper magis recedit a superficie concaua celi: sed si 
+              <lb ed="#P" n="77"/>posthoc continue moueatur semper ascendit.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2159">
+      ⁋ Pontesse 
+              <lb ed="#P" n="78"/>difficultas de angelo qui potest esse in loco decem 
+              pe<lb ed="#P" n="79" break="no"/>lum qui forte potest se retrahere circa centrum sui loci ma 
+              <lb ed="#P" n="80"/>nendo simpliciter in vno pedali: an tunc potest conscende 
+              <lb ed="#P" n="81"/>re et descendere.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2170">
+      ⁋ Sed potest solui per illud quod dictum est 
+              <lb ed="#P" n="82"/>de rarefactone cere quando ita foret: sed non est omnino idem 
+              <lb ed="#P" n="83"/>quia cera secundum varias partes mouetur sursum et deor 
+              <lb ed="#P" n="84"/>sum: et angelus non habet partes: sed nunc non insisto. 
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2179">
+               <lb ed="#P" n="85"/>⁋ Sed dices: tunc aliquid quiescit cuius quelibet 
+              nme<lb ed="#P" n="86" break="no"/>dietas mouetur: patet de cera cuius vna medietas 
+              ascen<lb ed="#P" n="87" break="no"/>dit a reliqua descendit: centro illius equaliter distante 
+              <lb ed="#P" n="88"/>a centro mundi tunc hec cera non ascendit simpliciter: 
+              <lb ed="#P" n="89"/>upposito quod vna pars tantum ascendat quantum altera 
+              <lb ed="#P" n="90"/>descendit: nec mouetur hec cera totalis ad occidentem 
+              <lb ed="#P" n="91"/>orientem vel ad aliam differentiam positionis versus. Quod 
+              <lb ed="#P" n="92"/>um concedas: arguitur sic. hec medietas mouetur: et illa 
+              <lb ed="#P" n="93"/>medietas mouetur: ergo he due medietates mouentur: 
+              <lb ed="#P" n="94"/>et he due medietates sunt hec cera: ergohec cera moue 
+              <lb ed="#P" n="95"/>tur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2205">
+      ⁋ Si dicas (sicut dicendum est) quod consequentia est nulla: quia 
+              <lb ed="#P" n="96"/>omportet concludere hec cera est partes mote: sed cera 
+              <lb ed="#P" n="97"/>quiescit simpliciter a motu deorsum: et quiescit 
+              simpli<lb ed="#P" n="98" break="no"/>liter a motu sursum. nec sequitur vna medietas illius 
+              <lb ed="#P" n="99"/>cere mouetur deorsum simpliciter: ergo hec totalis 
+              <lb ed="#P" n="100"/>cera: altera enim medietas tantum impedit. sicut non se 
+              <lb ed="#P" n="101"/>quitur: hec medietas huius corporis est alba: ergo hoc 
+              <lb ed="#P" n="102"/>corpus est album.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2223">
+      ⁋ Si dicas: hic binarius mouetur 
+              <lb ed="#P" n="103"/>dic binarius est hec cera: ergo hec ceramouetur: 
+              vi<lb ed="#P" n="104" break="no"/>de praedicatum maioris a ipsum inferas in conclusio 
+              <lb ed="#P" n="105"/>ne a illatio est optima et semper reperies conclusionem 
+              <lb ed="#P" n="106"/>concedendam velmaiorem falsam cum conclusione. si 
+              <lb ed="#P" n="107"/>enim in maiore intelligas res mota: iam maiorem 
+              infi<lb ed="#P" n="108" break="no"/>cis. Si intelligas motus binarius: tunc conclusio hoc 
+              <lb ed="#P" n="109"/>modo inferendo conceditur.
+            </p>
+            <p xml:id="jm12w4-e47422-d1e2242">
+      ⁋ Ex hoc soluere potes 
+              <lb ed="#P" n="110"/>casum glebe descendentis ad centrum remoto 
+              prohi<lb ed="#P" n="111" break="no"/>bente quod ipsa non quiescit donec centrum eius sit centrum 
+              <lb ed="#P" n="112"/>mundi: quod vna pars ascendat reliqua descendente: sed  
+              <lb ed="#P" n="113"/>infinitum tarde talis gleba descendit: quando vna 
+              cen<lb ed="#P" n="114" break="no"/>tesima pars est extra centrum illa cogitur ascendere 
+              <lb ed="#P" n="115"/>sursum ab aliis et resistit et cum post continue erit 
+              ma<lb ed="#P" n="116" break="no"/>ior pars ex altera parte centri continuo erit maior 
+              re<lb ed="#P" n="117" break="no"/>sistentia. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

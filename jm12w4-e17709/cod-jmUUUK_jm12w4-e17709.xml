@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="27-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e17709"> <!--l1d2q1 -->
+            <head xml:id="jm12w4-e17709-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e17709-Hd1e109" type="question-title">An Deum esse sit per se notum, an demonstrabile a viatore</head>
+            <p xml:id="jm12w4-e17709-d1e112">
+               <lb ed="#P" n="119"/>⁋ <quote xml:id="jm12w4-e17709-Qd1e116" source="http://scta.info/resource/pll1d2c1-d1e3473" synch="1-16">hoc itaque vera ac pia fide tenendum est 
+              <lb ed="#P" n="120"/>quod trinitas vnus sit et solus verus deus.</quote> 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e122">
+               <lb ed="#P" n="121"/>⁋ Distinctionis secunde questio prima. 
+              <lb ed="#P" n="122"/>Iirca istam secundam distin 
+              <lb ed="#P" n="123"/>tionem queritur: an deum 
+              <lb ed="#P" n="124"/>
+               <unclear>rem</unclear> sit per se notum / an 
+              demonstra<lb ed="#P" n="125" break="no"/>bile a viatore. Explicabitur 
+              <lb ed="#P" n="126"/>terminus per se notum: postea 
+              <lb ed="#P" n="127"/>conclusiue respondebitur ad 
+              <lb ed="#P" n="128"/>uestionem prepositam.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e146">
+      ⁋ Pro 
+              <lb ed="#P" n="129"/>ositio per se nota est propo 
+              <lb ed="#P" n="130"/>sitio: cuius assensum causant 
+              <lb ed="#P" n="131"/>termini intuitiue / vel abstra 
+      <!--69.xml-->
+      <pb ed="#P" n="27-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ctiue perfecte cogniti in mente habentis vtentis 
+              <lb ed="#P" n="2"/>ratione. quod enim naturaliter assensus premissarum cau 
+              <lb ed="#P" n="3"/>sat assensum conclusionis: tam naturaliter notiti 
+              <lb ed="#P" n="4"/>terminorum siue intuitiue siue abstractiue causant 
+              <lb ed="#P" n="5"/>assensum ipsius propositionis: supposito quod deus con 
+              <lb ed="#P" n="6"/>currat cum influentia generali ad productionem 
+              <lb ed="#P" n="7"/>assensus: quia ad notitiam terminorum concurreret. 
+              <lb ed="#P" n="8"/>et non ad assensum: iam in intellectum essent notitie ter 
+              <lb ed="#P" n="9"/>minorum absque iudicio propositionis. Et istud potit 
+              <lb ed="#P" n="10"/>simum si notitia terminorum habeatur in eodem loc 
+              <lb ed="#P" n="11"/>quia si idem esset in variis locis: et notitia apprehi 
+              <lb ed="#P" n="12"/>siua vnius termini solum haberetur in vno loco: 
+              da<lb ed="#P" n="13" break="no"/>to quod deus concurreret concursu generali quantum 
+              <lb ed="#P" n="14"/>est de se non causabitur assensus illius propositio 
+              <lb ed="#P" n="15"/>nis: quia vel in vno loco tantum causabitur: et hoc 
+              <lb ed="#P" n="16"/>non. quia equa est ratio de terminis in aliis locis: 
+              <lb ed="#P" n="17"/>vel in quolibet illorum locorum: Sed patet quod non: si 
+              <lb ed="#P" n="18"/>enim ignis esset in quattuor locis: et in quolibet ha 
+              <lb ed="#P" n="19"/>beret precise vnum gradum caloris: nullibi 
+              cale<lb ed="#P" n="20" break="no"/>faceret passum calefactum vt tria: quia tunc ageret 
+              <lb ed="#P" n="21"/>vltra gradum sue perfectionis in illo loco: non 
+              assi<lb ed="#P" n="22" break="no"/>milaret passum: sed dissimilaret. Sed hic aliquio 
+              <lb ed="#P" n="23"/>discriminis est de passo extrinseco &amp; intrinseco. Ite 
+              <lb ed="#P" n="24"/>in nullo illorum locorum est causa sufficiens produ- 
+              <lb ed="#P" n="25"/>ctiua iudicii: ergo in nullo illorum locorum est illud 
+              <lb ed="#P" n="26"/>iudicium: consequentia est lucida. et antecedens 
+              <lb ed="#P" n="27"/>patet ex hypothesi
+            </p>
+            <p xml:id="jm12w4-e17709-d1e220">
+      ⁋ Sed hic dicet aduersarius 
+              <lb ed="#P" n="28"/>antecedens esse falsum: sufficit enim quod notitia illo 
+              <lb ed="#P" n="29"/>rum terminorum fuerit in hac anima a notitia di 
+              <lb ed="#P" n="30"/>stans ad mille leucas concurret ad productionem 
+              <lb ed="#P" n="31"/>assensus in hoc loco: nec hoc inconuenit quando 
+              in<lb ed="#P" n="32" break="no"/>heret eidem passo: cui inheret notitia existens in 
+              <lb ed="#P" n="33"/>hoc loco. Sed illud dependet ex dictis in decima 
+              <lb ed="#P" n="34"/>distinctione quarti questione secunda.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e238">
+      ⁋ Dicitur 
+              <lb ed="#P" n="35"/>propositio per se nota: quia per terminos suimet 
+              <lb ed="#P" n="36"/>assensus suus causatur: nec probari potest a 
+              prio<lb ed="#P" n="37" break="no"/>ri vel a posteriori: quia nisi sic propositio indemon 
+              <lb ed="#P" n="38"/>strabilis a priori notificabilis a posteriori essed per 
+              <lb ed="#P" n="39"/>se nota quod est falsum. Per se autem nota dicit 
+              <lb ed="#P" n="40"/>aptitudinem: quia dato quod a nullo cognoscatur non 
+              <lb ed="#P" n="41"/>est minus per se nota. intelligo a nulla creatura: 
+              <lb ed="#P" n="42"/>deo enim actualiter est illius iudium: et semper 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e258">
+               <lb ed="#P" n="43"/>⁋ Ex ista diffinitione sequuntur corollaris.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e263">
+      ⁋ Pri 
+              <lb ed="#P" n="44"/>mum est. idem est propositionem esse per se notam 
+              <lb ed="#P" n="45"/>et eseper se noscibilem vt noscibile ampliet solum de for 
+              <lb ed="#P" n="46"/>mali.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e272">
+      ⁋ Secundum corollarium. non omnis 
+              pro<lb ed="#P" n="47" break="no"/>positio immediata est per se nota. bene tamen econ 
+              <lb ed="#P" n="48"/>uerso. hec ei propositio: calor est calefactiuus est 
+              <lb ed="#P" n="49"/>immediata: non tamen per se nota. quia ad cognitio 
+              <lb ed="#P" n="50"/>nem eius requiritur experientia.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e284">
+      ⁋ Tertium. non 
+              om<lb ed="#P" n="51" break="no"/>nis propositio cuius praedicatum includitur in subi 
+              <lb ed="#P" n="52"/>iecto est per se nota: quia tunc hec esset per se nota: 
+              <lb ed="#P" n="53"/>albedo est color. et eodem modo hec: elephas est ani 
+              <lb ed="#P" n="54"/>mal. quod est falsum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e295">
+      ⁋ Quartum. nulla 
+              proposi<lb ed="#P" n="55" break="no"/>tio contingens est per se nota: quelibet enim talis 
+              <lb ed="#P" n="56"/>ab aliquo dubitari potest.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e302">
+      ⁋ Quintum. hec / omne 
+              <lb ed="#P" n="57"/>totum est maius sua parte non est per se nota. patet 
+              <lb ed="#P" n="58"/>quia aliquis potest assetire huic: aliter est quam illa signi 
+              <lb ed="#P" n="59"/>ficat: vel dubitare de illa aliquod totum est: et ticm 
+              <lb ed="#P" n="60"/>homine existente totum est: tamen anima 
+              separa<lb ed="#P" n="61" break="no"/>ta vel angelus potest illud dubitare. et positus ex 
+              <lb ed="#P" n="62"/>etm tra vniuersum ad magnam intercapedinem. eodem 
+              <lb ed="#P" n="63"/>modo de hac: quecumque sunt equalia / vni tertio sunt 
+              <lb ed="#P" n="64"/>equalia inter se. tamen conditionaliter tales vocam 
+              <lb ed="#P" n="65"/>tur per se note: si aliquod totum est ipsum est maiu 
+      <!--69.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 27vb -->
+               <lb ed="#P" n="66"/>sua parte integrali. hic igitur non est demonstra 
+              <lb ed="#P" n="67"/>tio: omne continens tantundem et amplius est 
+              il<lb ed="#P" n="68" break="no"/>lo maius: omne totum est huiusmodi. igitur. 
+              pre<lb ed="#P" n="69" break="no"/>misse enim non sunt notiores conclusione.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e339">
+      ⁋ Serx 
+              <lb ed="#P" n="70"/>tum. omnis disiunctiua composita er partibus con 
+              <lb ed="#P" n="71"/>tradicentibus est per se nota: quacumque enim tali obla 
+              <lb ed="#P" n="72"/>ta intellectus cognitis terminis assentit illi puta 
+              <lb ed="#P" n="73"/>quod ita est sicut per illam significatur. Eodem 
+              mo<lb ed="#P" n="74" break="no"/>do dicitur de categorica de disiuncta copula.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e352">
+      ⁋ Se 
+              <lb ed="#P" n="75"/>ptimum corollarium. aliquod est per se notum 
+              gra<lb ed="#P" n="76" break="no"/>tia forme. patet de disiunctiua composita ex 
+              contra<lb ed="#P" n="77" break="no"/>dictoriis. et categorica de disiuncta copula. 
+              Ali<lb ed="#P" n="78" break="no"/>quod etiam est per se notum gratia materie vt patet de mul 
+              <lb ed="#P" n="79"/>tis conibus aim conceptionibus Euclidis.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e365">
+      ⁋ Qctauum co 
+              <lb ed="#P" n="80"/>rollarium. alqua propositio falsa est per se nota. pro 
+              <lb ed="#P" n="81"/>batur: quia omnis propositio disiunctiua composita 
+              <lb ed="#P" n="82"/>ex contradictoriis est per se nota: aliquod falsum 
+              <lb ed="#P" n="83"/>est huiusmodi. ergo aliquod falsum est propositio 
+              <lb ed="#P" n="84"/>per se nota. consequentia tenet in darii: 
+              huiusmo<lb ed="#P" n="85" break="no"/>di in minore includit subiectum maioris. maior 
+              pa<lb ed="#P" n="86" break="no"/>tet ex dictis: pobatur minor demonstrata hac: hoc 
+              <lb ed="#P" n="87"/>est falsum vel hoc non est falsum vtrobique demonstram 
+              <lb ed="#P" n="88"/>do affirmatiuam: affirmatiua est falsa: quia se fal 
+              <lb ed="#P" n="89"/>sificat: et non est ita a parte rei sicut negatiua signi 
+              <lb ed="#P" n="90"/>ficat. ergo ipsa est falsa, consequentia tenet per 
+              mo<lb ed="#P" n="91" break="no"/>dum quem rationabiliorem puto in insolubilibus 
+              <lb ed="#P" n="92"/>hoc dicitur quia potest quispiam dicere: illa negati 
+              <lb ed="#P" n="93"/>ua est: vera quia ad veritatem eius sufficit quod 
+              affirma<lb ed="#P" n="94" break="no"/>tiua se falsificet. Sed contra hoc sunt instantie dif 
+              <lb ed="#P" n="95"/>ficiles de quibus alias locuti sumus.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e403">
+      ⁋ Sed 
+              con<lb ed="#P" n="96" break="no"/>tra hoc arguitur: ex illo sequitur quamlibet copula 
+              <lb ed="#P" n="97"/>tiuam ex contradictoriis compositam esse per se no 
+              <lb ed="#P" n="98"/>tam. pobatur: quia illa oblata protinus intellectus 
+              <lb ed="#P" n="99"/>illi dissentit quacunque terminorum cognitione 
+              prae<lb ed="#P" n="100" break="no"/>uia: et falsitas non repugnat per se note per corol 
+              <lb ed="#P" n="101"/>larium igitur:
+            </p>
+            <p xml:id="jm12w4-e17709-d1e419">
+      ⁋ Respondetur concedendo 
+              assum<lb ed="#P" n="102" break="no"/>ptum vet quod quelibet propositio cui quilibet 
+              intelle<lb ed="#P" n="103" break="no"/>ctus per quamcumque terminorum cognitionem preuia 
+              <lb ed="#P" n="104"/>dissentit / est per se nota: quia eius falsitas est nota. et 
+              <lb ed="#P" n="105"/>eius dissensus ita cito producitur sicut assensus opi 
+              <lb ed="#P" n="106"/>posite. Et tunc diffinitur per se notum sic. per se no 
+              <lb ed="#P" n="107"/>tum est propositio cuius assensum vel dissensum cat 
+              <lb ed="#P" n="108"/>sat quecumque noticia terminorum suorum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e437">
+      ⁋ Et ex 
+              <lb ed="#P" n="109"/>isto sequitur quod cuiustibet propositionis per se 
+              no<lb ed="#P" n="110" break="no"/>te contradictoria est per se nota.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e444">
+      ⁋ Alio modo 
+              di<lb ed="#P" n="111" break="no"/>citur negando consequentiam: quia per se notum 
+              <lb ed="#P" n="112"/>apud loquentes diffinitur per productionem 
+              assen<lb ed="#P" n="113" break="no"/>sus: et non per esse verum. et sic ista hoc est falsum 
+              <lb ed="#P" n="114"/>vel hoc non est falsum est per se nota. et etiam inte 
+              <lb ed="#P" n="115"/>ligatur de assensu qui non est dissensus.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e457">
+      ⁋ Sed di 
+              <lb ed="#P" n="116"/>ces: notitia terminorum est productiua iudicii illi 
+              <lb ed="#P" n="117"/>us propositionis. ergo noticia teminorum precedit 
+              <lb ed="#P" n="118"/>illum assensum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e466">
+      ⁋ Insuper habeat intellectus ca 
+              <lb ed="#P" n="119"/>tegoricam de disiuncta copula et suum oppositum 
+              <lb ed="#P" n="120"/>de copulata copula simul: queritur an citius 
+              habe<lb ed="#P" n="121" break="no"/>bit assensum quam dissensum. si sic: illa sola est per se no 
+              <lb ed="#P" n="122"/>ta. si ita cito: vtraque est per se nota.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e478">
+      ⁋ 
+              Responde<lb ed="#P" n="123" break="no"/>tur noticia terminorum precedit natura illum assen 
+              <lb ed="#P" n="124"/>sum: non tamen instanti vel tempore. Si noticia 
+              <lb ed="#P" n="125"/>terminorum producatur in hoc instanti assensus 
+              <lb ed="#P" n="126"/>illius propositionis in eodem producitur: sic 
+              suc<lb ed="#P" n="127" break="no"/>cessiue termini formentur: vltimum instans non esse 
+              <lb ed="#P" n="128"/>vltimi termini illius propositionis per se note est vlti 
+              <lb ed="#P" n="129"/>mum instans non esse assensus eiusdem: postquam natu 
+              <lb ed="#P" n="130"/>ralinecessitate se mutuo consequuntur. et sicut eiusdem 
+      <!--70.xml-->
+      <pb ed="#P" n="28-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vltimus terminus successiue producitur: ita assensus 
+              <lb ed="#P" n="2"/>successiue intenditur.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e509">
+      ⁋ Sed contra: ergo vnus 
+              ma<lb ed="#P" n="3" break="no"/>gis assentit primo principio quam alius: et per consequens 
+              <lb ed="#P" n="4"/>vna propositio per se nota potest aliam probare contra 
+              na<lb ed="#P" n="5" break="no"/>turam notoreitatis. Sequela probatur: quia assensus 
+              <lb ed="#P" n="6"/>talis propositionis mere naturaliter causatur a not 
+              <lb ed="#P" n="7"/>tiis teminorum: sed augmentata causa naturali 
+              pu<lb ed="#P" n="8" break="no"/>ta notitia terminorum augmentabitur effectus in 
+              pas<lb ed="#P" n="9" break="no"/>so disposito.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e527">
+      ⁋ Respondetur quod notitia terminorum 
+              <lb ed="#P" n="10"/>erit equaliter intensa in duobus quando termini 
+              con<lb ed="#P" n="11" break="no"/>plete habentur: et hoc si eque aduertant: et habeant equa 
+              <lb ed="#P" n="12"/>lia natur alia. Quod patet: quia ille notitie 
+              producun<lb ed="#P" n="13" break="no"/>tur ab agentibus naturalibus scilicet ab intellectu et 
+              <lb ed="#P" n="14"/>ab apprehensione rerum significatarum per terminos. 
+              <lb ed="#P" n="15"/>Sed illo dato quod notitie terminorum fuerint intensio 
+              <lb ed="#P" n="16"/>res in vno quam in alio: conceditur quod iudicium erit 
+              inten<lb ed="#P" n="17" break="no"/>sius in vno quam in alio: vt argumentum tangit: sed non 
+              <lb ed="#P" n="18"/>sequitur quod vna propositio potest aliam probare: non 
+              <lb ed="#P" n="19"/>enim firmius assentit vni quam alteri. hoc patet. si enim non 
+              <lb ed="#P" n="20"/>titia conclusionis fuerit intensior gradualiter quam assen 
+              <lb ed="#P" n="21"/>sus premissarum: non firmius intellectus assentit con 
+              <lb ed="#P" n="22"/>clusioni quam premissis cuiuslibet propositionis per se 
+              <lb ed="#P" n="23"/>note: quia iudicium quantuncunque remissum est ita 
+              luci<lb ed="#P" n="24" break="no"/>dum quod aliud ab extrinseco non mendicat. Sed contra 
+              <lb ed="#P" n="25"/>hoc arguitur: quia bene sequitur: deus est vel nullus 
+              <lb ed="#P" n="26"/>deus est. ergo formica est vel nulla formica est: hec 
+              <lb ed="#P" n="27"/>consequentia est bona et euidens: assensus autem 
+              antece<lb ed="#P" n="28" break="no"/>dentis est alterius speciei ab assensu consequentis: et 
+              <lb ed="#P" n="29"/>perfectior entitatiue. ergo eius assensus producet 
+              as<lb ed="#P" n="30" break="no"/>sensum consequentis sicut intellectus producit 
+              scien<lb ed="#P" n="31" break="no"/>tiam.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e577">
+      ⁋ Respondetur concedendo consequentiam: et 
+              <lb ed="#P" n="32"/>quod assensus antecedentis est perfectior entitatiue et qua 
+              <lb ed="#P" n="33"/>litatiue (vt patet ex perfectione obiecti) quam assensus con 
+              <lb ed="#P" n="34"/>sequentis: sed non oportet quod aliquem assensum produ-  
+              <lb ed="#P" n="35"/>cat de nouo cum sit assensus notorius in intellectur 
+              <lb ed="#P" n="36"/>ct incidissimus assensiue.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e590">
+      ⁋ Nonum corollarium. 
+              ali<lb ed="#P" n="37" break="no"/>uis habet assensum propositionis per se note quae est 
+              <lb ed="#P" n="38"/>eidem per se nota quam tamen nescit esse propositionem: 
+              <lb ed="#P" n="39"/>patet. quia plures artiste assentiunt huic: quidlibet est 
+              <lb ed="#P" n="40"/>vel non est: et tamen dubitant an ipsa sit affirmatiua / 
+              ne<lb ed="#P" n="41" break="no"/>gatiua / an mixte qualitatis / sic dubitare possunt ar 
+              <lb ed="#P" n="42"/>sit categorica de disiunctiua copula / an hypothetica / 
+              <lb ed="#P" n="43"/>et agricola nescit illam esse propositionem.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e608">
+      ⁋ Decimum 
+              <lb ed="#P" n="44"/>corollarium. deus est: non est per se notam beatis. proba 
+              <lb ed="#P" n="45"/>tio: quia licet cum apprehensione terminorum quos beati 
+              <lb ed="#P" n="46"/>vabent de essentia diuina non possunt non essentire huic 
+              <lb ed="#P" n="47"/>deus est: tamen hoc non sufficit ad per se notam. 
+              pro<lb ed="#P" n="48" break="no"/>batur. stante enim notitia intuitiua quam sortes habet de 
+              re<lb ed="#P" n="49" break="no"/>bus significantis per istam / paries est albus: sortes non 
+              <lb ed="#P" n="50"/>potest dissentire huic paries est albus: immo si 
+              apprehen<lb ed="#P" n="51" break="no"/>dat terminos in eo causabitur assensus: et tamen illa 
+              <lb ed="#P" n="52"/>a nullo conceditur esse per se nota: cum notitia abstra: 
+              <lb ed="#P" n="53"/>ctiua rerum significantarum per terminos non sufficiat ad  
+              <lb ed="#P" n="54"/>causandum iudicium: quod requiritur ad per se notum. Sed 
+              <lb ed="#P" n="55"/>difficultas potest esse de notitia quam adam in statu 
+              ino<lb ed="#P" n="56" break="no"/>cie habuit de hac vel angelus tempore quo erat via 
+              <lb ed="#P" n="57"/>tor.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e642">
+      ⁋ Undecimum corollarium. aliqua disiunctiua 
+              <lb ed="#P" n="58"/>composita ex subcontrariis est per se nota. vt patet de hac 
+              <lb ed="#P" n="59"/>aliquis homo currit vel aliquis homo non currit: 
+              intel<lb ed="#P" n="60" break="no"/>lectis terminis protinus intellectus illi assentit. et licet 
+              <lb ed="#P" n="61"/>disiunctiua composita ex contradictoriis inferat 
+              disiun<lb ed="#P" n="62" break="no"/>ctiuam compositam ex subcontrariis per intrinsecas par 
+              <lb ed="#P" n="63"/>tes antecedentis. et non econuerso: tamen vna est ita 
+              <lb ed="#P" n="64"/>nota sicut alia. secus est de disiunctiua composita ex con 
+              <lb ed="#P" n="65"/>trariis: frequenter enim tales disiunctiuas dubitamus. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e662">
+               <lb ed="#P" n="66"/>⁋ Duodecimum corollarium. aliqua disiunctiua est pe¬ 
+      <!--70.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 28rb -->
+               <lb ed="#P" n="67"/>se nota cuius quelibet categorica est dubia.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e675">
+      ⁋ 
+              De<lb ed="#P" n="68" break="no"/>cimumtertium corollarium. videtur quod aliqua dissunctiua 
+              <lb ed="#P" n="69"/>composita ex contrariis gratia forme est per se 
+              nota<lb ed="#P" n="70" break="no"/>vt patet de hac quilibet homo est homo vel nullus ho 
+              <lb ed="#P" n="71"/>mo est homo. patet. illa equiualet in consequendo 
+              gra<lb ed="#P" n="72" break="no"/>tia forme disiunctiue composite ex partibus 
+              contradi<lb ed="#P" n="73" break="no"/>ctoriis.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e691">
+      ⁋ Decimumquartum corollarium. licet propositit 
+              <lb ed="#P" n="74"/>de disiunctiua copula sit per se nota: propositio de disium 
+              <lb ed="#P" n="75"/>cto subiecto vel praedicato non est per se nota. prior 
+              <lb ed="#P" n="76"/>batet ex dictis. secunda pars patet: quia hec est 
+              mi<lb ed="#P" n="77" break="no"/>hi dubia / nunc mater mea est viuens vel non est 
+              vi<lb ed="#P" n="78" break="no"/>uens.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e704">
+      ⁋ Decimumquintum corollarium. est aliqua 
+              affiu<lb ed="#P" n="79" break="no"/>matiua de subiecto non supponente per se nota. 
+              pa<lb ed="#P" n="80" break="no"/>tet de hac / chimera est vel non est. hoc totum est vel 
+              <lb ed="#P" n="81"/>non negatur. et est principalior pars copule. ergo to 
+              <lb ed="#P" n="82"/>ta est affirmativa.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e715">
+      ⁋ Decimumnsextum corollarium. ali 
+              <lb ed="#P" n="83"/>qua categorica ex simplicibus copula et extremis est 
+              <lb ed="#P" n="84"/>per se nota. patet de hac aliquid est. sed illa non est 
+              <lb ed="#P" n="85"/>per se nota gratia forme: in simili enim datur 
+              proposi<lb ed="#P" n="86" break="no"/>tio non per se nota: vt elephas est. Sed dices: non assen 
+              <lb ed="#P" n="87"/>tio propositioni per se note nisi quia ita videtur mihi 
+              <lb ed="#P" n="88"/>a parte rei esse: ergo ita esse a parte rei est causa 
+              assen<lb ed="#P" n="89" break="no"/>sus: et non notitia terminorum. Sed dicetur quod mihi ita 
+              <lb ed="#P" n="90"/>videri causatur a sola apprehensione rerum 
+              significa<lb ed="#P" n="91" break="no"/>tarum per terminos.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e738">
+      ⁋ Istis prelibatis pono 
+              conclu<lb ed="#P" n="92" break="no"/>siones.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e743">
+      ⁋ Prima. hec non est per se nota: deus est. 
+              <lb ed="#P" n="93"/>probatio. Sennacheribus rex Assyriorum illam dubitauit. 
+              <lb ed="#P" n="94"/>vt patet quarti Regu. xix. et psalmo. xiii. Dixit 
+              insipi<lb ed="#P" n="95" break="no"/>ens in corde suo non est deus. Aliqui de Nabuchodo 
+              <lb ed="#P" n="96"/>nosor intelligunt: sufficit quod ille cogitauit in corde suo 
+              <lb ed="#P" n="97"/>quod non erat deus. idem patet psalmo lxxv. Notus in 
+              <lb ed="#P" n="98"/>udea deus: et in israel magnum nomen eius. ac si 
+              di<lb ed="#P" n="99" break="no"/>ceret parum cure erat aliis de deo an deus esset. Item 
+              <lb ed="#P" n="100"/>patet per poetam. Primus in orbe deos fecit timor. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e763">
+               <lb ed="#P" n="101"/>⁋ Secunda conclusio. potest multum probabiliter 
+              na<lb ed="#P" n="102" break="no"/>turaliter probari quod deus est. hanc conclusione nisus 
+              <lb ed="#P" n="103"/>est <name xml:id="jm12w4-e17709-Nd1e771" ref="#Aristotle">Aristoteles</name> deducere. ii. Petaphysice quod non est 
+              <lb ed="#P" n="104"/>processus in infinitum in causis mouentibus: quia 
+              si<lb ed="#P" n="105" break="no"/>esset processus in infinituminulla esset caula media: quia 
+              <lb ed="#P" n="106"/>vbi non est vltimum ibi non est medium: ergo 
+              deue<lb ed="#P" n="107" break="no"/>niedum est ad vnam primam causam. Ad hoc idem 
+              <lb ed="#P" n="108"/>elaborat. xii. Metaphysice. vii. et octauo physicorum: 
+              <lb ed="#P" n="109"/>ic Omne quod mouetur ab alio mouetur. et non est 
+              pro<lb ed="#P" n="110" break="no"/>cessus in infinitum: nec aliquid mouet seipsum. ergo 
+              <lb ed="#P" n="111"/>oportet venire ad vnum mouens non motum. 
+              Argua<lb ed="#P" n="112" break="no"/>tur sic in forma: aliquid est causatum: vel igitur a se 
+              <lb ed="#P" n="113"/>vel ab alio vel a nullo. non primum: vt patet per bea 
+              <lb ed="#P" n="114"/>tum <name xml:id="jm12w4-e17709-Nd1e798" ref="#Augustine">Augustinum</name> primo de trinitate capite primo. Si 
+              <lb ed="#P" n="115"/>cundum membrum non est dandum vio quod a nullo: quia quod nihi 
+              <lb ed="#P" n="116"/>est nihil producit. Si ab alio: quero de illo alio: et sit a. 
+              <lb ed="#P" n="117"/>quero vel a. est effectibile vel non. si secundum a. est 
+              <lb ed="#P" n="118"/>deus: quia per philosophos a naturaliter loquentes 
+              <lb ed="#P" n="119"/>tale vocatur deus. si est effectibile quero de causa effi 
+              <lb ed="#P" n="120"/>ciente: et illa data queram de causa effectus illius: et 
+              <lb ed="#P" n="121"/>constat quod stabitur in vna causa prima ineffectibili vel 
+              <lb ed="#P" n="122"/>procedendum est in infinitum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e820">
+      ⁋ Et confirmatur: 
+              <lb ed="#P" n="123"/>tota multitudo rerum creatarum es producta: vel ab 
+              <lb ed="#P" n="124"/>aliquo vel a nullo vel a se: non a se nec a nullo. si ab 
+              <lb ed="#P" n="125"/>aliquo vel illud est ineffectibile: et sic est deus. vel est 
+              pro<lb ed="#P" n="126" break="no"/>ductum: et sic est pars istius multitudinis create. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e831">
+               <lb ed="#P" n="127"/>⁋ Istud primum argumentum rationabiliter 
+              con<lb ed="#P" n="128" break="no"/>cluit: sed proteruus euaderet a contradictione. patet 
+              <lb ed="#P" n="129"/>de primo assumpto ab Anaxagora negato primo 
+              physi<lb ed="#P" n="130" break="no"/>co. Qodlibet sit ex qilibet: et per eos qui ponunt 
+              inchoatio<lb ed="#P" n="131" break="no"/>nem forme. et conceditur quod illud est effectibile ab alio. etiam 
+              <lb ed="#P" n="132"/>concederetur quod est processus in infinitum: et infinita 
+      <!--71.xml-->
+      <pb ed="#P" n="28-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>multitudo causarum etiam nec <name xml:id="jm12w4-e17709-Nd1e854" ref="#Aristotle">Aristoteles</name> demonstrauit 
+              <lb ed="#P" n="2"/>oppositum. aliqui philosophorum ponebant infinitos mi 
+              <lb ed="#P" n="3"/>dos. hoc tenuit democritus vir admodum peritus in  
+              <lb ed="#P" n="4"/>philosophia teste <name xml:id="jm12w4-e17709-Nd1e864" ref="#Aristotle">Aristotele</name> in primo de generatione 
+              <lb ed="#P" n="5"/> Quod democritus ita opinatus est patet per valerium ma 
+              <lb ed="#P" n="6"/>ximum libro. viii. satis prope fine. verba sunt hec in for 
+              <lb ed="#P" n="7"/>ma. Na Alexandri pectus insatiabile laudis qui 
+              An<lb ed="#P" n="8" break="no"/>xarcho comiti suo ex auctoritate democriti perceptors 
+              <lb ed="#P" n="9"/>innumerabiles mundos esse asserenti dixisse fertur 
+              <lb ed="#P" n="10"/>heu me inquit miserum qui nec vno quidem adhuc sun 
+              <lb ed="#P" n="11"/>potitus. hoc ipsum patet. xxiiii. questione. iii. sunt ei 
+              <lb ed="#P" n="12"/>alie herenses. Ratio autem <name xml:id="jm12w4-e17709-Nd1e885" ref="#Aristotle">Aristotelis</name> in de Celo 
+              <lb ed="#P" n="13"/>quod terra vnius mundi moueretur ad terram 
+              alte<lb ed="#P" n="14" break="no"/>rius est nulla: quia nulla est infiuentia nec ordo vnius 
+              <lb ed="#P" n="15"/>celi ad terram alterius mundi. videturque quod 
+              Aristote<lb ed="#P" n="16" break="no"/>les negando infinitum sibi repugnauit. ponendo 
+              eterni<lb ed="#P" n="17" break="no"/>tatem mundi. viii. physicorum: et negando infinitatem 
+              re<lb ed="#P" n="18" break="no"/>rum: vt primo de celo. iii. physicorum. patet de an 
+              <lb ed="#P" n="19"/>mabus tenendo eas ppetuas sicut ipse tenere visua 
+              <lb ed="#P" n="20"/>est. et sic non inconuenit dare infinitas animas in reri 
+              <lb ed="#P" n="21"/>natura. et sicut diceret <name xml:id="jm12w4-e17709-Nd1e907" ref="#Aristotle">Aristoteles</name> quod esset processus in  
+              <lb ed="#P" n="22"/>infinitum in causis accidentaliter subordinatis: sic ad  
+              <lb ed="#P" n="23"/>uersarius concederet in causis essentialiter 
+              subordi<lb ed="#P" n="24" break="no"/>natis. Etiam hanc consequentiam negaret. datur vlti 
+              <lb ed="#P" n="25"/>ma causa producens effectum: ergo datur media vel 
+              <lb ed="#P" n="26"/>prima. quia termini illi non sunt relatiui. patet. datur pri 
+              <lb ed="#P" n="27"/>ma pars proportionalis in continuo a non vltima 
+              se<lb ed="#P" n="28" break="no"/>cundum illam diuisionem. si continuum partiatur in 
+              qua<lb ed="#P" n="29" break="no"/>cumque proportione multiplici superparticulari vel 
+              su<lb ed="#P" n="30" break="no"/>perpartienti.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e931">
+      ⁋ Item secundum <name xml:id="jm12w4-e17709-Nd1e933" ref="#Aristotle">Aristotelem</name> datur vlti 
+              <lb ed="#P" n="31"/>mus homo productus: sed non primus vel medius: 
+              <lb ed="#P" n="32"/>De alio. omne quod mouetur ab alio mouetur. multi 
+              <lb ed="#P" n="33"/>antiquorum negabant motum: vt de Tenone refert 
+              <lb ed="#P" n="34"/>
+               <name xml:id="jm12w4-e17709-Nd1e945" ref="#Aristotle">Aristoteles</name>. Sed quia hoc est contra experientiam alite 
+              <lb ed="#P" n="35"/>dicitur quod aliquid mouet ie primo patet. de grauitate 
+              <lb ed="#P" n="36"/>ponendo eam separatam a suo subiecto: vt in 
+              sacra<lb ed="#P" n="37" break="no"/>mento eucharistie tenendo quod quantitas distinguitur 
+              <lb ed="#P" n="38"/>a re quanta: et nullum accidens alteri inheret.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e958">
+      ⁋ 
+              In<lb ed="#P" n="39" break="no"/>super diceretur quod est circulatio in mouentibus et mo 
+              <lb ed="#P" n="40"/>tis. a. mouet b. et b. mouet a.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e965">
+      ⁋ Ulterius concederetur 
+              <lb ed="#P" n="41"/>processus in infinitum: qui admitteret infinitos 
+              mun<lb ed="#P" n="42" break="no"/>dos eccentricos difficulter conuinceretur. Alii formant 
+              <lb ed="#P" n="43"/>argumentum de conseruante / sed minus valet. omn 
+              <lb ed="#P" n="44"/>quod conseruatur ab alio conseruatur. non est euidens 
+              <lb ed="#P" n="45"/>de ista conseruatione diceretur: sufficit res ipsa ad hoc 
+              <lb ed="#P" n="46"/>quod res ipsa existat: nec aliquod extrinsecum requiritur. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e981">
+               <lb ed="#P" n="47"/>⁋ Aliud argumentum est sophisticum de forma. vel 
+              <lb ed="#P" n="48"/>lytota in antecedente capitur syncategorematice 
+              <lb ed="#P" n="49"/>conceditur ista: tota multitudo causatorum fit ab 
+              ali<lb ed="#P" n="50" break="no"/>quo. capiendo totum categorematice nihil est a quo 
+              <lb ed="#P" n="51"/>tota multitudo fuit. vna pars istius multitudinis fin 
+              <lb ed="#P" n="52"/>ab vna causa creata: et alia ab alia. et sic capiendo ne 
+              <lb ed="#P" n="53"/>gatur antencedens. sicut totam multitudinem dierum 
+              <lb ed="#P" n="54"/>secundum <name xml:id="jm12w4-e17709-Nd1e1000" ref="#Aristotle">Aristotelem</name> precessit vnus dies. 
+              syncatego<lb ed="#P" n="55" break="no"/>rematice capiendo lytotum non includendo parten 
+              <lb ed="#P" n="56"/>infinitam: et totam multitudinem preteritorum 
+              ho<lb ed="#P" n="57" break="no"/>minum precessit aliquis homo cum limitatione que po 
+              <lb ed="#P" n="58"/>nebatur de diebus: sed nullus homo precessit istan 
+              <lb ed="#P" n="59"/>multitudinem. Ita inumere possunt dari instantie¬ 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1015">
+               <lb ed="#P" n="60"/>⁋ Secundo principaliter arguitur: aliquod est ens 
+              ali<lb ed="#P" n="61" break="no"/>cuius perfectionis puta formica vel ascendendo est dabili 
+              <lb ed="#P" n="62"/>ens nobilissimum vel non est: si primum illud est deus. 
+              <lb ed="#P" n="63"/>si secundum procedendum est in infinitum: vel dabi 
+              <lb ed="#P" n="64"/>tur nobilissimum negatiue. Insuper philosophi in lu 
+              <lb ed="#P" n="65"/>mine naturali istud ponebant quod est vnum primum 
+              <lb ed="#P" n="66"/>mouens et quod deus est: et omnes secte hoc admiserunt 
+      <!--71.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 28vb -->
+               <lb ed="#P" n="67"/>sicut dicit <name xml:id="jm12w4-e17709-Nd1e1041" ref="#JohnDamascenus">Damascenus</name>: libri primi: capitulo nono. vel 
+              <lb ed="#P" n="68"/>isti in sectis: et philosophi ponebant sine motiuo: vel 
+              <lb ed="#P" n="69"/>cum motiuo. si secundum: habetur propositum. non est 
+              dicen<lb ed="#P" n="70" break="no"/>dum primum vt palam est.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1051">
+      ⁋ Iste rationes non con 
+              <lb ed="#P" n="71"/>uincerent proteruum. Prima istarum rationum in lumi 
+              <lb ed="#P" n="72"/>ne naturali concludit quod datur nobilissimum saltem 
+              ne<lb ed="#P" n="73" break="no"/>gatiue: postea loquemur affirmatiue. sed proteruus 
+              <lb ed="#P" n="74"/>haberet exitus quod supra recitauimus.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1062">
+      ⁋ Ad 
+              confir<lb ed="#P" n="75" break="no"/>mationem diceret quod philosophi erant moti rationibus 
+              <lb ed="#P" n="76"/>naturalibus illud ponere probabilibus solum et topi 
+              <lb ed="#P" n="77"/>cis. ergo opposita sunt opinabilia. notum est 
+              philolo<lb ed="#P" n="78" break="no"/>phos ad multa tenues habuisse rationes: et inter se 
+              con<lb ed="#P" n="79" break="no"/>tradixisse: et philosophorum principem conatum fuisse 
+              <lb ed="#P" n="80"/>probare eternitatem mundi: quod putabat 
+              demonstras<lb ed="#P" n="81" break="no"/>se. Item philosophi ceperunt frequenter dicta 
+              vul<lb ed="#P" n="82" break="no"/>garium: non audebant contradicere vulgo: vel aud  
+              <lb ed="#P" n="83"/>uerunt loqui de sacris historiis.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1085">
+      ⁋ De illo quod 
+              tamn<lb ed="#P" n="84" break="no"/>gitur de sectis: dicerent quod infinite erant secte: et sic 
+              <lb ed="#P" n="85"/>non datur primum motiuum prime secte. vel dantur 
+              <lb ed="#P" n="86"/>euasiones quas tetigimus. Etiam plebs est bellua 
+              <lb ed="#P" n="87"/>multorum capitum. his sractionibus non 
+              obstanti<lb ed="#P" n="88" break="no"/>bus quilibet rationabiliter in lumine naturali 
+              ince<lb ed="#P" n="89" break="no"/>dens debet assentire quod deus est. patet per rationes 
+              <lb ed="#P" n="90"/>que sufficienter clarum ingenium faciunt assentire. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1103">
+               <lb ed="#P" n="91"/>⁋ Sed hic petes cum sit sermo de causis quid 
+              discri<lb ed="#P" n="92" break="no"/>minis est inter causas essentialiter subordinatas ei 
+              <lb ed="#P" n="93"/>accidentaliter.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1112">
+      ⁋ Respondetur quod in causis 
+              essentia<lb ed="#P" n="94" break="no"/>liter subordinatis secunda dependet a prima in cau 
+              <lb ed="#P" n="95"/>sando: et non solum in essendo: sic quod vna illarum 
+              cau<lb ed="#P" n="96" break="no"/>sarum non potest causare sine alia: item in causis essen 
+              <lb ed="#P" n="97"/>tialiter subordinatis est causalitas alterius rationis 
+              <lb ed="#P" n="98"/>hec dependet a priore: quia in causatione eiusdem 
+              ra<lb ed="#P" n="99" break="no"/>tionis vnum indiuiduum sufficit. In causis accidentaliter 
+              <lb ed="#P" n="100"/>subordinatis non requiritur earum simultas in causando. 
+              <lb ed="#P" n="101"/>patet de patre a filio.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1132">
+      ⁋ Causa vna dependet ab alia 
+              <lb ed="#P" n="102"/>quia non potest causare sine concursu alterius. non 
+              <lb ed="#P" n="103"/>oportet quod semper habeat suam virtutem causandi ab 
+              <lb ed="#P" n="104"/>alia causa a qnea dependet. intellectus enim et obiectum 
+              <lb ed="#P" n="105"/>sunt cause essentialiter subordinate in productione 
+              <lb ed="#P" n="106"/>notitie intuitiue: quia notitia non potest produci al 
+              <lb ed="#P" n="107"/>vna illarum causarum quin producatur ab alia: et si 
+              <lb ed="#P" n="108"/>quelibet causa essentialiter dependet a deo: et non econ 
+              <lb ed="#P" n="109"/>uerso. quia omnem effectum sine ope cause secunde 
+              <lb ed="#P" n="110"/>potest se solo producere. sic sol et homo 
+              naturali<lb ed="#P" n="111" break="no"/>ter subordinantur in generatione homnins. neuter enim 
+              si<lb ed="#P" n="112" break="no"/>ne reliquo potest producere hominem: sol a homo 
+              gene<lb ed="#P" n="113" break="no"/>rant hominem. secundo physicorum. licet sit difficile 
+              proba<lb ed="#P" n="114" break="no"/>re quod sol ipse aliquam causalitatem habeat respectu 
+              <lb ed="#P" n="115"/>homins generandi sicut diximus in quarto distin. prima 
+              <lb ed="#P" n="116"/>questione. iii. et ponendo causalitatem solis: sicut sol sin 
+              <lb ed="#P" n="117"/>sorte potest producere hominem: quia cum platone: sic plat 
+              <lb ed="#P" n="118"/>sine isto sole secundum veritatem: quia per productionem 
+              alte<lb ed="#P" n="119" break="no"/>rius.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1174">
+      ⁋ Tertio conclusio est quod tantum est vnus deus. hec 
+              <lb ed="#P" n="120"/>conclusio multum probabiliter potest probari in lumine 
+              <lb ed="#P" n="121"/>naturali. patet. quia hoc nisus est <name xml:id="jm12w4-e17709-Nd1e1180" ref="#Aristotle">Aristoteles</name> oepondere non 
+              <lb ed="#P" n="122"/>tamen demonstratiue: prior pars patet: quia hoc nisus est 
+              Ari<lb ed="#P" n="123" break="no"/>stoteles probare. xii. Metaphysices. Pluralitas 
+              prin<lb ed="#P" n="124" break="no"/>cipum non est bona: vnus ergo princeps.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1191">
+      ⁋ Insuper 
+              <lb ed="#P" n="125"/>si essent duo dii aut distinguerentur specie aut solum nu 
+              <lb ed="#P" n="126"/>mero: non est verisimile quod distinguantur specie: quia tunc 
+              <lb ed="#P" n="127"/>vnus esset perfectior alio. et ita ille imperfectior non esse 
+              <lb ed="#P" n="128"/>deus. nec solo numero: quia quando indiuidua solo 
+              nu<lb ed="#P" n="129" break="no"/>mero distincta sunt nulla videtur contradictio includi 
+              <lb ed="#P" n="130"/>quin plures possint esse. et per consequens plures possint esse 
+              <lb ed="#P" n="131"/>bii. consequens est falum: nihil enim praet esse deus quin de facto si 
+              <lb ed="#P" n="132"/>deus. et si posset vel a se: et hoc non. nec ab alio: quia tunc 
+      <!--72.xml-->
+      <pb ed="#P" n="29-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>simpliciter non esset primum increabile.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1221">
+      ⁋ Iste rationes 
+              <lb ed="#P" n="2"/>non vincerent proteruum. Diceret enim quod illa erat opini 
+              <lb ed="#P" n="3"/>
+               <name xml:id="jm12w4-e17709-Nd1e1227" ref="#Aristotle">Aristotelica</name> non efficaciter probata. et vallaret illud 
+              <lb ed="#P" n="4"/>testimonio infidelium ponentium plures deos. hoc patet 
+              <lb ed="#P" n="5"/>apud poctas et sectas.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1235">
+      ⁋ Ad aliud argumentum: ipm 
+              <lb ed="#P" n="6"/>non euidenter concludit quia aduersarius potest dicere quod 
+              <lb ed="#P" n="7"/>sunt infiniti mundi eccentrici: forte concentrici huic mum 
+              <lb ed="#P" n="8"/>do: et quilibet mundus habet suum deum et curam sui 
+              <lb ed="#P" n="9"/>orbis.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1246">
+      ⁋ Etiam ponendo solum istum mundum diceret 
+              <lb ed="#P" n="10"/>plures deos esse in eo. et non demonstratur oppositum quin 
+              <lb ed="#P" n="11"/>possint specie differre. nec potest faciliter probari quod 
+              <lb ed="#P" n="12"/>nulla indiuidna diuersarum specierum sint equalite 
+              <lb ed="#P" n="13"/>perfecta. Instatur apparenter de notitia intuitiua 
+              so<lb ed="#P" n="14" break="no"/>tis aet notitia intuitiua platonis vnam animam esse alia 
+              <lb ed="#P" n="15"/>perfectiorem: vt de anima Christi et de anima iude videtur 
+              di<lb ed="#P" n="16" break="no"/>cere articulus parisiensis.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1264">
+      ⁋ Secundo potest dici quod 
+              <lb ed="#P" n="17"/>vnus deus est alio perfectior vt damethas 
+              virgilia<lb ed="#P" n="18" break="no"/>nus dicit Abioue principium muse: iouis omnia plena. 
+              Il<lb ed="#P" n="19" break="no"/>le colit terras. et seruius in commento introducit illud 
+              <lb ed="#P" n="20"/>Lucretii Iuppiter est quod cumque vides: quocumque 
+              moue<lb ed="#P" n="21" break="no"/>ris. et Maro primo eneidos. Eole namque tibi diuum 
+              pa<lb ed="#P" n="22" break="no"/>ter: atque hominium rex. Et mulcere dedit fiuctus et 
+              tolle<lb ed="#P" n="23" break="no"/>re ventos. et ille est modus loquendi homericus.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1282">
+      ⁋ Ter 
+              <lb ed="#P" n="24"/>tio diceret aduersarius quod distinguuntur solo numero. 
+              <lb ed="#P" n="25"/>et est certus numerus deorum: sicut est certus numerus 
+              <lb ed="#P" n="26"/>stellarum celi: quae forte sunt eiusdem speciei vel patet de 
+              dua<lb ed="#P" n="27" break="no"/>bus partibus eiusdem stelle.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1293">
+      ⁋ Secundo arguitur quia si 
+              <lb ed="#P" n="28"/>sic. sit vnus istorum a et alter b et arguo: sic a. potest 
+              co<lb ed="#P" n="29" break="no"/>gnoscere omne cognoscibile perfectissime: ita quod perfecti 
+              <lb ed="#P" n="30"/>cognosci non potest. igitur. potest cognoscere b. vel. igitur 
+              co<lb ed="#P" n="31" break="no"/>gnosceret b per ipsum a vel per ipsum b: si cognoscat ipsum 
+              <lb ed="#P" n="32"/>bper ipsum b. igitur. b est a. et per consequens non sunt plures 
+              <lb ed="#P" n="33"/>dii. ista consequentia patet: quia best actus cognoscendi ipsius 
+              <lb ed="#P" n="34"/>a. et actus cognoscendi ipsius a est ipsum a. sicut 
+              pro<lb ed="#P" n="35" break="no"/>bat philosophus duodecimo metaphysice: quod primum 
+              <lb ed="#P" n="36"/>in entibus est actus primus non recipiens in se aliquid 
+              <lb ed="#P" n="37"/>distinctum ab eo. Si dicatur non cognoscit b 
+              perfectio<lb ed="#P" n="38" break="no"/>ri modo quo potest cognosci: quia non intelligeret b per 
+              <lb ed="#P" n="39"/>essentiam b: et nihil ita perfecte cognoscitur sicut qun 
+              <lb ed="#P" n="40"/>cognoscitur per essentiam suam. igitur. Contra ergo non 
+              <lb ed="#P" n="41"/>cognosceret b perfectiori modo quo cognosci potest 
+              <lb ed="#P" n="42"/>et tunc ex isto sequitur quod a non esset deus: quia non cogne 
+              <lb ed="#P" n="43"/>sceret omne cognoscibile quantum est cognoscibile. etiam 
+              <lb ed="#P" n="44"/>habetur propositum quod non erunt duo dii. nec duo prima. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1333">
+               <lb ed="#P" n="45"/>⁋ Ad secundum admitto casum quod vnus vocetur a e al 
+              <lb ed="#P" n="46"/>ter b. assumitur dubium: et negatum ab <name xml:id="jm12w4-e17709-Nd1e1339" ref="#Aristotle">Aristotele</name> quod potest 
+              <lb ed="#P" n="47"/>cognoscere omne cognoscibile. Sed transeat quod cognoscat 
+              <lb ed="#P" n="48"/>oem cognoscibile perfectissime: non est euidens quod notitia 
+              <lb ed="#P" n="49"/>a dei sit a deus: nec eius oppositum. Sed transeat quod a 
+              <lb ed="#P" n="50"/>cognoscat b per suam essentiam: sicut ego cognosco sortem 
+              <lb ed="#P" n="51"/>per notitiam eius. vt sper) dicat circunstatiam cause for 
+              <lb ed="#P" n="52"/>malis. sed a cognoscit bperb sisper) dicat circunstam 
+              <lb ed="#P" n="53"/>tiam obiectiuam.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1358">
+      ⁋ Tertio arguitur. si essent duo di 
+              <lb ed="#P" n="54"/>vterque potest prodlucere omne producibile: aliter non 
+              <lb ed="#P" n="55"/>essent equales in perfectione: et sic alter eorum non esset 
+              <lb ed="#P" n="56"/>deus. consequens est falsum. quia velit eorum aliquis aliquid pro 
+              <lb ed="#P" n="57"/>ducere quod alter non vellet.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1369">
+      ⁋ Et confirmatur: 
+              se<lb ed="#P" n="58" break="no"/>queretur quod possent esse due caule totales eiusdem ef 
+              <lb ed="#P" n="59"/>fectus sequela patet cum vterque esset prima causa in 
+              <lb ed="#P" n="60"/>ordine causarum essentialiter ordinatarum nulla alia 
+              <lb ed="#P" n="61"/>inferior potest effectum producere ipsa non agente ve 
+              <lb ed="#P" n="62"/>conuerso. igitur ageret ad productionem cuiuslibet ef 
+              <lb ed="#P" n="63"/>fectus: vel oporteret dicere quod vnus eorum esset causa 
+              <lb ed="#P" n="64"/>prima aliquorum effectuum a alius aliorum: et sic neu 
+              <lb ed="#P" n="65"/>ter esset causa simpliciter prima: vel quod vnus dependei 
+              <lb ed="#P" n="66"/>ab alio: et tunc dependens non esset deus. Falsitas con 
+      <!--72.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 29rb -->
+               <lb ed="#P" n="67"/>sequentis pobatur quod eiusdem effectus possunt esse 
+              <lb ed="#P" n="68"/>due cause totales efficientes vel finales: quia illud quod 
+              <lb ed="#P" n="69"/>totaliter producitur ab aliquo non producitur ab alior 
+              <lb ed="#P" n="70"/>quia frustra ageret. sed effectus taliter producitur a 
+              <lb ed="#P" n="71"/>sua causa totali.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1408">
+      ⁋ Tertium argumentum assumit du 
+              <lb ed="#P" n="72"/>bium naturaliter loquendo: an aliquid ad extra deus 
+              <lb ed="#P" n="73"/>producat: vel an omnia: et an possint velle contraria: ve 
+              <lb ed="#P" n="74"/>vnus esset precipuus in ordine aliquorum effectuum: et al 
+              <lb ed="#P" n="75"/>ter aliorum. In omnibus istis argumentis multa sunt 
+              cer<lb ed="#P" n="76" break="no"/>ta de fide: ignota tamen in lumine naturali a per consequens 
+              <lb ed="#P" n="77"/>parum fortitudinis haberent contra infidelem vel 
+              he<lb ed="#P" n="78" break="no"/>reticum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1426">
+      ⁋ Sed quod tangitur de causa totali: nunc 
+              secun<lb ed="#P" n="79" break="no"/>dum veritatem multipliciter aliquid potest esse causa 
+              <lb ed="#P" n="80"/>totalis alicuius effectus. Unomodo quod ipsum sit causa to 
+              <lb ed="#P" n="81"/>talis: et nihil aliud concurrat: et sic loquendo 
+              impossibi<lb ed="#P" n="82" break="no"/>le est esse plures causas totales eiusdem effectus: quia 
+              ni<lb ed="#P" n="83" break="no"/>hil aliud a deo sic potest esse causa totalis. Alio modo quia 
+              <lb ed="#P" n="84"/>psum non attingit partem effectus: sed totum. et sic sunt 
+              <lb ed="#P" n="85"/>multe cause secunde totales. et sic cognitio est causa 
+              to<lb ed="#P" n="86" break="no"/>alis dilectionis: et voluntas similiter.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1446">
+      ⁋ Tertio 
+              ali<lb ed="#P" n="87" break="no"/>quid potest imaginari esse causa totalis sic quod vnus 
+              ef<lb ed="#P" n="88" break="no"/>fectus qui producitur ab vna causa poterat fuisse 
+              pro<lb ed="#P" n="89" break="no"/>ductus ab alia eiusdem speciei. non idem effectus in spe 
+              <lb ed="#P" n="90"/>cie: sed in nunero. verbi causa: a calor est productus ab  
+              <lb ed="#P" n="91"/>gne in c instanti: questio est an si d ignis suisset appli 
+              <lb ed="#P" n="92"/>catus in eodem c instanti eidem passo an produxisset 
+              eun<lb ed="#P" n="93" break="no"/>dem calorem scilicet a. Circa hoc versantur positiones: supe 
+              <lb ed="#P" n="94"/>ponamus aliquas causas effectiuas dispositiuas ad 
+              <lb ed="#P" n="95"/>aliquem effectum producendum non attingentes effectum. 
+              ex<lb ed="#P" n="96" break="no"/>emplum: sortes applicauit ligna b igni in cinstanti: 
+              pro<lb ed="#P" n="97" break="no"/>ductus est nouus ignis: et nouus calor ab illo a igne: si 
+              <lb ed="#P" n="98"/>alius applicuisset eadem ligna eidem in eodem instanti 
+              <lb ed="#P" n="99"/>an fuisset productus idem ignis numero. sortes solum 
+              <lb ed="#P" n="100"/>applicat actiua passiuis nullatenus ex sua natura pro 
+              <lb ed="#P" n="101"/>ducens ignem vel calorem. Similiter ponendo vnam 
+              for<lb ed="#P" n="102" break="no"/>mam in homine puta intellectiuam sortes pater non 
+              attin<lb ed="#P" n="103" break="no"/>git effectum in productione prolis: solum in istam materia 
+              <lb ed="#P" n="104"/>anima creatur a deo: quemadmodum ministrauit materiam li 
+              <lb ed="#P" n="105"/>gnorum foco. licet aliquid discriminis sit: cum vna 
+              ma<lb ed="#P" n="106" break="no"/>teria sit paro eius: vel in dispositione proxima ad hoc 
+              <lb ed="#P" n="107"/>quod esset paro eius. Ista eadem materia poterat esse mi 
+              <lb ed="#P" n="108"/>nistrata ab aliis puta si plato comedisset eosdem cibos 
+              <lb ed="#P" n="109"/>numero in talibus causis effectum non attingentibus: 
+              <lb ed="#P" n="110"/>dem potest produci a duabus causis totalibus. licet 
+              <lb ed="#P" n="111"/>regulariter ad varios patres sequitur filiorum alietas: 
+              <lb ed="#P" n="112"/>cum alia sit materia ad cuius alietatem deus creat aliam 
+              <lb ed="#P" n="113"/>animam. et si eadem sit anima per possibile esset alius 
+              effe<lb ed="#P" n="114" break="no"/>ctus numero: et vbi materia que informabatur forma 
+              <lb ed="#P" n="115"/>ade vel eue informaretur forma tritici successu tempo 
+              <lb ed="#P" n="116"/>ris: et demum forma vnius homins: non inconuenit eandem 
+              <lb ed="#P" n="117"/>materiam numero variis formis informari. Sed in 
+              <lb ed="#P" n="118"/>quo resurgeret talis materia in quarto dictum est. Et 
+              <lb ed="#P" n="119"/>sic potest saluari illud Oregorii quarto moralium. q. xxxvi 
+              <lb ed="#P" n="120"/>si parentem primum nulla peccati rubigo corrupisset 
+              ne<lb ed="#P" n="121" break="no"/>quaquam ex se filios gehenne generasset: sed illi qui nunc 
+              <lb ed="#P" n="122"/>per redemptorem saluandi sunt ab illo electi 
+              nasceren<lb ed="#P" n="123" break="no"/>tur. vbi videretur beatuns Oregorius velle quod soli electi nati 
+              <lb ed="#P" n="124"/>fuissent. Sed plerique illorum nati fuerunt ex patribus 
+              re<lb ed="#P" n="125" break="no"/>probis: patet de cristina / martino e similibus: ergo non 
+              <lb ed="#P" n="126"/>inconuenit aliquem electum alium habuisse patrem 
+              <lb ed="#P" n="127"/>Si ponatur anima sensitiua distincta ab intellectiua 
+              <lb ed="#P" n="128"/>dicitur quod fuisset verum pro illo statu: nunc autem non 
+              <lb ed="#P" n="129"/>omportet quod idem potest produci a duobus patribus: 
+              <lb ed="#P" n="130"/>vel a duobus patribus potest produci. vel sic soli ele 
+              <lb ed="#P" n="131"/>cti nati fuissent quo ad animam. hoc est electi 
+              habuis<lb ed="#P" n="132" break="no"/>sent easdem animas: sed non eadem corpora. Potest 
+      <!--73.xml-->
+      <pb ed="#P" n="29-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>etiam dici quod non solum isti qui nunc sunt electi fuissent na 
+              <lb ed="#P" n="2"/>ti: sed omnes qui tunc fuissent nati fuissent electi: sicut 
+              pre<lb ed="#P" n="3" break="no"/>destinatus potest reprobari: sic electus poterat non fuisse 
+              <lb ed="#P" n="4"/>electus. Sed de causis attingentibus effectum probabili 
+              <lb ed="#P" n="5"/>or videtur nobis pars negatiua. probatio: aliquod agens 
+              <lb ed="#P" n="6"/>producit aliquem effectum quem non produxisset aliud agens 
+              <lb ed="#P" n="7"/>tiusdem speciei applicatum in illo instanti eidem passo. 
+              <lb ed="#P" n="8"/>ergo ita videtur dicendum in omnibus aliis. Aecedens patet. a 
+              al<lb ed="#P" n="9" break="no"/>bedo producit notitiam sui. et tamen si in eodem instanti 
+              fuis<lb ed="#P" n="10" break="no"/>set applicata similis albedo eidem passo non 
+              produxis<lb ed="#P" n="11" break="no"/>set eandem cognitionem. quia si sic: vna albedo produceret 
+              <lb ed="#P" n="12"/>notitiam intuitiuam et singularem alterius: et quare vnius: 
+              <lb ed="#P" n="13"/>omnium similium albedinum. ergo vna albedo producit 
+              no<lb ed="#P" n="14" break="no"/>titias distinctas infinitarum albedinum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1586">
+      ⁋ hic solum est 
+              <lb ed="#P" n="15"/>euasio: quia non est idem in effectibus vitaliter animam 
+              im<lb ed="#P" n="16" break="no"/>mutantibus qui sunt similitudines rerum et in aliis. 
+              For<lb ed="#P" n="17" break="no"/>te dices. concedendo illatum. quemadmodum si facies 
+              ali<lb ed="#P" n="18" break="no"/>cuius imprimeret suum simile vel imaginem in ceram vel 
+              <lb ed="#P" n="19"/>aliam materiam: illud simulacrum non modo representat 
+              <lb ed="#P" n="20"/>faciem que impresserat illam effigiem: sed quamlibet aliam 
+              <lb ed="#P" n="21"/>illi faciei simillimam.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1604">
+      ⁋ Preterea si effectus 
+              produci<lb ed="#P" n="22" break="no"/>bilis ab vna causa effectum attingente potest produci ab 
+              <lb ed="#P" n="23"/>alia causa: tunc idem corruptum numero potest regenerari 
+              <lb ed="#P" n="24"/>naturaliter contra <name xml:id="jm12w4-e17709-Nd1e1612" ref="#Aristotle">Aristotelem</name> in de generatione. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1616">
+               <lb ed="#P" n="25"/>⁋ Aliqui istud admittunt: vel possumus istud negare 
+              <lb ed="#P" n="26"/>postquam effectus est semel productus: vel currere ad 
+              il<lb ed="#P" n="27" break="no"/>lud quod idem effectus non potestproduci in plurium 
+              in<lb ed="#P" n="28" break="no"/>stantium quolibet.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1627">
+      ⁋ Rationabilius ergo est quod effectus 
+              <lb ed="#P" n="29"/>qui producitur ab vna causa ille idem numero: non enim 
+              <lb ed="#P" n="30"/>potest produci in posterum ab alia causa. Nec poterat 
+              <lb ed="#P" n="31"/>in illo istanti ab alia causa produci: dato quod fuisset 
+              ap<lb ed="#P" n="32" break="no"/>plicata: sed bene similis effectus in specie. Sed contra 
+              <lb ed="#P" n="33"/>stud arguitur. eiusdem effectus possunt esse due cause 
+              <lb ed="#P" n="34"/>inales: ergo a due cause efficientes. consequentia tenet a 
+              con<lb ed="#P" n="35" break="no"/>uenienti similitudine. antecedens patet: sortes potest velle adi 
+              <lb ed="#P" n="36"/>re Sorbonam vt audiat disputantes: et bibat de vino re 
+              <lb ed="#P" n="37"/>spondentis: ita quod quilibet illorum finium est ipsi causa 
+              <lb ed="#P" n="38"/>sufficiens: nec isti duo fines magis velocitant eius 
+              mo<lb ed="#P" n="39" break="no"/>tum in itinere quam alter illorum tantum.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1653">
+      ⁋ Et confirmatur: quia 
+              <lb ed="#P" n="40"/>idem effectus potest corrumpi a duobus agentibus et ab 
+              <lb ed="#P" n="41"/>vtrouis eorum. ergo a produci.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1660">
+      ⁋ Ad primum consequentia est 
+              <lb ed="#P" n="42"/>nulla. finis enim secundus nullo pacto attingit effectum. 
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1666">
+               <lb ed="#P" n="43"/>⁋ Ad confirmationem negatur consequentia: quia ea data 
+              <lb ed="#P" n="44"/>concludes quod idem effectus numero potest produci a 
+              <lb ed="#P" n="45"/>duabus causis specie distinctis. eadem enim ouis nume 
+              <lb ed="#P" n="46"/>ro potest occidi a lupo ea a lanio.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1677">
+      ⁋ Secundo arguitur sic. 
+              ef<lb ed="#P" n="47" break="no"/>fectus productus ab vna causa potest conseruari ab 
+              <lb ed="#P" n="48"/>alia. ergo a produci. consequentia tenet: quia conseruare effectum 
+              <lb ed="#P" n="49"/>non est aliud quam effectum producere. et nulla alia 
+              enti<lb ed="#P" n="50" break="no"/>tas importatur per vnum quod non importatur per aliud: 
+              <lb ed="#P" n="51"/>licet termini differant: quia conseruare presupponit 
+              <lb ed="#P" n="52"/>rem paius fuisse non autem causare.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1693">
+      ⁋ Et confirmatur 
+              <lb ed="#P" n="53"/>ponendo minimum naturale inter duos ignes equalis 
+              <lb ed="#P" n="54"/>vigoris equaliter applicatos: et minimum equaliter 
+              di<lb ed="#P" n="55" break="no"/>positum ad susceptionem effectus ab vtroque agente. 
+              <lb ed="#P" n="56"/>tuncidem calor numero producetur ab vtroque 
+              agen<lb ed="#P" n="57" break="no"/>te. Non est dicendum quod vna pars caloris producitur 
+              <lb ed="#P" n="58"/>ab vno agente: et alia pars ab alio: cum illa 
+              suppona<lb ed="#P" n="59" break="no"/>tur minimum naturale tam secundum intensionem quam secundum 
+              <lb ed="#P" n="60"/>extensionem. Preter rationem est ponere minimu 
+              natu<lb ed="#P" n="61" break="no"/>rale extensiue ipsum non ponendo intensiue. vel ponantur 
+              <lb ed="#P" n="62"/>duo ignes penetratiue in eodem situm equaliter actui quoi 
+              <lb ed="#P" n="63"/>bus applicetur stupa: tunc producetur ab vtroque.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1719">
+      ⁋ Ad  
+              <lb ed="#P" n="64"/>primum responsum est in quadragesima distinctio e 
+              quar<lb ed="#P" n="65" break="no"/>ti.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1726">
+      ⁋ Ad confirmationem dicitur quod ille calor produci 
+              <lb ed="#P" n="66"/>tur ab illis duobus ignibus copulatim. similiter for¬ 
+      <!--73.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 29vb -->
+               <lb ed="#P" n="67"/>na ignis et talis effectus non possunt produci ab vno 
+              <lb ed="#P" n="68"/>illorum ignium naturaliter: et sic quilibet illorum ignium 
+              <lb ed="#P" n="69"/>concurrit ad totum effectum: sed non totaliter. Quo 
+              <lb ed="#P" n="70"/>ad calorem dando remississimum qui potest existere qui 
+              <lb ed="#P" n="71"/>ponitur gratia exempli esse vnius gradus: potest dici 
+              <lb ed="#P" n="72"/>quod medietas caloris producitur ab vno calore 
+              totali<lb ed="#P" n="73" break="no"/>ter tanquam a causa secunda: et alia medietas ab alio calo 
+              <lb ed="#P" n="74"/>re. et ille calor productus ab vno illorum ignium non est 
+              pro<lb ed="#P" n="75" break="no"/>ducibilis ab alio. Sed quia forma substantialis non 
+              ha<lb ed="#P" n="76" break="no"/>pet gradus / aliter dicitur: quod medietas minimi naturalis 
+              <lb ed="#P" n="77"/>propei a ignem producitur ab a igne: et medietas vicinior 
+              <lb ed="#P" n="78"/>o producitur ab ipso b. non enim habetur minus minimo: 
+              <lb ed="#P" n="79"/>cum in eodem instanti vterque effectus producitur.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1765">
+      ⁋ Sed 
+              <lb ed="#P" n="80"/>contra vnam fractionem in qua dicitur: quod vnus ignis 
+              pro<lb ed="#P" n="81" break="no"/>ducit medietatem caloris et alius ignis aliam medieta 
+              <lb ed="#P" n="82"/>tem arguitur sic. similiter vterque ignis formaliter 
+              ca<lb ed="#P" n="83" break="no"/>lidus vt octo. Iam vnus eorum producit calorem solum vt 
+              <lb ed="#P" n="84"/>quattuor: sed hoc non. cum intendit sibi assimilare 
+              pas<lb ed="#P" n="85" break="no"/>sum in gradu.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1782">
+      ⁋ Respondetur verum est: quod intendit quod 
+              <lb ed="#P" n="86"/>passum habeat tot gradus quot agens habet: et sic 
+              ha<lb ed="#P" n="87" break="no"/>pet octo a duobus agentibus copulatim: sed si quilibet 
+              <lb ed="#P" n="88"/>llorum ignium produceret totaliter octo iam agens non 
+              <lb ed="#P" n="89"/>ntenderet sibi assimilare passum: sed dissimilare. sed  
+              <lb ed="#P" n="90"/>citius calor produceretur a duobus ignibus quam ab vno 
+              <lb ed="#P" n="91"/>in successiua productione: licet non fuerit intensior.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1798">
+      ⁋ Sed 
+              <lb ed="#P" n="92"/>potest esse contra hoc difficultas: sint tria luminosa: et 
+              <lb ed="#P" n="93"/>tria opaca equalia. Iam vmbre erunt equales. diminua 
+              <lb ed="#P" n="94"/>tur a opacum successiue per vnam horam ad non quantum 
+              <lb ed="#P" n="95"/>sque sole semper vniformiter manente: diminuatur 
+              bsimi<lb ed="#P" n="96" break="no"/>liter aucto luminoso in extensione et intensione rema 
+              <lb ed="#P" n="97"/>nente in eodem situ. minoretur copacum suo luminoso 
+              <lb ed="#P" n="98"/>aucto sicut augetur luminosum precedens: et cum hoc 
+              <lb ed="#P" n="99"/>moueatur per totam horam opacum versus: sic scilicet 
+              <lb ed="#P" n="100"/>quod in instanti terminante horam erit super zenith opa 
+              <lb ed="#P" n="101"/>ci tunc diminuti ad non quantum. plures sunt cause di 
+              <lb ed="#P" n="102"/>minutionis vmbre circac quam circa b. similiter plures 
+              <lb ed="#P" n="103"/>sunt cause circa b. quae circa a. tamen vmbre erunt eque cito 
+              <lb ed="#P" n="104"/>extincte. Sed ibi dices in quolibet instanti intrinseco 
+              <lb ed="#P" n="105"/>hore vmbra erit minor vbi plures concurrunt cause: 
+              li<lb ed="#P" n="106" break="no"/>cet ita cito euanescant. Sed ibi nulla est productio ali 
+              <lb ed="#P" n="107"/>cuius effectus de nouo nisi per augmentum luminosi. sed  
+              <lb ed="#P" n="108"/>sunt varii modi auferendi impedimentum ab 
+              illumina<lb ed="#P" n="109" break="no"/>tione medii per directum lumen. Sed id cause est in 
+              <lb ed="#P" n="110"/>diminutione vmbrarum vbi sunt plures cause 
+              diminu<lb ed="#P" n="111" break="no"/>entes tanto est velocior corruptio in principio: et tat 
+              <lb ed="#P" n="112"/>dior in fine. et hoc propter variam propinquationem 
+              <lb ed="#P" n="113"/>corporis lucidi ad corpus opacum. nam quanto conus vm 
+              <lb ed="#P" n="114"/>bre pius proprinquat corpori opaco tanto pro equali 
+              <lb ed="#P" n="115"/>tempore minus abbreuiatur: vt ad sensum patet de cor 
+              <lb ed="#P" n="116"/>pore opaco posito in plano: et corpore lucido maiore 
+              <lb ed="#P" n="117"/>cum eo. si illud lucidum ascendat ad zenithi illius 
+              cor<lb ed="#P" n="118" break="no"/>poris opaci vniformiter: plus abbreuiatur pro prima octa 
+              <lb ed="#P" n="119"/>ua vel quarta illius temporis quam pro secunda: immo medietas 
+              <lb ed="#P" n="120"/>totius in hoc pusillo tempore abbreuiabitur: et 
+              quan<lb ed="#P" n="121" break="no"/>to luminosum magis popinquat: tanto minus 
+              pro<lb ed="#P" n="122" break="no"/>portionabiliter de vmbra diminuetur: vt palam est in 
+              <lb ed="#P" n="123"/>achille zenonico de mobili veloci et tardo.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1870">
+      ⁋ Ultimo 
+              <lb ed="#P" n="124"/>arguitur. ignis nunc non producit vnum gradum 
+              calo<lb ed="#P" n="125" break="no"/>is plusquam alium nisi pro quanto determinatur a prima 
+              <lb ed="#P" n="126"/>causa ad productionem huius caloris vel ignis. sed 
+              <lb ed="#P" n="127"/>ibere prima causa determinat ignem ad hunc effectum 
+              <lb ed="#P" n="128"/>nunc. ergo potest eum determinare nunc ad 
+              produ<lb ed="#P" n="129" break="no"/>tionem alterius ignis vel ad productionem eiusdem 
+              <lb ed="#P" n="130"/>postea.
+            </p>
+            <p xml:id="jm12w4-e17709-d1e1888">
+      ⁋ Respondetur quicquid sit (dando argumen 
+              <lb ed="#P" n="131"/>to suum podus / non concluditur nisi quod deus potest de 
+              po<lb ed="#P" n="132" break="no"/>tentia sua absoluta hoc efficere. sed non est ita de facto.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

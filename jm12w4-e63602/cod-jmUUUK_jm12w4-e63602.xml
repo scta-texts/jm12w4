@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="91-v"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e63602"> <!--l1d35q1 -->
+            <head xml:id="jm12w4-e63602-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e63602-Hd1e109" type="question-title">An in lumine naturali ponendum est Deum 
+    aliud a se intelligere?</head>
+            <p xml:id="jm12w4-e63602-d1e112">
+               <lb ed="#P" n="115"/>⁋ Cumque supra disseruerimus ac plura
+              di<lb ed="#P" n="116" break="no"/>xerimus de his que communiter secundum. 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e119">
+               <lb ed="#P" n="117"/>⁋ Distinctionis. xxxv. questio vnica. 
+              <lb ed="#P" n="118"/>Irca istam trigesimamquintam distinctio 
+              <lb ed="#P" n="119"/>nem in quae <name xml:id="jm12w4-e63602-Nd1e127" ref="#Lombard">magister</name> incipit tractare
+              de<lb ed="#P" n="120" break="no"/>otitia quam deus habet de creaturis 
+              <lb ed="#P" n="121"/>Queritur an in lumine naturali
+              ponen<lb ed="#P" n="122" break="no"/>dum est deum aliud a se intelligere. 
+      <ref xml:id="jm12w4-e63602-Rd1e137">
+                  <ref xml:id="jm12w4-e63602-Rd1e139">Com<lb ed="#P" n="123" break="no"/>mentator</ref>. xii. metaphysice commento 
+              <lb ed="#P" n="124"/>li</ref>. dicit hanc quaestionem esie nobilissimam omnium quae sunt 
+              <lb ed="#P" n="125"/>de deo: et desideratam ob omnibus.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e151">
+      ⁋ Similiter et
+              chal<lb ed="#P" n="126" break="no"/>dei valde perscrutati sunt de ea.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e156">
+      ⁋ Circa hoc aristo 
+              <lb ed="#P" n="127"/>teles et eius <ref xml:id="jm12w4-e63602-Rd1e160">
+                  <name xml:id="jm12w4-e63602-Nd1e162">Commentator</name>. xii. metaphysice</ref> posue 
+              <lb ed="#P" n="128" break=""/>runt tres conclusiones.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e169">
+      ⁋ Prima est: deus est 
+              substan<lb ed="#P" n="129" break="no"/>tias intellectualis semper actu intelligens. Probatur. deus 
+      <!--198.xml-->
+      <pb ed="#P" n="92-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est ens omnium dignissimum e nobilissimum: hoc autem non 
+              <lb ed="#P" n="2"/>esset si non esset intelligens: aut semper actu intelli 
+              <lb ed="#P" n="3"/>gens. vn si non intelligat quid vtique erit in signe aut 
+              <lb ed="#P" n="4"/>venerabile: sed se habeat vt sit dormiens.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e189">
+      ⁋ Secunda 
+              <lb ed="#P" n="5"/>conclusio. sua substantia est sua intellectio. Probat 
+              <lb ed="#P" n="6"/>philosophus quia alioquin perficeretur per intel 
+              <lb ed="#P" n="7"/>lectione superadditam.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e198">
+      ⁋ Tertiam conclusio. deus 
+              <lb ed="#P" n="8"/>nihil aliud a se intelligit.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e203">
+      ⁋ Ad hanc conclusionem 
+              <lb ed="#P" n="9"/>recitabimus rationes <name xml:id="jm12w4-e63602-Nd1e207" ref="#Aristotle">Aristotelis</name> et eius 
+              Commen<lb ed="#P" n="10" break="no"/>tatoris.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e214">
+      ⁋ Ad titulum questionis pono tres conclusio 
+              <lb ed="#P" n="11"/>nes: due prime sunt <name xml:id="jm12w4-e63602-Nd1e218" ref="#Aristotle">aristotelis</name>: tertia contradictoria 
+              <lb ed="#P" n="12"/>tertie <name xml:id="jm12w4-e63602-Nd1e223" ref="#Aristotle">Aristotelis</name> et Commentatoris.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e227">
+      ⁋ Probatur 
+              <lb ed="#P" n="13"/>tertiam conclusio sic. sequens rationem naturalem 
+              po<lb ed="#P" n="14" break="no"/>nit deum intelligere: et hoc rationabiliter: quandao noie 
+              <lb ed="#P" n="15"/>dei intellexerunt sapientes omnes ens optimum e 
+              nobi<lb ed="#P" n="16" break="no"/>lissimum: cuius nobilitatem non possumus cognosce 
+              <lb ed="#P" n="17"/>re nisi ex his que nobis in notescunt. Et quia nos iudi 
+              <lb ed="#P" n="18"/>camus res cognoscentes perfectiores rebus non 
+              <lb ed="#P" n="19"/>cognoscentibus. vt patet. xii. metaphysice capitul.o xiiii 
+              <lb ed="#P" n="20"/>et. xv. de trinita. cap. iiii. Et iudicamus ea esse 
+              per<lb ed="#P" n="21" break="no"/>fectiora quae plura cognoscunt: vt patet inducendo in 
+              <lb ed="#P" n="22"/>animalibus: ideo debemus illud deo attribuere quod plu 
+              <lb ed="#P" n="23"/>ra cognoscat.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e253">
+      ⁋ Non valet dicere cum Commentato 
+              <lb ed="#P" n="24"/>re commento. li. sufficit quod cognoscat aliquid quod est 
+              <lb ed="#P" n="25"/>quodammodo omnia: quia deus est omnia causaliter et 
+              emi<lb ed="#P" n="26" break="no"/>nenter. Unde commento. xxiiii. eiusdem. xii. forma ti 
+              <lb ed="#P" n="27"/>mi mouentis est quodammodo omnes forme.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e264">
+      ⁋ Sed hoc 
+              <lb ed="#P" n="28"/>non sufficit. quia ratio non pobat deum esse 
+              nobilissi<lb ed="#P" n="29" break="no"/>mum nisi cognoscat alia a se.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e271">
+      ⁋ Argumentum 
+              Ari<lb ed="#P" n="30" break="no"/>stote. contra compedoclem. iii. metaphysice commento. 
+              <lb ed="#P" n="31"/>xv. et primo de anima commento. lxxx. redit in arguentem quod 
+              <lb ed="#P" n="32"/>deus est insipientissimus.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e280">
+      ⁋ Secundodeus cognoscit 
+              <lb ed="#P" n="33"/>orbem quem rotat: alioquin non vniformiter rotaret 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e286">
+               <lb ed="#P" n="34"/>⁋ Et confirmatur: in omnium gentium cordibus scriptum 
+              <lb ed="#P" n="35"/>est implorare auxitium diuinum: et hoc frustra fieret si 
+              <lb ed="#P" n="36"/>ipse non cognosceret: igitur. Quomodo em deus eet sol 
+              <lb ed="#P" n="37"/>licitus circa nos si nultatenus nos cognoscat: certe 
+              <lb ed="#P" n="38"/>non video. Quod circa nos sit sollicitus: patet. xii. 
+              meta<lb ed="#P" n="39" break="no"/>physice commento. xxxvii. et secundo celi commento. xxxiiii. 
+              <lb ed="#P" n="40"/>et primo economicorum: sic praeordiata fuit a deo vtraque 
+              <lb ed="#P" n="41"/>natura masculi et femine ad conicationem.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e306">
+      ⁋ Ulte 
+              <lb ed="#P" n="42"/>rius miseretur eis: secundo de anima commento xxxiiii. et ali 
+              <lb ed="#P" n="43"/>qua concedit non denecessitate: secundo celi commento 
+              <lb ed="#P" n="44"/>xxxiiii. et dat prophetiam. patet in libello de somno &amp; 
+              <lb ed="#P" n="45"/>vigilia.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e317">
+      ⁋ Indubie non conduceret orare deum si non ip 
+              <lb ed="#P" n="46"/>telligat praeces nostras. perinde enim esset sicut helias thes 
+              <lb ed="#P" n="47"/>bites illusit sacerdotibus baal tertii regu. xvi. in 
+              qui<lb ed="#P" n="48" break="no"/>ens clamate voce maiore: deus ei est: et forsitam loquitur 
+              <lb ed="#P" n="49"/>aut in diuersorio est: aut in itinere: aut certe dormit 
+              <lb ed="#P" n="50"/>vt excitetur. Immo excitari non posset astentore 
+              ho<lb ed="#P" n="51" break="no"/>merico.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e333">
+      ⁋ Entem auerropus quinto colliget in fine im 
+              <lb ed="#P" n="52"/>plorat auxilium dei: vt prueniat ad vltimam perfectio 
+              <lb ed="#P" n="53"/>nem que beatitudo sempiterna appellatur et x. 
+              ethi<lb ed="#P" n="54" break="no"/>corum. deus gaudet de eo qui nititur sibi assimilari 
+              <lb ed="#P" n="55"/>quod expones Comentator ait: dignus est ergo vt be 
+              <lb ed="#P" n="56"/>nefaciat eis qui amant ipsum pius. et vt honorificet eos 
+              <lb ed="#P" n="57"/>et visitet eos sicut dispositio amici cumamico. ista in 
+              <lb ed="#P" n="58"/>ferunt deum cognoscere suos amieos. quo enim aliter 
+              <lb ed="#P" n="59"/>possit eos visitare a honorare. Videtur certe quod mul 
+              <lb ed="#P" n="60"/>tum probabiliter ex dictis <name xml:id="jm12w4-e63602-Nd1e354" ref="#Aristotle">Aristotel</name> et Commentatoris 
+              <lb ed="#P" n="61"/>et ab eis concessis in bona consequentia inferatur 
+              contradicto<lb ed="#P" n="62" break="no"/>ria tertie conclusionis ab eis posite. sicut interdum 
+              <lb ed="#P" n="63"/>alii latenter construunt in suis libris pugnantia 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e365">
+               <lb ed="#P" n="64"/>⁋ Preterea multi sunt effectus in istis 
+              inferiori<lb ed="#P" n="65" break="no"/>bus quorum causas inuenire est impossibile nisi ha 
+      <!--198.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 92rb -->
+               <lb ed="#P" n="66"/>bendo recursum ad causalitatem prime cause libe 
+              <lb ed="#P" n="67"/>re causantis: vt pote quare est quod sperma viri vel vir 
+              <lb ed="#P" n="68"/>tus seminalis disponit materiam vniformem in partes 
+              <lb ed="#P" n="69"/>difformes vt ex vna parte fiatos ex alia caro: san 
+              <lb ed="#P" n="70"/>guis: vel medulla. ratio nulla dari part. Propterea 
+              <lb ed="#P" n="71"/>apud galenum secundo creticorum capite secundo 
+              voca<lb ed="#P" n="72" break="no"/>tur virtus diuina. quod patet apud magistrum sententia 
+              <lb ed="#P" n="73"/>rum dist xviii. de rationibus seminalibus. No 
+              pos<lb ed="#P" n="74" break="no"/>sumus dare causam quare vnus gradus forme re 
+              <lb ed="#P" n="75"/>mittitur ante alium vel producitur ante alium: nisi 
+              eun<lb ed="#P" n="76" break="no"/>do ad concursum et libertatem prime cause.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e402">
+      ⁋ Ampli 
+              <lb ed="#P" n="77"/>us apud plurimos expertum est plurimos plurima 
+              <lb ed="#P" n="78"/>futura praedixisse et ita euenisse: et quosdam habuisse 
+              <lb ed="#P" n="79"/>vera somnia de futuris et etiam quosdam habuisse non 
+              <lb ed="#P" n="80"/>titiam interpretandi somnia atque prophetias 
+              interprae<lb ed="#P" n="81" break="no"/>tatione indigentes. Et istud non solum constat apud 
+              <lb ed="#P" n="82"/>sacras historias: sed etiam ethnicorum scripta: patet apud 
+              <lb ed="#P" n="83"/> Commentatorem in eius tractatu de somno a vigilia 
+              <lb ed="#P" n="84"/>et de portentis apud grecos / persas / medos: et 
+              ro<lb ed="#P" n="85" break="no"/>manos et hester. xvi. hoc tenent iudi. vbi dicitur dei quo 
+              <lb ed="#P" n="86"/>que cuncta cernentis arbitrantur se posse fugere senten 
+              <lb ed="#P" n="87"/>tiam.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e429">
+      ⁋ Preterea deus est vniuersi totius princeps 
+              <lb ed="#P" n="88"/>et rector dignissimus: ergo intelligit aliud a se. 
+              Ante<lb ed="#P" n="89" break="no"/>cedens patet per <name xml:id="jm12w4-e63602-Nd1e435" ref="#Aristotle">Aristotelem</name> et Commentatore. xii. 
+              <lb ed="#P" n="90"/>netaphysice. consequentia patet: quia non latet eum ipsum esse 
+              <lb ed="#P" n="91"/>dominin vniuersi. nec ignorat suum principatum. Que eius 
+              <lb ed="#P" n="92"/>nobilitas esset principare vniuerso: et hoc non intel 
+              <lb ed="#P" n="93"/>ligere. Esset certe perinde ac si vnus infans esset 
+              <lb ed="#P" n="94"/>rex vnius regni: et hoc eum lateret.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e450">
+      ⁋ Amplius 
+              se<lb ed="#P" n="95" break="no"/>ueretur quod ille qui minus intelligit esset melior in hoc 
+              <lb ed="#P" n="96"/>quod pauca intelligit: quam ille qui plura intelligit. patet 
+              <lb ed="#P" n="97"/>quia magis conuenit cum deo solum seipsum cognoscen 
+              <lb ed="#P" n="98"/>te: hoc autem est ridiculum: igitur.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e461">
+      ⁋ Amplius cum 
+              ca<lb ed="#P" n="99" break="no"/>rus quemlibet militem sui exercitus proprio nomine 
+              <lb ed="#P" n="100"/>salut auerit sine doctor e ertrinseco: et nithridates 
+              <lb ed="#P" n="101"/>xxii. gentium quibus impabat singuas cognouerit: 
+              <lb ed="#P" n="102"/>uo est illud negandum deo.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e472">
+      ⁋ Dicimus propterea et 
+              <lb ed="#P" n="103"/>philosophum et eius Comentatorem in hoc non 
+              locu<lb ed="#P" n="104" break="no"/>tos pobabiliter: nec conformiter ad sua principia. 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e479">
+               <lb ed="#P" n="105"/>⁋ Sed contra istam conclusionem arguitur sic. vel de 
+              <lb ed="#P" n="106"/>us cognoscit distincte omnia possibilia et existentia vel 
+              <lb ed="#P" n="107"/>non. Si secundum: pari ratione nihil aliud a se intelligit 
+              <lb ed="#P" n="108"/>Si primum. tunc intelligit quamlibet partem continui 
+              <lb ed="#P" n="109"/>distincte. Sed probo quod non. vel eius cognitio sistit 
+              <lb ed="#P" n="110"/>ad diuisibile: et sic non cognoscit distincte quodlibm 
+              <lb ed="#P" n="111"/>vel si ad indiuisibile: ergo continuum componitur ex pun 
+              <lb ed="#P" n="112"/>ctis.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e499">
+      ⁋ Aid istud concedo quod quamlibet partem 
+              con<lb ed="#P" n="113" break="no"/>tinui distincte videt deus: et ad quamlibet partem ter 
+              <lb ed="#P" n="114"/>minatur obiectiue: et infinities infinitas partes co 
+              <lb ed="#P" n="115"/>gnoscit: sed quaelibet pars cognita est diuisibilis. quam 
+              <lb ed="#P" n="116"/>libet enim partem proportionalem a continui deus distin 
+              <lb ed="#P" n="117"/>cte intuetur. et rursus diuidendo quamlibet partem pr 
+              <lb ed="#P" n="118"/>portionalem in alias partes proportionales. et 
+              quan<lb ed="#P" n="119" break="no"/>libet earum rursum infinities. quamlibet istarum 
+              distin<lb ed="#P" n="120" break="no"/>cte cognoscit et earum distinctionem videt: et quelibet 
+              <lb ed="#P" n="121"/>pars cognita est diuisibilis in infinitas partes. 
+              si<lb ed="#P" n="122" break="no"/>cut in infinitum parua est aliqua pars huius 
+              con<lb ed="#P" n="123" break="no"/>tinui et nulla pars est minima: ita in infinitum paruam 
+              <lb ed="#P" n="124"/>partem deus cognoscit: et quelibet pars cognita est 
+              <lb ed="#P" n="125"/>diuisibilis. Et distinguo quod notitia dei terminetur 
+              <lb ed="#P" n="126"/>vel obiectiue et sic concedo. et semper in parte diuisi 
+              <lb ed="#P" n="127"/>bili continui: semper loquimur de cognitione 
+              par<lb ed="#P" n="128" break="no"/>tium puri continui. Vel terminetur sic quod detur vl 
+              <lb ed="#P" n="129"/>tima cognita. et hoc non. quamlibet enim partem vni 
+              <lb ed="#P" n="130"/>co actu qui est ipse deus ab eterno cognouit: opi¬ 
+      <!--199.xml-->
+      <pb ed="#P" n="92-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nor etiam animam christi quamlibet partem continui di 
+              <lb ed="#P" n="2"/>stincte cognoscere. Et sicut non datur minima pars 
+              <lb ed="#P" n="3"/>in continuo non cognoscit minimam. non potest 
+              ta<lb ed="#P" n="4" break="no"/>men quamlibet partem distincte cognitam a qualibet 
+              <lb ed="#P" n="5"/>alia separare: quia quelibet illarum esset 
+              imparti<lb ed="#P" n="6" break="no"/>bilis. Quod probo: quia data vna illarum partium: vel 
+              <lb ed="#P" n="7"/>illa habet tres tertias: et centum centesimas: et tunc non 
+              <lb ed="#P" n="8"/>quelibet distincte cognita est separata ab alia. Et li 
+              <lb ed="#P" n="9"/>cet quidam doctor dicat se tenuisse in quadam respon 
+              <lb ed="#P" n="10"/>sione publica quod sic: non tamen recitauit an baccalaurei 
+              <lb ed="#P" n="11"/>contenti abierant. semper enim remanet questio an 
+              qua<lb ed="#P" n="12" break="no"/>libet remanet diuisibilis an indiuisibilis: non secundum 
+              <lb ed="#P" n="13"/>illud reputat impossibile: vt patet in suo secundo. 
+              pri<lb ed="#P" n="14" break="no"/>mum indubie includit contradictionem. Apud me 
+              <lb ed="#P" n="15"/>non est tamen inopinabile naturaliter loquendo: quod 
+              <lb ed="#P" n="16"/>continuum componitur ex punctis. Et rationes huius 
+              <lb ed="#P" n="17"/>et aliorum alibi eluere curabimus. Sed quia tenebrose 
+              <lb ed="#P" n="18"/>loquitur potest dici quod tenuit quod quelibet pars est 
+              sepa<lb ed="#P" n="19" break="no"/>rata secundum cognitionem: sed certe nihil noui 
+              tenu<lb ed="#P" n="20" break="no"/>it: quia illud a quolibet theologo conceditur.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e591">
+      ⁋ Secundo 
+              <lb ed="#P" n="21"/>arguitur: si deus cognoscit quodlibet et omnia eodem 
+              <lb ed="#P" n="22"/>modo: et omnia praedicata dicibilia de ipsis: ergo cogno 
+              <lb ed="#P" n="23"/>scit complexe.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e600">
+      ⁋ hoc argumentum nullum est, conce 
+              <lb ed="#P" n="24"/>ditur enim quod licet deus sit simplex in essentia tamen co- 
+              <lb ed="#P" n="25"/>plexe cognoscit: sicut non improbabile est quod menta 
+              <lb ed="#P" n="26"/>lis sit simplex notitia et complexe significat: et sic deus 
+              <lb ed="#P" n="27"/>est grammaticus: logicus: rhetor: geometria: cogno 
+              <lb ed="#P" n="28"/>scit quod superlineam datam contingit triangulum equilaterum 
+              <lb ed="#P" n="29"/>collocare: et quod obliquus infronte rectus in medio &amp; 
+              <lb ed="#P" n="30"/>verbum in calce orationis est locandum. et non contra. et 
+              <lb ed="#P" n="31"/>sic aliqua grammatica est logica realiter.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e620">
+      ⁋ Ulte 
+              <lb ed="#P" n="32"/>rius patet quod deus est notitia apprehensiua falsi et 
+              im<lb ed="#P" n="33" break="no"/>possibilis. non tamen est iudicatiua notitia falsi. hoc 
+              <lb ed="#P" n="34"/>nihil aliud est dictu quam deum apprehendere falsum 
+              <lb ed="#P" n="35"/>Etiam in apprehensione non iudiciaria non consistit 
+              <lb ed="#P" n="36"/>deceptio: secus est in iudicio. Habet tamen aliquam conuenien 
+              <lb ed="#P" n="37"/>tiam cum notitia abstractiua quae est respectu 
+              absen<lb ed="#P" n="38" break="no"/>tium: sic enim deus absentia intuetur sicut praesentia: et sic 
+              <lb ed="#P" n="39"/>conuenit cum notitia intuitiua nostra: non est syllogismus 
+              <lb ed="#P" n="40"/>sophisticus vt sonat in malam partem / nec cognitio vni 
+              <lb ed="#P" n="41"/>uersalis hoc modo set representet specifice singula 
+              <lb ed="#P" n="42"/>riter: et discretissime sibiipsi.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e646">
+      ⁋ Nunc respondetur ad ra 
+              <lb ed="#P" n="43"/>tiones commentatoris quarum multe sunt faciles. nec 
+              <lb ed="#P" n="44"/>est opus ad illas respondere.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e653">
+      ⁋ Et arguit primo. 
+              <lb ed="#P" n="45"/>si intelligeret alia a se: tunc sua substantia non esset 
+              <lb ed="#P" n="46"/>intellectio eiusdem: sed erit potentia per quam fit 
+              in<lb ed="#P" n="47" break="no"/>tellectio.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e662">
+      ⁋ Ad hoc dicitur consequentiam esse nul 
+              <lb ed="#P" n="48"/>lam.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e668">
+      ⁋ Secundo sic arguit: quia tunc aliquid 
+              es<lb ed="#P" n="49" break="no"/>set nobilius deo quod est falsum. patet consequen 
+              <lb ed="#P" n="50"/>tia: quia intellectum est perfectio intelligentis sci 
+              <lb ed="#P" n="51"/>licet causaliter. quia causat in intelligente suam 
+              <lb ed="#P" n="52"/>perfectionem que est intellectio. omne autem 
+              ta<lb ed="#P" n="53" break="no"/>le inquantum huiusmodi perfectius est illo.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e681">
+      ⁋ 
+              Pri<lb ed="#P" n="54" break="no"/>ma consequentia est nulla. Et ad probationem: di 
+              <lb ed="#P" n="55"/>co quod non habet veritatem de intelligente cuius 
+              <lb ed="#P" n="56"/>intellectio non distinguitur a sua substantia 
+              qua<lb ed="#P" n="57" break="no"/>lis est deus.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e692">
+      ⁋ Item anima intelligit muscam 
+              <lb ed="#P" n="58"/>que est anima imperfectior.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e697">
+      ⁋ Tertio arguit. quia 
+              <lb ed="#P" n="59"/>tunc non esset independens et non indigens alia re: 
+              <lb ed="#P" n="60"/>qui intellectus dependet ab intellecto.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e704">
+      ⁋ Negatur 
+              <lb ed="#P" n="61"/>consequentia
+            </p>
+            <p xml:id="jm12w4-e63602-d1e709">
+      ⁋ Quarto sequitur quod deus patitur 
+              moue<lb ed="#P" n="62" break="no"/>tur ab alio
+            </p>
+            <p xml:id="jm12w4-e63602-d1e715">
+      ⁋ Nego consequentiam nihil enim in se recipit 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e718">
+               <lb ed="#P" n="63"/>⁋ Quinto: tunc sua intellectio non esset 
+              nobilissi<lb ed="#P" n="64" break="no"/>ma: et cum sua perfectio sit in intelligendo non es¬ 
+      <!--199.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 92vb -->
+               <lb ed="#P" n="65"/>set nobilissimus quod est contra primam conclusio 
+              <lb ed="#P" n="66"/>nem. consequentia probatur. quia intellectio rei vi 
+              <lb ed="#P" n="67"/>lis non est nobilis: sed vilis. Et ideo apud nos me 
+              <lb ed="#P" n="68"/>lis est non meditari de talibus quam meditari et non 
+              <lb ed="#P" n="69"/>videre quam videre.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e742">
+      ⁋ Fateor haec ratio aliquid appa 
+              <lb ed="#P" n="70"/>rentie habet.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e747">
+      ⁋ Ad quintum nego consequentiam. licet sit vile oc 
+              <lb ed="#P" n="71"/>cupare intellectum circa vilia vbi intellectus 
+              im<lb ed="#P" n="72" break="no"/>peditur ab intelligentia nobiliorum: aut per 
+              intelli<lb ed="#P" n="73" break="no"/>gentiam vilium quis inducitur ad peccandum: vbi 
+              <lb ed="#P" n="74"/>tamen neutrum contingeret hoc non esset vile.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e758">
+      ⁋ Sex 
+              <lb ed="#P" n="75"/>to arguit Commentator: quia si intelligeret alia aut in 
+              <lb ed="#P" n="76"/>vniversali tantum: aut in particulari: non in vniversali: quia talis intellectio 
+              <lb ed="#P" n="77"/>est imperfecta: et impotentia. Nec in particulari: quia 
+              <lb ed="#P" n="78"/>particularis sunt infinita. et infinita nulla scientia 
+              <lb ed="#P" n="79"/>determinantur. ergo non cognoscit singularia 
+              di<lb ed="#P" n="80" break="no"/>stincte et in particulari.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e774">
+      ⁋ Respondetur quod non in 
+              <lb ed="#P" n="81"/>conuenit rem infinite perfectionis intellligere in 
+              <lb ed="#P" n="82"/>finita distincte.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e782">
+      ⁋ Sed dices: tuuc emergunt ee 
+              <lb ed="#P" n="83"/>dem difficultates philosopho de immutabilitate 
+              <lb ed="#P" n="84"/>dei de futuris contingentibus sicut nobis.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e789">
+      ⁋ hoc 
+              <lb ed="#P" n="85"/>conceditur. Et si dicas: cognoscere duo distincte 
+              <lb ed="#P" n="86"/>arguit maiorem perfectionem quam cognoscere vnum 
+              <lb ed="#P" n="87"/>et sic consequenter conscendendo: ergo est infiniti 
+              <lb ed="#P" n="88"/>vigoris si cognoscat infinita: quod tamen philoso 
+              <lb ed="#P" n="89"/>phus et Commentator negarent.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e802">
+      ⁋ In primis di 
+              <lb ed="#P" n="90"/>citur quod argumentum multum probabiliter ad hoc 
+              <lb ed="#P" n="91"/>deducit quod deus est infiniti vigoris: non stando in 
+              <lb ed="#P" n="92"/>hoc quod ipsi illud negarent.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e811">
+      ⁋ Secundo dicitur quod con 
+              <lb ed="#P" n="93"/>sequentia non est euidens: quia sic multi theologi 
+              <lb ed="#P" n="94"/>dicunt animam christi cognoscere omnia per eun 
+              <lb ed="#P" n="95"/>dem actum: qui primo tendit in deum et secundario 
+              <lb ed="#P" n="96"/>in creaturas infinitas.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e822">
+      ⁋ Item arguitur adhuc 
+              <lb ed="#P" n="97"/>sic. deus nescit adhuc istam: hec est nescita a deo qua 
+              <lb ed="#P" n="98"/>demonstrat se: et illa est vera. ergo deus non scit 
+              <lb ed="#P" n="99"/>omne verum. Quia illa sit vera patet. vel deus scit ita 
+              <lb ed="#P" n="100"/>esse sicut per illam significatur vel non. Si primum 
+              <lb ed="#P" n="101"/>cum per eam significetur quod ipsa est nescita a deo: 
+              <lb ed="#P" n="102"/>ergo ita est quod ipsa est nescita a deo. Si dicas 
+              secun<lb ed="#P" n="103" break="no"/>dum: et ipsa significat quod est nescita a deo: et ita est. 
+              <lb ed="#P" n="104"/>ergo ipsa est vera.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e842">
+      ⁋ hic potest dici quod sicut ad ve 
+              <lb ed="#P" n="105"/>ritatem propositionis non sufficit ita esse sicut per 
+              <lb ed="#P" n="106"/>eam significatur: sed cum hoc requiritur quod se non 
+              <lb ed="#P" n="107"/>falsificet. Sic impresentiarum de hac propositione 
+              <lb ed="#P" n="108"/>dicatur recalcitrat in eius scientiam. ipsa est nesci 
+              <lb ed="#P" n="109"/>ta. Sed tunc est questio ergo est aliquod verum ne 
+              <lb ed="#P" n="110"/>scitum a deo.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e859">
+      ⁋ Concedis illatum. quando verum 
+              <lb ed="#P" n="111"/>habet reflexionem in eius scire.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e864">
+      ⁋ Vel dicamus con 
+              <lb ed="#P" n="112"/>formius ad sacras literas. quod illa est falsa et se 
+              fal<lb ed="#P" n="113" break="no"/>sificat per hunc modum quia nescitur a deo. 
+              abso<lb ed="#P" n="114" break="no"/>num videtur concedere quod aliquod verum 
+              nescia<lb ed="#P" n="115" break="no"/>tur a deo. sed hec propositio: hoc est nescitum a ioan 
+              <lb ed="#P" n="116"/>ne est vera. Et tamen a me nescita. sed scio ita esse 
+              <lb ed="#P" n="117"/>sicut per illam significatur: non sequitur: hec est a 
+              <lb ed="#P" n="118"/>me nescita: ergo est falsa. secus est respectu dei. 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e882">
+               <lb ed="#P" n="119"/>⁋ Sed dices: tunc erit aliquod iudicium quod nec 
+              <lb ed="#P" n="120"/>erit error / nec fides / opinio / sapientia / intellectus 
+              <lb ed="#P" n="121"/>prudentia / ars. patet de iudicio huius. hec est 
+              ne<lb ed="#P" n="122" break="no"/>scita a me: tale iudicium non est error nec fides. et 
+              <lb ed="#P" n="123"/>ita de aliis iudiciis enumeratis.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e895">
+      ⁋ Conceditur il 
+              <lb ed="#P" n="124"/>latum.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e900">
+      ⁋ Dubitatur circa hanc distinctionem an 
+              <lb ed="#P" n="125"/>idee creaturarum sint perpetue.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e905">
+      ⁋ Supponatur 
+              <lb ed="#P" n="126"/>quod idea est nomen grecum ab idos quod est forma 
+              <lb ed="#P" n="127"/>specios vel ratio. Modus loquendi a platone est 
+              <lb ed="#P" n="128"/>introductus. pater per <name xml:id="jm12w4-e63602-Nd1e913" ref="#Augustine">Augustinum</name> lib. lxxxiii. q. quest. q. 
+      <!--200.xml-->
+      <pb ed="#P" n="93-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>xlvi. licet res paius erat fortasse tali noine non prius 
+              <lb ed="#P" n="2"/>vocabatur. Plato (vt <name xml:id="jm12w4-e63602-Nd1e927" ref="#Lombard">Magister</name> dicit distim. prima. lib. 
+              <lb ed="#P" n="3"/>ii. posuit tria principia siue initia: deum / exemplat 
+              <lb ed="#P" n="4"/>siue ideam: et materiam.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e937">
+      ⁋ August. vbi supra dicit quod 
+              <lb ed="#P" n="5"/>idee sunt principales quedam forme vel rationes 
+              re<lb ed="#P" n="6" break="no"/>rum stabiles atque immutabiles: quae ipse formate non 
+              <lb ed="#P" n="7"/>sunt. et prpter hoc eterne et semper eodem modo se 
+              ha<lb ed="#P" n="8" break="no"/>bentes quio diuina intelligentia continentur: et tamen ipse 
+              <lb ed="#P" n="9"/>neque oriuntur. neque intereunt: secundum eas tamen formari 
+              <lb ed="#P" n="10"/>diter omne quod oriri et interire potest.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e953">
+      ⁋ Seneca Epi 
+              <lb ed="#P" n="11"/>stola lxvi. ad Lucilium enumerans. iiii causas rerum 
+              <lb ed="#P" n="12"/>secundum <name xml:id="jm12w4-e63602-Nd1e959" ref="#Aristotle">Aristotelem</name> subdit. quintam his Plato adiicit 
+              <lb ed="#P" n="13"/>exemplar: quod ipse ideam vocat.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e965">
+      ⁋ Ex his 
+              aucto<lb ed="#P" n="14" break="no"/>ritatibus hincinde sparsis non est lucidum que res est 
+              <lb ed="#P" n="15"/>idea. si em ponamus terminum idea in recto stare pro 
+              <lb ed="#P" n="16"/>creatura: ia non erit eterna et inuariabilis: si vero 
+              <lb ed="#P" n="17"/>ponamus ideam esse deum: iam idea erit inuariabilis 
+              <lb ed="#P" n="18"/>et eterna: sed non erunt plures idee. et quia idea est 
+              ali<lb ed="#P" n="19" break="no"/>quid oportet dicere quod est creator vel creatura. 
+              quic<lb ed="#P" n="20" break="no"/>quid dixerimus oportet modum loquendi patrum expone 
+              <lb ed="#P" n="21"/>re.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e985">
+      ⁋ Possumus itaque dicere quod idea est deus crea 
+              <lb ed="#P" n="22"/>turas cognoscens: et sic idea est eterna: et idea 
+              pre<lb ed="#P" n="23" break="no"/>cenit ideata.
+            </p>
+            <p xml:id="jm12w4-e63602-d1e992">
+      ⁋ Secundo sequitur: quod licet non sint 
+              plu<lb ed="#P" n="24" break="no"/>res idee essentialiter distincte: tamen dicuntur plura ob 
+              <lb ed="#P" n="25"/>pluralitatem ideatorum. hoc est vna res vocatur plures 
+              <lb ed="#P" n="26"/>ratione oblectorum pturium inque caditratio idee. 
+              si<lb ed="#P" n="27" break="no"/>cut plures reputantur potentie anime intellectiue. 
+            </p>
+            <p xml:id="jm12w4-e63602-d1e1003">
+               <lb ed="#P" n="28"/>⁋ Si quis voluerit dicere quod idea in recto supponit 
+              <lb ed="#P" n="29"/>pro creaturis connotando quod cognoscantur ab essentia 
+              <lb ed="#P" n="30"/>diuina: potest. tunc enim saluatur pluralitas idearum 
+              <lb ed="#P" n="31"/>et idee sunt a mente diuine. et licet nulla idea 
+              fue<lb ed="#P" n="32" break="no"/>rit ab eterno: ab eterno tamen fuit idea: idea est 
+              <lb ed="#P" n="33"/>terminus ampliatiuus sicut cognosci. creatura fu 
+              <lb ed="#P" n="34"/>it idea quando nulla idea fuit creatura. idea dicitur 
+              eter<lb ed="#P" n="35" break="no"/>na: quia essentialiter cognoscitur. est inuariabilis: quia 
+              <lb ed="#P" n="36"/>semper a deo cognoscitur siue sit siue non sit. non pot 
+              <lb ed="#P" n="37"/>esse fortis ratio pro vna parte dicendi. prior modus est 
+              <lb ed="#P" n="38"/>ita conformis modo loquendi Platonis Senece 
+              <lb ed="#P" n="39"/>et beati <name xml:id="jm12w4-e63602-Nd1e1031" ref="#Augustine">Augustini</name> sicut posterior 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

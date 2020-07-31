@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="83-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e57366"> <!--l1d20q1 -->
+            <head xml:id="jm12w4-e57366-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e57366-Hd1e109" type="question-title">
+      An personae divinae sunt aequales, 
+      et an naturaliter loquendo Deus effectus causet et conservet?
+    </head>
+            <p xml:id="jm12w4-e57366-d1e112">
+               <lb ed="#P" n="25"/>⁋ Nunc ostendere restat quo. nodo aliqua 
+              <lb ed="#P" n="26"/>harum personarum aliam non excellat porentia. 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e119">
+               <lb ed="#P" n="27"/>⁋ Distinctionis. xx. questio vnica bimembris. 
+              <lb ed="#P" n="28"/>N ista vigesima distinc. <name xml:id="jm12w4-e57366-Nd1e125" ref="#Lombard">magister</name> loqui 
+              <lb ed="#P" n="29"/>ntur de equalitate personarum in diuinis: 
+              <lb ed="#P" n="30"/>spropterea queritur an persone diuine sunt 
+              <lb ed="#P" n="31"/>equales: et an naturaliter loquendo
+              de<lb ed="#P" n="32" break="no"/>us effectus causet et conseruet.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e139">
+      ⁋ Ad 
+              <lb ed="#P" n="33"/>vtramque questionem respondetur per conclusiones.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e144">
+      ⁋ 
+              Pri<lb ed="#P" n="34" break="no"/>ma est quicquid persona vna potest facere idem pot 
+              qua<lb ed="#P" n="35" break="no"/>libet alia persona facere: quia sicut ioan. primo quia de filio: 
+              <lb ed="#P" n="36"/>sine ipso factum est nihil: eodem modo dicet de qulibbet 
+              <lb ed="#P" n="37"/>aliam: quia opera trinitatis sunt indiuisa. hoc <name xml:id="jm12w4-e57366-Nd1e154" ref="#Lombard">magister</name> 
+               <lb ed="#P" n="38"/>sufficienter onendit inlistera.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e161">
+      ⁋ Contra hanc conclusio 
+              <lb ed="#P" n="39"/>nem arguitur: quicquid filius producit idem producit et pr et cum hoc 
+              <lb ed="#P" n="40"/>producit filium: ergo pater est potentior filio.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e168">
+      ⁋ Sed 
+              <lb ed="#P" n="41"/>dices (sicut dicendum est) quod potentia non est respectu 
+              <lb ed="#P" n="42"/>personarum ad intra: sed sorum respectu effectuum pro 
+              <lb ed="#P" n="43"/>ducibilium.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e177">
+      ⁋ Contra hoc arguitur. si pater posset 
+              pro<lb ed="#P" n="44" break="no"/>ducere vnum effectum quem filius non potest producere 
+              <lb ed="#P" n="45"/>pater esset maioris perfectionis quam filius: sed quia secun 
+              <lb ed="#P" n="46"/>da persona in diuinis est substantia infinite perfectio 
+              <lb ed="#P" n="47"/>nis quemlibet effectum producibilem infinite exupe 
+              <lb ed="#P" n="48"/>rans: posset producere filium quod arguit patrem perfe 
+              <lb ed="#P" n="49"/>ctiorem esse filio.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e193">
+      ⁋ Respondetur concedendo maiorem. 
+              an<lb ed="#P" n="50" break="no"/>tecedens enim illius conditionalis est impossibile quod 
+              <lb ed="#P" n="51"/>pater producit effectum quem filius non potest produ-  
+              <lb ed="#P" n="52"/>cere: et concedendo minorem et nego consequentiam: quia filius 
+              <lb ed="#P" n="53"/>est idem essentialiter et eadem essentia cum patre producem 
+              <lb ed="#P" n="54"/>te filium.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e207">
+      ⁋ Eodem modo respondetur ad argumentum 
+              <lb ed="#P" n="55"/>quod fieri potest quod pater a filius sunt potentiores 
+              spi<lb ed="#P" n="56" break="no"/>ritu sancto: cum ipsum spirent et non econuerso 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e214">
+               <lb ed="#P" n="57"/>⁋ Secunda conclusio. in lumine naturali pabile est 
+              <lb ed="#P" n="58"/>aliquod ens primum effectiuum.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e221">
+      ⁋ Probatur: quia 
+              <lb ed="#P" n="59"/>enti perfectissimo attribuenda est causalitas 
+              perfe<lb ed="#P" n="60" break="no"/>ctionis: sed continere nobilissimos effectus est 
+              perfe<lb ed="#P" n="61" break="no"/>ctionis: quia hoc est esse actualissimum.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e230">
+      ⁋ Insuper 
+              <lb ed="#P" n="62"/>quod habet virtutem effectiuam respectu nobilissimo: ui 
+              <lb ed="#P" n="63"/>causabilium videtur nobilius ens eo quod nullam habet vir 
+              <lb ed="#P" n="64"/>tutem productiuam: alioquin nulla nobilitas seu perfe¬ 
+      <!--180.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 83rb -->
+               <lb ed="#P" n="65"/>ctio potest argui vel cognosciin causa ex suis 
+              actio<lb ed="#P" n="66" break="no"/>nibus: nec vna ca potest argui nobilior alia propter 
+              <lb ed="#P" n="67"/>nobiliores effectus.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e252">
+      ⁋ Confirmatur: quia debilitas et 
+              in<lb ed="#P" n="68" break="no"/>firmitas agendi est imperfectionis. igitur. multo ma 
+              <lb ed="#P" n="69"/>gis impotentia agendi et priuari potentia et virtute 
+              <lb ed="#P" n="70"/>productiva.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e261">
+      ⁋ Ulterius sic: esse summe bonitatis est 
+              <lb ed="#P" n="71"/>perfectionis et nobilitatis: igitur et esse primum 
+              effecti<lb ed="#P" n="72" break="no"/>uum respectu nobilissimorum causabilium. consequentia patet: quia 
+              <lb ed="#P" n="73"/>esse effectiuum est esse conicatiuum: efficientie enim est 
+              <lb ed="#P" n="74"/>perfectionem coincare: et ex conicatione arguitur bonitas. 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e273">
+               <lb ed="#P" n="75"/>⁋ Preterea habere virtutem effectiuam respectu 
+              <lb ed="#P" n="76"/>cabilis eterni conuenit secunde intelligentie: igitur 
+              pri<lb ed="#P" n="77" break="no"/>me: et esse primum effectiuum respectu nobilissimorum 
+              <lb ed="#P" n="78"/>causabilium. consequentia patet: quia hoc attribuitur secunde intellige 
+              <lb ed="#P" n="79"/>tie re spectu perfectionis. Et patet per Commentatorem 
+              <lb ed="#P" n="80"/>in de substantia orbis tractatu secundo. corpus enim 
+              ce<lb ed="#P" n="81" break="no"/>leste indiget non tantum virtute mouente in loco: sed  
+              <lb ed="#P" n="82"/>largiente ei in se  in sua substantia permanentiam et 
+              <lb ed="#P" n="83"/>essentiam. Et infra celum habet virtutem non tantum 
+              mouen<lb ed="#P" n="84" break="no"/>tem: sed agentem et conseruantem. finis enim seruat agens 
+              <lb ed="#P" n="85"/>seruatione necessaria: sicut motus seruat mouens. et 
+              <lb ed="#P" n="86"/>infra loquendo de primo mouente ait. Quidam 
+              di<lb ed="#P" n="87" break="no"/>xerunt <name xml:id="jm12w4-e57366-Nd1e303" ref="#Aristotle">aristotelem</name> non dicere ipsum causam agentem 
+              <lb ed="#P" n="88"/>totum sed mouentem. et istud fuit valde absurdum. non 
+              <lb ed="#P" n="89"/>enim est dubitatio in hoc quod mouens celum est agens ipsum 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e311">
+               <lb ed="#P" n="90"/>⁋ Rursus. frustra enim ponitur in vniuerso secundum 
+              phi<lb ed="#P" n="91" break="no"/>losophos praeter primum motorem quedam intelligentia 
+              <lb ed="#P" n="92"/>ociosa que omnino esset impotens agere. 
+              Aristote<lb ed="#P" n="93" break="no"/>les enim. xii. metaphysice inquirens numerum 
+              substan<lb ed="#P" n="94" break="no"/>tiarum spiritualium ponit numerum earum secundum nume 
+              <lb ed="#P" n="95"/>rum orbium celestium. quia si qua alia esset foret ociosa. 
+              <lb ed="#P" n="96"/>Et Commentator ibidem commento. xliii. dicit 
+              decla<lb ed="#P" n="97" break="no"/>ratum est substantias eternas esse plures vna et quod 
+              <lb ed="#P" n="98"/>in ea est prima. s. que omnia mouet. Quia autem moderni di 
+              <lb ed="#P" n="99"/>cunt substantiam primam esse priorem imotore totius 
+              <lb ed="#P" n="100"/>falsum est: immo quelibet est principium substantie 
+              <lb ed="#P" n="101"/>sensibilis secundum motorem. et ideo dicit <name xml:id="jm12w4-e57366-Nd1e339" ref="#Aristotle">aristoteles</name> quod 
+              <lb ed="#P" n="102"/>si alique essent non mouentes essent ociose. et sicut 
+              <lb ed="#P" n="103"/>in ciuitatibus primus princeps habet suam actionem 
+              <lb ed="#P" n="104"/>que est nobilissima: et si non esset ociosus quam actio 
+              <lb ed="#P" n="105"/>nem intendunt omnes qui sunt sub illo principe: sic mo 
+              <lb ed="#P" n="106"/>tores orbium inferiorum intendunt qu. in motum 
+              di<lb ed="#P" n="107" break="no"/>urnum que est primi motoris actio: et alii sunt pro 
+              <lb ed="#P" n="108"/>pter ipsum.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e358">
+      ⁋ Contra hanc conclusionem arguitur sic. 
+              <lb ed="#P" n="109"/>causalitas effectiua magis conuenit entibus imper 
+              <lb ed="#P" n="110"/>fectis. elementa enim magis agunt quam mixta: et tamen sunt 
+              <lb ed="#P" n="111"/>imperfectiora. nam bos generat bouem. angelus autem 
+              <lb ed="#P" n="112"/>nullam substantiam producit. et si anima sensitiua identificer 
+              <lb ed="#P" n="113"/>est intellectiua homo nullam substantiam producit.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e371">
+      ⁋ In 
+              <lb ed="#P" n="114"/>super si causalitas effectiua arguit perfectionem: vel igi 
+              <lb ed="#P" n="115"/>tur in effectu et hoc non: quia ille potest esse perfectior causa vel 
+              <lb ed="#P" n="116"/>eque perfectus: vel in causa: et hoc non. quia imperfectius 
+              <lb ed="#P" n="117"/>potest producere aliquid perfectius se. albedo enim producit 
+              <lb ed="#P" n="118"/>visionem.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e384">
+      ⁋ Preterea causalitas effectiua 
+              competi<lb ed="#P" n="119" break="no"/>entibus inferioribus ratione cuiusdam imperfectionis: vt se 
+              <lb ed="#P" n="120"/>preopetuent in specie vel genere: vt participent esse 
+              di<lb ed="#P" n="121" break="no"/>uinum secundum esse immortale: quod acquirere non possunt 
+              <lb ed="#P" n="122"/>in indiuiduo.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e395">
+      ⁋ Ad primum dicitur quod contingit ignobilius esse 
+              <lb ed="#P" n="123"/>simpliciter magis actiuum: sed illa actiuitas est cum 
+              in<lb ed="#P" n="124" break="no"/>perfectione quadam vt sit actio cum alteratione per actio 
+              <lb ed="#P" n="125"/>nem et repassionem et per corruptionem et vt se perpetuet 
+              <lb ed="#P" n="126"/>in specie specialissima vel subalterna: quia alias 
+              per<lb ed="#P" n="127" break="no"/>petuari neqaunt. angelus autem est incorruptibilis na 
+              <lb ed="#P" n="128"/>turaliter: et ion non eget hac productione.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e412">
+      ⁋ Sed habet actio 
+              <lb ed="#P" n="129"/>nem propriam nobiliorem quae vltimum finem attingit: et ei vnitur 
+      <!--181.xml-->
+      <pb ed="#P" n="83-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vt sue nature conuenit. et quia deus paulo minus subie 
+              <lb ed="#P" n="2"/>cit hominemangelo: decuit formam humanam a solo deo 
+              <lb ed="#P" n="3"/>creari sicut creatus est angelus.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e430">
+      ⁋ Ad secundum dicitur 
+              <lb ed="#P" n="4"/>quod agere est nobilius quam non agere ceteris paribus 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e435">
+               <lb ed="#P" n="5"/>⁋ Tertium solutum est ex dictis.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e440">
+      ⁋ Tertia conclusio. 
+              <lb ed="#P" n="6"/>probabile est in lumine naturali quod prima 
+              intelligen<lb ed="#P" n="7" break="no"/>tia est causa secundarum intelligentiarum 
+              Proba<lb ed="#P" n="8" break="no"/>tur. philosophi enim naturaliter loquentes hoc 
+              pro<lb ed="#P" n="9" break="no"/>bare nisi sunt. viii. physicorum cap. iiii. aliquorum 
+              sem<lb ed="#P" n="10" break="no"/>piter norum aliqua sunt querenda principia et causae: tri 
+              <lb ed="#P" n="11"/>angulus habet tres.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e456">
+      ⁋ Et confirmatur. xii. 
+              metaphysi<lb ed="#P" n="12" break="no"/>ce Commentator comento. xxxvi. dicit quod sicut aliquis: 
+              <lb ed="#P" n="13"/>mouetur adconseruandam suam sanitatem sic alie intel 
+              <lb ed="#P" n="14"/>ligentiae mouent: quia intelligunt quod perfectio et 
+              <lb ed="#P" n="15"/>substantia earum est in motu et amando primam sub 
+              <lb ed="#P" n="16"/>stantiam. Quia magis primam causam amat quam seipam 
+              <lb ed="#P" n="17"/>naturaliter constat eo / quod dependet a prima causa.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e472">
+      ⁋ Pre 
+              <lb ed="#P" n="18"/>terea. v. metaphy. Commento. xxxi. apud 
+              aristote<lb ed="#P" n="19" break="no"/>lem virtutes intellectuales absque materis sunt a 
+              <lb ed="#P" n="20"/>virtute non mixta cum materia.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e482">
+      ⁋ Ulterius si con 
+              <lb ed="#P" n="21"/>clusio negaretur hoc potissimum foret quia secunde in 
+              <lb ed="#P" n="22"/>telligentie sunt necessarie secundum <name xml:id="jm12w4-e57366-Nd1e488" ref="#Aristotle">aristotelem</name>: sed hoc non 
+              <lb ed="#P" n="23"/>mpedit: quia. ii metaphysice sempiternorum sunt causae qua 
+              <lb ed="#P" n="24"/>lunt maxime que sunt causa aliis vt sint. vbi ait 
+              Con<lb ed="#P" n="25" break="no"/>mentator commento. iiii. hec est prima causa omnim vt sint 
+              <lb ed="#P" n="26"/>et. v. metaphysice cap. de necessario: necessariorum est 
+              <lb ed="#P" n="27"/>altera causa.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e503">
+      ⁋ Item celum secundum Commentatorem in 
+              <lb ed="#P" n="28"/>de substantia orbis dependet ab alio effectiue: et 
+              <lb ed="#P" n="29"/>tamen ipsum est necessarium secundum philosophos.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e510">
+      ⁋ Sed 
+              <lb ed="#P" n="30"/>hic dici potest quod phuns loquitur de conclusionibus demon 
+              <lb ed="#P" n="31"/>stratiuis: et si de incomplexis loquatur non probatur 
+              <lb ed="#P" n="32"/>nisi quod est causa ex qua sequitur quod sit causa efficiens 
+              <lb ed="#P" n="33"/>sed est fallatia consequentis. Dicetur enim quod est ca finalis 
+              <lb ed="#P" n="34"/>vel huiusmodi. hoc scimus: sed non ostenditur 
+              ni<lb ed="#P" n="35" break="no"/>si quod hec conclusio est probabilis in via <name xml:id="jm12w4-e57366-Nd1e525" ref="#Aristotle">aristotelis</name>. Si 
+              <lb ed="#P" n="36"/>dicas: primo celi textu et commento centesimosexto 
+              <lb ed="#P" n="37"/>impossibile et sempiternum esse a esse factum. hoc 
+              <lb ed="#P" n="38"/>intelligitur de factione noua.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e535">
+      ⁋ Sed contra istud arguitur 
+              <lb ed="#P" n="39"/>quelibet intelligentia secundum naturaliter loquentes est 
+              <lb ed="#P" n="40"/>perpetua: ergo non causatur a prima intelligentia.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e542">
+      ⁋ Pre 
+              <lb ed="#P" n="41"/>terea ex isto sequitur quod creatio esset possibilis: consequens est 
+              <lb ed="#P" n="42"/>falsum primo physicorum: ex nihilo nihil fit apud 
+              na<lb ed="#P" n="43" break="no"/>turaliter loquentes.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e551">
+      ⁋ Ad primum dicitur quod consequentia est 
+              <lb ed="#P" n="44"/>nulla: quia sic celum est eternum et eternus est motuis 
+              <lb ed="#P" n="45"/>celi: et aliquod lumen solis est eternum: quod constat 
+              <lb ed="#P" n="46"/>esse effectum solis. hec in lumine naturali clarent. 
+              <lb ed="#P" n="47"/>Qui lumem solis sit eternum probatur: capio lumen pro 
+              <lb ed="#P" n="48"/>ductum a sole in partibus soli propinquis inter quas 
+              <lb ed="#P" n="49"/>et solem non potest cadere corpus opacum eclipsans lu 
+              <lb ed="#P" n="50"/>men solis: iam illud lumem fuit ab eterno secundum aristo 
+              <lb ed="#P" n="51"/>telem: et non potest non esse.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e572">
+      ⁋ Sed dices quod aliquod 
+              <lb ed="#P" n="52"/>lumen intensum cuius vna pars non potest non esse secundum 
+              <lb ed="#P" n="53"/>eum et alia corrumpitur: intenditur et remittitur 
+              <lb ed="#P" n="54"/>quod est inconueniens. probo consequentiam. venus et mercu 
+              <lb ed="#P" n="55"/>rius sunt planete semper propinqui soli siue aliquid 
+              <lb ed="#P" n="56"/>luminis habeant ex se siue totale lumen ex sole ca 
+              <lb ed="#P" n="57"/>biat tamen lumem recipiunt a sole. quia cum sint passa re 
+              <lb ed="#P" n="58"/>ceptiua luminis: et solnatus est pius luminis 
+              cau<lb ed="#P" n="59" break="no"/>sare quam habeant: consequens est quod lumen recipiant a sole. 
+              <lb ed="#P" n="60"/>Et cu sint propinquiores soliplus luminis habebunt:  
+              <lb ed="#P" n="61"/>cum agens naturale pius producat in propinquum 
+              <lb ed="#P" n="62"/>quam in distans: tunc lumen vt notum est ex planetis 
+              <lb ed="#P" n="63"/>non potest non esse: vel remissum in eis a sole: cum 
+              <lb ed="#P" n="64"/>maxime distent ab eodem. reliqua pars luminis num 
+              <lb ed="#P" n="65"/>quam intendetur et nunquam remittetur.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e605">
+      ⁋ Respondet 
+      <!--181.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 83vb -->
+               <lb ed="#P" n="66"/>concedendo illud tanquam sequens.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e616">
+      ⁋ Ad aliud primi phy 
+              <lb ed="#P" n="67"/>si. potest dici quod philosophusintelligit de factione de 
+              <lb ed="#P" n="68"/>nouo.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e623">
+      ⁋ Quidam dicit <name xml:id="jm12w4-e57366-Nd1e625" ref="#Aristotle">aristotelem</name> illud non posuisse ex 
+              <lb ed="#P" n="69"/>se: sed ex aliorum opinione: propterea dicit vt dicunt omnes 
+              <lb ed="#P" n="70"/>raturalitr loquentes: set illa non videatur intentio aristo 
+              <lb ed="#P" n="71"/>telis non erat in sulse dictum. Nunc tangamus de conser 
+              <lb ed="#P" n="72"/>uatione.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e637">
+      ⁋ Quarta conclusio. deus effectus prius 
+              pro<lb ed="#P" n="73" break="no"/>ductos conseruat secundum vitatem: probatur Augu. iiii. super 
+              <lb ed="#P" n="74"/>ge. c.ii. creatoris potentia et oipotentis atque oitenenm 
+              <lb ed="#P" n="75"/>tis virtus est causa subsistendi omni creature: quam virtus ab 
+              <lb ed="#P" n="76"/>eis quae creata sunt regendi si aliquando cessaret simul et 
+              il<lb ed="#P" n="77" break="no"/>orum cessaret speius omnis quia nam concideret. Postea 
+              <lb ed="#P" n="78"/>bonens discrimen inter fabricatorem domus et 
+              crea<lb ed="#P" n="79" break="no"/>torem rerum dicit. artifice cessante domus stat: non 
+              <lb ed="#P" n="80"/>sic de opore dei. idem ponit. xxii. de ciuit. dei ca. xxiiii. 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e657">
+               <lb ed="#P" n="81"/>⁋ Quinta conclusio. hoc est probabile in lumine natu 
+              <lb ed="#P" n="82"/>rali. Prabatur illud deo attribuendum est quod non vide 
+              <lb ed="#P" n="83"/>tur ei repugnare nec eius celsitudini derogare et 
+              <lb ed="#P" n="84"/>conuenit maiori connexioni vniuersi: sed sic est 
+              ponen<lb ed="#P" n="85" break="no"/>do quod deus reliquas res conseruat erit causalitas et 
+              <lb ed="#P" n="86"/>conseruatio ab vno pricipio. igitur.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e674">
+      ⁋ Preterea 
+              <lb ed="#P" n="87"/>secundum Commentatorem in de substantia orbis: corpus ce 
+              <lb ed="#P" n="88"/>leste non tantum indiget virtute semper mouente ipsum 
+              <lb ed="#P" n="89"/>in loco: sed etiam virtute largiente in se et in sua sub 
+              <lb ed="#P" n="90"/>stantia permanentiam eternam: quia corpus finitum dato 
+              <lb ed="#P" n="91"/>etiam quod corpus celeste fuerit necesse est esse celum: erua 
+              <lb ed="#P" n="92"/>a fortiori sic erit de aliis rebus.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e690">
+      ⁋ Contra hanc 
+              con<lb ed="#P" n="93" break="no"/>clusionem arguitur sic. ex hac conclusione sequitur quod calor 
+              <lb ed="#P" n="94"/>non potest corrumpere frigus nec econuerso: et quod nulla 
+              <lb ed="#P" n="95"/>creatura possit aliam corrumpere: consequens est falsum vt li 
+              <lb ed="#P" n="96"/>quet: ergo et antecedens. consequentia patet: quia a proportione minoris in 
+              <lb ed="#P" n="97"/>equalitatis non fit actio. vii. physicorum: sed deus crea 
+              <lb ed="#P" n="98"/>turam conseruat: quae est potentia creata quam dicis crea 
+              <lb ed="#P" n="99"/>turam corrumpere: igitur.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e708">
+      ⁋ Respondetur negando 
+              <lb ed="#P" n="100"/>onenenam: et ad probationem dicitur quod quoddam est conseruans 
+              <lb ed="#P" n="101"/>particulariter quod sic conseruat hoc quod eius contra 
+              <lb ed="#P" n="102"/>rium corruptiuum non seruat: nec ei coagit: sed totalite 
+              <lb ed="#P" n="103"/>resistit: et effectum sic conseruatum nulla virtus potest 
+              de<lb ed="#P" n="104" break="no"/>struere nisi superet virtutem conseruantis: et de illo con 
+              <lb ed="#P" n="105"/>ceditur probatio assumpta. Aliud est conseruans 
+              vni<lb ed="#P" n="106" break="no"/>uersaliter: quod sic conseruat hanc rem particularem 
+              <lb ed="#P" n="107"/>vt eius etiam contrarium corruptiuum conseruet:  
+              <lb ed="#P" n="108"/>nec ei resistit: sed ei potius coagit. et effectum sic con 
+              <lb ed="#P" n="109"/>seruatum potest aliqua causa destruere licet non exu 
+              <lb ed="#P" n="110"/>peret potentiam conseruantis: et de illo hoc negatur. 
+            </p>
+            <p xml:id="jm12w4-e57366-d1e734">
+               <lb ed="#P" n="111"/>⁋ Sexta conclusio. quelibet res alia a causa prima 
+              <lb ed="#P" n="112"/>continuo dependet causaliter ab ea. Probatur: quia 
+              <lb ed="#P" n="113"/>quod in suo esse intrinseco dependet per se 
+              essentiali<lb ed="#P" n="114" break="no"/>ter ab altero causatur ab illo secundum causalitatem 
+              ex<lb ed="#P" n="115" break="no"/>trinsecam: vnumquodque autem dependet essentialiter a 
+              <lb ed="#P" n="116"/>suis causis extrinsecis et intrinsecis: alioquin 
+              nul<lb ed="#P" n="117" break="no"/>la ca probari potest: vel essent plura quam quattuor ge 
+              <lb ed="#P" n="118"/>nera causarum.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e754">
+      ⁋ Sed contra conclusione arguitur sic 
+              <lb ed="#P" n="119"/>multis conuenit conseruare quibus non conuenit vis 
+              <lb ed="#P" n="120"/>effectiua respectu eius quod conseruatur: patet quia ho 
+              <lb ed="#P" n="121"/>mo conseruatur a frigore per vestem et domum: et 
+              loca<lb ed="#P" n="122" break="no"/>tum conseruatur a loco ad quem mouetur: quarto physico 
+              <lb ed="#P" n="123"/>rum.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e767">
+      ⁋ Insuper sequitur quod quandiu conseruatur res ab 
+              <lb ed="#P" n="124"/>aliquo tam diu fieret et produceretur effectiue ab illo  
+              <lb ed="#P" n="125"/>sed hoc est falsum: quia res cum facta est non indiget vt 
+              <lb ed="#P" n="126"/>amplius fiat.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e777">
+      ⁋ Insuper conseruatio rei est 
+              posteri<lb ed="#P" n="127" break="no"/>or productione illius: et praesupponit productionem illius 
+              <lb ed="#P" n="128"/>conseruatio autem praesupponit esse rei / sed productio effe 
+              <lb ed="#P" n="129"/>ctiua non praesupponit: igitur.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e786">
+      ⁋ Ad primum respondetur quod 
+              <lb ed="#P" n="130"/>conseruatio dupliciter capitur: vno modo genera liter pro 
+      <!--182.xml-->
+      <pb ed="#P" n="84-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>eo per quod res qualitercumque durat et stat in 
+              esse<lb ed="#P" n="2" break="no"/>et sine quo res caderet et tenderet in non esse / siue 
+              <lb ed="#P" n="3"/>per se siue per accidens: siue illud sit rei intrinsecum s 
+              <lb ed="#P" n="4"/>ue extrinsecum: et sic homo conseruatur a domo veste 
+              <lb ed="#P" n="5"/>clypeo: et domus a cane quia ad absentiam istorum sequi 
+              <lb ed="#P" n="6"/>tur praesentia et actio contrarii corrumpentis et 
+              indis<lb ed="#P" n="7" break="no"/>ponentis. sic locus conseruat locatum: quia 
+              elonga<lb ed="#P" n="8" break="no"/>a corruptiuis: et vna pars vini vel aquae conseruat aliam: 
+              <lb ed="#P" n="9"/>quia pius resistit in suo toto quam extra suum totum. 
+              <lb ed="#P" n="10"/>Alio modo proprie aliquid dicitur esse 
+              conseruati<lb ed="#P" n="11" break="no"/>uum virtute cuius res stat per se in esse et declinat 
+              ca<lb ed="#P" n="12" break="no"/>sum in non esse: et a quo res essentialiter sic depen 
+              <lb ed="#P" n="13"/>det quod per solam remotionem illius res cadat in non esse 
+              <lb ed="#P" n="14"/>circunscripto oi alio corruptiuo vel actiuo circa re 
+              <lb ed="#P" n="15"/>illam: vt de lumine respectu luminosi: de visione ve 
+              <lb ed="#P" n="16"/>specie obiecti contingit. hoc modo in proposito 
+              in<lb ed="#P" n="17" break="no"/>telligimus.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e834">
+      ⁋ Ad secundum conceditur illatum e negat 
+              <lb ed="#P" n="18"/>minor: et ad probationem dicitur quod non indiget quod fiat de no 
+              <lb ed="#P" n="19"/>uo.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e841">
+      ⁋ Ad tertium dicitur quod eadem res primo est productio a 
+              <lb ed="#P" n="20"/>postea conseruatio: quia termini differunt in 
+              connotati<lb ed="#P" n="21" break="no"/>ne conseruatio enim presupponit rem paius fuisse: quia 
+              prie<lb ed="#P" n="22" break="no"/>esse productio sine conseruatione non autem econtra 
+              <lb ed="#P" n="23"/>rio sicut nouum potest non esse antiquum: conseruatio 
+              <lb ed="#P" n="24"/>rei fuit productio quando non erat conseruatio. et sic con 
+              <lb ed="#P" n="25"/>seruatio erat quando non erat conseruatio.
+            </p>
+            <p xml:id="jm12w4-e57366-d1e857">
+      ⁋ Septima 
+              <lb ed="#P" n="26"/>conclusio est. probabile est in lumine naturali ens 
+              sim<lb ed="#P" n="27" break="no"/>pliciter primum esse principium effectiuam omnium alior 
+              <lb ed="#P" n="28"/>entium immediate vel mediate. Probatur quia est 
+              con<lb ed="#P" n="29" break="no"/>seruatiuum omnium aliorum per se. Sed hec con 
+              <lb ed="#P" n="30"/>seruatio est causalitis effectiua vt dicit 
+              conclu<lb ed="#P" n="31" break="no"/>sio precedens. Contra materiam huius conclusio 
+              <lb ed="#P" n="32"/>nis inferius amplius disputabitur. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

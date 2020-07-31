@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="114-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e79447"> <!--l1d44q5 -->
+            <head xml:id="jm12w4-e79447-Hd1e106">Quaestio 5</head>
+            <head xml:id="jm12w4-e79447-Hd1e109" type="question-title">
+      Utrum quaelibet qualitas infinita gradualiter 
+      sit infinite activa?
+    </head>
+            <p xml:id="jm12w4-e79447-d1e112">
+               <lb ed="#P" n="19"/>Distinctionis. xliiii. questio quinta 
+              <lb ed="#P" n="20"/>Veritur <sic>quarto<!-- seems like a mistake --></sic> circa hanc materiam de 
+              in<lb ed="#P" n="21" break="no"/>finito (et est quinta quod huius distinc. vtrum quaeli 
+              <lb ed="#P" n="22"/>elibet qualitas infinita gradualiter sit infi 
+              <lb ed="#P" n="23"/>inite actiuas
+            </p>
+            <p xml:id="jm12w4-e79447-d1e130">
+      ⁋ Respondetur per conclusionem 
+              <lb ed="#P" n="24"/>sequentem.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e136">
+      ⁋ Potentia actiua rei attenditur 
+              <lb ed="#P" n="25"/>penes multitudinem forme. Probatio: quia potentia re 
+              <lb ed="#P" n="26"/>non attenditur penes multitudinem materie: quia tunc 
+              pe<lb ed="#P" n="27" break="no"/>dale terre deberet pius agere quam pedale ignis. 
+              cose<lb ed="#P" n="28" break="no"/>quens est falsum. consequentia autem patet: quia pedale terre pluc 
+              <lb ed="#P" n="29"/>de materia habet quam pedale ignis.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e149">
+      ⁋ Insuper mate 
+              <lb ed="#P" n="30"/>ria nullius est actiuitatis nisi ad productionem notitia 
+              <lb ed="#P" n="31"/>intuitiue: que potest haberi de ea ab angelo vel anima 
+              <lb ed="#P" n="32"/>beata. et si ponatur quantitas distincta a re quanta non 
+              <lb ed="#P" n="33"/>attenditur er parte quantitatis: quia tunc semper habens pius 
+              <lb ed="#P" n="34"/>de quantitate debet esse actiuius: et non videtur aliquid 
+              <lb ed="#P" n="35"/>aliud penes quid debet attendi nisi penes 
+              multitudi<lb ed="#P" n="36" break="no"/>nem forme: igitur propositum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e167">
+      ⁋ Si dicas quod eadem forma 
+              <lb ed="#P" n="37"/>sine additione in medietate corpis pedalis est actu 
+              <lb ed="#P" n="38"/>uior quam in toto pedali: quia virtus vnita est fortior seipsa 
+              <lb ed="#P" n="39"/>dispersa. hoc est eadem virtus numero maiorem 
+              effe<lb ed="#P" n="40" break="no"/>ctum producit vel citius in minori corpe quam in maiori. qua 
+              <lb ed="#P" n="41"/>enim re alia parui homines facile irascuntur nisi quia calor 
+              <lb ed="#P" n="42"/>eorum est bene vnitus: si enim idem calor esset in magno vel 
+              <lb ed="#P" n="43"/>illi equalis non tantum irafceretur.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e185">
+      ⁋ Contra: ex hoc sequi 
+              <lb ed="#P" n="44"/>tur quod esset actio a proportione equalitatis vel a propor 
+              <lb ed="#P" n="45"/>tione mequalitatis minoris: contra Philosophum. vii. 
+              phi<lb ed="#P" n="46" break="no"/>sicorum. Probo consequentiam. do duo corpa quae se habent in 
+              propor<lb ed="#P" n="47" break="no"/>tione equalitatis: si alterum condensetur et alterum rarefiat. 
+            </p>
+            <p xml:id="jm12w4-e79447-d1e196">
+               <lb ed="#P" n="48"/>⁋ Item arguitur ad idem. signo a pedale vniformiter vi 
+              <lb ed="#P" n="49"/>quattuor et bquadrupedale vniformiter calidum vt 
+              <lb ed="#P" n="50"/>quattuor equaliter densum et rarum: iam potentia ipsius si 
+              <lb ed="#P" n="51"/>est in quadruplo maior potentia actiua ipsius a: cum con 
+              <lb ed="#P" n="52"/>tineat quattuor partes non communicantes: quarum queli 
+              <lb ed="#P" n="53"/>bet est eque potens cum a. iam pono quod b condensetur ad 
+              sub<lb ed="#P" n="54" break="no"/>quadruplum: caliditate nec intensa nec remissa: iam b cali 
+              <lb ed="#P" n="55"/>dum est ita actiuum sicut anteat paius erat in quadrupl 
+              <lb ed="#P" n="56"/>actiuius ipso a. ergo iam est equaliter secum potens aet hoc non 
+              <lb ed="#P" n="57"/>nisi quia in quadruplo pius habet de forma: ergo potentia 
+              <lb ed="#P" n="58"/>rei attenditur penes multitudinem forme. quod erat probam 
+              <lb ed="#P" n="59"/>dum. Quod non intendatur propter condensationem notum est 
+              <lb ed="#P" n="60"/>intelligenti. caliditas enim non migrat de subiecto in sub 
+              <lb ed="#P" n="61"/>iectum: ia sequitur illatum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e229">
+      ⁋ Sed dices quod duplex est 
+              po<lb ed="#P" n="62" break="no"/>tentia: quedam intrinseca vel essentialis: que dicitur essentia 
+              <lb ed="#P" n="63"/>lis eo quod quantum est de se sufficit agere. Alia est extrin 
+              <lb ed="#P" n="64"/>seca et accidentalis: et ob eam rem dicitur accidentalis quod 
+              acci<lb ed="#P" n="65" break="no"/>dit ei aliqua velocitas que non accidit potentie ei equa 
+              <lb ed="#P" n="66"/>li: vt condensatio a applicatio forme se tenent ex parte 
+      <!--242.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 114rb -->
+               <lb ed="#P" n="67"/>maioritatis potentie accidentaliter: quia hoc est forme 
+              <lb ed="#P" n="68"/>extrinsecum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e254">
+      ⁋ Ex isto sequitur quod a et b equalia sint in 
+              <lb ed="#P" n="69"/>quantitate et equaliter intensa per totum: et tamen a est in infini 
+              <lb ed="#P" n="70"/>tum maioris potentie quamb. Probatur: sit a vnum corpus 
+              <lb ed="#P" n="71"/>infinitum in cuius quolibet pedali sint quattuor gradus 
+              <lb ed="#P" n="72"/>caliditatis vniformiter: in quolibet pedali sit 
+              equali<lb ed="#P" n="73" break="no"/>ter de forma et intensione: et sitb vnum pedale habens 
+              <lb ed="#P" n="74"/>quattuor gradus intensionis adequate: et condensetur a ad 
+              <lb ed="#P" n="75"/>quantitatem be vsque: nulla alia mutatione facta in 
+              ipso<lb ed="#P" n="76" break="no"/>quo posito sequitur corollarium: quia b manebit intensum vi 
+              <lb ed="#P" n="77"/>iiii. et a erit vt. iiii. et habebit infinitos gradus forme: 
+              <lb ed="#P" n="78"/>qui infinitam multitudinem forme quam ante condensationem 
+              <lb ed="#P" n="79"/>habebat.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e280">
+      ⁋ Secundo sequitur: b est infinite calidum 
+              vnifor<lb ed="#P" n="80" break="no"/>miter et a solum finite: et tamen a est in infinitum maioris 
+              po<lb ed="#P" n="81" break="no"/>tentie quam b.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e287">
+      ⁋ Probatur corollarium. capiatur corpus calidum 
+              <lb ed="#P" n="82"/>vt quattuor vniformiter: capiantur duo gradus caloris secundum 
+              <lb ed="#P" n="83"/>intensionem equaliter extensi cum secunda parte 
+              proportiona<lb ed="#P" n="84" break="no"/>li et iungantur cum secunda parte proportionali: tunc secunda pare 
+              <lb ed="#P" n="85"/>proportionalis erit calida vt sex. Rursum capiantur 
+              <lb ed="#P" n="86"/>quattuor gradus secunde partis proportionalis et 
+              iun<lb ed="#P" n="87" break="no"/>gantur caliditati tertie partis proportionalis: et ita 
+              fia<lb ed="#P" n="88" break="no"/>processus per omnes partes proportionales illius: et in instan 
+              <lb ed="#P" n="89"/>ti terminante totam translationem illarum partium fiat quod 
+              pe<lb ed="#P" n="90" break="no"/>netratiue se habeant quelibet cum alia: sic scilicet quod erit 
+              <lb ed="#P" n="91"/>maior intensio in fine quam erat in quacumque parte 
+              propor<lb ed="#P" n="92" break="no"/>tionali precedenti: tunc erit infinitus calor secundum 
+              intensio<lb ed="#P" n="93" break="no"/>nem: et tamen non erit actiuior quam antea: cum non sit pius de for 
+              <lb ed="#P" n="94"/>ma.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e318">
+      ⁋ Non valet quod dicit quidam: antea erat infinite 
+              <lb ed="#P" n="95"/>intensionis loquendo de calore punctali: quia si 
+              aduer<lb ed="#P" n="96" break="no"/>sarii darent talem: euestigio esse infinitum deberent dicere. 
+              <lb ed="#P" n="97"/>loquendo recte de intensione forme sicut loquentes 
+              lo<lb ed="#P" n="98" break="no"/>quuntur nisi esset diffugium ad hoc quod calor punctalis 
+              <lb ed="#P" n="99"/>esset impartibilis: et calor quanti diuisibilis sicut alib 
+              <lb ed="#P" n="100"/>dicitur de partibus continui.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e334">
+      ⁋ Tertium corollarium questioni 
+              <lb ed="#P" n="101"/>responsiuum: est. dabile est aliquod infinite formaliter 
+              ca<lb ed="#P" n="102" break="no"/>lidum finite actiuitatis in agendo. Probatur 
+              corolla<lb ed="#P" n="103" break="no"/>rium: do duo corpora equaliter calida a et b quadrupe 
+              <lb ed="#P" n="104"/>dalia: relicto a capio b quadrupedale: volo quod 
+              rare<lb ed="#P" n="105" break="no"/>fiat secunda pars proportionalis ad equalitatem prime ni 
+              <lb ed="#P" n="106"/>hil acquirendo vel deperdendo: et tertia pars 
+              proportio<lb ed="#P" n="107" break="no"/>nalis rarefiat similiter ad quantitatem prime partis et ita 
+              <lb ed="#P" n="108"/>fiat de quaelibet alia prte proportionali nihil vnquam 
+              deper<lb ed="#P" n="109" break="no"/>dendo vel acquirendo: iam a est finite actiuum: et b 
+              equali<lb ed="#P" n="110" break="no"/>ter simpliciter habet de forma cum a: ergob est finite acti 
+              <lb ed="#P" n="111"/>uum: ergo corollarium verum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e360">
+      ⁋ Si dicas: quodlibet corpus 
+              <lb ed="#P" n="112"/>infinitum extensiue vniformiter calidum est infinite 
+              acti<lb ed="#P" n="113" break="no"/>uum: b est huiusmodi. igitur.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e368">
+      ⁋ Respondetur quod 
+              supe<lb ed="#P" n="114" break="no"/>rius negauimus maiorem. non enim citius frigefit digitus in 
+              <lb ed="#P" n="115"/>mari oceano quam hyrcano vel caspio equaliter frigido 
+              <lb ed="#P" n="116"/>intensiue. Sed quia motiuum <name xml:id="jm12w4-e79447-Nd1e376" ref="#Aristotle">Aristotelis</name>. iii. physicorum est 
+              <lb ed="#P" n="117"/>probabile: transeat quod maius corpus equaeliter frigidum inten 
+              <lb ed="#P" n="118"/>siue cum minori citius frigefaciat: sed non in ea proportione 
+              <lb ed="#P" n="119"/>citius qua vnum corpus est maius alio: et si in minori 
+              pro<lb ed="#P" n="120" break="no"/>portione duplum ad aliud non in duplo citius frigefaciet 
+              <lb ed="#P" n="121"/>sed in proportione sesquitertia vel sesquioctaua: cum enim 
+              <lb ed="#P" n="122"/>in corpore infinito sint infinite partes: totum est infinite 
+              <lb ed="#P" n="123"/>actiuum: partes se iuuant dum insunt eidem toti. licet vna 
+              <lb ed="#P" n="124"/>pars separata ad tantam distantiam agere nequeat: sed  
+              <lb ed="#P" n="125"/>sufficit quod coagit in suo toto: sicut secundum apparentem 
+              <lb ed="#P" n="126"/>opinionem de essentia febris quaelibet pars caloris natu 
+              <lb ed="#P" n="127"/>ralis cum calore extraneo supaddito est febris in suo 
+              <lb ed="#P" n="128"/>toto: secus est quando est per se.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e406">
+      ⁋ Sed dico tenendo 
+              mo<lb ed="#P" n="129" break="no"/>dum <name xml:id="jm12w4-e79447-Nd1e410" ref="#Aristotle">Aristotelis</name> quod intelligitur de corporibus vniformiter. 
+              <lb ed="#P" n="130"/>raris vel densis: modo b est difformiter rarum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e416">
+      ⁋ Si 
+              di<lb ed="#P" n="131" break="no"/>cas: ex isto sequitur quod dabilia sunt duo corpa equaliter 
+              <lb ed="#P" n="132"/>actiua: quorum vnum producit calorem infinitum in gradu: et 
+      <!--243.xml-->
+      <pb ed="#P" n="114-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliud corpus solum producit finitum: sequala claret ex 
+              di<lb ed="#P" n="2" break="no"/>ctis.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e434">
+      ⁋ Respondetur quod nullum est inconueniens si dentur 
+              <lb ed="#P" n="3"/>duo corpa pedalia vniformiter calida vt. iiii. a et b. s 
+              <lb ed="#P" n="4"/>caliditas trium primarum partium proportionalium ipsius a 
+              <lb ed="#P" n="5"/>ponatur in quarta parte proportionali eiusdem quae dicatur co. 
+              <lb ed="#P" n="6"/>iam c potest producere calorem vt. xxxii. in passum suscepti 
+              <lb ed="#P" n="7"/>uum quia tot gradus habet. et primo de Gene. quodlibet agens 
+              <lb ed="#P" n="8"/>intendit sibi assimilare passum in tanta multitudie gra 
+              <lb ed="#P" n="9"/>duum quantam habet. a tamen calidum vt quattuor sic se 
+              ha<lb ed="#P" n="10" break="no"/>bens non produceret nisi quattuor gradus: quia formaliter 
+              <lb ed="#P" n="11"/>ipsum a est tale: et licet c producat plures gradus inte 
+              <lb ed="#P" n="12"/>siue quam a: non tamen est actiuior: quia est equalis multitudo 
+              <lb ed="#P" n="13"/>forme in a et in c ex casu.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e460">
+      ⁋ Quo fit vt si remouerenim 
+              <lb ed="#P" n="14"/>xxviii. gradus a ciam a equaliter intensa cum c est in 
+              <lb ed="#P" n="15"/>octuplo actiuior. et semper intelligo quod maneat equalis appl 
+              <lb ed="#P" n="16"/>catio paertium: alias faceres de non causa causam.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e469">
+      ⁋ Sd 
+              <lb ed="#P" n="17"/>cio ista arguit quidam qui insequitur partem oppositam 
+              aucto<lb ed="#P" n="18" break="no"/>itate Philosophi primo meteororum dicentis vertutem 
+              vni<lb ed="#P" n="19" break="no"/>tam fortiorem esse dispersa.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e479">
+      ⁋ Secundo ratione argumen 
+              <lb ed="#P" n="20"/>tatur. experientia est quod in aere est intensior caliditas quam i 
+              <lb ed="#P" n="21"/>manu homins: et ratio est. quia proptur intensam aeris caliditatem 
+              <lb ed="#P" n="22"/>aer est leuis actu: manus autem homins grauis prout notum 
+              <lb ed="#P" n="23"/>est et tamen calidior ad sensum iudicatur manus homins quam aer 
+              <lb ed="#P" n="24"/>cuius causa non potest esse alia nisi quia caliditas manus homins 
+              <lb ed="#P" n="25"/>est in materia densiori: et sic est magi vnita: et ion fortior 
+              <lb ed="#P" n="26"/>est quam ipsa vel similis dispersa execns in aere: immo quam alia 
+              <lb ed="#P" n="27"/>multo intensior in materia rara dispersa.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e499">
+      ⁋ Tertio 
+              <lb ed="#P" n="28"/>ratione sic: quia supponitur quod agens fortius agit perlineam 
+              bre<lb ed="#P" n="29" break="no"/>uiorem quam per longiorem. patet ad experientiam: quia fortius 
+              cale<lb ed="#P" n="30" break="no"/>faceret res propinquas idem ignis quam eas remotas. hoc 
+              <lb ed="#P" n="31"/>ad longum deducit. vide eum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e510">
+      ⁋ Respondetur quod propositio Aristi 
+              <lb ed="#P" n="32"/>telis intelligitur propter meliorem applicationem: et etiam con 
+              <lb ed="#P" n="33"/>muniter in materia densa pius est de forma quam in ma 
+              <lb ed="#P" n="34"/>teria rara.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e519">
+      ⁋ Ad secundum transeat quod est intensior 
+              calidi<lb ed="#P" n="35" break="no"/>tas in aere quam in manu homins: sed quia materia homins est 
+              <lb ed="#P" n="36"/>densior materia aeris multo pius sub tali quantitate 
+              conti<lb ed="#P" n="37" break="no"/>net de forma quam materia aeris.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e528">
+      ⁋ Ad secundum concedo 
+              <lb ed="#P" n="38"/>suppositionem: quod libet agens naturale fortius agit in pro 
+              <lb ed="#P" n="39"/>pinquum quam in distans: si propinquum sit susceptiuum et non 
+              <lb ed="#P" n="40"/>qualificatum tanta forma quantam agens potest producere de 
+              <lb ed="#P" n="41"/>per se. Si fuerit reflexio in oppositum hoc est de per acc 
+              <lb ed="#P" n="42"/>dens.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e541">
+      ⁋ Secundo principalitr arguitur sic. ex isto sequitur quod calidum 
+              <lb ed="#P" n="43"/>vt. iiii. agit in calidu vt. iiii. consequens est falsum: quia simile non 
+              <lb ed="#P" n="44"/>agit in simile. primo de generatione. immo tunc agens non solum 
+              <lb ed="#P" n="45"/>non intenderet sibi assimilare passum: sed dissimilare 
+              <lb ed="#P" n="46"/>ipsum sibi. et consequentia patet. capiatur ferrum calidum vt quattuor 
+              <lb ed="#P" n="47"/>et stupa rara vel aer rarus vt quattuor calidus. Ia li 
+              <lb ed="#P" n="48"/>cet stupa tantum coloris habeat in gradu quantum ferrum 
+              <lb ed="#P" n="49"/>non tamen tantum habet de multitudine forme: et per consequens non 
+              <lb ed="#P" n="50"/>tantum habet de actiuitate: sed non est maior ratio quod agens 
+              <lb ed="#P" n="51"/>debet sibi assimilare passum in gradu quo ad 
+              intensio<lb ed="#P" n="52" break="no"/>nem quam quo ad multitudinem forme: ergo ferrum calefaciet 
+              <lb ed="#P" n="53"/>stupam quo ad pius caloris habeat in gradu stupa qua 
+              <lb ed="#P" n="54"/>ipsum ferrum: et iterum cum stupa pedalis habuerit quinque 
+              <lb ed="#P" n="55"/>gradus caloris vel octo tantum habebit de forma 
+              quan<lb ed="#P" n="56" break="no"/>tum pedale ferri: debet calefacere ferrum quousque 
+              ha<lb ed="#P" n="57" break="no"/>beat calorem tantum in gradu. et sic erit reactio. Nec erit 
+              <lb ed="#P" n="58"/>status citra summum.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e579">
+      ⁋ Respondetur negando sequaelam: quia ipsa 
+              <lb ed="#P" n="59"/>est impertinens conclusioni posite: nec sequitur ex ea: nec 
+              <lb ed="#P" n="60"/>eidem aduersatur.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e586">
+      ⁋ Dubitabilia tamen in argumento tan 
+              <lb ed="#P" n="61"/>guntur. probabile enim est quod ferrum calidum datu non producit 
+              <lb ed="#P" n="62"/>aliquid caloris in stupam: et non est intentio agentis natura 
+              <lb ed="#P" n="63"/>lis assimilare passum in multitudie forme: si sit capar 
+              <lb ed="#P" n="64"/>sicut agens habet: sed solum ad intensionem gradus non suff 
+              <lb ed="#P" n="65"/>cit similitudo eiusdem speciei: quia tunc maius calidum non 
+              <lb ed="#P" n="66"/>calefaceret minus calidum contra experientiam: et sic corpus 
+      <!--243.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 114vb -->
+               <lb ed="#P" n="67"/>infinitum extensiue calidum vniformiter vel difformiter 
+              <lb ed="#P" n="68"/>finite non pius producit caloris in b passum quam habeat 
+              <lb ed="#P" n="69"/>in gradu: licet citius producat. Si quaelibet pars in toto 
+              iu<lb ed="#P" n="70" break="no"/>uat aliam: et totum ad agendum vt opinatus est 
+              Aristo<lb ed="#P" n="71" break="no"/>teles tertio physicorum. et est probabile co producetur 
+              ca<lb ed="#P" n="72" break="no"/>lor finitus ab isto corpore infinito finite calido 
+              subi<lb ed="#P" n="73" break="no"/>to in passum: quod non fieret a finito corpore.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e623">
+      ⁋ Aliud  
+              <lb ed="#P" n="74"/>membrum etiam non est improbabile quod agens intendit 
+              assi<lb ed="#P" n="75" break="no"/>milare passum non modo in gradu: sed etiam in actiuitate: 
+              <lb ed="#P" n="76"/>et tunc ferrum pedale calidu vt quattuor producet calidi 
+              <lb ed="#P" n="77"/>tatem supra quattuor in materiam raram: solum gradum vt 
+              <lb ed="#P" n="78"/>quattuor in materiam edliter densam cum agente. Et hic 
+              <lb ed="#P" n="79"/>iterum est dubium an calor vt quinque in materia rara produ 
+              <lb ed="#P" n="80"/>cat vnum gradum caloris in subiectum densum calidum vi 
+              <lb ed="#P" n="81"/>quattuor.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e643">
+      ⁋ Sed contra vtrumque istorum arguitur sic. vel actio 
+              <lb ed="#P" n="82"/>prouenit a multitudie forme sicut dicit conclusio: vel alit 
+              <lb ed="#P" n="83"/>partes in corpore paruo coadiuuant se inuicem quod 
+              ma<lb ed="#P" n="84" break="no"/>ior sequatur actio in corpore paruo quod in corpe magno 
+              <lb ed="#P" n="85"/>sic quod in corpe paruo sequitur equalis actio vel non 
+              mi<lb ed="#P" n="86" break="no"/>nor: sed probatur quod non: quia ponatur corpus quadrupedale: 
+              <lb ed="#P" n="87"/>illud videtur a sorte. si condensetur ad bipedaleminus vide  
+              <lb ed="#P" n="88"/>bitur: si postea ad millesimam partem pedis: vel ad ita paruam 
+              <lb ed="#P" n="89"/>quantitatem res ipsa non videbitur: ergo subduplum non produ-  
+              <lb ed="#P" n="90"/>cit tantas spes in medium: et ipsum condensatum ad subqua 
+              <lb ed="#P" n="91"/>druplum non producit tantas species: et potest reduci ad tam 
+              <lb ed="#P" n="92"/>paruam quantitatem quod nullas species producat. Quod patet. 
+              <lb ed="#P" n="93"/>da oppositum: si sub parua quantitate equales species 
+              <lb ed="#P" n="94"/>producat sicut sub magna sequitur quod ita bene 
+              videbi<lb ed="#P" n="95" break="no"/>tur sub parua quantitate quantumcunque pusilla sicut 
+              <lb ed="#P" n="96"/>magna: quod est falsum: et contra experientiam: quia 
+              medie<lb ed="#P" n="97" break="no"/>tas ignis non agit ad tantam distantiam sicut totus ignis: lit 
+              <lb ed="#P" n="98"/>sit eque intensa. iii. physic. textu commenti. xlii et primo 
+              <lb ed="#P" n="99"/>celi textu commenti. xlvii. in maiore corpore est maior 
+              <lb ed="#P" n="100"/>virtus. Et Lincomensis in tractatu de radiis dicit quod 
+              <lb ed="#P" n="101"/>multiplicatio vartutis fit per angulum cuius basis est 
+              quam<lb ed="#P" n="102" break="no"/>b titas: ergo quanto basis est maior tam 
+              <lb ed="#P" n="103"/>sd / to triangulus est maior et latera 
+              <lb ed="#P" n="104"/>habens logiora: vt patet in 
+              hacfigu<lb ed="#P" n="105" break="no"/>ra: ergo tanto fiet actio remotius. 
+            </p>
+            <p xml:id="jm12w4-e79447-d1e698">
+               <lb ed="#P" n="106"/>⁋ Respondetur. hic sunt aliqua 
+              du<lb ed="#P" n="107" break="no"/>bia. dubium est an bipedale calidum 
+              <lb ed="#P" n="108"/>calefaciens ad octo pedes condensetur 
+              <lb ed="#P" n="109"/>ad subduplum: an per tantam distantiam ca 
+              <lb ed="#P" n="110"/>lefaciet: videtur enim quod extensio 
+              ali<lb ed="#P" n="111" break="no"/>quid faciat ad productionem a 
+              remo<lb ed="#P" n="112" break="no"/>tis. et per consequens cum erit pedale 
+              <lb ed="#P" n="113"/>non calefaciet per octo pedes datos. 
+            </p>
+            <p xml:id="jm12w4-e79447-d1e718">
+               <lb ed="#P" n="114"/>⁋ Sed dices si calefaciet per octo pedes per quos 
+              <lb ed="#P" n="115"/>ante calefecerat calefaceret per nouempedes vel per octo 
+              <lb ed="#P" n="116"/>cum dimidio: quoniam per condensationem elongatur a terio sphe 
+              <lb ed="#P" n="117"/>re sue actiuitatis.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e730">
+      ⁋ hoc non euitat propositum: nam fiat 
+              <lb ed="#P" n="118"/>condensatio vnam partem versus sic quod punctum extremum 
+              <lb ed="#P" n="119"/>maneat in eodem situm: vel loquamur de octo pedibus 
+              pro<lb ed="#P" n="120" break="no"/>ximis quod sphera extensionis proportion abliter 
+              diminua<lb ed="#P" n="121" break="no"/>tur ad condensationem. Et quicquid sit siue calefaciat ita 
+              <lb ed="#P" n="122"/>extense sicut antea: siue non: tamen ita intense calefaciet proa 
+              <lb ed="#P" n="123"/>pe se e ita cito: de quo non multum refert. Et si 
+              decre<lb ed="#P" n="124" break="no"/>mentum fiat in quantitate: si bipedale calefaciat ad octo 
+              <lb ed="#P" n="125"/>pedes: non oportet quod ipsum condensatum ad pedale 
+              ca<lb ed="#P" n="126" break="no"/>lefaciat precise ad quattuor pedes: quia manebit 
+              tota<lb ed="#P" n="127" break="no"/>lis fortma praecedens: et sic si ad imaginationem calidum 
+              conden<lb ed="#P" n="128" break="no"/>saretur ad non quantum adhuc caulabit calorem: et sic 
+              vifibi<lb ed="#P" n="129" break="no"/>le diminutum dummodo manet tantum de forma tantas spe 
+              <lb ed="#P" n="130"/>cies causabit quo ad intensionem prope se. Propterea di 
+              <lb ed="#P" n="131"/>ximus in decima disti. iiii. si partes sortis penetratiue 
+              <lb ed="#P" n="132"/>sicut aliqui putant de corpe Christi in sacramento eu¬ 
+      <!--244.xml-->
+      <pb ed="#P" n="115-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>charistie) ponerentur: et deus concurrat cum influentia sua 
+              <lb ed="#P" n="2"/>generali causabunt infinitam multitudinem specierum. Pro 
+              <lb ed="#P" n="3"/>batio. bipedale causabit spes ad tantam distantia: vel 
+              <lb ed="#P" n="4"/>saltem ita intensas prope se sicut ante: forte ad distan 
+              <lb ed="#P" n="5"/>tiam septem pedum: quia manet equaliter de fortema: puta de colore 
+              <lb ed="#P" n="6"/>et virtus vnita est fortior (vel non minus fort) seipsa dis 
+              <lb ed="#P" n="7"/>persa: et si non extensiue saltem intensiue: ergo si reduceretur ad 
+              <lb ed="#P" n="8"/>non quantum causabit species adhuc equa intensas proper se: 
+              <lb ed="#P" n="9"/>vel saltem vbi est penetratio partium per vnum certum spa 
+              <lb ed="#P" n="10"/>tium: et cum digitus Christi causabit suas species in vno lo 
+              <lb ed="#P" n="11"/>co in qualet parte illius medii: et in alio loco tot spes 
+              cau<lb ed="#P" n="12" break="no"/>sabit per idem medium: et est in infinitis locis partialibus 
+              <lb ed="#P" n="13"/>patet: quia in quamlibet parte eucharistie: ergo causabit 
+              infi<lb ed="#P" n="14" break="no"/>nitas spes in medio: si deus non impediat concursum 
+              vi<lb ed="#P" n="15" break="no"/>sibilis. vel causabit easdem species numero in duobusle 
+              <lb ed="#P" n="16"/>cis. Quero abs te si sortes esset rome et parisii: nonn 
+              <lb ed="#P" n="17"/>in vtroque loco videbitur: tunc in vtroque loco causabit spe 
+              <lb ed="#P" n="18"/>cies suas: alias rome: alias parisii. hinc obuiet sibi 
+              <lb ed="#P" n="19"/>quando appopiquet octopedaliter ille spes erunt in eodem 
+              <lb ed="#P" n="20"/>medio: et sic si poneretur in mille locis vicinis in millecum 
+              <lb ed="#P" n="21"/>plo erit intensior spes: et si in infinitis / causabit 
+              infini<lb ed="#P" n="22" break="no"/>tas spes.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e819">
+      ⁋ Sed contra hoc arguitur sic sit ita quod sortes 
+              cau<lb ed="#P" n="23" break="no"/>set suas spes in aliqude parte medii: si sortes a remotis 
+              ap<lb ed="#P" n="24" break="no"/>propinquet ad illum locum non producet spes: quia reperit 
+              <lb ed="#P" n="25"/>suum effectum in loco productum: quia si vnus ignis producat 
+              <lb ed="#P" n="26"/>calorem vt octo / alter in loco accedens nihil ignis 
+              pro<lb ed="#P" n="27" break="no"/>ducet in hoc passum: quia reperit tantum effectu quantum pert 
+              pro<lb ed="#P" n="28" break="no"/>ductum a alio agente: ergo eodem modo in proposito.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e835">
+      ⁋ Secundo 
+              <lb ed="#P" n="29"/>sic: pedale non videtur a remotis ita bene sicut bipedale 
+              <lb ed="#P" n="30"/>nec semipedale ita bene sicut pedale: ergo deuenietur ad 
+              <lb ed="#P" n="31"/>ita modicam quantitatem quod non videbitur a remotis.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e844">
+      ⁋ Ad 
+              <lb ed="#P" n="32"/>primum concedo antecedens: negando consequentiam. non enim est idem in 
+              <lb ed="#P" n="33"/>actione reali sicut de spuali: quia si argumentum valeret 
+              conclu<lb ed="#P" n="34" break="no"/>deret quod si sortes esset prope me: nullus alius accedens 
+              <lb ed="#P" n="35"/>potest me videre. probatio: visibile non poteso videri sine 
+              spe<lb ed="#P" n="36" break="no"/>ciebus secundum positionem eas ponentem: et per te plato 
+              supue<lb ed="#P" n="37" break="no"/>niens non potest causare nouas spes immedio in quo sunt 
+              <lb ed="#P" n="38"/>species sortis: et ita nullus alius supueniens: et denique eo 
+              <lb ed="#P" n="39"/>dem modo argumentabor de partibus sorts quod nulla pars 
+              <lb ed="#P" n="40"/>videbitur: neque sortes.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e866">
+      ⁋ Ad secundum argumentum 
+              distin<lb ed="#P" n="41" break="no"/>guitur quod pedale a remotis non videbitur adeo bene sicui 
+              <lb ed="#P" n="42"/>bipedale: vel pedale quod prius fuit bipedale nihil 
+              de<lb ed="#P" n="43" break="no"/>perdens de colore et forma: et de hoc adhuc sub iudice 
+              <lb ed="#P" n="44"/>lis est: vel de alio pedali quod non habet tatum de forma: 
+              <lb ed="#P" n="45"/>transeat illud.
+            </p>
+            <p xml:id="jm12w4-e79447-d1e879">
+      ⁋ Secundo bene volo quod non potest videri ad  
+              <lb ed="#P" n="46"/>tantam distantiam: tamen itam bene videbitur propinque. Quo 
+              <lb ed="#P" n="47"/>species intensiores vel non minus intensas prope se car 
+              <lb ed="#P" n="48"/>abit sicut antea causauit quid obstates nec 
+              inconueni<lb ed="#P" n="49" break="no"/>visionem sub angulo quantumcuque paruo fieri dum tamen vi 
+              <lb ed="#P" n="50"/>sibile sufficientis fuerit intensionis: sic quod sub illo angu 
+              <lb ed="#P" n="51"/>lo sufficienter posset manere semper videbitur ad non 
+              <lb ed="#P" n="52"/>quantum vsque per appopinquationem videntis ad 
+              visi<lb ed="#P" n="53" break="no"/>bile: non admittamus non quantum nisi per penetrationem 
+              <lb ed="#P" n="54"/>partium. Et si admittamus quod continuum 
+              compona<lb ed="#P" n="55" break="no"/>tur ex punctis: iam oportebit segregare partes: et ni 
+              <lb ed="#P" n="56"/>hil ad propositum. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

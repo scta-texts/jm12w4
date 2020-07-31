@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="66-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e45821"> <!--l1d17q10 -->
+            <head xml:id="jm12w4-e45821-Hd1e106">Quaestio 10</head>
+            <head xml:id="jm12w4-e45821-Hd1e109" type="question-title">
+      Utrum intensio fiat per maiorem radicationem in subiecto
+    </head>
+            <p xml:id="jm12w4-e45821-d1e112">
+               <lb ed="#P" n="39"/>⁋ Distinctionis decimeseptime quaestio decima 
+              <lb ed="#P" n="40"/>N secunda parte huius decimeseptime
+              di<lb ed="#P" n="41" break="no"/>stinctionis <name xml:id="jm12w4-e45821-Nd1e120" ref="#Lombard">Magister</name> loquitur de augmentoa 
+              <lb ed="#P" n="42"/>cremento charitate. Eccasione cuius
+              theolo<lb ed="#P" n="43" break="no"/>gi in philosophia exercitati querunt 
+              vni<lb ed="#P" n="44" break="no"/>uersalius de forme intensione et remissione 
+              <lb ed="#P" n="45"/>in coni: partim allecti ratione dulcedinis materie
+              sche<lb ed="#P" n="46" break="no"/>lastice: partim volentes dare manuductionem quodo vtu 
+              <lb ed="#P" n="47"/>tes intedantur et remittantur. Et hoc patuit per ampl 
+              <lb ed="#P" n="48"/>in dialogo huius primi.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e139">
+      ⁋ Preterea intendimus secundum tempus 
+              <lb ed="#P" n="49"/>oblatum: nec materiam nimis protrahere vt generetur te 
+              <lb ed="#P" n="50"/>dium: nec eam nimis succicte tractare vt conducentia non 
+              <lb ed="#P" n="51"/>omittantur memores vbi <name xml:id="jm12w4-e45821-Nd1e147">beati Gregorii</name> in homilia de 
+              <lb ed="#P" n="52"/>confessoribus non epis: materiam transcurremus qua tenus expo 
+              <lb ed="#P" n="53"/>sitio ita nescientibus fiat cognita vt tamen scientibus non sit 
+              <lb ed="#P" n="54"/>onerosa.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e159">
+      ⁋ Accedentes ad propositum: dico quod multe re 
+              <lb ed="#P" n="55"/>periuntur de intensione forme positiones. Sed quaettuo 
+              <lb ed="#P" n="56"/>impsentiarum solum recitabimus.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e166">
+      ⁋ Prima positio tenet 
+              <lb ed="#P" n="57"/>quod intensio forme non fit per adaitionem noui gradus: nec per 
+              <lb ed="#P" n="58"/>corruptionem prioris: sed per maiorem in subiecto 
+              radicatio<lb ed="#P" n="59" break="no"/>nem. hunc modum insequitur <name xml:id="jm12w4-e45821-Nd1e174" ref="#Aquinas">beatus Thomas</name> vt patet. q. xx. 
+              se<lb ed="#P" n="60" break="no"/>cunde secunde. Et ante eum visus est sententialiter 
+              tene<lb ed="#P" n="61" break="no"/>re Guillermus altissiodo: ensis. v. tractatu sui 
+              terti<lb ed="#P" n="62" break="no"/>Licet interdum dicat intensionem esse relationem.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e185">
+      ⁋ Ali 
+              <lb ed="#P" n="63"/>tenent intensionem forme non fieri per additionem gra 
+              <lb ed="#P" n="64"/>dus ad gradum: sed per corruptionem forme 
+              preceden<lb ed="#P" n="65" break="no"/>tis superueniente noua. hunc modum insequitur Godofre 
+              <lb ed="#P" n="66"/>dus cefontibus quotlibeto septimo. q. vii. Et eum imi 
+      <!--147.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 66vb -->
+               <lb ed="#P" n="67"/>tatur Galterus burleus in suo tractatu de intension 
+              <lb ed="#P" n="68"/>formarum. he due positiones in hoc conueniunt quod forma 
+              <lb ed="#P" n="69"/>est impertibilis gradualiter: hoc est non fit per additionem 
+              <lb ed="#P" n="70"/>gradus ad gradum. Sed in hoc discrimem habent: quia prior 
+              <lb ed="#P" n="71"/>positio dicit eandem formam inuariatam primo 
+              denomina<lb ed="#P" n="72" break="no"/>re subiectum minus tale: postea ipsum maius tale. 
+              Secun<lb ed="#P" n="73" break="no"/>da diceret quod hoc non est possibile.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e218">
+      ⁋ Tertia opinio qua 
+              <lb ed="#P" n="74"/>attribuitur Simplicio in praedicamentis est quod intensio 
+              for<lb ed="#P" n="75" break="no"/>me sit per minorem admixtionem cum suo contrario.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e225">
+      ⁋ Quarta 
+              <lb ed="#P" n="76"/>est positio quod intensio forme fit per additione gradus ad  
+              <lb ed="#P" n="77"/>gradum. hunc modum insequitur <ref xml:id="jm12w4-e45821-Rd1e231">
+                  <name xml:id="jm12w4-e45821-Nd1e233" ref="#AlexanderOfHales">Alexander de halis</name> in 
+              sum<lb ed="#P" n="78" break="no"/>ma de virtutibus collatione. lxix. in variis quaestionibus</ref> et 
+              <lb ed="#P" n="79"/>in <ref xml:id="jm12w4-e45821-Rd1e241">scriptis sententiarum</ref>. hoc ipsum insequitur <name xml:id="jm12w4-e45821-Nd1e245" ref="#Scotus">doctor 
+              <lb ed="#P" n="80"/>subtilis</name> et conis schola non affectata. hunc solum modum 
+              <lb ed="#P" n="81"/>puto verum. De quaelibet istarum positionum vnam questionem 
+              <lb ed="#P" n="82"/>ponemus.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e255">
+      ⁋ Primo pro modo <name xml:id="jm12w4-e45821-Nd1e257" ref="#Aquinas">sancti Thome</name> notabis quod 
+              <lb ed="#P" n="83"/>uaelibet forma distinguitur a suo esse: quod quidem est esse
+              existem<lb ed="#P" n="84" break="no"/>tie. Esse vero essentie est idem cum sua forma. Secundum hanc 
+              <lb ed="#P" n="85"/>opinionem quaelibet forma nata est habere infinita esse: 
+              <lb ed="#P" n="86"/>quorum vnum continuo est perfectius altero.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e270">
+      ⁋ Et quanto for 
+              <lb ed="#P" n="87"/>ma accidentalis habet perfectius esse in subiecto: tanto dicitur 
+              <lb ed="#P" n="88"/>magis radicari in subiecto. Et sic intensio forme nihil 
+              <lb ed="#P" n="89"/>aliud est quam successiua acquisitio perfectioris et perfectio 
+              <lb ed="#P" n="90"/>ris esse. Et numquam duo esse manent simul. 
+              proportionabi<lb ed="#P" n="91" break="no"/>liter imaginandum est de generatione et corruptione istorum esse 
+              <lb ed="#P" n="92"/>secundum hanc positionem sicut de generatione et corruptione 
+              for<lb ed="#P" n="93" break="no"/>me secundum modum sequentem: cum aliquod subiectum calidum sit 
+              <lb ed="#P" n="94"/>magis calidum per alterationem terminus ad quem 
+              altera<lb ed="#P" n="95" break="no"/>tionis est eadem caliditas sub tamen perfectiori esse cum ca 
+              <lb ed="#P" n="96"/>liditate a quo: hic modus non admittit duo accidentia se 
+              <lb ed="#P" n="97"/>lo numero differentia eidem inherere subiecto.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e296">
+      ⁋ Sed  
+              <lb ed="#P" n="98"/>contra istud arguitur. accipio hominem diligente duos 
+              <lb ed="#P" n="99"/>homines: puta sit sortes qui diligat <name xml:id="jm12w4-e45821-Nd1e302">platonem</name> et <name xml:id="jm12w4-e45821-Nd1e305">ciceronem</name>: 
+              <lb ed="#P" n="100"/>in sorte erunt duo habitus eiusdem speciei specialissime 
+              <lb ed="#P" n="101"/>entitatiue. Quod patet: quia sortes potest esse inclinatus ad 
+              di<lb ed="#P" n="102" break="no"/>ligendum alterum ipso non inclinato ad diligendum alium: qua 
+              <lb ed="#P" n="103"/>ibi manserunt duo habitus.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e318">
+      ⁋ Sed respondet 
+              Joan<lb ed="#P" n="104" break="no"/>nes capreolus distinctione decimaseptima primi actus 
+              <lb ed="#P" n="105"/>et habitus quo diligitur sortes vt sortes differt 
+              spe<lb ed="#P" n="106" break="no"/>cie ab actu et habitu quo diligitur plato vt plato. 
+            </p>
+            <p xml:id="jm12w4-e45821-d1e327">
+               <lb ed="#P" n="107"/>⁋ Istud non valet: obiecta enim sunt eiusdem speciei no 
+              <lb ed="#P" n="108"/>titie similes equaliter tendentes in obiecta eiusdem spe 
+              <lb ed="#P" n="109"/>ciei: ergo sunt eiusdem speciei inter se. Et mirabile est 
+              <lb ed="#P" n="110"/>de istis cum dicant notitia intuitiuam et abstractiuam eiusdem 
+              <lb ed="#P" n="111"/>obiecti esse eiusdem speciei.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e340">
+      ⁋ Secundo arguitur: duo 
+              <lb ed="#P" n="112"/>lapides albi producunt duas similitudines in idem 
+              me<lb ed="#P" n="113" break="no"/>diu: et in eandem partem. et illi sunt eiudem speciei Quod in 
+              eam<lb ed="#P" n="114" break="no"/>dem partem patet: quia vbicumque oculus existit in illo medio potest 
+              <lb ed="#P" n="115"/>vtrumque visibile videre. et non sine speiebus per aduersarium: 
+              <lb ed="#P" n="116"/>igitur.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e353">
+      ⁋ Sed dicit Capreolus quod spes huius parietis vt est 
+              <lb ed="#P" n="117"/>hic: et illius vt est ille numquam sunt eiusden rationis: quia non 
+              rep<lb ed="#P" n="118" break="no"/>sentant solum colorem: sed a magnitudinem figuram et situm. 
+            </p>
+            <p xml:id="jm12w4-e45821-d1e361">
+               <lb ed="#P" n="119"/>⁋ hoc iterum non valet: quia magnitudo a situs sunt 
+              eius<lb ed="#P" n="120" break="no"/>de speciei sicut colores ipsi. Illud totum praiet impugnari de 
+              <lb ed="#P" n="121"/>esse essentie et de esse existentie: sed totum vnum fictitium re 
+              <lb ed="#P" n="122"/>puto.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e372">
+      ⁋ Item non video quomodo anima beati Petri erit beatior 
+              <lb ed="#P" n="123"/>anima Lini: nec contra: ex ista enim positioe neuter habebit 
+              <lb ed="#P" n="124"/>intensiorem visionem dei et dilectionem eiusdem quam alter. 
+            </p>
+            <p xml:id="jm12w4-e45821-d1e379">
+               <lb ed="#P" n="125"/>⁋ Sed pro isto modo dicendi quem etiam insequitur <name xml:id="jm12w4-e45821-Nd1e383">Egidius</name> 
+              ro<lb ed="#P" n="126" break="no"/>manus in hac distinctione faciam aliquas rationes.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e389">
+      ⁋ Arguit 
+              <lb ed="#P" n="127"/>tur sic: quando nigredo vel aliquae macula mappe adheret a 
+              <lb ed="#P" n="128"/>principio potest dilui: non autem postquam radicata fuerit: ergo 
+              <lb ed="#P" n="129"/>eadem forma inuariata primo denominat subiectum 
+              mi<lb ed="#P" n="130" break="no"/>nus tale: et postea maius tale. Atecedens patet 
+              experien<lb ed="#P" n="131" break="no"/>tiis. quando vinum cadit supra mappam euestigio effundimus 
+              <lb ed="#P" n="132"/>aquam: alioquin difficultur euellitur vinum. sic de oleo / atra¬ 
+      <!--148.xml-->
+      <pb ed="#P" n="67-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mento et ceteris id genus.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e413">
+      ⁋ Respondetur concedendo i 
+              <lb ed="#P" n="2"/>las experientias. sed istud fit quia magis figuntur cum 
+              <lb ed="#P" n="3"/>subiecto apposito quam a pricipio. sicut difficilius est 
+              <lb ed="#P" n="4"/>cuneum post condensationem extrahere aligno quam in 
+              <lb ed="#P" n="5"/>principio.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e424">
+      ⁋ Secundo arguitur: aliqui pamni linei 
+              ma<lb ed="#P" n="6" break="no"/>defacti successiue in aspectu solis positi albescunt 
+              <lb ed="#P" n="7"/>et non generatur noua albedo. Quod patet: non 
+              eni<lb ed="#P" n="8" break="no"/>a sole: quia sol non generat albedinem in pamno desicca 
+              <lb ed="#P" n="9"/>to qui est susceptiuus illius albedinis sicut pannus 
+              <lb ed="#P" n="10"/>madidus ergo aliquid est minus album: et postea maius a 
+              <lb ed="#P" n="11"/>bum sine additione albedinis
+            </p>
+            <p xml:id="jm12w4-e45821-d1e441">
+      ⁋ Respondetur: quod ibi aliqui 
+              <lb ed="#P" n="12"/>humores grossi extrahuntur a sole: et nego quod pann 
+              <lb ed="#P" n="13"/>sint albiores quam antea: sed solum secundum apparentiam 
+            </p>
+            <p xml:id="jm12w4-e45821-d1e448">
+               <lb ed="#P" n="14"/>⁋ Tertio arguitur aliquid potest esse album sine ad 
+              <lb ed="#P" n="15"/>ditione albedinis. patet capiendo octo gradus albe 
+              <lb ed="#P" n="16"/>dinis secundum mentem positionis quarte in eodem sul 
+              <lb ed="#P" n="17"/>iecto: sic scilicet quod ex eis non constituatur aliquod vnum. quem 
+              <lb ed="#P" n="18"/>admodum potest esse si poneres manus sortis parenetrati 
+              <lb ed="#P" n="19"/>ue in loco cum sua albedine set enim omnes illi gradus sint 
+              <lb ed="#P" n="20"/>simul: tamen albedo vnius partis non se intendit cum 
+              al<lb ed="#P" n="21" break="no"/>bedine partis alterius. Et idem potest fieri destru 
+              <lb ed="#P" n="22"/>endo subiecta illarum albedinum: vel ponendo ea in 
+              <lb ed="#P" n="23"/>eodem subiecto adequato.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e472">
+      ⁋ Preterea quando 
+              <lb ed="#P" n="24"/>aliqud album rarum condensatur ipsum fit albius: et non si 
+              <lb ed="#P" n="25"/>productionem noue albedinis: ergo eadem forma inuaria 
+              <lb ed="#P" n="26"/>ta primo denominat subiectum minus tale: et 
+              poste<lb ed="#P" n="27" break="no"/>maius tale. Quia fit albius patet. quia sic iudicatur a cont 
+              <lb ed="#P" n="28"/>nuo vidente.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e485">
+      ⁋ Respondetur concedendo quod aliquod totun 
+              <lb ed="#P" n="29"/>potest esse albius quam ante erat: sed ibi erit intensior: quia 
+              <lb ed="#P" n="30"/>erit vna forma conflata ex pluribus partibus quam 
+              ali<lb ed="#P" n="31" break="no"/>qua in hoc subiecto erit.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e494">
+      ⁋ Ad secundum nego quod illud 
+              <lb ed="#P" n="32"/>corpus sit albius licet iudicetur esse albius. partes 
+              <lb ed="#P" n="33"/>albedinis sibi magis coherent quam paius: et sic magis 
+              <lb ed="#P" n="34"/>immutant potentiam videndi.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e503">
+      ⁋ Quarto arguitu 
+              <lb ed="#P" n="35"/>actus syncategorematicus non habet plures partes i 
+              <lb ed="#P" n="36"/>mente: ergo nec actus voluntatis vel conceptus: quia vi 
+              <lb ed="#P" n="37"/>detur eadem ratio.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e513">
+      ⁋ Similiter potest fieri argumentum 
+              <lb ed="#P" n="38"/>de characteribus in baptismo infirmatione et or 
+              <lb ed="#P" n="39"/>dinibus impressis: et de ornatibus secundum positionem eo 
+              <lb ed="#P" n="40"/>rum. hoc idem potest probari per relationes extrinsecus 
+              <lb ed="#P" n="41"/>et intrinsecus aduenientes.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e524">
+      ⁋ Respondetur quod illud non est 
+              inopi<lb ed="#P" n="42" break="no"/>nabile de negationibus vt dietum est quaestione secunda 
+              pro<lb ed="#P" n="43" break="no"/>logi. Ad hoc habentur rationes boni ponderis. eti 
+              <lb ed="#P" n="44"/>am negamus antecedens probabiliter de his.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e533">
+      ⁋ Quinto ar 
+              <lb ed="#P" n="45"/>guitur: schola communis nominalium tenet motum loca 
+              <lb ed="#P" n="46"/>lem esse mobilem quod mouetur: et cursum esse rem curre 
+              <lb ed="#P" n="47"/>tem: et tamen homo velocius mouetur vno tempore quam alio es 
+              <lb ed="#P" n="48"/>tamen non propter plures partes motus inherentes. e 
+              <lb ed="#P" n="49"/>qua ratione istud dices in vno: eadem ratione hoc dice 
+              <lb ed="#P" n="50"/>tur in alio.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e549">
+      ⁋ Sexto: puncta sunt indiuisibilia ex 
+              <lb ed="#P" n="51"/>tensiue et intensiue. Similiter linea est omnis latitudi 
+              <lb ed="#P" n="52"/>nis et profunditatis expers: ergo istud est probabile in for 
+              <lb ed="#P" n="53"/>mis ponere aliquid indiuisibile.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e558">
+      ⁋ Ad quintum respon 
+              <lb ed="#P" n="54"/>detur: quod certe difficillimum est probare identitatem vel di 
+              <lb ed="#P" n="55"/>stinctionem rerum: sed fide constat albedinem distingu 
+              <lb ed="#P" n="56"/>a re alba: vt patet de albedine in sacramento euch 
+              <lb ed="#P" n="57"/>ristie remanente post transsubstantiationem corpo 
+              <lb ed="#P" n="58"/>ris christi: cum isti ponant formam distingui a formabil 
+              <lb ed="#P" n="59"/>praeter rationem est asserere eandem formam inuariatam nunc 
+              <lb ed="#P" n="60"/>magis denoinare / nunc minus. Et si poneretur motus lo 
+              <lb ed="#P" n="61"/>calis distinctus a mobili ponenda est aliquae alietas non 
+              <lb ed="#P" n="62"/>modo ex parte spatii pertransiti: sed er parte ipsius mo 
+              <lb ed="#P" n="63"/>tus. Quare genitarius ocissime currens pius sper 
+              <lb ed="#P" n="64"/>tii describit in equali tempore quambos.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e584">
+      ⁋ Ad sextum: inficia 
+              <lb ed="#P" n="65"/>mur puncta impartibilia pariter et lineas omnis profun 
+      <!--148.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 67rb -->
+               <lb ed="#P" n="66"/>ditatis et latitudinis expertes: sed eis datis non est 
+              <lb ed="#P" n="67"/>simile de partibus forme apud coniter loquentes: 
+              <lb ed="#P" n="68"/>immo illud probaret solum aliquos gradus indiuis 
+              <lb ed="#P" n="69"/>biles latitudinum terminatiuos: cum hoc latitudo for 
+              <lb ed="#P" n="70"/>me erit diuisibilis: et sic argumentum erit contra aduer 
+              <lb ed="#P" n="71"/>sarios.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e609">
+      ⁋ Possunt aliqua argumenta pro hac 
+              positio<lb ed="#P" n="72" break="no"/>ne ex parte latitudinis difformis: et ex aliquibus au 
+              <lb ed="#P" n="73"/>ctoritatibus sumi de quibus post dicetur.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e616">
+      ⁋ Sed du 
+              <lb ed="#P" n="74"/>bitatur an forma spumalis habens paeles partes intentio 
+              <lb ed="#P" n="75"/>nales / vt puta intellectio vel volitio potest extendi in 
+              <lb ed="#P" n="76"/>subiecto partibili: et contra accidens extensum potest 
+              po<lb ed="#P" n="77" break="no"/>ni in animam.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e627">
+      ⁋ Dicit quidam doctor quod sic quaestio. ix. sui 
+              <lb ed="#P" n="78"/>primi.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e632">
+      ⁋ Sed contra hoc arguitur sic: capiatur notitia 
+              <lb ed="#P" n="79"/>sortis quantumlet intensa / extendatur in pedali ligneo / hoc 
+              <lb ed="#P" n="80"/>est possibile per hunc doctorem. probatur quod ante de facto pin 
+              <lb ed="#P" n="81"/>anima erat qualitas infinita gradualiter: a hoc sic. volo quod 
+              <lb ed="#P" n="82"/>in prima parte proportionali hore future deus capiat 
+              <lb ed="#P" n="83"/>qualitatem extensam per primam partem proportionalem illius 
+              <lb ed="#P" n="84"/>pedalitatis: et ponat cum qualitate secunde partis 
+              pro<lb ed="#P" n="85" break="no"/>portionalis. et in secunda parte proportionali hore future 
+              <lb ed="#P" n="86"/>capiat deus aggregatum qualitatis exntis in 
+              dua<lb ed="#P" n="87" break="no"/>bus primis paertibus proportionalibus illius corporis 
+              <lb ed="#P" n="88"/>pedalis: et ponat in parte posteriori: et sic consequenr semi 
+              <lb ed="#P" n="89"/>in qualibet parte posteriori hore capiet aggregatum 
+              <lb ed="#P" n="90"/>qualitatum inherentium pertibus proportionalibus illius cor 
+              <lb ed="#P" n="91"/>poris pedalis praecedentibus: et in instante terminante 
+              <lb ed="#P" n="92"/>horam ponat deus illam qualitatem in animam in qua prius 
+              <lb ed="#P" n="93"/>erat: tunc sic. in infinitum intensa erit ista qualitas ante 
+              <lb ed="#P" n="94"/>finem hore: quia in prima parte porportionali hore ipsa 
+              <lb ed="#P" n="95"/>erit in duplo intensior quam ante erat: in secunda parte propor 
+              <lb ed="#P" n="96"/>tionali erit in quadruplo intensior quam erat ante illam 
+              <lb ed="#P" n="97"/>horam: et sic in abyssum: ergo illa qualitas in 
+              infini<lb ed="#P" n="98" break="no"/>tum intensa erit ante finem hore. et in instanti terminante 
+              <lb ed="#P" n="99"/>horam erit intensior quam erat in quacumque parte 
+              propor<lb ed="#P" n="100" break="no"/>tionali hore: patet. inducendo per singulas partes propor 
+              <lb ed="#P" n="101"/>tionales illius hore. ergo in illo instanti erit qualitas in 
+              <lb ed="#P" n="102"/>finita gradualiter e ipsa non est intensior quam erat ante 
+              <lb ed="#P" n="103"/>quam poneretur in illud corpus pedale: ergo illa qualitas fu 
+              <lb ed="#P" n="104"/>it infinite intensa. Sic probare poteris quantamlibet 
+              <lb ed="#P" n="105"/>formam spuealem esse infinite intensionis: quod est mani 
+              <lb ed="#P" n="106"/>feste falsum. q⁋ Nullum est hic diffugium nisi 
+              v<lb ed="#P" n="107" break="no"/>num quod ista qualitas non possit extendi quod maneat 
+              <lb ed="#P" n="108"/>vniformis. modo colligendo qualitates difformes 
+              <lb ed="#P" n="109"/>non habebis infinitam formam gradualiter.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e702">
+      ⁋ Sed 
+              <lb ed="#P" n="110"/>hec tergiuersatio est nulla si illa qualitas extendatur 
+              <lb ed="#P" n="111"/>deus eim potest capere illam qualitatem in toto subiecto 
+              <lb ed="#P" n="112"/>vel parte subiecti faciendo vniformitatem: vt patet qua 
+              <lb ed="#P" n="113"/>quauersum in difformibus quo ad qualitatem et 
+              quanti<lb ed="#P" n="114" break="no"/>tatem siue in finitis siue in infinitis: deus potest duas par 
+              <lb ed="#P" n="115"/>tes equare quo ad quantum tres et sic consequenter.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e718">
+      ⁋ 
+              Pre<lb ed="#P" n="116" break="no"/>terea cum notitia sortis erit qualitas extensa in illo 
+              <lb ed="#P" n="117"/>pedali difformiter potest capere notitiam platonis fa 
+              <lb ed="#P" n="118"/>ciendo totam qualitatem vniforme vel partem eius.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e728">
+      ⁋ 
+              Di<lb ed="#P" n="119" break="no"/>coergo quod qualitas spualis non potest extendi: et repugnam 
+              <lb ed="#P" n="120"/>tia est er parte rei: sicut deus non potest extendere animam 
+              <lb ed="#P" n="121"/>intellectiuam: nec facere corpus indiuisibile quid.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e737">
+      ⁋ Et 
+              <lb ed="#P" n="122"/>eodem fonte deducitur quod qualitas extensa non potest 
+              po<lb ed="#P" n="123" break="no"/>ni in subiecto indiuisibili. Sed ex illo sequitur quod quaelibet 
+              <lb ed="#P" n="124"/>qualitas quae erat finite intensa antea quantumlibet re 
+              <lb ed="#P" n="125"/>missa erit infinite intensionis.
+            </p>
+            <p xml:id="jm12w4-e45821-d1e748">
+      ⁋ hoc aduersarius con 
+              <lb ed="#P" n="126"/>cederet: non enim inconuenit eandem qualitatem esse primo 
+              <lb ed="#P" n="127"/>minus intensam postea magis intensam per inhesionem 
+              <lb ed="#P" n="128"/>eiusdem subiecti: vbi partes prius variis subiectis inhe 
+              <lb ed="#P" n="129"/>rebant: vel perpenetrationem partium extra subiectumdi 
+              <lb ed="#P" n="130"/>non constituant aliquod vnum. non probatur hic quod antea quali¬ 
+      <!--149.xml-->
+      <pb ed="#P" n="67-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tas extensa fuit infinita gradualiter: cuius oppo 
+              <lb ed="#P" n="2"/>situm probatum est de qualitate spirituali. hoc tamen 
+              aduersa<lb ed="#P" n="3" break="no"/>rius heret concedere actualiter. quod tamen manifeste negat in 
+              <lb ed="#P" n="4"/>eadem quaestione. et ratio ad hoc vrget. sed quia patres non 
+              <lb ed="#P" n="5"/>admittunt qualitatem corpoream inherere subiecto 
+              <lb ed="#P" n="6"/>indiuisibili: neutrum admittimus vt iam patuit distin 
+              <lb ed="#P" n="7"/>ctione. xliiii. iiii. sententiarum. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

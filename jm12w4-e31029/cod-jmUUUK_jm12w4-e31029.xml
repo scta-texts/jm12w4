@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="46-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e31029"> <!--l1d14-16q1 -->
+            <head xml:id="jm12w4-e31029-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e31029-Hd1e109" type="question-title">
+      Utrum Spiritui Sancto competat duplex processio
+    </head>
+            <p xml:id="jm12w4-e31029-d1e112">
+               <lb ed="#P" n="102"/>⁋ Preterea diligenter <sic>annotaudum</sic> est: quod 
+              <lb ed="#P" n="103"/>gemina est processio spiritus sancti: eterna. 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e122">
+               <lb ed="#P" n="104"/>⁋ Distinctionum. xiiii. xv. xvi. questio vnica. 
+              <lb ed="#P" n="105"/>Irca hanc quartandecimam distin 
+              <lb ed="#P" n="106"/>ctionem et duas sequentes: Queritur 
+              <lb ed="#P" n="107"/>vtrum spiritui sancto competant 
+              du<lb ed="#P" n="108" break="no"/>plex processio.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e136">
+      ⁋ Respondetur 
+              affir<lb ed="#P" n="109" break="no"/>matiue. Probatio vna est eterna 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e141">
+               <lb ed="#P" n="110"/>⁋a de qua supra dictum est) per quam 
+              spi<lb ed="#P" n="111" break="no"/>ritussanctus eternaliter procedit a patre e filio. 
+              <lb ed="#P" n="112"/>Alia est temporalis: qua creaturis datur.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e150">
+      ⁋ Spiri 
+              <lb ed="#P" n="113"/>tussanctus multiphariam visibiliter apparuit: vtpo 
+              <lb ed="#P" n="114"/>te in specie columbe super Christum baptizatum in 
+              <lb ed="#P" n="115"/>Iordane. Matthei. iii. in specie nubis lucide. in 
+              <lb ed="#P" n="116"/>transfiguratione. Matthei. xvii. in specie flatus 
+              <lb ed="#P" n="117"/>sufflante Christo post resurrectionem: et dicente. 
+              <lb ed="#P" n="118"/>Accipite spiritumsanctum: quorum remiseritis pec⁋ 
+              <lb ed="#P" n="119"/>cata et cetera. Io. xx. in specie ignis siue in linguis 
+              <lb ed="#P" n="120"/>igneis. Actuu. ii.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e170">
+      ⁋ Secunda conclusio. spiritus 
+              <lb ed="#P" n="121"/>sanctus a se mittitur. patet: quia est deus: et 
+              diuina<lb ed="#P" n="122" break="no"/>essentia. modo opera trinitatis ad extra sunt 
+              indi<lb ed="#P" n="123" break="no"/>uisa.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e179">
+      ⁋ Tertiam conclusio. licet patri non 
+              conueni<lb ed="#P" n="124" break="no"/>at mitti: et spirituisancto e filio conueniat. non 
+              ta<lb ed="#P" n="125" break="no"/>men propterea pater est maior aliis personis. 
+              pri<lb ed="#P" n="126" break="no"/>or pars patet: quia pater a nullo est: ergo non 
+              con<lb ed="#P" n="127" break="no"/>uenit ei quod mittatur.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e190">
+      ⁋ Secunda pars patet: 
+              que<lb ed="#P" n="128" break="no"/>libet per sona in diuinis est deus: ergo est per fonarum 
+      <!--107.xml-->
+      <pb ed="#P" n="46-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>equalitas.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e204">
+      ⁋ Quarta conclusio. spiritus sanctus es 
+              <lb ed="#P" n="2"/>missus interdum visibiliter: vt in specie ignis / in 
+              <lb ed="#P" n="3"/>die pentecostes: in linguis igneis: et in specie colun 
+              <lb ed="#P" n="4"/>be. interdum inuisibiliter in castas mentes.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e213">
+      ⁋ Con 
+              <lb ed="#P" n="5"/>tra ista arguitur sic. spiritus et filius dei est vbique: e 
+              <lb ed="#P" n="6"/>go est in peccatoribus: et in omnibus creaturis. ar 
+              <lb ed="#P" n="7"/>tecedens inferius patebit. distinctione. xxx vii. 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e222">
+               <lb ed="#P" n="8"/>⁋ Respondetur: deus triphariam est in rebus: mo 
+              <lb ed="#P" n="9"/>do generalissimo in omnibus: modo speciali in bo 
+              <lb ed="#P" n="10"/>nis per gratiam: modo specialissimo per vnionem 
+              <lb ed="#P" n="11"/>hypostaticam cum humanitate assumprta. et deus 
+              spe<lb ed="#P" n="12" break="no"/>cialiter datur creature: quando eius donu scilicet cha 
+              <lb ed="#P" n="13"/>ritas datur: et hoc est deum dari in suo effectu 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e238">
+               <lb ed="#P" n="14"/>⁋ Circa has distinctiones dubitatur: quare pater 
+              <lb ed="#P" n="15"/>habeat epitheton quod dicatur fortis. filius quod dicatur sa 
+              <lb ed="#P" n="16"/>piens. spiritus sanctus quod dicatur bonus
+            </p>
+            <p xml:id="jm12w4-e31029-d1e247">
+      ⁋ Secundo 
+              <lb ed="#P" n="17"/>dubitatur: an ista in quibus apparuit vere an erat 
+              co<lb ed="#P" n="18" break="no"/>lumbe / nubes / et tales res: an solum apparitiones. 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e254">
+               <lb ed="#P" n="19"/>⁋ Respondetur: quod propter hereticos ponuntur 
+              di<lb ed="#P" n="20" break="no"/>uinis parsonis illa appopriata. quia enim inter 
+              morta<lb ed="#P" n="21" break="no"/>les inueniuntur patres ee filiis debiliores: putarent 
+              <lb ed="#P" n="22"/>aliqui patrem in diuinis esse filio impotentiorem: 
+              pro<lb ed="#P" n="23" break="no"/>pterea consulto adiectum est epitheton fortis: patri 
+              <lb ed="#P" n="24"/>Et quia filii non solent esse ita sapientes sicut patrer 
+              <lb ed="#P" n="25"/>inter homines: et ne id idem de filio in diuinis 
+              existi<lb ed="#P" n="26" break="no"/>marent / adiectum est in filio epithetum sapientis. Et 
+              <lb ed="#P" n="27"/>quia spiritus in modo loquedi in superbam parte 
+              <lb ed="#P" n="28"/>capitur: dicimus enim Alexandrummacedonem fui 
+              <lb ed="#P" n="29"/>se alti spiritus: propoterea additur sanctus vel bonus. 
+            </p>
+            <p xml:id="jm12w4-e31029-d1e281">
+               <lb ed="#P" n="30"/>⁋ Ad secundam dubitationem non dubitamus: an 
+              <lb ed="#P" n="31"/>erant vere res: sed querimus an erat columba appa 
+              <lb ed="#P" n="32"/>rens: an realiter colunba.
+            </p>
+            <p xml:id="jm12w4-e31029-d1e290">
+      ⁋ Respondetur: vtrumque est 
+              <lb ed="#P" n="33"/>deo possibile: nec de altero sufficienter constat. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

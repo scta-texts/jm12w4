@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e11756"> <!--l1prolq1 -->
+            <head xml:id="jm12w4-e11756-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e11756-Hd1e109" type="question-title">Quomodo viator possit acquirere fidem</head>
+            <p xml:id="jm12w4-e11756-d1e112">
+      ⁋ Quo circa primo quero: quo 
+              mo<lb ed="#P" n="46" break="no"/>do viator possit acquirere fidem. Duos terminos in 
+              ti<lb ed="#P" n="47" break="no"/>tulo questionis positos explicabimus: postea ad 
+              quae<lb ed="#P" n="48" break="no"/>stionis solutionem descendentes / eam aliquibus argumenta 
+              <lb ed="#P" n="49"/>tionibus / vt veritas magis elucescat / oppugnabimus et 
+              <lb ed="#P" n="50"/>soluemus Princeps vocabulum est viator: et sic 
+              defini<lb ed="#P" n="51" break="no"/>tur a quodam. Viator est ille qui non habet notitiam 
+              intui<lb ed="#P" n="52" break="no"/>tiuam deitatis sibi possibilem de omne potentia dei ordinata. 
+              <lb ed="#P" n="53"/>Per primum excluditur intellectus beatorum: quae habet notitiam 
+              <lb ed="#P" n="54"/>intuitivam deitatis. Per secundum excluditur intellectus dam 
+              <lb ed="#P" n="55"/>natorum: quibus talis notitia non est possibilis de potentia 
+              <lb ed="#P" n="56"/>dei ordinata: quaeuis sit illis possibilis de potentia abso 
+              <lb ed="#P" n="57"/>luta. Sed haec descriptio est suspecta. Nam Paulus in  
+              <lb ed="#P" n="58"/>raptu habuit notitiam deitatis / et tamen non fuit beatus: sed  
+              <lb ed="#P" n="59"/>viatoi. Quod claram notitiam dei intuitiuam habuit: patet 
+              <lb ed="#P" n="60"/>ex <name xml:id="jm12w4-e11756-Nd1e146" ref="#Augustine">Aug.</name> in questionibus ad Orosium: et similiter super Ge 
+      <!--16.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 1rb -->
+               <lb ed="#P" n="61"/>nesim ad litteram: et ad Paulinum de videndo deum. 
+              Defi<lb ed="#P" n="62" break="no"/>nit aliter <name xml:id="jm12w4-e11756-Nd1e160" ref="#PetrusDeAilly">quidam alius doctor</name> sic. Viator seu creatura 
+              <lb ed="#P" n="63"/>viatrix: est rationalis creatura: quam nec est damnata / nec sal 
+              <lb ed="#P" n="64"/>uata. Sed secundum hoc existentes in purgatorio essent via 
+              <lb ed="#P" n="65"/>tores: quod est falsum: consequentiam tamen probo: quia existens in pur- 
+              <lb ed="#P" n="66"/>gatorio nec est saluatus nec damnatus / proprie captis 
+              <lb ed="#P" n="67"/>terminis. Rationabilius igitur definitur sic. Viator est 
+              il<lb ed="#P" n="68" break="no"/>le qui existit in statu demerendi et merendi sibi 
+              beatitudi<lb ed="#P" n="69" break="no"/>nem. Vel sic Viator est qui  tendit de via ad terminum. Et 
+              <lb ed="#P" n="70"/>licet apostoli post confirmatione non peccauerit / saltem 
+              <lb ed="#P" n="71"/>mortaliter: fuerunt tamen de statu demerentium. Status enim 
+              <lb ed="#P" n="72"/>merendi incipit a primo instanti quo homo vtitur ratione: vel 
+              <lb ed="#P" n="73"/>ab vltimo instanti: in quo non vtitur ratione / quousque sit in 
+              <lb ed="#P" n="74"/>termino. Terminus autem est quando est beatus / vel primo non est 
+              <lb ed="#P" n="75"/>siue sit in purgatorio siue in inferno. hoc namque sonat 
+              <lb ed="#P" n="76"/>vis vocabuli viator secundum legem. et difficultas est de ter 
+              <lb ed="#P" n="77"/>minis / quare non curiose insistendum est. Ex isto pataet quod 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e197">
+               <lb ed="#P" n="78"/>⁋ Christus secundum naturam humanam proprie non fuit viator: cum 
+              <lb ed="#P" n="79"/>a principio creationis sue anime fuerit comprehensor. Secus 
+              <lb ed="#P" n="80"/>est secundum corpus: quia ante passionem non habuit suas dotes 
+              <lb ed="#P" n="81"/>ob mysterum passionis parficiendum. Potes dicere fuit via 
+              <lb ed="#P" n="82"/>tor secundum corpus comprehensor secundum animam: cum a primo instan 
+              <lb ed="#P" n="83"/>ti anima habuit suam beatitudinem: non autem corpus eo modo  
+              <lb ed="#P" n="84"/>quo corpus / beatitudinem habere poterat. Secundo sequitur quod 
+              <lb ed="#P" n="85"/>sortes est viator et non viator. hoc patet: quia est corpus et 
+              <lb ed="#P" n="86"/>anima / et anima corpus informans est viatrix: cum sit in statu 
+              <lb ed="#P" n="87"/>merendi sibi beatitudinem. Si dicas: esse viatorem secundum corpus 
+              <lb ed="#P" n="88"/>est esse viatorem simpliciter: tunc non sequitur illud corolla 
+              <lb ed="#P" n="89"/>rium: sed aliud quod sortes est viator a non viator 
+              copula<lb ed="#P" n="90" break="no"/>tim. Tertio sequitur: quod licet plene temulenti et vesani non 
+              <lb ed="#P" n="91"/>sint in potentia propinqua merendi: sunt tamen viatores: cum 
+              <lb ed="#P" n="92"/>sint in statu merendi. eodem modo infantes. Quarto se 
+              <lb ed="#P" n="93"/>quitur: quod existens in peccato mortali est in statu merendi. 
+              <lb ed="#P" n="94"/>hoc enim nihil aliud est quam esse de sorte eorum quae merentur et 
+              <lb ed="#P" n="95"/>demerentur: dato etiam quod nulli alii ab eo sint in via. 
+              eo<lb ed="#P" n="96" break="no"/>dem modo existens in gratia siue veniali est in statu demeren 
+              <lb ed="#P" n="97"/>di. Si deus det legem communem merendi Enoch et Helie: ipsi 
+              <lb ed="#P" n="98"/>sunt in amplo merito: sed hoc me fugit.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e246">
+      ⁋ Secundus 
+              ter<lb ed="#P" n="99" break="no"/>minus est credere: quae triphariam accipitur. primo 
+              coinssi<lb ed="#P" n="100" break="no"/>me: et tunc tantum valet quantum assentire. quo modo credimus 
+              <lb ed="#P" n="101"/>illa quae scimus: a illam quae opinamur. et sic dicit <name xml:id="jm12w4-e11756-Nd1e254" ref="#Augustine">Aug.</name> in libro 
+              <lb ed="#P" n="102"/>de praedestinatione sanctorum ca. ii.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e260">
+      ⁋ Credere / est cu affectio 
+              <lb ed="#P" n="103"/>ne cogitare. Secundo modo capitur stricte pro assentire sine 
+              <lb ed="#P" n="104"/>formidine propositionibus: de quarum veritate non constat nisi per 
+              <lb ed="#P" n="105"/>testimonium aliorum. Unde <name xml:id="jm12w4-e11756-Nd1e268" ref="#Augustine">Augustini</name> super Joan. homilia quarta dicit 
+              <lb ed="#P" n="106"/>Quid est fides nisi credere quod non vides. et sic disci- 
+              <lb ed="#P" n="107"/>pulus habet fidem dictis doctoris in logicis aut physicis. 
+              <lb ed="#P" n="108"/>Tertio modo accipitur proprie pro assentire sine formidine 
+              <lb ed="#P" n="109"/>propositionibus / quae pertinent ad salutem. De quo dicit <name xml:id="jm12w4-e11756-Nd1e280" ref="#Lombard">Magister</name> li 
+              <lb ed="#P" n="110"/>bro. iii. di. xxiii. ca. ii. Fides est virtus: qua creduntur que 
+              <lb ed="#P" n="111"/>non videntur. quod tamen non omnibus quae non videntur accpiendum est 
+              <lb ed="#P" n="112"/>sed de his tantum quae credere / vt ait <name xml:id="jm12w4-e11756-Nd1e290" ref="#Augustine">Aug.</name> i. Enchyridio: ad re 
+              <lb ed="#P" n="113"/>ligionem pertinet. Et in ista significantia vtimur vocabulo. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e296">
+               <lb ed="#P" n="114"/>⁋ Istis terminis vtcunque explicatis constat 
+              affir<lb ed="#P" n="115" break="no"/>matiua responsio ad quaestionem. Sed circa modum quo 
+              fi<lb ed="#P" n="116" break="no"/>des generatur varia est opinandi ratio. Aliqui enim ponunt 
+              vo<lb ed="#P" n="117" break="no"/>luntatem posse se sola omnem fidem producere. Alii existimant 
+              <lb ed="#P" n="118"/>fidem solum posse produci a medio captiuante intellectum. 
+              <lb ed="#P" n="119"/>Tertia est communis in medio consistens: in quo solet resi- 
+              <lb ed="#P" n="120"/>dere virtus. ii. Ethicorum. secundum illud poete. Inter vtrumque 
+              <lb ed="#P" n="121"/>vola: medio tutissimus ibis. Et pro responsione secundum hac 
+              posi<lb ed="#P" n="122" break="no"/>tionem ponuntur propositiones quae sequuntur. Prima est. demonstra 
+              <lb ed="#P" n="123"/>tio non producit fidem. Secunda propositio argumentum topicum non 
+              <lb ed="#P" n="124"/>producit fidem. Tertia propositio Intellectus et fides infusa  
+              <lb ed="#P" n="125"/>non sufficiunt ad quamlibet fidem acquirendam. Quarta propositio 
+      <!--17.xml-->
+      <pb ed="#P" n="1-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Voluntas cum suo actu non sufficiunt ad productionem fidei. 
+              <lb ed="#P" n="2"/>Quinta propositio. Fides cquisita producitur a motiuo a pia 
+              <lb ed="#P" n="3"/>affectione. Prima propositio probatur sic: demonstrantio producit 
+              <lb ed="#P" n="4"/>notitiam euidentem et scientif causa: quia vt dicitur primi posteriorum. c. 
+              <lb ed="#P" n="5"/>ii. omnis demonstratio est syllogismus apodiction. id est faciens 
+              <lb ed="#P" n="6"/>scire. modo fides est inferior scientia inferioritate 
+              noti<lb ed="#P" n="7" break="no"/>tie. Secunda propositio probatur: quia argumentum topicum solum produ 
+              <lb ed="#P" n="8"/>cit opinionem a assensum fomidolosum: ergo non produ 
+              <lb ed="#P" n="9"/>cit fidem quae est assensus certus. Tertia probatur / de multis 
+              <lb ed="#P" n="10"/>paruulis christianorum baptizatis et ablatis per Mahume 
+              <lb ed="#P" n="11"/>tanos et tartaros: qui venientes ad annos discretionis non 
+              <lb ed="#P" n="12"/>possunt credere articulos fidei nostre. Quarta probatur 
+              <lb ed="#P" n="13"/>sic. voluntas non potest imperare intellectui vt opinetur ad nu 
+              <lb ed="#P" n="14"/>tum sine motiuo: ergo non potest imperare ei vt credant sine 
+              <lb ed="#P" n="15"/>motiuo. antecedens patet: quia vt ait Philosophus ii. de anima textu commen 
+              <lb ed="#P" n="16"/>ti. liii. Imaginari possumus cum volumus: opinari autem mi 
+              <lb ed="#P" n="17"/>nime. Et confirmatur ratione. ad oppositum propositionis sequitur 
+              <lb ed="#P" n="18"/>quod voluntas potest facere intellectum assentire cuicumque 
+              pro<lb ed="#P" n="19" break="no"/>positioni sine motiuo: et sic poterit facere assentire 
+              intelle<lb ed="#P" n="20" break="no"/>ctum huic: astra sunt paria. vel huic: papa dormit. consequens 
+              <lb ed="#P" n="21"/>est contra experientiam: quia hoc modo homo potest facere quod numquam 
+              <lb ed="#P" n="22"/>mentiatur in prolatione propositionis neutre. cum possit facere in 
+              <lb ed="#P" n="23"/>tellectum assentire sine ratione probabili. Quinta propositio 
+              pro<lb ed="#P" n="24" break="no"/>batur. nam fides acuisita producitur aliquo modo: et non videtur 
+              <lb ed="#P" n="25"/>quo alio: ergo verisimile est quod sic produncatur.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e385">
+      ⁋ Contra 
+              <lb ed="#P" n="26"/>quintam propositionem: quia illa est principalis circa qua 
+              labora<lb ed="#P" n="27" break="no"/>mus multiplici argumento arguitur. Imprimis possum cape 
+              <lb ed="#P" n="28"/>re omnia argumenta quae probant auxilium dei speciale esse po- 
+              <lb ed="#P" n="29"/>nendum: sed pro nunc prosequor modum oppositum et 
+              communio<lb ed="#P" n="30" break="no"/>rem: de alio locutus in secundo. Et arguitur sic primo argumentum topicum 
+              <lb ed="#P" n="31"/>productiuum opinionis se solo producit fidem. ergo male 
+              di<lb ed="#P" n="32" break="no"/>ctum est. antecedens patet: quia pia affectio a argumentum topicum per te pro 
+              <lb ed="#P" n="33"/>ducunt fidem: sed pia affectio est anima pie affectata. anima 
+              <lb ed="#P" n="34"/>autem et argumentum topicum producunt opinionem: ergo eedem 
+              cau<lb ed="#P" n="35" break="no"/>se producunt opinionem et fidem.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e409">
+      ⁋ Respondetur. quod pia 
+              affe<lb ed="#P" n="36" break="no"/>ctio potest intelligi duobus modis. vno modo quod quis non 
+              <lb ed="#P" n="37"/>considerat sophismata in oppositum. exemplum causa: alicui 
+              <lb ed="#P" n="38"/>praedicas Christum esse deum: et in attestationem illius dicis 
+              <lb ed="#P" n="39"/>claudo: surge et ambula: tunc sortes audiens potest conside 
+              <lb ed="#P" n="40"/>rare sophisticationes in oppositum / dicendo quod hoc est per 
+              <lb ed="#P" n="41"/>artem magicam vel aliquid tale: a hoc est esse praue 
+              affe<lb ed="#P" n="42" break="no"/>ctatum. Altero modo excludendo istas sophisticationes  
+              <lb ed="#P" n="43"/>nullum actum voluntatis ponendo: tunc sine actu 
+              volu<lb ed="#P" n="44" break="no"/>tatis causabitur actus fidei qui erit notitia certa in eui 
+              <lb ed="#P" n="45"/>dens: quia qui illud miraculum non captiuat intellectum sicut 
+              de<lb ed="#P" n="46" break="no"/>monstratio vel notitia intuitiua de iudicio contingenti Hoc 
+              <lb ed="#P" n="47"/>autem esset coincidere cum Holkot. Si quaeras quare vnus cre 
+              <lb ed="#P" n="48"/>dit a non alius: cum habeant similia motiuam: mox dicetur 
+              <lb ed="#P" n="49"/>non repugnare idem agens naturale in variis passis produ 
+              <lb ed="#P" n="50"/>cere differentes effectus. sol enim indurat lutum et resoluit 
+              <lb ed="#P" n="51"/>ceram et si cera et lutum essent simul penetratiue: calor so 
+              <lb ed="#P" n="52"/>lis vnum passum rarefaceret a aliud constringeret. et dato 
+              <lb ed="#P" n="53"/>quod due anime sint eiusdem speciei essentialis: propter variam cor 
+              <lb ed="#P" n="54"/>poris dispositionem habitus bonos vel malos acquirunt vel 
+              <lb ed="#P" n="55"/>variam apprehensionem. Istud non inconuenit: quemadmodum 
+              <lb ed="#P" n="56"/>aliquo dicente regem expugnasse Uenetos coram duobus: 
+              <lb ed="#P" n="57"/>vnus fidem dicenti adhibet: qui credit eum esse veracem. alter 
+              <lb ed="#P" n="58"/>vero non: quia credit eum esse mendacem. sed tunc cetera sunt 
+              <lb ed="#P" n="59"/>imparia. vnus enim habet plura motiua credendi quae alter. 
+              <lb ed="#P" n="60"/>Ponatur ergo quod idem dicat duobus qui mores referentis non 
+              <lb ed="#P" n="61"/>agnouerunt: stat vnum credere a non reliquum. Sed 
+              pleri<lb ed="#P" n="62" break="no"/>que aliter putant et rationabilius: vt ex dicedis elucescet. 
+              <lb ed="#P" n="63"/>propterea dicitur quod pia affectio est actus voluntate: scilicet 
+              <lb ed="#P" n="64"/>velle. Pia affectio enim supponit, pro actu voluntatis: con 
+              <lb ed="#P" n="65"/>notando quod velit illud quod concernit religionem: et nolit il¬ 
+      <!--17.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 1vb -->
+               <lb ed="#P" n="66"/>lud quod ei aduersatur: vt patet ad Romanos. x Ubi apostolus 
+              <lb ed="#P" n="67"/>introducit illud Esaie liii.. Domine quis credit auditui 
+              no<lb ed="#P" n="68" break="no"/>stro. vbi glosa ordinaria proponens dubitationem: quare 
+              <lb ed="#P" n="69"/>Iudei no credunt / dicit quod non credunt quia nolunt: et sic 
+              <lb ed="#P" n="70"/>nolle repugnat generationi fidei: et per consequens velle ad ge 
+              <lb ed="#P" n="71"/>nerationem eiusdem concurrit. Rursus cum deus obliget 
+              <lb ed="#P" n="72"/>nos ad credendum a non obliget nos ad illud quod 
+              tran<lb ed="#P" n="73" break="no"/>scendit vires nostras: liberum erit credere a non crede 
+              <lb ed="#P" n="74"/>re: secundum illud beati <name xml:id="jm12w4-e11756-Nd1e502" ref="#Augustine">Aug.</name> homilia. xxvi. Intrare ecclesiam 
+              <lb ed="#P" n="75"/>potest quis nolens / accedere ad altare nolens: recipere 
+              <lb ed="#P" n="76"/>potest sacramentum nolens / credere aut non nisi volens. 
+              <lb ed="#P" n="77"/>hoc patet etiam per eundem in de spiritu et litera ad 
+              Marcel<lb ed="#P" n="78" break="no"/>linum: vbi dicit nihil aliud esse credere nisi assentire 
+              <lb ed="#P" n="79"/>veru esse quod dicitur. assertio autem est voluntatis perfectio 
+              <lb ed="#P" n="80"/>ergo fides est in nostram potestatem: quod non videtur esse 
+              <lb ed="#P" n="81"/>verum nisi ad credendum concurreret actio libera vo 
+              <lb ed="#P" n="82"/>luntatis. Confirmatur. quia alioquin credere non cade 
+              <lb ed="#P" n="83"/>ret sub praecepto: sed hoc est falsum vt ostenditur per 
+              apo<lb ed="#P" n="84" break="no"/>stolum ad hebreos. xi. dicentem. Credere enim oportet acce 
+              <lb ed="#P" n="85"/>dentem ad deum. et Marci vltimo. Qui non crediderit 
+              <lb ed="#P" n="86"/>condemnabitur. nullum enim est preceptum nisi ad eius 
+              imple<lb ed="#P" n="87" break="no"/>tionem concurrat voluntas. hoc namquod omnes antiqui tenue 
+              <lb ed="#P" n="88"/>runt vt patet per beatum Tho. secunda secunde q. ii. articulo ix in 
+              so<lb ed="#P" n="89" break="no"/>lutione secundi: et in aliis questionibus sequentibus. Et 
+              ali<lb ed="#P" n="90" break="no"/>qui sapientes putantes solum actum voluntatis ad 
+              fi<lb ed="#P" n="91" break="no"/>dei generationem posse sufficere id ipsum tenuerunt: ergo erit 
+              <lb ed="#P" n="92"/>saltem partiale principium. modo in mediis euidentibus non pos 
+              <lb ed="#P" n="93"/>sumus concessis principiis / impedire corum effectus. Per 
+              <lb ed="#P" n="94"/>argumentum autem topicum intelligo rationem dialecticam pro 
+              <lb ed="#P" n="95"/>prie dictam: vel auctoritatem sufficientem.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e551">
+      ⁋ Sed contra 
+              <lb ed="#P" n="96"/>istud arguitur sic. ex illo sequitur quod credere esset actus 
+              vo<lb ed="#P" n="97" break="no"/>luntatis: et sic non esset actus intellectus. Respondetur 
+              di<lb ed="#P" n="98" break="no"/>stinguendo quod sit actus voluntatis: vel imperatus: et sic 
+              <lb ed="#P" n="99"/>concedo: vel actus elicitus: sic nego: sed quia inheret 
+              <lb ed="#P" n="100"/>intellectui et est assensus: realiter est actus intellectus  
+              <lb ed="#P" n="101"/>et ei primo inheret. Et si per possibile vel impossibile  
+              <lb ed="#P" n="102"/>intellectus separaretur a voluntate: intellectui ille 
+              assen<lb ed="#P" n="103" break="no"/>sus inhereret et non voluntati.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e572">
+      ⁋ Sed contra hoc arguitur ex illo  
+              <lb ed="#P" n="104"/>sequitur quod demonstratio a voluntas simul producerent no 
+              <lb ed="#P" n="105"/>titiam perfectiorem entitatiue quam sit scientia. probatur sic: per te 
+              <lb ed="#P" n="106"/>argumentum topicum et voluntas producunt notitiam perfectiorem opi 
+              <lb ed="#P" n="107"/>nione: et argumentum topicum tam generaliter reddit opinionem: quam 
+              <lb ed="#P" n="108"/>argumentum demonstratiuum generat scientiam. Et ex eodem 
+              prin<lb ed="#P" n="109" break="no"/>cipio probatur quod voluntas a notitie apprehensiue pri 
+              <lb ed="#P" n="110"/>mi principii producerent notitiam vnam perfectiorem quam est 
+              <lb ed="#P" n="111"/>notitia iudicatiua primi principii. Eadem via probabi 
+              <lb ed="#P" n="112"/>tur quod notitia intuitiua albedinis / et actus voluntatis pro 
+              <lb ed="#P" n="113"/>ducunt intellectionem perfectiorem quam esset notitia intuitiua 
+              <lb ed="#P" n="114"/>producta ab intellectu et ab obecto. Respondetur. si quis con 
+              <lb ed="#P" n="115"/>cederet illata: difficile esset illum redarguere: sed rationa 
+              <lb ed="#P" n="116"/>bilius iudico in omnibus negare consequentiam. experientia namque 
+              te<lb ed="#P" n="117" break="no"/>ste / quando intueor parietem: per hoc quod ego appono conamen 
+              <lb ed="#P" n="118"/>voluntatis ad velle intueri / non lympidius cognosco 
+              al<lb ed="#P" n="119" break="no"/>bedinem in fine quam in principio. et si actus voluntatis non 
+              iu<lb ed="#P" n="120" break="no"/>uat vnum agens necessitans intellectum / stante applicatione 
+              <lb ed="#P" n="121"/>eiusdem ad proencipium: eodem modo nec aliud: et est ratio ad hoc 
+              <lb ed="#P" n="122"/>quia medium euidens ex perfectione sua producit suum effcctum 
+              <lb ed="#P" n="123"/>naturalem: non autem argumentum topicum.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e618">
+      ⁋ Sed contra ista ar 
+              <lb ed="#P" n="124"/>guitur sic. argumentum topicum et pia affectio per te producunt 
+              <lb ed="#P" n="125"/>assensum fidei: sit ille vt duo: iam vnus gradus vel pars eius 
+              <lb ed="#P" n="126"/>producitur a sola voluntate / et alia pars ab argumento to 
+              <lb ed="#P" n="127"/>pico. ergo conclusiones sunt male posite. Sed hic dices quod 
+              <lb ed="#P" n="128"/>totus ille assensus fidei et quelibet paro eius produci 
+              <lb ed="#P" n="129"/>tur ab argumento topico: similitur a pia affectione: que 
+              <lb ed="#P" n="130"/>libet enim illarum est causa totalis totalitate effe¬ 
+      <!--18.xml-->
+      <pb ed="#P" n="2-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>atus: licet non cause respectu illius assensus. Sed con 
+              <lb ed="#P" n="2"/>tra hoc arguitur. ex isto sequitur quod idem argumentum topicum 
+              <lb ed="#P" n="3"/>in vno producit assensum fidei intensiorem quam in alio. probatur 
+              <lb ed="#P" n="4"/>maior: quia ratione actus voluntatis: licet volutas sit libera 
+              <lb ed="#P" n="5"/>respectu sui actus eliciti: tamen naturaliter concausat 
+              assen<lb ed="#P" n="6" break="no"/>sum fidei: ergo vbi volitio erit intensior / actus 
+              assentien<lb ed="#P" n="7" break="no"/>di erit maior. Si illud concedas sicut est concedendum 
+              conse<lb ed="#P" n="8" break="no"/>quenter: tunc voluntas potest remittere suum actum ad non 
+              gra<lb ed="#P" n="9" break="no"/>dum vsque. et ponetur iste casus: habeat voluntas nunc actum 
+              <lb ed="#P" n="10"/>fidei intensum: vt. iiii. productum a motiuo et ab actu 
+              vo<lb ed="#P" n="11" break="no"/>luntatis vt. iii. in tota hora sequente remittat voluntas 
+              <lb ed="#P" n="12"/>suum actum ad non gradum vsque: sic scilicet quod in instanti 
+              terminan<lb ed="#P" n="13" break="no"/>te horam futuram primo sit non gradus actus voluntatis: ad  
+              <lb ed="#P" n="14"/>huc intellectus in illo instanti assentiet: et illum assensum 
+              <lb ed="#P" n="15"/>conseruat: ergo talem assensum poterat primo producere 
+              <lb ed="#P" n="16"/>sine actu voluntatis. Ad argumentum sufficienter inter 
+              ar<lb ed="#P" n="17" break="no"/>guendum responsum est ad vltimam replicationem vsque: cuius 
+              <lb ed="#P" n="18"/>difficultas non oppugnat nostram conclusionem: sed solum quaerit 
+              <lb ed="#P" n="19"/>an assensus fidei possit esse sine casa quae eam produxit: et dicitur quod sic. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e683">
+               <lb ed="#P" n="20"/>⁋ Secundo arguitur. si pia affectio aliquid faciat ad produ-  
+              <lb ed="#P" n="21"/>ctionem fidei: sequitur quod quis potest habere maiorem assensum quam 
+              <lb ed="#P" n="22"/>ratio probat: sed hoc est falsum: igitur. falsitas minoris patet du 
+              <lb ed="#P" n="23"/>plicitur. Tum primo. si quis potest assentire plus vni propositioni neu 
+              <lb ed="#P" n="24"/>tre quam ratio probat per imperium voluntatis: potest assentire vni 
+              <lb ed="#P" n="25"/>propositione sine ratione. vt si intellectus potest assentire huic / deus est 
+              <lb ed="#P" n="26"/>trinus et vnus firmius quam ratio probat: ergo sine motiuo potest 
+              <lb ed="#P" n="27"/>assentire huic / deus est trinus et vnus. Tum secundo. pia affe 
+              <lb ed="#P" n="28"/>ctio est potior causa assensus fidei quam ratio topica: et ratio 
+              topi<lb ed="#P" n="29" break="no"/>ca producit assensum formidolosum sine iuuamine 
+              volunta<lb ed="#P" n="30" break="no"/>tis: ergo pia affectio qua est actus voluntatis potest aliquem assen 
+              <lb ed="#P" n="31"/>sum producere sine concursu rationis topice.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e712">
+      ⁋ Respondetur conceden 
+              <lb ed="#P" n="32"/>do antecedens: sed consequentia est nulla saltem respectu cuiuslibet credi 
+              <lb ed="#P" n="33"/>bilis. Ad aliud. esto pia affectio sit potior causa in productio 
+              <lb ed="#P" n="34"/>ne assensus fidei: non sequitur illatum: quia neutra illarum potest cau 
+              <lb ed="#P" n="35"/>sare assensum fidei se solo. Sed dices. vnum motiuum potest 
+              <lb ed="#P" n="36"/>aliquid facere ad generationem fidei: et aliud motiuum tantundem 
+              <lb ed="#P" n="37"/>potest facere: ergo potest supplere causalitatem voluntatis: et si duo 
+              <lb ed="#P" n="38"/>motiua hoc facere nequeant: quatuor vel decem hoc sup 
+              <lb ed="#P" n="39"/>plere possunt. Respondetur. cum iste sint causalitates alterius rationis nul 
+              <lb ed="#P" n="40"/>la causa potest aliam supplere: sicut obiectum non potest causalitatem 
+              <lb ed="#P" n="41"/>anime intellectiue in productione notitie intuitiue / nec econuer 
+              <lb ed="#P" n="42"/>so supplere. Ex isto patet quod quis plus assentit consequenti alicuius 
+              <lb ed="#P" n="43"/>rationis quam antecedenti / dummo ille assensus aliunde proueniat 
+              <lb ed="#P" n="44"/>quam ab assensu praemissarum. quod patet si sit pia affectio circa 
+              <lb ed="#P" n="45"/>conclusionem et non circa praemissas. Sed contra hoc arguitur. si ar 
+              <lb ed="#P" n="46"/>gumentum topicum non possit producere fidem / hoc ideo est 
+              <lb ed="#P" n="47"/>quia producit assensum formidolosum: sed hoc consequens est falsum: 
+              <lb ed="#P" n="48"/>ergo argumentum topicum potest producere fidem: cum tota 
+              formi<lb ed="#P" n="49" break="no"/>do sit finita: vel si infinita multiplicatio infinitorum 
+              argu<lb ed="#P" n="50" break="no"/>mentorum topicorum potest omnem formidinem excludere. ergo non 
+              <lb ed="#P" n="51"/>requiritur pia affectio ad generationem fidei. hec replicatio 
+              <lb ed="#P" n="52"/>est impertinens huic materie. nam argumentum equaliter probaraet quod 
+              <lb ed="#P" n="53"/>argumenta topica possent producere assensum euidentem. 
+              <lb ed="#P" n="54"/>sed nego quod infinita argumenta topica possunt producere 
+              <lb ed="#P" n="55"/>fidem vel notitiam euidentem: sed de hoc inferius. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e767">
+               <lb ed="#P" n="56"/>⁋ Tertio arguit / probando quod voluntas potest vtrobique produ 
+              <lb ed="#P" n="57"/>cere assensum fidei. et hoc sic. Tota certitudo in assen 
+              <lb ed="#P" n="58"/>su fidei producitur a pia affectione solum: et certitudo fidei 
+              <lb ed="#P" n="59"/>est assensus fidei: ergo assensus fidei producitur a pia 
+              affe<lb ed="#P" n="60" break="no"/>ctione solum. Respondetur. maior est falsa. certitudo enim nihil 
+              <lb ed="#P" n="61"/>aliud est quam assensus: per quam certitudinalitur assentio. modo 
+              <lb ed="#P" n="62"/>ille vt patet ex dictis / producitur a pia affectione et motiuo. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e785">
+               <lb ed="#P" n="63"/>⁋ Quarto arguit / probando quod ratio topica nullo modo concurrit 
+              <lb ed="#P" n="64"/>ad productionem fidei. et hoc sic. Quando est aliqua causa 
+              particula<lb ed="#P" n="65" break="no"/>ris nata producere aliquem effectum ex sua natura: per 
+              nul<lb ed="#P" n="66" break="no"/>lum additum potest ad alium effectum concurrere: quin semper con 
+      <!--18.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 2rb -->
+               <lb ed="#P" n="67"/>currat ad suum effectum naturalem vt si calor addatur cum 
+              <lb ed="#P" n="68"/>corpore humido vel sicco: semper producit calorem. Unde vt dicitur id 
+              est<lb ed="#P" n="69" break="no"/>de generatione. Idem inquantum idem semper natum est facere idem. 
+              <lb ed="#P" n="70"/>sed soli rationi topice repugnat producere fidem: ergo nec potest 
+              <lb ed="#P" n="71"/>producere cum alio. Et gratia argumenti teneatur (quod non est inopi 
+              <lb ed="#P" n="72"/>nabile penitus) quod opinio et fides in actu se compatiuntur in 
+              eo<lb ed="#P" n="73" break="no"/>dem subiecto respectu eiusdem obiecti. tunc sic. ratio topica. 
+              <lb ed="#P" n="74"/>quandoncumque adducitur cum pia affectione semper producit snum 
+              <lb ed="#P" n="75"/>effectu: cum sit agens naturale et passum non impeditum: ergo 
+              <lb ed="#P" n="76"/>tunc vel duos effectus producit scilicet fidem et opinionem: quod in 
+              <lb ed="#P" n="77"/>conueniens videtur: vel solum opinionem / quod in argumento 
+              <lb ed="#P" n="78"/>praetenditur.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e830">
+      ⁋ Respondetur negando maiorem. sol enim se solo produ 
+              <lb ed="#P" n="79"/>cit lumen: et cum boue producit bouem. Nam sol et homo producunt 
+              <lb ed="#P" n="80"/>hominem: secundo physicorum. similliter notitia abstractiua vel 
+              <lb ed="#P" n="81"/>intuitiua concurrit ad actum voluntatis / nunc ad dilectionem / 
+              <lb ed="#P" n="82"/>nunc ad odium. non enim inconuenit causam naturalem nunc 
+              con<lb ed="#P" n="83" break="no"/>currere ad vnum effectum nunc ad alium impertinentem / nunc 
+              <lb ed="#P" n="84"/>ad oppinonem / potissimum quando alia causa concausans est libera: 
+              <lb ed="#P" n="85"/>vt contigit in proposito: et patet de concursu fidei infuse et cha 
+              <lb ed="#P" n="86"/>ritatis infuse. Et vbi inter arguedum replicas. egre ibi re 
+              <lb ed="#P" n="87"/>plicatio dabitur: sed ea admissa non concluditur quod argumentum 
+              to<lb ed="#P" n="88" break="no"/>picum non producat fidem sicut sol producit lumen et asinum: 
+              <lb ed="#P" n="89"/>vel sicut notitia producit habitum et actum voluntatis: nihil 
+              <lb ed="#P" n="90"/>ad b.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e859">
+      ⁋ Quinto arguit demones credunt et contremiscunt. 
+              <lb ed="#P" n="91"/>Iaco. ii. et tamen non habent piam affectionem assentiendi: ergo 
+              <lb ed="#P" n="92"/>non requiritur pia affectio ad generationem fidei. Respondetur quod ibi 
+              <lb ed="#P" n="93"/>credunt) tantum valet quantum intense opinantur. nam quando christus 
+              <lb ed="#P" n="94"/>erat viator secundum corpus: demonstratio dubitabat an christus esset 
+              <lb ed="#P" n="95"/>deus. propterea eum tentauit: vt scribit Matth. iiii. Tunc 
+              <lb ed="#P" n="96"/>iesus ductus est in desertum a spiritum vt tentaretur a diabolo. sed 
+              <lb ed="#P" n="97"/>tempore quo beatus Iacobus scripsit illam epistolam canonicam: certi 
+              <lb ed="#P" n="98"/>tudinalitur nouit aduentum christi.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e879">
+      ⁋ Sexto arguit. Si intellectus 
+              <lb ed="#P" n="99"/>habeat rationes opositas equilibres quattuor ad probandum a 
+              <lb ed="#P" n="100"/>esse b. et totidem in oppositum ad probandum contradictorium: iam 
+              <lb ed="#P" n="101"/>voluntas potest assentire vni perti / vel alteri: et sola pia 
+              af<lb ed="#P" n="102" break="no"/>fectio hoc facit. probatur maior. Primo alioquin homo mentire 
+              <lb ed="#P" n="103"/>tur tenendo quod a eet b / cum non assentiat illi in mente / a est b 
+              <lb ed="#P" n="104"/>et dicit in voce a. est b. Secundo. quattuor rationes et pia 
+              affe<lb ed="#P" n="105" break="no"/>ctio exuperant virtutem quattuor rationum solum. probatur minor. 
+              ratio<lb ed="#P" n="106" break="no"/>nes hincinde sunt equaliter fortes ex hypothesi: ergo quatuor 
+              <lb ed="#P" n="107"/>tantum impediunt quantum quatuor mouent ad assensum: sicut de 
+              <lb ed="#P" n="108"/>duobus ponderibus equalibus in statera patet. non valet dicere 
+              <lb ed="#P" n="109"/>quod intellectus magis inclinatur ad partem veram: quia ponamus quod 
+              <lb ed="#P" n="110"/>quantum intellectus inclinatur ad verum / tantum ponatur rationis in 
+              <lb ed="#P" n="111"/>oppositum. Item intellectus assentit falso sicut vero quando habet 
+              <lb ed="#P" n="112"/>motiuum.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e912">
+      ⁋ Respondetur: quamlibet partem tenendo / non est absur 
+              <lb ed="#P" n="113"/>dum. experietia namque docet quod stat rationes esse equales in 
+              vi<lb ed="#P" n="114" break="no"/>gore in materia topica apud prudentem: et tamen ob 
+              affectio<lb ed="#P" n="115" break="no"/>nem plus vnam ponderari quam aliam: sed nos ponimus quod equalitur 
+              <lb ed="#P" n="116"/>poderentur: et dicitur probabiliter quod agregatum ex pia 
+              affe<lb ed="#P" n="117" break="no"/>ctione et quattuor rationibus producit assenssum 
+              quemadmo<lb ed="#P" n="118" break="no"/>dum quantuncumque parum additum grauitatis vni parti 
+              sta<lb ed="#P" n="119" break="no"/>tere: reliquam partem ad se trahit: nec est propterea consequens 
+              <lb ed="#P" n="120"/>quod totus ille assensus producitur a pia affectione: sed ab 
+              <lb ed="#P" n="121"/>aggregato motiuorum et pia affectione. Sed contra hoc 
+              di<lb ed="#P" n="122" break="no"/>cis. quatuor rationes impediunt actiuitatem quatuor rationum 
+              <lb ed="#P" n="123"/>oppositarum sic vt nihil agant: et assensus ibi aliquis produ¬  
+              <lb ed="#P" n="124"/>citur: ergo a sola pia affectione: quemadmodum si quattuor 
+              <lb ed="#P" n="125"/>gradus frigoris equaliter agerent et resisterent cum quatuor 
+              <lb ed="#P" n="126"/>gradibus caloris: si fuerint. vi. gradus caloris actio a 
+              <lb ed="#P" n="127"/>duobus gradibus proueniet. Respondetur. vna pars rationum 
+              <lb ed="#P" n="128"/>non impeditur a suo effectu totaliter: bene tamen ne tam inten 
+              <lb ed="#P" n="129"/>sum effectum producat: assensus enim in illo casu erit mul 
+              <lb ed="#P" n="130"/>to remissior quam si non essent rationes opposite. eodem modo 
+              <lb ed="#P" n="131"/>totus calor vt. vi. producit calorem remissiorem quam vt. vi. 
+              <lb ed="#P" n="132"/>videlicet vt duo: stante frigore vt. iiii. et secundum magni¬ 
+      <!--19.xml-->
+      <pb ed="#P" n="2-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tudinem actus volendi / assensus erit intensior. Sed contra 
+              <lb ed="#P" n="2"/>hoc arguitur. si quis nunc habeat. iiii. rationes cum actu 
+              volen<lb ed="#P" n="3" break="no"/>di remittendo actum volutatis ad non gradum vsque in hora 
+              <lb ed="#P" n="4"/>sequente: tunc sequitur quod infinite remissus erit assensus in illo. 
+              <lb ed="#P" n="5"/>Rendetur concedendo quod in infinitum paruus talis assensus erit. 
+              <lb ed="#P" n="6"/>et hoc supposito quod assensus praecedens desinat esse / et 
+              pro<lb ed="#P" n="7" break="no"/>ducatur nouus / secundum exigentiam illi cause: et hoc est clarum in 
+              <lb ed="#P" n="8"/>infinitis homnibus / quorum vnus habet actum voluntatis vt. iiii 
+              <lb ed="#P" n="9"/>cum motiuis oppositis equailibus. secundus vero habet actum vo 
+              <lb ed="#P" n="10"/>lendi vt duo: et sic sine statu geometrice. iam enim in infini 
+              <lb ed="#P" n="11"/>tum paruus est assensus alicuius istorum. Ex isto sequitur quod nunc 
+              <lb ed="#P" n="12"/>possum assentire huic / a est b. nunc illi dissentire / non 
+              su<lb ed="#P" n="13" break="no"/>bito: assensus enim durat per aliquod tempus. patet per appositionem 
+              <lb ed="#P" n="14"/>actus volendi heretici non necessitantur assentire heresi: 
+              <lb ed="#P" n="15"/>nec dissentire fidei hoc absit) sed excecati suut ex 
+              <lb ed="#P" n="16"/>sua malitia / et non rationabiliter acquiescunt vero. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e999">
+               <lb ed="#P" n="17"/>⁋ Septimo arguitur. dabile est primum creditum a qualibbet: saltem 
+              <lb ed="#P" n="18"/>a quolibet est dabile primum creditum. Quod patet 
+              demon<lb ed="#P" n="19" break="no"/>strando sortem quae habet a creditum. vel illud est primum: et ha 
+              <lb ed="#P" n="20"/>betur propositum. vel non est primum: et tunc illud dependet ab 
+              <lb ed="#P" n="21"/>alio credito: et quaeritur de illo vt prius. vel eim procedere 
+              opi<lb ed="#P" n="22" break="no"/>in infinitum / vel dare primum: sed palam est quod in sorte non 
+              <lb ed="#P" n="23"/>est processus in infinitum: ergo est dare primum creditum: e 
+              <lb ed="#P" n="24"/>actus voluntatis solus causat assensum illius: et si solus 
+              <lb ed="#P" n="25"/>actus voluntatis causat assensum primi crediti: eadem 
+              <lb ed="#P" n="26"/>atione causabit assensum cuiuscunque crediti: ergo 
+              conclusio<lb ed="#P" n="27" break="no"/>nes false. Dicis. primum creditum causatur a primo mo 
+              <lb ed="#P" n="28"/>tiuo: scilicet ab opinione a pia affectione simul. Contra hoc 
+              <lb ed="#P" n="29"/>arguitur. vel illud est primum opinatum / vel non est: si 
+              pri<lb ed="#P" n="30" break="no"/>mum. vel quis assentit ei ex sola apprehensione terminorum: 
+              <lb ed="#P" n="31"/>vel non sic assentit eidem. si primum: esset propositio per se 
+              <lb ed="#P" n="32"/>nota. si secundum: dabitur opinatum praecedens: vel tunc illud 
+              <lb ed="#P" n="33"/>est primum: et habetur propositum. vel non est: et tunc oportet 
+              <lb ed="#P" n="34"/>procedere in infinitum.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1041">
+      ⁋ Respondetur quod hic non est processus 
+              <lb ed="#P" n="35"/>in infinitum in credibilibus vel in opinabilibus. nam opus est 
+              <lb ed="#P" n="36"/>bare in sorte si credit / primum creditum et primum opi 
+              <lb ed="#P" n="37"/>natum: et ita in quolet alio: et incidere oportet in hanc disiunct 
+              <lb ed="#P" n="38"/>uam quod sola volutas causat assensum primi crediti / et non 
+              <lb ed="#P" n="39"/>aliorum quae sequuntur: vel ad primum creditum requiritur motiuum 
+              <lb ed="#P" n="40"/>topicum. et damus secundum: et quod est primum opinatum quod forte 
+              <lb ed="#P" n="41"/>deducitur ex euidentibus in consequentia solum topica. Vel sic. datui 
+              <lb ed="#P" n="42"/>primum opinatum cui assentimus cognitis terminis. 
+              mo<lb ed="#P" n="43" break="no"/>do pia affectio adueniens illi producit fidem. vt proposita 
+              <lb ed="#P" n="44"/>ista propositione: omnis mater diligit filium: protinus quis assentit 
+              <lb ed="#P" n="45"/>sine vlteriore discursu. et si assensum causari ex sola 
+              <lb ed="#P" n="46"/>apprehensione sufficiat ad per se notum: illa est per se nota. 
+              <lb ed="#P" n="47"/>Propter modum tamen dicendi communes aliter dicimus: quod scilicet du 
+              <lb ed="#P" n="48"/>pliciter praet dici propositio per se nota. vno modo quando ipsa est 
+              no<lb ed="#P" n="49" break="no"/>ta cuilibet vtenti ratioe ex sola intuitiua vel abstractiua 
+              <lb ed="#P" n="50"/>apprehensione teriorum: nec praet poni impedimentum assentiend 
+              <lb ed="#P" n="51"/>itellectum aduertente. vt quod set est vel non est / dicitur per se no 
+              <lb ed="#P" n="52"/>ta proprie. Alia est propositio per se nota: cuius assensus causatur 
+              <lb ed="#P" n="53"/>ab apprehensione teriorum in aliquo vel immultes / non tamen in omnibus 
+              <lb ed="#P" n="54"/>saltem non oportetin omnibus. vt omnis muster diligit filium. et ista proprie 
+              <lb ed="#P" n="55"/>non vocatur per se nota. Exemplum in sili. notitia intuitiua ex 
+              <lb ed="#P" n="56"/>tremorum huius / paries est albus / sufficit ad assensum eiusdem: 
+              <lb ed="#P" n="57"/>ita vt non egeat euidentia extriseca ille assensus: et tamen illa 
+              <lb ed="#P" n="58"/>propositio non vocatur per se nota apud loquentes de ipsa: quia qa illud 
+              <lb ed="#P" n="59"/>udicium non elucescit cuilibet qualemcumque notitiam terio 
+              <lb ed="#P" n="60"/>habenti. vt patet de notitia abstractiua. nam quando video sortem 
+              <lb ed="#P" n="61"/>venientem a remotis: assentio isti: hoc est sortes / cum 
+              for<lb ed="#P" n="62" break="no"/>midine: demum ipso appopinquante assentio eidem sine for 
+              <lb ed="#P" n="63"/>midine. Nec sequitur ex hoc quod opinio a scientia sunt 
+              eius<lb ed="#P" n="64" break="no"/>dem speciei / vt dicemus de duobus iudiciis complexis 
+              opposi<lb ed="#P" n="65" break="no"/>tis: et de coloribus colli colunbe. Sed applicando ad 
+              pro<lb ed="#P" n="66" break="no"/>positum de prima fidemea cquisita: mater mea dicit quod 
+      <!--19.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 2vb -->
+               <lb ed="#P" n="67"/>deus est venerandus: cui assentio sine motiuo exteriori alio 
+              <lb ed="#P" n="68"/>a terminis: mater mea est verax: et actus volendi simu 
+              <lb ed="#P" n="69"/>coopatur ad assentiendum illi primo credito. et ita vario modo 
+              <lb ed="#P" n="70"/>in variis producitur assensus primi crediti. Et quod diximus de 
+              <lb ed="#P" n="71"/>opinione probatur vlterius ratione sic. opinio non producitur per 
+              <lb ed="#P" n="72"/>quamcumque apprehensionem teriorum: quia tunc obiectum esset per se 
+              <lb ed="#P" n="73"/>notum: nec sicut iudicium sequens intuitiuam / nec per 
+              demon<lb ed="#P" n="74" break="no"/>strationem: quia tunc esset scientia: et non est processus in infinitum: 
+              <lb ed="#P" n="75"/>ergo est dare primum creditum et opinatum. et illis habitis alia 
+              <lb ed="#P" n="76"/>racile deducuntur. quia si quis credit antecedens alicuius consequene et 
+              cre<lb ed="#P" n="77" break="no"/>dit vel scit consequentiam esse bonam: assentit illi consequenti firmiter. 
+              <lb ed="#P" n="78"/>sicut si quis opinetur aliquod antecedens: et scit vel opinatur consequentiam 
+              <lb ed="#P" n="79"/>esse bonam: opinatur consequens si non aliunde habeat 
+              certitudi<lb ed="#P" n="80" break="no"/>nem illius consequentis.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1151">
+      ⁋ Sed contra istud arguitur. datur primum opina 
+              <lb ed="#P" n="81"/>tum cui intellectus assentit ex apprehesione terminorum: et tamen 
+              <lb ed="#P" n="82"/>non cuilibet opinabili ex tali apprehensione potest assentire: 
+              <lb ed="#P" n="83"/>qui non possum habere opinionem de hac: omnia astra sunt pa 
+              <lb ed="#P" n="84"/>ria / ex sola apprehensione terminorum. ergo eodem modo dabitur 
+              pri<lb ed="#P" n="85" break="no"/>num creditum ex sola apprehensione teriorum et actu volendi: et 
+              <lb ed="#P" n="86"/>tamen non o omnia credibilia taliter credi. Respondetur. dando 
+              pri<lb ed="#P" n="87" break="no"/>mmum fidei productum ex apprehensione teriorum cum actu 
+              vo<lb ed="#P" n="88" break="no"/>luntatis / non est contra dicta: nec sic dicentem scis redargue 
+              <lb ed="#P" n="89"/>re: esto non penitus sit simile de assensu certo a incerto. 
+              <lb ed="#P" n="90"/>potest forte dici quod primus assensus fidei causatur ex 
+              assensi<lb ed="#P" n="91" break="no"/>bus euidentibus: vt assentio euidenter istis: numquam reppe 
+              <lb ed="#P" n="92"/>ri talem concionatorem in mendacio. et sic bonitas istius 
+              <lb ed="#P" n="93"/>ostendit eum non esse mendacem: et dicit quod deus est trinus 
+              <lb ed="#P" n="94"/>et vnus: ergo ita est quod deus est trinus et vnus. sed  
+              <lb ed="#P" n="95"/>alienum apparet quod ex antecedente et consequentia 
+              <lb ed="#P" n="96"/>uidente deducatur assensus aliquis ineuidens. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1188">
+               <lb ed="#P" n="97"/>⁋ Dctauo arguitur. deus se solo potest producere fidem: 
+              <lb ed="#P" n="98"/>vel deus cum argumento topico potest producere fidem: ergo non 
+              <lb ed="#P" n="99"/>requiritur pia affectio ad productionem fidei. Preterea 
+              <lb ed="#P" n="100"/>assensus fidei est productus ante actum volendi: ergo non est eius 
+              <lb ed="#P" n="101"/>tausa. liquat consequentia et antecedens patet: quia est obiectum actus 
+              volunta<lb ed="#P" n="102" break="no"/>tis quo quis vult assentire: modo obiectum praecedit suum actum 
+              <lb ed="#P" n="103"/>qui super ipsum fertur / tempore vel natura: quia voluntas non 
+              <lb ed="#P" n="104"/>ertur nisi super cognitum. nam si velim ego assentire huic  
+              <lb ed="#P" n="105"/>deus est trinus et vnus / prius assentio illi.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1210">
+      ⁋ Ad octauum non 
+              <lb ed="#P" n="106"/>negatur quin deus possit vonducere fidem et lupplere causali 
+              <lb ed="#P" n="107"/>atem pie affectiois vel motiui: sed non pat caulare fidem  
+              <lb ed="#P" n="108"/>se solo. et st eim oem assensum part causare se solo: tamen non 
+              <lb ed="#P" n="109"/>qualitercuque caulare se solo poterit. nam si actus sit in 
+              in<lb ed="#P" n="110" break="no"/>tellectu: dependet ab intellectu quem immutat et partim ab 
+              <lb ed="#P" n="111"/>eo causatur. Ad aliud negatur antecedens de assensu qui est fides 
+              <lb ed="#P" n="112"/>nec oportet obiectumprcedere in esse existentie actum voluntati 
+              <lb ed="#P" n="113"/>in eum latum: etiam non oportet distincte volitum esse distincte 
+              co<lb ed="#P" n="114" break="no"/>gnitum. Et per simile patet quaere interdum habes notitiam refle 
+              <lb ed="#P" n="115"/>xam de notitia tua directa et non anils: et quo modo habes 
+              <lb ed="#P" n="116"/>notitiam abstractiuam de obiecto cuius habes spes et non 
+              <lb ed="#P" n="117"/>de alio. nam si spes eaalitur mouent: videtur necessarium curre 
+              <lb ed="#P" n="118"/>re ad voluntate: et eque difficulter disputabis in vna ma 
+              <lb ed="#P" n="119"/>teria vt in alia. Item voluntas praet velle aliquid complexe: vt 
+              <lb ed="#P" n="120"/>primus angelus appetiuit equalitatem dei: et tamen non habuit 
+              <lb ed="#P" n="121"/>primus angelus iudicium in intellectu ei respondens. sed solum 
+              <lb ed="#P" n="122"/>notitiam teriorum apprehensiuam: vt in secundo dicitur. Vel forte 
+              di<lb ed="#P" n="123" break="no"/>ces quod voluntas concurrit ad generationem fidei sine suo actu 
+              <lb ed="#P" n="124"/>elicito: et sic actus volendi non fertur in incognitum: licet 
+              vo<lb ed="#P" n="125" break="no"/>luntas feratur in aliquid in particulari incognitum. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1256">
+               <lb ed="#P" n="126"/>⁋ Nono arguitur. Infidelis vel hereticus habet 
+              ra<lb ed="#P" n="127" break="no"/>tionem apparentem pro sua heresi licet sit erronea: et cum 
+              <lb ed="#P" n="128"/>oc habet actum volendi sic assentire: ergo in eo producitur 
+              fi<lb ed="#P" n="129" break="no"/>des. Sed bene dicis quod fides est solu de vero a non 
+              ha<lb ed="#P" n="130" break="no"/>bet piam affectionem sed prauam et tortuosam. Contra. 
+              <lb ed="#P" n="131"/>stat piam affectionem esse de falso: vt patet de diuite 
+              si<lb ed="#P" n="132" break="no"/>mulante se esse pauperem. habeo namque motiuum quod ille est 
+      <!--20.xml-->
+      <pb ed="#P" n="3-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pauper: ac volo sic assentire: et illa volitio est bona et 
+              <lb ed="#P" n="2"/>meritoria. Si dicas non esse simile: nec inconueniens ei 
+              <lb ed="#P" n="3"/>aliquem actum voluntatis quo quis falso assentire vult / esse 
+              <lb ed="#P" n="4"/>pium quando est conformis ille actus errori inuincibili. secus est 
+              <lb ed="#P" n="5"/>in casu infidelis vel heretici. Contra hoc argumentor. 
+              <lb ed="#P" n="6"/>saltem hereticus habebit assensum non formidolosum: quod 
+              <lb ed="#P" n="7"/>actus voluntatis eius cum ratione probabili tantum facit ad 
+              firm<lb ed="#P" n="8" break="no"/>ter assentiendum quantum facit actus voluntatis cum arge 
+              <lb ed="#P" n="9"/>mento probabili in christiano. Insuper per hunc modum 
+              pos<lb ed="#P" n="10" break="no"/>sum cuilibet propositioni respectu cuius habeo motiua / 
+              sta<lb ed="#P" n="11" break="no"/>tim assentire illi sine formidine per actum voluntatis. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1304">
+               <lb ed="#P" n="12"/>⁋ Ad nonum inter arguendum sufficienter responsum est ad 
+              <lb ed="#P" n="13"/>calcem vsque. transeat quod firmiter assentiat infidelis suo
+              e<lb ed="#P" n="14" break="no"/>rori: eius tamen error non erit fides: quia est de falso. fides eni 
+              <lb ed="#P" n="15"/>infusa non inclinat in actum eius. Tu quod nullam habeat. Tu 
+              <lb ed="#P" n="16"/>secundo: si haberet ipsam / de potentia dei absolunta non 
+              in<lb ed="#P" n="17" break="no"/>clinaret in assensum falsum. credens autem vere
+              catholi<lb ed="#P" n="18" break="no"/>cus habet motiuum sufficiens: habet fidem infusam et actum 
+              <lb ed="#P" n="19"/>voluntatis: hereticus vo vel infidelis non habet omnia ista. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1324">
+               <lb ed="#P" n="20"/>⁋ Decimo arguitur. sequeretur quod aliquod agens 
+              con<lb ed="#P" n="21" break="no"/>curreret ad corruptionem sui effectus. hoc est incon 
+              <lb ed="#P" n="22"/>ueniens: cum quodlibet agens naturale intendat secundum 
+              <lb ed="#P" n="23"/>extremum sue potentie suum effectum producere et 
+              <lb ed="#P" n="24"/>conseruare / et remouere omnc prohibens. Sequela 
+              <lb ed="#P" n="25"/>probatur. producat argumentum topicum opinionem qua 
+              <lb ed="#P" n="26"/>stante in intellectum readducatur illud argumentum 
+              <lb ed="#P" n="27"/>topicum vel simile cum pia affectione ad idem credi 
+              <lb ed="#P" n="28"/>bile: quia idem est credibile et opinabile: sicut idem est 
+              scibi<lb ed="#P" n="29" break="no"/>le et opinabile / licet fides non sit opinio nec scientia 
+              opi<lb ed="#P" n="30" break="no"/>nio: iam producetur fides. et supponamus 
+              incompossi<lb ed="#P" n="31" break="no"/>bilitatem illorum actuum inter se de quibus postea 
+              lo<lb ed="#P" n="32" break="no"/>quemur: iam sequitur illatum.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1356">
+      ⁋ Respodetur. illatum non est 
+              <lb ed="#P" n="33"/>inconueniens quando est incompossibilitas effectuum. hoc enim 
+              <lb ed="#P" n="34"/>facit natura que facit de possibilibus id quod melius est. 
+              <lb ed="#P" n="35"/>et quia perfectior effectus est fides quam opinio / iam 
+              corrun<lb ed="#P" n="36" break="no"/>pit vnum effectum vt producat alium perfectiorem 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1367">
+               <lb ed="#P" n="37"/>⁋ Undecimo arguitur. Sequeretur quod primus actus 
+              <lb ed="#P" n="38"/>fidei esset meritorius: hoc autem est fallum: quia fides est 
+              <lb ed="#P" n="39"/>prima virtutum theologalium / et eius actus ostendit
+              obie<lb ed="#P" n="40" break="no"/>ctum diligendum secundum Magistrum. xx. iii. di. iii. Et glosa in 
+              <lb ed="#P" n="41"/>illud Matth. i. Abraham genuit Isaac. dicit. i. fides 
+              <lb ed="#P" n="42"/>speci. et <name xml:id="jm12w4-e11756-Nd1e1382" ref="#Ambrose">Ambrosius</name> super id Luce. xvii. Si habueriti fidi 
+              <lb ed="#P" n="43"/>sicut granum sinapis etc. inquit. ex fide est charitas / et ex 
+              <lb ed="#P" n="44"/>charitate spres. Et quod sequatur patet: quia imperatur ab vno 
+              <lb ed="#P" n="45"/>actu voluntatis: ergo fides est actus meritorius taquae imperatus. 
+              <lb ed="#P" n="46"/>Dicis. non est dictamen prudentiale in intellectum: et hoc 
+              requi<lb ed="#P" n="47" break="no"/>ritur ad hoc vt actus intellectus sit meritorius. Contra hoc ar 
+              <lb ed="#P" n="48"/>gumentor. quis praet habere iudicium opinatiuum quod sufficit 
+              <lb ed="#P" n="49"/>igitur dicitur non inconuenire primum actum fidei esse 
+              merito<lb ed="#P" n="50" break="no"/>rium: nec prius requiritur fides propse dicta: sed sufficit quod inte 
+              <lb ed="#P" n="51"/>lectus oespendat per alid iudicium voluntati quod est conforme rationi 
+              <lb ed="#P" n="52"/>quod voluntas vult. sed de hoc in. iii. vbi locum suum habet. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1407">
+               <lb ed="#P" n="53"/>⁋ Duodecimo arguitur. Ex isto sequitur quod omnes articui 
+              <lb ed="#P" n="54"/>fidei nostre praesent credi ab aliquo ex puris naturalibus. 
+              <lb ed="#P" n="55"/>Distinguitur. vel quod aliquis nunc ex puris naturalibus 
+              in<lb ed="#P" n="56" break="no"/>uestigatiue possit deuenire ad certam cognitionem
+              cred<lb ed="#P" n="57" break="no"/>bilium: vel per rationes sumptas ex propriis illarum rerum de quaib 
+              <lb ed="#P" n="58"/>est fides: et sic negatur. nam ad hebreos. xi. dicit 
+              Aplu<lb ed="#P" n="59" break="no"/>Est autem fides sperandarum substantia rerum argumentum non 
+              ap<lb ed="#P" n="60" break="no"/>parentium. illa enim quaum est fides non praeset conuinci euidenti 
+              <lb ed="#P" n="61"/>rationis. Vel quod aliquis existens in puris naturalibsus praecise 
+              <lb ed="#P" n="62"/>innitens lumini et rationi naturali quantum in se est / per alios 
+              <lb ed="#P" n="63"/>fideles induci possit sufficient congruis apparentiis et 
+              mo<lb ed="#P" n="64" break="no"/>tiuis ad assentiendum sine formidie / sicut ecclesia credit: et 
+              <lb ed="#P" n="65"/>consequenter ad credendos omnes articulos: et sic conceditur 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1438">
+               <lb ed="#P" n="66"/>⁋ Decimotertio arguitur. Sequeretur quod quicunque poneret se 
+      <!--20.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 3rb -->
+               <lb ed="#P" n="67"/>ad legendum in biblia habens rationem solum topicam vel 
+              opinio<lb ed="#P" n="68" break="no"/>nem sine pia affectione / esset hereticus: quia habebit solum
+              opi<lb ed="#P" n="69" break="no"/>nionem sine pia affectione. modo extra de haereticis. c.
+              Di<lb ed="#P" n="70" break="no"/>bius. dicitur quod dubius in fide infidelis est. debet autem firmiter  
+              <lb ed="#P" n="71"/>credere: de summa trinitate et fide catholi. c i. alioquin 
+              <lb ed="#P" n="72"/>saluus esse non potest. psalmo Quicumque vult saluus esse. et 
+              <lb ed="#P" n="73"/>hoc patet. xxiiii. q. i. c. Aperte. Negatur sequela: quia ille
+              dubi<lb ed="#P" n="74" break="no"/>tat qua circa aliquid actu considerat: et nec assentit nec 
+              dissen<lb ed="#P" n="75" break="no"/>tit. qui o opinatur assentit. et stat virum habere opinionem 
+              <lb ed="#P" n="76"/>circa propositionem fidei sine peccato: quia sufficit pia affectio at 
+              <lb ed="#P" n="77"/>posita pro loco e tempore. Vel sic. pia affectio in vniuersali 
+              <lb ed="#P" n="78"/>cum motiuo in speciali sufficit ad productionem fidei. absit 
+              <lb ed="#P" n="79"/>enim quod quilibet cui rationes sophistice surrepunt
+              contramate<lb ed="#P" n="80" break="no"/>riam fidei / paratus credere a illas muscas abigere / esset 
+              <lb ed="#P" n="81"/>hereticus. Docti autem circa multa quae legunt in biblia habent 
+              ha<lb ed="#P" n="82" break="no"/>pitum fidei cquisitum: qui se solo producit fidem actum sine moti 
+              <lb ed="#P" n="83"/>uo.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1486">
+      ⁋ Decimoquarto arguitur. ponatur quod Titius 
+              ha<lb ed="#P" n="84" break="no"/>buerit habitum assentiendi huic: Thare habuit tres 
+              fi<lb ed="#P" n="85" break="no"/>lios: ille habitus inclinat ad actum credendi sine pia
+              affe<lb ed="#P" n="86" break="no"/>ctione: igitur. Respondetur. primo hoc non inconuenit de actu 
+              <lb ed="#P" n="87"/>producto ab habitu cquisito. secundo mediate producitur a 
+              <lb ed="#P" n="88"/>pia affectione quae concurrebat ad productionem actuum: 
+              <lb ed="#P" n="89"/>qui illum habitum produxerunt.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1502">
+               <lb ed="#P" n="90"/>Ubitatur. an fides infusa inclinat in primum 
+              <lb ed="#P" n="91"/>actum credendi. Secundo dubitatur: an fides 
+              in<lb ed="#P" n="92" break="no"/>fusa se sola concurrat ad productionem fidei. 
+              <lb ed="#P" n="93"/>Tertio. an articuli fideisint contra rationem 
+              <lb ed="#P" n="94"/>naturalem. Quarto dubitatur: quare plures docti sint 
+              <lb ed="#P" n="95"/>heretici quam simplices.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1519">
+      ⁋ Ad primum <ref xml:id="jm12w4-e11756-Rd1e1521">dicunt aliqui <!-- ockham --></ref> quod non 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1526">
+               <lb ed="#P" n="96"/>⁋ Contra quos arguitur sic. Charitas inclinat in primum actum si 
+              <lb ed="#P" n="97"/>meritorium: quia ad omnem inclinat: ergo fides inclinat in 
+              <lb ed="#P" n="98"/>omnem actum credendi: consequentia tenet conuenienti similitudine. 
+              <lb ed="#P" n="99"/>Secundo arguitur ad idem / motiuum et pia affectio producunt 
+              <lb ed="#P" n="100"/>primum actum fidei: immo ven te sola voluntas: et fides 
+              infu<lb ed="#P" n="101" break="no"/>sa est praesens: et est agens naturale nihil impedimenti habens: quo 
+              <lb ed="#P" n="102"/>concurrit: non enim est maior ratio quod post hoc concurrat quam nunc. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1544">
+               <lb ed="#P" n="103"/>⁋ Ad secundum dubium dicitur quod fides infusa sine motiuo non 
+              <lb ed="#P" n="104"/>sufficit ad productionem fidei. non etiam secludimus deum / 
+              in<lb ed="#P" n="105" break="no"/>tellectum et apprehensionem terminorum. Contra hoc 
+              argui<lb ed="#P" n="106" break="no"/>tur. habitus fidei cquisite producit actum credendi: quia et 
+              <lb ed="#P" n="107"/>tali vel talibus emanauit: ergo fides infusa habitus. con 
+              <lb ed="#P" n="108"/>sequentia tenet: quia secunda est priore perfectior: ergo 
+              acti<lb ed="#P" n="109" break="no"/>uior. Non valet dicere quod infunditur a deo: quia si deus 
+              in<lb ed="#P" n="110" break="no"/>funderet habitum eiusdem speciei cum fide cquisita: ille 
+              hali<lb ed="#P" n="111" break="no"/>tus cum potentia produceret actum: et nunc fides infusa est 
+              <lb ed="#P" n="112"/>perfectior: igitur. Ad has rationes responsum in. iiii d. iiii q. i. 
+              <lb ed="#P" n="113"/>Ad tertiam dubitationem dicit <name xml:id="jm12w4-e11756-Nd1e1570" ref="#Holcot">quidam doctor</name> quod sic. Sed contr 
+              <lb ed="#P" n="114"/>hoc arguitur. omnis roio vere naturalis procedit ex praencipiis 
+              <lb ed="#P" n="115"/>veris notis in lumine naturali ad conclusiones veras. 
+              <lb ed="#P" n="116"/>sed nulla ratio vel suasio contraria alicui articulo fidei 
+              <lb ed="#P" n="117"/>vel pluribus est huiusmodi vt palam est: igitur. maior probatur: quod 
+              <lb ed="#P" n="118"/>ad hoc vt aliqua ratio sit naturalic non sufficit quod innital 
+              <lb ed="#P" n="119"/>existimato vero in lumine naturali: sed vero certo in 
+              <lb ed="#P" n="120"/>eodem lumine. nulla enim ratio sophistica per quam erronec 
+              <lb ed="#P" n="121"/>mouetur homo ad assentiendum falso / dici debet vere ratio 
+              na<lb ed="#P" n="122" break="no"/>turalis: vt non est rationaturalis ad probandum baculum igni 
+              <lb ed="#P" n="123"/>tum circulariter motum facere circulum ignitum. Item ratio na 
+              <lb ed="#P" n="124"/>turalis conuincit intellectum ad assentiendum concluso per rationem: 
+              <lb ed="#P" n="125"/>quod non contingit de oppositi articulorum fidei. igitur. Sed di 
+              <lb ed="#P" n="126"/>ces. dicere vnam rem esse tres res a nullam illarum esse aliam 
+              <lb ed="#P" n="127"/>est contra sensum omnium sapientum in philosophia. hoc est faelum: 
+              <lb ed="#P" n="128"/>siqui autem existimauerunt illam falsam / erronee iudicarunt:  
+              <lb ed="#P" n="129"/>et non in hoc recte philosophati sunt. multi autem articuli 
+              <lb ed="#P" n="130"/>fidei primo obtuitum videntur philosopho contra rationem 
+              <lb ed="#P" n="131"/>naturale: sed non sunt. verum ipse sollicitius inquirens et 
+              fa<lb ed="#P" n="132" break="no"/>ciens quod in se est iueniet veritatem. et quia multi phuospho 
+      <!--21.xml-->
+      <pb ed="#P" n="3-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1" break="no"/>rum id non fecerunt: in talibus excecatum est insipiens 
+              <lb ed="#P" n="2"/>cor eorum. ad Romanos primo et secundo.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1626">
+      ⁋ Ad quartan 
+              <lb ed="#P" n="3"/>dubitationem negatur prsuppositum. plures enim heretici 
+              <lb ed="#P" n="4"/>sunt indocti quam docti: quod patet de omnibus his de quibus 
+              audiui<lb ed="#P" n="5" break="no"/>mus in diebus nostris in quocunque regno: non 
+              plu<lb ed="#P" n="6" break="no"/>res simpliciter: sed plures comparando multitudine 
+              in<lb ed="#P" n="7" break="no"/>doctorum ad doctos. Sed quia vnius docti viri heresis plu 
+              <lb ed="#P" n="8"/>res inficit: et vestigia maiora post se relinquit: alterius 
+              <lb ed="#P" n="9"/>infamia cum eo pessum it: et sic putantur plures docti 
+              <lb ed="#P" n="10"/>heretici. Secundo dicitur esto quod ita foret sicut imaginatur 
+              <lb ed="#P" n="11"/>dubitatio: hoc est proptere a quia qui nihil scit nihil
+              de<lb ed="#P" n="12" break="no"/>bitat. alter autem multa legit: et per consequens plura
+              dubitabi<lb ed="#P" n="13" break="no"/>lia ei occurrunt. Sed si se religiose regat in materia fi 
+              <lb ed="#P" n="14"/>dei: et se contineat in pelle sua: nihil inueniet in lege quod 
+              <lb ed="#P" n="15"/>eum a fide diuertere possit. Sed quicquid sit / opus est 
+              <lb ed="#P" n="16"/>exercitatione in studio: vt ignaros illustrent docti: alio 
+              <lb ed="#P" n="17"/>quin sine norma viuendi omnia confunderentur.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1661">
+      ⁋ Sed
+              du<lb ed="#P" n="18" break="no"/>bitas quanto: an quis possit habere primum actu fidei sine 
+              <lb ed="#P" n="19"/>concursu fidei infuse. Ad hoc dicitur quod de lege non est 
+              <lb ed="#P" n="20"/>verisimile quod quis habeat primum actum credendi sine 
+              con<lb ed="#P" n="21" break="no"/>cursu fidei ifuse. si enim vult assentire et facere quod in s 
+              <lb ed="#P" n="22"/>est ad credendum: iam deus infundit fidem infusam: qua 
+              <lb ed="#P" n="23"/>suum concursum habet respectu primi actus 
+              creden<lb ed="#P" n="24" break="no"/>di.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1679">
+      ⁋ Sexto dubitatur circa hanc materiam: quod sit
+              obie<lb ed="#P" n="25" break="no"/>ctum fidei. Respondetur. licet multi soleant facere 
+              <lb ed="#P" n="26"/>difficultatem an res ad extra sit obiectu fidei an con 
+              <lb ed="#P" n="27"/>plexum significabile: tamen dicitur quod res ad extra est
+              obie<lb ed="#P" n="28" break="no"/>ctum: que quidem res significat per extrema 
+              propositio<lb ed="#P" n="29" break="no"/>nis credibilis: vt hoc complexum / deus est trinus et vnus 
+              <lb ed="#P" n="30"/>et eius extrema sunt obiectum fidei: quae de illa 
+              proposi<lb ed="#P" n="31" break="no"/>tione habetur. probatur sic: obiectum fidei nihil aliud est 
+              <lb ed="#P" n="32"/>nisi illud ad quod terminatur assensus fidei. vocatur enim 
+              <lb ed="#P" n="33"/>obiectum fidei: qui circa ipsum fides obiicitur. modo actus 
+              <lb ed="#P" n="34"/>credendi fertur in complexum et in partes eius / et in 
+              <lb ed="#P" n="35"/>rem significantam per partes. Eedem autem difficultates 
+              <lb ed="#P" n="36"/>possunt hic fieri que solent tractari de obiecio scientie 
+              <lb ed="#P" n="37"/>et consimiliter solui: vt inferius in hoc prologo patebit 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1711">
+               <lb ed="#P" n="38"/>⁋ Sed contra ista arguitur. Ex isto sequitur quod fides 
+              <lb ed="#P" n="39"/>potest esse de falso: cum propositio contingens enuncians 
+              <lb ed="#P" n="40"/>aliquod de futuro possit falsificari. et patet de istis / christs 
+              <lb ed="#P" n="41"/>incarnabitur: christs morietur: sed hoc est inconueniens 
+              <lb ed="#P" n="42"/>igitur. Preterea fides inclinaret ad falsum: puta ad 
+              <lb ed="#P" n="43"/>assentiendum huic / corpus christi continetur sub istis 
+              spe<lb ed="#P" n="44" break="no"/>ciebus: quia stat quod sacerdos sit malus et non fecerit quioa 
+              <lb ed="#P" n="45"/>in se est: vel quod panis non sit triticeus: et per conseques 
+              <lb ed="#P" n="46"/>ille assensus erit de falso.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1733">
+      ⁋ Ad primum respondeo per 
+              <lb ed="#P" n="47"/>propositiones. Prima est. Fides potest esse de falso.
+              Se<lb ed="#P" n="48" break="no"/>cunda propositio. Non est possibile fidem esse de falso. 
+              <lb ed="#P" n="49"/>Tertia propositio. Non potest aliquis assensus esse fi 
+              <lb ed="#P" n="50"/>dei de falso. patet per suam de inesse.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1744">
+      Ad secundum nego quod 
+              <lb ed="#P" n="51"/>teneor assentire huic assensu fidei / corpus christi 
+              con<lb ed="#P" n="52" break="no"/>tinetur sub hac hostia: quia assentio certitudine 
+              mo<lb ed="#P" n="53" break="no"/>rali illi que frequenter copatitur errorem. assentio autem 
+              <lb ed="#P" n="54"/>huic assensu fidei: si iste fuerit praesbyter: et fecerit quod in 
+              <lb ed="#P" n="55"/>se est cum conditionibus requisitis ad consecrationem: illic est 
+              <lb ed="#P" n="56"/>corpus christi.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1760">
+      ⁋ Secundo arguitur. ecclesia potest iudicare diuo: 
+              <lb ed="#P" n="57"/>tium inter aliquas personas in matrimonio: et in hoc 
+              de<lb ed="#P" n="58" break="no"/>cipi: et ego teneor assentire quod ecclia recte iudicat. Idem. 
+              <lb ed="#P" n="59"/>patet de canonizatione sanctorum. Respondetur. ecclia potes 
+              <lb ed="#P" n="60"/>errare in via facti: et bene iudicat: sed vniuersalis 
+              ec<lb ed="#P" n="61" break="no"/>clesia non potest errare in via morum. non capio ecciesiam pro 
+              <lb ed="#P" n="62"/>vno particulari plato: quia ille vtroque modo errare prat. non 
+              <lb ed="#P" n="63"/>ei teneor assentire huic assensu fidei / hec est vxor eius ve 
+              <lb ed="#P" n="64"/>suo opposito / magis post diuortium quam ante. Quod tangitu 
+              <lb ed="#P" n="65"/>de canonizatione sanctorum / non ita facile admittitur. Teneo 
+              <lb ed="#P" n="66"/>partem illam probabilem quod potifex in hoc errare nequit: dumen 
+      <!--21.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 3vb -->
+               <lb ed="#P" n="67"/>legitime procedat: hoc est faciat illa quae decent potestificem. 
+              <lb ed="#P" n="68"/>hoc est quarat super miraculis per canoni: adum factis et sui 
+              <lb ed="#P" n="69"/>bonitate vite. Primum enim non sufficit: vt liquet de 
+              reli<lb ed="#P" n="70" break="no"/>quiis et veneratione sanctorum. ca. i. na miracula quandoquam fiunt 
+              <lb ed="#P" n="71"/>per malos: vt patet. i. q. i. cap. Teneamus. Secundum est quod fiat 
+              <lb ed="#P" n="72"/>magna indago de bonitate vite quod est potissimum) 
+              ex<lb ed="#P" n="73" break="no"/>aminando testes seorsum more Danielis de senibns 
+              <lb ed="#P" n="74"/>accusantibus Susanma. Danielis. xiii. et issud patet extra 
+              <lb ed="#P" n="75"/>de testi. et attesta. ca. VUenerabilis. et hoc quadrat 
+              iu<lb ed="#P" n="76" break="no"/>ri cesareo. de testi. E. l. nullum. Istis suppositis deus non 
+              <lb ed="#P" n="77"/>permittit potestificem iudicantem potestificaliter aberrare. 
+              <lb ed="#P" n="78"/>hinc Cayphas dicebat verum inscius. dicens JIo. xi. 
+              <lb ed="#P" n="79"/>Vos nescitis quicquam nec cogitatis / quia expedit vobis 
+              <lb ed="#P" n="80"/>vt vnus moriatur homo pro populo: vt non tota gens 
+              <lb ed="#P" n="81"/>pereat. Et subdit euagelista. hoc autem a semetipo non 
+              <lb ed="#P" n="82"/>dixit: sed cum esset potestifex anni illius / prophetauit quod Ies 
+              <lb ed="#P" n="83"/>moriturus erat pro gente. Alique autem canonisare nihil 
+              <lb ed="#P" n="84"/>alid est quam eum adscribere catalogo sanctorum / ordinando ei 
+              <lb ed="#P" n="85"/>festum solenne ab ecclesia secundum coditionem sancti: vt pu 
+              <lb ed="#P" n="86"/>ta si fuerit martyr fiet seruitium de martyre: sacerdos 
+              <lb ed="#P" n="87"/>poestifex vel non potestifex / nat proportio abiliter.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1836">
+      ⁋ Sed  
+              <lb ed="#P" n="88"/>contra istud arguitur. sola miracula non sufficiunt: vt 
+              pate<lb ed="#P" n="89" break="no"/>de reliquiis et vene. sanctorum capitulo primo: nec solum testimo 
+              <lb ed="#P" n="90"/>nium: quia testes possunt corrumpi: ergo illa duo non 
+              suffi<lb ed="#P" n="91" break="no"/>ciunt: non enim est maior certitudo in tota copulatiua quam in 
+              <lb ed="#P" n="92"/>qualibet parte eius. Et confirmatur. non repugnat vitat 
+              <lb ed="#P" n="93"/>fidei habere iudicium quod aliquis est sanctus qui non est 
+              ta<lb ed="#P" n="94" break="no"/>lis. Probat quia sine peccato iudico hypocritam bonum: et 
+              <lb ed="#P" n="95"/>corpus christi esse sub spebus panis quod non est. et tamen non pecco 
+              <lb ed="#P" n="96"/>sic assentiendo qualitercumque illa gerundia exponantur 
+              <lb ed="#P" n="97"/>per dum / si / vel quia: ergo stat hominem salua integritate 
+              <lb ed="#P" n="98"/>fidei iudicare aliquem sanctum qui non est.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1862">
+      ⁋ Ad primum 
+              <lb ed="#P" n="99"/>respondetur concedendo antecedens: quia nulla illarum causarum est 
+              <lb ed="#P" n="100"/>causa sufficiens: sed ille due simul iuncte. sicut maior 
+              <lb ed="#P" n="101"/>non infert conclusione neque mior: sed primisse simul sumpte. 
+              <lb ed="#P" n="102"/>si enim non singula concludat: oia taen simul sumpta iuuant. 
+              <lb ed="#P" n="103"/>Ad confirmationem conceditur quod illo dato quod iudicem aliquem 
+              <lb ed="#P" n="104"/>esse sanctum qui non est: per illud iudicium ego non 
+              deme<lb ed="#P" n="105" break="no"/>rerer: nec per volitionem qua vellensic iudicare. sed pie 
+              <lb ed="#P" n="106"/>credendum est quod deus non permittit errorem post 
+              sen<lb ed="#P" n="107" break="no"/>tentiam potificalem. Non est idem de corre christi cotento 
+              <lb ed="#P" n="108"/>sub spectebus pauis vel vini: cum in vno ft solus 
+              sacer<lb ed="#P" n="109" break="no"/>dos qui potest multifariam illudi et illudere: in alio 
+              <lb ed="#P" n="110"/>autem est solers indsitio testium a miraculorum de 
+              conformita<lb ed="#P" n="111" break="no"/>te vite: et preces ad hoc domino effuse: ne in hoc rmittat 
+              <lb ed="#P" n="112"/>cclesiam illudi: secundum illud Joannis. xiiii. Paracletus autem 
+              <lb ed="#P" n="113"/>spiritus sctus quem mittet pater in omnie meo ille vos 
+              <lb ed="#P" n="114"/>docebit omnia: et suggeret vobis omnia quaecuque dixero 
+              vo<lb ed="#P" n="115" break="no"/>bis. Innumere enim absurditates sequerentur ad 
+              opposi<lb ed="#P" n="116" break="no"/>tum voc quod nos haberemus dubitare de magnis et 
+              mul<lb ed="#P" n="117" break="no"/>tis sanctis quos colimus an essent scti: et sic diminuere 
+              <lb ed="#P" n="118"/>tur deuotio erga tales sanctons: et in ruinam templorum et in 
+              <lb ed="#P" n="119"/>destructionem cultus diuini. De multorum autem sanctorum 
+              mem<lb ed="#P" n="120" break="no"/>bris vel ossibus non habemus tantum certitudinis: sed in his 
+              <lb ed="#P" n="121"/>sufficit credere multitudini loquentium vel iis qui norut. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1915">
+               <lb ed="#P" n="122"/>⁋ Secundo arguitur contra idem per illud vulgare. Multorum 
+              <lb ed="#P" n="123"/>corpa venerantur in terris quorum anime sepeliuntur in iferno. 
+              <lb ed="#P" n="124"/>rgo non incouenit alique coli prosancto: et eum esse damnatum 
+              <lb ed="#P" n="125"/>ss espondetur. me querente illam auctoritatem quam 
+              <lb ed="#P" n="126"/>aliqui beato <name xml:id="jm12w4-e11756-Nd1e1928" ref="#Augustine">Augustino</name> tribuunt: aliqui bato Oregorio: 
+              <lb ed="#P" n="127"/>nondum eius radix apparuit: sed quato lollicitius 
+              explora<lb ed="#P" n="128" break="no"/>uerim tanto remotius aufugit. veruntum si in aliquae inueniatur 
+              in<lb ed="#P" n="129" break="no"/>telligatur de non canonizatis: in talibus enim interdum 
+              dece<lb ed="#P" n="130" break="no"/>ptiouem fieri contingit: vt patet in vita sancti Martini.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1940">
+      ⁋ Sed  
+              <lb ed="#P" n="131"/>dubitatur septimo. an liceat aliquem publice venerari vt 
+              <lb ed="#P" n="132"/>sanctantum: quie non est canonizatus ab ecclia. et rotio dobitationis 
+      <!--22.xml-->
+      <pb ed="#P" n="4-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est. nam romanus potestifex illud prohibet de reli. et vene. 
+              <lb ed="#P" n="2"/>sanctorum capitu. primo inquiens. Illum ergo non presu 
+              <lb ed="#P" n="3"/>matis de cetero colere. etiam si per illum miracula
+              fie<lb ed="#P" n="4" break="no"/>rent: non liceret ipsum pro sancto absque auctoritate re 
+              <lb ed="#P" n="5"/>mane ecclesie venerari. In oppositum est consuetudo 
+              <lb ed="#P" n="6"/>multorum: qui aliquos publice colunt nondum 
+              canoniza<lb ed="#P" n="7" break="no"/>tos. Respondetur ad dubitationem per propositiones sequentes. 
+              <lb ed="#P" n="8"/>Prima est. Cicitum est aliquem non canonizatum priuate 
+              <lb ed="#P" n="9"/>rogare: vt pro se intercedat. patet: quia iste iudicat talem 
+              <lb ed="#P" n="10"/>sctantum. et ad hoc est argumentum. xxxii. di o. verum. xv. q. vltima. ca. 
+              <lb ed="#P" n="11"/>finali. nec aliquid aliud obstat. non prohibitio pontificis: 
+              <lb ed="#P" n="12"/>qui illa intelligitur de solemni adoratioe.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e1979">
+      ⁋ Secunda proposi 
+              <lb ed="#P" n="13"/>tio. LCicet aliquem non canonigatum ab ecclia 
+              formali<lb ed="#P" n="14" break="no"/>ter publice venerari pro sacto. Nam dato opposito 
+              ple<lb ed="#P" n="15" break="no"/>rosque damnabis in multis regionibus varios sanctons 
+              colen<lb ed="#P" n="16" break="no"/>tes. vtputa nostrates beatum Ninianum Mritamnorum 
+              re<lb ed="#P" n="17" break="no"/>gis filium colentes publice: et in aliis regionibus illud  
+              <lb ed="#P" n="18"/>idem comperies. Preterea probatur quod illud licet: quia 
+              inu<lb ed="#P" n="19" break="no"/>mera miracula per illum fiunt: et dum spiritus suos rege 
+              <lb ed="#P" n="20"/>ret artus de bonitate vite non dubitabatur / sed vite 
+              <lb ed="#P" n="21"/>sanctimonia et miraculis claruit. In talibus namque 
+              ec<lb ed="#P" n="22" break="no"/>culia tacite consentit: cum istud in multos annos protractum 
+              <lb ed="#P" n="23"/>sit: et lufficit quod ecclia regionis hoc recipiat: dato quod 
+              <lb ed="#P" n="24"/>potestifici romano non constiterit. Ulterius canonizatio 
+              <lb ed="#P" n="25"/>lanctorum nihil aliud est quam declaratio sanctimonie ali 
+              <lb ed="#P" n="26"/>cuius. modo aliqui sunt sancti de quorum sanctimonia non 
+              <lb ed="#P" n="27"/>dubitatur. populus enim vel ex incuria / vel nolens addere fa 
+              <lb ed="#P" n="28"/>cem soli: non petiit canonizatione. ergo tales licet colere / et 
+              <lb ed="#P" n="29"/>vtualiter sunt canonizati.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2018">
+      ⁋ Tertia propositio. Nemo 
+              de<lb ed="#P" n="30" break="no"/>bet aliquem colere publice pro sancto de quo est dubiu vel 
+              <lb ed="#P" n="31"/>esse debet / an sit sanctus. hoc patet per primum ca. rubrice
+              su<lb ed="#P" n="32" break="no"/>perius allegate: et per illud quod cotingit in diebus 
+              bea<lb ed="#P" n="33" break="no"/>ti Martini. Nec oportet dicere etiam primo colentes 
+              <lb ed="#P" n="34"/>sanctons istos celeberrimos peccasse: quia enim eorum 
+              <lb ed="#P" n="35"/>vite sanctimonia ipsis viuentibus erat super ethera no 
+              <lb ed="#P" n="36"/>ta: tandem ipsis viam vniuerse carnis 
+              ingredienti<lb ed="#P" n="37" break="no"/>bus / testimonium suffici ens erat 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2038">
+               <lb ed="#P" n="38"/>⁋ Dubitatur octauo: quid debeat facere infidelis 
+              ve<lb ed="#P" n="39" break="no"/>niens coram duobus oppositis puta coram Moyse et Aare 
+              <lb ed="#P" n="40"/>ex vna parte / et magi Pharaonis ex altera parte: cui scilicet 
+              <lb ed="#P" n="41"/>parti debeat credere. Dices. ipsis rationabilitur certantibus 
+              <lb ed="#P" n="42"/>suspendere debet iudicium credendi: et interim rogare deum e 
+              <lb ed="#P" n="43"/>facere quod in se est / et ipe non derelinquat eum in necessariis 
+              <lb ed="#P" n="44"/>ad salutem. Sicut enim materia disposita per quaelitatiuas 
+              <lb ed="#P" n="45"/>dispositiones introducit formam substantialem interdum ipsam 
+              <lb ed="#P" n="46"/>creando: non numquam tamen eam cum secunda causando: sic deus horto 
+              <lb ed="#P" n="47"/>anime rigato: fidem et cetera id genus necessaria ad salutem 
+              <lb ed="#P" n="48"/>lupintundet.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2064">
+      ⁋ Dubitatur nono. an tam paruus actus
+              volun<lb ed="#P" n="49" break="no"/>tatis sufficiat ad causandum assensum istius: deus est 
+              tri<lb ed="#P" n="50" break="no"/>nus et vnus quam istius deus est.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2072">
+      ⁋ Dubitatur decimo: an 
+              <lb ed="#P" n="51"/>fides infundatur sine charitate.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2077">
+      ⁋ Undecimo. an 
+              fi<lb ed="#P" n="52" break="no"/>des intendatur sicut charitas: et similiter an remittatur. 
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2082">
+               <lb ed="#P" n="53"/>⁋ Ad primum dicitur forte quod non / sed datur maximus actus 
+              <lb ed="#P" n="54"/>voluntatis: qui non sufficit cu hoc motiuo. Vel datur
+              mini<lb ed="#P" n="55" break="no"/>mus actus voluntatis: qui cum eodem motiuo sufficit: et quia ille 
+              <lb ed="#P" n="56"/>actus voluntatis est liber / sicut actus remissus est liber / ita 
+              <lb ed="#P" n="57"/>liberum est credere deum esse trinum in pionis / et vnum in 
+              <lb ed="#P" n="58"/>essentia sicut credere deum esse. Et ita de incarnatione et 
+              <lb ed="#P" n="59"/>de existentia corpis christi in eucharistia dicatur respectu 
+              <lb ed="#P" n="60"/>istius / deus est. Et quia illa sunt de altissimis credibilibus: 
+              <lb ed="#P" n="61"/>nullum credibile dabitur quin motiuum habeatur sufficiens cum 
+              <lb ed="#P" n="62"/>actu spotestaneo voluntatis. Plus enim de motiuo min 
+              <lb ed="#P" n="63"/>coexigit de actu voluntatis ad credendum: nec erit asse 
+              <lb ed="#P" n="64"/>sus in rationibus topicis vel in solis actibus voluntatis: quo 
+              <lb ed="#P" n="65"/>se solo fidem producere sufficiant.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2113">
+      ⁋ Ad decimum dicitur quod 
+              <lb ed="#P" n="66"/>sic: quod patet de adulto baptizato in mortali cui fides 
+      <!--22.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 4rb -->
+               <lb ed="#P" n="67"/>infunditur: et forte spes. Quod probatur: quia dato quod in bono 
+              <lb ed="#P" n="68"/>simul infundantur: propter mortale charitas tollitur aliis 
+              <lb ed="#P" n="69"/>duabus stantibus: ergo eodem modo fuit in prima infusione. 
+              fi<lb ed="#P" n="70" break="no"/>des enim et spes perheresim pertinacem et desperationem 
+              tollun<lb ed="#P" n="71" break="no"/>tur: licet charitas connectatur aliis duabus et sine eis non 
+              <lb ed="#P" n="72"/>habeatur: bene tamen contra.
+            </p>
+            <p xml:id="jm12w4-e11756-d1e2137">
+      ⁋ Ad vndecimum respondetur. de 
+              fi<lb ed="#P" n="73" break="no"/>de cquisita non est dubium quin illa intendatur et remittatur 
+              <lb ed="#P" n="74"/>tam quo ad actum quam quo ad habitum. sed intedimus loqui 
+              <lb ed="#P" n="75"/>de infusa: et dicitur quod illa intenditur de lege. patet: quia dixit dominus 
+              <lb ed="#P" n="76"/>petro. Mattrei. xiini. Modice fidei quire 
+              dubistasti<lb ed="#P" n="77" break="no"/>et mulieri Chananee. Matthei. xv. Mulier 
+              magna<lb ed="#P" n="78" break="no"/>est fides tua. ergo aliqua fides est maior alia. Idem patet 
+              <lb ed="#P" n="79"/>Matthei. viii. de Centurione. de cuius fide dixit Christus. 
+              <lb ed="#P" n="80"/>non inueni tantam fidem in isrtur. Sed dices. he auctoritates 
+              <lb ed="#P" n="81"/>intelliguntur de fide cquisita et non infusa. Arguitur. charitas 
+              <lb ed="#P" n="82"/>augetur quae facilitatei vt ita dicam / ad actum meritorium vt 
+              po<lb ed="#P" n="83" break="no"/>stea distinctione. xvii. notum euadet. sed fides infusa 
+              in<lb ed="#P" n="84" break="no"/>clinat in actum credendi: et est anime ornamentum. ergo
+              proportio<lb ed="#P" n="85" break="no"/>nabiliter debet augeri: dignificanda est enim natura vbi non 
+              <lb ed="#P" n="86"/>constat de opposito. ergo nec concursus nec intensio est 
+              ne<lb ed="#P" n="87" break="no"/>ganda a fide infusa: cum intensior plus concurrat quam remissior 
+              <lb ed="#P" n="88"/>augetur autem fides per solos actus credendi siue informes 
+              <lb ed="#P" n="89"/>siue non: sicut charitas infusa p omnem actum merito. ium 
+              <lb ed="#P" n="90"/>sed (vt opinor) deus tollit fidem et spece infusas a 
+              decedem<lb ed="#P" n="91" break="no"/>te in mortali peccato. si enim manent per instans vel tempus 
+              <lb ed="#P" n="92"/>in damnato: semper in illo manerent: quod non videtur dicendum. 
+              <lb ed="#P" n="93"/>SDesperans autem redit conuersus ad maiorem fidem quam antea / 
+              <lb ed="#P" n="94"/>sicut resurgens resurgit ad maiorem gratiam solito. 
+              Fi<lb ed="#P" n="95" break="no"/>des sao infusa non remittitur de lege. bene tamen est 
+              remis<lb ed="#P" n="96" break="no"/>sibilis: quia si remitteretur / hoc esset per heresim pertinacem vel 
+              <lb ed="#P" n="97"/>aliud crimem impetinens fidei. Secundum non est dicendum: quia tunc 
+              <lb ed="#P" n="98"/>fides infusa remitteretur ad non gradum inclusiue sine 
+              <lb ed="#P" n="99"/>despatione. nec primum: quia heresis pertinax totam fidem 
+              in<lb ed="#P" n="100" break="no"/>fulam quantumcumque intensa fuerit tollitu. primum enim instans 
+              <lb ed="#P" n="101"/>talis heresis est primum instans non esse fidei infuse si in 
+              in<lb ed="#P" n="102" break="no"/>stati producatur. si subiio producatur seu pure partiabilitur: 
+              vl<lb ed="#P" n="103" break="no"/>timum instans non esse heresis talis est vltimum instans 
+              <lb ed="#P" n="104"/>esse fidei infuse: nec tale ens inconuenit a deo 
+              annihi<lb ed="#P" n="105" break="no"/>lari subito secundum legem.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

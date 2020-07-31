@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="41-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e27266"> <!--l1d7q1 -->
+            <head xml:id="jm12w4-e27266-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e27266-Hd1e109" type="question-title">
+      An essentia divina sit potentia vel principium generandi Filium?
+    </head>
+            <p xml:id="jm12w4-e27266-d1e112">
+               <lb ed="#P" n="64"/>⁋ <quote xml:id="jm12w4-e27266-Qd1e116" source="http://scta.info/resource/pll1d7c1-d1e3476" synch="1-12">hic solet queri a quibusdam: vtrum pate 
+              <lb ed="#P" n="65"/>potuerit vel voluerit generare filium</quote>. 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e122">
+      <!--96.xml-->
+               <cb ed="#P" n="b"/>
+               <!-- 41rb -->
+               <lb ed="#P" n="66"/>⁋ Distinctionis septime questio vnica. 
+              <lb ed="#P" n="67"/>Veritur circa distinctionem se 
+              <lb ed="#P" n="68"/>timam: an essentia diuina sit 
+              <lb ed="#P" n="69"/>potentia vel principium 
+              generan<lb ed="#P" n="70" break="no"/>di filium:
+            </p>
+            <p xml:id="jm12w4-e27266-d1e143">
+      ⁋ Secundum communiter 
+              <lb ed="#P" n="71"/>loquentes duplex est principium 
+              <lb ed="#P" n="72"/>nam est principium quod agit: et est 
+              <lb ed="#P" n="73"/>principium quo agens agit. Et 
+              <lb ed="#P" n="74"/>emplum primi: in naturalibus 
+              <lb ed="#P" n="75"/>ignis est principium quod ignis ge 
+              <lb ed="#P" n="76"/>miti. calor est principium quo 
+              for<lb ed="#P" n="77" break="no"/>maliter ignis agit. In artificialibus artifex est 
+              princi<lb ed="#P" n="78" break="no"/>pium quod. principium quo est ipsa res per quam agit 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e163">
+               <lb ed="#P" n="79"/>⁋ Quantum ad primum omnes conueniunt quod principium quod / 
+              <lb ed="#P" n="80"/>est pater: sed de principio quo quod non generat / sed est 
+              <lb ed="#P" n="81"/>illud per quod generat est opinionum varietas: Quidam 
+              te<lb ed="#P" n="82" break="no"/>nent quod proprietas personalis est illo modo principium gene 
+              <lb ed="#P" n="83"/>randi. Alii autem quod essentia diuina est principium quo gene 
+              <lb ed="#P" n="84"/>randi filium. hoc <name xml:id="jm12w4-e27266-Nd1e178">beatus Thomas</name> tenuit: quod <name xml:id="jm12w4-e27266-Nd1e181">Egidius</name> / 
+              <lb ed="#P" n="85"/>
+               <name xml:id="jm12w4-e27266-Nd1e186">doctor subtilis</name> / et <name xml:id="jm12w4-e27266-Nd1e189">Gecltam</name> sequuntur. Alia est positio 
+              <lb ed="#P" n="86"/>nullum ponens principium quo in hac generatione. qui modus 
+              <lb ed="#P" n="87"/>nobis amplius placet. Et ponitur hec conclusio. 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e198">
+               <lb ed="#P" n="88"/>⁋ Non est aliquod principium quo distinctum a principio 
+              <lb ed="#P" n="89"/>quod productiuum filii. Ex illa conclusione sequitur quod essen 
+              <lb ed="#P" n="90"/>tia diuina: nec proprietas est principium quo 
+              producti<lb ed="#P" n="91" break="no"/>uum filii.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e209">
+      ⁋ Probatur conclusio: quia producens filium a 
+              <lb ed="#P" n="92"/>seipso primo producit: igitur non est aliquod principium 
+              <lb ed="#P" n="93"/>quo aliud a principio quod, consequentia patet. si sit 
+              <lb ed="#P" n="94"/>aliquod principium quo producens producit: et aliud  
+              <lb ed="#P" n="95"/>principium ipsum producens: iam non a seipso 
+              pri<lb ed="#P" n="96" break="no"/>mo producit: sed ab alio principio. antecedens patet 
+              <lb ed="#P" n="97"/>si non produceret seipso primo scum per se produ  
+              <lb ed="#P" n="98"/>cat) produceret per se primo per aliquid sui: aut per 
+              ali<lb ed="#P" n="99" break="no"/>quod sibi extrinsecum. et hoc dici non potest. cum 
+              ni<lb ed="#P" n="100" break="no"/>hil tale locum habeat in deo. aut per aliquid intrisecum 
+              <lb ed="#P" n="101"/>et hoc non: cum deus non habeat partes.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e233">
+      ⁋ Insuper 
+              <lb ed="#P" n="102"/>si esset calor separatus: vt est in hostia consecrata 
+              po<lb ed="#P" n="103" break="no"/>nendo quantitatem rem esse quantam: cum ibi sit forma 
+              <lb ed="#P" n="104"/>simplex non est signandum principium quod a 
+              princi<lb ed="#P" n="105" break="no"/>pio quo distinctum: sed hic est multo maior simplici- 
+              <lb ed="#P" n="106"/>tas. ergo non sunt signanda hec principia. bene hoc ad¬  
+              <lb ed="#P" n="107"/>mittimus in calore et in igne.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e249">
+      ⁋ Pretera specialiter 
+              <lb ed="#P" n="108"/>arguitur de essentia. omne principium generandi est 
+              <lb ed="#P" n="109"/>realiter distinctum a generatione: vel a generato. 
+              pro<lb ed="#P" n="110" break="no"/>pterea dicit Philosophus primo physicorum. si tantet 
+              <lb ed="#P" n="111"/>vnum est: principium non est. essentia diuina non est 
+              <lb ed="#P" n="112"/>realiter distincta a generatione diuina: nec a genito. ig 
+              <lb ed="#P" n="113"/>tur.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e266">
+      ⁋ Sed dices. principium quod debet esse distinctum 
+              <lb ed="#P" n="114"/>a genito: non autem principium quo.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e271">
+      ⁋ Contra. tunc si hoc 
+              <lb ed="#P" n="115"/>esset verum: non magis principium quo esset 
+              princi<lb ed="#P" n="116" break="no"/>pium principiati quam econuerso. e sic dicetur quod 
+              essen<lb ed="#P" n="117" break="no"/>tia est principium quo essentie sicut generationis: et 
+              quic<lb ed="#P" n="118" break="no"/>quid sit de aliis.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e282">
+      ⁋ Propter hoc frater Guillermus 
+              <lb ed="#P" n="119"/>Gcltam tenet quod propetas non est principium productiuum 
+              <lb ed="#P" n="120"/>psius filii. probat. quiapersonalis proprietas / sicut est 
+              <lb ed="#P" n="121"/>paternitas vel generatio est omnibus modis idem 
+              per<lb ed="#P" n="122" break="no"/>sone patris: sed pater est principium quod producit:  
+              <lb ed="#P" n="123"/>igitur.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e295">
+      ⁋ Ex isto sequitur alia conclusio quod sola 
+              per<lb ed="#P" n="124" break="no"/>sona est potentia generandi in diuinis. sola 
+              persona<lb ed="#P" n="125" break="no"/>batris est potentia actiua generandi. et persona filit 
+              <lb ed="#P" n="126"/>nola est potentia passiua generandi. patet. quia illi so 
+              <lb ed="#P" n="127"/>li competit vt sit potentia actiua generandi quod po 
+              <lb ed="#P" n="128"/>test actiue generare: et soli illi etia conuenit vt sit 
+              po<lb ed="#P" n="129" break="no"/>tentia passiua generandi quod potest passiue generari. 
+              <lb ed="#P" n="130"/>sed solum pater potest actiue generare: et solus filius 
+              <lb ed="#P" n="131"/>generatur / vt fide credimus. igitur.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e315">
+      ⁋ Sed contra istud 
+      <!--97.xml-->
+      <pb ed="#P" n="41-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>arguitur. si pater potest generare a non filius esset ali 
+              <lb ed="#P" n="2"/>qua perfectio simpliciter que conuenit vni persone que 
+              <lb ed="#P" n="3"/>non conuenit aliis personis.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e331">
+      ⁋ Ad hoc argumentum 
+              <lb ed="#P" n="4"/>dicitur quod perfectio simpliciter vltra acceptiones quas 
+              <lb ed="#P" n="5"/>in. ii. distinctione. q. secunda posuimus bifariam 
+              ca<lb ed="#P" n="6" break="no"/>pitur. Uno modo pro aliqua perfectione que est 
+              simpli<lb ed="#P" n="7" break="no"/>citer summa et infinita: et omni carens imperfectione: 
+              <lb ed="#P" n="8"/>et omni imperfectioni incompossibilis.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e345">
+      ⁋ Alio modo pro 
+              ali<lb ed="#P" n="9" break="no"/>qua perfectione quae est in quolibet simpliciter perfector 
+              <lb ed="#P" n="10"/>seu vere conuenit cuilibet simpliciter perfecto. 
+              Pri<lb ed="#P" n="11" break="no"/>mo modo potentia generandi in diuinis seu quaelibet rela 
+              <lb ed="#P" n="12"/>tio est perfectio simpliciter: sed non secundo modo. et 
+              <lb ed="#P" n="13"/>perfectio primo modo in diuinis conuenit vni 
+              perso<lb ed="#P" n="14" break="no"/>ne: et non aliis. secus est de perfectione secundo modo.  
+            </p>
+            <p xml:id="jm12w4-e27266-d1e361">
+               <lb ed="#P" n="15"/>⁋ Alio modo dicitur negando consequentiam. sicui 
+              <lb ed="#P" n="16"/>non sequitur: hec paternitas non est in filio hec pater 
+              <lb ed="#P" n="17"/>nitas est essentia diuina: ergo essentia diuina non est 
+              <lb ed="#P" n="18"/>in filio. nisi vna premissarum equiualeat vni de 
+              om<lb ed="#P" n="19" break="no"/>ni. sicut superius in quarta distinctione dicebatur. 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e374">
+               <lb ed="#P" n="20"/>⁋ Secundo arguitur: illud est potentia generatiua 
+              <lb ed="#P" n="21"/>siue principium generandi in quo genitum assimilali 
+              <lb ed="#P" n="22"/>generanti: sicut homo genitus est similis homini gene 
+              <lb ed="#P" n="23"/>ranti in natura humana: cuius virtute homo potest ge 
+              <lb ed="#P" n="24"/>nerare hominem: sed in essentia tantum filius dicitur assi 
+              <lb ed="#P" n="25"/>milari patri generanti. igitur.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e390">
+      ⁋ Tertia arguitur ad 
+              <lb ed="#P" n="26"/>idem: quia si deus per impossibile generaret alium deu 
+              <lb ed="#P" n="27"/>et ille alius tertium: diuinitas esset principium illius 
+              <lb ed="#P" n="28"/>et non relatio: igitur a nunc cum deus generat alium 
+              <lb ed="#P" n="29"/>ui est idem deus. antecedens patet: et 
+              consequenti<lb ed="#P" n="30" break="no"/>probatur: quia quicquid est perfectionis in principio pro 
+              <lb ed="#P" n="31"/>ductiuo non tollit ex aliquo rationem principii produ 
+              <lb ed="#P" n="32"/>ctiui: sed communicare se in identitate numerali pre 
+              <lb ed="#P" n="33"/>ducto videtur esse perfectionis in principio producti 
+              <lb ed="#P" n="34"/>uo.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e412">
+      ⁋ Respondetur: quod interdum in creaturis 
+              geni<lb ed="#P" n="35" break="no"/>tum non assimilatur patri: patet de asino a mula. Sed 
+              <lb ed="#P" n="36"/>quicquid sit in creaturis: in proposito non continet 
+              ve<lb ed="#P" n="37" break="no"/>ritatem: eo quod principium productiuum quo debet esse 
+              <lb ed="#P" n="38"/>realiter distinctum ab eo cuius est principium: quod  
+              <lb ed="#P" n="39"/>non potest esse in proposito.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e425">
+      ⁋ Ad tertium dicitur quod 
+              quic<lb ed="#P" n="40" break="no"/>quid sit de antecedente: consequentia est nulla. quia in 
+              <lb ed="#P" n="41"/>casu assumpto essentia diuina distinguitur realiter a 
+              <lb ed="#P" n="42"/>productione: sed non est perfectionis in aliquo prmo 
+              <lb ed="#P" n="43"/>pio productiuo esse aliquo modo principium eius quod 
+              <lb ed="#P" n="44"/>est ab eo indistinctum: quia hoc excludit rationem prit 
+              <lb ed="#P" n="45"/>cipii et principiati.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e442">
+      ⁋ Insuper secundum Hhilarium quinto de 
+              <lb ed="#P" n="46"/>trinitate / vt <name xml:id="jm12w4-e27266-Nd1e446" ref="#Lombard">Magister</name> in quinta distinctione allegat 
+              <lb ed="#P" n="47"/>natiuitas dei non potest eam ex qua profecta est non 
+              te<lb ed="#P" n="48" break="no"/>nere naturam: certum autem est eam non ex alia 
+              natu<lb ed="#P" n="49" break="no"/>ra quam diuiua profectam esse: ergo natura diuina 
+              princi<lb ed="#P" n="50" break="no"/>pium est ex quo est natiuitas filii. vbi <name xml:id="jm12w4-e27266-Nd1e458" ref="#Lombard">Magister</name> dici 
+              <lb ed="#P" n="51"/>quod pater non est potens generare nisi natura eius 
+              po<lb ed="#P" n="52" break="no"/>tentia esset vel essentia. igitur. Et hoc expressius dicit An 
+              <lb ed="#P" n="53"/>selmus libro de processione spiritus sancti cap. vige 
+              <lb ed="#P" n="54"/>simo quinto asserens spiritum sanctum procedere de 
+              <lb ed="#P" n="55"/>diuinitate patris: et non de paternitate. Et addit quod 
+              <lb ed="#P" n="56"/>opinio que dicit quod non procedit de diuinitate: sed de 
+              <lb ed="#P" n="57"/>paternitate: patenti fatuitate se suffocat.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e477">
+      ⁋ Respon 
+              <lb ed="#P" n="58"/>detur. natiuitas est profecta ex natura: id est ex pare 
+              <lb ed="#P" n="59"/>quae est eadem natura cum filio. Sic <name xml:id="jm12w4-e27266-Nd1e483" ref="#Lombard">Magister</name> exponit 
+              <lb ed="#P" n="60"/>beatum Hilarium. patet distinctione quinta capite octa 
+              <lb ed="#P" n="61"/>uo: sic inquit: quia hec verba sane vult intelligi ipse idem 
+              <lb ed="#P" n="62"/>dicit in quarto libro. intelligentia dictorum ex causis es 
+              <lb ed="#P" n="63"/>assumenda dicendi: quia non sermoni res: sed rei est sermo 
+              <lb ed="#P" n="64"/>subiectus. hec ergo verba ita intelligi possunt: nihil ha 
+              <lb ed="#P" n="65"/>bet filius nisi natum: id est nihil habet secundum quod deus est 
+              <lb ed="#P" n="66"/>nisi quod nascendo accepit: et ipse nascendo patris in se 
+      <!--97.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 41vb -->
+               <lb ed="#P" n="67"/>subsistentem naturam habuit. Unde ibidem Hilarius ipse 
+              <lb ed="#P" n="68"/>addit in quinto libro: eandem naturam habet 
+              geni<lb ed="#P" n="69" break="no"/>tus quam ille qui genuit: ita tamen vt natus non sit ille qui 
+              <lb ed="#P" n="70"/>genuit: nam quomodo erit ipse pater cum genitus sit:  
+              <lb ed="#P" n="71"/>Et postea <name xml:id="jm12w4-e27266-Nd1e519" ref="#Lombard">Magister</name> prolixe deducit hoc ex verbis 
+              <lb ed="#P" n="72"/>ipsius beati Hilarii: vt patet diligenter consideranti Ma 
+              <lb ed="#P" n="73"/>gistrum in litera.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e527">
+      ⁋ De auctoritate beati <name xml:id="jm12w4-e27266-Nd1e529" ref="#Anselm">Anselmi</name> dicit 
+              <lb ed="#P" n="74"/>quidam doctor quod verba illa et alia multa que <name xml:id="jm12w4-e27266-Nd1e534" ref="#Anselm">Anselmus</name> 
+               <lb ed="#P" n="75"/>ponit non sunt vera de virtute sermonis: immo sua 
+              im<lb ed="#P" n="76" break="no"/>proprietate se suffocant. Si tamen forte illa fuerit 
+              opi<lb ed="#P" n="77" break="no"/>nio <name xml:id="jm12w4-e27266-Nd1e544" ref="#Anselm">Anselmi</name>: non est vis: nec oportet insistere in 
+              expo<lb ed="#P" n="78" break="no"/>sitione dictorum eius. propterea dicit qui dictis eius afficitur 
+              <lb ed="#P" n="79"/>aboret eum exponere.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e552">
+      ⁋ Sed potest exponi sicut 
+              Ma<lb ed="#P" n="80" break="no"/>gister exponit Hilarium. Dicta istius sancti non possunt 
+              <lb ed="#P" n="81"/>capi de virtute sermonis in hac materia. patet Mono. 
+              <lb ed="#P" n="82"/>xiiii. capitu. vbi de spiritu sancto loquens dicit: non ex 
+              <lb ed="#P" n="83"/>eo procedit in quo piures sunt pater et filius: sed ex 
+              <lb ed="#P" n="84"/>eo in quo vnum sunt / nam non ex relationibus suis que 
+              <lb ed="#P" n="85"/>plures sunt. alia est enim (iquit) relatio patris alia fili 
+              <lb ed="#P" n="86"/>sed ex ipsa sua mera essentia que pluralitatem non ad¬  
+              <lb ed="#P" n="87"/>mittit emittunt pater a filius simul tantum bonum. 
+              <lb ed="#P" n="88"/>non enim spiritus sanctus aut filius procedit a 
+              diui<lb ed="#P" n="89" break="no"/>nitate mera aut de diuinitate ipsa: vt pater de 
+              diuini<lb ed="#P" n="90" break="no"/>tate genuit filium: aut pater a filius spiritum sanctum de 
+              <lb ed="#P" n="91"/>diuinitate emittunt: cum tam spiritus sanctus quam filius 
+              <lb ed="#P" n="92"/>sit diuinitas ipsa.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e583">
+      ⁋ Dubitatur circa hanc 
+              distinctio<lb ed="#P" n="93" break="no"/>nem quis est terminus formalis huius generationis 
+              <lb ed="#P" n="94"/>diuine:
+            </p>
+            <p xml:id="jm12w4-e27266-d1e590">
+      ⁋ Respondetur quod non omnes conueniunt in ter 
+              <lb ed="#P" n="95"/>mino formali. Sed secundum communiter loquentes 
+              ter<lb ed="#P" n="96" break="no"/>minus formalis alicuius productionis: est ille qui secundum 
+              <lb ed="#P" n="97"/>se totum capit esse simpliciter per illam productionem 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e600">
+               <lb ed="#P" n="98"/>⁋ Ex illo patent corollaria.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e605">
+      ⁋ Primum corollarium 
+              <lb ed="#P" n="99"/>est: materia interdum est terminus formalis productionis 
+              <lb ed="#P" n="100"/>patet: quia si nunc deus produceret materiam: tunc mate 
+              <lb ed="#P" n="101"/>ria esset terminus formalis illius productionis: cum ipsa 
+              <lb ed="#P" n="102"/>accipiat esse per illam productionem.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e616">
+      ⁋ Secundum 
+              <lb ed="#P" n="103"/>corollarium: non capitur formale vt est concretum huius 
+              <lb ed="#P" n="104"/>termini forma / tam secundum vocem quam secundum significationem 
+            </p>
+            <p xml:id="jm12w4-e27266-d1e623">
+               <lb ed="#P" n="105"/>⁋ Tertium corollarium: quando aliquod 
+              composi<lb ed="#P" n="106" break="no"/>tum creatur (vt terra in principio sue creationis) for 
+              <lb ed="#P" n="107"/>ma non dicitur magis terminus formalis illius 
+              crea<lb ed="#P" n="108" break="no"/>tionis quam materia.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e634">
+      ⁋ Quartum corollarium: interdum 
+              <lb ed="#P" n="109"/>terminus formalis et terminus totalis distinguuntur 
+              <lb ed="#P" n="110"/>interdum coincidunt.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e641">
+      ⁋ Quintum corollarium: 
+              essen<lb ed="#P" n="111" break="no"/>tia diuina non est terminus formalis istius 
+              genera<lb ed="#P" n="112" break="no"/>tionis diuine. patet: quia essentia diuina non accipit esse 
+              <lb ed="#P" n="113"/>per hanc generationem.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e651">
+      ⁋ Sextum corollarium: 
+              per<lb ed="#P" n="114" break="no"/>lona filii est terminus formalis istius generationis 
+              <lb ed="#P" n="115"/>patet. quia illa accipit esse per hanc generationem non 
+              <lb ed="#P" n="116"/>esse de uouo: quando illa est ab etemo.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e660">
+      ⁋ Septimum 
+              co<lb ed="#P" n="117" break="no"/>rollarium: quado angelus creatur idem est terminus to 
+              <lb ed="#P" n="118"/>talis et formalis illius creationis.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e667">
+      ⁋ Ectauum 
+              corol<lb ed="#P" n="119" break="no"/>larium: quando totum compositum creatur secundum se et 
+              <lb ed="#P" n="120"/>quidlibet sui: materia est terminus formalis: sic est 
+              <lb ed="#P" n="121"/>forma: sic est totum compositum.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e676">
+      ⁋ Ex quo nono se 
+              <lb ed="#P" n="122"/>quitur alicuius productionis plures esse terminos for 
+              <lb ed="#P" n="123"/>males quando est vnus totalis.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e683">
+      ⁋ Decimo. si 
+              mate<lb ed="#P" n="124" break="no"/>ria et forma separatim essent create heri vel a 
+              prin<lb ed="#P" n="125" break="no"/>cipio mundi: et nunc anima informaret materiam: totum 
+              <lb ed="#P" n="126"/>compositum nunc est terminus formalis illius produ  
+              <lb ed="#P" n="127"/>ctionis: et nec materia nec forma. quia totum compositum 
+              <lb ed="#P" n="128"/>nunc recipit esse: et nulla paro eius.
+            </p>
+            <p xml:id="jm12w4-e27266-d1e696">
+      ⁋ Undecimo se 
+              <lb ed="#P" n="129"/>uitur: quod quando homo nutritur ille partialis homo 
+              <lb ed="#P" n="130"/>productus est terminus formalis illius mutationis. 
+              pu<lb ed="#P" n="131" break="no"/>ta homo constitutus ex materia nutrimenti et anima 
+              <lb ed="#P" n="132"/>intellectiua illam materiam nutrimenti informante. 
+      <!--98.xml-->
+      <pb ed="#P" n="42-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>illud recipit esse simpliciter: quia esse hominem. licet 
+              <lb ed="#P" n="2"/>nulla parso eius recipiat esse simpliciter. pars inquam 
+              essen<lb ed="#P" n="3" break="no"/>tialis. est enim terminus totalis: quia non est pars 
+              al<lb ed="#P" n="4" break="no"/>terius illa productione producti: licet sit pars totius 
+              <lb ed="#P" n="5"/>hominis nutriti. propterea dicebatur in quid nominis 
+              <lb ed="#P" n="6"/>capiens esse simpliciter per illam productionem. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

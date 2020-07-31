@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e27872"> <!--l1d8q1 -->
+            <head xml:id="jm12w4-e27872-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e27872-Hd1e109" type="question-title">
+      Utrum perfectiones attributales distinguantur inter se?
+    </head>
+            <p xml:id="jm12w4-e27872-d1e112">
+               <lb ed="#P" n="7"/>⁋ <quote xml:id="jm12w4-e27872-Qd1e116" source="http://scta.info/resource/pll1d8c1-d1e3476" synch="1-10">Nunc de veritate siue proprietate siue 
+              <lb ed="#P" n="8"/>incommutabilitate atque simplicitate diuine</quote>.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e122">
+               <lb ed="#P" n="9"/>⁋ Distinctionis octaue questio prima. 
+              <lb ed="#P" n="10"/>CIrca distinctionem octauam que 
+              <lb ed="#P" n="11"/>itur vtrum perfectiones 
+              attri<lb ed="#P" n="12" break="no"/>utales distinguantur inter se.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e134">
+               <lb ed="#P" n="13"/>⁋ Quia quid nominis est principium 
+              <lb ed="#P" n="14"/>artis et doctrine. primo 
+              poste<lb ed="#P" n="15" break="no"/>riorum. et necesse est non 
+              intelli<lb ed="#P" n="16" break="no"/>rentem terminos de facili para 
+              <lb ed="#P" n="17"/>logizm ari primo Elenchorum: in 
+              <lb ed="#P" n="18"/>primis exprimentur 
+              significa<lb ed="#P" n="19" break="no"/>tiones terminorum: postea re 
+              <lb ed="#P" n="20"/>spondebitur ad questionem.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e154">
+      ⁋ Isti termini habent 
+              <lb ed="#P" n="21"/>discrimem attributu / ratio attributalis / et perfectio 
+              at<lb ed="#P" n="22" break="no"/>tributalis. Attributa enim sunt noia ad placitum vel na 
+              <lb ed="#P" n="23"/>turaliter significantia perfectionem diuinam: et pro illa suppo 
+              <lb ed="#P" n="24"/>nere potentia: sed quia ratio noins non sufficienter adhuc 
+              <lb ed="#P" n="25"/>explicatur sic intelligatur.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e167">
+      ⁋ Attributum est nomen 
+              <lb ed="#P" n="26"/>de deo et omnibus personis simul: et de qualibet 
+              si<lb ed="#P" n="27" break="no"/>gillatim praedicabile denotans quod quodlibet de quo 
+              di<lb ed="#P" n="28" break="no"/>esse tale quale vnicuique melius est esse quam non esse.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e176">
+      ⁋ Per 
+              <lb ed="#P" n="29"/>primum notionalia de deo excluduntur. Per secundam 
+              <lb ed="#P" n="30"/>pticulam tales termini creator / primiator / praedestinator / 
+              <lb ed="#P" n="31"/>ecluduntur. non est melius esse creatorem vel premiato 
+              <lb ed="#P" n="32"/>rem quam non esse. si nulla esset creatura deus nec esset crea 
+              <lb ed="#P" n="33"/>tor nec premiator. et tamen non esset ei melius: secus 
+              <lb ed="#P" n="34"/>est de istis praedicatis creatiuum: premiatiuum.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e192">
+      ⁋ Ratio 
+              <lb ed="#P" n="35"/>attributalis est conceptus anime cui attributum 
+              subor<lb ed="#P" n="36" break="no"/>dinatur: vel ratio exprimens quid noins eius.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e199">
+      ⁋ 
+              Per<lb ed="#P" n="37" break="no"/>fectio attributalis est illud pro quo supponit attribi 
+              <lb ed="#P" n="38"/>tum.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e207">
+      ⁋ Istis prelibatis ponuntur conclusiones.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e210">
+      ⁋ Pri 
+              <lb ed="#P" n="39"/>na est: nulla perfectio attributalis distinguitur ab alia 
+              <lb ed="#P" n="40"/>Probatur conclusio: quia qualibet perfectio attributalis est 
+              <lb ed="#P" n="41"/>deus et essentia diuina: modo nulla est distinctio essentie 
+              <lb ed="#P" n="42"/>biuine / non loquimur nunc de distinctione personarum 
+              <lb ed="#P" n="43"/>trgo non est distinctio perfectionum attributalium. 
+              <lb ed="#P" n="44"/>r Secunda conclusio: vna perfectio attributalis non 
+              <lb ed="#P" n="45"/>distinguitur ab alia ratione: ad hunc sensum quod eius 
+              <lb ed="#P" n="46"/>lures sunt rationes. et ipsa secundum vnam differt 
+              <lb ed="#P" n="47"/>a seipsa secundum aliam. Probatur: quia ille sensus est 
+              <lb ed="#P" n="48"/>impossibilis affirmando: ergo illa negatiua conclusio est 
+              <lb ed="#P" n="49"/>vera. Probatur assumptum: quia tunc aliqua ratio esset 
+              <lb ed="#P" n="50"/>eius que non esset eius. consequens implicat. 
+              Con<lb ed="#P" n="51" break="no"/>sequentia patet: quia omne quo aliquid distinguitur 
+              <lb ed="#P" n="52"/>ab aliquo est proprium illi quod distinguitur: sed non 
+              <lb ed="#P" n="53"/>est commune sibi et illi a quo distinguitur. si ergo 
+              ali<lb ed="#P" n="54" break="no"/>quid distinguitur ratione aliqua erit sibi ratio 
+              pro<lb ed="#P" n="55" break="no"/>pria que non erit illius a quo distinguitur. et si distin 
+              <lb ed="#P" n="56"/>uatur a seipso: illa erit eius: et non erit eius.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e252">
+      ⁋ Ter 
+              <lb ed="#P" n="57"/>tia conclusio. attributa distinguuntur ratione: saltem 
+              <lb ed="#P" n="58"/>rationibus. patet. alia est ratio vnius a ratione 
+              alte<lb ed="#P" n="59" break="no"/>rius: igitur. patet: quia non sunt termini synon yvmi. ergo ha 
+              <lb ed="#P" n="60"/>dent alios conceptus. et per consequens alias 
+              ratio<lb ed="#P" n="61" break="no"/>nes. Antecedens patet: quia tunc esset nugatio addere 
+              <lb ed="#P" n="62"/>illos terminos a parte eiusdem extremi sine coniunctione: 
+              <lb ed="#P" n="63"/>quod est falsum. dicimus enim deus fortis / 
+              miseri<lb ed="#P" n="64" break="no"/>cors / iustus / clemens / et ita de talibus. non tamen 
+              <lb ed="#P" n="65"/>intel igendum est quod clementia dei distinguatur a iu¬ 
+      <!--98.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 42rb -->
+               <lb ed="#P" n="66"/>stitia vel misericordia eius: quia est vna et eadem res. 
+              <lb ed="#P" n="67"/>sed habent illi termini alia et alia connotata respectu 
+              <lb ed="#P" n="68"/>creaturarum. sicut declarat <name xml:id="jm12w4-e27872-Nd1e286" ref="#Lombard">Magister</name> distinctione 
+              <lb ed="#P" n="69"/>quadragesima quarta sui quarti: vbi quaerit quare 
+              scri<lb ed="#P" n="70" break="no"/>contura dicit quedam opera dei pertinere ad eius 
+              iu<lb ed="#P" n="71" break="no"/>stitiam: quedam vero ad misericordiam si 
+              misericor<lb ed="#P" n="72" break="no"/>dia dei est iustitia dei: Respondet illis locutionibus 
+              <lb ed="#P" n="73"/>uibus huiusmodi operum fiunt distinctiones vt alia 
+              <lb ed="#P" n="74"/>misericordie / alia iustitie / alia bonitati attribuant non 
+              <lb ed="#P" n="75"/>diuersitas subiacentis rei vocabulis signisicate 
+              expri<lb ed="#P" n="76" break="no"/>mitur: sed varietas sensuum scilicet ipsarum locutio 
+              <lb ed="#P" n="77"/>num. et effectus in creaturis monstratur. Cum enim 
+              <lb ed="#P" n="78"/>dicitur deus iustus vel iustitia / essentia diuina 
+              praedi<lb ed="#P" n="79" break="no"/>catur. et etiam quod ipse sit distributor: et iudex 
+              merito<lb ed="#P" n="80" break="no"/>rum intelligi datur. Similiter cum dicitur misericors 
+              <lb ed="#P" n="81"/>essentia diuina paedicatur: et insuper quod sit ipse 
+              mise<lb ed="#P" n="82" break="no"/>rorum liberator intelligi datur. Unde vtrunque 
+              illo<lb ed="#P" n="83" break="no"/>rum pro deo in recto supponit: sed termini habent 
+              <lb ed="#P" n="84"/>alia connotata. sicut iustitia connotat merita et 
+              de<lb ed="#P" n="85" break="no"/>nerita: et dei effectum circa ipsas: qui est distributor 
+              <lb ed="#P" n="86"/>premiorum et penarum. misericordia dat intelligere:  
+              <lb ed="#P" n="87"/>vel connotat creaturas miseras: et dei liberationem 
+              <lb ed="#P" n="88"/>qua liberat ipsas a miseria.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e333">
+      ⁋ Contra secundam 
+              con<lb ed="#P" n="89" break="no"/>clusionem arguitur secundum Philosophum quarto 
+              <lb ed="#P" n="90"/>Metaphysice. ens et vnum sunt idem: et vna natura: sed 
+              <lb ed="#P" n="91"/>non vt vna ratione ostensa. vbi dicit sunt vnum re: sed  
+              <lb ed="#P" n="92"/>non vnum ratione. Idem dicit de principio a causa: 
+              <lb ed="#P" n="93"/>igne et elemento. x. Metaphysice. Et tertio 
+              physico<lb ed="#P" n="94" break="no"/>rum dicit quod idem actus numero secundum rem: sed di 
+              <lb ed="#P" n="95"/>stinctus secundum rationem est actio a passio: et per 
+              con<lb ed="#P" n="96" break="no"/>sequens eadem res distinguitur a seipsa ratione. hoc idem 
+              <lb ed="#P" n="97"/>tenet Commentator. xii. Metaphyce Commento. xviii. 
+            </p>
+            <p xml:id="jm12w4-e27872-d1e355">
+               <lb ed="#P" n="98"/>⁋ Respondetur: quod si termini accipiantur 
+              significati<lb ed="#P" n="99" break="no"/>ue: non pius differunt ratione ens et vnum quam ens et 
+              <lb ed="#P" n="100"/>ens: et vnum et vnum. sed illius nature possunt esse plu 
+              <lb ed="#P" n="101"/>es rationes quarum vna non est alia: et secundum vnam 
+              <lb ed="#P" n="102"/>illarum rationum natura illa dicitur vna: et secundum 
+              <lb ed="#P" n="103"/>aliam habet aliam denominationem: sic quod est 
+              distin<lb ed="#P" n="104" break="no"/>ctio inter rationem et rationem. Vel ille 
+              propositio<lb ed="#P" n="105" break="no"/>nes de actibus exercitis capiuntur loco 
+              propositio<lb ed="#P" n="106" break="no"/>num de actibus signatis: vt crebro est apud 
+              aucto<lb ed="#P" n="107" break="no"/>res: et tunc termini stant materialiter / et tunc est 
+              sen<lb ed="#P" n="108" break="no"/>sus: sunt vnum natura / significant vnam naturam 
+              se<lb ed="#P" n="109" break="no"/>cundum diuersas rationes exprimentes quid nominis 
+              <lb ed="#P" n="110"/>vtriusque: et per hoc non sunt synonyma.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e386">
+      ⁋ Per hoc 
+              <lb ed="#P" n="111"/>responderi potest ad similes auctoritates. Scimus 
+              <lb ed="#P" n="112"/>aliquos se inutiliter fatigare de ente et essentia: et de 
+              <lb ed="#P" n="113"/>illo discrimine.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e396">
+      ⁋ Insuper sequitur secundum dicta 
+              iu<lb ed="#P" n="114" break="no"/>stitia et iustus (vt deo conueniunt)s essent synonyma. 
+              <lb ed="#P" n="115"/>hoc est falsum: viuum et vita (vt deo attribuuntur) non 
+              <lb ed="#P" n="116"/>lunt synonyma secundum Commentatorem. xii. 
+              Metaphysi<lb ed="#P" n="117" break="no"/>ce commento. xxxviii.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e407">
+      ⁋ Respondetur. si isti termini 
+              <lb ed="#P" n="118"/>capiantur in sua generalitate secundum quod deo e 
+              creatu<lb ed="#P" n="119" break="no"/>ris conueniunt / ustus et iustitia aet huiusmodi non sunt 
+              <lb ed="#P" n="120"/>synon vmi. tamen vt deo attribuuntur nihil aliud 
+              im<lb ed="#P" n="121" break="no"/>portatur per concretum quam per abstractum: nec in 
+              concre<lb ed="#P" n="122" break="no"/>o nec in abstracto. vt dicit <name xml:id="jm12w4-e27872-Nd1e420" ref="#Anselm">Anselmus</name> mono. ca. xvi 
+              <lb ed="#P" n="123"/>de suprema essentia idem est dicere quod est iusta et quod est 
+              <lb ed="#P" n="124"/>ustitia: quod non est de homie. non enim est iustitia: sed 
+              <lb ed="#P" n="125"/>iustitiam habens.
+            </p>
+            <p xml:id="jm12w4-e27872-d1e430">
+      ⁋ Comentator duodecimo Meta 
+              <lb ed="#P" n="126"/>hysice loco preallegato capit terminos viuum et vita 
+              <lb ed="#P" n="127"/>in communi et vulgari acceptione. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

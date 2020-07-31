@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="102-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e71216"> <!--l1d44q1 -->
+            <head xml:id="jm12w4-e71216-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e71216-Hd1e109" type="question-title">
+      Utrum Deus potuerit mundum fecisse 
+      meliorem quam fecerit?
+    </head>
+            <p xml:id="jm12w4-e71216-d1e112">
+               <lb ed="#P" n="90"/>⁋ Nunc illud restat discutiendum: vtrum me 
+              <lb ed="#P" n="91"/>lius aliquid possit facere quam facit. etc. 
+            </p>
+            <p xml:id="jm12w4-e71216-d1e119">
+               <lb ed="#P" n="92"/>⁋ Distinctionis. xliiii. questio prima. 
+              <lb ed="#P" n="93"/>LIrca istam quadragesimamquartam distin 
+              <lb ed="#P" n="94"/>actionem. Queritur vtrum deus potuerit 
+              <lb ed="#P" n="95"/>mundum fecisse meliorem quam fecerit.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e131">
+      ⁋ Ca<lb ed="#P" n="96" break="no"/>sio mundum vt excludat deum et includat 
+              <lb ed="#P" n="97"/>cetera contenta.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e138">
+      ⁋ Respondetur per distinctiones: 
+              <lb ed="#P" n="98"/>vel est sermo de melioratione substantialiter vel 
+              <lb ed="#P" n="99"/>accidentaliter: vel est sermo de isto mundo vel de 
+              <lb ed="#P" n="100"/>alio mundo possibili.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e147">
+      ⁋ Istis distinctionibus
+              prepo<lb ed="#P" n="101" break="no"/>sitis pono conclusiones.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e152">
+      ⁋ Prima est: non poterat 
+              <lb ed="#P" n="102"/>fecisse istum mundum meliorem essentialiter: nec ar 
+              <lb ed="#P" n="103"/>liquod indiuiduum eius. probatur in indiuiduis eiusdem 
+              <lb ed="#P" n="104"/>speciei specialissime non cadit maior perfectio a 
+              mi<lb ed="#P" n="105" break="no"/>nor perfectio. et per consequens non poterat fecisse 
+              <lb ed="#P" n="106"/>hominem perfectiorem entitatiue
+            </p>
+            <p xml:id="jm12w4-e71216-d1e165">
+      ⁋ Secunda propositio. 
+              <lb ed="#P" n="107"/>deus poterat fecisse istum mundum perfectiorem 
+              <lb ed="#P" n="108"/>accidentaliter. poterat enim dedisse hominibus 
+              ma<lb ed="#P" n="109" break="no"/>iorem gratiam: pariter a angelis: poterat etiam 
+              pro<lb ed="#P" n="110" break="no"/>du xisse maiores equos: et velociores. etc.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e176">
+      ⁋ Tertia 
+              <lb ed="#P" n="111"/>prpositio. deus potest producere mundum alterius 
+              <lb ed="#P" n="112"/>speciei ab isto perfectiorem entitatiue. et hoc mul 
+              <lb ed="#P" n="113"/>tiphariam vel per productionem vnius indiuidui 
+              <lb ed="#P" n="114"/>tantum vel totaliter aliorum indiuiduorum: si enim produ- 
+              <lb ed="#P" n="115"/>ceretur vnum indiuiduum de nouo alterius 
+              spe<lb ed="#P" n="116" break="no"/>ciei ab omnibus indiuiduis productis iam iste mum 
+              <lb ed="#P" n="117"/>dus esset alterius speciei a mundo priori. Oue 
+              pos<lb ed="#P" n="118" break="no"/>set mundum alterius speciei producere arguitur 
+              <lb ed="#P" n="119"/>sic. potest producere indiuiduum alterius specien 
+              <lb ed="#P" n="120"/>a quolibet indiuiduo producto: et si vnum potest 
+              <lb ed="#P" n="121"/>duo potest: tria potest. et sic sine statu: ergo mundum 
+              <lb ed="#P" n="122"/>producere potest cuius quodlibet indiuiduum 
+              spe<lb ed="#P" n="123" break="no"/>cie distingueretur a quolibet indiuiduo istius mum 
+              <lb ed="#P" n="124"/>di. Assumptum patet: quia intellectus meus 
+              po<lb ed="#P" n="125" break="no"/>test facere actum alterius speciei ab omnibus 
+              in<lb ed="#P" n="126" break="no"/>diuiduis qune forte fuerunt: ergo deus potest face 
+              <lb ed="#P" n="127"/>re indiuiduum alterius speciei ab omnibus 
+              in<lb ed="#P" n="128" break="no"/>diuiduis que fuerunt. hec consequentia est bo¬ 
+      <!--219.xml-->
+      <pb ed="#P" n="102-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>na. et antecedens non est tibi dubium. ergo consequens 
+              <lb ed="#P" n="2"/>non est negandum.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e229">
+      ⁋ Etiam probo quod non debes du 
+              <lb ed="#P" n="3"/>bitare antecedens. possum enim ferre actu intellectus supe 
+              <lb ed="#P" n="4"/>tria obiecta quatuor specie distincta copulatim: su 
+              <lb ed="#P" n="5"/>per quae nullus ferebat actum. et possum habere notitia 
+              <lb ed="#P" n="6"/>reflexam super illum actum.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e240">
+      ⁋ Sed hic (et bene 
+              <lb ed="#P" n="7"/>dices quod anima Christi tales actus habuit.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e245">
+      ⁋ Secundo 
+              <lb ed="#P" n="8"/>arguo ad idem: quocumque corpore creato deus potest 
+              <lb ed="#P" n="9"/>creare aliud in indiuiduis eiusdem speciei. ergo si 
+              <lb ed="#P" n="10"/>non est status in indiuiduis non est status in speci 
+              <lb ed="#P" n="11"/>bus.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e256">
+      ⁋ Tertio arguitur sic. ante creationem 
+              mun<lb ed="#P" n="12" break="no"/>di vel erat certus numerus aliquorum indiuiduo 
+              <lb ed="#P" n="13"/>rum in specie quem deus poterat producere: 
+              vtpu<lb ed="#P" n="14" break="no"/>ta quia poterat producere indiuidua speciei iam pro 
+              <lb ed="#P" n="15"/>ducte: et nulla alia. primum videtur irrationabile. se 
+              <lb ed="#P" n="16"/>cundum non valet: quia tunc productio aliquorum 
+              <lb ed="#P" n="17"/>indiuiduorum impediret deum ne posset producer 
+              <lb ed="#P" n="18"/>indiuidua alterius speciei.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e274">
+      ⁋ Preterea nihil non 
+              <lb ed="#P" n="19"/>implicans contradictionem est negandum a 
+              poten<lb ed="#P" n="20" break="no"/>tia dei: istud non implicat contradictionem: igitur 
+              <lb ed="#P" n="21"/>consequentia tenet cum maiore. et minor patet: det 
+              <lb ed="#P" n="22"/>aduersarius contradictionem quae sequitur.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e285">
+      ⁋ Ultimo 
+              <lb ed="#P" n="23"/>arguitur sic. inter quecunque quanta quorum vnum est 
+              <lb ed="#P" n="24"/>maius alio: deus potest creare quantu minus maio 
+              <lb ed="#P" n="25"/>re a maius minore: sed indiuiduum superioris spe 
+              <lb ed="#P" n="26"/>ciei non excedit indiuisibiliter indiuiduum 
+              inferio<lb ed="#P" n="27" break="no"/>ris. igitur inter illa potest creare indiuiduum vno 
+              per<lb ed="#P" n="28" break="no"/>fectius: et altero imperfectius.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e302">
+      ⁋ Ex ista 
+              conclu<lb ed="#P" n="29" break="no"/>sione infero cum supplemento illorum que sequentur in 
+              <lb ed="#P" n="30"/>materia de infinito: quod deus potest creare infinitor 
+              <lb ed="#P" n="31"/>mundos specie distinctos concentricos et 
+              eccen<lb ed="#P" n="32" break="no"/>tricos. creet enim deus in prima parte proportiona 
+              <lb ed="#P" n="33"/>li mundum eccentricum alterius speciei ab isto tam 
+              <lb ed="#P" n="34"/>gentem istum mundum in puncto (vt solet esse de 
+              <lb ed="#P" n="35"/>duobus circulis vel duabus spheris) dicatur ille 
+              <lb ed="#P" n="36"/>mundus a. in secunda parte proportionali creet 
+              mum<lb ed="#P" n="37" break="no"/>dum alterius speciei ab a tangentem a sicut a tan 
+              <lb ed="#P" n="38"/>git mundum nostrum: et sic consequenter per om 
+              <lb ed="#P" n="39"/>nes partes prportionales hore future: iam erunt in 
+              <lb ed="#P" n="40"/>finiti mundi specie distincti: et poterat illud idem fe 
+              <lb ed="#P" n="41"/>cisse de concentricis.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e333">
+      ⁋ Sed contra istud arguitur 
+              <lb ed="#P" n="42"/>sic. sequitur quod deus posset creare vnum mundum 
+              <lb ed="#P" n="43"/>infinite perfectum: et per consequens esset ita perfe 
+              <lb ed="#P" n="44"/>ctus sicut deus. consequens est falsum. igitur. 
+              pro<lb ed="#P" n="45" break="no"/>bo consequentiam: quia deus potest creare in instan 
+              <lb ed="#P" n="46"/>ti terminante illam horam vnum mundum quolibet 
+              <lb ed="#P" n="47"/>mundorum aliorum perfectiorem: sit ille mundus c. 
+              <lb ed="#P" n="48"/>tunc sic arguitur. in infinitum perfectus est aliquis 
+              <lb ed="#P" n="49"/>istorum mundorum (demonstrando mundos infinitor 
+              <lb ed="#P" n="50"/>productos in partibus proortionalibus hore) per 
+              <lb ed="#P" n="51"/>te et quolibet illorum c perfectior est. ergo cest 
+              in<lb ed="#P" n="52" break="no"/>finite perfectus. tenet consequentia sicut in quantis in inf 
+              <lb ed="#P" n="53"/>nitum magnum est aliquod istorum corporum. eto 
+              <lb ed="#P" n="54"/>quolibet illorum est maius. ergo cest in infinitum 
+              ma<lb ed="#P" n="55" break="no"/>gnum: et infinitum. idemtidem in paruitate: 
+              infi<lb ed="#P" n="56" break="no"/>nitum paruum est aliquod illorum corporum: et c quol 
+              <lb ed="#P" n="57"/>bet illorum est minus. ergo c nullius 
+              magnitudi<lb ed="#P" n="58" break="no"/>nis est. et ita vtrobique videtur valere modus 
+              arguen<lb ed="#P" n="59" break="no"/>di.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e375">
+      ⁋ Et confirmatur: quia vel deus videt indiuiduum 
+              <lb ed="#P" n="60"/>supremum producibile vel non. si primum est sta 
+              <lb ed="#P" n="61"/>tus: et si ponatur status in creatione illorum 
+              indiui<lb ed="#P" n="62" break="no"/>duorum: pari ratione debes dare statum in specie 
+              <lb ed="#P" n="63"/>bus. si non videt: ergo non omnia nude intuetur 
+              <lb ed="#P" n="64"/>contra praedeterminata in distinctione. xxxv.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e388">
+      ⁋ Ac 
+              <lb ed="#P" n="65"/>primum dicitur quod consequentia principalis nihil va 
+      <!--219.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 102vb -->
+               <lb ed="#P" n="66"/>let. in infinitum perfectus est aliquis illorum 
+              mun<lb ed="#P" n="67" break="no"/>dorum: et c qnolibet illorum est perfectior. ergoc est infini 
+              <lb ed="#P" n="68"/>te perfectus. quemadmodum non sequitur: in 
+              infini<lb ed="#P" n="69" break="no"/>tum perfectus est aliquis istorum: et equus quolibet 
+              <lb ed="#P" n="70"/>istorum est perfectior: ergo equus est infinite perfectus 
+              <lb ed="#P" n="71"/>deus enim potest inter equum a asinum producere 
+              in<lb ed="#P" n="72" break="no"/>finita indiuidua: quorum quodlibet asinum in 
+              perfe<lb ed="#P" n="73" break="no"/>ctione exuperet a minoris perfectionis sit quam equus. 
+              <lb ed="#P" n="74"/>hec enim consequentia non tenet in rebus specie distinctis. 
+            </p>
+            <p xml:id="jm12w4-e71216-d1e419">
+               <lb ed="#P" n="75"/>⁋ Ad secundum dicitur: quod quodlibet creabile a deo de 
+              <lb ed="#P" n="76"/>videt distincte: patet per ascensum.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e426">
+      ⁋ Secunda 
+              <lb ed="#P" n="77"/>propositio. deus non videt perfectissimum quod 
+              po<lb ed="#P" n="78" break="no"/>test creare sic quod non potest creare perfectius. patet 
+              <lb ed="#P" n="79"/>qui nullum tale est dabile et non videt deus impossi 
+              <lb ed="#P" n="80"/>bile.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e438">
+      ⁋ Tertia propositio. omnia producibilia a deo 
+              <lb ed="#P" n="81"/>deus videt: capiendo omnia distributiue a non colle 
+              <lb ed="#P" n="82"/>ctiue. hoc liquet ex dictis in. xvii. distinctione 
+              hu<lb ed="#P" n="83" break="no"/>ius.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e447">
+      ⁋ Preterea: ex hac positione sequitur quod inter 
+              <lb ed="#P" n="84"/>duo extrema finita potest claudi infinitum: contra 
+              <lb ed="#P" n="85"/>
+               <name xml:id="jm12w4-e71216-Nd1e453" ref="#Aristotle">Aristotelem</name> primo Posteriorum.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e457">
+      ⁋ Respondetur: distin 
+              <lb ed="#P" n="86"/>guendo quod inter duo extrema finita potclaudi infi 
+              <lb ed="#P" n="87"/>nitum: vel multitudine: et sic conceditur secundum dei pote 
+              <lb ed="#P" n="88"/>tiam absolutam: vel magnitudine: et sic negatur. 
+              <lb ed="#P" n="89"/>deus enim potest in qualibet parte pportionali ho 
+              <lb ed="#P" n="90"/>re creare vnum angelum. creetur a in prima parte 
+              pro<lb ed="#P" n="91" break="no"/>portionali hore et b instanti terminatiuo hore iam 
+              <lb ed="#P" n="92"/>inter a et b infiniti creantur angeli.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e475">
+      ⁋ Si dicas vnde 
+              <lb ed="#P" n="93"/>cimo confessionum capitulo tertio dicit <name xml:id="jm12w4-e71216-Nd1e479" ref="#Augustine">Augustinus</name> 
+               <lb ed="#P" n="94"/>duo domine fecisti vnum prope te: alterum prope nihil 
+              <lb ed="#P" n="95"/>vnum quo superius tu esses alterum quo inferius nia 
+              <lb ed="#P" n="96"/>hil esset: scilicet materiam primam.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e489">
+      ⁋ Insuper dabile est 
+              <lb ed="#P" n="97"/>ens perfectissimum: ergo potest dari ens 
+              imperfe<lb ed="#P" n="98" break="no"/>ctissimum: et qua ratione potest dari nunc datur: ergo 
+              <lb ed="#P" n="99"/>non potest creare nouas species.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e498">
+      ⁋ Ad primum 
+              <lb ed="#P" n="100"/>istorum dicitur quod loquitur de facto: potest enim crea 
+              <lb ed="#P" n="101"/>re materiam alterius speciei perfectiorem ista: et 
+              <lb ed="#P" n="102"/>fortasse vnam formam imperfectiorem ista 
+              mate<lb ed="#P" n="103" break="no"/>ris.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e510">
+      ⁋ Ad secundum negatur consequentia. datur ma 
+              <lb ed="#P" n="104"/>ximum corpus quod potest esse. patet de corpe infia 
+              <lb ed="#P" n="105"/>nito vndiquaque. non quidem maximum in entitater 
+              <lb ed="#P" n="106"/>sed in extensione. sed non datur minimum in 
+              exten<lb ed="#P" n="107" break="no"/>sione.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e521">
+      ⁋ Amplius arguitur. sequeretur quod deus 
+              pro<lb ed="#P" n="108" break="no"/>duxit mundum ignobilem. contra illud Geneseos 
+              <lb ed="#P" n="109"/>primo. Vidit deus cuncta que fecit: et erant valde 
+              <lb ed="#P" n="110"/>bona: patet: quia poterat produxisse mundum meliorem. 
+            </p>
+            <p xml:id="jm12w4-e71216-d1e530">
+               <lb ed="#P" n="111"/>⁋ Rursus: deus potest creare aliquid inter hominem ei 
+              <lb ed="#P" n="112"/>equum alterius speciei ab vtroque illorum: dicatur illud a / 
+              <lb ed="#P" n="113"/>a excedit equu in perfectione: ergo potest diuidi in equale 
+              <lb ed="#P" n="114"/>equo a in excessum. separetur ille excessus iam dabit 
+              <lb ed="#P" n="115"/>a alterius speciei ab equo equalis perfectionis cum eque 
+            </p>
+            <p xml:id="jm12w4-e71216-d1e543">
+               <lb ed="#P" n="116"/>⁋ Ad primum nego: quod deus produxit mundum ignobilem 
+              <lb ed="#P" n="117"/>immo pulchrum: patet ex tanta varietate in celis circa 
+              <lb ed="#P" n="118"/>planetas erraticos: stellas fixas: varios motus si 
+              <lb ed="#P" n="119"/>multaneos ab oriente in occidentem: et contra superpolos 
+              <lb ed="#P" n="120"/>zodiaci et super polos mundi. hoc patet etiam in istis infe 
+              <lb ed="#P" n="121"/>rioribus: ita quod magnitudo cause relucet in suo effe 
+              <lb ed="#P" n="122"/>ctu nobilissimo. secundum illud Job. v. Qui facit magna 
+              <lb ed="#P" n="123"/>et inscrutabilia et mirabilia absque nunero. qui dat pluu 
+              <lb ed="#P" n="124"/>uiam super terram: et irrigat aquis vniuersa. non quin 
+              in<lb ed="#P" n="125" break="no"/>finitos effectus meliores potest producere.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e567">
+      ⁋ Et 
+              re<lb ed="#P" n="126" break="no"/>fellitur argumentum in aduersarios qui non negarent quin 
+              <lb ed="#P" n="127"/>posset producere mundum secundum quodlibet indiuiduum 
+              <lb ed="#P" n="128"/>pulchrius accidentaliter. Nec valet dicere quod tunc 
+              vni<lb ed="#P" n="129" break="no"/>uersum non esset pulchrius: vt si esset optimus color in 
+              <lb ed="#P" n="130"/>pariete non tantum decoris afferret aspicienti sicut va 
+      <!--220.xml-->
+      <pb ed="#P" n="103-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rietas colorum.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e589">
+      ⁋ hoc inquam non valet quia esset va 
+              <lb ed="#P" n="2"/>rietas sufficiens in rebus productis dato quod accidenta 
+              <lb ed="#P" n="3"/>liter essent perfectiores.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e597">
+      ⁋ Ad secundum dicitur con 
+              <lb ed="#P" n="4"/>cedendo quod a excedit equum in perfectione: sed nego 
+              <lb ed="#P" n="5"/>quod potest diuidi in equale equo a in excessum. hoc enim 
+              <lb ed="#P" n="6"/>non tenet in rebus diuersarum specierum. signo vnam 
+              <lb ed="#P" n="7"/>superbiam malam vt quattuor cum vno veniali cum ea: 
+              <lb ed="#P" n="8"/>signo aliam superbiam intensiorem illa quantunmcunque 
+              vo<lb ed="#P" n="9" break="no"/>lueris: ducatur binarius ex superbia priori mortali et 
+              ve<lb ed="#P" n="10" break="no"/>niali a / et alia superbiab / iam b est peior a / et non potest 
+              <lb ed="#P" n="11"/>dari excessus quo b / excedit a et equalitas copulatim 
+              <lb ed="#P" n="12"/>Quod nulla pars b est equalis a patet: non superbia vt 
+              <lb ed="#P" n="13"/>uattuor: quia a est peior illa. et si dederis aliquam 
+              par<lb ed="#P" n="14" break="no"/>tem intensiorem quam vt quattuor iam illa includit exces 
+              <lb ed="#P" n="15"/>sum mortalem: modo quodlibet mortale est peius in in 
+              <lb ed="#P" n="16"/>dignitate quam veniale: et dato quod veniale a mortale sint 
+              <lb ed="#P" n="17"/>eiusdem speciei entitatiue: peccatum mortale est in 
+              in<lb ed="#P" n="18" break="no"/>finitum peius in ratione offense: nolo tamen dicere quod 
+              <lb ed="#P" n="19"/>cuilibet mortali intensior pena gradualis correspon 
+              <lb ed="#P" n="20"/>deat quam huic veniali.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e636">
+      ⁋ Sed contra probationem pri 
+              <lb ed="#P" n="21"/>me conclusionis arguitur sic. due anime intellectiue sunt 
+              <lb ed="#P" n="22"/>perfectiores vna anima intellectiua. ergo probatio 
+              <lb ed="#P" n="23"/>nulla. antecedens patet. homo est perfectior sua anima in 
+              <lb ed="#P" n="24"/>tellectiua: quia quicquid perfectionis est in anima illud  
+              <lb ed="#P" n="25"/>est in homie: et aliquid aliud: materia aliquid perfectio 
+              <lb ed="#P" n="26"/>nis includit.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e652">
+      ⁋ Item sicut omne totum est maius 
+              en<lb ed="#P" n="27" break="no"/>titatiue sua parte: ita quodlibet totum diuersarum 
+              ra<lb ed="#P" n="28" break="no"/>tionum est perfectius altera partium. et vltra: homo 
+              <lb ed="#P" n="29"/>est perfectior anima sua et imperfectior duabus animabus 
+              <lb ed="#P" n="30"/>Quod partet demonstrando binarium animarum vna illarum est 
+              <lb ed="#P" n="31"/>ita perfecta sicut anima hominis: et altera anima est perfe 
+              <lb ed="#P" n="32"/>ctior materia homins: ergo iste binarius (duabus ani 
+              <lb ed="#P" n="33"/>mabus demonstrantis )/ est perfectior homine. Nam alioqui 
+              <lb ed="#P" n="34"/>binarius vnius homins et vnius equi non est perfectior 
+              <lb ed="#P" n="35"/>binario homnins at asini: tunc sic. iste binarius duarum 
+              ani<lb ed="#P" n="36" break="no"/>marum est perfectior hoc homine creato: et hec anima non est 
+              <lb ed="#P" n="37"/>perfectior hoc homine: ergo hec anima non est eque perfecta 
+              <lb ed="#P" n="38"/>cum duabus animabus.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e681">
+      ⁋ Preterea per articulum 
+              pr<lb ed="#P" n="39" break="no"/>risiensem dicere animam iude esse ita perfecta sicut animam 
+              <lb ed="#P" n="40"/> Cchristim puris naturalibus est error: et tamen sunt 
+              <lb ed="#P" n="41"/>eiusdem speciei: ergo non inconuenit dare duo indiuidua 
+              <lb ed="#P" n="42"/>eiusdem speciei inequaliter perfecta.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e692">
+      ⁋ Insuper 
+              de<lb ed="#P" n="43" break="no"/>monstremus a albedinem ex vna parte vnius gradus 
+              <lb ed="#P" n="44"/>et albedinem vt duo b etc.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e699">
+      ⁋ Arguitur sic b est ita perfecta 
+              <lb ed="#P" n="45"/>sicut a et cest equaliter perfecta sicut a. ergo duplex 
+              <lb ed="#P" n="46"/>perfectio est in b et cad a: et sic si esset infinita albedo 
+              <lb ed="#P" n="47"/>intensiue illa est infinite perfectior a: et tamen albedo 
+              <lb ed="#P" n="48"/>infinita in gradu et a sunt eiusdem speciei.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e711">
+      ⁋ Simili 
+              <lb ed="#P" n="49"/>ter dualita vb etc est eiusdem speciei specialissime cum 
+              <lb ed="#P" n="50"/>a.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e718">
+      ⁋ Ad primum nego assumptu homo est perfectior 
+              <lb ed="#P" n="51"/>sua anima et binario animarum et ternario: et consequentia assumpta 
+              <lb ed="#P" n="52"/>ad probandum binarium aimarum esse perfectiorem homins 
+              <lb ed="#P" n="53"/>non valet quando ille res demonstrate in anteceden 
+              <lb ed="#P" n="54"/>te sunt eiusdem speciei: secus est de comparatione 
+              assum<lb ed="#P" n="55" break="no"/>pta de homine et equo respectu homins at asini.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e731">
+      ⁋ Ad 
+              se<lb ed="#P" n="56" break="no"/>cundum de anima Christi et anima iude non est intelligibile co 
+              <lb ed="#P" n="57"/>vna anima indiuisibilis eiusde speciei specialissime cum 
+              <lb ed="#P" n="58"/>alia sit alia perfectior entitatiue seu substantialiter. 
+              <lb ed="#P" n="59"/>Quod anima intellectiua sit indiuisibilis. patet quia s 
+              <lb ed="#P" n="60"/>haberet partes eiusdem rationis: tunc plures 
+              ani<lb ed="#P" n="61" break="no"/>me possunt facere vnam animam sicut plures gradus 
+              for<lb ed="#P" n="62" break="no"/>ime accidentalis componunt vnam formam vel 
+              compone<lb ed="#P" n="63" break="no"/>re possunt: quod non admittitur
+            </p>
+            <p xml:id="jm12w4-e71216-d1e751">
+      ⁋ Potest dici quod articum 
+              <lb ed="#P" n="64"/>lus intelligitur de nobilitate maiori per virtutes et 
+              <lb ed="#P" n="65"/>scientias beatitudinem et similia: vel quia sublimatur a per 
+              <lb ed="#P" n="66"/>sona diuina per vnionan hypostaticam.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e760">
+      ⁋ Sed con 
+      <!--220.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 103rb -->
+               <lb ed="#P" n="67"/>tra: hoc non est ad intentionem articuli: nullus enim theologus 
+              <lb ed="#P" n="68"/>de hoc dubitauit vt patet capite. viii. hec sunt 
+              verba<lb ed="#P" n="69" break="no"/>articuli. inconueniens est ponere alios intellectus 
+              no<lb ed="#P" n="70" break="no"/>biliores aliis: quia cum ista diuersitas non potest csse 
+              <lb ed="#P" n="71"/>ex parte corporum: oportet quod sit er parte 
+              intelligen<lb ed="#P" n="72" break="no"/>tiarum: et sic anime nobiles et ignobiles essent necessa 
+              <lb ed="#P" n="73"/>rio diuersarum specierum sicut intelligentie: error. quia 
+              <lb ed="#P" n="74"/>sic anima Christinon esset nobilior anima iude.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e786">
+      ⁋ 
+              Re<lb ed="#P" n="75" break="no"/>spondetur negando quod solutio data non sufficiat: articum 
+              <lb ed="#P" n="76"/>lus enim bene dicit animam Christi esse nobiliorem 
+              ani<lb ed="#P" n="77" break="no"/>ma iude e illa nobilitas non prouenit ex differentia 
+              <lb ed="#P" n="78"/>specifica nec er parte corporum: sed non sequitur 
+              pro<lb ed="#P" n="79" break="no"/>pterea quod est nobilior anima iude substantialiter: sed  
+              <lb ed="#P" n="80"/>est fallacia consequentis: et dicitur quod nullus bonus theologus 
+              <lb ed="#P" n="81"/>de hoc dubitat: sed contra tales non fabricantur arti 
+              <lb ed="#P" n="82"/>culi: sed contra non bene capientes.
+            </p>
+            <p xml:id="jm12w4-e71216-d1e807">
+      ⁋ Insuper vnus 
+              <lb ed="#P" n="83"/>homo eiusdem speciei cum alio est eo ingeniosior a ha 
+              <lb ed="#P" n="84"/>bet meliora naturalia: vt molles carne sunt apti mem 
+              <lb ed="#P" n="85"/>te: secundo de anima: sic forre articulus intelligit quod vna anima 
+              <lb ed="#P" n="86"/>eiusdem speciei cum alia splendidius capit quam alia vel 
+              <lb ed="#P" n="87"/>per lumem naturale concreatum: et sine eo. Sicut secundum 
+              <lb ed="#P" n="88"/>coniter loquentes requiritur lumem glorie ad clare videm 
+              <lb ed="#P" n="89"/>dum deum: et sic duo homines habentes corpora equalia in 
+              <lb ed="#P" n="90"/>equaliter caperent equali opera adhibita. Qui 
+              po<lb ed="#P" n="91" break="no"/>nunt intellectum accidens anime inherens possunt fa 
+              <lb ed="#P" n="92"/>cile respondere: sed hoc non ponimus sed ipsum idem 
+              <lb ed="#P" n="93"/>tificatum cum anima realiter: animam intellectum et 
+              vo<lb ed="#P" n="94" break="no"/>luntatem dicimus: ergo non est intentio articuli 
+              dice<lb ed="#P" n="95" break="no"/>cere animam Christi perfectiorem esse anima iude 
+              substan<lb ed="#P" n="96" break="no"/>tialiter nec intend ebat suos obligare ad illud: cum opi 
+              <lb ed="#P" n="97"/>positum in hoc studio communiter teneatur. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

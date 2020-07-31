@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="30-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e19491"> <!--l1d2q2 -->
+            <head xml:id="jm12w4-e19491-Hd1e106">Quaestio 2</head>
+            <head xml:id="jm12w4-e19491-Hd1e109" type="question-title">
+      An in lumine naturali ostendi potest in Deo 
+      omnis imperfectionis carentia, et perfectionis simpliciter positio?
+    </head>
+            <p xml:id="jm12w4-e19491-d1e112">
+      <!--74.xml-->
+               <pb ed="#P" n="30-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>⁋<quote xml:id="jm12w4-e19491-Qd1e122" source="http://scta.info/resource/pll1d2c4-d1e3825" synch="1-10"> Alibi quoque distinctionem personarum 
+              <lb ed="#P" n="2"/>insinuans ait. Verbo domini celi firmati sunt.</quote>
+            </p>
+            <p xml:id="jm12w4-e19491-d1e128">
+               <lb ed="#P" n="3"/>⁋ Distinctionis secunde questio secunda. 
+              <lb ed="#P" n="4"/>HIc queritur secundo circa hanc distin 
+              <lb ed="#P" n="5"/>ctionem: an in lumine naturali 
+              osten<lb ed="#P" n="6" break="no"/>di potest in deo omnis imperfectionis 
+              <lb ed="#P" n="7"/>carentia: et perfectionis simpliciter 
+              po<lb ed="#P" n="8" break="no"/>sitio.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e145">
+      ⁋ Respondetur per duas 
+              con<lb ed="#P" n="9" break="no"/>clusiones.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e150">
+      ⁋ Prior est affirmatiua re 
+              <lb ed="#P" n="10"/>sponsiua ad titulum questionis tanquam multum 
+              pro<lb ed="#P" n="11" break="no"/>babilis.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e157">
+      ⁋ Secunda conclusio. aliqua est 
+              perfe<lb ed="#P" n="12" break="no"/>ctio deo competens: que non potest ostendi deo com 
+              <lb ed="#P" n="13"/>petere.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e164">
+      ⁋ Prior conclusio probatur: fit aliqua con 
+              <lb ed="#P" n="14"/>ditio perfectionalis quam dicis primo enti non 
+              con<lb ed="#P" n="15" break="no"/>uenire: sed enti secundo: tunc ens secundum erit 
+              per<lb ed="#P" n="16" break="no"/>fectius quo ad aliquam denominationem quam ens 
+              <lb ed="#P" n="17"/>primum / sed inconueniens est tribuere enti secun 
+              <lb ed="#P" n="18"/>do perfectionem aliquam quam a primo tollis. 
+              <lb ed="#P" n="19"/>Sed dices aliqua perfectio maior ei conuenit: quod 
+              <lb ed="#P" n="20"/>sufficit. Sed contra. tunc nulla conditio 
+              nobilita<lb ed="#P" n="21" break="no"/>tis reperta in creaturis potest argui ex creaturis 
+              <lb ed="#P" n="22"/>esse attribuenda deo. tibi diceretur non 
+              inconue<lb ed="#P" n="23" break="no"/>nire aliquam conditionem nobiliorem esse enti se 
+              <lb ed="#P" n="24"/>cundo dandam et non primo. sed hoc est falsum: quia 
+              <lb ed="#P" n="25"/>tam philosophi quae catholici arguitiue attribuunt 
+              <lb ed="#P" n="26"/>deo quasdam conditiones nobilitatis que 
+              repe<lb ed="#P" n="27" break="no"/>riuntur in creaturis: nec per se inferunt imperfe 
+              <lb ed="#P" n="28"/>ctionem: vt patet. xii. Metaphysices. vbi 
+              argui<lb ed="#P" n="29" break="no"/>tur esse viuens cognoscens etc. Et per Augusti. 
+              <lb ed="#P" n="30"/>xv. de trinitate. cap. ix. quia naturali ratione 
+              iudi<lb ed="#P" n="31" break="no"/>camus preferenda esse viuentia non viuentibus: 
+              <lb ed="#P" n="32"/>intellectiua non intelligentibus: immortalia mor 
+              <lb ed="#P" n="33"/>talibus: bona malis: beata miseris: et creatorem 
+              <lb ed="#P" n="34"/>creaturis: sine diuisione preponimus oportet: vel 
+              <lb ed="#P" n="35"/>ipsum summe viuere / et intelligere / et optimum / et 
+              <lb ed="#P" n="36"/>beatissimum esse fateamur. Item <name xml:id="jm12w4-e19491-Nd1e216" ref="#Anselm">Anselmus</name> 
+              mo<lb ed="#P" n="37" break="no"/>no. cap. xv. pene cuncti tam eruditi quam minus 
+              eru<lb ed="#P" n="38" break="no"/>diti solent quasi pro regula tenere: scilicet: 
+              quic<lb ed="#P" n="39" break="no"/>quid optimum iudicant deo attribuere quicquid  
+              <lb ed="#P" n="40"/>altius attingit humana existimatio: et ex hoc 
+              ve<lb ed="#P" n="41" break="no"/>lut solido veritatis fundamento summi magistri 
+              <lb ed="#P" n="42"/>disputationis sue initium sumunt: cum diuinis 
+              pro<lb ed="#P" n="43" break="no"/>positionibus altius disserere intendunt: iuxta 
+              il<lb ed="#P" n="44" break="no"/>lud <ref xml:id="jm12w4-e19491-Rd1e236">primi de doctrina christiana. cap. iiii.</ref> 
+               <quote xml:id="jm12w4-e19491-Qd1e239" source="http://scta.info/resource/addc-l1-d1e177" synch="164-194"><!--range approximate -->omnes pro 
+              <lb ed="#P" n="45"/>excellentia dei dimicant: nec quisquam inuenire 
+              po<lb ed="#P" n="46" break="no"/>test qui deum credit esse quo est aliquid melius. 
+              <lb ed="#P" n="47"/>itaque deum esse omnes concesserunt quod ceteris 
+              <lb ed="#P" n="48"/>anteponunt</quote>. Rursus secundum modum 
+              arguen<lb ed="#P" n="49" break="no"/>di <ref xml:id="jm12w4-e19491-Rd1e254">
+                  <name xml:id="jm12w4-e19491-Nd1e256" ref="#Anselm">Anselmi</name> mono. cap. xv</ref> aut a in quolibet foret 
+              <lb ed="#P" n="50"/>
+               <quote xml:id="jm12w4-e19491-Qd1e262" source="http://scta.info/resource/adcmon-c15-d1e167" synch="36-40">melius ipsum quam non ipsum</quote>: et quam conditio 
+              opposi<lb ed="#P" n="51" break="no"/>ta et repugnans: aut non si primum ergo ens secundum 
+              <lb ed="#P" n="52"/>melius est ente primo: et aliqua perfectio entis se 
+              <lb ed="#P" n="53"/>cundi est superior perfectione primi entis. Si 
+              se<lb ed="#P" n="54" break="no"/>cundum. ergo in aliqua melius est non ipsum quam ip 
+              <lb ed="#P" n="55"/>sum. igitur necessario infert imperfectionem: quia 
+              <lb ed="#P" n="56"/>negationem conditionis opposite superioris in 
+              en<lb ed="#P" n="57" break="no"/>te.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e281">
+      ⁋ Secunda conclusio patet. non potest 
+              proba<lb ed="#P" n="58" break="no"/>ri in lumine naturali quod deus est omnipotens / 
+              crea<lb ed="#P" n="59" break="no"/>tiuus / quod potest producere accidens sine subiecto 
+              <lb ed="#P" n="60"/>et quemlibet effectum sine causa secunda / et quod est 
+              <lb ed="#P" n="61"/>trinus et vnus. Ista sola fide conceduntur: et a 
+              phi<lb ed="#P" n="62" break="no"/>losophis negantur.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e294">
+      ⁋ Contra priorem conclusio 
+              <lb ed="#P" n="63"/>nem arguitur. nulla perfectio simpliciter 
+              conue<lb ed="#P" n="64" break="no"/>nit creature. ergo ex creaturis nulla perfectio sim 
+      <!--74.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 30rb -->
+               <lb ed="#P" n="65"/>pliciter potest deo attribui ex eo quod reperitur in crea 
+              <lb ed="#P" n="66"/>tura. antecedens patet: quia quicquid reperitur 
+              <lb ed="#P" n="67"/>in creaturis est dependens: et possibile non esse. 
+              igi<lb ed="#P" n="68" break="no"/>tur per se annexum imperfectioni et necessario 
+              in<lb ed="#P" n="69" break="no"/>ferens imperfectionem: ergo si aliqua perfectio 
+              <lb ed="#P" n="70"/>reperta in creaturis attribuitur deo: sequitur quod 
+              <lb ed="#P" n="71"/>deo attribuitur perfectio includens 
+              imperfectio<lb ed="#P" n="72" break="no"/>nem.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e326">
+      ⁋ Insuper nihil est in creatura quod in 
+              quo<lb ed="#P" n="73" break="no"/>libet sit melius ipsum quam non ipsum: nihil enim crea 
+              <lb ed="#P" n="74"/>tum est melius in deo quam non ipsum. sapientia non 
+              <lb ed="#P" n="75"/>est aliquid melius cani quam non ipsum: quia esse 
+              sa<lb ed="#P" n="76" break="no"/>pientem essentiam canis destruit.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e337">
+      ⁋ 
+              Responde<lb ed="#P" n="77" break="no"/>tur: triphariam capitur perfectio simpliciter. 
+            </p>
+            <p xml:id="jm12w4-e19491-d1e342">
+               <lb ed="#P" n="78"/>⁋ Prima est que omni imperfectione caret: nec 
+              <lb ed="#P" n="79"/>est ei annexa imperfectio: et est simpliciter nobilior 
+              <lb ed="#P" n="80"/>omni eo quod non est ipsa: vel quod est 
+              incompos<lb ed="#P" n="81" break="no"/>sibile ipsis. et sic sola diuinitas est perfectio simplici 
+              <lb ed="#P" n="82"/>ter. Nec aliqua perfectio inexistens creature est 
+              <lb ed="#P" n="83"/>perfectio simpliciter: nisi in quadam metaphora: 
+              <lb ed="#P" n="84"/>pro quanto quedam perfectiones creaturarum 
+              con<lb ed="#P" n="85" break="no"/>ueniunt cum diuina perfectione in aliquo communi¬ 
+            </p>
+            <p xml:id="jm12w4-e19491-d1e362">
+               <lb ed="#P" n="86"/>⁋ Secundo modo capitur perfectio simpliciter 
+              <lb ed="#P" n="87"/>pro conditione dicibili de ente ex qua non 
+              sequi<lb ed="#P" n="88" break="no"/>tur imperfectio in ente cui conuenit: immo infert 
+              <lb ed="#P" n="89"/>imperfectionem in omni cui deest: et que etiam 
+              vni<lb ed="#P" n="90" break="no"/>uersaliter infert: illud ens cui conuenit esse 
+              sim<lb ed="#P" n="91" break="no"/>pliciter perfectius et nobilius omni ente cui non 
+              <lb ed="#P" n="92"/>conuenit. et sic Philosophi et Theologi 
+              conce<lb ed="#P" n="93" break="no"/>dunt huiusmodi perfectiones attribui deo. et sic 
+              <lb ed="#P" n="94"/>esse substantiam / vitam / vel intelligentem / 
+              dici<lb ed="#P" n="95" break="no"/>tur perfectio simpliciter. si omne huiusmodi sit 
+              sim<lb ed="#P" n="96" break="no"/>pliciter perfectius omni ente non huiusmodi 
+              <lb ed="#P" n="97"/>Sed isto modo esse simplex ens / vel impartibile / 
+              <lb ed="#P" n="98"/>vel esse naturaliter ingenerabile et 
+              incorruptibi<lb ed="#P" n="99" break="no"/>le / et obiectum vel esse ens spirituale / et 
+              inexten<lb ed="#P" n="100" break="no"/>sum / vel esse productiuum caloris non dicuntur 
+              <lb ed="#P" n="101"/>perfectiones simpliciter: materia enim 
+              ingenera<lb ed="#P" n="102" break="no"/>bilis non est ens perfectius composito. nec accidens 
+              inex<lb ed="#P" n="103" break="no"/>tensum est ens nobilius substantia corporea: nec calor 
+              <lb ed="#P" n="104"/>productiuus caloris est ens perfectius angelo: qui non 
+              <lb ed="#P" n="105"/>est productiuus caloris.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e408">
+      ⁋ Tertio modo pro conditione qua 
+              <lb ed="#P" n="106"/>attributa enti non infert imperfectionem enti cui 
+              conue<lb ed="#P" n="107" break="no"/>nit: sed infert illud esse imperfectum cui deest: et licet 
+              <lb ed="#P" n="108"/>non vniuersaliter infert illud cui conuenit esse simpli 
+              <lb ed="#P" n="109"/>citer perfectius ens eo cui non conuenit: tamen vniuersa 
+              <lb ed="#P" n="110"/>liter infert illud cui conuenit esse praestantius: saltem 
+              <lb ed="#P" n="111"/>quo ad hanc conditionem: omni enti cui non conuenit 
+              <lb ed="#P" n="112"/>huiusmodi conditio: et cui conuenit conditio repugnans 
+              <lb ed="#P" n="113"/>et infert illud cui conuenit esse praestantius eo cui non 
+              <lb ed="#P" n="114"/>conuenit ceteris paribus: et infert illud cui non 
+              con<lb ed="#P" n="115" break="no"/>uenit esse praestantius si sibi conueniret ceteris paribus: 
+              <lb ed="#P" n="116"/>id est suppositis eisdem vel equalibus perfectionibus 
+              <lb ed="#P" n="117"/>hoc videtur sumi ab <ref xml:id="jm12w4-e19491-Rd1e436">
+                  <name xml:id="jm12w4-e19491-Nd1e438" ref="#Anselm">Anselmo</name> mono. xv.</ref> patet per eius 
+              <lb ed="#P" n="118"/>exemplum: <quote xml:id="jm12w4-e19491-Qd1e444" source="http://scta.info/resource/adcmon-c15-d1e167" synch="85-132">melius est esse sapientem quam non sapientem: 
+              <lb ed="#P" n="119"/>quaeuis iustus non sapiens videatur nobilior quam sapiens 
+              <lb ed="#P" n="120"/>non iustus: tamen omnis non sapiens inquantum non 
+              sa<lb ed="#P" n="121" break="no"/>piens minor est quam sapiens: quia omnis non sapiens melior 
+              <lb ed="#P" n="122"/>esset si esset sapiens</quote> ceteris paribus. Argumentum proce 
+              <lb ed="#P" n="123"/>dit de perfectione simpliciter primo modo dicta: et non duobus 
+              <lb ed="#P" n="124"/>vltimis modis.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e460">
+      ⁋ Ad secundum dicitur: quaeuis nulla 
+              enti<lb ed="#P" n="125" break="no"/>tas sit in creatura aliqua quae foret cuilibet enti 
+              me<lb ed="#P" n="126" break="no"/>lior quam non ipsa: et quam entitas aliqua incompossibilis 
+              se<lb ed="#P" n="127" break="no"/>cundum identitatem: tamen aliqua conditio essendi  
+              <lb ed="#P" n="128"/>est verificabilis de creatura: et pro creatura. quae quod  
+              <lb ed="#P" n="129"/>libet cui conuenit infert esse melius omni eo cui non 
+      <!--75.xml-->
+      <pb ed="#P" n="30-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>conuenit ipsa. licet cani non sit melius esse 
+              sapien<lb ed="#P" n="2" break="no"/>tem quam latrabilem esse: tamen prestantius est enti esse 
+              <lb ed="#P" n="3"/>sapiens cui conuenit quam cani esse latrabilem.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e487">
+      ⁋ 
+              Se<lb ed="#P" n="4" break="no"/>cundo arguitur. esse creatiuum: primum efficiens: 
+              in<lb ed="#P" n="5" break="no"/>dependens / vltimum finem et donum summum / 
+              de<lb ed="#P" n="6" break="no"/>bent esse perfectiones simpliciter ex dictis: sed hoc 
+              <lb ed="#P" n="7"/>est falsum. nulla perfectio simpliciter potest remo 
+              <lb ed="#P" n="8"/>ueri a deo. sed iste conditiones per remotionem 
+              crea<lb ed="#P" n="9" break="no"/>turarum possunt remoueri a deo. si sortes non sit: 
+              <lb ed="#P" n="10"/>deus non est causa efficiens eius: nec eius vltimus 
+              <lb ed="#P" n="11"/>finis: nec domins eius: secundum <ref xml:id="jm12w4-e19491-Rd1e506">
+                  <name xml:id="jm12w4-e19491-Nd1e508" ref="#Augustine">Augustinum.</name> xii. de ciuita 
+              <lb ed="#P" n="12"/>te dei. cap. xv.</ref> et. <ref xml:id="jm12w4-e19491-Rd1e514">v. de trinitate. ca. vltimo.</ref> Sed 
+              di<lb ed="#P" n="13" break="no"/>ces (sicut dicendum est) posse esse dominimsummum / et 
+              <lb ed="#P" n="14"/>rerum causam / est conditio perfectionis simpliciter: 
+              <lb ed="#P" n="15"/>et non esse actu. Contra actus est perfectior 
+              poten<lb ed="#P" n="16" break="no"/>tia: vel saltem non minus perfectus. <ref xml:id="jm12w4-e19491-Rd1e526">ix. 
+              Metaphy<lb ed="#P" n="17" break="no"/>sice.</ref>
+            </p>
+            <p xml:id="jm12w4-e19491-d1e532">
+      ⁋ Contra secundam conclusionem 
+              argumen<lb ed="#P" n="18" break="no"/>tor sic. deum esse trinum et vnum est perfectio 
+              sim<lb ed="#P" n="19" break="no"/>pliciter deo conueniens que non potest probari 
+              ratio<lb ed="#P" n="20" break="no"/>ne naturali deo conuenire per te. Contra. probatut 
+              <lb ed="#P" n="21"/>naturali ratione deum esse ens summum / vniuersa 
+              <lb ed="#P" n="22"/>liter omnem perfectionem includens / et 
+              imperfectio<lb ed="#P" n="23" break="no"/>nem excludens: sed per te esse vnum in essentia et tri 
+              <lb ed="#P" n="24"/>num in personis est perfectio simpliciter. ergo natu 
+              <lb ed="#P" n="25"/>rali ratione probatur illud deo conuenire.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e552">
+      ⁋ 
+              Rur<lb ed="#P" n="26" break="no"/>sus in lumine naturali potest cognosci nullum 
+              im<lb ed="#P" n="27" break="no"/>possibile sequi ad deum vnum esse in essentia et 
+              tri<lb ed="#P" n="28" break="no"/>num in personis: vt in distinctione quarta post hac 
+              <lb ed="#P" n="29"/>elucescet. et ita de aliis perfectionibus que deo 
+              con<lb ed="#P" n="30" break="no"/>ueniunt ex sola fide cognitis. ergo in lumine natu 
+              <lb ed="#P" n="31"/>rali talia sunt deo attribuenda.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e568">
+      ⁋ Ad secundum suf<lb ed="#P" n="32" break="no"/>ficienter 
+      responsum est inter arguendum ad calcem 
+              <lb ed="#P" n="33"/>vsque. et dicitur quod multe cause ita perfecte sic se habent 
+              <lb ed="#P" n="34"/>actualiter facientes sicut potentes facere: et 
+              perfe<lb ed="#P" n="35" break="no"/>ctiori modo potissimum in actibus bonis. sed non 
+              vtro<lb ed="#P" n="36" break="no"/>bique creatio actiua dei non distinguitur a creatione 
+              <lb ed="#P" n="37"/>possibili dei quando creat: sed est essentia dei. 
+              simi<lb ed="#P" n="38" break="no"/>ter de dominio dicatur.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e586">
+      ⁋ Ad aliud contra secundam 
+              <lb ed="#P" n="39"/>conclusionem: concedo illam maiorem: omnem 
+              perfe<lb ed="#P" n="40" break="no"/>ctionem simpliciter Philosophi deo conuenire 
+              <lb ed="#P" n="41"/>sciuerunt. et quando addis minorem: esse trinum in perso 
+              <lb ed="#P" n="42"/>nis / et vnum in essentia: est perfectio simpliciter. hoc 
+              <lb ed="#P" n="43"/>est verum: sed consequentia est nulla: capiendo illam in sensu 
+              <lb ed="#P" n="44"/>composito de scio. non sequitur omnem hominem in 
+              <lb ed="#P" n="45"/>capro esse in capvro est scita a me. Solidanus syrie 
+              <lb ed="#P" n="46"/>est homo in capro. ergo scitur a me quod solidanus est in 
+              <lb ed="#P" n="47"/>cavro. quia si sit minor vera totum antecedens est verum: et consequens 
+              <lb ed="#P" n="48"/>falsum et patet ex argumento platonis in memnone 
+              pri<lb ed="#P" n="49" break="no"/>modo posteriorum allegato a philosopho. tuscis omnen 
+              <lb ed="#P" n="50"/>dualitatem esse parem. dualitas in bursa platonis 
+              <lb ed="#P" n="51"/>est dualitas. ergo illam scis esse parem. si capiatur maior 
+              <lb ed="#P" n="52"/>in sensu diuiso: consequentia est bona: et maior est fal 
+              <lb ed="#P" n="53"/>sa: sicut conclusio. Non enim omnem perfectionem 
+              sim<lb ed="#P" n="54" break="no"/>plicitur philosophi sciuerunt deo conuenire: sicut nunc 
+              <lb ed="#P" n="55"/>omne ens esse ens est necesse: sortes est ens. ergo sortem 
+              <lb ed="#P" n="56"/>esse ens est necesse. totum antecedens est verum posita 
+              existen<lb ed="#P" n="57" break="no"/>tia sortis: et conclusio falsa.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e630">
+      ⁋ Ad tertium argumentum 
+              <lb ed="#P" n="58"/>si intelligatur quod de omni vero ex quo non sequitur 
+              im<lb ed="#P" n="59" break="no"/>possibile notum est in lumine naturali illud esse 
+              possi<lb ed="#P" n="60" break="no"/>bile. hoc est falsum. ex nullo enim credito (vt palam 
+              <lb ed="#P" n="61"/>est) sequitur impossibile: et tamen non de omni 
+              credi<lb ed="#P" n="62" break="no"/>to est sufficienter notum in lumine naturali illud esse 
+              <lb ed="#P" n="63"/>possibile. requiritur quod nec ex eo sequatur impossibile:  
+              <lb ed="#P" n="64"/>et quod in lumine naturali certum sit ex eo nullum sequi 
+              <lb ed="#P" n="65"/>impossibile: sed capiendo malorem de virtute 
+      sermo¬ 
+      <!--75.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 30vb -->
+               <lb ed="#P" n="66" break="no"/>nis vt iacet ipsa est vera. hec est certa mihi vel 
+              mi<lb ed="#P" n="67" break="no"/>hi scita: omnis illa propositio est possibilis ex qua non 
+              <lb ed="#P" n="68"/>sequitur impossibile: vel potius omnis illa propositio 
+              <lb ed="#P" n="69"/>ex qua nullum sequitur impossibile est possibilis etiam 
+              <lb ed="#P" n="70"/>minor est vera. sed consequentia est nulla.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e668">
+      ⁋ Ceterum de 
+              aliqui<lb ed="#P" n="71" break="no"/>bus conditionibus notum est eas in lumine natura 
+              <lb ed="#P" n="72"/>li dicere perfectionem: vt esse viuentem / intelligen 
+              <lb ed="#P" n="73"/>tem / tales philosophi et prudentes omnes deo 
+              attri<lb ed="#P" n="74" break="no"/>buunt. alias liquet imperfectionem includere: tales 
+              <lb ed="#P" n="75"/>ab omnibus sapientibus a deo negantur. de 
+              aliqui<lb ed="#P" n="76" break="no"/>bus conditionibus dubium est: an imperfectionem aut 
+              <lb ed="#P" n="77"/>perfectionem dicant: de talibus dubium est: an deo 
+              con<lb ed="#P" n="78" break="no"/>petant. qui diceret eas dicere perfectionem: et nullam 
+              <lb ed="#P" n="79"/>imperfectionem diceret eas deo posse competere. 
+              <lb ed="#P" n="80"/>Alii qui putant illas conditiones includere 
+              impe<lb ed="#P" n="81" break="no"/>fectionem negarent illas conditiones posse deo con 
+              <lb ed="#P" n="82"/>petere. Iohannes de ripa concederet deum posse 
+              <lb ed="#P" n="83"/>actuare materiam et ex consequenti negat informa 
+              <lb ed="#P" n="84"/>re dicere imperfectionem: cuius oppositum <name xml:id="jm12w4-e19491-Nd1e700" ref="#Lombard">Magister</name> 
+               <lb ed="#P" n="85"/>sententiarum et alii sapientes tenent. Aliqua sunt per 
+              <lb ed="#P" n="86"/>se nota in lumine naturali: aliqua euidentia / aliqua 
+              <lb ed="#P" n="87"/>magis probabilia quam sua opposita / aliqua problema 
+              <lb ed="#P" n="88"/>ta neutra / aliqua inopinabilia in lumine naturali 
+              <lb ed="#P" n="89"/>vt quod vna essentia est tres parsone: quarum nulla est 
+              <lb ed="#P" n="90"/>alia: quam tamen sunt certa in alio genere 
+              cognoscen<lb ed="#P" n="91" break="no"/>di vt puta per fidem. Dato quod solueres omnes 
+              syllogis<lb ed="#P" n="92" break="no"/>nos inferibiles contra hoc in lumine naturali: 
+              phi<lb ed="#P" n="93" break="no"/>osophus loquens diceret funda mentum esse 
+              impossi<lb ed="#P" n="94" break="no"/>bile: cum simile non reperiatur in creaturis. Et dice 
+              <lb ed="#P" n="95"/>ret vniuersalitatem citra de omni ad maiorem in 
+              dari<lb ed="#P" n="96" break="no"/>vel in barbara sufficere.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e730">
+      ⁋ Tertio arguitur. illud  
+              <lb ed="#P" n="97"/>quo maius cogitari non potest est infinitum: immensum: 
+              <lb ed="#P" n="98"/>trinum: et vnum / omnipotens / oinsciens / et ita de aliis 
+              qui<lb ed="#P" n="99" break="no"/>buscumque abditissimis in lumine naturali praedicatis. 
+              <lb ed="#P" n="100"/>aliquid est quo maius cogitari non potest. patet per argu 
+              <lb ed="#P" n="101"/>mentum <name xml:id="jm12w4-e19491-Nd1e743" ref="#Anselm">Anselmi</name> pro solo. capitulo. secundo cum 
+              di<lb ed="#P" n="102" break="no"/>co illud quo maius cogitari non potest: audiens intel 
+              <lb ed="#P" n="103"/>ligit quid dicitur et quid significatur. ergo illud quo maius 
+              <lb ed="#P" n="104"/>cogitari non potest: est in intellectu: aut ergo est in re. 
+              <lb ed="#P" n="105"/>et habetur propositum aut in solo intellectu. sed quod est 
+              <lb ed="#P" n="106"/>in solo intellectu potest cogitari esse in re: et in intelle 
+              <lb ed="#P" n="107"/>ctu: ergo potest cogitari maius eo quod est in solo in 
+              <lb ed="#P" n="108"/>tellectu. ergo illud quo maius cogitari non 
+              po<lb ed="#P" n="109" break="no"/>test est ipsum quo maius cogitari potest. et sequitur quod 
+              po<lb ed="#P" n="110" break="no"/>test maius cogitari eo quo non potest maius 
+              cogi<lb ed="#P" n="111" break="no"/>tari quod includit contradictionem.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e768">
+      ⁋ hoc argumen 
+              <lb ed="#P" n="112"/>tum est tanti momenti apud <name xml:id="jm12w4-e19491-Nd1e772" ref="#Anselm">Anselmum</name>: vt in finequar 
+              <lb ed="#P" n="113"/>ti capituli dicat. gratias tibi domne ago: quia quod 
+              pri<lb ed="#P" n="114" break="no"/>mo credidi te dante iam sic intelligo te illuminate 
+              <lb ed="#P" n="115"/>et si te esse nolim non possum non intelligere. hec 
+              <lb ed="#P" n="116"/>ratio boni patris vere est sophistica. Unde dicunt quia 
+              <lb ed="#P" n="117"/>dam quod iste bonus doctor fuit deceptus valde in 
+              <lb ed="#P" n="118"/>multis pertinentibus ad logicam vt in prpolito) et 
+              <lb ed="#P" n="119"/>nominatim <ref xml:id="jm12w4-e19491-Rd1e790">
+                  <name xml:id="jm12w4-e19491-Nd1e792" ref="#Holcot">holcot</name> in suo primo</ref>. argumentum 
+              eo<lb ed="#P" n="120" break="no"/>dem modo probaret posse dari vel esse asinum: quo 
+              <lb ed="#P" n="121"/>maior cogitari non potest.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e802">
+      ⁋ Ad formam argumen 
+              <lb ed="#P" n="122"/>ti ego audio quid importatur per illam orationem: et 
+              <lb ed="#P" n="123"/>uid significat: sed non video: nec intelligo pro quo 
+              <lb ed="#P" n="124"/>accipitur subiectum illius propositionis. hoc 
+              comple<lb ed="#P" n="125" break="no"/>tum quo maius cogitari non potest est in intellectu. 
+              <lb ed="#P" n="126"/>sed aliquid quo maius cogitari non potest nec est in 
+              intel<lb ed="#P" n="127" break="no"/>lectu: nec in re. subiectum secunde accipitur significa. 
+              <lb ed="#P" n="128"/>tiue: et non supponit. et cum est affirmatiua illa est 
+              fal<lb ed="#P" n="129" break="no"/>sa: cum sit extra instantias communes. Sed hec habr 
+              <lb ed="#P" n="130"/>duos sensus: aliquid quo maius cogitari no potest est 
+      <!--76.xml-->
+      <pb ed="#P" n="31-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in intellectu. Unus sensus est: aliquid est in re exi 
+              <lb ed="#P" n="2"/>stens et nullum obiectum cogitabile est vel esse potest 
+              <lb ed="#P" n="3"/>maius. et sic propositio est vera: vt patet de deo. Alius 
+              <lb ed="#P" n="4"/>sensus est iste. aliquid existit: at nullus intellectus potest 
+              <lb ed="#P" n="5"/>cogitare aliquod obiectum esse maius illo. et ille sen 
+              <lb ed="#P" n="6"/>sus est falsus. potest homo imaginari aliquid maius deo 
+              <lb ed="#P" n="7"/>et hoc infinito. et hic est prorius sensus quando 
+              ter<lb ed="#P" n="8" break="no"/>minus maius sequitur cogitare: prior sensus cum 
+              prae<lb ed="#P" n="9" break="no"/>cedit.
+            </p>
+            <p xml:id="jm12w4-e19491-d1e850">
+      ⁋ hic iterum inuoluitur difficultas 
+              logica<lb ed="#P" n="10" break="no"/>lis: an sit videlicet ampliatio vltra quattuor diffe 
+              <lb ed="#P" n="11"/>rentias temporis. et iterum incidit aliud quod copula 
+              <lb ed="#P" n="12"/>principalis ampliat ad quinque: et ratione eius vel 
+              <lb ed="#P" n="13"/>sui participii venit ampliatio: et non ratione copule 
+              <lb ed="#P" n="14"/>minus principalis. propterea concederetur hec con 
+              <lb ed="#P" n="15"/>pulatiua: chimera vel impossibile imaginatur et chi 
+              <lb ed="#P" n="16"/>mera non potest imaginari aliquid. Sed hec quae sunt 
+              <lb ed="#P" n="17"/>inutilia nostro negocio pertranseundo dicimus quod 
+              <lb ed="#P" n="18"/>argumentum beati <name xml:id="jm12w4-e19491-Nd1e871" ref="#Anselm">Anselmi</name> nihil conclud it in 
+              quo<lb ed="#P" n="19" break="no"/>cunque sensu capiatur: et quecunque ampliatio admit 
+              <lb ed="#P" n="20"/>tatur: vt patet aduertenti. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="80-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e55405"> <!--l1d17q18 -->
+            <head xml:id="jm12w4-e55405-Hd1e106">Quaestio 18</head>
+            <head xml:id="jm12w4-e55405-Hd1e109" type="question-title">
+      Penes quid qualitatis intensio attenditur?
+    </head>
+            <p xml:id="jm12w4-e55405-d1e112">
+               <lb ed="#P" n="74"/>⁋ Distinctionis decimeseptime questio. xviii. 
+              <lb ed="#P" n="75"/>VLterius inquirendum est penes quid
+              qua<lb ed="#P" n="76" break="no"/>litatis intensio attenditur. Supponamus 
+              <lb ed="#P" n="77"/>distinctiones aliquas postea ad questio 
+              <lb ed="#P" n="78"/>nem respondebimus.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e125">
+      ⁋ Qualitatum 
+              que<lb ed="#P" n="79" break="no"/>dam sunt spirituales: quedam corpora 
+              <lb ed="#P" n="80"/>les. Et corporalium quedam est vnifor 
+              <lb ed="#P" n="81"/>mis: cuius omnes partes quantitatiue sunt equales in in 
+              <lb ed="#P" n="82"/>tensione: vt si pedale secundum se totum 
+              syncatego<lb ed="#P" n="83" break="no"/>rematice habeat albedinem vt quattuor. Eodem 
+              mo<lb ed="#P" n="84" break="no"/>dicatur si sit extra subiectum. Opposito modo diffinitur quali 
+              <lb ed="#P" n="85"/>tas difformitur difformis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e144">
+      ⁋ Rursus qualitatum diffor 
+              <lb ed="#P" n="86"/>mium quaedam est vniformitur difformis quidam difformiter dif 
+              <lb ed="#P" n="87"/>formis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e151">
+      ⁋ Qualitas vniformitur difformis sic diffinitur. 
+              <lb ed="#P" n="88"/>Est qualitas sic se habens quodcuiuscumque partis gradus quo 
+              <lb ed="#P" n="89"/>est in medio tantum exceditur ab extremo precise quantum 
+              <lb ed="#P" n="90"/>aliud excedit: que figuratur per modum trianguli. Et 
+              <lb ed="#P" n="91"/>talis est duplex: quedam terminatur in non gradu in 
+              <lb ed="#P" n="92"/>vno extremo: et quedam ad gradum. Opposito 
+              mo<lb ed="#P" n="93" break="no"/>do diffinitur qualitas difformiter difformis: que est 
+              <lb ed="#P" n="94"/>quando non cuiuscumque partis gradus existens in 
+              me<lb ed="#P" n="95" break="no"/>dio tantum excedit vnum extremum precise quantum ab 
+              <lb ed="#P" n="96"/>altero extremo exceditur.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e173">
+      ⁋ Ex istis diffinitionibus 
+              <lb ed="#P" n="97"/>sequuntur aliqua.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e178">
+      ⁋ Primum in qualitatibus 
+              spiri<lb ed="#P" n="98" break="no"/>tualibus vt in notitiis angeli vel anime non reperitur 
+              <lb ed="#P" n="99"/>hec vniformitas vel difformitas.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e185">
+      ⁋ Secundo sequi 
+              <lb ed="#P" n="100"/>tur: quod est aliqua qualitas vniformiter difformis: que 
+              <lb ed="#P" n="101"/>per solam condensationem efficitur non talis: patet dan 
+              <lb ed="#P" n="102"/>do bipedale album a non gradu ad octo vsque ipsum con 
+              <lb ed="#P" n="103"/>densando ad subduplum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e196">
+      ⁋ Tertio quod si sit aliqua 
+              qua<lb ed="#P" n="104" break="no"/>itas vniformiter difformis / et cum ea coextendatur 
+              <lb ed="#P" n="105"/>alia vniformiter difformis / qualitas resultans adhuc 
+              <lb ed="#P" n="106"/>erit vniformiter difformis: dummodo extremum 
+              inten<lb ed="#P" n="107" break="no"/>sius ponatur cum extremo intensiori et remissum cum 
+              <lb ed="#P" n="108"/>remissiori: patet exemplariter capiendo vnam qualita 
+              <lb ed="#P" n="109"/>tem vniformiter difformem a non gradu ad sex vsque: et 
+              <lb ed="#P" n="110"/>aliam a duobus ad quattuor vsque: resultabit 
+              quali<lb ed="#P" n="111" break="no"/>tas vniformiter difformis a quattuor ad decem vsque: 
+              <lb ed="#P" n="112"/>in extremo remissiori erat nongradus et iam duo sunt. 
+              <lb ed="#P" n="113"/>In medio erant tres gradus: et ei additi sunt totidem: 
+              <lb ed="#P" n="114"/>in extremo intensiori erant sex: et et additi sunt 
+              quat<lb ed="#P" n="115" break="no"/>tuor.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e226">
+      ⁋ Dicebatur dummodo extremum etc. quia si 
+              <lb ed="#P" n="116"/>remissum intenso addatur hoc non oportet: datis 
+              dua<lb ed="#P" n="117" break="no"/>bus latitudinibus a non gradu ad octo vsque ordine 
+              <lb ed="#P" n="118"/>econuerso erit qualitas vniformis vt octo. Per non 
+              <lb ed="#P" n="119"/>gradum intelligo priuationem gradus: non gradus 
+              <lb ed="#P" n="120"/>supponit pro aliquo connotando quod nihil illius 
+              for<lb ed="#P" n="121" break="no"/>me est in illo vel cum illo: vt forma trianguli signata 
+              <lb ed="#P" n="122"/>ab octo ad non gradum vsque iam non gradus suppo 
+              <lb ed="#P" n="123"/>nit pro puncto terminatiuo acutiem versus. Quelibet 
+              <lb ed="#P" n="124"/>enim pars forme potest dici latitudo. gradus autem inter 
+              <lb ed="#P" n="125"/>dum capitur pro vna parte aliquota forme: interdum 
+              <lb ed="#P" n="126"/>pro quacuque parte: ita quod quelibet pars forme gradus 
+              <lb ed="#P" n="127"/>dici potest: et sic sunt finiti gradus in latitudine. interdum 
+              <lb ed="#P" n="128"/>per toto capitur. vt patet in de inductione gradus summi 
+              <lb ed="#P" n="129"/>Si cupiam libeat imaginari graadus impertibiles latitu 
+              <lb ed="#P" n="130"/>dinis terminatiuos more punctorum in linea: nihil 
+              impe<lb ed="#P" n="131" break="no"/>dimenti est. Abstrahentium enim non est mendacium. ii. physi. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e263">
+               <lb ed="#P" n="132"/>⁋ Quarto sequitur quod data qualitate vniformiter dif¬ 
+      <!--175.xml-->
+      <pb ed="#P" n="80-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>formi ei apponendo qualitatem vniformem adhuc 
+              rema<lb ed="#P" n="2" break="no"/>nebit vniformiter difformis. ratio est quia datis duobus 
+              <lb ed="#P" n="3"/>quorum vnum excedit aliud: si vtrique illorum addatur equa 
+              <lb ed="#P" n="4"/>le post additionem per tantum vnum excedit aliud per quanetum 
+              pri<lb ed="#P" n="5" break="no"/>excedebat. hic autem non loquimur de excessu geometr 
+              <lb ed="#P" n="6"/>co sed arithimetico. Et patet propositio in terminis data 
+              <lb ed="#P" n="7"/>a forma a duobus ad sex vsque: coextendantur duo 
+              vnifo<lb ed="#P" n="8" break="no"/>miter per totum: iam tota forma erit a duobus ad octo: in 
+              <lb ed="#P" n="9"/>medio enim prius erant tres gradus et adiecti sunt quin 
+              <lb ed="#P" n="10"/>que. In extremo intensiori erant sex: nunc sunt octo: in alio 
+              <lb ed="#P" n="11"/>extremo sunt duo vbi erat non gradus: modo octo per tantum 
+              <lb ed="#P" n="12"/>excedunt quinque per quantum quinque duo exuperant: ergo 
+              <lb ed="#P" n="13"/>manet adhuc qlitas vniformitur difformis per diffini 
+              <lb ed="#P" n="14"/>tionem qualitatis vniformiter difformis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e305">
+      ⁋ 
+              Quin<lb ed="#P" n="15" break="no"/>ta propositio. stat alicuius corporis quamlibet partem 
+              pro<lb ed="#P" n="16" break="no"/>portionalem esse vniformiter difformem: et tamen ipsum 
+              <lb ed="#P" n="17"/>corpus non esse vniformiter difforme: patet capto a 
+              co<lb ed="#P" n="18" break="no"/>pore: cuius prima pars proportionalis habeat calorem 
+              <lb ed="#P" n="19"/>a non gradu ad quattuor vsque: secunda pars 
+              proportiona<lb ed="#P" n="20" break="no"/>lis habeat calorem a. iiii. ad octo vsque: et sic consequntur. Iam quael 
+              <lb ed="#P" n="21"/>bet pars proportion alis est vniformiter difformis: v 
+              <lb ed="#P" n="22"/>intelligenti palam est: et tamen totale corpus non est tale. 
+              pro<lb ed="#P" n="23" break="no"/>batio: quia queritur an qualitas in medio sit finita an 
+              in<lb ed="#P" n="24" break="no"/>finita: si primum: non tantum exuperat qualitatem in extremo 
+              <lb ed="#P" n="25"/>remissiori quantum exceditur a qualitate qua est in altero 
+              <lb ed="#P" n="26"/>extremo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e334">
+      ⁋ Istis prelibatis pono conclusiones. Prima 
+              <lb ed="#P" n="27"/>est. Intensio forme in vniformibus est metienda penes 
+              <lb ed="#P" n="28"/>distantiam a non gradu: remissio vero penes appopin 
+              <lb ed="#P" n="29"/>quationem ad non gradum. Vel sub aliis verbis sic: inten 
+              <lb ed="#P" n="30"/>sio forme attenditur penes hoc quod est vni certe parti 
+              <lb ed="#P" n="31"/>date habere multos gradus equales non communican 
+              <lb ed="#P" n="32"/>tes sese intendentes: hoc est componentes aliquod vnum. ho 
+              <lb ed="#P" n="33"/>dixerim propter albedines existentes in variis partibus 
+              <lb ed="#P" n="34"/>corporis diffinitiue existentis in loco: vt aliqui de 
+              cor<lb ed="#P" n="35" break="no"/>pore christi in eucharistia suspicantur. si illa albedo 
+              se<lb ed="#P" n="36" break="no"/>paretur a subiecto partibus sese penetrantibus non erit 
+              <lb ed="#P" n="37"/>maior intensio quam ante: cum non constituant aliquod vnum. 
+              Re<lb ed="#P" n="38" break="no"/>missio mensuratur per hoc quod est habere vni certe part 
+              <lb ed="#P" n="39"/>date paucos gradus equales. Intensum et remissum 
+              <lb ed="#P" n="40"/>in proposito non capiuntur relatiue: gradus enim summus 
+              <lb ed="#P" n="41"/>finitus est intensus et remissus.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e369">
+      ⁋ Probatr conclusio: quod 
+              <lb ed="#P" n="42"/>non videtur penes quid aliud commode posset attendi inten 
+              <lb ed="#P" n="43"/>sio e remissio. igitur. Quod gradus summus sit intensus et 
+              <lb ed="#P" n="44"/>remissus: patet: quia habet multos gradus et paucos gra 
+              <lb ed="#P" n="45"/>dus. gradus infinitus est non gradus remissionis: in alio 
+              <lb ed="#P" n="46"/>extremo reperitur non gradus intensionis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e382">
+      ⁋ Ex isto pa 
+              <lb ed="#P" n="47"/>tet: quod non sequitur: iste gradus est remissus: demonstran 
+              <lb ed="#P" n="48"/>do latitudinem finitam summam: ergo respectu alicuius inti 
+              <lb ed="#P" n="49"/>si est remissus: et si non haberet partes more duarum prima 
+              <lb ed="#P" n="50"/>rum positionum nec sequeretur: est intensus: ergo respectu 
+              ali<lb ed="#P" n="51" break="no"/>cuius remissi est intensus. Et simile poni solet in istis 
+              <lb ed="#P" n="52"/>terminis magnum a paruum: quia capiuntur relatiue et ab 
+              <lb ed="#P" n="53"/>solute a tali relatione.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e401">
+      ⁋ Secunda conclusio est: qualitatis 
+              <lb ed="#P" n="54"/>vniformiter difformis intensio attenditur penes gradi 
+              <lb ed="#P" n="55"/>medium illius intensionis. verbi causa: sit qualitas vni 
+              <lb ed="#P" n="56"/>formiter difformis puta calor a non gradu ad octo vs 
+              <lb ed="#P" n="57"/>que in a corpore bipedali: iam dico a esse quale vt 
+              quat<lb ed="#P" n="58" break="no"/>tuor. probatio: quia si illa caliditas quae est a non gradu ad 
+              <lb ed="#P" n="59"/>quattuor vsque intendatur quousque sit vniformis vt quant 
+              <lb ed="#P" n="60"/>tuor: totum illud corpus erit in fine vt quattuor et non re 
+              <lb ed="#P" n="61"/>mittetur: et in eodem tempore secunda medietas remittatur quo 
+              <lb ed="#P" n="62"/>usque sit vniformis vt quattuor: iam in fine totum erit 
+              ca<lb ed="#P" n="63" break="no"/>lidum vt quattuor: et quantum acquirit in vna medie 
+              <lb ed="#P" n="64"/>tate tantum pardit in alia: ergo totale corpus est calidum vt quat 
+              <lb ed="#P" n="65"/>tuor.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e430">
+      ⁋ Confirmatur conclusio. quia rectum est iudex obliqu 
+              <lb ed="#P" n="66"/>primo de anima: ergo illa difformitas est reducenda in vni¬ 
+      <!--175.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 80vb -->
+               <lb ed="#P" n="67"/>formitatem: et non in gradum intensissimum: quia nullus talis 
+              <lb ed="#P" n="68"/>est in corpore vniformiter difformi.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e446">
+      ⁋ Item non est 
+              po<lb ed="#P" n="69" break="no"/>tior ratio quare citius deberet reduci ad gradum sum 
+              <lb ed="#P" n="70"/>mum quam ad gradum infimum vel ad aliquem alium citra vel 
+              vl<lb ed="#P" n="71" break="no"/>tra medium. ergo vt sit recompensatio hinc inde satius est 
+              <lb ed="#P" n="72"/>reducere totum ad gradum medium.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e457">
+      ⁋ Ulterius 
+              quan<lb ed="#P" n="73" break="no"/>do Magistrorum nostrorum depositiones in manus 
+              can<lb ed="#P" n="74" break="no"/>cellarii de licentiandis sunt difformes: reducende sunt 
+              <lb ed="#P" n="75"/>ad vniformitatem. vtputa vna. medietas dat sorti 
+              pri<lb ed="#P" n="76" break="no"/>mum locum: tertium eidem alteramedietas dat: tunc 
+              <lb ed="#P" n="77"/>qua ratione haberet primum eadem ratione haberet 
+              <lb ed="#P" n="78"/>tertium et contra: sed vtrumque habere nequit. ergo 
+              redu<lb ed="#P" n="79" break="no"/>cetur ad locum secundum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e475">
+      ⁋ Sed dices (sicut dicit vna 
+              <lb ed="#P" n="80"/>opinio in hac parte) hec qualitas denominatur ab inten 
+              <lb ed="#P" n="81"/>siori parte eius. Contra tunc data vna qualitate a non 
+              <lb ed="#P" n="82"/>gradu ad octo vsque extensa per hoc pedale: totum per te 
+              <lb ed="#P" n="83"/>est vt octo: ergo si tantundem ei addas ponendo adhuc. viii. 
+              <lb ed="#P" n="84"/>in extremo remissiori totum non erit calidius quam prius: et ta 
+              <lb ed="#P" n="85"/>men quodlibet punctum intrinsecum eius erit calidius quam 
+              <lb ed="#P" n="86"/>prius. Eodem modo potes argumentari de illorum 
+              <lb ed="#P" n="87"/>depositione: caliditas enim et frigiditas essent in 
+              sum<lb ed="#P" n="88" break="no"/>mo in eadem parte subiecti tenendo qualitates contrias se 
+              <lb ed="#P" n="89"/>compati in gradibus citra summum: patet dando a bi 
+              <lb ed="#P" n="90"/>pedale cuius vna medietas habebit calorem ab octo 
+              <lb ed="#P" n="91"/>ad quattuor vsque: et alia opposito modo a. iiii. ad octo 
+              <lb ed="#P" n="92"/>vsque.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e506">
+      ⁋ Ista concederet hec positio a aliud non habi 
+              <lb ed="#P" n="93"/>res: diceret tamen quod oblatio alicuius partis qualitatis at 
+              <lb ed="#P" n="94"/>parte intensissima denominat subiectum minus tale 
+              <lb ed="#P" n="95"/>ablatio vel additio partis remissoris nihil facit ad inti 
+              <lb ed="#P" n="96"/>sionem totius.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e518">
+      ⁋ hoc autem est magis voluntarium quam 
+              ra<lb ed="#P" n="97" break="no"/>tione fundatum: sed non est silentio pertranseundum uo 
+              <lb ed="#P" n="98"/>multa secundum hunc modum facile saluantur que secundum ali 
+              <lb ed="#P" n="99"/>um modum maiorem ingerunt difficultatem in 
+              diffor<lb ed="#P" n="100" break="no"/>mibus finitis et infinitis: quoniam hic solum est haben 
+              <lb ed="#P" n="101"/>dus oculus ad vnum extremum: si sit finitum: vel imag 
+              <lb ed="#P" n="102"/>narium fi sit infinitum: et propterea non penitus 
+              abii<lb ed="#P" n="103" break="no"/>ciatur vt a Seylla senticosarum calculationum homo se 
+              <lb ed="#P" n="104"/>elongans appopinquet charybdi.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e538">
+      ⁋ Et adhuc 
+              con<lb ed="#P" n="105" break="no"/>tra illum modum tenuibus argumentis arguitur. primo 
+              <lb ed="#P" n="106"/>sic: si esset vnum corpus tripedale cuius vnum pedali 
+              <lb ed="#P" n="107"/>esset album et duo nigra totum deberet denominari al 
+              <lb ed="#P" n="108"/>bum ab albiori parte: quia est optimus color sicut tu 
+              di<lb ed="#P" n="109" break="no"/>cis ab intensissimo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e551">
+      ⁋ Insuper secundumte hec conclusio 
+              <lb ed="#P" n="110"/>est concedenda in casu a corpus semper ante hoc 
+              <lb ed="#P" n="111"/>habuit caliditatem vt octo a nunc non est calidum vt 
+              <lb ed="#P" n="112"/>octo: et tamen nunc nullam penitus deperdidit 
+              calidi<lb ed="#P" n="113" break="no"/>tatem: que absona videtur. Patet ponendo a corpus 
+              vni<lb ed="#P" n="114" break="no"/>formiter difforme a quattuor ad. viii. vsque: illud 
+              cor<lb ed="#P" n="115" break="no"/>pus est calidum vt octo per te: ponamus horam 
+              futu<lb ed="#P" n="116" break="no"/>ram diuisam per partes proportionales minoribus 
+              <lb ed="#P" n="117"/>ad finem hore terminatis: diuidatur illud corpus in part 
+              <lb ed="#P" n="118"/>tes proportionales minoribus extremum intensius 
+              veu<lb ed="#P" n="119" break="no"/>sus: volo quod in prima parte proportionali intendatur caus 
+              <lb ed="#P" n="120"/>liditas prime partis proportionalis quousque fuerit 
+              vni<lb ed="#P" n="121" break="no"/>formis vt quattuor: et in secunda parte 
+              proportiona<lb ed="#P" n="122" break="no"/>li hore remittatur caliditas secunde partis proportio 
+              <lb ed="#P" n="123"/>nalis quousque fuerit vniformis vt. iiii. et ita de 
+              quali<lb ed="#P" n="124" break="no"/>bet alia parte e simus in instanti horam illam terminat 
+              <lb ed="#P" n="125"/>te: iam patet tota conclusio illata: immediate ante hoc 
+              <lb ed="#P" n="126"/>istud corpus erat calidum vt octo a nunc non est 
+              ca<lb ed="#P" n="127" break="no"/>lidum vt octo quia est vniformiter vt quattuor: et pa 
+              <lb ed="#P" n="128"/>lam est quod in hoc instanti nulla deperditur caliditas. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e595">
+               <lb ed="#P" n="129"/>⁋ hanc conclusionem concederet hec positio.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e600">
+      ⁋ Pre 
+              <lb ed="#P" n="130"/>terea mola fabri mouetur ita vclociter sicut punctum 
+              <lb ed="#P" n="131"/>medium semidiametri rote secundum longitudinem: et ita in 
+              <lb ed="#P" n="132"/>quolibet corpore moto vniformiter difformiter secundum 
+      <!--176.xml-->
+      <pb ed="#P" n="81-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>partes: ergo sic erit in proposito.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e618">
+      ⁋ Ex quo patet secundum 
+              <lb ed="#P" n="2"/>conclusionem quam insequimur: si queras quam calidum 
+              est<lb ed="#P" n="3" break="no"/>corpus vniformiter difforme a non gradu ad octo vsque: 
+              <lb ed="#P" n="4"/>dicas a esse ita calidum sicut b vniforme vt quattuor. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e628">
+               <lb ed="#P" n="5"/>⁋ Secundo patet quod si a bipedale habeat vnam pedalita 
+              <lb ed="#P" n="6"/>tem coloris immunem: et aliam albam vt octo totum est album 
+              <lb ed="#P" n="7"/>vt quattuor. LCicet haec directe ex conclusione secunda sequi 
+              <lb ed="#P" n="8"/>non videatur: tamen colligantiam habet cum ea: et probatio 
+              conclu<lb ed="#P" n="9" break="no"/>sionis probat illam: quia si quattuor gradus auferantu 
+              <lb ed="#P" n="10"/>ab vna medietate: et ponerentur in alia medietate: ia 
+              <lb ed="#P" n="11"/>vtraque medietas esset alba vt quattuor.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e646">
+      ⁋ Si esset 
+              <lb ed="#P" n="12"/>extensa albedo vt quattuor per totum a esset album v 
+              <lb ed="#P" n="13"/>quattuor: et si minori parti inhereat minus 
+              denomina<lb ed="#P" n="14" break="no"/>bit: et si medietati solum inhereat in subduplo minus 
+              de<lb ed="#P" n="15" break="no"/>noiabit. et si tres gradus albedinis fuerint in vna tertia 
+              <lb ed="#P" n="16"/>parte bcorpis nullo colore existente in aliis partibus 
+              <lb ed="#P" n="17"/>b est album vt vnum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e662">
+      ⁋ Tertio patet quod si esset vnum 
+              cor<lb ed="#P" n="18" break="no"/>pus difformiter difforme bipedale cuius vna medic 
+              <lb ed="#P" n="19"/>tas esset alba vt quattuor / secunda vt octo: iam b corpusest 
+              <lb ed="#P" n="20"/>album vt sex. hoc patet reducendo totum ad vniformita 
+              <lb ed="#P" n="21"/>tem: capiantur enim duo gradus ab intensiori pedalitate 
+              <lb ed="#P" n="22"/>sex relictis / et ponantur in remissiori pedalitate: iam to 
+              <lb ed="#P" n="23"/>tum erit vniforme vt sex. dicamus ergo istud corpus esse ita 
+              <lb ed="#P" n="24"/>album sicut aliud habens vniformiter albedinem vt sex 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e680">
+               <lb ed="#P" n="25"/>⁋ Quarto patet quod si esset vnum corpus tripedale 
+              diffor<lb ed="#P" n="26" break="no"/>me cuius prima pedalitas esset alba vt quattuor: secunda 
+              <lb ed="#P" n="27"/>vt octo: tertia pedalitas vniformiter difformis a non 
+              <lb ed="#P" n="28"/>gradu ad sex vsque: iam totum istud corpus erit album vt 
+              quin<lb ed="#P" n="29" break="no"/>que. Quod patet: quia vltima pedalitas per secundam conclusionem 
+              <lb ed="#P" n="30"/>est alba vt tria: capiamus duos gradus pedalitatis vt 
+              <lb ed="#P" n="31"/>octo a ponamus cum illa et vnum gradum ponamus cum po 
+              <lb ed="#P" n="32"/>dalitate vt quattuor: iam quelibet pedalitas habet 
+              albe<lb ed="#P" n="33" break="no"/>dinem vt quinque.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e702">
+      ⁋ Quinto patet si vnum corpus tripeda 
+              <lb ed="#P" n="34"/>le haberet in prima pedalitate albedinem vt quattuor et 
+              <lb ed="#P" n="35"/>tres in aliis duabus: iam totum corpus est ita album 
+              quam<lb ed="#P" n="36" break="no"/>tum vnum aliud corpus habens albedinem vt tria cum 
+              ter<lb ed="#P" n="37" break="no"/>tia parte gradus.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e713">
+      ⁋ Sexto sequitur. quod si esset vnum corpus 
+              <lb ed="#P" n="38"/>cuius vna medietas esset alba vniformiter vt quattuor: 
+              <lb ed="#P" n="39"/>alia medietas vniformitur vt decem: iam totum corpus erit 
+              al<lb ed="#P" n="40" break="no"/>bum vt septem: septem enim equaliter distant a decem et a quattu 
+              <lb ed="#P" n="41"/>or. Et si vna medietas foret alba vt quattuor: et alia 
+              <lb ed="#P" n="42"/>vt vndecim iam totum erit album vt septem cum dimidio: quia 
+              <lb ed="#P" n="43"/>septem cum dimidio equaliter distant a quattuor et vndecim 
+              <lb ed="#P" n="44"/>hoc est facile cognitu: et in aliis ita dicendum est. 
+              In<lb ed="#P" n="45" break="no"/>terdum vtor termino vniformis cum latitudine 
+              vnifor<lb ed="#P" n="46" break="no"/>miter difformi propter breuiloquium: sed secundum 
+              ina<lb ed="#P" n="47" break="no"/>teriam subiectam hoc est facile deprehendere.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e738">
+      ⁋ 
+              Septi<lb ed="#P" n="48" break="no"/>mo patet: quod hec consequentia est nulla: a corpus habet maiorem 
+              <lb ed="#P" n="49"/>caliditatem quam b. ergo est calidius b: patet: sit a vniformiter 
+              <lb ed="#P" n="50"/>difforme a non gradu caloris ad octo vsque: et b vnifor 
+              <lb ed="#P" n="51"/>miter calidum vt sex: iam antecedens est verum et consequens falsum 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e749">
+               <lb ed="#P" n="52"/>⁋ Ectauo sequitur quod alicuius totius secundum extensioni 
+              <lb ed="#P" n="53"/>pars est toto intensior: patet: quia a corpus datum in sexta 
+              <lb ed="#P" n="54"/>propositione est calidum vt quattuor: secunda medietas eius 
+              <lb ed="#P" n="55"/>est calida vt sex: sed totum secundum intensionem est intensius sua 
+              <lb ed="#P" n="56"/>parte sicut secundum extensionem est extensius sua parte. Sed 
+              <lb ed="#P" n="57"/>captis toto a parte secundum equalem extensionem totum 
+              <lb ed="#P" n="58"/>partem exuperat in intensione.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e767">
+      ⁋ Contra primam 
+              <lb ed="#P" n="59"/>conclusionem arguitur sic. ex illa sequitur quod quilibet 
+              gra<lb ed="#P" n="60" break="no"/>dus finite intensus est ita intensus sicut remissus: consequens 
+              <lb ed="#P" n="61"/>est falsum. Sequela tamen probatur: quia quocumque gradu dato 
+              <lb ed="#P" n="62"/>per eandem latitudinem distat a non gradu et 
+              appopin<lb ed="#P" n="63" break="no"/>quat non gradui: falsitas consequentis probatur: quia ex hoc sequare 
+              <lb ed="#P" n="64"/>tur quod qualitas vt quattuor esset remissior quam qualitas 
+              <lb ed="#P" n="65"/>vt duo quod est falsum. patet sequela: quia est intensior et 
+              <lb ed="#P" n="66"/>vtraque illarum qualitatum est ita intensa sicut remissa. 
+      <!--176.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 81rb -->
+            </p>
+            <p xml:id="jm12w4-e55405-d1e793">
+               <lb ed="#P" n="67"/>⁋ Ric solet dici quod remissio dupliciter capitur: vnomon 
+              <lb ed="#P" n="68"/>positiue: alio modo priuatiue vt alicuius distantie a 
+              <lb ed="#P" n="69"/>non gradu priuationem dicat. Secundo modo sunt 
+              comparabi<lb ed="#P" n="70" break="no"/>les intensio a remissio non autem primo modo. et hoc est 
+              cla<lb ed="#P" n="71" break="no"/>re dicere: distinguitur quod qualitas sit ita intensa sicut 
+              <lb ed="#P" n="72"/>remissa: et econtrario: vel si intelligatur quod per tantam la 
+              <lb ed="#P" n="73"/>titudinem est remissa per quantam est intensa: et hoc est ve 
+              <lb ed="#P" n="74"/>rum. intensio enim qualitatis et remissio nihil aliud est quam 
+              <lb ed="#P" n="75"/>qualitas intensa vel remissa: vel si intelligatur quod vna quaeli 
+              <lb ed="#P" n="76"/>tas aliam ita proportionabiliter excedit in remissione sicut 
+              <lb ed="#P" n="77"/>in intensione: et hoc negatur. hoc enim modo intensio non est con 
+              <lb ed="#P" n="78"/>parabilis remissioni: nec hoc inconuenit vt patet in aliis ma 
+              <lb ed="#P" n="79"/>teriis: motus enim circularis et circuitio mole fabri sunt 
+              <lb ed="#P" n="80"/>eadem res tamen non velocius mouetur quam circueat neque 
+              tardi<lb ed="#P" n="81" break="no"/>neque ita velociter. nec sequitur: hec qualitas est remissa et 
+              <lb ed="#P" n="82"/>non est ita remissa sicut intensa: ergo est magi intensa quam 
+              re<lb ed="#P" n="83" break="no"/>missa. hoc claret de actu meritorio a demeritorio: in 
+              <lb ed="#P" n="84"/>quaesti. ix. huius distin. quod demeritum e meritum licet quo ad 
+              <lb ed="#P" n="85"/>penas et primia gradualiter comparantur: tamen non requiritur 
+              <lb ed="#P" n="86"/>comparatio quo ad multa: sicut punctum non comparatur linee 
+              <lb ed="#P" n="87"/>nec linea suprficei: sic nec pena debita peccto veniali con 
+              <lb ed="#P" n="88"/>paratur pene debite mortali siue origiali.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e843">
+      ⁋ Contra se 
+              <lb ed="#P" n="89"/>cundam conclusionem arguitur sic. sequitur quod si esset vnum corpus 
+              <lb ed="#P" n="90"/>cuius prima pars proportionalis esset aliquaeliter calida: secunda 
+              <lb ed="#P" n="91"/>in duplo calidior prima: et tertia in triplo intensior: et sicin 
+              <lb ed="#P" n="92"/>abyssum: quod illud corpus esset finite calidum. hoc autem est 
+              <lb ed="#P" n="93"/>inconueniens cum infinitam caliditatem habeat illud corpus. 
+              <lb ed="#P" n="94"/>Quod sequitur patet: quia ipsum est equalis caliditatis secundum denoina 
+              <lb ed="#P" n="95"/>tionem sicut alid corpus finite calidum. Quod patet. nam 
+              capia<lb ed="#P" n="96" break="no"/>nus duo corpa a et b calida vt vnum volo quod hora futu 
+              <lb ed="#P" n="97"/>ra diuidatur per partes proportionales minoribus ad finen 
+              <lb ed="#P" n="98"/>hore terminatis: et quod in prima parte proportionali illius 
+              <lb ed="#P" n="99"/>hore prima pars proportio alis a acquirat vnum gradum 
+              ca<lb ed="#P" n="100" break="no"/>liditatis vniformiter in secunda parte proportionali secunda pars 
+              <lb ed="#P" n="101"/>proportionalis a ad suum duplum intendatur: et ita consequenter: tunc 
+              <lb ed="#P" n="102"/>palam est a esse praecise calidum vt duo in fine hore cum 
+              quali<lb ed="#P" n="103" break="no"/>bet pars proportionalis eius acquirat vnum gradum caloris 
+              <lb ed="#P" n="104"/>in parte proportionali hore ei respondente et vnum habuit ab 
+              <lb ed="#P" n="105"/>exordio ex hypothesi.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e882">
+      ⁋ Insuper ponamus quod in illa parte 
+              <lb ed="#P" n="106"/>proportionali qua prima pars proportionalis a acquirit 
+              <lb ed="#P" n="107"/>vnum gradum: secunda pars proportionalis b corpis cumomnibus 
+              <lb ed="#P" n="108"/>partibus proportionabilibus sequentibus acquirat vnum graadum 
+              <lb ed="#P" n="109"/>caliditatis: et in secunda parte proportionali caliditas tertie 
+              <lb ed="#P" n="110"/>partis proportionalis ba et omnim sequentium intendatur ad 
+              du<lb ed="#P" n="111" break="no"/>plum: et sic consequenter: tunc prima pars proportionalis b. erit 
+              <lb ed="#P" n="112"/>calida vt vnum: secunda pars proportionalis vt duo: tertia 
+              <lb ed="#P" n="113"/>vt tria: et sic sine statu. simus autem in fine hore: iam a et b. 
+              <lb ed="#P" n="114"/>sunt eualiter calida et a est calidum vt duo: ergob est 
+              cali<lb ed="#P" n="115" break="no"/>dum vt duo. Quod sint equaliter calida patet: quia in principio 
+              <lb ed="#P" n="116"/>hore habebant equales calores et continuo susceperunt 
+              <lb ed="#P" n="117"/>equales calores tam quo ad extensionem quam quo ad inten 
+              <lb ed="#P" n="118"/>sionem. igite: in prima enim parte proportionali hore prima pars 
+              <lb ed="#P" n="119"/>proportionalis a suscepit vnum gradum caloris. et in 
+              ea<lb ed="#P" n="120" break="no"/>dem parte proportionali hore secunda pars proportionalis 
+              <lb ed="#P" n="121"/>b cum omnibus sequentibus suscepit vnum gradum caloris 
+              <lb ed="#P" n="122"/>igiter in illa parte proportionali hore a et b susceperunt 
+              <lb ed="#P" n="123"/>equales calores tam quo ad extensionem quam quo ad 
+              in<lb ed="#P" n="124" break="no"/>tensionem: quia secunda pars proportionalis b cum omnibus 
+              se<lb ed="#P" n="125" break="no"/>quentibus est vna pars equalis prime parte proportionali a: 
+              <lb ed="#P" n="126"/>et ita in qualibet parte proportionali hore tantum caloris 
+              <lb ed="#P" n="127"/>intensiue et extensiue suscipiet b sicut a: quod fuit probandum. 
+              <lb ed="#P" n="128"/>Forte concedes sequelam quod a et b sunt equaliter 
+              ca<lb ed="#P" n="129" break="no"/>lida: et licet b habeat infinita caliditatem hoc non 
+              suffi<lb ed="#P" n="130" break="no"/>cit: quia infinitum parum sufficit denominare subiectum hoc 
+              <lb ed="#P" n="131"/>totale aliquis calor eius.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e942">
+      ⁋ Contra hoc arguitur: 
+              da<lb ed="#P" n="132" break="no"/>to vno corpore cuius quelibet pars habens partem prio¬ 
+      <!--177.xml-->
+      <pb ed="#P" n="81-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rem excedit precedentem in duplo esset etiam finite cali 
+              <lb ed="#P" n="2"/>dum: sed hoc est falsum. igitur: sit istud corpus c arguitur 
+              <lb ed="#P" n="3"/>sic. quaelibet pars proportionalis cfinite excedit partem 
+              pro<lb ed="#P" n="4" break="no"/>portionale b ei respondentem in caliditate. igaster calidi 
+              <lb ed="#P" n="5"/>tas cfinite excedit caliditatem b. Sed quod illud sit flim 
+              <lb ed="#P" n="6"/>patet reducendo caliditatem c difformem ad vniformem: in 
+              <lb ed="#P" n="7"/>ueniemus enim calidatem infinite intensam. Assumptum patet 
+              <lb ed="#P" n="8"/>qui prima pars proportionalis c habet vnum gradum 
+              calidita<lb ed="#P" n="9" break="no"/>tis: diuidatur ille ad imaginationem in duas medietates 
+              <lb ed="#P" n="10"/>quo ad intensionem: et vna medietas ponatur in vna me 
+              <lb ed="#P" n="11"/>dietate c corpis et altera medietas in alia medietater 
+              <lb ed="#P" n="12"/>si non esset alius calor in c: tunc cper totum haberet medit 
+              <lb ed="#P" n="13"/>gradum vniformiter: inde capiatur calor secunde partis propor 
+              <lb ed="#P" n="14"/>tionalis e corpis quae est vt duo e diuidatur ad 
+              imagina<lb ed="#P" n="15" break="no"/>tionem in quattuor partes quo ad intensionem. et in qualibet 
+              <lb ed="#P" n="16"/>quartarum ipsius cpouatur medius gradus: tunc iterum 
+              csusci<lb ed="#P" n="17" break="no"/>peret medium gradum caloris: et ita consequenter quacuque cal 
+              <lb ed="#P" n="18"/>ditate cuiuscuque partis proportionalis accepta: et ipsum 
+              <lb ed="#P" n="19"/>extendendo per totu c.c susciperet dimidium gradum calor 
+              <lb ed="#P" n="20"/>tunc in fine hore c erit infinite calidum vniformiter: cum 
+              <lb ed="#P" n="21"/>in qualibet parte proportionali hore suscipiat per totum 
+              dimi<lb ed="#P" n="22" break="no"/>dium eraodum cum quaelibet pars proportionalis aliquid facit ad 
+              de<lb ed="#P" n="23" break="no"/>noinationem totius et equaliter totum est infinite calidum. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1003">
+               <lb ed="#P" n="24"/>⁋ Respondetur cocedendo quod c est infinite calidum 
+              <lb ed="#P" n="25"/>prima pars proportionalis aliquid facit ad denoinatio 
+              <lb ed="#P" n="26"/>nem totius: secunda pars licet sit in duplo minor in 
+              quantita<lb ed="#P" n="27" break="no"/>te est tamen in duplo intensior: et propterea tantum facit ad de 
+              <lb ed="#P" n="28"/>nominationem totius et sic gradatun intensio partis 
+              sequen<lb ed="#P" n="29" break="no"/>tis extensionem partis prioris valet: sed nego esse 
+              simi<lb ed="#P" n="30" break="no"/>le de b. Nec valet hec consequentia: quaelibet pars 
+              proportiona<lb ed="#P" n="31" break="no"/>lis csolum finite excedit partem ei respondentem in b: ergo 
+              <lb ed="#P" n="32"/>c finite precise exuperat b.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1025">
+      ⁋ Sed contra hoc arguitur sic 
+              <lb ed="#P" n="33"/>sequeretur quod per finitam rarefactionem befieret infinito 
+              <lb ed="#P" n="34"/>calidum. patet: rarefiat secunda pars proportionalis in tota 
+              <lb ed="#P" n="35"/>illa hora acquirendo quantitatem semipedalem: et quarta pars 
+              <lb ed="#P" n="36"/>proportionalis quae est in duplo intensior secunda rarefiat in ea 
+              <lb ed="#P" n="37"/>dem hora acquirendo subduplam quantitatem ad quantitatem 
+              <lb ed="#P" n="38"/>acquisitam a secunda et pars in duplo intensior quarta vid 
+              <lb ed="#P" n="39"/>licet octaua rarefiat acquirendo quantitatem subduplam ac 
+              <lb ed="#P" n="40"/>quantitatem cquisitam a quarta: et sic consequenter per omnes 
+              parte<lb ed="#P" n="41" break="no"/>proportionales in proportione dupla sele excedentes: 
+              <lb ed="#P" n="42"/>aliis autem partibus videlicet. iiii. v. vi. vii. (et cetere que 
+              <lb ed="#P" n="43"/>non in proportione dupla se excedunt) non rarefactis. 
+              <lb ed="#P" n="44"/>hoc posito sic arguo. immediate post hoc b erit 
+              infini<lb ed="#P" n="45" break="no"/>te calidum Atecnenes patet. non erit dabile instans post 
+              ho<lb ed="#P" n="46" break="no"/>quin inter illud a hoc b erit infinite calidum. da 
+              oppo<lb ed="#P" n="47" break="no"/>situm et sit illud d.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1060">
+      ⁋ Contra: inter illud instans et istuo 
+              <lb ed="#P" n="48"/>cadit tempus medium: et in illo secunda pars proportionalis acqui 
+              <lb ed="#P" n="49"/>ret aliquam quantitatem: et quelibet alia rarefacta in eo 
+              <lb ed="#P" n="50"/>dem tempore acquiret quantitatem: cuius intensio tantum faciet ad 
+              <lb ed="#P" n="51"/>denorationem totius quantum intensio quantitatis cquisite a 
+              <lb ed="#P" n="52"/>secunda. igrateib. erit infinite calidum. secunda enim pars 
+              proportio<lb ed="#P" n="53" break="no"/>nalis in tota hora acquiret semipedalem quantitatem vt 
+              <lb ed="#P" n="54"/>duo intensam: quarta vero quantitatem subduplam in 
+              du<lb ed="#P" n="55" break="no"/>plo magis intensam. et propterea tantum faciet ad deno 
+              <lb ed="#P" n="56"/>minationem totius quantum quantitas cquisita a secunda: quod 
+              <lb ed="#P" n="57"/>vbi illa quantitas cquisita a quarta parte proportionali 
+              <lb ed="#P" n="58"/>fuisset eque intensa cum quantitate cquisita a secunda: 
+              sub<lb ed="#P" n="59" break="no"/>duplum denominasset totum corpus: si ergo est in duplo 
+              inten<lb ed="#P" n="60" break="no"/>sor tantundem faciet. Quod autem finite fuerit rarefactum 
+              <lb ed="#P" n="61"/>patet: quia solum acquisiuit pedalitatem in illa hora: secunda autem 
+              <lb ed="#P" n="62"/>pars proportionalis cquisiuit semipedalitatem et omnes se 
+              <lb ed="#P" n="63"/>quentes tantundem: sed ibi sunt infinite quantitates se exce 
+              <lb ed="#P" n="64"/>dentes in proportione dupla: et per consequens aggregatum ex 
+              oi<lb ed="#P" n="65" break="no"/>bus erit equaele prime quantitati.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1102">
+      ⁋ Ad hoc dicitur quod illud non 
+              <lb ed="#P" n="66"/>inconuenit ob variam partium dispositionem.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1107">
+      ⁋ Secundo 
+      <!--177.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 81vb -->
+               <lb ed="#P" n="67"/>arguitur sic. ex ista positione sequitur quod dari potest aliqu 
+              <lb ed="#P" n="68"/>albedo infinite remissionis. hoc autem est falsum: 
+              qua<lb ed="#P" n="69" break="no"/>cumque enim remissione data medietas eius est remissior. 
+              <lb ed="#P" n="70"/>Sed quod sequatur patet. ponatur vna linea infinita orientem 
+              <lb ed="#P" n="71"/>versus terminata parisii. ponatur in prima pedalit 
+              <lb ed="#P" n="72"/>te illius corpis albedo vt octo: in secunda pedalitate albe 
+              <lb ed="#P" n="73"/>do vt quatuor et sic per omnes pedalitates. Iam quod illud 
+              <lb ed="#P" n="74"/>sit infinite remissionis patet: quia albedo quae est in prima 
+              pe<lb ed="#P" n="75" break="no"/>dalitate est alicuius remissionis: sed albedo quae est in ptrer 
+              <lb ed="#P" n="76"/>ma et secunda pedalitatibus est magis remissa quam illa qua 
+              <lb ed="#P" n="77"/>est in prima: patet eundo ad gradum medium prime 
+              peda<lb ed="#P" n="78" break="no"/>litatis et bipedalitatis: et sic consequenter. ergo albedo tot 
+              <lb ed="#P" n="79"/>est infinite remissionis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1145">
+      ⁋ Rursus: si hoc corpus est 
+              <lb ed="#P" n="80"/>alicuius certe intensionis: queritur de illa vel est duorum 
+              <lb ed="#P" n="81"/>graduum vel quarte partis vnius gradus: et si sic: si omnes 
+              <lb ed="#P" n="82"/>ille partes ponerentur in corpore pedali constituerent 
+              <lb ed="#P" n="83"/>vna qualitatem infinitam intensiue.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1156">
+      ⁋ Sed hoc non. ponamus 
+              <lb ed="#P" n="84"/>enim quod capiatur albedo vt sexdecim ab vno corpe 
+              pe<lb ed="#P" n="85" break="no"/>dali et ex illa fiat extensio per corpus infinitum de quo 
+              lo<lb ed="#P" n="86" break="no"/>quimur.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1165">
+      ⁋ Istuod praet applicariin corpibus quae habemus. 
+              <lb ed="#P" n="87"/>accipiatur enim corpus colunare vniformiter difformiter. 
+              <lb ed="#P" n="88"/>albu ab octo ad non gradum vsque: capiendo lineam gprat 
+              <lb ed="#P" n="89"/>uam illius corpis tenendo lineas profundas et latas 
+              <lb ed="#P" n="90"/>applicando in hac linea equaliter argumentum: prima pe 
+              <lb ed="#P" n="91"/>dalitas linee gpratiue est albior quam aggregatu ex prima 
+              <lb ed="#P" n="92"/>et secunda pedalitatibus binarius enim primarum pedalitatum es 
+              <lb ed="#P" n="93"/>albior ternario pedalitatum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1183">
+      ⁋ Forte dices quod licet 
+              <lb ed="#P" n="94"/>nulla detur qualitas vniformis infinite remissionis: tamen non 
+              <lb ed="#P" n="95"/>inconuenit dare aliquam qualitatem difformem infinite 
+              re<lb ed="#P" n="96" break="no"/>missionis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1192">
+      ⁋ Simile pot dari de latitudine vnius 
+              cor<lb ed="#P" n="97" break="no"/>poris: vtputa sit linea infinita orientem versus cuius 
+              pri<lb ed="#P" n="98" break="no"/>ma pedalitas sit pedalis latitudinis: secunda pedalitas 
+              <lb ed="#P" n="99"/>semipedalis: tertia quarte partis pedis et sic consequenter 
+              <lb ed="#P" n="100"/>petendo quante latitudinis est hoc corpus.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1203">
+      ⁋ Contra. et 
+              <lb ed="#P" n="101"/>isto sequuntur iste propositiones: aliquod corpus nunc non 
+              <lb ed="#P" n="102"/>est intesum et numquam intendetur. nihilo tamen minus erit intensum. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1211">
+               <lb ed="#P" n="103"/>⁋ Aliqua qualitas infinite intensa componitur ex 
+              qua<lb ed="#P" n="104" break="no"/>litatibus quarum nulla est intensa.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1218">
+      ⁋ Aliquod corpus 
+              <lb ed="#P" n="105"/>transit de extremo in extremum non transeundo per 
+              <lb ed="#P" n="106"/>medium.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1225">
+      ⁋ Prima propositio patet: quia si in prima 
+              par<lb ed="#P" n="107" break="no"/>te proportionali hore future addatur similis et simil 
+              <lb ed="#P" n="108"/>ter extensa cum priore qualitate: et in secunda eodem 
+              <lb ed="#P" n="109"/>modo: et sic consequenter: tunc in instanti terminante horam hoc 
+              <lb ed="#P" n="110"/>corpus erit intensum: immo erit iufinite tale a nunc non 
+              <lb ed="#P" n="111"/>est intensum per te. Quod nunquam intendetur patet: quod non in 
+              <lb ed="#P" n="112"/>instanti terminante horam ex casu patet: nec ante illud 
+              <lb ed="#P" n="113"/>instans: quia in qualibet parte proportionali hore verum erit 
+              <lb ed="#P" n="114"/>dicere quod nullo modo est intensum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1245">
+      ⁋ Secunda 
+              proposi<lb ed="#P" n="115" break="no"/>tio patet: quia nulla qualitas in aliqua parte 
+              proportio<lb ed="#P" n="116" break="no"/>nali hore erit alicuius intensionis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1252">
+      ⁋ Tertia propositio 
+              <lb ed="#P" n="117"/>patet: quia non paius illud corpus erit album vt octo quam 
+              <lb ed="#P" n="118"/>vt mille.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1259">
+      ⁋ Respondetur quod sufficienter inter 
+              arguen<lb ed="#P" n="119" break="no"/>dum prima istarum propositionunconceditur: et secunda ad  
+              <lb ed="#P" n="120"/>intensionem argumenti: licet aliqua paro eius sit 
+              in<lb ed="#P" n="121" break="no"/>finita. patet de qualitate acquisita in parte 
+              termina<lb ed="#P" n="122" break="no"/>ta ad instans terminatiuum hore.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1271">
+      ⁋ Eodem modo 
+              po<lb ed="#P" n="123" break="no"/>tes ponere propositiones opposito modo quo ad 
+              re<lb ed="#P" n="124" break="no"/>missionem.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1278">
+      ⁋ Aliquod corpus est infinite 
+              intensio<lb ed="#P" n="125" break="no"/>nis a quo non auferetur calor alicuius intensionis: et 
+              <lb ed="#P" n="126"/>tamen ipsum nullius intensionis erit in fine. patet: in 
+              qua<lb ed="#P" n="127" break="no"/>libet parte proportionali hore auferendo talem calorem 
+              <lb ed="#P" n="128"/>qualis est productus in illa iam in fine non erit calor 
+              <lb ed="#P" n="129"/>alicuius intensionis: et in nulla parte proportionali est 
+              <lb ed="#P" n="130"/>ablatus calor alicuius intensionis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1294">
+      ⁋ Contra ista 
+              <lb ed="#P" n="131"/>arguitur: sequitur quod si heclinea infinita esset alba 
+              vnifor<lb ed="#P" n="132" break="no"/>miter vt octo ea ei addantur albedines seipas exceden¬ 
+      <!--178.xml-->
+      <pb ed="#P" n="82-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tes geometrice. quod tota desinet esse alba patet quia 
+              addan<lb ed="#P" n="2" break="no"/>tur quattuor gradus prime pedalitati: ia tota illa 
+              pe<lb ed="#P" n="3" break="no"/>dalitas est alba vt duodecim: addatur secunde pedali 
+              <lb ed="#P" n="4"/>tati albedo vt duo: tertie pedalitati vt vnum: et sic 
+              con<lb ed="#P" n="5" break="no"/>sequenter iam in fine hec albedo nullius erit 
+              intensio<lb ed="#P" n="6" break="no"/>nis.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1320">
+      ⁋ Potest quispiam hic bifariam respondere: vnomo. 
+              <lb ed="#P" n="7"/>do concedendo illatum: nec hoc inconuenit quando est diffor 
+              <lb ed="#P" n="8"/>mis additio in infinitis secundum extensionem. Dixi secundum 
+              <lb ed="#P" n="9"/>extensionem. si enim esset infinita intensio remouendo 
+              quali<lb ed="#P" n="10" break="no"/>tatem difformem tota remanebit infinita.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1331">
+      ⁋ Potest 
+              <lb ed="#P" n="11"/>etiam dici quod dummodo linea fuerit alicuius certe 
+              inten<lb ed="#P" n="12" break="no"/>sionis pius propter additionem non variatur intensio 
+              <lb ed="#P" n="13"/>praecedens cuius prius erat. ratio est: quia totum erat album vt octo 
+              <lb ed="#P" n="14"/>et nulla qualitas alicuius intensionis est addita: ergo tota ad  
+              <lb ed="#P" n="15"/>huc remanebit vt octo. secus est quando erat difformitas 
+              <lb ed="#P" n="16"/>totaliter: quando nec totum nec pars potest assignari alicui 
+              <lb ed="#P" n="17"/>intensionis certe.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1349">
+      ⁋ Et hanc consequentiam nego: quelibet 
+              pe<lb ed="#P" n="18" break="no"/>dalitas est maiori intensionis quam paius erat: ergo totum erit 
+              <lb ed="#P" n="19"/>maioris intensionis. oportet enim addere in atetee: et prit 
+              vni<lb ed="#P" n="20" break="no"/>formis reductio fieri per totum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1359">
+      ⁋ Sed contra quaelibet 
+              quali<lb ed="#P" n="21" break="no"/>tas difformis potest reduci in vniformem infinitam: ergo 
+              <lb ed="#P" n="22"/>quelibet talis est infinita. Atecedens patet: quia per 
+              penetratio<lb ed="#P" n="23" break="no"/>nem partium simul ( vt diximus de albedine in sacra 
+              <lb ed="#P" n="24"/>mento eucharistie potest fieri albedo infinite intensa. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1370">
+               <lb ed="#P" n="25"/>⁋ Respondetur: quia hoc non sufficit quia nullam qualitatem ex 
+              <lb ed="#P" n="26"/>tensam difformem sic reputaremus finitam: nec sufficit trans 
+              <lb ed="#P" n="27"/>positio capiendo corpus infinitum orientem versus vnifor 
+              <lb ed="#P" n="28"/>miter albu: et ponendo in prima pedalitate albedinem vt 
+              <lb ed="#P" n="29"/>vnum: in secunda vt dimidium et sic consequenter: pret ei esse talis dispo 
+              <lb ed="#P" n="30"/>sitio quod tota albedo erit infinita. patet: quia si deus caperet 
+              <lb ed="#P" n="31"/>albedines in secunda quarta et sexta et sic alternatim in partia 
+              <lb ed="#P" n="32"/>bus paribus et poneret in prima pedalitate: iam in illa esset 
+              <lb ed="#P" n="33"/>albedo infinita intensiue. praet etiam vlterius capere 
+              albedi<lb ed="#P" n="34" break="no"/>nem in. vii. ix et xi etc. ponendo in secunda pedalitate: et si 
+              <lb ed="#P" n="35"/>secunda pedalitas erit infinite intensa: et sic praet fieri disposi 
+              <lb ed="#P" n="36"/>tio quod conflabitur ex huaiusmodi albedinibus qualitas infinita:. 
+              <lb ed="#P" n="37"/>hoc patet materiam de infinito intelligenti: non tamen ponimus 
+              <lb ed="#P" n="38"/>talem qualitatem infinitam. potest enim deus facere quod totum 
+              eri<lb ed="#P" n="39" break="no"/>album vt sexdecim vel vt. xxxii. vel alit sicut ei placet 
+              <lb ed="#P" n="40"/>Si sit ergo aliquae quaelitas vniformis et ei coextendatur 
+              qua<lb ed="#P" n="41" break="no"/>litas difformis infinita: manebit eiusdem intensionis 
+              si<lb ed="#P" n="42" break="no"/>cut prius erat: quia nulla certa intensio est addita.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1412">
+      ⁋ Sed 
+              <lb ed="#P" n="43"/>contra: si sit corpus alicuius intensionis certe e ei addatur 
+              qua<lb ed="#P" n="44" break="no"/>litas difformis finita: totum manebit intensius: ergo adden 
+              <lb ed="#P" n="45"/>do vnum gradum corpi albo vt octo / totum erit intensius quam 
+              <lb ed="#P" n="46"/>vt octo: et quaritur quate erit intensionis:
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1423">
+      ⁋ Si dicatur infini 
+              <lb ed="#P" n="47"/>te quia potest ad illam reduci: tunc quaelibet difformis erit infi 
+              <lb ed="#P" n="48"/>nita.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1430">
+      ⁋ Dicitur quod manebit eiusdem intensionis sicut priuo 
+              <lb ed="#P" n="49"/>erat: ro est: quia ante erat intensionis vt octo: et aliquid quod 
+              <lb ed="#P" n="50"/>non potest reddere aliquam denoinationem respectu illius 
+              to<lb ed="#P" n="51" break="no"/>tius finities sumptu est additum: totum igitur manebit ita 
+              <lb ed="#P" n="52"/>album in denoinatione sicut erat ante illum gradum. et eodem modo 
+              <lb ed="#P" n="53"/>addendo quoscumque gradus finitos: et sic duo gradus add  
+              <lb ed="#P" n="54"/>ti faciunt eandem denoinationem cum tribus quaettuor: et sic sine 
+              <lb ed="#P" n="55"/>statu citra infinitum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1448">
+      ⁋ Quo fit quod vnum corpus 
+              manebi<lb ed="#P" n="56" break="no"/>per vnam horam vniforme vt octo in denoinatione: et in in 
+              <lb ed="#P" n="57"/>stanti terminante horam erit vt nouem vel decem: et tamen in illo 
+              <lb ed="#P" n="58"/>instanti nihil illi corpi addetur. patet dando corpus infinitum 
+              <lb ed="#P" n="59"/>orientem versus terminatum parisii vniforme per totum vt 
+              <lb ed="#P" n="60"/>octo in qualibet parte proportionali hore sequentis: adda 
+              <lb ed="#P" n="61"/>tur vnus gradus albedinis illi corpori minoribus 
+              par<lb ed="#P" n="62" break="no"/>tibus terminatis ad finem hore: tunc in instanti terminante 
+              <lb ed="#P" n="63"/>illam horam verum est dicere: illud corpus est album vt neuem 
+              <lb ed="#P" n="64"/>et immediate ante erat vt octo: anullus est gradus ad  
+              <lb ed="#P" n="65"/>ditus in hoc instanti. Eodem modo potest deduci 
+              adden<lb ed="#P" n="66" break="no"/>do duos gradus vel quantoslibet plures.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1475">
+      ⁋ Sed contra 
+      <!--178.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 82rb -->
+               <lb ed="#P" n="67"/>hoc argumentor. hoc non praet saluare casum 
+              substrahen<lb ed="#P" n="68" break="no"/>do vnum gradum: ergo modus ponendi est nullus. antecedens patet: quia 
+              <lb ed="#P" n="69"/>detur corpus album vt octo infinitum vniformiter: et substra 
+              <lb ed="#P" n="70"/>hatur a prima pedalitate in extremo finito: vel a quacum 
+              <lb ed="#P" n="71"/>que alia pedalitate vnus gradus: iam totum corpus non est album 
+              <lb ed="#P" n="72"/>vt. viii. quando vnus gradus est ablatus: et est latitudo difi 
+              <lb ed="#P" n="73"/>formis: et non potes ire ad quem gradum medium illud 
+              ha<lb ed="#P" n="74" break="no"/>bet reduci: igister.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1501">
+      ⁋ Respondetur quod totum illud corpus adhuc est 
+              <lb ed="#P" n="75"/>album vt octo. et ratio est: quia prius erat album vt octo a est 
+              <lb ed="#P" n="76"/>ablatum solum aliquid quod finities sumptum non potest denoiare 
+              <lb ed="#P" n="77"/>totum: ergo ablatio vnius gradus nihil facit ad 
+              deno<lb ed="#P" n="78" break="no"/>minationem totius: ergo manebit in eadem denominatione in 
+              <lb ed="#P" n="79"/>qua prius erat vt octo: ergo nunc est vt octo: et in 
+              qua<lb ed="#P" n="80" break="no"/>libet parte proportionali auferetur ab vna pedalita 
+              <lb ed="#P" n="81"/>te vnus gradus: per totam horam corpus manebit album vt 
+              <lb ed="#P" n="82"/>octo: et in instanti terminante horam esset primo album vt 
+              <lb ed="#P" n="83"/>vii. et nihil esset tunc ablatum. Et si ponas quod in prima 
+              <lb ed="#P" n="84"/>parte proportionali tollantur omnes gradus a prima peda 
+              <lb ed="#P" n="85"/>litate: et in secunda parte proportionali auferantur omnes gra 
+              <lb ed="#P" n="86"/>dus albedinis a secunda pedalitate: et sic consequenter po omnes paer 
+              <lb ed="#P" n="87"/>tes proportionales vnius hore totum manebit album vt octo 
+              <lb ed="#P" n="88"/>et in instanti terminante horam corpus non manebit album 
+              <lb ed="#P" n="89"/>nec coloratum: quia nullum colorem habebit ex casu.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1536">
+      ⁋ Et 
+              <lb ed="#P" n="90"/>his patent aliqua. primum quod intesio qualitatis 
+              vnifor<lb ed="#P" n="91" break="no"/>mis est accipienda secundum formam qua habet: sed quando est 
+              <lb ed="#P" n="92"/>extensio per subiectum infinitum est maior difficultas 
+              <lb ed="#P" n="93"/>Et multifariam potest quispiam dicere quod in talibus respicia 
+              <lb ed="#P" n="94"/>tur ad qualitatem intensissimam quam corpus habet: et discri 
+              <lb ed="#P" n="95"/>men est a finitis: quia non potest dari certa reductio: vt da 
+              <lb ed="#P" n="96"/>ta qualitate vt octo in prima pedalitate et quattuor in 
+              <lb ed="#P" n="97"/>secunda: et sic consequenter in linea infinita: hec tota est qualifica 
+              <lb ed="#P" n="98"/>ta vt octo: absurdum enim reputaretur corpus per totum 
+              ha<lb ed="#P" n="99" break="no"/>bere colorem et ipsum non posse denoinare suum subiectum: 
+              <lb ed="#P" n="100"/>et satius est habere oculum ad intensissimum quam ad aliud 
+              <lb ed="#P" n="101"/>extremum: quia nullum est remissimum in aliqua pedalita 
+              <lb ed="#P" n="102"/>te vel parte. Tum secudo perfectius: in coordinatione 
+              <lb ed="#P" n="103"/>debet esse mensura totius citius quam imperfectius 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1569">
+               <lb ed="#P" n="104"/>⁋ Secundo potest quis dicere quod in difformibus 
+              respicien<lb ed="#P" n="105" break="no"/>du est ad maximam intensionem reducibilem: et sic poneret 
+              <lb ed="#P" n="106"/>quamlibet talem infinitam: et hoc potest esse duobus modis: vel  
+              <lb ed="#P" n="107"/>reducendo per penetratione pertium: et sic potest dicere 
+              quamli<lb ed="#P" n="108" break="no"/>bet qualitatem difformem in corpe finito a infinito 
+              inten<lb ed="#P" n="109" break="no"/>sionis infinite: vel dicere quod non eundum est ad 
+              penetratio<lb ed="#P" n="110" break="no"/>nem: sed sufficit quaecumque reductio alia dummodo est extensio 
+              <lb ed="#P" n="111"/>partium.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1589">
+      ⁋ Potest quispiam dicere consequenter sicut diximus in 
+              ppro<lb ed="#P" n="112" break="no"/>cessu argumentorum: et illud magi amplectiniur.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1594">
+      ⁋ Sed  
+              <lb ed="#P" n="113"/>dices adhuc: ponamus infinitos gradus albedinis in 
+              pri<lb ed="#P" n="114" break="no"/>ma pedalitate linee infinite nulla albedine existente i 
+              <lb ed="#P" n="115"/>aliis: quaritur quante intensionis est illud corpuss
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1604">
+      ⁋ Dicitur in 
+              <lb ed="#P" n="116"/>primis quod non habet albedinem difformiter extesam per 
+              <lb ed="#P" n="117"/>totum actum: et sic nihil ad nostram conclusionem: ex ista tamen 
+              <lb ed="#P" n="118"/>albedine praet esse finite album quantolibet gradu albedis 
+              <lb ed="#P" n="119"/>volueris. vel potest esse corpus infinite album. Quod patet secundu 
+              <lb ed="#P" n="120"/>varium modum accipiendi illius albedinis: et licet latitude 
+              <lb ed="#P" n="121"/>vniformiter difformis habeat mensuram per gradum 
+              <lb ed="#P" n="122"/>medium quo ad denoinationem subiecti: tamen non sic oporter 
+              <lb ed="#P" n="123"/>de resistentia: quia si sit vnum medium resistentie a non gradu 
+              <lb ed="#P" n="124"/>ad octo vsque: totum illud medium non est precise resister 
+              <lb ed="#P" n="125"/>tie vt quattuor: sed penes quamlibet partem intrinsecam illius 
+              <lb ed="#P" n="126"/>medii capienda est resistentia.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1630">
+      ⁋ Quocirca vnum 
+              mo<lb ed="#P" n="127" break="no"/>bile actiuitatis vt. iiii. in diuidedo nunquam diuidat illud 
+              <lb ed="#P" n="128"/>medium in cadendo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1637">
+      ⁋ Tertio arguitur: mobile 
+              diffor<lb ed="#P" n="129" break="no"/>miter motum quo ad partes mouetur ita velociter sicut 
+              <lb ed="#P" n="130"/>punctum velocissime motum in ipso: ergo eodem modo la 
+              <lb ed="#P" n="131"/>titudo difformis est metienda per intensississimam qunalita 
+              <lb ed="#P" n="132"/>tem que est in ea. Aecedens patet: quiacu primum punctum aliquod in 
+      <!--179.xml-->
+      <pb ed="#P" n="82-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>equo attingit terminum ad quem: ita cito ille equus 
+              at<lb ed="#P" n="2" break="no"/>tingit illum terminum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1659">
+      ⁋ Ad tertium nego antecedens: quia mo 
+              <lb ed="#P" n="3"/>bile habens partes difformiter motas mouetur praecise ita 
+              <lb ed="#P" n="4"/>velociter sicut punctum medium verum vel imaginariuni 
+              <lb ed="#P" n="5"/>eius: sed de hoc alias cum erit sermo de motu locali. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1668">
+               <lb ed="#P" n="6"/>⁋ Quarto argumentor ponendo quod vnum corpus habe 
+              <lb ed="#P" n="7"/>at caliditatem vniformiter vt sex et duos grgodus frigoris: 
+              <lb ed="#P" n="8"/>illud corpus habet vniformiter vt sex: et tamen non est 
+              ca<lb ed="#P" n="9" break="no"/>lidum vt sex. Quod probo. quia si haberet quattuor gradus fri 
+              <lb ed="#P" n="10"/>goris et quattuor caloris extensos per totu illud 
+              cor<lb ed="#P" n="11" break="no"/>pus non esset calidum: quia eadem ratione esset frigidum: et 
+              <lb ed="#P" n="12"/>impediunt se quo ad denoiationes quando est equalitas: ergo 
+              de<lb ed="#P" n="13" break="no"/>bemus iudicare secundum excessum ac si talis qualitas non ha 
+              <lb ed="#P" n="14"/>beret contrarium denominationem impediens: ergo istud 
+              cor<lb ed="#P" n="15" break="no"/>pud dicetur calidum vt. iiii. quia duo gradus frigoris et 
+              ca<lb ed="#P" n="16" break="no"/>loris se mutuo prepediunt et remanebit excessus vt. iiii. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1694">
+               <lb ed="#P" n="17"/>⁋ Concedimus conclusionem argumenti nec est contra nos. 
+              <lb ed="#P" n="18"/>qui intelligimus quod caliditas vt sex vniformiter 
+              deno<lb ed="#P" n="19" break="no"/>minat subiectum vt sex vbi non ponitur contrarium eius 
+              de<lb ed="#P" n="20" break="no"/>noinationem impediens.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1706">
+      ⁋ Ex isto sequuntur he 
+              Con<lb ed="#P" n="21" break="no"/>clusiones. aliquod est corpus calidum aliquali 
+              denoina<lb ed="#P" n="22" break="no"/>tione: et tamen continuo efficitur magis calidum caliditatem 
+              <lb ed="#P" n="23"/>deperdendo. Probatur conclusio dando corpus habens octo 
+              <lb ed="#P" n="24"/>gradus caliditati et quattuor gradus frigoris vniformitur et 
+              <lb ed="#P" n="25"/>deperdat vnum gradum caloris et duos frigoris: quoniam 
+              con<lb ed="#P" n="26" break="no"/>tinue post hoc erit maior excessus caliditatis super 
+              frigi<lb ed="#P" n="27" break="no"/>ditatem quam modo sit: quia quandocumque erit aliquod deperditum 
+              ca<lb ed="#P" n="28" break="no"/>liditatis duplum frigiditatis erit deperditum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1726">
+      ⁋ Secun 
+              <lb ed="#P" n="29"/>da conclusio est: aliquod corpus manebit calidum equaliter 
+              si<lb ed="#P" n="30" break="no"/>cut nunc est: et tamen continuo acquiret caliditatem: patet: si cum 
+              <lb ed="#P" n="31"/>hoc acquirat equaeliter de frigiditate.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1735">
+      ⁋ Tertiam conclusior 
+              <lb ed="#P" n="32"/>datur corpus non calidum cuius quaelibet pars proportionalis 
+              <lb ed="#P" n="33"/>est calida. Probatur. sit a corpus diuisum in partes 
+              pro<lb ed="#P" n="34" break="no"/>portionales proportione dupla: et in prima parte 
+              propor<lb ed="#P" n="35" break="no"/>tionali sit frigiditas vt duo: etcaliditas vt quattuor in 
+              <lb ed="#P" n="36"/>secunda parte proportionali sit frigiditas vt quattuor et 
+              calidi<lb ed="#P" n="37" break="no"/>tas vt octo: et sic sine statu quaelibet pars proportionalis 
+              <lb ed="#P" n="38"/>iam est calida: quando cuiuslibet partis proportionalis 
+              calor<lb ed="#P" n="39" break="no"/>frigus eiusdem exuperat in duplo. Quod totum non sit calidum 
+              <lb ed="#P" n="40"/>atet: quia frigus per totum extensum (si non esset admixtum suc 
+              <lb ed="#P" n="41"/>rio infinite sufficit denoinare hoc subiectum frigidum: 
+              <lb ed="#P" n="42"/>ergo infinite impedit denoinationem calidi: sed caliditas 
+              ex<lb ed="#P" n="43" break="no"/>tensa non sufficit amplius denominare quam infinite: ergo to 
+              <lb ed="#P" n="44"/>taliter impedit denoinationem eius. Assumptum patet: quia fr 
+              <lb ed="#P" n="45"/>giditas extensa per secundam partem proportionalem tantum 
+              <lb ed="#P" n="46"/>facit ad denoinationem totius quantum frigiditas prime: quia 
+              li<lb ed="#P" n="47" break="no"/>prima sit in duplo extensior tamen frigiditas secunde partis 
+              propor<lb ed="#P" n="48" break="no"/>tionalis est in duplo intensior: et sic per omnes partes 
+              pro<lb ed="#P" n="49" break="no"/>portionales sequentes: ergo illa frigiditas sufficit 
+              infini<lb ed="#P" n="50" break="no"/>te denonare totum subiectum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1779">
+      ⁋ Ex quo sequitur quarta 
+              <lb ed="#P" n="51"/>conclusio. maior pars a est calida secundum se et quodlibet su 
+              <lb ed="#P" n="52"/>et tamen a non est calidum. patet: quia binarius primarum 
+              par<lb ed="#P" n="53" break="no"/>tium proportionabilium est calidus: et sic sine statu in finitis. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1788">
+               <lb ed="#P" n="54"/>⁋ Quinta conclusio. stat quamlibet partem proportionalem 
+              <lb ed="#P" n="55"/>b corpis esse infinite calidam et b non esse calidum: patet 
+              <lb ed="#P" n="56"/>ponendo quod b sit vniformiter infinite calidum: et in prima 
+              <lb ed="#P" n="57"/>parte proportionali sit frigiditas vt vnum: in secunda 
+              <lb ed="#P" n="58"/>parte proportionali sit frididitas vt duo: in tertia in 
+              <lb ed="#P" n="59"/>quadruplo maior: et sic sine fine. iam illud frigus suffici 
+              <lb ed="#P" n="60"/>denominare tale subiectum infinite frigidum: quoniam secunda 
+              <lb ed="#P" n="61"/>pars proportionalis tantum facit ad denoniationem toti 
+              <lb ed="#P" n="62"/>ob intensionem quam habet super primam quantum extensio prime 
+              <lb ed="#P" n="63"/>facit: et ita de qualibet in ordine ad precedentem. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1812">
+               <lb ed="#P" n="64"/>⁋ Quinto arguitur. nulla est qualitas vniformiter 
+              dis<lb ed="#P" n="65" break="no"/>formis: ergo dicta praesupponunt falsum. Atecedens patet. quod 
+              <lb ed="#P" n="66"/>si esset aliqua maxime eet illa qua incipit a non gradu et 
+      <!--179.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 82vb -->
+               <lb ed="#P" n="67"/>terminatur in octo: et ponatur albedo talis. et arguitur sic 
+              <lb ed="#P" n="68"/>ibi non est albedo vt octo: quod patet: quia illa albedo est 
+              ex<lb ed="#P" n="69" break="no"/>tensa: et non est extra subiectum: ergo est in subiecto 
+              extenso<lb ed="#P" n="70" break="no"/>rgo aliqua pars erit alba pure vniformiter contra casum. 
+              <lb ed="#P" n="71"/>Et eodem modo probabit quod nullus gradus citra octo 
+              <lb ed="#P" n="72"/>erit in illo subiecto: et patet de gradu vt quaettuor 
+              queren<lb ed="#P" n="73" break="no"/>do an ille est in puncto medio illius corpis bipedalis: supr 
+              <lb ed="#P" n="74"/>ponamus quod albedo non iheret puncto: et si albedo vt. iiii. 
+              <lb ed="#P" n="75"/>inhereat subiecto extenso iam corpus erit vniformiter 
+              <lb ed="#P" n="76"/>album contra hypothesim.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1850">
+      ⁋ Forte dices alebo vt octo erit 
+              <lb ed="#P" n="77"/>in illo subiecto: et erit in subiecto intenso sed non 
+              exten<lb ed="#P" n="78" break="no"/>so: sicut corpus sphericum tangit corpus planum in puncto 
+              <lb ed="#P" n="79"/>sed non punctualiter.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1859">
+      ⁋ Contra. ex isto das mihimodum 
+              <lb ed="#P" n="80"/>sustinendi quod vna albedo erit indiuisibiliter maior alia 
+              <lb ed="#P" n="81"/>patet de albedine vniformi vt octo a albedine 
+              vnifor<lb ed="#P" n="82" break="no"/>miter difformi incipiente a non gradu albedis et termi 
+              <lb ed="#P" n="83"/>nata ad octo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1870">
+      ⁋ Contra: tunc dabis substantiam longam lati 
+              <lb ed="#P" n="84"/>udinis et profunditatem immunem: et das mihi modum 
+              susti<lb ed="#P" n="85" break="no"/>nendi quod datur vnum podus aliud podus in grauitate 
+              indiui<lb ed="#P" n="86" break="no"/>sibiliter exuperans: et sic dato minio pondere quod sortes 
+              <lb ed="#P" n="87"/>non potest ferre. i. a: datur vnum aliud corpus indiuisibiliter 
+              <lb ed="#P" n="88"/>illo minus scilicet b. tunc b erit maximum pondus quod ego 
+              pos<lb ed="#P" n="89" break="no"/>sum ferre: quia est minus minimo pondere quod ego non pos 
+              <lb ed="#P" n="90"/>sum ferre: sed istud consequens est falsum. potentia enim portatiua 
+              <lb ed="#P" n="91"/>mea excedit resistentiam b ponderis alioquin ipsum ferre 
+              <lb ed="#P" n="92"/>nequeo: et non indiuisibiliter transcendit resistentiam illius 
+              <lb ed="#P" n="93"/>ponderis: quia indiuisibile additum diuisibili non reddit ipsum 
+              <lb ed="#P" n="94"/>maius. vi. physicorum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1896">
+      ⁋ hoc argumentum querit an 
+              la<lb ed="#P" n="95" break="no"/>titudo vniformiter difformis incipiens a non gradu vel 
+              <lb ed="#P" n="96"/>a certo gradu in vno extremo: et terminata in gradu 
+              <lb ed="#P" n="97"/>in alio vtputa in octo terminetur gradu octonario vel 
+              <lb ed="#P" n="98"/>quouis alio gradu intrinsece an extrinsece. Et dicitur cu 
+              <lb ed="#P" n="99"/>terminatur extrinsece: vt argumentum sufficienter ostendit 
+              <lb ed="#P" n="100"/>contra non discolum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1912">
+      ⁋ Et dicimus quod bipedale datum non 
+              <lb ed="#P" n="101"/>habet albedinem vt octo: sed quamlibet citra octo: habet se 
+              <lb ed="#P" n="102"/>patem: habet septem cum duabus tertiis: septem cum quattuor 
+              quin<lb ed="#P" n="103" break="no"/>tis: septem cum nonaginta nouem centesimis: et sic qualiter 
+              <lb ed="#P" n="104"/>cumque volueris frangendo: et in puncto continnante illas 
+              <lb ed="#P" n="105"/>duas pedalitates non est albedo vt quattuor: non enim est 
+              <lb ed="#P" n="106"/>albedo punctalis: sed quaelibet albedo citra quattuor est in 
+              <lb ed="#P" n="107"/>illo puncto a euestigio post illu punctum est albedo supra 
+              <lb ed="#P" n="108"/>quittuor.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1932">
+      ⁋ Quo fit vt non sit dabilis maxia albedo qua 
+              <lb ed="#P" n="109"/>e in hoc corpse: quonido octo est remisissima albedo quae non est i 
+              <lb ed="#P" n="110"/>hoc corpe.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1940">
+      ⁋ Sed contra istud arguitur sic: stante corpe isto 
+              <lb ed="#P" n="111"/>bipedali a vniformiter difformi: signetur vna alia albe 
+              <lb ed="#P" n="112"/>do bipedalis vniformitur difformis a non erdu ad octo 
+              <lb ed="#P" n="113"/>vsque. ponaturque albedo extremi intensioris b albedinis 
+              <lb ed="#P" n="114"/>super extremum remissius a albedinis: et extremum 
+              remis<lb ed="#P" n="115" break="no"/>sum b albedinis ponatur super extremum intensum a 
+              albe<lb ed="#P" n="116" break="no"/>dinis et dicatur qualitas resultans c. iam sic: albedo est 
+              vni<lb ed="#P" n="117" break="no"/>formis vt octo: et nihil albedinis additur ex extremo re 
+              <lb ed="#P" n="118"/>missiori ipsius be extremo intensiori ipsius a: ergo prius in a erat 
+              <lb ed="#P" n="119"/>albedo vt octo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1962">
+      ⁋ Preterea: motus localis difformis 
+              <lb ed="#P" n="120"/>terminatur inclusiue in aliquo certo grodu: ergo motus 
+              altera<lb ed="#P" n="121" break="no"/>tionis terminatur aliquo certo grdu intriseco. loquor secundum 
+              <lb ed="#P" n="122"/>materiam subiectam de quaelitate vniformitur difformi: antecedens 
+              <lb ed="#P" n="123"/>patet posito casu quod vnum mobile moueatur a non grdu 
+              mo<lb ed="#P" n="124" break="no"/>tus ad octo vsque: et in tota hora sequenti et in instanti 
+              <lb ed="#P" n="125"/>terminante illam horam intendat motum suum per horam 
+              se<lb ed="#P" n="126" break="no"/>quentem: iam in prima hora est octauus gradus inclusiue. 
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1980">
+               <lb ed="#P" n="127"/>⁋ Ad primum conceditur quod c erit vniformiter album vt. viii. 
+              <lb ed="#P" n="128"/>quia vbi parum erat de albedie in a multum additum est in br 
+              <lb ed="#P" n="129"/>et quamquam liciet in infinitum remissa sit albedo be non gradum 
+              <lb ed="#P" n="130"/>vsus: tamen sempere aliquid albedis citra punctum termitia xiuus 
+              <lb ed="#P" n="131"/>totius. Si sit sermo de punctis extrinsecis: hoc non est 
+              <lb ed="#P" n="132"/>ad propositum.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e1996">
+      ⁋ Ad secundum concedo antecedens. et nego consequentiam. Tuam 
+      <!--180.xml-->
+      <pb ed="#P" n="83-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>primo: quia motus localis est mobile quod mouetur. Tum 
+              <lb ed="#P" n="2"/>secundo: quia si ponatur accidens successiuum ex illo non 
+              <lb ed="#P" n="3"/>sequitur quod dandum est subiectum longum sine latitudine 
+              <lb ed="#P" n="4"/>et profunditate. quod sequitur ad aliud.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2014">
+      ⁋ Sed contra 
+              to<lb ed="#P" n="5" break="no"/>tum istud sic arguitur. si sit a albedo vniformiter vt 
+              <lb ed="#P" n="6"/>octo a b albedo vniformiter difformiter a non 
+              gra<lb ed="#P" n="7" break="no"/>du ad. viii. vsque: iam a est intensior b si non fuerit in b 
+              <lb ed="#P" n="8"/>albedo vt octo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2025">
+      ⁋ Forte dices hoc est verum: tota eius lie 
+              <lb ed="#P" n="9"/>albedo est solum intensa vt quatuor et a vt octo
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2031">
+      ⁋ Sed 
+              <lb ed="#P" n="10"/>contra tenendo modum quod sicut motus localis secundum partes 
+              <lb ed="#P" n="11"/>difformis mensuratur penes punctum velocissime 
+              mo<lb ed="#P" n="12" break="no"/>tum: sic qualitas vniformiter difformis a gradu 
+              in<lb ed="#P" n="13" break="no"/>tensissimo: sed hic non est gradus vt octo: ergo a nullo 
+              <lb ed="#P" n="14"/>gradu denoinabitur.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2044">
+      ⁋ Respondetur quod b latitudo denoia 
+              <lb ed="#P" n="15"/>bitur vt octo tanquam ab extrinseco a non denoinabitur 
+              <lb ed="#P" n="16"/>ab aliquo gradu.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2051">
+      ⁋ Sed contra totum istud arguitur sic 
+              <lb ed="#P" n="17"/>a caliditas vniformis vt octo intendit b calidum al 
+              <lb ed="#P" n="18"/>quod producendo in ipsum: ergo b non habet quemlibet gradum 
+              <lb ed="#P" n="19"/>citra octo.
+            </p>
+            <p xml:id="jm12w4-e55405-d1e2060">
+      ⁋ Respondetur concedendo antecedens. quodlibet enim 
+              <lb ed="#P" n="20"/>punctum intrinsecum b calidi distat ab octo quidem 
+              <lb ed="#P" n="21"/>diuisibiliter et sic suscipiet aliquid caloris. sed ex isto 
+              <lb ed="#P" n="22"/>consequentia est nulla: quandam nullu punctum intrinsecum b datur 
+              <lb ed="#P" n="23"/>maximam caliditatem habens. imaginemur enim calidi 
+              <lb ed="#P" n="24"/>tatem inherere punctis siue inhereat siue non. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

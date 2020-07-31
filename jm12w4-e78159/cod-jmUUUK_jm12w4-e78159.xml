@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="112-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e78159"> <!--l1d44q4 -->
+            <head xml:id="jm12w4-e78159-Hd1e106">Quaestio 4</head>
+            <head xml:id="jm12w4-e78159-Hd1e109" type="question-title">
+      An dato corpore infinito ipsum potest moveri?
+    </head>
+            <p xml:id="jm12w4-e78159-d1e112">
+               <lb ed="#P" n="71"/>⁋ Distinctionis. xliiii. questio quarta. 
+              <lb ed="#P" n="72"/>CIrca hanc materiam de motu infiniti querimus. 
+              <lb ed="#P" n="73"/>An dato corpore infinito ipsum potest mouerius 
+              <lb ed="#P" n="74"/>Pro solutione quaestionis pono conclusiones 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e123">
+               <lb ed="#P" n="75"/>⁋ Prima est. data linea infinita: finita 
+              pa<lb ed="#P" n="76" break="no"/>risii orientem versus sortes potest pertransire per mo 
+              <lb ed="#P" n="77"/>tum totam illam lineam.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e133">
+      ⁋ Secunda conclo. si esset vna linea 
+              <lb ed="#P" n="78"/>infinita parisii terminata: et orientem vsus infinita: deus 
+              <lb ed="#P" n="79"/>potest trahere illam lineam extremum finitum versus.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e140">
+      ⁋ Te 
+              <lb ed="#P" n="80"/>tia conclusio. deus potest retrahere illam lineam: et eam mouere 
+              <lb ed="#P" n="81"/>ad extremum vocatum orientem vsus.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e147">
+      ⁋ Quarta conclusio 
+              <lb ed="#P" n="82"/>dato corpe oiquaque infinito: deus potest mouere ipsum mo 
+              <lb ed="#P" n="83"/>tum recto a motu circulari.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e154">
+      ⁋ Pria conclo est contra quendam 
+              <lb ed="#P" n="84"/>quam sic probo. ad lineam infinitam pertransiri nulla sequitur condi 
+              <lb ed="#P" n="85"/>ctio: ergo illud est deo possibile. consequentiam dubitat nemo. probo 
+              <lb ed="#P" n="86"/>antecedens ad illud non sequitur quod illa linea infinita heat partem 
+              <lb ed="#P" n="87"/>vltimam: vt patet de partransitione continui: et linee gpratiue. 
+              <lb ed="#P" n="88"/>Nec sequitur quod in finitum rectum clauditur inter duo puncta. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e167">
+               <lb ed="#P" n="89"/>⁋ Pretea sor. potest in prima parte proportionali hore 
+              per<lb ed="#P" n="90" break="no"/>transire partem pedalem illius linee: in secunda parte aliam 
+              peda<lb ed="#P" n="91" break="no"/>lem de potentia dei absoluta: et sic in quaelibet alia parte 
+              propor<lb ed="#P" n="92" break="no"/>tionali hore: quae facto tota linea pertransibitur.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e178">
+      ⁋ hunc casum 
+              <lb ed="#P" n="93"/>negat iste. quia videtur ei quod sequitur contradictio. s. quod infinitum 
+              <lb ed="#P" n="94"/>rectum claudatur inter duo puncta: sed conabimur illud 
+              eua<lb ed="#P" n="95" break="no"/>dere.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e188">
+      ⁋ Secundam conculionem probo. si esset vna linea infinita 
+              <lb ed="#P" n="96"/>orientem vsus termiata parisii mirabile est quod deus non potest 
+              <lb ed="#P" n="97"/>trahere illam lineam occidentem versus per vnum pedem: et qua 
+              <lb ed="#P" n="98"/>ritioe per vnum pedem primille: et sic sine statu. ad illud autem 
+              <lb ed="#P" n="99"/>non sequitur quod tota linea relinquat locum retro seorientem vsus. 
+              <lb ed="#P" n="100"/>Quod probo. quia tunc per cquisitionem pedalitatis infinitum 
+              lo<lb ed="#P" n="101" break="no"/>cum amitteret.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e204">
+      ⁋ Tertiam conclonem probo. quia deus potest 
+              re<lb ed="#P" n="102" break="no"/>trahere istam lineam quemadmodum traxit occidentem vsus: 
+              <lb ed="#P" n="103"/>quia quemadmodum non amittit suum locum per hoc quod moueat 
+              <lb ed="#P" n="104"/>occidentem vsus: ita non oportet quod acquirat nouum modum 
+              mo<lb ed="#P" n="105" break="no"/>uendo orientem vesus.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e215">
+      ⁋ Quarta conclo habet duas partes: 
+              <lb ed="#P" n="106"/>quarum vnam concedit iste de motu circulari vel grratiuo 
+              <lb ed="#P" n="107"/>alias omnes conculiones negare vestr. Sed dicitur quod deus potest 
+              mo<lb ed="#P" n="108" break="no"/>uere infinitum extremum infinitum vsus quando extremum opposi 
+              <lb ed="#P" n="109"/>tum est finitum. hoc est prit mouere per latitudinem si linea est 
+              <lb ed="#P" n="110"/>infinita inlongitudie pedalis latitudis praet per latitudinum 
+              <lb ed="#P" n="111"/>vnius partis vel alterius moueri. Sed aliam partem probo: non 
+              <lb ed="#P" n="112"/>solum ex penetratione pertium sed sine penetratione: si enim esset 
+              <lb ed="#P" n="113"/>vna pars infinita illius corpis oiquaque infiniti termiata a cen 
+              <lb ed="#P" n="114"/>tro tre infinita orientem vsus: illa poterit moueri orientem 
+              <lb ed="#P" n="115"/>vsus: et nullum nouum locum acquiret: ac perium erit de 
+              corpo<lb ed="#P" n="116" break="no"/>re oiquaque infinito ec.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e241">
+      ⁋ Contra primam conclonem arguo 
+              <lb ed="#P" n="117"/>sic: si aliquis posset prtransire lineam infinitam sequeretur. quod 
+              in<lb ed="#P" n="118" break="no"/>ter puncta finita clauderetur infinitum. Probo consequentia. Inci 
+              <lb ed="#P" n="119"/>piat sortes in pria prte proportionali hore parisii: et per 
+              <lb ed="#P" n="120"/>transeat primum pedale: et sic consequenter: in quaelibet parte 
+              proportiona<lb ed="#P" n="121" break="no"/>li hore partranseat pedale: inter sor. in instanti tminante 
+              ho<lb ed="#P" n="122" break="no"/>ram et locum a quo incepit claudetur infinitum spatium.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e257">
+      ⁋ 
+              Respon<lb ed="#P" n="123" break="no"/>detur admisso casu: et dico quod infinitum spatium pertransibit sor 
+              <lb ed="#P" n="124"/>tes ante finem hore: quia pedale / bipedale / et sic sine statur: 
+              <lb ed="#P" n="125"/>in nullo tamen istanti intriseco illius hore verum est dicere quod infi 
+              <lb ed="#P" n="126"/>nitum spatium est pertransitum: sed in instanti tminante horam solum. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e268">
+               <lb ed="#P" n="127"/>⁋ Et petis vbi est sortes: Dico quod est vbi deo placet. 
+              <lb ed="#P" n="128"/>vbicumque est in instanti iminante horam solum finite distat a 
+              <lb ed="#P" n="129"/>porta sancti Victor( in quae primo incepit motum 
+              inchoare<lb ed="#P" n="130" break="no"/>quemadmodum in quilibet instanti praecedenti solum finite dista 
+              <lb ed="#P" n="131"/>bat ab eadem porta. et deus reducit sortem per locum infinitum 
+              <lb ed="#P" n="132"/>in illo instanti.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e285">
+      ⁋ Eodem modo dico quod si esset vna linea 
+      <!--239.xml-->
+      <pb ed="#P" n="112-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>infinita orientem vsus et occidentem: et duo lapides hio 
+              <lb ed="#P" n="2"/>elongentur parisii in prima parte proportionali hori 
+              <lb ed="#P" n="3"/>per pedale vnus occidentem vesus alter orientem versus: 
+              <lb ed="#P" n="4"/>et sic consequenter per omnes partes proportionales vnius ho 
+              <lb ed="#P" n="5"/>re. Dicitur quod in instanti terminate horam verum est dicere 
+              <lb ed="#P" n="6"/>tota linea est pertransita: sed illi lapides in illo insti 
+              <lb ed="#P" n="7"/>tiyfinite distant.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e309">
+      ⁋ Potest hic argumentari et similiter sol 
+              <lb ed="#P" n="8"/>uere. posito quod esset vnum corpus fistulare infinite 
+              lon<lb ed="#P" n="9" break="no"/>gum orientem versus terminatum parisii: et deus in prima 
+              <lb ed="#P" n="10"/>parte proportionali vnius hore creet lanceam: et sic 
+              dein<lb ed="#P" n="11" break="no"/>ceps semper posterioribus creatis trudendo priores ar 
+              <lb ed="#P" n="12"/>probandum quod infinitum clauditur inter duo puncta.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e322">
+      ⁋ D 
+              <lb ed="#P" n="13"/>citur quod quelibet lanceola partransibit totam fistulam: et 
+              nul<lb ed="#P" n="14" break="no"/>la remanebit in ea. hoc patet: quia lanceola creata in 
+              pri<lb ed="#P" n="15" break="no"/>ma parte quamlibet pedalitatem fistule pertransiuit: ergo 
+              <lb ed="#P" n="16"/>totam: gratia materie consequentia est bona.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e333">
+      ⁋ Sed contra istud ar 
+              <lb ed="#P" n="17"/>guitur: ponendo quod sortes in qualibet parte proportionali 
+              <lb ed="#P" n="18"/>pertranseat partem digitalem illius linee: et plato in 
+              qua<lb ed="#P" n="19" break="no"/>libet parte proportionali hore pertranseat mille leucas: 
+              <lb ed="#P" n="20"/>tunc sequitur quod tota ista linea eque cito ab vtroque partram 
+              <lb ed="#P" n="21"/>sibitur. Quod patet. quia in instanti terminante horam primo ve 
+              <lb ed="#P" n="22"/>rum est dicere: nunc est infinitum spatium pertransitum 
+              <lb ed="#P" n="23"/>ab vtroque mobili. Si concedas illatum (sicut ipsum conce 
+              <lb ed="#P" n="24"/>dendum est) totum illud spatium eque cito ab vtroque 
+              <lb ed="#P" n="25"/>mobili est pertransitum: sicut in achille zenonis.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e355">
+      ⁋ Sed 
+              <lb ed="#P" n="26"/>contra hoc arguitur. in argumento zenonico circa 
+              fine<lb ed="#P" n="27" break="no"/>hore mobile sequens velocitat suum motum: et continuo ips 
+              <lb ed="#P" n="28"/>intendit quoniam in subduplo tempore equale spatium pertransum 
+              <lb ed="#P" n="29"/>cum alio: hic autem econtrario contingit. Respondetur inter 
+              arguen<lb ed="#P" n="30" break="no"/>dum sufficienter quod magnitudo est eque cito pertransi 
+              <lb ed="#P" n="31"/>ta ab vtroque: sed vnum mobile per infinitum spatium ante 
+              <lb ed="#P" n="32"/>finem hore precedit aliud. in fine enim prime partis 
+              pro<lb ed="#P" n="33" break="no"/>portionalis hore precedit aliud mobile ferme per 
+              mil<lb ed="#P" n="34" break="no"/>le leucas: in fine secunde partis proportionalis hore 
+              <lb ed="#P" n="35"/>per duplum spatium ad illud: i fine tertie partis proportio 
+              <lb ed="#P" n="36"/>nalis hore per spatium triplum ad illud. et sic consequenter. ergo per 
+              infi<lb ed="#P" n="37" break="no"/>nitum spatium vnum mobile precedet a aliud ante finem 
+              <lb ed="#P" n="38"/>hore: et non mouentur nec iuuantur in instanti terminanti 
+              <lb ed="#P" n="39"/>illam horam: sed in illo totum spatium est ab vtroque 
+              <lb ed="#P" n="40"/>eque cito ptransitum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e390">
+      ⁋ Contra secundam et tertiam conclusit 
+              <lb ed="#P" n="41"/>nes sic argumentor: deus potest retrahere per te illam lineam 
+              <lb ed="#P" n="42"/>infinitam orientem versus terminatam parisii occidentem 
+              <lb ed="#P" n="43"/>versus: signetur vnus clauus in extremo finito: in 
+              qua<lb ed="#P" n="44" break="no"/>libet parte proportionali hore: trahat deus 
+              occiden<lb ed="#P" n="45" break="no"/>tem versus per pedale: iam in instanti terminante motum 
+              <lb ed="#P" n="46"/>inter parisium et clauum est distantia infinita.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e407">
+      ⁋ Preterea 
+              <lb ed="#P" n="47"/>in illo casu relinquit totum locum quem habuit in oriente: 
+              <lb ed="#P" n="48"/>quod si concedas: ergo realiter habet extremum orientem versus 
+              <lb ed="#P" n="49"/>Si negas. ergo tanta est distantia infinita inter 
+              occiden<lb ed="#P" n="50" break="no"/>tem et parisium sicut inter parisium eundo in infinitum orien 
+              <lb ed="#P" n="51"/>tem versus.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e420">
+      ⁋ Item quelibet pedalitas eius acquirit 
+              <lb ed="#P" n="52"/>nouum locum: ergo e tota linea.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e425">
+      ⁋ Rursus: capio 
+              cen<lb ed="#P" n="53" break="no"/>trum corporis omniquaque infiniti: vel vnum punctum ei 
+              <lb ed="#P" n="54"/>parisii a: volo quod in qualibet parte proportionali hore 
+              <lb ed="#P" n="55"/>acquirat pedale adhuc totum corpus replet omnem loci 
+              <lb ed="#P" n="56"/>possibilem: quod non videtur dicendum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e436">
+      ⁋ Respondetur admit 
+              <lb ed="#P" n="57"/>tendo casum: quod deus trahat occidentem vesus: tunc 
+              infi<lb ed="#P" n="58" break="no"/>nitum spatium pertransibitur a clauo: sed in instanti 
+              ter<lb ed="#P" n="59" break="no"/>minante horam clauus solum finite distabit: nec est possi 
+              <lb ed="#P" n="60"/>bile quod illud extremum semper procedat secundum rectum: et quod in 
+              <lb ed="#P" n="61"/>instanti terminante horam pius vel tantum distet quantum 
+              <lb ed="#P" n="62"/>vnquam ante distabat: et ratio est: quia tunc aliquid esset vltra 
+              <lb ed="#P" n="63"/>infinitum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e454">
+      ⁋ Ad aliud vbi dicis tota linea relinquit lo 
+              <lb ed="#P" n="64"/>cum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e459">
+      ⁋ Respondetur quod tota linea non erat in loco: sed 
+              om<lb ed="#P" n="65" break="no"/>nis pedalitas eius erat: et est in loco: sed de loco proc 
+              <lb ed="#P" n="66"/>vel imaginario nego quod tota linea relinquat locum quem 
+      <!--239.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 112vb -->
+               <lb ed="#P" n="67"/>habuit in oriente: sed illo modo trahendo tenebit illum 
+              <lb ed="#P" n="68"/>esto quod quelibet pedalitas (imo quelibet pars finita. 
+              <lb ed="#P" n="69"/>acquirat nouum locum: quemadmodum quelibet pedalitas 
+              <lb ed="#P" n="70"/>mole mulciberi acquirit nouum vbi: sed non tota mola 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e482">
+               <lb ed="#P" n="71"/>⁋ Ad tertium dico: quod si esset vnum corpus oiquaque infi 
+              <lb ed="#P" n="72"/>nitum: deus potest ipsum mouere orientem versus: et 
+              que<lb ed="#P" n="73" break="no"/>libet pedalitas acquiret nouum vbi: sed totum non acquiret. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e491">
+               <lb ed="#P" n="74"/>⁋ Sed contra hoc sic arguo. signo vnam lineam infinitam vtrum 
+              <lb ed="#P" n="75"/>que extremum versus: vocetur linea a: signo b infinitum 
+              <lb ed="#P" n="76"/>ortentem versus terminatam parisii. pono c pomum 
+              sa<lb ed="#P" n="77" break="no"/>per primum pedale b parisii: volo quod in prima parte 
+              pro<lb ed="#P" n="78" break="no"/>portionali hore b retrahatur per pedale: et cetiam. et 
+              <lb ed="#P" n="79"/>ita per quamlibet partem proportionalem vnius hore. tunc 
+              <lb ed="#P" n="80"/>in instanti terminante horam verum est dicere totum ar 
+              <lb ed="#P" n="81"/>a parisio orientem versus est pertransitum a c. ergo 
+              pri<lb ed="#P" n="82" break="no"/>mum pedale ipsius b quod erat terminus linee parisii pertran 
+              <lb ed="#P" n="83"/>siuit totum a inter parisium a orientem: et a fortiori 
+              queli<lb ed="#P" n="84" break="no"/>bet alia pedalitas lineeb a primo. ergo totum a est 
+              per<lb ed="#P" n="85" break="no"/>transitum orientem versus. ergo b est extra a.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e520">
+      ⁋ Ve 
+              <lb ed="#P" n="86"/>clarius: sit a vnus asser bipedalis latitudinis: sit 
+              no<lb ed="#P" n="87" break="no"/>uacula in extremo acuta diuidens a asserem quo 
+              <lb ed="#P" n="88"/>ad latitudinem: et retrahat deusbcum nouacula eius ip 
+              <lb ed="#P" n="89"/>qualibet parte proportionali vnius hore per pedalita 
+              <lb ed="#P" n="90"/>tem: iam in instati terminante horam totus asser a est 
+              <lb ed="#P" n="91"/>diuisus: ergo nouacula et quelibet pars linee b 
+              pertran<lb ed="#P" n="92" break="no"/>siuit totum: ergo inter a et orientem est blinea infinita. Et 
+              <lb ed="#P" n="93"/>sic a habet extremum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e540">
+      ⁋ Respondetur admittendo totum 
+              <lb ed="#P" n="94"/>casum: et dicitur quod in instanti terminante horam primo ve 
+              <lb ed="#P" n="95"/>rum est dicere nunc c pertransiuit: sed nunc finite distat 
+              <lb ed="#P" n="96"/>a parisio: et quolibet alio puncto a copore in mundo: sed 
+              <lb ed="#P" n="97"/>in qualibet parte proportionali illius motus totum b et 
+              <lb ed="#P" n="98"/>quelibet eius pars erat supera. Et quando addis de 
+              noua<lb ed="#P" n="99" break="no"/>cula acuta: dico quod in quolibet instanti intrinseco illius 
+              <lb ed="#P" n="100"/>hore nouacula erit superlineam a. in instanti terminante 
+              <lb ed="#P" n="101"/>horam asser a erit diuisus in duas medietates quo ad  
+              <lb ed="#P" n="102"/>latitudinem: et in instanti terminante horam stat quod nouacu 
+              <lb ed="#P" n="103"/>la sit super a vel extra: sed non est possibile quod tantum di 
+              <lb ed="#P" n="104"/>stet in illo instanti quantum in quocunque tempore praeterito di 
+              <lb ed="#P" n="105"/>stabat: quia infinite distabat: quia per pedale / tripedale, 
+              <lb ed="#P" n="106"/>quadrupedale / pentepedale / et sic sine statu.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e571">
+      ⁋ Et si 
+              <lb ed="#P" n="107"/>arguatur possibile est quod in hoc instantiplus distet quam 
+              <lb ed="#P" n="108"/>in hoc tempore preterito demonstrando secundam partem propor 
+              <lb ed="#P" n="109"/>tionalem hore: et in hoc tempore preterito demonstrando secum 
+              <lb ed="#P" n="110"/>dam partem proportionalem hore: et sic de singulis. igitur. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e582">
+               <lb ed="#P" n="111"/>⁋ Respondetur. vide an delires per ascensum in mo 
+              <lb ed="#P" n="112"/>dalibus compositis.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e590">
+      ⁋ Secundo videas an sic eundo tibi 
+              <lb ed="#P" n="113"/>obuiabitur per partem temporis terminatam ad instans 
+              <lb ed="#P" n="114"/>termiatiuum. sicut si sor. et plato continue albefiant per vnam 
+              <lb ed="#P" n="115"/>horam equaliter: et sortes in instanti terminatiuo hore 
+              <lb ed="#P" n="116"/>primo non sit: sortes fuit ita albus sicut plato est nunc 
+              <lb ed="#P" n="117"/>in hoc instanti: sed bene verum est quod sortes in nullo instan 
+              <lb ed="#P" n="118"/>ti fuit ita albus sicut plato est nunc.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e606">
+      ⁋ Istud totum 
+              <lb ed="#P" n="119"/>quod dico de pertransitione declarabitur duobus exem 
+              <lb ed="#P" n="120"/>plis: et sunt probationes bene apparentes quod possibile est 
+              <lb ed="#P" n="121"/>infinitum esse pertransitum. do vnum caseum terminatum pari 
+              <lb ed="#P" n="122"/>sii euntem in infinitum orientem versus quadrupedalis 
+              <lb ed="#P" n="123"/>latitudinis: veniat mus in prima parte proportionalem 
+              <lb ed="#P" n="124"/>vnius hore et rodat caseum in medio pedaliter: in 
+              se<lb ed="#P" n="125" break="no"/>cunda parte proportionaliiterum pedaliter: et sic per omnes 
+              <lb ed="#P" n="126"/>partes proportionales vnius hore: in instanti 
+              terminan<lb ed="#P" n="127" break="no"/>re horam erunt duo casei infiniti: in qualibet parte 
+              propor<lb ed="#P" n="128" break="no"/>tionali illius hore: et in quolibet instantimus finite 
+              di<lb ed="#P" n="129" break="no"/>stabit a parisio: et tamen diuidet totum caseum. Quod  
+              <lb ed="#P" n="130"/>dico de mure: accipe de vno angelo qui potest deo 
+              fa<lb ed="#P" n="131" break="no"/>ciente: sed exemplummuris est sensibilius. quare non 
+              <lb ed="#P" n="132"/>poterat vnus angelus pergere cum mure caseum ro¬ 
+      <!--240.xml-->
+      <pb ed="#P" n="113-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dente lateraliter. Et sic totam lineam pertransibit.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e648">
+      ⁋ Secundum 
+              <lb ed="#P" n="2"/>est si essent infiniti lapides pedales superlinea 
+              infum<lb ed="#P" n="3" break="no"/>tam inter parisium e orientem: quid obstat quod vnus angelus 
+              va<lb ed="#P" n="4" break="no"/>dat inter primum lapidem: et orientem et proiiciat illum a tergo 
+              <lb ed="#P" n="5"/>extralineam (sicut Quidius narrat de rege thessalie deu 
+              <lb ed="#P" n="6"/>calione primo metamorphoseos et eius coniuge 
+              Pyr<lb ed="#P" n="7" break="no"/>rha quae prolecerunt retrorsum ossa parentum. in secunda parte 
+              <lb ed="#P" n="8"/>proportionali vadat angelus post secundum lapidem puta 
+              <lb ed="#P" n="9"/>inter orientem et secundum lapidem et illum proiiciat retrorsum: et sic 
+              <lb ed="#P" n="10"/>consequenter: in instanti teiminante horam omnes lapides sunt remoti 
+              <lb ed="#P" n="11"/>a linea: sic tota linea est partransita.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e672">
+      ⁋ Sed contra istud arguitur. 
+              <lb ed="#P" n="12"/>qui deus potest mouere mobile in instanti vel saltem mutare: 
+              <lb ed="#P" n="13"/>faciat angelum Michaelem incipere parisii in hoc instan 
+              <lb ed="#P" n="14"/>ti: et eum mutet per totam lineam infinita: tunc non potes eua 
+              <lb ed="#P" n="15"/>dere quin infinitum clauditur inter duo puncta.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e683">
+      ⁋ Responde¬  
+              <lb ed="#P" n="16"/>admittendo casum. Et dico quod Michael est per totam linea 
+              <lb ed="#P" n="17"/>in illo instanti: sed semper est finitum spatium inter Michae 
+              <lb ed="#P" n="18"/>lem et parisium a propinquiori loco in quo est Michael: et 
+              <lb ed="#P" n="19"/>non datur vltimus locus in quo quia est in loco vo vel imagina 
+              <lb ed="#P" n="20"/>rio infinito: de hoc ante argutum est ponendo sortem et 
+              <lb ed="#P" n="21"/>platonem in infinitis locis: quod in aliquo sensu concedi praet 
+              <lb ed="#P" n="22"/>quod infinitum rectum clauditur inter duo puncta.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e701">
+      ⁋ Fortasse 
+              <lb ed="#P" n="23"/>angelus ex natura sua potest esse in infinito loco longo: 
+              <lb ed="#P" n="24"/>suppositis duobus apparentibus. Primo quod nulla loci 
+              fi<lb ed="#P" n="25" break="no"/>gura angelo repugnat. Secundo quod quicquid potest esse in 
+              <lb ed="#P" n="26"/>vno equalium potest esse in reliquo equali illi. si angelus prtet 
+              <lb ed="#P" n="27"/>esse in quadrato pedali apparet quod potest esse in linea 
+              qua<lb ed="#P" n="28" break="no"/>tumcumque longa. Sed de hoc in secundo.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e718">
+      ⁋ Secundo arguo 
+              pro<lb ed="#P" n="29" break="no"/>bando quod linee infinite non praesent moueri: quia si possent mo 
+              <lb ed="#P" n="30"/>ueri: sequeretur quod spatium mille leucarum esset pertransitum 
+              <lb ed="#P" n="31"/>in instanti per motum. hoc autem consequens est falsum: ergo et antecedens. 
+              falsi<lb ed="#P" n="32" break="no"/>tas consequentis est nota: quia est repugnantia in adiecto: motus 
+              <lb ed="#P" n="33"/>enim successionem connotat. Probo consequentiam: et signo duas 
+              <lb ed="#P" n="34"/>lineas paralellas infinitas orientem versus a et b. sita. 
+              <lb ed="#P" n="35"/>in primo climate in diametro ce transiens in infinitum 
+              <lb ed="#P" n="36"/>per aphricam: sit b infinita in modotibus hyperboreis vltra 
+              <lb ed="#P" n="37"/>climata transiens per Asiam in infinitum: quiescat a 
+              de<lb ed="#P" n="38" break="no"/>primatur b extremum infinitum versus: quiescente 
+              extre<lb ed="#P" n="39" break="no"/>mo finito in modnotibus hyperboreis per vltimum instans 
+              <lb ed="#P" n="40"/>non esse: quia sic motus incipit esse. Tunc sic arguo. immedis 
+              <lb ed="#P" n="41"/>te post hoc: b tanget a: sed interb et a est spatium mille 
+              <lb ed="#P" n="42"/>leucarum: ergo spatium mille leucarum pertransibitur per motum 
+              <lb ed="#P" n="43"/>in instanti. Quod per motum hoc patet: quia illud supponimus. 
+              <lb ed="#P" n="44"/>Quod moueatur b in instanti patet: quia si successiue tunc piuo 
+              <lb ed="#P" n="45"/>b pertransiret vnam leucam quam mille leucas. Sed quod 
+              imme<lb ed="#P" n="46" break="no"/>diate post hoc b tanget a probo: immediate post hoc. b 
+              <lb ed="#P" n="47"/>et a non erunt paralelle: patet per vocatum extremum 
+              de<lb ed="#P" n="48" break="no"/>pressum: sed erunt concurrentes: ergo si in infinitum 
+              protrahan<lb ed="#P" n="49" break="no"/>tur necesse est illas concuirrere per illam positionem 
+              eucli<lb ed="#P" n="50" break="no"/>dis. Si due linee super tertiam ceciderint et anguli 
+              su<lb ed="#P" n="51" break="no"/>per vna parte fuerint maioresiex altera minores: ne 
+              <lb ed="#P" n="52"/>cesse est illas lineas si in infiintum protrahantur concurrere. 
+              <lb ed="#P" n="53"/>et hoc patet ad sensum. Accipe virgas: et sic ordines: et 
+              <lb ed="#P" n="54"/>ratione probari potest eo quod semper pedalitas b pius distans 
+              <lb ed="#P" n="55"/>a montibus hyperboreis magis appopinquat linee a. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e779">
+               <lb ed="#P" n="56"/>⁋ Respondetur negando consequentiam: et ad probationem concedo 
+              <lb ed="#P" n="57"/>quod imediate post hoc be tanget a. vt argumentum aperit:  
+              <lb ed="#P" n="58"/>sed nulla pars finitab immediate post hoc tanget a sper 
+              <lb ed="#P" n="59"/>partes prope orientem citius tangent. et alie tardius 
+              <lb ed="#P" n="60"/>Nec sequitur propterea quod moueatur b in instanti: sed 
+              suc<lb ed="#P" n="61" break="no"/>cessiue: quia modica depressio in be facit partes orienten 
+              <lb ed="#P" n="62"/>versus bene descendere: nulla pedalitas b primo tanget 
+              <lb ed="#P" n="63"/>a. Quod patet. signo pedale per mille leucas inter orien 
+              <lb ed="#P" n="64"/>tem et montes hyperboreos sit pedalitas g. h inter ergod et 
+              <lb ed="#P" n="65"/>orientem que est pedalitas blinee paius tanget a quam quod 
+              <lb ed="#P" n="66"/>tanget: sic tanget a anteg. et Hante i. et lante se. Et sic 
+      <!--240.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 113rb -->
+               <lb ed="#P" n="67"/>in infinitum: sed immediate post hoc infinita parab 
+              tan<lb ed="#P" n="68" break="no"/>get a.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e816">
+      ⁋ Sed contra illud arguitur. ponatur etiam clinea a 
+              <lb ed="#P" n="69"/>parisio in infinitum orientem versus: iam c mediat inter 
+              <lb ed="#P" n="70"/>a et b. tunc sic arguitur. b tanget clineam ante a lineam 
+              <lb ed="#P" n="71"/>quia successiue mouetur: et c mediat: ergo non immedia 
+              <lb ed="#P" n="72"/>te post hoc b tanget a. Quod b tanget e ante a patet: quaelibet 
+              <lb ed="#P" n="73"/>pedalitas be tanget pedalitatem ei respondentem in cprius quam in 
+              <lb ed="#P" n="74"/>a. ergo b prius tanget cquam a.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e832">
+      ⁋ Insuper si esset alia 
+              <lb ed="#P" n="75"/>linea infinita in anticlimatibus d transiens in 
+              infini<lb ed="#P" n="76" break="no"/>tum orientem versus: sequitur quod b eque cito tangeret 
+              <lb ed="#P" n="77"/>sicut c. Quod si concedas: pono infinitas lineas 
+              in<lb ed="#P" n="78" break="no"/>ter det meridiem / omnes transeuntes in infinitum 
+              orien<lb ed="#P" n="79" break="no"/>tem versus: iam non dabitur vltima linea meridiem 
+              <lb ed="#P" n="80"/>versus: sequeretur quod b eque cito tangeret eas omnes. Et 
+              <lb ed="#P" n="81"/>sic immediate post hoc faceret magnam portionem 
+              circu<lb ed="#P" n="82" break="no"/>i.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e852">
+      ⁋ Respondetur admittendo casum de c linea. et negat 
+              <lb ed="#P" n="83"/>quod btangat c ante a. et conceditur quod quelibet pedalitas 
+              <lb ed="#P" n="84"/>centanget pedalitatem ei respondentem in c antequam in a. ergo 
+              <lb ed="#P" n="85"/>prius b tanget e quam a nego illam consequentiam. Et quando ponis per 
+              <lb ed="#P" n="86"/>vltra a et infinitas lineas admitto casum. et eo admisso 
+              <lb ed="#P" n="87"/>dico quod bnon citius equam d et infinitas lineas meridiem 
+              <lb ed="#P" n="88"/>versus tanget.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e868">
+      ⁋ Et ad illud quod tangitur de circulo: 
+              <lb ed="#P" n="89"/>respondeo per propositioes.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e874">
+      ⁋ Prima more mathematico 
+              lo<lb ed="#P" n="90" break="no"/>uendo ac si ex fluxu pucti non in directum fiuat linea cur 
+              <lb ed="#P" n="91"/>ua et circulus. Quod immediate posthoc erit portio circu 
+              <lb ed="#P" n="92"/>li. patet: quia immediate posthoc b linea deprimetur. 
+              <lb ed="#P" n="93"/>ergo punctum pedaliter distans a modnotibus hyperboreis 
+              <lb ed="#P" n="94"/>facit portione circuli paruam: quia non fiuit per lineam bre 
+              <lb ed="#P" n="95"/>uissimam. punctum bipedaliter distans a montibus hyper 
+              <lb ed="#P" n="96"/>boreis facit maiorem portionem circuli in equali tempore. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e892">
+               <lb ed="#P" n="97"/>⁋ Secunda propositio dato quocumque instanti post vltimum 
+              in<lb ed="#P" n="98" break="no"/>stans non esse depressionis infinite magna erit aliqua 
+              <lb ed="#P" n="99"/>portio circuli. patet non datur pedalitas maxime distans 
+              <lb ed="#P" n="100"/>a montibus hyperboreis: et quanto pedalitas pius 
+              di<lb ed="#P" n="101" break="no"/>stat tanto portio circuli est maior.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e905">
+      ⁋ Tertia propositio 
+              an<lb ed="#P" n="102" break="no"/>te quodlibet instans futurum post vltimum instans non esse 
+              de<lb ed="#P" n="103" break="no"/>pressionis dabitur infinitum spatium inter b et a post 
+              pu<lb ed="#P" n="104" break="no"/>ctum sectionis et contactus. da vnum instans posthoc: et 
+              <lb ed="#P" n="105"/>inuenies quod b intersecat a. da punctum sectionis in illo 
+              in<lb ed="#P" n="106" break="no"/>stanti prope nos: inter illud punctum et orientem vbi b est 
+              <lb ed="#P" n="107"/>extra a prope punctum sectionis est pedale spatium 
+              inter<lb ed="#P" n="108" break="no"/>ceptum. bipedale / tri edale / quadrupedale / et sic sine 
+              <lb ed="#P" n="109"/>statu. et causa est: quia eundo ad orientem semper qualib: 
+              <lb ed="#P" n="110"/>sectionem sectio preibat.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e927">
+      ⁋ Sed tamen dari possunt due 
+              <lb ed="#P" n="111"/>linee infinite inequaliter distantes quae non concurrunt. patet 
+              <lb ed="#P" n="112"/>si erigantur due pedaliter distantes a centro terre que 
+              <lb ed="#P" n="113"/>quanto magis conscendunt tanto magis dilatantur: sic 
+              vi<lb ed="#P" n="114" break="no"/>detur si due linee infinite ponantur sic scilicet quod prime 
+              pe<lb ed="#P" n="115" break="no"/>dalitatis punctum primum pedalitur distat: secunde pedalitatis 
+              <lb ed="#P" n="116"/>primum punctum semipedaliter distat: tertie pedalitatis 
+              <lb ed="#P" n="117"/>primum punctum ad quartam partem pedis distat et sic sine statu: 
+              <lb ed="#P" n="118"/>quando est minor latitudo geometrice videtur quod innullo 
+              pum<lb ed="#P" n="119" break="no"/>cto concurrent ille linee.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e949">
+      ⁋ Tertio arguitur argumento 
+              <lb ed="#P" n="120"/>
+               <name xml:id="jm12w4-e78159-Nd1e953" ref="#Aristotle">Aristotelis</name> primo de celo a mundo: si linea infinite lon 
+              <lb ed="#P" n="121"/>ga potest moueri: sequeretur quod aliquod valde tarde motum 
+              <lb ed="#P" n="122"/>moueretur infinite velociter: consequens est impossibile: ergo et antecedens. 
+              <lb ed="#P" n="123"/>Probo consequentiam. erigo vnam lineam infinite longam a centro 
+              <lb ed="#P" n="124"/>terre transeuntem per celos: moueatur illa linea sic scilicet quod pe 
+              <lb ed="#P" n="125"/>dalitas prope terram moueatur adeo tarde sicut limax 
+              <lb ed="#P" n="126"/>ipsa mouetur. Sed probo quod infinite velociter mouetur capio 
+              <lb ed="#P" n="127"/>aliam lineam pedalem quam suppono circuire terram cum 
+              <lb ed="#P" n="128"/>illa infinita: sit prima a: secunda b. a infinite velocius mo 
+              <lb ed="#P" n="129"/>petur quam b. igitur. Quod probo. quod libet mobile quod 
+              <lb ed="#P" n="130"/>mouetur circulariter mouetur ita velociter sicut punctum 
+              <lb ed="#P" n="131"/>velocissime motum in eo si aliquod tale sit vel medium pun 
+              <lb ed="#P" n="132"/>ctum eius: quia motum difformem ad vniformitatem reducere 
+      <!--241.xml-->
+      <pb ed="#P" n="113-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>opartet. mola fabri mouetur adeo velociter sicut punctum 
+              <lb ed="#P" n="2"/>medium semidiametri eius: vel sicut suparficies 
+              termiati<lb ed="#P" n="3" break="no"/>ua mole: sed hic non potest dari punctum velocissime motum: 
+              <lb ed="#P" n="4"/>quia quanto punctum pius distat a centro vel a 
+              princi<lb ed="#P" n="5" break="no"/>pio tanto maiorem circulum describit in equali tempore: ergo 
+              <lb ed="#P" n="6"/>velocius mouetur: et partes mouentur in hac linea diffor 
+              <lb ed="#P" n="7"/>miter: ergo totalis linea oeyssime rapitur circa terram. 
+              Respon<lb ed="#P" n="8" break="no"/>detur per propositiones.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1007">
+      ⁋ Prima est. quanto linea est 
+              lon<lb ed="#P" n="9" break="no"/>gior tanto ocvus mouetur: supposito quod partes equaliter 
+              <lb ed="#P" n="10"/>alte a terra equaliter moueantur. hoc patet: quia in equali tempore 
+              <lb ed="#P" n="11"/>maius spatium describit punctum medium eius vel punctum 
+              <lb ed="#P" n="12"/>velocissime motum  pro nunc non curo vtra illarum 
+              positio<lb ed="#P" n="13" break="no"/>num sit va illud clarum est in lineis finitis.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1021">
+      ⁋ Secunda 
+              <lb ed="#P" n="14"/>propositio nulla est proportio motus linee a ad motum linee 
+              b<lb ed="#P" n="15" break="no"/>Probatur: quia linea b mouetur ita velociter sicut punctum 
+              <lb ed="#P" n="16"/>extremum vel medium: et linea a incomparabiliter velocius 
+              <lb ed="#P" n="17"/>mouetur.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1032">
+      ⁋ Tertia propositio: infinite velociter mouetur li 
+              <lb ed="#P" n="18"/>nea a. patet: quia quacumque velocitate motus data contingit 
+              <lb ed="#P" n="19"/>dare velociorem: motu linee a non contingit dare maiorem. 
+              <lb ed="#P" n="20"/>igitur: minor patet: quia vel erit motus linee finite vel 
+              in<lb ed="#P" n="21" break="no"/>finite. non primum: si moueatur motu propse dicto. nec 
+              se<lb ed="#P" n="22" break="no"/>cundum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1045">
+      ⁋ Quarta propositio linea a non mutatur instantanee. 
+              <lb ed="#P" n="23"/>patet ex toto casu.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1050">
+      ⁋ Forte dices quod linea ista in tempore 
+              fi<lb ed="#P" n="24" break="no"/>nito pertransibit spatiu infinitum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1055">
+      ⁋ Distinguitur. vel 
+              <lb ed="#P" n="25"/>quod vna finita et determinata pars linee a pertranseat 
+              <lb ed="#P" n="26"/>infinitum spatium in tempore finito equaliter mouendo: et sic 
+              <lb ed="#P" n="27"/>negatur: vel quibuscumque partibus linee datis motis 
+              dam<lb ed="#P" n="28" break="no"/>tur partes quae velocius mouentur: et sic conceditur. hoc est 
+              <lb ed="#P" n="29"/>dicere. nullum est inconueniens a totali linea. et si alia 
+              <lb ed="#P" n="30"/>circueat totam terram in breuiori tempore non tamen velocius 
+              mo<lb ed="#P" n="31" break="no"/>uetur. hoc non tenet in infinitis. eodem modo si subito. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1073">
+               <lb ed="#P" n="32"/>⁋ Quarto arguitur. dato corpe infinite grauitatis 
+              <lb ed="#P" n="33"/>super resistentiam infinitam: vel illud descendet vel non¬ 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1081">
+               <lb ed="#P" n="34"/>⁋ Et consimiliter praet quari de calore infinito a infinito fri 
+              <lb ed="#P" n="35"/>gore appoximatis. Sed quia fortasse dicetur: quod ibi 
+              nul<lb ed="#P" n="36" break="no"/>la erit actio: capio corpus vniformitur calidum vt quattuor. 
+              <lb ed="#P" n="37"/>Volo quod sit infinite magnum: et aliud corpus bipedale fri 
+              <lb ed="#P" n="38"/>gidum ifinitum quo ad intensionem: quaeritur qua actio erit ibidens 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1094">
+               <lb ed="#P" n="39"/>⁋ Si dicas quod frigus corrumpit calore postquam est 
+              infini<lb ed="#P" n="40" break="no"/>tum intensiue. quod si concedas:
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1101">
+      ⁋ Contra: corpus calidum 
+              ha<lb ed="#P" n="41" break="no"/>bet infinitas partes caloris non communicantes: ergo est etiam 
+              <lb ed="#P" n="42"/>infinite calidum: actiuitas enim agentis prouenit a multitu 
+              <lb ed="#P" n="43"/>dinc forme.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1110">
+      ⁋ Si dicas (et bene / hoc minime sufficere 
+              <lb ed="#P" n="44"/>ad corpus esse infinite calidum: sed requiritur quod omnes sint in 
+              <lb ed="#P" n="45"/>eodem subiecto primo penetratiue: quod non est in alio 
+              cor<lb ed="#P" n="46" break="no"/>pore.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1119">
+      ⁋ Contra: hoc non impedit: omnes ei pedalitates 
+              ca<lb ed="#P" n="47" break="no"/>oris se iuuant: et sunt infinite: ergo infinita est actiuitas: et in 
+              <lb ed="#P" n="48"/>finita resistentia.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1126">
+      ⁋ Item datis duobus corpibus a et b. sit 
+              <lb ed="#P" n="49"/>a vniformiter graue vt vnum. b pedale infinite 
+              grauita<lb ed="#P" n="50" break="no"/>tis: ponatur equelibra infinita. b non pius ponderabit quam 
+              <lb ed="#P" n="51"/>a. esto quod sit infinitas intensionalitur in b et non in a.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1136">
+      ⁋ Rspon 
+              <lb ed="#P" n="52"/>detur: sufficienter arguendo ad finem argumenti vsque dicitur quod 
+              <lb ed="#P" n="53"/>frigus calorem corrumpet: non satis bene applicantur partes 
+              di<lb ed="#P" n="54" break="no"/>stantes ad resistendum ac si simul essent. bene verum est quod 
+              <lb ed="#P" n="55"/>multe partes se iuuant ad agendum et resistendum: sed non 
+              <lb ed="#P" n="56"/>ad sic agendum. vix percipies manum citius frigefactam a to 
+              <lb ed="#P" n="57"/>to mari quam a dolio pleno aque vel puteo paruo equaliter 
+              <lb ed="#P" n="58"/>frigido cum toto mari. vna pars peius applicatur quam alia. 
+              <lb ed="#P" n="59"/>secunda pedalitas iuuat prima ad resistendum extrinseco: ter 
+              <lb ed="#P" n="60"/>tia iuuat: sed minus quam secunda: siue ad agendu: siue ad 
+              re<lb ed="#P" n="61" break="no"/>sistendum tandem deuenies ad statum in vna parte centesima 
+              <lb ed="#P" n="62"/>vel vigesima: et opinor quod si mare esset infinitum in 
+              ma<lb ed="#P" n="63" break="no"/>gnitudine cum frigore quod nunc habet secundum intensionem / non 
+              an<lb ed="#P" n="64" break="no"/>plius frigefaceret digitum appositum quam styx fluuius 
+              archa<lb ed="#P" n="65" break="no"/>die. et sic existimo in corpe luminoso infinito habente finitum 
+              <lb ed="#P" n="66"/>de luime. Propterea dicebam in prima quod nehuius materie: 
+      <!--241.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 113vb -->
+               <lb ed="#P" n="67"/>quod stat dare paruam vmbram a corpe opaco finito: dato 
+              <lb ed="#P" n="68"/>quod corpus luminosum esset infinite magnum: quia praet dari aliqua 
+              <lb ed="#P" n="69"/>pars illius corpis quae non potest producere lume primarium 
+              <lb ed="#P" n="70"/>etro corpus opacum: sed si augeantur partes remote in 
+              <lb ed="#P" n="71"/>intensione non inconuenit quod auferatur omnis vmbra. Et 
+              <lb ed="#P" n="72"/>uando argumentaris de a et b corporibus grauibus. dico 
+              <lb ed="#P" n="73"/>quod a in extremo bilancis tantum ponderabit quatum b. quia 
+              <lb ed="#P" n="74"/>est infinita grauitas secundum valorem in a sicut formaliter 
+              <lb ed="#P" n="75"/>in b. grauitas melius applicabitur in equelibra quanto 
+              <lb ed="#P" n="76"/>plus distat a medio. Et ita de quaelibet alia qualitate 
+              moti<lb ed="#P" n="77" break="no"/>ua: secus est de qualitate actiua.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1201">
+      ⁋ Sed contra illud argui 
+              <lb ed="#P" n="78"/>tur. signando vnam equelibram suspensam in aere quam deus 
+              <lb ed="#P" n="79"/>conseruet etiam ne frangatur: ponatur tota sphera terre 
+              pe<lb ed="#P" n="80" break="no"/>letratiue cum sua grauitate quod stet in altero extremo. 
+              <lb ed="#P" n="81"/>Ponatur vna faba in alio a elongetur extremum in 
+              <lb ed="#P" n="82"/>quo est faba. sequitur: quod tandem trahet totam terram. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1214">
+               <lb ed="#P" n="83"/>⁋ Respondetur: quod aliquid est super hoc tactum questione 
+              <lb ed="#P" n="84"/>precedenti etc. de terra videtur multis si esset omnino pene 
+              <lb ed="#P" n="85"/>tratio pertium quod nulla esset actiuitas grauitate: sed quicquid 
+              <lb ed="#P" n="86"/>sit: non sto in illis. concedo quod faba tandem per 
+              elongatio<lb ed="#P" n="87" break="no"/>nem sibi attrahet mille pondera equalis grauitatis cum 
+              <lb ed="#P" n="88"/>terra.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1230">
+      ⁋ Sed bona est quaestio ponendo in vno extremo 
+              <lb ed="#P" n="89"/>grauitatem infinitam: et quod deus infinite ablonget aliud 
+              ex<lb ed="#P" n="90" break="no"/>tremum semper tenendo fabam in eo: an ante instans 
+              termi<lb ed="#P" n="91" break="no"/>latiuum hore puta in tempore terminato ad illud instans: 
+              <lb ed="#P" n="92"/>attrahet grauitatem infinitam ad equalitatem: et quandiu 
+              <lb ed="#P" n="93"/>stabit: Sed hoc soluitur ex dictis. xvi. disti. iiii.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1243">
+      ⁋ 
+              Quin<lb ed="#P" n="94" break="no"/>to arguitur sic. posito quod deus creet vnum corpus infinitum 
+              <lb ed="#P" n="95"/>sursum eundo terminatum super capita nostra in principio 
+              <lb ed="#P" n="96"/>in fine regionis aeris. Et sit ipsum graue: et reliquatur 
+              <lb ed="#P" n="97"/>nature sue: vel descendet vel no. si secundum. Contra est gra 
+              <lb ed="#P" n="98"/>le: appetit esse deorsum: non habet impedimentum: ergo 
+              <lb ed="#P" n="99"/>descendet. Si primum. ergo infinita pars eius/ quae est extra 
+              <lb ed="#P" n="100"/>celum / celum versus moueretur. et per consequens ascenderet. 
+              <lb ed="#P" n="101"/>et hoc est maius inconueniens quam quod illa pars finita sub 
+              <lb ed="#P" n="102"/>celo non descendat.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1265">
+      ⁋ Quidam doctor propter hoc dicit s 
+              <lb ed="#P" n="103"/>quod non descendet.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1271">
+      ⁋ Sed contra hoc arguitur. vocetur pars 
+              ex<lb ed="#P" n="104" break="no"/>tra celum a inter celos a concauo lune ad conuexum 
+              no<lb ed="#P" n="105" break="no"/>ni celi vel vltimi quodcumque fuerit b. pars infra celos 
+              <lb ed="#P" n="106"/>i. Ad hoc quod tota linea descendat non sequatur quod a 
+              ascen<lb ed="#P" n="107" break="no"/>det: ergo male dicit. Probo assumptum. quia si ascenderet:  
+              <lb ed="#P" n="108"/>hoc est quia magis appopinquat celo: et propterea non 
+              <lb ed="#P" n="109"/>sequitur. si lapis per vnum pedem distans a celo relictus sue 
+              <lb ed="#P" n="110"/>nature tunc per eum recedit a celo: quemadmodum graue 
+              <lb ed="#P" n="111"/>dic recedit a circumferentia ad centru. Sed hoc ibi dici 
+              <lb ed="#P" n="112"/>non potest, nec est centrum: nec circumferentia. propterea non 
+              <lb ed="#P" n="113"/>videtur esse idem extra celum e intra: quid esset de tali 
+              lapi<lb ed="#P" n="114" break="no"/>de si relinquatur sue nature dulito.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1297">
+      ⁋ Si dicas quod ille 
+              <lb ed="#P" n="115"/>lapis quiescet ibidem: et idem de a parte linee date. c pars 
+              <lb ed="#P" n="116"/>appetit descendere: et est valde grauis: et alie partes. s. 
+              <lb ed="#P" n="117"/>a supra celum abin celo resistunt: ergo cpars nisi resistentia 
+              <lb ed="#P" n="118"/>fuerit fortis rumpet violenter ipsum prohibens et descendet. 
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1308">
+               <lb ed="#P" n="119"/>⁋ Item clarius ponatur dolium infinite longum habens basim 
+              <lb ed="#P" n="120"/>lupra parisium plenum vino: et frangatur basis vino relicto 
+              <lb ed="#P" n="121"/>sue nature: et clarum est quod vinum infra celum descendet: an 
+              <lb ed="#P" n="122"/>vinum in celis reuoluetur cum eis ex sua natura notum est 
+              <lb ed="#P" n="123"/>quod non: sed an ibi perpetuo descet vel materia eius dubium 
+              <lb ed="#P" n="124"/>est. quid fieret si deus caperet partenceli: et poneret in acre 
+              <lb ed="#P" n="125"/>eadem relicta in celo vel non relicta: Sic patet quod nihil cer 
+              <lb ed="#P" n="126"/>ti huic argumento dici potest. Sed si deus faceret spheram 
+              <lb ed="#P" n="127"/>euium in infinitum sursum vt ignem sine celo: tunc quid 
+              dicen<lb ed="#P" n="128" break="no"/>dum esset certum non est. Si dicas quod descendet et ibi est 
+              <lb ed="#P" n="129"/>acrius punctum. An semper mouebitur vel tandem 
+              <lb ed="#P" n="130"/>quiescet: quando prima pedalitas eius tanget centrum terre 
+              <lb ed="#P" n="131"/>est infinita pars sursum. et si in quolibet die mille 
+              leu<lb ed="#P" n="132" break="no"/>ce pertranseant centrum terre semper sunt piures partes 
+      <!--242.xml-->
+      <pb ed="#P" n="114-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sursum quam deorsum. et sufficiunt ad pellendas alias par 
+              <lb ed="#P" n="2"/>tes quae sunt ex alia parte centri quae non praeset resistere suffi 
+              <lb ed="#P" n="3"/>cienter actiuitati grauitatis sursum quae est extra suum 
+              lo<lb ed="#P" n="4" break="no"/>cum naturalem: potes esse in suo loco naturali.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1356">
+      ⁋ Sed con 
+              <lb ed="#P" n="5"/>illud arguitur: non habet locum naturalem in illo casu: ergo non ap 
+              <lb ed="#P" n="6"/>petit ad ire centrum terre. consequentia claret. probatur antecedens. gue ap 
+              <lb ed="#P" n="7"/>petit ire ad centrum terre per lineam breuissimam: et si esset 
+              <lb ed="#P" n="8"/>extra sic mouebitur remoto prohibente. et non quiesce 
+              <lb ed="#P" n="9"/>qiusque medium eius sit medium mundi: sed sic non est de corpe 
+              <lb ed="#P" n="10"/>re illo infinito. igitur: quia non habet medium semper 
+              ma<lb ed="#P" n="11" break="no"/>ior pars est sursum.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1374">
+      ⁋ Preterea est infinite grauita 
+              <lb ed="#P" n="12"/>tis illud corpus in forma vel in valore: ergo descendei 
+              <lb ed="#P" n="13"/>in instanti: et tunc quero quando quiescet quota pars illius 
+              <lb ed="#P" n="14"/>linee erit supra centrum e quota infras
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1383">
+      ⁋ Si dicas non 
+              <lb ed="#P" n="15"/>descendet.
+            </p>
+            <p xml:id="jm12w4-e78159-d1e1389">
+      ⁋ Contra: aliud corpus secum eiusdem 
+              spe<lb ed="#P" n="16" break="no"/>ciei specialissime descendet: ergo a ipsum. nec valet di 
+              <lb ed="#P" n="17"/>cere quod infinitas prohibeat: quia calor infinitus 
+              extensi<lb ed="#P" n="18" break="no"/>ue et intensiue calefacit plusquam finitus.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

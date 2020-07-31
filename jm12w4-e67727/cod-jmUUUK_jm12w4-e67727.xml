@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="-r"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e67727"> <!--l1d40q1 -->
+            <head xml:id="jm12w4-e67727-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e67727-Hd1e109" type="question-title">
+      An cum aeterna Dei praedestinatione stet 
+      praedestinatum posse damnari?
+    </head>
+            <p xml:id="jm12w4-e67727-d1e112">
+               <lb ed="#P" n="11"/>⁋ predestinatio vero de bonis salutaribus 
+              <lb ed="#P" n="12"/>est: et de hominibus saluandis. vt enim ait. 
+            </p>
+            <p xml:id="jm12w4-e67727-d1e119">
+               <lb ed="#P" n="13"/>⁋ Distinctionis quadragesime questio prima. 
+              <lb ed="#P" n="14"/>Irca hanc distinctionem. xl. in 
+              <lb ed="#P" n="15"/>ua <name xml:id="jm12w4-e67727-Nd1e127" ref="#Lombard">Magister</name> loquitur de
+              prae<lb ed="#P" n="16" break="no"/>destinatioe: quero an cum
+              eter<lb ed="#P" n="17" break="no"/>na dei praedestinatione stet 
+              praede<lb ed="#P" n="18" break="no"/>stinatum posse damnarius
+            </p>
+            <p xml:id="jm12w4-e67727-d1e139">
+      ⁋ Pri 
+              <lb ed="#P" n="19"/>destinatio est deus voles 
+              da<lb ed="#P" n="20" break="no"/>re alicui vitam eternam.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e146">
+      ⁋ 
+              De<lb ed="#P" n="21" break="no"/>probatio est deus alicui nolens 
+              <lb ed="#P" n="22"/>bare vita etenam.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e153">
+      ⁋ Vel 
+              sc<lb ed="#P" n="23" break="no"/>So s cundum <name xml:id="jm12w4-e67727-Nd1e157" ref="#Augustine">Augustinum</name> in libro de vo 
+              <lb ed="#P" n="24"/>catione sanctorum: predestinatio est preparatio gratis 
+              <lb ed="#P" n="25"/>in praesenti: et glorie in futuro: ita quod praedestinatio est 
+              ter<lb ed="#P" n="26" break="no"/>minus connotatiuus pro deo suppones: conotando quod ali 
+              <lb ed="#P" n="27"/>cui vnit dare vitam eternam: sic quod in recto hoc est de ma 
+              <lb ed="#P" n="28"/>teriali significato pro quo supponit) accipitur pro deo: e 
+              <lb ed="#P" n="29"/>in connotatione creaturas importat: vt beatitudinem 
+              <lb ed="#P" n="30"/>et huiusinodi.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e176">
+      ⁋ Et idem dicatur proportionabiliter de 
+              <lb ed="#P" n="31"/>termino reprobatio.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e181">
+      ⁋ Quo fit quod praedestinatio est re 
+              <lb ed="#P" n="32"/>probatio.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e186">
+      ⁋ hoc supposito pono duas conclusiones: 
+              <lb ed="#P" n="33"/>Prior est. quelibet rationalis creatira fuit eternaliter 
+              <lb ed="#P" n="34"/>a deo praedestinata vel reprobata.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e194">
+      ⁋ Posterior cor 
+              <lb ed="#P" n="35"/>clusio. predestinatus potet reprobari.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e199">
+      ⁋ Prior conclu 
+              <lb ed="#P" n="36"/>sio patet. quia cuilibsem deus dabit vitam eternam vel non dabit: qrgo 
+              <lb ed="#P" n="37"/>ab eterno hoc proposuit. et per consequens conclusto ve 
+              <lb ed="#P" n="38"/>ra.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e208">
+      ⁋ Posterior patet: quia quilibet predestinatus libere 
+              <lb ed="#P" n="39"/>est predestinatus: ergo potest damnari.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e213">
+      ⁋ Item si 
+              pre<lb ed="#P" n="40" break="no"/>destinatus non potest reprobari: frustra esset orare pro 
+              no<lb ed="#P" n="41" break="no"/>bis vel aliis: cuius oppositum Christus docuit: et Iacc 
+              <lb ed="#P" n="42"/>bi vltimo. Orate pro inuicem vt saluemini: sed nullus sal 
+              <lb ed="#P" n="43"/>uabitur nisi praedestinatus: ergo praedestinatus ab eterno fuit praede 
+              <lb ed="#P" n="44"/>stinatus. eodem modo de reprobato.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e226">
+      ⁋ Secundo sequitur. 
+              li<lb ed="#P" n="45" break="no"/>cet iste non stent simul: sortes est praedestinatus et sortes est 
+              <lb ed="#P" n="46"/>reprobatus: tamen iste simul stant: sortes est praedestinatus e 
+              <lb ed="#P" n="47"/>potest reprobari: imo potes hanc concedere: sortes possibi 
+              <lb ed="#P" n="48"/>lier est praedestinatus et reprobatus in sensu copulatuo: 
+              <lb ed="#P" n="49"/>non enim dubium est immo in sensucategorico: praedestinatus 
+              <lb ed="#P" n="50"/>conuenit sorti mediante copula de possibili: similiter 
+              reproba<lb ed="#P" n="51" break="no"/>tus mediante simili copula.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e244">
+      ⁋ Insuper: possibiliter pre 
+              <lb ed="#P" n="52"/>destinatus et reprobatus est sortes: ergo sortes possibiliter 
+              <lb ed="#P" n="53"/>est praedestinatus et reprobatus. antecedens patet: quia est vna 
+              affir<lb ed="#P" n="54" break="no"/>matiua cuius extrema supponunt pro eodem vltra 
+              instan<lb ed="#P" n="55" break="no"/>tias consuetas: ergo est vera: consequentia patet per conuersionem. nec 
+              <lb ed="#P" n="56"/>oportet illam ponere in esse per vnam de copulato: vt so 
+              <lb ed="#P" n="57"/>tes est praedestinatus et reprobatus: sed per duas de inesse 
+              <lb ed="#P" n="58"/>sicut de copulatiua.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e263">
+      ⁋ Contra ista arguitur sic. ista es 
+              <lb ed="#P" n="59"/>possibilis: praedestinatus reprobabitur: ergo est successio 
+              pre<lb ed="#P" n="60" break="no"/>destinationis in reprobationem: et ecouerso. Assumpti 
+              <lb ed="#P" n="61"/>patet: quia repugnantia est tanta inter contrarie opposita ve 
+              <lb ed="#P" n="62"/>contradictorie opposita quanta inter praedestinari et re 
+              <lb ed="#P" n="63"/>probari: sed contrarie opposita et condictorie opposita 
+              <lb ed="#P" n="64"/>praesent verificari de eodem mediante extrinseca copula: v 
+              <lb ed="#P" n="65"/>album erit nigrum: sedens erit non sedens.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e281">
+      ⁋ Confirmatur: quia 
+      <!--209.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 97vb -->
+               <lb ed="#P" n="66"/>scriptus in libro vite non potest deleri: igitur nec damnari: 
+              <lb ed="#P" n="67"/>predestinatus non potest reprobari. cnsequentia est lucidu: probatur. 
+              <lb ed="#P" n="68"/>autem antecedens per Magistrum historiarum super illo vbo Moysi 
+              <lb ed="#P" n="69"/>Exodi. xxxii. vbi dicit. Obsecro doine aut dimitte eis 
+              <lb ed="#P" n="70"/>noxam hac: aut deleme de libro in quo me scripsisti. Und 
+              <lb ed="#P" n="71"/>ibi ait <name xml:id="jm12w4-e67727-Nd1e302" ref="#Lombard">Magister</name> quod hoc ex magna confidentia in deum est 
+              <lb ed="#P" n="72"/>per impossibue dictu: qiuasi diceret sicut est impossibile 
+              <lb ed="#P" n="73"/>vt me deleas: sic oro non posse fieri quin dimittas. 
+            </p>
+            <p xml:id="jm12w4-e67727-d1e311">
+               <lb ed="#P" n="74"/>⁋ Ad primum nego antecedens et ad probationem dicitur quod hic est 
+              ma<lb ed="#P" n="75" break="no"/>ior repugnantia: et causa est: quia albedini nigredo in 
+              eo<lb ed="#P" n="76" break="no"/>dem subiecto succedit: sed numquam postquam aliquis est praedesti 
+              <lb ed="#P" n="77"/>natus succedit reprobatio: et causa est: quia si quis est praede 
+              <lb ed="#P" n="78"/>stinatus ab eterno est praedestinatus: quod non oportet de al 
+              <lb ed="#P" n="79"/>bo a nigro: ad veritatem enim huius: praedestinatus 
+              reproba<lb ed="#P" n="80" break="no"/>bitur oportet quod ille qui est praedestinatus vel erit praedestina 
+              <lb ed="#P" n="81"/>tus reprobetur: quod liquet esse falium.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e331">
+      ⁋ Sed dices de in 
+              <lb ed="#P" n="82"/>esse istius: praedestinatus reprobabitur est possibilis: ergo et illa 
+              <lb ed="#P" n="83"/>de futuro. patet consequentia per regulam logicalem: et antecedens patet: quia 
+              <lb ed="#P" n="84"/>hec est eius de in esse hoc est reprobatum: quae est possibilis 
+            </p>
+            <p xml:id="jm12w4-e67727-d1e340">
+               <lb ed="#P" n="85"/>⁋ Nego quod illa sit eius de inesse: sed hec vel similis: quod 
+              <lb ed="#P" n="86"/>est praedestinatum est reprobatum: vel quod erat praedestinatum 
+              <lb ed="#P" n="87"/>est reprobatum: nec refert quod capias terminum connotati 
+              <lb ed="#P" n="88"/>uum in de in esse illius: potes enim sufficienter dicere quod erat 
+              <lb ed="#P" n="89"/>album est nigrum.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e353">
+      ⁋ Ad confirmationem dico quod deleri potest 
+              <lb ed="#P" n="90"/>bifariam accipi: vno modo deleri de libro vite 
+              presup<lb ed="#P" n="91" break="no"/>ponit alique fuisse scriptum iu libro vite: et scriptus sic 
+              <lb ed="#P" n="92"/>saltem secundum eternam predestinationem non potest deleri 
+              <lb ed="#P" n="93"/>de libro vite: non loquor secundum praesentem iustitiam 
+            </p>
+            <p xml:id="jm12w4-e67727-d1e365">
+               <lb ed="#P" n="94"/>⁋ Alio modo deleri minus proprie capitur vt tantum valet 
+              si<lb ed="#P" n="95" break="no"/>cut no scribi. et hoc est possibile de potetia dei absoli 
+              <lb ed="#P" n="96"/>ta.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e374">
+      ⁋ Secundo arguitur si praedestinatus potest damnari 
+              nu<lb ed="#P" n="97" break="no"/>merus electorum potestiminui: consequens est falsum: ergo 
+              <lb ed="#P" n="98"/>et antecedens. probo cosequentiam. quia signato sorte qui est 
+              <lb ed="#P" n="99"/>de numero predestinatorum: ipse potest damnari.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e383">
+      ⁋ 
+              Re<lb ed="#P" n="100" break="no"/>spondetur. distinguendo istam: vel in sensu 
+              composi<lb ed="#P" n="101" break="no"/>to: et sic est falsa: quia non est possibile quod numerus 
+              electo<lb ed="#P" n="102" break="no"/>rum diminuatur: vel in sensu diuiso e iterum ego distinguo 
+              <lb ed="#P" n="103"/>vel quod aliquis nunerus sit priusmior: et postea maior vel econ 
+              <lb ed="#P" n="104"/>uerso: et sic nego. vel quod numero electorum dato potest 
+              <lb ed="#P" n="105"/>esse aliquis adhuc de illo numero vel sex vel octo et 
+              <lb ed="#P" n="106"/>sic non proprie augetur: et concedo in illo sensu.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e401">
+      ⁋ Sed  
+              <lb ed="#P" n="107"/>dices: Luce. v. super primo vobo: rumpebatur rete dicit 
+              glo<lb ed="#P" n="108" break="no"/>sa: non tot intrant de iudeis quot sunt praedestinati. et 
+              <lb ed="#P" n="109"/>Deuteronomin primo. addat deus ad huc numerum 
+              <lb ed="#P" n="110"/>multa milia: glo. ad hunc numerum definitum in 
+              pre<lb ed="#P" n="111" break="no"/>scientia dei qui nouit qui sunt eius. et Apocalyp.ii. 
+              Te<lb ed="#P" n="112" break="no"/>ne quod habes ne alius accipiat coronam tuam.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e417">
+      ⁋ 
+              Di<lb ed="#P" n="113" break="no"/>citur non tot intrant in statu iudaismi quot sunt 
+              praedesti<lb ed="#P" n="114" break="no"/>nati: multi enim facti christiani intrant.
+            </p>
+            <p xml:id="jm12w4-e67727-d1e424">
+      ⁋ Illud Deute 
+              <lb ed="#P" n="115"/>ronomii intelligitur secundum praesentem iustitiam. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

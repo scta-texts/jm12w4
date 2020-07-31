@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="93-v"/>
+            <cb ed="#P" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e64920"> <!--l1d38q1 -->
+            <head xml:id="jm12w4-e64920-Hd1e106">Quaestio 1</head>
+            <head xml:id="jm12w4-e64920-Hd1e109" type="question-title">
+      Utrum sit aliqua propositio de futuro 
+      contingenti vera?
+    </head>
+            <p xml:id="jm12w4-e64920-d1e112">
+               <lb ed="#P" n="43"/>⁋ Nunc ergo ad propositum reuertentees 
+              <lb ed="#P" n="44"/>cepto insistamus. Supra dictum est quod etc. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e119">
+               <lb ed="#P" n="45"/>⁋ Distinctionis. xxxviii. questio vnica. 
+              <lb ed="#P" n="46"/>Via hic <name xml:id="jm12w4-e64920-Nd1e125" ref="#Lombard">Magister</name> insistit in duabus 
+              <lb ed="#P" n="47"/>distinctionibus: scilicet. xxxviii. et xxxix 
+              <lb ed="#P" n="48"/>an cum prescientia dei stet rerum
+              futu<lb ed="#P" n="49" break="no"/>rarum contingentia. In primis quara: 
+              <lb ed="#P" n="50"/>questionem priambulam an est aliqua 
+              <lb ed="#P" n="51"/>prpositio de futuro contingenti
+              deter<lb ed="#P" n="52" break="no"/>minate vera.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e143">
+      ⁋ Secundo queram questionem hic 
+              prin<lb ed="#P" n="53" break="no"/>cipaliter motam.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e148">
+      ⁋ Pro prime quaestionis 
+              elucidatio<lb ed="#P" n="54" break="no"/>ne supponamus quod contingens biphariam accipitur: Vel 
+              <lb ed="#P" n="55"/>prime intentionaliter pro re que potest esse et potest non esse 
+              <lb ed="#P" n="56"/>et sic quelibet creatura (et sola) est contingens: siue 
+              <lb ed="#P" n="57"/>sit siue non sit. Antichristus est contingens: 
+              subie<lb ed="#P" n="58" break="no"/>ctum supponit prpoter ampliationem termini 
+              contin<lb ed="#P" n="59" break="no"/>gens. Quo fit quod hec consequentia est nulla. hoc est futurum 
+              <lb ed="#P" n="60"/>contingens. ergo hoc est futurum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e166">
+      ⁋ Alio modo ca 
+              <lb ed="#P" n="61"/>pitur secunde intentionaliter pro propositione que nec 
+              <lb ed="#P" n="62"/>est necessaria nec impossibilis.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e173">
+      ⁋ Aliqui rati sunt 
+              <lb ed="#P" n="63"/>
+               <name xml:id="jm12w4-e64920-Nd1e177" ref="#Aristotle">Aristotelem</name> velle dicere nullam propositionem de futuro 
+      <!--201.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 93vb -->
+               <lb ed="#P" n="64"/>contingenti esse veram vel esse falsam: concessisset enim 
+              <lb ed="#P" n="65"/>disiunctiuam veram: et negasset copulatiuam 
+              compo<lb ed="#P" n="66" break="no"/>sitam ex oppositis: vt nauale bellum erit cras: nullum 
+              <lb ed="#P" n="67"/>nauale bellum erit cras: hanc concessisset: copulatiuam 
+              <lb ed="#P" n="68"/>negando.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e198">
+      ⁋ Sed diceret aliquis: non est vero simile 
+              <lb ed="#P" n="69"/>quod <name xml:id="jm12w4-e64920-Nd1e202" ref="#Aristotle">Aristoteles</name> ita opinatus est: cum illa concedendo 
+              <lb ed="#P" n="70"/>protinus duceretur ad contradictionem. vt sic arguen 
+              <lb ed="#P" n="71"/>do: hec affirmatiua nauale bellum erit cras non est 
+              <lb ed="#P" n="72"/>vera: et significat nauale bellum fore. ergo nauale 
+              <lb ed="#P" n="73"/>bellum non erit. quia ab eo quod res est vel non est / oratio 
+              <lb ed="#P" n="74"/>dicitur vera vel falsa secundum Philosophum. Atencedens est 
+              ve<lb ed="#P" n="75" break="no"/>rum. ergo e consequens. et vltra. hec affirmatiua non est 
+              <lb ed="#P" n="76"/>falsa: et significat nauale bellum fore eras. ergo 
+              naua<lb ed="#P" n="77" break="no"/>le bellum erit eras. antecedens est verum. ergo et consequens.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e223">
+      ⁋ Dicit al 
+              <lb ed="#P" n="78"/>ter istorum: quod ex illo non conuincitur quod non dixerit: sed 
+              <lb ed="#P" n="79"/>quod dicere non debuit. nec mirandum cum non solum 
+              <lb ed="#P" n="80"/>in hoc errauerit logice: sed in multis aliis sibi 
+              ma<lb ed="#P" n="81" break="no"/>nifeste contradixit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e235">
+      ⁋ Licet enim apud me certum 
+              <lb ed="#P" n="82"/>est <name xml:id="jm12w4-e64920-Nd1e239" ref="#Aristotle">Aristotelem</name> in aliquibus aberrare: vt in 
+              contradi<lb ed="#P" n="83" break="no"/>ctione eorum que fide habemus. et quis sit an semper in 
+              <lb ed="#P" n="84"/>materia topica accepit partem apparentiorem: sed  
+              <lb ed="#P" n="85"/>ipso teste nemo est damnandus gratis secundo de celo. et 
+              <lb ed="#P" n="86"/>per consequens curiosissimus pariter et grauissimus Philo 
+              <lb ed="#P" n="87"/>sophus sine causa non est reprobandus.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e254">
+      ⁋ Isti in hac 
+              <lb ed="#P" n="88"/>parte non capiunt mentem <name xml:id="jm12w4-e64920-Nd1e258" ref="#Aristotle">Aristotelis</name> (vt opinor 
+              <lb ed="#P" n="89"/>vnde cum Philosophus vtrinque in vltimo 
+              capi<lb ed="#P" n="90" break="no"/>te primi Peri hermenias disputauerit in fine 
+              so<lb ed="#P" n="91" break="no"/>lutionem inuit. si nauale bellum erit eras <name xml:id="jm12w4-e64920-Nd1e268" ref="#Aristotle">Aristotel</name> 
+               <lb ed="#P" n="92"/>dixisset illam nunc veram. et etiam ab eterno eam conces 
+              <lb ed="#P" n="93"/>sisset fuisse veram: si fuisset formata: vt in litera di 
+              <lb ed="#P" n="94"/>cit. nihil enim differt sortem currere cras: et ante 
+              mil<lb ed="#P" n="95" break="no"/>le annos. et si nullum nauale bellum sit futurum eras: ab 
+              <lb ed="#P" n="96"/>eterno illa erat falsa quia ab eterno ex eo quod res est 
+              <lb ed="#P" n="97"/>vel non est erit vel non erit / propoositio dicitur vera vel 
+              <lb ed="#P" n="98"/>falsa. De aliquibus non dubitauit: vt de talibus: 
+              ali<lb ed="#P" n="99" break="no"/>quis homo ambulabit anno futuro: aliquis homo comme 
+              <lb ed="#P" n="100"/>det eras. Sortes ethiops albus curret eras.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e291">
+      ⁋ 
+              Il<lb ed="#P" n="101" break="no"/>la proositio est determinate vera apud <name xml:id="jm12w4-e64920-Nd1e295" ref="#Aristotle">Aristotele</name> 
+               <lb ed="#P" n="102"/>que est sic se habens quod propositio de preterito 
+              enun<lb ed="#P" n="103" break="no"/>cians ipsam fuisse veram non est de cetero falsifica. 
+              <lb ed="#P" n="104"/>bilis: ita quod non potest impediri quin sit vera. vt 
+              verita<lb ed="#P" n="105" break="no"/>tes propositionu de preterito quarum veritates non des 
+              <lb ed="#P" n="106"/>pendent ex vna de futuro: et propositio de praesenti 
+              <lb ed="#P" n="107"/>falsa. Secus est de hac Antichristus erit: est vera 
+              <lb ed="#P" n="108"/>et ab eterno fuit vera. potest tamen fieri quod nunquam 
+              ve<lb ed="#P" n="109" break="no"/>niat Antichristus. et per consequens quod hec non sit vera nec 
+              <lb ed="#P" n="110"/>vnquam fuerit vera. alioquin non consultaremus de fu 
+              <lb ed="#P" n="111"/>turis contingentibus. Non enim consultamus an 
+              da<lb ed="#P" n="112" break="no"/>rium vicit <name xml:id="jm12w4-e64920-Nd1e322">Alexander</name>. vel an frumentum est in 
+              hor<lb ed="#P" n="113" break="no"/>reo: sed bene de acie futura dirigenda in campum. Et 
+              <lb ed="#P" n="114"/>hoc quadrat cum <name xml:id="jm12w4-e64920-Nd1e329" ref="#Aristotle">Aristotele</name> qui tenet. vi. Ethicorum 
+              <lb ed="#P" n="115"/>ad preteritum nullam esse potentiam.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e336">
+      ⁋ Si dicas: sor 
+              <lb ed="#P" n="116"/>tes erit: est de futuro cotingenti: et tamen non potest 
+              <lb ed="#P" n="117"/>impediri quin post hoc instans sit: saltem naturalitur. 
+              <lb ed="#P" n="118"/>quia sic loquimur: bene enim sequitur: sortes est: 
+              <lb ed="#P" n="119"/>ergo sortes erit. alioquin rei permanentis non 
+              ra<lb ed="#P" n="120" break="no"/>partim fiuentis dabitur vltimum instans esse contra 
+              <lb ed="#P" n="121"/>Philosophum. viii. Physicorum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e352">
+      ⁋ hoc non venit a 
+              <lb ed="#P" n="122"/>contingentia: sed a praesentialitate.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e357">
+      ⁋ Vel sic. 
+              vo<lb ed="#P" n="123" break="no"/>camus illud determinate verum quod potest nunc 
+              <lb ed="#P" n="124"/>sciri: vt sunt propositiones de praesenti et preterito: 
+              <lb ed="#P" n="125"/>de quibus locuti sumus. et licet multe tales sint ca 
+              <lb ed="#P" n="126"/>liginose: vt vnicornis in deserto pugnat cum 
+              Ele<lb ed="#P" n="127" break="no"/>phanto: tamen si esset intellectus qui intelligeret rem sicut 
+              <lb ed="#P" n="128"/>se habet ex parte rei illa esset scita: loquor de intellectu 
+      <!--202.xml-->
+      <pb ed="#P" n="94-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>viatorum more <name xml:id="jm12w4-e64920-Nd1e380" ref="#Aristotle">Aristotelis</name>. Quod deus omnia 
+              intelli<lb ed="#P" n="2" break="no"/>gat determinate: non est dubium. secus est de 
+              futu<lb ed="#P" n="3" break="no"/>ris impedibilibus. Arnoldus erit carthusien. apud 
+              <lb ed="#P" n="4"/>nos omnes erant indeterminate vera. Et istud est 
+              con<lb ed="#P" n="5" break="no"/>forme modo loquendi vulgarium: qui fortasse acce 
+              <lb ed="#P" n="6"/>pit ex ordium a sapientibus recte intelligentibus: ae 
+              mo<lb ed="#P" n="7" break="no"/>do loquendi <name xml:id="jm12w4-e64920-Nd1e397" ref="#Aristotle">Aristotel</name> vtentibus. si sortes et plato 
+              <lb ed="#P" n="8"/>sunt competitores circa idem beneficium cum equali 
+              <lb ed="#P" n="9"/>a pparentia. si petatur vter horum erit victor: dicimus 
+              <lb ed="#P" n="10"/>de futuris contingentibus non est determinata 
+              ve<lb ed="#P" n="11" break="no"/>ritas. ac si diceremus: incertum est.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e410">
+      ⁋ Istis 
+              preliba<lb ed="#P" n="12" break="no"/>tis facile est respondere obiectionibus quas quidam 
+              <lb ed="#P" n="13"/>fa cit contra Philosophum. sumo inquit istam gratia 
+              <lb ed="#P" n="14"/>exempli Antichristus erit: et sic arguo. hec est 
+              ve<lb ed="#P" n="15" break="no"/>ra aut non est vera: si est vera. habeo intentum. si non 
+              <lb ed="#P" n="16"/>tunc sic. hec Antichristus erit non est va. ergo 
+              An<lb ed="#P" n="17" break="no"/>tic hristus non erit. antecedens est verum per responsionem: 
+              <lb ed="#P" n="18"/>ergo consequens est verum. et vltra: ergo hec est falsa 
+              Anti<lb ed="#P" n="19" break="no"/>christus erit: per legem contradictoriarum qua etiam 
+              <lb ed="#P" n="20"/>Philosophus vsus est. sed si vna est vera: reliqua est 
+              <lb ed="#P" n="21"/>falsa. et e conuerso. &amp; tunc habetur propositum quod hoc 
+              <lb ed="#P" n="22"/>Antichristus erit: est vera vel falsa. quia sequitur hec 
+              <lb ed="#P" n="23"/>est vera. ergo hec est vera vel falsa. similiter ex alio 
+              <lb ed="#P" n="24"/>habetur intentum. quia opposita est vna singularis de 
+              <lb ed="#P" n="25"/>futuro. et est vera. vt conclusum est. Que autem sequa 
+              <lb ed="#P" n="26"/>hec est va Antichristus non erit. ergo Antichristus 
+              <lb ed="#P" n="27"/>non erit. patet. quia ex opposito sequitur oppositum. sequi 
+              <lb ed="#P" n="28"/>tur enim per primum assumptum de mutua consequentia rei ad  
+              <lb ed="#P" n="29"/>veritatem propositionis Antichristus erit. ergo hec est 
+              <lb ed="#P" n="30"/>vera: Antichristus erit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e454">
+      ⁋ Respondetur: quod quando petit aui 
+              <lb ed="#P" n="31"/>illa Antichristus erit est vesra aut non est vestra. do pri 
+              <lb ed="#P" n="32"/>mum. licet me lateat. non stes de Antichristo in 
+              ma<lb ed="#P" n="33" break="no"/>teria fidei sufficit quodcumque aliud futurum 
+              contin<lb ed="#P" n="34" break="no"/>gens: sed illa non est determinate vera cum nesciar 
+              <lb ed="#P" n="35"/>et conceditur quod disiunctiua vel illa de disiuncto est de 
+              <lb ed="#P" n="36"/>terminate vera. ergo aliqua paro eius. nego consequentiam quem 
+              <lb ed="#P" n="37"/>ad modum scio hanc: Papa dormit vel nullus Pa 
+              <lb ed="#P" n="38"/>pa dormit: et neutram partem illius scio. et sic hec 
+              co<lb ed="#P" n="39" break="no"/>pulatiua est determinate falsa: Papa dormit et 
+              <lb ed="#P" n="40"/>nullus Papa dormit: et neutra pars est determia 
+              <lb ed="#P" n="41"/>te falsa. Quid interdum pro analogia accipio propositio 
+              <lb ed="#P" n="42"/>nes de praesenti quas dico determinate veras non 
+              <lb ed="#P" n="43"/>mireris: quia ad scalam nostre materie conducit. lye 
+              <lb ed="#P" n="44"/>altera pars sit determinate vera: vt ante tetigimus 
+              <lb ed="#P" n="45"/>sed ad refellendas consequentias arguentis hoc adducimus 
+              <lb ed="#P" n="46"/>Taceo de multis malis consequentiis: quas inter arguen 
+              <lb ed="#P" n="47"/>dum capit iste doctor. que cognoscuntur ex artibus. 
+              <lb ed="#P" n="48"/>Non respondeo ad alias rationes eius: quia non sunt 
+              <lb ed="#P" n="49"/>magni ponderis contra Philosophum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e498">
+      ⁋ Istis 
+              pre<lb ed="#P" n="50" break="no"/>suppositis pono aliquas proositiones corollarias. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e503">
+               <lb ed="#P" n="51"/>⁋ Prima proositio. aliqua est propositio de future 
+              <lb ed="#P" n="52"/>contingenti determinate vera: probatur: hec est deter 
+              <lb ed="#P" n="53"/>minate vera: dies iudicii erit per symbolum Apo 
+              <lb ed="#P" n="54"/>stolorum et Nicenum similiter.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e514">
+      ⁋ Secunda propositio. queli 
+              <lb ed="#P" n="55"/>bet proositio de futuro contingenti vetra est determi 
+              <lb ed="#P" n="56"/>nate vera. patet: vel ita est sicut per eam significatur vel 
+              <lb ed="#P" n="57"/>non: si ita est et sic est vera: et per consequens determinate ve f 
+              <lb ed="#P" n="58"/>dem enim est verum et determinate verum. nec contra 
+              <lb ed="#P" n="59"/>dico <name xml:id="jm12w4-e64920-Nd1e527" ref="#Aristotle">Aristoteli</name>: quia aliter capio terminum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e531">
+      ⁋ Tertia 
+              <lb ed="#P" n="60"/>ppositio. nulla propositio de futuro contingenti est 
+              <lb ed="#P" n="61"/>inceuitabiliter vera. Probatur: quia sequeretur quod eius ve 
+              <lb ed="#P" n="62"/>ritas non posset impediri: quod est falsum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e541">
+      ⁋ Quarto 
+              <lb ed="#P" n="63"/>propositio. nulla propositio affirmatiua de futuro 
+              po<lb ed="#P" n="64" break="no"/>test mutari de veritate in falsitatem ante positionem 
+              <lb ed="#P" n="65"/>reiin esse. patet. quia est falsa ante positionem rei in esse. ergo 
+      <!--202.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 94rb -->
+               <lb ed="#P" n="66"/>res ponetur in esse. ergo semper ante illud propositio enuncians 
+              <lb ed="#P" n="67"/>illam rem fore erat vera. ergo non erat falsa ante positio 
+              <lb ed="#P" n="68"/>nem rei in esse: secundum illam significationem intelligo. et 
+              po<lb ed="#P" n="69" break="no"/>sita constantia propositionis. opposito modo dicatur 
+              <lb ed="#P" n="70"/>de negatiua de futuro contingenti. sed bene potest 
+              mu<lb ed="#P" n="71" break="no"/>tari de falsitate in veritatem: sed non contr. Falsitas enim 
+              <lb ed="#P" n="72"/>vnius concomitatur veritatem alterius: et contra. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e572">
+               <lb ed="#P" n="73"/>⁋ Quo fit quod non est idem propositionem esse 
+              immuta<lb ed="#P" n="74" break="no"/>biliter veram et ineuitabiliter veram.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e579">
+      ⁋ Quinta 
+              proposi<lb ed="#P" n="75" break="no"/>tio: aliqua propositio ab eterno fuit vera: et tamen in 
+              po<lb ed="#P" n="76" break="no"/>testate mea est vt nunquam fuerit vesra. patet de hac 
+              Ioan<lb ed="#P" n="77" break="no"/>nes tanget pilare in hoc instanti: si illud tangam ab 
+              <lb ed="#P" n="78"/>eterno fuit vera. hoc est semper ita erat sicut per eam 
+              <lb ed="#P" n="79"/>significatur. et supponimus coustantiam propositionum: 
+              <lb ed="#P" n="80"/>et palam est quod est situm in mea facultate non tangere 
+              pi<lb ed="#P" n="81" break="no"/>lare. et per consequens facere quod hec nunquam fuerit vera. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e597">
+               <lb ed="#P" n="82"/>⁋ Sexta propositio. nulla talis propositio 
+              affirmati<lb ed="#P" n="83" break="no"/>ua vel negatiua potest successiue esse vetra et falsa. nec 
+              <lb ed="#P" n="84"/>contra falsa et postea vesra ante illud instans pro quo enum 
+              <lb ed="#P" n="85"/>ciat aliquid fore vel non fore. probatur: quia si talis 
+              po<lb ed="#P" n="86" break="no"/>natur esse vesra ante illud instans: sequitur quod nunquam 
+              an<lb ed="#P" n="87" break="no"/>tea fuerit falsa et si ponatur esse falsa: sequitur quod numquam 
+              <lb ed="#P" n="88"/>antea fuerit vera.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e615">
+      ⁋ Septima propositio: quelibet 
+              <lb ed="#P" n="89"/>iffirmatiua de qua loquimur in quarta propione est 
+              <lb ed="#P" n="90"/>mutabiliter vestra simplicitur. patet: interdum erit ver a et 
+              post<lb ed="#P" n="91" break="no"/>ea falsa. post corruptionem Antichristi si deus 
+              impe<lb ed="#P" n="92" break="no"/>diat eum esse resurrecturum quod est ei possibile: vel 
+              <lb ed="#P" n="93"/>capiatur de brunello. similiter negatiua est 
+              mutabi<lb ed="#P" n="94" break="no"/>liter falsa. sed affirmatiua falsa est immutabiliter 
+              fal<lb ed="#P" n="95" break="no"/>sa. et negatiua vestra est etiam tunc immutabiliter vestra. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e633">
+               <lb ed="#P" n="96"/>⁋ Qctaua propositio. quelibet talis affirmatiua 
+              <lb ed="#P" n="97"/>vera potest incipe esse falsa: sed affirmatiua falsa non 
+              <lb ed="#P" n="98"/>potest incipe esse vera.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e643">
+      ⁋ Nona propositio. nulla talis 
+              <lb ed="#P" n="99"/>potest incipe esse vera vel falsa ante illud instans vel 
+              ten<lb ed="#P" n="100" break="no"/>pus futurum pro quo enunciat aliquid esse futurum vel 
+              <lb ed="#P" n="101"/>non esse futurum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e652">
+      ⁋ Decima propositio. aliqua propositio 
+              <lb ed="#P" n="102"/>est vestra: et potest esse falsa. et tamen non potest desinere esse ve 
+              <lb ed="#P" n="103"/>ra: nec incipere esse falsa. patet de hac: Anti christs non 
+              <lb ed="#P" n="104"/>saluabitur. hec enim est vea et potest esse falsa. Pariforma 
+              <lb ed="#P" n="105"/>aliqua est falsa: et potest esse vestra: et tamen non potet desinere 
+              <lb ed="#P" n="106"/>nec incipe esse vesra. patet de hac: Anticxpius saluabitur. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e665">
+               <lb ed="#P" n="107"/>⁋ Quo fit quod hec consequentia est nulla: hec propositio nunc 
+              <lb ed="#P" n="108"/>non est vera: et immediate post hoc potest fore vera. ergo 
+              <lb ed="#P" n="109"/>potest incipere esse vera. quia per consequens significatur quod pos 
+              <lb ed="#P" n="110"/>sibile est: quod falsitas mutetur in veritatem: sed oportet eam 
+              <lb ed="#P" n="111"/>exponendo: ponere modum vt cadat in illas de in esse 
+              <lb ed="#P" n="112"/>copulatim quod per illam propositionem denotatur.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e681">
+      ⁋ 
+              Un<lb ed="#P" n="113" break="no"/>decima propositio. alique sunt propositiones due: qua 
+              <lb ed="#P" n="114"/>rum vtraque potest esse vera: et tamen nec simul nec succet 
+              <lb ed="#P" n="115"/>siue. hoc est vna post alteram. patet de duabus 
+              contradi<lb ed="#P" n="116" break="no"/>ctoriis contingentibus.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e692">
+      ⁋ Duodecima. naturaliter 
+              <lb ed="#P" n="117"/>loquendo licet nullum futurum contingens necessario 
+              <lb ed="#P" n="118"/>eueniet: necesse est omne futurum contingens esse 
+              <lb ed="#P" n="119"/>futurum. Prior harum patet per ascensum sub 
+              ter<lb ed="#P" n="120" break="no"/>mino futurum distributo. Secunda pars patet: quia de 
+              <lb ed="#P" n="121"/>inesse illius est necessaria propositio: et modus pro 
+              <lb ed="#P" n="122"/>tali supponit. non ponitur distributio nec aliquid 
+              <lb ed="#P" n="123"/>impediens veritatem illius: igitur.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e710">
+      ⁋ Decimater 
+              <lb ed="#P" n="124"/>tia propositio. quelibet singularis illius erit falsa 
+              <lb ed="#P" n="125"/>omne futurum contingens est futurum: sed illa vni 
+              <lb ed="#P" n="126"/>uersalis est perpetue necessitatis posita constantia 
+              <lb ed="#P" n="127"/>propositionis.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e722">
+      ⁋ Sed dicis hec est vera: futurum con 
+              <lb ed="#P" n="128"/>tingens esse est necesse: et qualibet singularis sua fal a 
+              <lb ed="#P" n="129"/>sa. ergo ex vero sequitur falsum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e729">
+      ⁋ Aliqui hoc concedunt per 
+              <lb ed="#P" n="130"/>et non bene) male enim dant singulares illius: quia oportet quod 
+      <!--203.xml-->
+      <pb ed="#P" n="94-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>subiectum singularium stet pro illo pro quo stat subie 
+              <lb ed="#P" n="2"/>ctum indefinite. et sic non dabunt indiffinitam veram 
+              <lb ed="#P" n="3"/>cum singularibus falsis.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e747">
+      ⁋ Decimaquarta propositio. 
+              <lb ed="#P" n="4"/>aliqua est disiunctiua necessaria: cuius quelibet pars 
+              <lb ed="#P" n="5"/>est falsificabilis. patet de hac disiunctiua: hoc futu 
+              <lb ed="#P" n="6"/>rum contingens erit: vel hoc futurum contingens erit 
+              <lb ed="#P" n="7"/>et sic de aliis: demonstrando omnia: capiendo omnes 
+              sin<lb ed="#P" n="8" break="no"/>gulares istius: futurum contingens erit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e760">
+      ⁋ Dices 
+              <lb ed="#P" n="9"/>sic. hec disiunctiua est necessaria: sortes non currit vi 
+              <lb ed="#P" n="10"/>homo mouetur: sortes currit vel sortes non currit ad 
+              <lb ed="#P" n="11"/>datur. et nulla pars est negatiua. necessitas illius ptrer 
+              <lb ed="#P" n="12"/>semper habebit aliquas partes veras. et necesse est esse 
+              <lb ed="#P" n="13"/>sicut per aliquam partium significatur. licet quelibet ca 
+              <lb ed="#P" n="14"/>thegorica sit falsificabilis.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e776">
+      ⁋ Arguitur necessitas. 
+              <lb ed="#P" n="15"/>Aliter bene sequitur: aliquod futurum est futurum. ergo hoc 
+              <lb ed="#P" n="16"/>est futurum vel illud est futurum per descensum. antecedens est 
+              <lb ed="#P" n="17"/>necessarium. ergo et consequens.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e785">
+      ⁋ Sed hic potes negare consequentia: 
+              <lb ed="#P" n="18"/>nisi ponatur constantia. et sic dices totale antecedens est 
+              con<lb ed="#P" n="19" break="no"/>tingens: et per consequens probatio est nulla.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e793">
+      ⁋ Decimaquin 
+              <lb ed="#P" n="20"/>ta sequitur. aliqua copulatiua composita ex precise ne 
+              <lb ed="#P" n="21"/>gatiuis est impossibilis: cuius quelibet cathegori 
+              <lb ed="#P" n="22"/>ca erit vera. nec due cathegorice repugnant inter 
+              <lb ed="#P" n="23"/>se. nec. iii. nec. iiii. et sic de quibuscumque finitis. hoc 
+              <lb ed="#P" n="24"/>patet de copulatiua composita ex contradictoriis 
+              il<lb ed="#P" n="25" break="no"/>lius disiunctiue. si vnum contradictorium est 
+              necessa<lb ed="#P" n="26" break="no"/>rium: reliquum est impossibile. In his. iiii. 
+              prpositio<lb ed="#P" n="27" break="no"/>nibus locutus sum naturaliter (vt tu ipse vides) vt 
+              <lb ed="#P" n="28"/>futurum est futurum est contingens simpliciter. vt patet ex 
+              <lb ed="#P" n="29"/>dictis. semper enim loquimur de futuro contingenti 
+              <lb ed="#P" n="30"/>Quidam facit magnum processum: et inutilem contra 
+              <lb ed="#P" n="31"/>oannem scotum qui quartus post eum intrauit. 
+              Ioan<lb ed="#P" n="32" break="no"/>nes ille tenuit quod ista: futurum esse futurum est necesse: 
+              <lb ed="#P" n="33"/>est falsa de virtute sermonis. Et exponit Ansel 
+              <lb ed="#P" n="34"/>de concor. capitu. iiii. super illa propositione: rem futu 
+              <lb ed="#P" n="35"/>ram necesse est esse futuram.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e830">
+      ⁋ Sed iste non dubitat 
+              <lb ed="#P" n="36"/>quin Ioannes contradicat <name xml:id="jm12w4-e64920-Nd1e834" ref="#Anselm">Anselmo</name>: et veritati. sed 
+              <lb ed="#P" n="37"/>ego magis admiror quomodo non dubitat. et addo cum 
+              <lb ed="#P" n="38"/>alio certissimum esse quod illa est falsa: siue capiatur in sen 
+              <lb ed="#P" n="39"/>su composito siue diuiso. ergo vel oportuit negare 
+              An<lb ed="#P" n="40" break="no"/>selmum: vel eum exponere. Ibi ponit notabile: non 
+              <lb ed="#P" n="41"/>est idem rem praesentem esse et rem esse praesentem: rem 
+              fu<lb ed="#P" n="42" break="no"/>turam esse et rem esse futuram: cum oculum non habeat 
+              <lb ed="#P" n="43"/>ad ampliationem ( vt ipse dicit) non est idem et rem est 
+              <lb ed="#P" n="44"/>se albam: et rem albam esse albam. et ex consequenti ar 
+              <lb ed="#P" n="45"/>multa alia inepta descendit. non modo in logica: sed 
+              <lb ed="#P" n="46"/>ad ineptias theologales in materia de futuro 
+              con<lb ed="#P" n="47" break="no"/>tingenti. quare contra eum non insisto.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e862">
+      ⁋ Dubitatur 
+              <lb ed="#P" n="48"/>circa hanc materiam quando contingens est contingens. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e867">
+               <lb ed="#P" n="49"/>⁋ Respondetur primittendo vnam distinctionem circa 
+              <lb ed="#P" n="50"/>hanc propositionem: quando res est potest non esse.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e874">
+      ⁋ hecpro pro 
+              <lb ed="#P" n="51"/>potest triphariam sumi. Uno modo sic. quando res est: tunc 
+              <lb ed="#P" n="52"/>est in potentia vt in futuro non sit. Alio modo quod tum 
+              <lb ed="#P" n="53"/>sit in potentia vt etiam non sit tunc. et hoc biphariam. 
+              <lb ed="#P" n="54"/>Uno modo sic. quod propositio enuncians ipsum non esse 
+              tum<lb ed="#P" n="55" break="no"/>potest esse vera in futuro. et hi duo sensus sunt lucid 
+              <lb ed="#P" n="56"/>Alio modo sic quod potest esse vera: etiam pro illo tunc non 
+              <lb ed="#P" n="57"/>quod potest esse successio de esse post non esse vel econuer 
+              <lb ed="#P" n="58"/>so in eodem instanti: quia hec implicat.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e894">
+      ⁋ Ad 
+              dubita<lb ed="#P" n="59" break="no"/>tionem motam due sunt positiones. Prior tenet e 
+              <lb ed="#P" n="60"/>non est possibilis potentia ad opposita quod eodem insten 
+              <lb ed="#P" n="61"/>ti. sicut enim quando res labitur in preteritum nullum agene 
+              <lb ed="#P" n="62"/>potest facere quod illa res non fuerit: sic nullum agenes 
+              <lb ed="#P" n="63"/>potest facere remiam positam in esse non esse nisi per 
+              <lb ed="#P" n="64"/>lapsum huius instantis. vt si habeam volitionem in 
+              <lb ed="#P" n="65"/>hoc instanti circa a non possum in hoc instanti ha¬ 
+      <!--203.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 94vb -->
+               <lb ed="#P" n="66"/>bere nolitionem: quia sequitur contradictio quod res est er 
+              <lb ed="#P" n="67"/>non est. Eodem modo de non esse si in hoc instanti non 
+              <lb ed="#P" n="68"/>habeam b volitionem non possum eam pro nunc habe 
+              <lb ed="#P" n="69"/>re.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e928">
+      ⁋ Argumenta multa solent adduci contra ha 
+              <lb ed="#P" n="70"/>positionem: que pendent in hoc verbo sortes in a 
+              in<lb ed="#P" n="71" break="no"/>stanti habens actum voluntatis potest non elicere. 
+              <lb ed="#P" n="72"/>Distinguitur: vel in posterum vel post lapsum a instan 
+              <lb ed="#P" n="73"/>tis: et sic est verum. vel pro tunc: et sic negatur. Simi 
+              <lb ed="#P" n="74"/>liter dicatur de ista: posito quod in hoc instanti volun 
+              <lb ed="#P" n="75"/>tas non habet b actum: voluntas nunc potest 
+              elice<lb ed="#P" n="76" break="no"/>re b. sed non potest elicere nunc b.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e946">
+      ⁋ Sed contra 
+              ra<lb ed="#P" n="77" break="no"/>tionem positionis arguitur sic. Eodem modo deberet 
+              <lb ed="#P" n="78"/>dicere quod ad futurum non est potentia contra opinam 
+              <lb ed="#P" n="79"/>tes. patet quia ad presens non est potentia pro tunc per 
+              <lb ed="#P" n="80"/>te: quia omnis potentia que est potentia pro aliquo 
+              <lb ed="#P" n="81"/>instanti: potest reduci ad actum pro illo instanti: non 
+              <lb ed="#P" n="82"/>obstante quocunque posito: ergo signato sorte qui 
+              <lb ed="#P" n="83"/>cras peccabit non est in potestate eius quod non pec⁋ 
+              <lb ed="#P" n="84"/>cet: quia talis potentia non potest reduci ad actum 
+              <lb ed="#P" n="85"/>hoc posito quod eras peccabit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e968">
+      ⁋ Dices non esse 
+              si<lb ed="#P" n="86" break="no"/>mile: quia propositio de futuro contintingenti non 
+              <lb ed="#P" n="87"/>habet veritatem nisi dependentem a positione futura 
+              <lb ed="#P" n="88"/>rei in esse: que positio futura rei in esse est in 
+              pote<lb ed="#P" n="89" break="no"/>state cause: quod rem ponat vel non ponat. Secus est 
+              <lb ed="#P" n="90"/>in illa de inesse cum iam res sit posita in esse: et 
+              reali<lb ed="#P" n="91" break="no"/>extra suam causam.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e984">
+      ⁋ Insuper non sequitur: deue 
+              <lb ed="#P" n="92"/>nunc potest producere vnum angelum: ergo nunc 
+              pro<lb ed="#P" n="93" break="no"/>ducit illum. et si non sequatur per regulam consequen 
+              <lb ed="#P" n="94"/>tialem vulgarem: oppositum consequentis stat cum an 
+              <lb ed="#P" n="95"/>tecedente. scilicet quod potest nunc vnum angelum produce 
+              <lb ed="#P" n="96"/>re: et eum nunc non producit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e997">
+      ⁋ Dices licet non 
+              se<lb ed="#P" n="97" break="no"/>quatur: nunc deus potest producere vnum angelum 
+              <lb ed="#P" n="98"/>ergo nunc eum producit: tamen bene sequitur: deus 
+              po<lb ed="#P" n="99" break="no"/>test producere nunc vnum angelum: ergo nunc eum 
+              pro<lb ed="#P" n="100" break="no"/>ducit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1008">
+      ⁋ Sed contra. ergo si mundus fuisset ab 
+              eter<lb ed="#P" n="101" break="no"/>no de necessitate est. patet: quocunque instanti dato in 
+              <lb ed="#P" n="102"/>quo est in illo de necessitate est. igitur.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1016">
+      ⁋ Sed negas 
+              <lb ed="#P" n="103"/>conditionalem. antecedens enim est possibile. et consequens est 
+              im<lb ed="#P" n="104" break="no"/>possibile: quod aliqua creatura de necessitate est. Et 
+              <lb ed="#P" n="105"/>secunda pobatio non valet. set quocunque instanti 
+              da<lb ed="#P" n="106" break="no"/>to in quo mundus est de necessitate est in illo: non 
+              se<lb ed="#P" n="107" break="no"/>quitur quod de necessitate est simpliciter. quia dato a in 
+              <lb ed="#P" n="108"/>stanti in quo est de necessitate: potest deus facere 
+              <lb ed="#P" n="109"/>quod amplius non sit: ita quod a sit vltimum instans esse mi 
+              <lb ed="#P" n="110"/>di. Pariforma poterat ante corrupisse mundum 
+              <lb ed="#P" n="111"/>Sicut in simili secundum hunc modum de monstrande 
+              <lb ed="#P" n="112"/>instans in quo sortes peccat: iste actus de 
+              necessi<lb ed="#P" n="113" break="no"/>tate est in hoc instanti: sed quia poterat sortes 
+              an<lb ed="#P" n="114" break="no"/>te hoc instans fecisse: quod iste actus non sit in hoc in 
+              <lb ed="#P" n="115"/>stanti: propterea dicitur posse vitare peccatum: vt 
+              so<lb ed="#P" n="116" break="no"/>let dici de expositione vitare secundum hanc positionem 
+              <lb ed="#P" n="117"/>sortes vitat nunc peccatum: sortes nunc non peccati 
+              <lb ed="#P" n="118"/>et immediate ante hoc poterat nunc peccare pro 
+              <lb ed="#P" n="119"/>nunc.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1055">
+      ⁋ Sed dicis: nemo peccat pro aliquo 
+              instan<lb ed="#P" n="120" break="no"/>ti: in quo non potest vitare peccatum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1060">
+      ⁋ Verum est 
+              <lb ed="#P" n="121"/>in eo in quo non est: neque fuit potens ad euitandum. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1065">
+               <lb ed="#P" n="122"/>⁋ Sed dices: in hoc instanti vult occidere vnum 
+              <lb ed="#P" n="123"/>hominem: et non potest illnd nunc vitare: et ante hoc 
+              <lb ed="#P" n="124"/>poterat illud impedire ne nunc peccaret: ergo ante 
+              <lb ed="#P" n="125"/>omisit.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1076">
+      ⁋ Sed nego praesuppositum. nulla est omissic 
+              <lb ed="#P" n="126"/>impresentiarum. non enim est speciale praeceptum vitare 
+              <lb ed="#P" n="127"/>hoc peccatum aliud ab illo: non occidas.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1083">
+      ⁋ Sed dicis: ex 
+              <lb ed="#P" n="128"/>isto aliquis obligatur ad impossibile: obligatur enim 
+              <lb ed="#P" n="129"/>non habere istum actum. et hoc non est situm in 
+              fa<lb ed="#P" n="130" break="no"/>cultate eius.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1093">
+      ⁋ Illud non est simpliciter impossibi¬ 
+      <!--204.xml-->
+      <pb ed="#P" n="95-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>le: poterat hoc euitasse licet non pro nune cum positione 
+              <lb ed="#P" n="2"/>rei in esse. Etiam secundum multos: sortes ex culpa preuia 
+              <lb ed="#P" n="3"/>obligatur ad impossibile sibi. vt patet si incurrat temulen 
+              <lb ed="#P" n="4"/>tiam vel frenesim ex culpa.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1111">
+      ⁋ Preterea 
+              argumen<lb ed="#P" n="5" break="no"/>tor sic. primus angelus poterat peccare in primo insta 
+              <lb ed="#P" n="6"/>ti quo erat in rerum natura: et ille actus non erat in 
+              po<lb ed="#P" n="7" break="no"/>testate eius pro tunc: nec ante illud instans: quia prius non 
+              <lb ed="#P" n="8"/>fuit. quomodo potest aliquis euitare aliquid vel potuit pr 
+              <lb ed="#P" n="9"/>tempore pro quo non fueritus
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1124">
+      ⁋ Quidam de fratre Guiller 
+              <lb ed="#P" n="10"/>mo Qcliam miratur quonam pacto teneat angelum 
+              <lb ed="#P" n="11"/>peccare in quocumque instanti pro quo est in rerum natura 
+              <lb ed="#P" n="12"/>et omne quod est de necessitate est quando est.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1133">
+      ⁋ Secundus 
+              <lb ed="#P" n="13"/>doctor vadit ad prioritatem nature: sed opinione mea 
+              <lb ed="#P" n="14"/>labitur in idem inconueniens cum Quillermo: quia egerr 
+              <lb ed="#P" n="15"/>me he due propositiones simul coherent. Omne quod 
+              <lb ed="#P" n="16"/>est de necessitate est quando est: et primus angelus 
+              pote<lb ed="#P" n="17" break="no"/>rat peccars in primo instanti quo erat in rerum natura 
+              <lb ed="#P" n="18"/>quia non videtur posse dari bona responsio ad obiectiones 
+              <lb ed="#P" n="19"/>que fieri praesent contra hanc positionem. Et contra aliam non es 
+              <lb ed="#P" n="20"/>illa difficultas. Teneamus partem condictoriam 
+              positio<lb ed="#P" n="21" break="no"/>ni contra quam nunc obiecimus: scilicet quod est potentia ad 
+              oppo<lb ed="#P" n="22" break="no"/>sita pro eodem instanti: sortes enim nunc non diligit deum: 
+              <lb ed="#P" n="23"/>et nunc est in libera potestate sortis pro nunc diligere 
+              <lb ed="#P" n="24"/>deum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1162">
+      ⁋ Voluntas libere vult sic exponitur: 
+              volunta<lb ed="#P" n="25" break="no"/>nunc vult: et potest pro nunc non velle. Voluntas libere 
+              <lb ed="#P" n="26"/>non vult: voluntas nunc non vult et potest velle pro nunc 
+              <lb ed="#P" n="27"/>Similiter ad multas alias obiectiones quas tangit 
+              <lb ed="#P" n="28"/>quidam in primo. vt voluntas omnem suum actum libere 
+              <lb ed="#P" n="29"/>suspendit sic exponitur: nunc nullum actum habet: et pro nunc 
+              <lb ed="#P" n="30"/>potest habere: voluntas nunc non peccat: et potest pro nunc 
+              <lb ed="#P" n="31"/>peccare: exponunt hanc sortes vitat peccatum.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1180">
+      ⁋ Argu 
+              <lb ed="#P" n="32"/>mentum aduersariorum nullum est. illa enim non debet dici 
+              po<lb ed="#P" n="33" break="no"/>tentia que nullo modo potest reduci ad actum: sed habeat 
+              <lb ed="#P" n="34"/>sortes nunc a actum per te potest nunc non habere a: et pro 
+              <lb ed="#P" n="35"/>nunc reducatur ad actum: et dabis a esse a non esse: 
+              sol<lb ed="#P" n="36" break="no"/>uant alii argumentum commne de futuro contingenti: et eorum 
+              <lb ed="#P" n="37"/>est hic solutum. Antichristus erit et potest non fore ponen 
+              <lb ed="#P" n="38"/>do illam in esse.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1199">
+      ⁋ Secundo argumentor. istud est contra 
+              <lb ed="#P" n="39"/>philsophum mmo neri hermenias: omne quod est quando es 
+              <lb ed="#P" n="40"/>de necessitate est.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1206">
+      ⁋ Ad illam propositionem dicitur quod hec est 
+              <lb ed="#P" n="41"/>multiplex secundum quod quando potest resolui in si vel in omne. si in 
+              <lb ed="#P" n="42"/>si dupliciter: vel in sensum categorico vel in sensu 
+              hy<lb ed="#P" n="43" break="no"/>pothetico. Si primum: vel est vna de conditionato 
+              subie<lb ed="#P" n="44" break="no"/>cto vel de conditionato praedicato. Si secundum: necesse 
+              <lb ed="#P" n="45"/>potest necessitare totam conditionalem vel consequens. Si secundum vel 
+              <lb ed="#P" n="46"/>insensu composito vel in sensu diuiso. sensus isti sunt per 
+              <lb ed="#P" n="47"/>spicui. Si de conditionato subiecto: falsa sensum hypo 
+              <lb ed="#P" n="48"/>theticum de virtute sermonis non habet. Si sit de 
+              con<lb ed="#P" n="49" break="no"/>ditionato praedicato vesra est in sensu diuiso. quod sit sensus ore 
+              <lb ed="#P" n="50"/>quod est necessario est si est: et sortes necessario est si est 
+              <lb ed="#P" n="51"/>et chimera necessario est si est. Si de temperato 
+              sub<lb ed="#P" n="52" break="no"/>iecto in sensu diuiso est falsa: sed de temperato praedica 
+              <lb ed="#P" n="53"/>to a quodam doctore conceditur. ita quod sit sensus omne quod 
+              <lb ed="#P" n="54"/>est necessario est quando est. Et consequenter concederet: quod sortes 
+              <lb ed="#P" n="55"/>necessario est: quando est. hac negata sortes necessario est 
+              <lb ed="#P" n="56"/>et hoc vtrobique esse verum: quod si ipsa sit vera in sensu di 
+              <lb ed="#P" n="57"/>uiso quod pariter hec erit vera: hec est necessaria: sortes 
+              <lb ed="#P" n="58"/>est quando est. hec tamen conter negatur in tali sensu. in sensi 
+              <lb ed="#P" n="59"/>composito hec est concedenda ita quod sit sensus omne quod 
+              <lb ed="#P" n="60"/>est quando est esse necesse est: quia ipsa est vna indefinita cu 
+              <lb ed="#P" n="61"/>ius praedicatum pro solis propositionibus necessariis 
+              <lb ed="#P" n="62"/>supponit: et subiectum pro aliquibus talibus vtputa 
+              <lb ed="#P" n="63"/>omne quod est quando est / est: sed quaelibet singularis 
+              <lb ed="#P" n="64"/>illius est contingens demptis personas diuinas demon 
+              <lb ed="#P" n="65"/>strantibus: nec hoc concludit contingentiam vniue 
+              <lb ed="#P" n="66"/>salis vt patet mere physicede necessitate huius: omnis 
+      <!--204.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 95rb -->
+               <lb ed="#P" n="67"/>homo est animal: et omnium singularium contingentia. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1274">
+               <lb ed="#P" n="68"/>⁋ Tertio arguitur. si quando res est potest non esse: tunc 
+              <lb ed="#P" n="69"/>esset consiliandum de praesentibus sicut de futuris. 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1281">
+               <lb ed="#P" n="70"/>⁋ Insuper nemo excusaretur propter subrectionem 
+              <lb ed="#P" n="71"/>superuenientem: et propter carentiam deliberationis 
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1288">
+               <lb ed="#P" n="72"/>⁋ Amplius deus potest punire aliquem quam cito peccat: 
+              <lb ed="#P" n="73"/>pot enim in primo instanti quo peccat damnare.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1295">
+      ⁋ Ad 
+              <lb ed="#P" n="74"/>primum negatur consequentia quando res iam posita est. non etia: 
+              <lb ed="#P" n="75"/>consultamus de repente futuris.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1303">
+      ⁋ Ad aliud negatur 
+              <lb ed="#P" n="76"/>antecedens: licet enim voluntas habeat libertatem 
+              contingen<lb ed="#P" n="77" break="no"/>tie respectu alicuius actus presentis: non tamen ex hoc 
+              po<lb ed="#P" n="78" break="no"/>nitur quod hoc habeat respectu cuiuslibet.
+            </p>
+            <p xml:id="jm12w4-e64920-d1e1312">
+      ⁋ Ad tertium 
+              <lb ed="#P" n="79"/>respondetur quod immediate post peccatum mortale 
+              po<lb ed="#P" n="80" break="no"/>test deus punire: etiam non implicat quod damnetur in illo 
+              <lb ed="#P" n="81"/>instanti quo peccat: peccatum enim est prius natura 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="57-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e38949"> <!--l1d17q6 -->
+            <head xml:id="jm12w4-e38949-Hd1e106">Quaestio 6</head>
+            <head xml:id="jm12w4-e38949-Hd1e109" type="question-title">
+      An circumstantia temporis agumentet meritum et 
+      ex consequenti gratiam?
+    </head>
+            <p xml:id="jm12w4-e38949-d1e112">
+               <lb ed="#P" n="76"/>⁋ Manifestum est: quod iustitie perfectionem 
+              <lb ed="#P" n="77"/>in fratris dilectione posuerit. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e119">
+               <lb ed="#P" n="78"/>⁋ Distinctionis decimeseptime questio 
+              sexta<lb ed="#P" n="79" break="no"/>SExto queritur: an circumstantia temporis 
+              <lb ed="#P" n="80"/>augmentet meritum: et ex consequenti 
+              gra<lb ed="#P" n="81" break="no"/>tiam.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e131">
+      ⁋ Volumus querere de duobus: quorum 
+              <lb ed="#P" n="82"/>vnus elicit actum per horam et alter per duas: 
+              <lb ed="#P" n="83"/>an equaliter merentur vel in proportione 
+              <lb ed="#P" n="84"/>dupla et subdupla. Supponimus difficultatem vel 
+              <lb ed="#P" n="85"/>facilitatem cognitionem claram vel obscuram etc. omnia paria 
+              <lb ed="#P" n="86"/>que meritum augere vel attenuare solent.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e144">
+      ⁋ Holkot in 
+              <lb ed="#P" n="87"/>determinationibus dicit hic esse duas positiones oppo 
+              <lb ed="#P" n="88"/>sitas et difficiles: propterea recitatiue vult procedere. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e151">
+               <lb ed="#P" n="89"/>⁋ Ego autem alteram partem penitus iudico improba 
+              <lb ed="#P" n="90"/>bilem: propterea sicut in ceteris questionibus ponam 
+              <lb ed="#P" n="91"/>vnam conclusionem aliquibus rationibus eam vallando 
+              <lb ed="#P" n="92"/>postea argumentis occurrentibus eam feriam eadem 
+              <lb ed="#P" n="93"/>oluendo: vt veritas magis elucescat.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e164">
+      ⁋ Conclusio 
+              pro<lb ed="#P" n="94" break="no"/>banda est hec. Circunstantia temporis auget meritum. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e169">
+               <lb ed="#P" n="95"/>⁋ Quam conclusionem sic probo. eliciat sortes actum 
+              <lb ed="#P" n="96"/>meritorium per priorem medietatem hore continue. pla 
+              <lb ed="#P" n="97"/>to per secudam medietatem illius hore continue cum 
+              <lb ed="#P" n="98"/>simili conatu eliciat: sic quod tantum mereatur sicut sortes 
+              <lb ed="#P" n="99"/>in priori medietate. pono vlterius ciceronem 
+              continua<lb ed="#P" n="100" break="no"/>re dilectionem dei per totam illam horam: sic quod in priori 
+              <lb ed="#P" n="101"/>medietate hore tantum mereatur sicut sortes: et licet cice 
+              <lb ed="#P" n="102"/>ro non posset continuo diligere deum per vnam horam: 
+              <lb ed="#P" n="103"/>cum sit potentia fatigabilis: in idem redit de minor 
+              <lb ed="#P" n="104"/>tempore: tantum temporis exemplariter adiecimus. 
+              <lb ed="#P" n="105"/>tunc sic. cicero in duplo magis meretur quam sortes: 
+              er<lb ed="#P" n="106" break="no"/>go circunstantia temporis auget meritum: consequentia liquaet. et antecedens 
+              <lb ed="#P" n="107"/>patet. cicero enim tantum meretur in priori medietate quantum 
+              <lb ed="#P" n="108"/>sortes. et tantum in secunda medietate hore quantum plato: sed 
+              <lb ed="#P" n="109"/>congeries meritorum sortis et platonis est dupla ad 
+              me<lb ed="#P" n="110" break="no"/>ritum sortis. meritum autem ciceronis est equale illis 
+              duo<lb ed="#P" n="111" break="no"/>bus: ergo est duplum ad meritum sortis: in quacumque enim 
+              pro<lb ed="#P" n="112" break="no"/>portione vnum equalium se habet ad aliud: in eadem 
+              <lb ed="#P" n="113"/>proportione se habet alterum ad idem.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e213">
+      ⁋ Forte 
+              di<lb ed="#P" n="114" break="no"/>ces. sortes non pius meretur in prima medietate 
+              ho<lb ed="#P" n="115" break="no"/>re quam si illud produxisset in instanti: et ipsum non 
+              conti<lb ed="#P" n="116" break="no"/>nuasset.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e223">
+      ⁋ Contra: si habuisset tres vel quattuor 
+              <lb ed="#P" n="117"/>actus interruptos in primamedietate hore per 
+              quen<lb ed="#P" n="118" break="no"/>libet illorum meritus fuisset: ergo eodem modo per 
+              con<lb ed="#P" n="119" break="no"/>tinuationem actus per equale tempus: alioquin 
+              condu<lb ed="#P" n="120" break="no"/>ceret actus interrumpere: et non manere in eodem bono 
+              pro<lb ed="#P" n="121" break="no"/>posito continuo: quod diceret nemo.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e236">
+      ⁋ Non valet dicere 
+              <lb ed="#P" n="122"/>quod homo non meretur per secundum actum: quia tunc incassum 
+              il<lb ed="#P" n="123" break="no"/>um haberet.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e243">
+      ⁋ Nec valet dicere quod prosit ad preser 
+              <lb ed="#P" n="124"/>uandum se a peccato ne transgrediatur preceptum: vel 
+              <lb ed="#P" n="125"/>vt non alias peccaret.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e250">
+      ⁋ Neutrum enim isforum 
+              suffi<lb ed="#P" n="126" break="no"/>cit. non primum: quia stat quod sit opus consilii. non 
+              se<lb ed="#P" n="127" break="no"/>cundum: quia tunc idem esset et dormire vel se excerce 
+              <lb ed="#P" n="128"/>re in actu eutrapelie.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e259">
+      ⁋ Sed dices: valet ad ista octo 
+              <lb ed="#P" n="129"/>Iocundat / stabilit / auget / peccam remittit / Debilitat / re 
+              <lb ed="#P" n="130"/>mouet / roborat / atque cauet. sed non valet ad nouum 
+              <lb ed="#P" n="131"/>premium. ita dicit Altissiodorem. xiii. tractatu sui ter¬ 
+      <!--129.xml-->
+      <pb ed="#P" n="57-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tii.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e277">
+      ⁋ Sed vere iste doctor multum aberrat.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e281">
+      ⁋ 
+              Pro<lb ed="#P" n="2" break="no"/>pterea secundo arguitur. secundum peccatum post primum 
+              <lb ed="#P" n="3"/>imputatur ad nouam penam: ergo e secundum meritum ad no 
+              <lb ed="#P" n="4"/>uum gradum glorie super gloriam debitam primo merito 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e290">
+               <lb ed="#P" n="5"/>⁋ Nec valet dissimilitudo istius antiqui doctoris 
+              pro<lb ed="#P" n="6" break="no"/>pter radicem in vnitate charitatis.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e297">
+      ⁋ Rursus primo 
+              <lb ed="#P" n="7"/>Ethicorum. Ver enim nec vna facit irundo nec vnus dies. 
+              <lb ed="#P" n="8"/>et beatum eodem modo felicem ve nec vnus dies / nec 
+              <lb ed="#P" n="9"/>breue efficit tempus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e306">
+      ⁋ Preterea bonum quanto 
+              diu<lb ed="#P" n="10" break="no"/>turnius tanto melius ceteris paribus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e311">
+      ⁋ Contra hac 
+              <lb ed="#P" n="11"/>conclusionem arguitur sic. Christus non pius meruit 
+              <lb ed="#P" n="12"/>per actus bonos sequentes quam per primum actu: licet multi 
+              <lb ed="#P" n="13"/>plicies meruerit beatitudine: ergo eodem modo nullus 
+              <lb ed="#P" n="14"/>meretur nouum gradum meriti per merita sequentia: sed 
+              <lb ed="#P" n="15"/>idem meritum quod meruerat per primum actum meritorium. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e324">
+               <lb ed="#P" n="16"/>⁋ Respondetur secundum imaginationem Magistri in secund 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e330">
+               <lb ed="#P" n="17"/>⁋ Christus et angeli prius habuerunt beatitudine. et postea 
+              <lb ed="#P" n="18"/>eam meruerunt. secus est de nostris actibus meritoriis. in 
+              <lb ed="#P" n="19"/>patria non merebimur augmentum beatitudinis 
+              essen<lb ed="#P" n="20" break="no"/>tialis. ridiculum est dicere quod homo qui habet plures actus 
+              <lb ed="#P" n="21"/>elicitos ex gratia in via quae decedit in gratia non 
+              ma<lb ed="#P" n="22" break="no"/>gis primiabitur in patria quam habens paucos. hoc est 
+              impu<lb ed="#P" n="23" break="no"/>gnatione indignum: parabola euangelica. Nec obstat de 
+              <lb ed="#P" n="24"/>venientibus hora. ix. et hora. xi. qui habebant pro 
+              mer<lb ed="#P" n="25" break="no"/>cede eundem denarium diurnum: hoc est idem obiectum bea 
+              <lb ed="#P" n="26"/>tificum: sed non equales portiones beatitudinis. sicu 
+              <lb ed="#P" n="27"/>apud Danielem: stella differt a stella in claritate: et in 
+              <lb ed="#P" n="28"/>domo patris mei mansiones multe sunt.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e359">
+      ⁋ Sed quia 
+              <lb ed="#P" n="29"/>
+               <name xml:id="jm12w4-e38949-Nd1e363" ref="#Lombard">Magister</name> in secundo in hoc cooniter non tenetur secund 
+              <lb ed="#P" n="30"/>dicitur: quod beatitudo dabatur anime Christi sine merito: vel 
+              <lb ed="#P" n="31"/>prius natura habuit meritum quam primium beatificum. licet 
+              <lb ed="#P" n="32"/>in primo instanti quo anima erat in rerum natura erat 
+              <lb ed="#P" n="33"/>beata. istud non contingit de nobis. sed de hoc alias. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e376">
+               <lb ed="#P" n="34"/>⁋ Secundo arguitur: primo Ethicorum dicit 
+              Philoso<lb ed="#P" n="35" break="no"/>phus neque prrpetuum esse maius bonum: nec magis album 
+              <lb ed="#P" n="36"/>quod est diuturnius eo quod vnius diei.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e385">
+      ⁋ Insupernono 
+              <lb ed="#P" n="37"/>Ethicorum dicit Philosophus. melius est habere vnam 
+              <lb ed="#P" n="38"/>bonam operationem quam multas paruas.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e392">
+      ⁋ Ad hoc dicitur 
+              <lb ed="#P" n="39"/>verum est ceteris paribus. vt patet consideranti 
+              Ari<lb ed="#P" n="40" break="no"/>stotelem.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e399">
+      ⁋ Ad alid <name xml:id="jm12w4-e38949-Nd1e401" ref="#Aristotle">Aristoteles</name> loquitur de eo qui 
+              <lb ed="#P" n="41"/>non debet derelinquere opus honestum: dato quod 
+              in<lb ed="#P" n="42" break="no"/>terea multis actib remissis spolietur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e410">
+      ⁋ Tertio 
+              ar<lb ed="#P" n="43" break="no"/>guitur: et profecto hoc argumentum pius me moueret 
+              <lb ed="#P" n="44"/>que cetera tenere oppositum: si rationes non ime vincerent 
+              <lb ed="#P" n="45"/>in oppositum. Tum propter apparentiam quam primafronte 
+              <lb ed="#P" n="46"/>affert. Tum propter auctoritatem dicentis. videtur esse 
+              <lb ed="#P" n="47"/>contra beatum <name xml:id="jm12w4-e38949-Nd1e423" ref="#Augustine">Augustinum</name> ad deogratias 
+              episto<lb ed="#P" n="48" break="no"/>la. xlix. recitabo eius verba in forma. ex qualibet quippe 
+              <lb ed="#P" n="49"/>voluntatum non ex temporum spatiis siue recte facta siue 
+              <lb ed="#P" n="50"/>peccata metimur: alioquin maius peccatum haberetur 
+              ar<lb ed="#P" n="51" break="no"/>borem deiicere quam hominem occidere. illa enim fit longa 
+              mo<lb ed="#P" n="52" break="no"/>ra ictibus multis: hoc vno ictu in breuissimo tempore.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e437">
+      ⁋ Ex 
+              <lb ed="#P" n="53"/>istis forma argumentum <name xml:id="jm12w4-e38949-Nd1e441" ref="#Augustine">Augustini</name> in forma 
+              scholasti<lb ed="#P" n="54" break="no"/>ca moderna. si quaestio esset vera sequitur hec conclusio. quod 
+              tam<lb ed="#P" n="55" break="no"/>tum peccatum esset occidere bouem sicut horem: et deniquam 
+              <lb ed="#P" n="56"/>tantum peccatum esset incidere arborem sicut occidere 
+              ho<lb ed="#P" n="57" break="no"/>mine: et iste conclusiones videntur false: ergo a antecedens a 
+              <lb ed="#P" n="58"/>quo trahunt originem. consequentiam tamen probo. sit ergo quod vnus 
+              <lb ed="#P" n="59"/>velit occidere bouem per actum interiorem in breui 
+              mo<lb ed="#P" n="60" break="no"/>ra continuatum: pono alium qui in simili morula velit 
+              <lb ed="#P" n="61"/>occidere hominem. tunc sic. peccatum secundi non est in 
+              infini<lb ed="#P" n="62" break="no"/>tum maius peccato primi. esto quod specie differant enti 
+              <lb ed="#P" n="63"/>tatiua sicut morali. homo praet tot boues occidereu 
+              <lb ed="#P" n="64"/>intensius gradualiter a acerbius delinquet quam vnus 
+              <lb ed="#P" n="65"/>qui vult occidere hunc hominem. et cum cuiuslibet finiti ad 
+              <lb ed="#P" n="66"/>quodlibet finitum sit certa proportio: signetur excessus 
+      <!--129.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 57vb -->
+               <lb ed="#P" n="67"/>homicidii super bouicidium in proportione decupla vel 
+              <lb ed="#P" n="68"/>quacumque alia proportione numerali volueris: tunc 
+              bo<lb ed="#P" n="69" break="no"/>uicidium interius est subdecuplum ad homicidium: ergo 
+              bo<lb ed="#P" n="70" break="no"/>uicidium continuatum per decem tales morulas erit equale 
+              <lb ed="#P" n="71"/>pomicidio dato: et vndecies continuatum homicidium 
+              <lb ed="#P" n="72"/>exuperabit. Pari facilitate incisionem arboris peior 
+              <lb ed="#P" n="73"/>hoc homicidio probares.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e495">
+      ⁋ Respondetur concedendo conclu 
+              <lb ed="#P" n="74"/>siones illatas sicut calculationes deducunt. inane ei est 
+              <lb ed="#P" n="75"/>confugere ad discrimen specificum actuum: et quod propterea 
+              <lb ed="#P" n="76"/>non possunt comparari: sed quia tunc non comparasset ista pec 
+              <lb ed="#P" n="77"/>cata <name xml:id="jm12w4-e38949-Nd1e505" ref="#Augustine">Augustinus.</name> vult enim dicere non respiciendum esse ad  
+              <lb ed="#P" n="78"/>solum tempus: sed ad offensam propter magnitudinem 
+              <lb ed="#P" n="79"/>obiecti: et illud est potissimum considerandum. homicidium 
+              <lb ed="#P" n="80"/>est centies maius quam bouicidium. esto quod exemplariter 
+              <lb ed="#P" n="81"/>numero denario conternti mansimus inter arguendum. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e518">
+               <lb ed="#P" n="82"/>⁋ Quarto argumetor. si circunstantia temporis faceret ad  
+              <lb ed="#P" n="83"/>magnitudinem peccati: sequeretur quod ille qui vellet peccare pear 
+              <lb ed="#P" n="84"/>maius tempus pluspeccaret quam ille qui vellet peccare per minus: 
+              <lb ed="#P" n="85"/>consequens est falsum. ergo a antecedens: consequentia est nota: maius est pec 
+              <lb ed="#P" n="86"/>catum peccare per maius tempus quam per minus: ergo est maius 
+              <lb ed="#P" n="87"/>peccatum velle peccare per maius tempus quam per minus. 
+              <lb ed="#P" n="88"/>peius est velle magnum peccatum quam paruum. falsitas consequentis 
+              <lb ed="#P" n="89"/>patet: quia talis tunc peccaret infinite grauiter. Quod patet: 
+              <lb ed="#P" n="90"/>quia velle peccare per vnum diem est alicuius grauitatis: velle 
+              <lb ed="#P" n="91"/>peccare per duos dies est duple grauitatis ad velle pec 
+              <lb ed="#P" n="92"/>care per vnum diem. et si non duple grauitatis saltem peccare paer 
+              <lb ed="#P" n="93"/>quinque dies erit peccatum duplum ad velle peccare per vnum 
+              <lb ed="#P" n="94"/>diem. et sic consequenter ascendendo. et si non equales dies superio 
+              <lb ed="#P" n="95"/>res semper equaliter addant: recipiantur dies sufficientes 
+              <lb ed="#P" n="96"/>cum ibi sint infiniti. igitur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e553">
+      ⁋ Et confirmatur: ex questione 
+              <lb ed="#P" n="97"/>sequitur quod claudus vadens ad ecclesiam vel magnanimus 
+              <lb ed="#P" n="98"/>plus mereretur quam rectus vel pusillanimis. hoc autem est 
+              <lb ed="#P" n="99"/>inconueniens igitur. consequentia patet. quia illi duo lente: isti celeriter 
+              <lb ed="#P" n="100"/>incedunt.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e564">
+      ⁋ Ad quartum dicitur quod argumentum non est ad 
+              proposi<lb ed="#P" n="101" break="no"/>tum. loquimur enim de illo qui habet actum malum vel bonum 
+              <lb ed="#P" n="102"/>per pius temporis quam alius et non de illo qui vult peccare per maius 
+              <lb ed="#P" n="103"/>tempus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e574">
+      ⁋ Sed ad argumentum in se conceditur sequela: 
+              <lb ed="#P" n="104"/>tamen consequentia est nulla quod volens peccare per infinitum tempus 
+              in<lb ed="#P" n="105" break="no"/>finite peccet: vt patet ex solutione argumenti in quo quis 
+              <lb ed="#P" n="106"/>vult occidere infinitos homines qui solum finite peccat 
+              <lb ed="#P" n="107"/>stat aliquem qui vult occidere finitos homines pius pec⁋ 
+              <lb ed="#P" n="108"/>care quam ille qui velit occidere infinitos: vtputa propter lon 
+              <lb ed="#P" n="109"/>gam continuationem actus vel eius repetitionem. sicut enim ma 
+              <lb ed="#P" n="110"/>gnitudo obiecti auget peccatum sic temporis diuturnitas 
+              <lb ed="#P" n="111"/>et ista possunt se habere sicut excedens et excessum. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e594">
+               <lb ed="#P" n="112"/>⁋ Sed contra istud arguitur: ex isto habetur quod aliquis tantum 
+              <lb ed="#P" n="113"/>peccat volendo occidere hominem: et eum occidens: quantum 
+              al<lb ed="#P" n="114" break="no"/>ter occidens quaettuor quinimmo infinitos si essent: probo consequentiam. 
+              <lb ed="#P" n="115"/>ponatur quod sortes velit occidere hominem efficaciter: et 
+              <lb ed="#P" n="116"/>impeditur dum plato occidit b. et equaliter peccent. 
+              pona<lb ed="#P" n="117" break="no"/>tur iterum quod sortes velit occidere eundem a. sed impedi 
+              <lb ed="#P" n="118"/>tur dum plato occidat: et rursus tertio velit occidere 
+              <lb ed="#P" n="119"/>eundem a. sed impeditur etc. et sic consequenter. iam sortes secundo 
+              <lb ed="#P" n="120"/>tantum peccat quantum primo. Non potest hic dici sicut in 
+              ma<lb ed="#P" n="121" break="no"/>teria de ieiunio: tertia comestio non est imputabilis: quia 
+              <lb ed="#P" n="122"/>repperit ieiunium fractum per secundam comestionem. secundus 
+              <lb ed="#P" n="123"/>actus volendi occidere non inuenit hominem occisum et 
+              da<lb ed="#P" n="124" break="no"/>to quod eum inueniat est peccatum et si forte dicas quod est minus 
+              <lb ed="#P" n="125"/>peccatum quame actus quo quis vult occidere supstitem cognitum ta 
+              <lb ed="#P" n="126"/>lem: tamen est peccatum alicuius grauitatis. quilibet actus sequens 
+              <lb ed="#P" n="127"/>est tante imputabilitates. igitur illatum iterum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e631">
+      ⁋ Item si velle 
+              <lb ed="#P" n="128"/>demereri per infinitum tempus esset maius peccatum quam velle 
+              deme<lb ed="#P" n="129" break="no"/>reri per tempus finitum ceters paribus: sequeretur quod velle mereri 
+              <lb ed="#P" n="130"/>per infinitum tempus esset maius meritorium quam velle mereri per 
+              <lb ed="#P" n="131"/>tempus finitum: consequens est falsum. ergo et antecedens. consequentia patet a simili. falsi 
+              <lb ed="#P" n="132"/>tas consequentis probatur: quia non est bonum velle mereri per infinitum 
+      <!--130.xml-->
+      <pb ed="#P" n="58-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tempus. hoc enim est contra voluntatem dei in particulari 
+              cogni<lb ed="#P" n="2" break="no"/>tam: et velle carere prpetuo beatitudine. loquor de 
+              meri<lb ed="#P" n="3" break="no"/>to sicut nunc contingit. Quod si concedas.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e657">
+      ⁋ Contra: possum 
+              <lb ed="#P" n="4"/>licite velle mereri per annum: possum licite velle mereri 
+              <lb ed="#P" n="5"/>per centum annos. et ad magnitudinem meriti in via sequetur 
+              <lb ed="#P" n="6"/>magnitudo primii in patria. et sic de quolibet tempore finito. 
+              <lb ed="#P" n="7"/>ergo per infinitum tempus licite possum velle mereri.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e668">
+      ⁋ Ad pri 
+              <lb ed="#P" n="8"/>mum conceditur illatum per repetitionem actuum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e673">
+      ⁋ Ad secundum 
+              <lb ed="#P" n="9"/>negatur consequentia non est meritorium velle mereri per infiniti 
+              <lb ed="#P" n="10"/>empus: quia hoc esset velle priuari beatitudine ppetuo: saltem 
+              <lb ed="#P" n="11"/>indirecte: hoc est velle antecedens ad illud: et si deus vellet 
+              <lb ed="#P" n="12"/>conseruare hominem quandium vellet in via. tunc conceditur 
+              <lb ed="#P" n="13"/>quod per infinitum tempus licite sortes potest velle mereri. quia ad  
+              <lb ed="#P" n="14"/>magnitudinem temporis ( supposito quod bene viuat) crescit 
+              <lb ed="#P" n="15"/>magnitudo meriti. et ex consequenti magnitudo glorie rationa 
+              <lb ed="#P" n="16"/>biliter vult carere beatitudie per breue tempus: vt 
+              intensio<lb ed="#P" n="17" break="no"/>rem hadeat per infinitum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e696">
+      ⁋ Secunda propositio sortes 
+              irra<lb ed="#P" n="18" break="no"/>tionabiliter vult stare in hac vita mortali per infinitum 
+              <lb ed="#P" n="19"/>tempus: in secunda capimus infinitum categorematice ( sicut 
+              <lb ed="#P" n="20"/>plerumque solet a parte praedicati) in alia autem syncategore 
+              <lb ed="#P" n="21"/>natice.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e707">
+      ⁋ Ad alid de claudo a magnanimo non opor 
+              <lb ed="#P" n="22"/>tet quod pius mereantur: stat quod alii habeant actus 
+              intensio<lb ed="#P" n="23" break="no"/>res in breuiori tempore: sed ceteris paribus conceditur 
+              <lb ed="#P" n="24"/>illatum. sicut ille qui dicit horas in bona diuturnitate 
+              <lb ed="#P" n="25"/>temporis: et cum verborum pondere pius meretur: quam alter 
+              <lb ed="#P" n="26"/>qui eas succincte recitat: adue:/ tentia et actibus interio 
+              <lb ed="#P" n="27"/>ribus equalibus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e723">
+      ⁋ Quinto arguitur. tunc aliquis per ope 
+              <lb ed="#P" n="28"/>ra remissa in magno tempore continuata tantum merebi 
+              <lb ed="#P" n="29"/>tur quantum alius per actu intensum. hoc consequens est falum: 
+              <lb ed="#P" n="30"/>talis enim non meretur: patet: quia Apocalipsis tertio 
+              scri<lb ed="#P" n="31" break="no"/>bitur angelo Laodicie ecclesie. hoc est episcopo. scio 
+              <lb ed="#P" n="32"/>operatua quia neque frigidus es neque calidus: sed quia 
+              tepi<lb ed="#P" n="33" break="no"/>dus es incipiam te euomere ex ore meo.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e739">
+      ⁋ Preterea 
+              <lb ed="#P" n="34"/>ponantur duo quorum vnus vult mereri per instas alter per 
+              <lb ed="#P" n="35"/>tempus: sequitur quod vnus istorum infinities plus meretur quam alter. 
+              <lb ed="#P" n="36"/>quod est inconueniens.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e748">
+      ⁋ Ad quintum supra responsum est: quod 
+              <lb ed="#P" n="37"/>cen tepidum intelligitur torpens vt dicit glosa interlinearis 
+              <lb ed="#P" n="38"/>hoc est culpabilitur omittens: de frigido est maior spea 
+              <lb ed="#P" n="39"/>perfectus (vt dicit glosa marginalis) et sic auctoritas 
+              <lb ed="#P" n="40"/>non est ad propositum (sicut aliqui existimantus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e759">
+      ⁋ Ad secundum 
+              <lb ed="#P" n="41"/>idmisso casu negatur sequaela: etiam dato quod vellet mereri 
+              <lb ed="#P" n="42"/>per infinitum tempus vt patet ex solutione praecedentis 
+              argumen<lb ed="#P" n="43" break="no"/>ti. etiam stat quod homo non magis mereatur in tempore quam in 
+              instanti<lb ed="#P" n="44" break="no"/>patet de continuatione naturali. de tali continuatione non 
+              <lb ed="#P" n="45"/>loquimur. sed de continuatione libera. hoc patet ex 
+              quae<lb ed="#P" n="46" break="no"/>tione precedenti.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e776">
+      ⁋ Sexto arguitur: ponatur quod quis 
+              <lb ed="#P" n="47"/>eliciat actum meritorium intensum in prima medie tate ho 
+              <lb ed="#P" n="48"/>re: qui remittitur in secunda medietate hore: erit tamen aliqua 
+              <lb ed="#P" n="49"/>libera continuatio illius actus. tunc sic. iste actus est 
+              re<lb ed="#P" n="50" break="no"/>missior in secunda medietate hore quam in prima: et hic actus 
+              <lb ed="#P" n="51"/>est actus meritorius. igitur etc.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e789">
+      ⁋ Respondetur quod iste actus 
+              <lb ed="#P" n="52"/>est magis meritorius in secunda medietate hore quam prima 
+              <lb ed="#P" n="53"/>tamen est remissior actus in secunda medietate hore quam in prima 
+              <lb ed="#P" n="54"/>nolumus dicere quod pius mereatur in secunda medieta 
+              <lb ed="#P" n="55"/>te hore quam in prima: sed includimus meritum prioris 
+              me<lb ed="#P" n="56" break="no"/>dietatis in secunda medietate. ac si diceremus sortes est 
+              <lb ed="#P" n="57"/>in maiori merito in secunda medietate hore quam in prima. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e805">
+               <lb ed="#P" n="58"/>⁋ Circa istam quaestionem dubitatur primo: an homo ita mereatr 
+              <lb ed="#P" n="59"/>per opera praecepti sicut per opera consiliis
+            </p>
+            <p xml:id="jm12w4-e38949-d1e812">
+      ⁋ Secundo dubita 
+              <lb ed="#P" n="60"/>tur an semper homo crescat in merito vel demerito¬ 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e817">
+               <lb ed="#P" n="61"/>⁋ Tertio dubitatur: an sit status in merito.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e822">
+      ⁋ Ad  
+              <lb ed="#P" n="62"/>primam dubitationem affirmatiue respondetur: probatio: quia 
+              <lb ed="#P" n="63"/>nisi sic deus inequaliter bene opantes equalitur 
+              primia<lb ed="#P" n="64" break="no"/>ret. hoc autem est falsum. igitur. consequentia patet. ponendo quod duo 
+              ba<lb ed="#P" n="65" break="no"/>ctisentur et habeant gratias baptismales equales: et vnus 
+              <lb ed="#P" n="66"/>faciat pauca praecepta: et alter multa in quibus decedat 
+      <!--130.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 58rb -->
+               <lb ed="#P" n="67"/>non faciendo plura opera consilii quam alter.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e845">
+      ⁋ Preterea 
+              <lb ed="#P" n="68"/>quilibet actus elicitus a gratia est meritorius vite eter 
+              <lb ed="#P" n="69"/>ne: aliquod opus precepti est actus elicitus a gratia: 
+              <lb ed="#P" n="70"/>ergo aliquod opus praecepti est meritorium vite eterne: consequenti 
+              <lb ed="#P" n="71"/>claret ex tertio prime. et premisse patent.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e856">
+      ⁋ Amplius 
+              <lb ed="#P" n="72"/>nisi sic: deus incassum daret nobis precepta nisi per ea 
+              <lb ed="#P" n="73"/>possimus mereri: quia si mansissent: de consilio mereri 
+              <lb ed="#P" n="74"/>poteramus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e865">
+      ⁋ Rursus ex hoc sequitur quod religiosi iplen 
+              <lb ed="#P" n="75"/>tes quae sunt sue regule non mererentur: oppositum istius est 
+              <lb ed="#P" n="76"/>adeo absurdum vt non est dignum auditu.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e872">
+      ⁋ Item Joan 
+              <lb ed="#P" n="77"/>annis. xiii. beati eritis si feceritis quae precipio vobis 
+              <lb ed="#P" n="78"/>t Matthe. xix. si vis ad vitam ingredi serua mandata 
+              <lb ed="#P" n="79"/>Dicere quod verum est ad euitatione culpe: sed non ad 
+              vi<lb ed="#P" n="80" break="no"/>am eternam / est vnum irrationabile dictum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e883">
+      ⁋ Sed contra 
+              <lb ed="#P" n="81"/>istud arguitur prime ad Corith. ix. dicit Paulus. si 
+              euan<lb ed="#P" n="82" break="no"/>gelizauero non est mihi gratia. necessitas ei mihi incumbit:  
+              <lb ed="#P" n="83"/>supple quia praeceptum est mihi euangelizare. subdit. si ei non 
+              <lb ed="#P" n="84"/>tuangelim auero ve mihi est.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e894">
+      ⁋ Et confirmatur: quia ratione 
+              <lb ed="#P" n="85"/>puius supaddit opus superogationis non accipiendo 
+              <lb ed="#P" n="86"/>sumptus ab iis quibus euangelizabat. vn dicit bonum est mihi 
+              <lb ed="#P" n="87"/>nagis mori quam vt gloriam meam quis euacuet: nam si 
+              euan<lb ed="#P" n="88" break="no"/>lim auero non est mihi gloria.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e906">
+      ⁋ Respondetur. Apulus intel 
+              <lb ed="#P" n="89"/>ligit non est tanta gloria capiendo sumptus ab iis quilus 
+              <lb ed="#P" n="90"/>raedicauerat quanta non capiendo: intelligit quod si quis inuitus. 
+              <lb ed="#P" n="91"/>et coactus aliquid faciat non meretur. volens facere opus 
+              pre<lb ed="#P" n="92" break="no"/>cepti propter deum meretur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e917">
+      ⁋ Quod patet ex litera. nam 
+              <lb ed="#P" n="93"/>et si euangeliz auero non est mihi gloria. puta non tanta 
+              <lb ed="#P" n="94"/>quantam haberem si non colligerem sumptus: vt patet ex praecedem 
+              <lb ed="#P" n="95"/>tibus quae sequentia elucidat: domins ordinauit iis qui 
+              euan<lb ed="#P" n="96" break="no"/>gelium enunciant de euangelio viuere. ego nullo horum 
+              <lb ed="#P" n="97"/>vsus sum. et sequitur paulopost. si enim volens hoc ago 
+              <lb ed="#P" n="98"/>mercedem habeo: vbi glosa interlineare. si necessitate 
+              <lb ed="#P" n="99"/>hoc facis non est genlia. si sic voluntas adiungatur necessita 
+              <lb ed="#P" n="100"/>ti: vt ex dilectione praedicem: tunc est mihi gloria. vult di 
+              <lb ed="#P" n="101"/>cere si aliquid faciam timore pene: et non amore iustitie 
+              <lb ed="#P" n="102"/>non augetur meritum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e941">
+      ⁋ Secundo arguitur Matth. v. Si ei di 
+              <lb ed="#P" n="103"/>ligiti eos qui vos diligunt quam mercedem habebitis non ne 
+              <lb ed="#P" n="104"/>et. publicani hoc faciunt: et si salutaueritis fratres 
+              ve<lb ed="#P" n="105" break="no"/>stros quid amplius facitis: non ne Ethnici hoc faciunt: et 
+              <lb ed="#P" n="106"/>Luce. xvii. post parabolam serui subiungit saluator: sic 
+              <lb ed="#P" n="107"/>et vos cum feceritis omnia quae praecepta sunt vobis dicite 
+              ser<lb ed="#P" n="108" break="no"/>ui inutiles sumus: quod debuimus facere fecimus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e957">
+      ⁋ Ad 
+              pri<lb ed="#P" n="109" break="no"/>nam auctoritatem dicitur. quod intelligit de dilectione naturali: 
+              <lb ed="#P" n="110"/>et non propter deum. sicut gentiles non cognoscentes deum 
+              fa<lb ed="#P" n="111" break="no"/>ciunt. propterea subiungit: non ne ethnici hoc faciunt: 
+              sub<lb ed="#P" n="112" break="no"/>sequitur estote ergo vos perfecti sicut et pater vester celest 
+              <lb ed="#P" n="113"/>perfectus est. hoc est deus facit propter seipsum faciatis 
+              <lb ed="#P" n="114"/>vos similiter propter deum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e973">
+      ⁋ Ad secundam auctoritatem qua 
+              <lb ed="#P" n="115"/>aliquid coloris habet dicitur. seruitia nostra non merentur primium 
+              <lb ed="#P" n="116"/>quod daturus est nobis pro actibus meritoriis: quorum non 
+              <lb ed="#P" n="117"/>eget et sic exponit glosa interlinearis. quia bonorum operum 
+              <lb ed="#P" n="118"/>non eget deus: vel quia non sunt condigne passiones huius 
+              ten<lb ed="#P" n="119" break="no"/>poris ad futuram gloriam quae reuelabitur in nobis.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e986">
+      ⁋ Et sic 
+              <lb ed="#P" n="120"/>potes respondere ad batantum Mernardum in de praecepto a dispen 
+              <lb ed="#P" n="121"/>satione propefinem. vbi quaerit vtrum in quibuslibet preceptios 
+              <lb ed="#P" n="122"/>quantum obedientia valet tantum inobedientia grauet. 
+              <lb ed="#P" n="123"/>constat non nulla fieri sine culpa: ideoque si fiant 
+              digna<lb ed="#P" n="124" break="no"/>esse premiis: non tamen suppliciis si non fiant. nam at non tan 
+              <lb ed="#P" n="125"/>gere mulierem meriti est: et non mediocris: a nullius tamen 
+              <lb ed="#P" n="126"/>delicti propriam amplecti coniugem. Istiusmodi sunt 
+              que<lb ed="#P" n="127" break="no"/>cumque illi euangelico capitulo congruere possunt: qui prit 
+              ca<lb ed="#P" n="128" break="no"/>pere capiat. et rursus per contrarium quaedam neglecta quandam 
+              <lb ed="#P" n="129"/>offensam contrahunt: sed impleta non merentur. Damnant 
+              <lb ed="#P" n="130"/>contemptorem: et actorem non glorifcant: intelligit de 
+              <lb ed="#P" n="131"/>is quae faciunt formidine pene.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1016">
+      ⁋ Ad secundum dubium 
+              respon<lb ed="#P" n="132" break="no"/>det quidam inquiens dicam quod sentio: credo pro nunc quod 
+      <!--131.xml-->
+      <pb ed="#P" n="58-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>semper mutatur homo proficiendo vel deficiendo in gratia in vita 
+              <lb ed="#P" n="2"/>ista non solum vigilando: sed etiam dormiendo.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1032">
+      ⁋ Sed istud 
+              <lb ed="#P" n="3"/>est selum pro vtraque parte ponamus oppositum. stat homines in 
+              <lb ed="#P" n="4"/>via (et ita frequantur fit) non mereri nec demereri dum vigi- 
+              <lb ed="#P" n="5"/>lat a nullatenus meretur dormiendo.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1041">
+      ⁋ Secundam partem eius 
+              <lb ed="#P" n="6"/>probo. vel homo qui est in gratia dormiens sempermeretur et tunc in 
+              quali<lb ed="#P" n="7" break="no"/>bet tempore quantucumque paruo merebitur nouum primium: et sic se 
+              <lb ed="#P" n="8"/>quitur quod magis dormientes magis merebuntur. contra 
+              <lb ed="#P" n="9"/>illud iurisconsulti. vigilantibus et non dormientibus iura 
+              sub<lb ed="#P" n="10" break="no"/>ueniunt.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1054">
+      ⁋ Item quero ab eo an interdum peccent venial 
+              <lb ed="#P" n="11"/>ter dormientes:s et an domientes omnes equalitur mereantur: 
+              <lb ed="#P" n="12"/>an inequalitere
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1061">
+      ⁋ Item tunc incurrentes dementiam in gratia 
+              <lb ed="#P" n="13"/>semper merebuntur: a nati stolidi baptizati semper me 
+              <lb ed="#P" n="14"/>rebuntur. et sic oportet procedere more machometistarum c 
+              <lb ed="#P" n="15"/>omnens natos stolidos sanctos reputant. vt patet in capro 
+              <lb ed="#P" n="16"/>et in locis cir. uuicinis egypti.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1072">
+      ⁋ Item tunc vadens ad  
+              <lb ed="#P" n="17"/>lectum cum vno mortali surgit cum centum commissis tempore quo 
+              <lb ed="#P" n="18"/>dormit.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1080">
+      ⁋ Preterea tunc paru / li ante vsum rationis 
+              me<lb ed="#P" n="19" break="no"/>rerentur vel demererentur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1085">
+      ⁋ Si dicas quod non sunt compotes 
+              <lb ed="#P" n="20"/>rationis. Sic nec plene dormientes vtutur ratione.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1090">
+      ⁋ De 
+              <lb ed="#P" n="21"/>alia parte patet quae pius apparentie habet ( vel minus 
+              inap<lb ed="#P" n="22" break="no"/>paretie aliquis vigilans omnem actum excludit tempore quo non 
+              <lb ed="#P" n="23"/>omittit: et tunc non meretur nec demeretur nullu actum 
+              ha<lb ed="#P" n="24" break="no"/>dendo de lege. esto quod teneatur pura omissio. non stemus 
+              <lb ed="#P" n="25"/>in hoc quod iste doctor et Adam negent puram omissionem: quia 
+              <lb ed="#P" n="26"/>alibi illud rebrobatur tamquam falsum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1106">
+      ⁋ Insuper sunt 
+              <lb ed="#P" n="27"/>aliqui actus indifferentes quibus habitis non opus est 
+              <lb ed="#P" n="28"/>habere alios actus: ergo tunc homo neque meretur neque 
+              <lb ed="#P" n="29"/>demeretur vigilando. Ista secunda probatio non concludit 
+              <lb ed="#P" n="30"/>ita vniuersalitur sicut prior. multi enim negant actum indiffe 
+              <lb ed="#P" n="31"/>entem inter bonum moraliter a malum. Sed prior ratio mi 
+              <lb ed="#P" n="32"/>hi concludit oppositum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1122">
+      ⁋ Sed contra istud arguitur per 
+              <lb ed="#P" n="33"/>aliquas rationes et auctoritates quas iste homo affert: 
+              <lb ed="#P" n="34"/>prime ad Thessalonicenses. v. siue vigilemus siue 
+              dor<lb ed="#P" n="35" break="no"/>miamus semper cum illo viuamus. et paulopost: sine 
+              inter<lb ed="#P" n="36" break="no"/>imissioneorate.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1133">
+      ⁋ Insuper homo tenetur continue 
+              profice<lb ed="#P" n="37" break="no"/>re in gratia: sed non proficit: sine actu voluntatis. igitur: antecedens 
+              <lb ed="#P" n="38"/>probatur: quia si non: tunc ad tempus licet aliquem non profice 
+              <lb ed="#P" n="39"/>e: sed ociari contra hieronymum ad Demetriadem. et contr 
+              <lb ed="#P" n="40"/>illud Matthei. xii. De omni vbo ocioso ec. De ocio quaquoe 
+              <lb ed="#P" n="41"/>scriptum est Prouerbiorum. xii. Qui sequitur ocium stultissimus 
+              <lb ed="#P" n="42"/>est.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1150">
+      ⁋ Ad primum dicitur quod glosa interlinearis exponit illum 
+              <lb ed="#P" n="43"/>passum: siue vigilemus. i. im carne viuamus: e dormiamus 
+              <lb ed="#P" n="44"/>xi. mortui fuerimus.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1157">
+      ⁋ Ad alid sine intermissione orate 
+              <lb ed="#P" n="45"/>hoc est prae ceptum affirmatiuum semper obligans: sed non 
+              <lb ed="#P" n="46"/>per semper: sic intelligitur glosa marginalis <name xml:id="jm12w4-e38949-Nd1e1163" ref="#Augustine">Augustini</name> 
+               <lb ed="#P" n="47"/>in illo passu. Iustus enim nuquam desinit orare: nisi desinat 
+              <lb ed="#P" n="48"/>iustus esse: semper orat qui semper bene agit: ipsum enim 
+              de<lb ed="#P" n="49" break="no"/>siderium bonum oratio est: Vel intelligitur de iusto actuali: 
+              si<lb ed="#P" n="50" break="no"/>cut dicimus de scientia actuali a habituali.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1176">
+      ⁋ Ad secundum 
+              <lb ed="#P" n="51"/>argumentum nego quod semper homo tenetur proficere in gratia: et quando 
+              <lb ed="#P" n="52"/>dicit in minore non proficit sine actu voluntatis: contra se 
+              <lb ed="#P" n="53"/>aciem moliri videtur: et quando subiungit de ocio. ociari. i. detem 
+              <lb ed="#P" n="54"/>capere non est malum nisi quando homo tenetur ad oppositum. vbumn 
+              <lb ed="#P" n="55"/>aut ociosum est peccatum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1189">
+      ⁋ Sed vrbum dicitur ociosum duobus 
+              mo<lb ed="#P" n="56" break="no"/>dis: vno modo quando relictis seriis conuertimus nos ad 
+              hone<lb ed="#P" n="57" break="no"/>stam recreationem: et hoc non est peccatum secundum illud Catonis 
+              <lb ed="#P" n="58"/>Stultitiam simulare loco prudentia summa est. quandam re 
+              <lb ed="#P" n="59"/>creationem pro consolatione sociorum facere licet. Propterea 
+              <lb ed="#P" n="60"/>prbanitas ponitur vartus quarto Ethicorum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1202">
+      ⁋ Alio modo ca 
+              <lb ed="#P" n="61"/>pitur vobum ociosum. quando homo omittit vnam circunstantiam requisi 
+              <lb ed="#P" n="62"/>tam ad hoc quod actus sit bonus: et sic crebro capitur in scriptu 
+              <lb ed="#P" n="63"/>ra.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1211">
+      ⁋ Secundo sic argumentatur ratione: si homo licite potest 
+              <lb ed="#P" n="64"/>nullum actum habere per aliquod tempus: igister eadem ratione 
+              sem<lb ed="#P" n="65" break="no"/>per e cum non sit peccatum siue meritum sine actu voluntatis: 
+              <lb ed="#P" n="66"/>nequitur quod aliquis per totam vitam fuam erit sine peccato vel meri 
+      <!--131.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 58vb -->
+               <lb ed="#P" n="67"/>to.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1230">
+      ⁋ Item viator tenetur pius diligere deum quam 
+              creatu<lb ed="#P" n="68" break="no"/>ram: sed pro aliquo tempore licet diligere creaturam: ergo pro omni 
+              <lb ed="#P" n="69"/>empore licet diligere deum. oportet quod dicat debet: alias color 
+              <lb ed="#P" n="70"/>nullus esset in argumento.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1239">
+      ⁋ Ad secundum respondetur quod non est idem 
+              <lb ed="#P" n="71"/>si loquatur de tempore includente praeceptum: (vt notum est 
+              intel<lb ed="#P" n="72" break="no"/>ligentius.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1246">
+      ⁋ Ad aliud conceditur quod viator tenetur diligere 
+              <lb ed="#P" n="73"/>deum plusque creaturam appreciatiue: et si pluries non 
+              <lb ed="#P" n="74"/>oportet quod semper.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1253">
+      ⁋ Tertio arguitur: praecepta affirmatiua 
+              <lb ed="#P" n="75"/>obligant sempersaltem sub pena peccati venialis vel mor 
+              <lb ed="#P" n="76"/>talis. igiter semper tenetur homo diligere deum: sed diligere 
+              <lb ed="#P" n="77"/>est actus: igitur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1262">
+      ⁋ Item intellectus semper intelligit aliquid 
+              <lb ed="#P" n="78"/>igitur semper voluntas vult aliquid. antecedens patet per Augusti- 
+              <lb ed="#P" n="79"/>num de trinitate. Et ad suam opinionem introducit docto 
+              <lb ed="#P" n="80"/>rem solemnem quarto quotlibeto quest. vi. et. vi. quotlibe 
+              <lb ed="#P" n="81"/>to. quest. xiiii.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1273">
+      ⁋ Ad tertium vere miror arguentem 
+              affir<lb ed="#P" n="82" break="no"/>matiuum preceptu semper obligat: sed non pro semper 
+              <lb ed="#P" n="83"/>et nego quod obliget semper sub pena peccati venialis vel 
+              <lb ed="#P" n="84"/>mortalis.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1283">
+      ⁋ Ad secundum: consequentia est nulla: quia est fallatia 
+              <lb ed="#P" n="85"/>onsequentis: et antecedens est falum: et quia non quotat distincte locum 
+              Au<lb ed="#P" n="86" break="no"/>gustini non respondeo. vbi introducit doctorem solemnem secum 
+              <lb ed="#P" n="87"/>opinantem si ita sit quod non respexib quid ad a / opinentur 
+              <lb ed="#P" n="88"/>mutuo in noie domini.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1294">
+      ⁋ Adhuc pro eo introducam 
+              <lb ed="#P" n="89"/>iliquas rationes: homo occidit in somno: ergo peccat in 
+              <lb ed="#P" n="90"/>somno. Pro atecete de Tarabella refert Clementina si 
+              <lb ed="#P" n="91"/>uriosus de homicidio <name xml:id="jm12w4-e38949-Nd1e1302">Laurentium</name> de pinu dixisse se 
+              <lb ed="#P" n="92"/>pabuisse quendam anglum socium: qui de nocte dormiens 
+              <lb ed="#P" n="93"/>surrexit: et iuit ad Secanam: et occidit paruulum: et post 
+              <lb ed="#P" n="94"/>reuersus est dormiens.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1313">
+      ⁋ Preterea Salomon secundi 
+              <lb ed="#P" n="95"/>Regum tertio meruit scientiam a domino in somno. igitur. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1318">
+               <lb ed="#P" n="96"/>⁋ Ad primum dico quod simile factum solet frequanter admitti: 
+              <lb ed="#P" n="97"/>ed nego quod tunc peccauerit.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1325">
+      ⁋ Ad aliud nego quod hoc 
+              <lb ed="#P" n="98"/>meruit in somno: ante enim meruerat offerendo mille ho 
+              <lb ed="#P" n="99"/>stias in Gabaon. et licet fuit apparitio ei de nocte non 
+              <lb ed="#P" n="100"/>tamen erat in somno.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1334">
+      ⁋ Quinto arguitur. volens baptizari: 
+              <lb ed="#P" n="101"/>et manens in illo proposito baptizatus in somno acquirit 
+              <lb ed="#P" n="102"/>gratiam baptismalem: cum est vere baptizatus. nec ponit 
+              <lb ed="#P" n="103"/>obicem gratiae. igitur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1344">
+      ⁋ Item Luce nono. nemo mittens 
+              ma<lb ed="#P" n="104" break="no"/>num suam ad aratrum / et respiciens retro aptus est regno 
+              <lb ed="#P" n="105"/>dei: ergo quis vigilans et non progrediens in via dei 
+              retro<lb ed="#P" n="106" break="no"/>cedit.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1353">
+      ⁋ Ad quintum respondetur quod talis est vere 
+              bapti<lb ed="#P" n="107" break="no"/>atus: vt de demente solet contingere: vel loquamur de 
+              <lb ed="#P" n="108"/>demente: sed non sequitur quod talis meretur in somno. 
+              virtu<lb ed="#P" n="109" break="no"/>te enim opis operati datur gratia.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1362">
+      ⁋ Ad aliud respondet glosa 
+              <lb ed="#P" n="110"/>marginalis: manum ad aratrum mittit: qui quasi quodam 
+              <lb ed="#P" n="111"/>instrumento compunctionis ligno e ferro dominice 
+              pas<lb ed="#P" n="112" break="no"/>sionis duritiam sui cordis euertit: et ad bonos fructus 
+              <lb ed="#P" n="113"/>aperit. qui si ad relicta vicia desiderio rapitur: a regno 
+              <lb ed="#P" n="114"/>dei cum vxore Loth excluditur.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1375">
+      ⁋ Sexto arguitur per ali 
+              <lb ed="#P" n="115"/>suas rationes quae ad hoc propositum quadrant: quas ponit 
+              <lb ed="#P" n="116"/>quidam antiquus doctor. xii. tractatu sui. iii. questi. ii. 
+              <lb ed="#P" n="117"/>homo meretur per actum: sed habitus est melior actu. igiter: 
+              <lb ed="#P" n="118"/>probatio minoris: quia actus vatuti fit bonus a vrtute: quia est 
+              <lb ed="#P" n="119"/>ab ipsa et ab ipsa dirigitur ad finem: ergo virtus est melior 
+              <lb ed="#P" n="120"/>quam actus virtutis.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1391">
+      ⁋ Insuper virtus secundum suam substantiam 
+              <lb ed="#P" n="121"/>facit dignum vita eterna: sed motus vartuti est meritorius 
+              <lb ed="#P" n="122"/>accidentaliter vite eterne. ergo virtus est melior actu. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1398">
+               <lb ed="#P" n="123"/>⁋ Insuper virtus est diuturnius bonum quam actus virtutis: 
+              <lb ed="#P" n="124"/>ergo pveartus est melior actu.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1406">
+      ⁋ Proptur ista argumenta tenet 
+              <lb ed="#P" n="125"/>iste doctor virtutem praestare suo actui. oppositum alibi 
+              <lb ed="#P" n="126"/>ostendimus conformiter ad mentem <name xml:id="jm12w4-e38949-Nd1e1412" ref="#Aristotle">Aristotelu</name>.o primo Ethico 
+              <lb ed="#P" n="127"/>rum: nec eius rationes valent ad oppositum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1418">
+      ⁋ Ad primam earum 
+              <lb ed="#P" n="128"/>nego quod habitus sit melior: et nego minorem: et concedo quod 
+              <lb ed="#P" n="129"/>actus est bonus a vtute effectiue: et contra.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1425">
+      ⁋ Ad secundam: 
+              <lb ed="#P" n="130"/>non est verum quod dicit: immo actus facit hominem dignum vita 
+              <lb ed="#P" n="131"/>eterna. plerique enim sunt in multis peccatis mortalibss: 
+              <lb ed="#P" n="132"/>actualibus qui habent multos bonos habitus. 
+      <!--132.xml-->
+      <pb ed="#P" n="59-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1441">
+               <lb ed="#P" n="1"/>⁋ Ad tertium dicitur quod argumentum est nullum: quia coruus / ce 
+              <lb ed="#P" n="2"/>uus / et quercus / sunt diuturniores homine non tamen melio 
+              <lb ed="#P" n="3"/>res.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1450">
+      ⁋ Ad tertium dubium dicitur quod non: ille enim fuit error 
+              <lb ed="#P" n="4"/>b eguardorum et beguinarum clementina de hereticis 
+              <lb ed="#P" n="5"/>ad nostrum.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1457">
+      ⁋ Sed contra hoc arguitur: homo poet cadere 
+              <lb ed="#P" n="6"/>in furiam ante mortem: sicut plerique multitudine passio 
+              <lb ed="#P" n="7"/>num priuantur vsu rationis. ratio enim priuatur successiue. ca 
+              <lb ed="#P" n="8"/>pio a instans in quo tota ratio est absorpta primo. 
+              Ia<lb ed="#P" n="9" break="no"/>iste habet totam gratiam quam potest consequi in vita. ergo beguar 
+              <lb ed="#P" n="10"/>di et beguine non tenuerunt heresim.
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1471">
+      ⁋ Responderetur 
+              <lb ed="#P" n="11"/>concedendo quod datur maxima gratia quam iste habuit in 
+              <lb ed="#P" n="12"/>via: et quam habiturus est in patria: et maximum meritum 
+              <lb ed="#P" n="13"/>quod habuit: siue capiatur pro vno actu meritorio siue 
+              <lb ed="#P" n="14"/>collectiue pro omnibus meritis. nec hoc est ad intentionem 
+              <lb ed="#P" n="15"/>istorum hereticorum quie volebant dicere hominem posse ad  
+              <lb ed="#P" n="16"/>tantum gradum ascedere quod redderetur penitus impecca 
+              <lb ed="#P" n="17"/>bilis et amplius in gratia proficere non valebit: etiam 
+              da<lb ed="#P" n="18" break="no"/>to quod maneat viator. quod est falsum a hereticum. 
+            </p>
+            <p xml:id="jm12w4-e38949-d1e1491">
+               <lb ed="#P" n="19"/>⁋ Ex qua heresi alias deduxerunt: vt patet inlitera 
+              cle<lb ed="#P" n="20" break="no"/>mentine allegate. si tamen sortes continuo mereretur circa 
+              <lb ed="#P" n="21"/>finem vite sue ad primum instans non esse eius vsque tunc 
+              <lb ed="#P" n="22"/>in nullo instanti sue vite dabitur maximum 
+              meri<lb ed="#P" n="23" break="no"/>tum quod habuit: sed in a instanti morte primo verum est dice 
+              <lb ed="#P" n="24"/>re nunc est maximum meritum sortis: capiendo sortem pro 
+              <lb ed="#P" n="25"/>anima eius per synecdochen: sicut dicimus de beato 
+              pe<lb ed="#P" n="26" break="no"/>tro: vel nunc est maximum meritum anime que fuit sorte. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

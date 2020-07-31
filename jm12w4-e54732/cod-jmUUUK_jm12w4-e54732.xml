@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#JohnMair">John Mair</author>
+            <respStmt>
+               <name>Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2020-07-31">July 31, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="79-r"/>
+            <cb ed="#P" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jm12w4-e54732"> <!--l1d17q17 -->
+            <head xml:id="jm12w4-e54732-Hd1e106">Quaestio 17</head>
+            <head xml:id="jm12w4-e54732-Hd1e109" type="question-title">
+      An detur remississimum formae?
+    </head>
+            <p xml:id="jm12w4-e54732-d1e112">
+               <lb ed="#P" n="101"/>Distinctionis decimeseptime quest. xvii. 
+              <lb ed="#P" n="102"/>NUnc secundo queritur an detur 
+              remississi<lb ed="#P" n="103" break="no"/>mum forme.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e121">
+      ⁋ Iterum hic est varius mo 
+              <lb ed="#P" n="104"/>dus opinandi. nam <name xml:id="jm12w4-e54732-Nd1e125" ref="#Rimini">quidam doctor</name> negat re 
+              <lb ed="#P" n="105"/>mississimum in forma produci.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e132">
+      ⁋ Alia es 
+              <lb ed="#P" n="106"/>positio <name xml:id="jm12w4-e54732-Nd1e136">commentatoris</name> et aliorum eum imitantium quod 
+              <lb ed="#P" n="107"/>datur remississimum in forma.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e142">
+      ⁋ Super illo pono 
+              con<lb ed="#P" n="108" break="no"/>clusiones: quarum
+            </p>
+            <p xml:id="jm12w4-e54732-d1e147">
+      ⁋ Prima est. nullius forme 
+              da<lb ed="#P" n="109" break="no"/>tur pars remississima.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e152">
+      ⁋ Secunda conclusio. bene 
+              da<lb ed="#P" n="110" break="no"/>tur remississimum sic scilicet: quod remissior non potest esse se 
+              <lb ed="#P" n="111"/>parata ab isto toto: et hoc potissimum ab isto agente: et 
+              <lb ed="#P" n="112"/>ioquendo de forma extensa.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e161">
+      ⁋ Tertiam conclusio. non 
+              <lb ed="#P" n="113"/>videntur alique rationes sufficientes ad probandum 
+              <lb ed="#P" n="114"/>formam remississimam spualem: et propterea propter 
+              <lb ed="#P" n="115"/>aliqua motiua ponimus eam non remississimam: sic scilicet 
+              <lb ed="#P" n="116"/>quod anima potest eam pure successiue producere.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e172">
+      ⁋ Prima 
+              <lb ed="#P" n="117"/>conclusio probatur: quia implicat dare puri quanti vnam 
+              par<lb ed="#P" n="118" break="no"/>tem impartibilem: puri addidi propter hominem: ergo 
+              ipli<lb ed="#P" n="119" break="no"/>cat dare aliquid forme quod non habet partes. Ista 
+              <lb ed="#P" n="120"/>conceditur passim ab omnibus tenentibus istum modum 
+              <lb ed="#P" n="121"/>de intensione forme quem tenemus: propterea non labo 
+              <lb ed="#P" n="122"/>ramus ad illam tuendam.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e189">
+      ⁋ Secunda conclusio probatur 
+              <lb ed="#P" n="123"/>per auerroim. v. physicorum commento. xxii. dicentem. si 
+              <lb ed="#P" n="124"/>motus fuerit in qualitate tunc interclusum erit prima 
+              <lb ed="#P" n="125"/>qualitas ad quam transmutatur transmutatum. et vi. phi 
+              <lb ed="#P" n="126"/>sicorum commento. xlix. transmutabilium quedam sunt in 
+              <lb ed="#P" n="127"/>quibus inuenitur primum per accidens vt in qualitate 
+            </p>
+            <p xml:id="jm12w4-e54732-d1e202">
+               <lb ed="#P" n="128"/>⁋ <name xml:id="jm12w4-e54732-Nd1e206" ref="#JeanBuridan">Quidam doctor</name> dicit quod set <name xml:id="jm12w4-e54732-Nd1e209">commentator</name> illud dixe 
+              <lb ed="#P" n="129"/>rit: non sufficienter probauit propterea illud negat.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e215">
+      ⁋ Ra 
+              <lb ed="#P" n="130"/>tione etiam arguitur: quia per istum doctorem producere 
+              <lb ed="#P" n="131"/>minimum naturale forme secundum extensionem in instanti 
+              <lb ed="#P" n="132"/>puta quando applicatur passum nihil caloris habens separa 
+      <!--173.xml-->
+      <pb ed="#P" n="79-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tum ab igne: tunc per eum inducitur calor minimus secundum 
+              <lb ed="#P" n="2"/>extensionem in instanti: quia recedit ab vltimo instanti non 
+              <lb ed="#P" n="3"/>esse: et arguitur de illa: quia vel illa est alicuius intensionis 
+              <lb ed="#P" n="4"/>et remississima que potest esse naturaliter: aut aliqua 
+              <lb ed="#P" n="5"/>remissior illa potest esse naturaliter. Si primum habetur 
+              <lb ed="#P" n="6"/>propositum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e244">
+      ⁋ Si secundum: tunc est alicuius intensionis siue 
+              <lb ed="#P" n="7"/>difformis reducenda ad vniformitatem: siue vniformis 
+              <lb ed="#P" n="8"/>redit in idem: dicatur gratia exempli vnius gradus: tunc 
+              <lb ed="#P" n="9"/>quero abs te: quia non repugnat caliditati remissiori per 
+              <lb ed="#P" n="10"/>te esse extra suum totum: quare est quod iste calor tante 
+              in<lb ed="#P" n="11" break="no"/>tensionis in hoc instanti producitur: et quare calor non 
+              <lb ed="#P" n="12"/>tante intensionis producitur in quolibet instanti 
+              se<lb ed="#P" n="13" break="no"/>quentis
+            </p>
+            <p xml:id="jm12w4-e54732-d1e262">
+      ⁋ hic non potest esse diffugium ad 
+              mini<lb ed="#P" n="14" break="no"/>mum naturale.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e267">
+      ⁋ Forte dices: quod de per accidens produ-  
+              <lb ed="#P" n="15"/>citur ista intensio: quia cum agens producit in hoc instan 
+              <lb ed="#P" n="16"/>ti minimum naturale certe extensionis: et implicat 
+              ali<lb ed="#P" n="17" break="no"/>quam huiusmodi formam esse sine intensione et sic de per 
+              acci<lb ed="#P" n="18" break="no"/>dens producit istam formam (sicut dictum est questione 
+              <lb ed="#P" n="19"/>precedenti) per modum sequele: et quod tanta intensio sit hoc 
+              <lb ed="#P" n="20"/>prouenit ab isto agente respectu istius passi: sed non re 
+              <lb ed="#P" n="21"/>pugnat quod forma sit remissior quantum est de se: quia si 
+              <lb ed="#P" n="22"/>agens fuisset minoris actiuitatis et passum peius dif 
+              <lb ed="#P" n="23"/>positum remissiorem produxisset. hoc autem non contingit de 
+              <lb ed="#P" n="24"/>minimo naturali secundum extensionem. Ignis enim paruus 
+              <lb ed="#P" n="25"/>ita cito producit minimum naturale ignis in stupa 
+              sum<lb ed="#P" n="26" break="no"/>ne disposita ad susceptionem sicut ignis quantumlibet ma 
+              <lb ed="#P" n="27"/>gnus: secus est in proposito. Remissior enim forma 
+              pro<lb ed="#P" n="28" break="no"/>ducitur a minori agente quam a maiori: et iterum remissior erit 
+              <lb ed="#P" n="29"/>forma in parte remota ab agente quam in propinqua.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e303">
+      ⁋ Se 
+              <lb ed="#P" n="30"/>contra hoc arguitur: non constat tibi quod erit remissior forma 
+              <lb ed="#P" n="31"/>producta a paruo agente quam a magno: vel remissior gra 
+              <lb ed="#P" n="32"/>dus productus in parte propinqua quam in remota: er 
+              <lb ed="#P" n="33"/>go non das discrimem sufficiens.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e314">
+      ⁋ Item summa dispo 
+              <lb ed="#P" n="34"/>sitio non impedit per te si stupa ponatur in ignem et ca 
+              <lb ed="#P" n="35"/>lor et forma ignis successiue producuntur ab igne: et ibi 
+              <lb ed="#P" n="36"/>est optima dispositio a applicatio: ergo dato quod vnum 
+              <lb ed="#P" n="37"/>passum separatum ab igne calefiet optime 
+              disposi<lb ed="#P" n="38" break="no"/>tum: quando non datur remississimum caloris quod potest 
+              na<lb ed="#P" n="39" break="no"/>turaliter per se existere: non debes admittere quod 
+              ali<lb ed="#P" n="40" break="no"/>quis gradus subito producatur.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e332">
+      ⁋ Non valet 
+              curre<lb ed="#P" n="41" break="no"/>re ad vltimum instans non esse illius minimi naturalis 
+              <lb ed="#P" n="42"/>secundum extensionem: quia si nunc non producatur 
+              immedia<lb ed="#P" n="43" break="no"/>te posthoc illa producetur et subito: et remanet questio 
+              <lb ed="#P" n="44"/>quare subito producitur in tali intensione graduali. 
+            </p>
+            <p xml:id="jm12w4-e54732-d1e343">
+               <lb ed="#P" n="45"/>⁋ Tertia conclusio probatur: dato enim quod detur minimum 
+              <lb ed="#P" n="46"/>secundum extensionem et intensionem in forma extensiua: 
+              <lb ed="#P" n="47"/>oc tamen non oportet in forma spirituali. cum non ambulent 
+              <lb ed="#P" n="48"/>pari passu proprietatum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e354">
+      ⁋ Ulterius: pure partibiliter 
+              <lb ed="#P" n="49"/>sortis elicit actum intellectus et sensationis exterioris 
+              <lb ed="#P" n="50"/>i visibile veniat ab remotis vltra minimam distantiam 
+              <lb ed="#P" n="51"/>in qua non potest videri: iam tota illa notitia intuitiua 
+              <lb ed="#P" n="52"/>producitur successiue: ergo quacumque parte forme 
+              spua<lb ed="#P" n="53" break="no"/>lis data remissior illa potest esse in rerum natura: e 
+              <lb ed="#P" n="54"/>go parius fuit aliqua a qua subiectum prius vitaliter 
+              im<lb ed="#P" n="55" break="no"/>mutabatur.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e372">
+      ⁋ Ite: quacumque pena data in purgatorio 
+              <lb ed="#P" n="56"/>ua aliquis punitur: remissiori erit pena punitus  
+              <lb ed="#P" n="57"/>quelibet pena immutat potentiam: et est qualitas per se 
+              <lb ed="#P" n="58"/>existens: igitur: assunptum patet. volo quod centum misse sufficiant 
+              <lb ed="#P" n="59"/>pro liberatione vnius anime de purgatorio sic 
+              applica<lb ed="#P" n="60" break="no"/>te quod pena remittatur gradualiter non respiciendo ad e 
+              <lb ed="#P" n="61"/>tensionem: sicut ipse facile poteris imaginari: 
+              suppona<lb ed="#P" n="62" break="no"/>tur vlterius vnum verum quod voluntas liberandi non 
+              libe<lb ed="#P" n="63" break="no"/>rat ante celebrationem actualem: sed requiritur applica 
+              <lb ed="#P" n="64"/>tio. Supponamus quod sicut successiue applicatur res d 
+              <lb ed="#P" n="65"/>uma successiue gradualiter remittatur pena: tunc in 
+              <lb ed="#P" n="66"/>infinitum parua erit pena istius patientis in purga¬ 
+      <!--173.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 79vb -->
+               <lb ed="#P" n="67"/>torio ante terminum vltime misse. Frustra autem est 
+              cur<lb ed="#P" n="68" break="no"/>rere ad miraculum vel dicere aliquam penam esse 
+              insensi<lb ed="#P" n="69" break="no"/>bilem in purgatorio sicut dicit quidam doctor quaestione po 
+              <lb ed="#P" n="70"/>nultima sui quarti. Et videtur voluntarie etiam dictum quioa 
+              <lb ed="#P" n="71"/>dicit idem doctor quod voluntas posset aliquando praecise causar 
+              <lb ed="#P" n="72"/>successiue volitionem mediante simplici apprehensione 
+              <lb ed="#P" n="73"/>poportionabiliter causatam successiue: nunquam tamen hoc 
+              <lb ed="#P" n="74"/>potest quando ex plena deliberatione vera vel interpreta 
+              <lb ed="#P" n="75"/>tiua elicit velle vel nolle.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e425">
+      ⁋ Non enim est auferendum 
+              ali<lb ed="#P" n="76" break="no"/>uid a libertate voluntatis nisi vbi constat de opposito 
+            </p>
+            <p xml:id="jm12w4-e54732-d1e430">
+               <lb ed="#P" n="77"/>⁋ Contra primam conclusionem arguitur sic: datur aliqua 
+              <lb ed="#P" n="78"/>forma infinite remissa: ergo conclusio falsa. patet de forma 
+              <lb ed="#P" n="79"/>incipiente a gradu et terminata in non gradum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e439">
+      ⁋ Sed  
+              <lb ed="#P" n="80"/>dices quod illic infinitum remissa est aliqua forma 
+              quacun<lb ed="#P" n="81" break="no"/>que enim remissione data datur alia non penetratiue cum 
+              <lb ed="#P" n="82"/>illa remissior: sed nulla est forma infinite remissa.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e448">
+      ⁋ Sed 
+              <lb ed="#P" n="83"/>contra hoc argumentor: capiendo corpus pedale 
+              re<lb ed="#P" n="84" break="no"/>missum vt quattuor vniformiter capiat deus in 
+              pri<lb ed="#P" n="85" break="no"/>ma parte proportionali hore duos gradus albedinis 
+              <lb ed="#P" n="86"/>ab illo corpore secundum totam extensionem: iam remanent duo 
+              <lb ed="#P" n="87"/>gradus in secunda parte proportionali: remoueat autem vnum 
+              <lb ed="#P" n="88"/>gradum secundum extensionem alio remanente: in tertia parte 
+              <lb ed="#P" n="89"/>proportionali remoueat semigradum secundum extensionem 
+              se<lb ed="#P" n="90" break="no"/>migradu remanente in illo corre: et sic consequenter 
+              <lb ed="#P" n="91"/>per omnes partes proportionales illius hore: tunc in instan 
+              <lb ed="#P" n="92"/>ti terminante hora erit aliqua pars forme et nullius 
+              in<lb ed="#P" n="93" break="no"/>tensionis. Quod patet quia in infinitum remissa erit / albedo 
+              <lb ed="#P" n="94"/>que erit in hoc subiecto ante finem hore: et albedo que 
+              <lb ed="#P" n="95"/>erit in instanti terminante horam quacumque albedine 
+              pri<lb ed="#P" n="96" break="no"/>cedenti erit remissior: ergo illa albedo erit in infinitum 
+              re<lb ed="#P" n="97" break="no"/>missa: consequentia est clara. Atecedens patet ex casu.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e483">
+      ⁋ Respondetur 
+              <lb ed="#P" n="98"/>negando casum: puta quod aliquid illius forme maneat in 
+              <lb ed="#P" n="99"/>hoc subiecto cum ista remotione partium: et si partes 
+              re<lb ed="#P" n="100" break="no"/>mote per singulas partes proportionales illius hore 
+              <lb ed="#P" n="101"/>corrumpantur nihil illius forme remanebit in rerum na 
+              <lb ed="#P" n="102"/>tura. Quod patet: quia quaelibet pars proportionalis illlius 
+              for<lb ed="#P" n="103" break="no"/>me est ablata: ergo tota illa lata forma est ablata.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e499">
+      ⁋ In 
+              <lb ed="#P" n="104"/>super prima pars proportionalis est ablata quae est vt due 
+              <lb ed="#P" n="105"/>et proportionabiliter in omnibus partibus proportionalibus 
+              <lb ed="#P" n="106"/>est ablatum: modo prima. pars proportionalis est equa 
+              <lb ed="#P" n="107"/>lis aggregatio omnis partium sequentium. ergo duo gradus au 
+              <lb ed="#P" n="108"/>feruntur ex aggregato partium proportionalium sequentium 
+              <lb ed="#P" n="109"/>primam: et cum quattuor gradus auferantur quid remane 
+              <lb ed="#P" n="110"/>bitus
+            </p>
+            <p xml:id="jm12w4-e54732-d1e518">
+      ⁋ Queadmodum in vno simili dicimus alibi in di 
+              <lb ed="#P" n="111"/>uisione continui: quod deus in prima parte proportionali di 
+              <lb ed="#P" n="112"/>uidat ipsum in duas partes equas. In secunda parte pro 
+              <lb ed="#P" n="113"/>portionali diuidat alteram medietatu corrumpendo tres 
+              <lb ed="#P" n="114"/>illarum partium: relicta illa que erat in secunda parte 
+              propor<lb ed="#P" n="115" break="no"/>tionali: et sic faciat per omnes partes proportionales 
+              ho<lb ed="#P" n="116" break="no"/>re: sic scilicet quod in parte proportionali diuisionis omnes cor 
+              <lb ed="#P" n="117"/>rumpantur dempta vna: iam in infinitum paruum erit 
+              <lb ed="#P" n="118"/>corpus in hac hora: sed in instanti terminante. horam 
+              <lb ed="#P" n="119"/>nihil manebit.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e540">
+      ⁋ Si dicas admittimus quantum diuidi 
+              <lb ed="#P" n="120"/>ad non quantum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e545">
+      ⁋ Respondetur verum est quando quelibet 
+              <lb ed="#P" n="121"/>pars sit cum qualibet penetratiue: ad imaginationem 
+              <lb ed="#P" n="122"/>aliquorum de corpore Christi in sacramento eucharistie 
+              <lb ed="#P" n="123"/>et non aliter.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e554">
+      ⁋ Secundo arguitur. sit vna linea infi 
+              <lb ed="#P" n="124"/>niteilonga: cuius vna pedalis sit alba vt quattuor: 
+              se<lb ed="#P" n="125" break="no"/>cunda vt duo: tertia vt vnum: et sic consequenter: iam illud cor 
+              <lb ed="#P" n="126"/>pus erit infinite remisse album.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e563">
+      ⁋ Aid istud inferius pa 
+              <lb ed="#P" n="127"/>tebit solutio.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e568">
+      ⁋ Contra secundam conclusionem 
+              argui<lb ed="#P" n="128" break="no"/>tur sic. corpus luminosum producit lumen ad non 
+              gra<lb ed="#P" n="129" break="no"/>dum vsque: ergo infinite remissionis est lumen non 
+              gra<lb ed="#P" n="130" break="no"/>dum vsus: et vna pars luminis non est in eadem parte 
+              <lb ed="#P" n="131"/>adequatacum alia: ergo non datur remississimum quod  
+              <lb ed="#P" n="132"/>potest per se naturaliter existere: cum quocumque lumine re 
+      <!--174.xml-->
+      <pb ed="#P" n="80-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>missio dato in illo sebiecto detur remissius extra illud 
+              <lb ed="#P" n="2"/>subiectum adequatum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e593">
+      ⁋ Insuper vel corpus calidum 
+              <lb ed="#P" n="3"/>producit remississimum calorem qui potest esse seorsum vni 
+              <lb ed="#P" n="4"/>formiter vel difformiter: primum non est dicendum: agens 
+              <lb ed="#P" n="5"/>enim remissiorem calorem producit in partes remotas quam 
+              <lb ed="#P" n="6"/>in propinquas.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e604">
+      ⁋ Secundum dici non potest: quoniam ignis 
+              <lb ed="#P" n="7"/>ita cito producit formam substantialem in mediate remo 
+              <lb ed="#P" n="8"/>ta minimi naturalis sicut in parte propinqua et 
+              tan<lb ed="#P" n="9" break="no"/>te extensionis: ergo hic debet producere a remotis ca 
+              <lb ed="#P" n="10"/>lorem tante intensionis quante a propinquis.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e615">
+      ⁋ Ad  
+              <lb ed="#P" n="11"/>primum concedo antecedens quod non datur remississimum lumen 
+              pro<lb ed="#P" n="12" break="no"/>ductum a corpore luminoso: sed vnum lumen non est sepa 
+              <lb ed="#P" n="13"/>ratum a toto sed continuatur partibus totius. sed bene verum 
+              <lb ed="#P" n="14"/>est quod non est in eadem parte subiecti adequata cum alio gra 
+              <lb ed="#P" n="15"/>dum.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e628">
+      ⁋ Ad aliud dicitur quod producit difformiter: quia prope 
+              <lb ed="#P" n="16"/>ipsum est quilibet gradus citra duo vel vnum dicamus. 
+              <lb ed="#P" n="17"/>quilibet gradus citra vnum in alio extremo est non 
+              gra<lb ed="#P" n="18" break="no"/>dus: et ille est remississimus calor qui potest esse extra 
+              <lb ed="#P" n="19"/>suum totum. Quod terminetur in extremo intensiori hoc 
+              no<lb ed="#P" n="20" break="no"/>bis sufficit siue in duobus gradibus siue in vno: quia nisi 
+              <lb ed="#P" n="21"/>demus terminum non potest signari ratio quare subito 
+              <lb ed="#P" n="22"/>producitur gradus tante intensionis et non remissior cum 
+              <lb ed="#P" n="23"/>postea illud agens manens in eodem situm e medio equa 
+              <lb ed="#P" n="24"/>liter disposito consequenter producat.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e650">
+      ⁋ Sed contra dices paruum 
+              <lb ed="#P" n="25"/>calidum minus caloris producit quo ad remssionem quam 
+              <lb ed="#P" n="26"/>ipsum magnum: vt quarta pars gradus producit solum 
+              <lb ed="#P" n="27"/>quartam partem gradus.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e659">
+      ⁋ Respondetur quod paruum 
+              ca<lb ed="#P" n="28" break="no"/>lefactiuum producit tantum caloris quoad intensionem quantum 
+              <lb ed="#P" n="29"/>maximum calefactiuum finitum quia producit remississimum 
+              <lb ed="#P" n="30"/>naturale quemadmodum alii dicerent quod paruus ignis 
+              <lb ed="#P" n="31"/>potest ita cito inflammare minimum naturale bene disposi 
+              <lb ed="#P" n="32"/>tum sicut magnus ignis.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e673">
+      ⁋ Sed ad hoc quod tangitur de 
+              <lb ed="#P" n="33"/>quarta parte gradus: nego aliquid esse dabile 
+              seor<lb ed="#P" n="34" break="no"/>sum. Sed ipso dato ad imaginationem nego quod aliquid 
+              <lb ed="#P" n="35"/>caloris producat in passum nihil caloris habens: 
+              da<lb ed="#P" n="36" break="no"/>to quod nulla sit contrarietas in passo: non enim potest 
+              pro<lb ed="#P" n="37" break="no"/>ducere calorem remissiorem remississimo naturali. 
+            </p>
+            <p xml:id="jm12w4-e54732-d1e686">
+               <lb ed="#P" n="38"/>⁋ Nec oportet quemlibet calorem remissum vlterius 
+              ca<lb ed="#P" n="39" break="no"/>lefacere: capio calorem digitalem in circumferentia 
+              sphe<lb ed="#P" n="40" break="no"/>re actiuitatis calidi: ille calor digitalis non producit 
+              <lb ed="#P" n="41"/>calorem vltra spheram actiuitatis illius calidi: vt patet de 
+              <lb ed="#P" n="42"/>lumine: quia licet non detur remississimum productum a 
+              <lb ed="#P" n="43"/>corpore luminoso tamen datur lumem digitale bene 
+              re<lb ed="#P" n="44" break="no"/>missum in extremo illuminato a corpore luminoso quod 
+              <lb ed="#P" n="45"/>non producit aliud lumem.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e706">
+      ⁋ Sed contra istud totum sic 
+              <lb ed="#P" n="46"/>arguitur: quando aqua calida reducit se ad frigiditatem 
+              <lb ed="#P" n="47"/>calor corruptus non corrumpitur per primum instans non esse: 
+              <lb ed="#P" n="48"/>nec per vltimum iustans esse: cum vna pars subito a 
+              <lb ed="#P" n="49"/>alia successiue corrumpatur.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e717">
+      ⁋ Respondetur quod cum 
+              <lb ed="#P" n="50"/>agens corruptiuum sit intrinsecum scilicet forma aque vna 
+              <lb ed="#P" n="51"/>portio eius desinit per primum instans non esse: puta 
+              to<lb ed="#P" n="52" break="no"/>ta illa que successiue corrumpitur: et remissima que 
+              po<lb ed="#P" n="53" break="no"/>test naturaliter per se existere subito corrumpitur: ita 
+              <lb ed="#P" n="54"/>quod primum instans non esse portionis que partibiliter 
+              <lb ed="#P" n="55"/>corrumpitur est vltimum instans esse partis remississime 
+              <lb ed="#P" n="56"/>et vltimum instans non esse frigoris generandi quod 
+              instan<lb ed="#P" n="57" break="no"/>tanee producetur. Reliqua pars frigoris successiue 
+              pro<lb ed="#P" n="58" break="no"/>ducetur ad gradum summum vsque: et partes 
+              gradua<lb ed="#P" n="59" break="no"/>les ita cito corrumpuntur et generantur in vna parte 
+              si<lb ed="#P" n="60" break="no"/>cut in alia: cum enim agens est intrinsecum non eundum est 
+              <lb ed="#P" n="61"/>ad minimum naturale secundum extensionem.
+            </p>
+            <p xml:id="jm12w4-e54732-d1e746">
+      ⁋ Sed si 
+              po<lb ed="#P" n="62" break="no"/>nas duo calida applicata ad passum nullum colorem 
+              <lb ed="#P" n="63"/>habens dispositum ad susceptionem caloris in hoc 
+              in<lb ed="#P" n="64" break="no"/>stanti illa duo calida producunt remississimum caloris si 
+              <lb ed="#P" n="65"/>mul. Et si ponas vnam medietatem produci ab vno 
+              ca<lb ed="#P" n="66" break="no"/>lido secundum extensionem et aliam secundum extensio¬ 
+      <!--174.xml-->
+      <cb ed="#P" n="b"/>
+               <!-- 80rb -->
+               <lb ed="#P" n="67"/>nem ab alio calido: eodem modo hic dicas quo ad re 
+              <lb ed="#P" n="68"/>missionem. Et si iterum duo maxima non calefactiua 
+              <lb ed="#P" n="69"/>sint seorsum applicata vni extremo passi susceptiui ca 
+              <lb ed="#P" n="70"/>loris non habentis calorem si ponantur posse produ 
+              <lb ed="#P" n="71"/>cere aliquid secundum extensionem sic ponatur secundum 
+              <lb ed="#P" n="72"/>remissionem. Sed in hoc est discrimen: quia aliqui non 
+              <lb ed="#P" n="73"/>darent maximum non calefactiuum. 
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

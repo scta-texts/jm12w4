@@ -1,579 +1,579 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#JohnMair">John Mair</author>
-            <respStmt>
-               <name>Jeffrey C. Witt</name>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2020-07-31">July 31, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#JohnMair">John Mair</author>
+        <respStmt>
+          <name>Jeffrey C. Witt</name>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2020-07-31">July 31, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-jmUUUK">Paris 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-07-31" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#P" n="46-v"/>
-            <cb ed="#P" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="jm12w4-e31217"> <!--l1d17q1 -->
-            <head xml:id="jm12w4-e31217-Hd1e106">Quaestio 1</head>
-            <head xml:id="jm12w4-e31217-Hd1e109" type="question-title">
-      An grantia creata sit viatori necessaria ad salutem?
-    </head>
-            <p xml:id="jm12w4-e31217-d1e112">
-               <lb ed="#P" n="34"/>⁋ Iam nunc accedamus ad signandam 
-              mis<lb ed="#P" n="35" break="no"/>sionem spiritus sancti: qua inuisibiliter mittitur 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e119">
-               <lb ed="#P" n="36"/>⁋ Distinctionis decime septime questio vnica. 
-              <lb ed="#P" n="37"/>N hac decimaseptima distinctione Ma 
-              <lb ed="#P" n="38"/>gister loquitur de charitate et eius 
-              au<lb ed="#P" n="39" break="no"/>gmento a decremento. quam distinctio 
-              <lb ed="#P" n="40"/>nem in duas partes precipuas secare cu 
-              <lb ed="#P" n="41"/> Vsrabo: in priori enim parte aliqua theologa 
-              <lb ed="#P" n="42"/>lia: in posteriori aliqua physicalia cum metaphys 
-              <lb ed="#P" n="43"/>calibus ponam. Quo ad priorem partem aliquas qua 
-              <lb ed="#P" n="44"/>stiones queram.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e142">
-      ⁋ Prima est: an charitas creata est 
-              <lb ed="#P" n="45"/>necessaria ad salutem.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e147">
-      ⁋ Secunda: an charitas 
-              infu<lb ed="#P" n="46" break="no"/>sa respectu actus meritorii efficientiam obtineat 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e152">
-               <lb ed="#P" n="47"/>⁋ Tertia: an actus elicitus a maiori gratia sit ma 
-              <lb ed="#P" n="48"/>gis meritorius quam actus elicitus a minori: supposi 
-              <lb ed="#P" n="49"/>ta equali intensione actus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e161">
-      ⁋ Quarta: de 
-              recipro<lb ed="#P" n="50" break="no"/>ca actiuitate actus et habitus instantanee producti 
-              <lb ed="#P" n="51"/>partim occasione vnius argumenti. q. iii. partin 
-              <lb ed="#P" n="52"/>de habitu cquisito charitatis et eius actu.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e170">
-      ⁋ Quin 
-              <lb ed="#P" n="53"/>ta: an quis posset mereri gratiam et gloriam in instanti 
-              <lb ed="#P" n="54"/> Sexta: an circunstantia temporis augeat meritum 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e177">
-               <lb ed="#P" n="55"/>⁋ Septima: an tantum meretur habens actum me 
-              <lb ed="#P" n="56"/>ritorium interiorem tantum: quantum habens exteriorem 
-              <lb ed="#P" n="57"/>iunctum: et tantum gratie infuse acquirat.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e187">
-      ⁋ Dcta 
-              <lb ed="#P" n="58"/>ua: an aliquis actus est intrinsece meritorius.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e192">
-      ⁋ 
-              No<lb ed="#P" n="59" break="no"/>na: an charitas sit diminuibilis.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e197">
-      ⁋ Propterea
-              pri<lb ed="#P" n="60" break="no"/>mo queritur: an gratia creata sit viatori necessaria 
-              <lb ed="#P" n="61"/>ad salutem.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e204">
-      ⁋ Respondetur per aliquas conclusiones 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e207">
-               <lb ed="#P" n="62"/>⁋ Prima est. ponenda est aliqua cbharitas accidens 
-              <lb ed="#P" n="63"/>anime inheres.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e214">
-      ⁋ Secunda conclusio. deus potest 
-      <!--107.xml-->
-      <cb ed="#P" n="b"/>
-               <!-- 46vb -->
-               <lb ed="#P" n="64"/>aliquem saluare de potentia absoluta sine charitate. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e226">
-               <lb ed="#P" n="65"/>⁋ Tertiam conclusio. non est possibile secundum legen 
-              <lb ed="#P" n="66"/>dei iam positam aliquem saluari sine charitate 
-              in<lb ed="#P" n="67" break="no"/>fusa.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e235">
-      ⁋ Prima conclusio probatur auctoritate 
-              Apo<lb ed="#P" n="68" break="no"/>stoli. prime ad Corin. xiii. Si linguis hominum 
-              lo<lb ed="#P" n="69" break="no"/>quar et angelorum etc. Dices ibi. loquitur de charitate 
-              <lb ed="#P" n="70"/>increata.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e244">
-      ⁋ hoc non est ad eius mentem: cum in 
-              fi<lb ed="#P" n="71" break="no"/>ne capt. dicat. manet fides spes et charitas tria hec 
-              <lb ed="#P" n="72"/>Maior autem horum charitas. Non enim comparasset 
-              <lb ed="#P" n="73"/>charitatem increatam cum alis duabus: nec dubium 
-              <lb ed="#P" n="74"/>fuisset quin charitas increata sit maxima horum 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e255">
-               <lb ed="#P" n="75"/>⁋ Item <ref xml:id="jm12w4-e31217-Rd1e259">ad Romanos quinto</ref>. <quote xml:id="jm12w4-e31217-Qd1e262" source="http://scta.info/resource/rom5_5">Charitas dei 
-              diffu<lb ed="#P" n="76" break="no"/>sa est in cordibus nostris per spiritum sanctum qui 
-              <lb ed="#P" n="77"/>datus est nobis.</quote>
-            </p>
-            <p xml:id="jm12w4-e31217-d1e270">
-      ⁋ Insuper hoc patet de summa 
-              tri<lb ed="#P" n="78" break="no"/>nitate et fide catholica. ca. Damnamus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e275">
-      ⁋ Rursus 
-              <lb ed="#P" n="79"/>fides et spes infuse ponuntur accidentia distincta a 
-              <lb ed="#P" n="80"/>spiritusancto per Magistrum: ergo e charitas: vel 
-              <lb ed="#P" n="81"/>detur discrimen.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e285">
-      ⁋ Item <name xml:id="jm12w4-e31217-Nd1e287" ref="#Augustine">Augustinus</name> in libro de 
-              <lb ed="#P" n="82"/>videndo deo. Ecce etiam charitas quantulacunque 
-              <lb ed="#P" n="83"/>etiam in voluntate nostra consistit: nobisque conspi 
-              <lb ed="#P" n="84"/>cua est: nec in loco videtur: nec corporalibus oculis 
-              <lb ed="#P" n="85"/>que nec subscribitur visu nec tactu tenetur: nec au 
-              <lb ed="#P" n="86"/>ditur affatu: nec sequitur incessu: quanto magis deus 
-              <lb ed="#P" n="87"/>ipse cuius hoc pignus in nobis est.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e304">
-      ⁋ hoc idem 
-              pa<lb ed="#P" n="88" break="no"/>tet in Epistola ad Fortunatum. Et Oregorius 
-              se<lb ed="#P" n="89" break="no"/>cundo moralium. alia (inquit) sunt dona 
-              spiritus<lb ed="#P" n="90" break="no"/>sancti: sine quibus ad vitam nequaquam pertingitur: 
-              <lb ed="#P" n="91"/>alia quibus vite sanctitas pro aliorum vtilitate 
-              de<lb ed="#P" n="92" break="no"/>claratur. Et sequitur. Mansuetudo namque / humilitas 
-              <lb ed="#P" n="93"/>patientia / fides / spes / charitas / dona eius sunt: si 
-              <lb ed="#P" n="94"/>ne quibus ad vitam homines pruenire non possunt 
-              <lb ed="#P" n="95"/>Et in tricesimo septimo. bona summa sunt / fides 
-              <lb ed="#P" n="96"/>spes / et charitas: que cum veraciter habentur in ma 
-              <lb ed="#P" n="97"/>lo inflecti non possunt.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e328">
-      ⁋ Secunda conclusio probatur 
-              <lb ed="#P" n="98"/>deus potest dare alicui spiritum sanctum: non 
-              dan<lb ed="#P" n="99" break="no"/>do eius donum. et talis saluabitur. igitur.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e335">
-      ⁋ Insu 
-              <lb ed="#P" n="100"/>per aliquis est scriptus in libro vite secundum 
-              pre<lb ed="#P" n="101" break="no"/>scientiam dei: vel eternam eius predestinationem 
-              <lb ed="#P" n="102"/>et non secundum praesentem iustitiam. et talem potest 
-              <lb ed="#P" n="103"/>deus sic perpetuo seruare sine charitate.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e346">
-      ⁋ 
-              Ter<lb ed="#P" n="104" break="no"/>tio potest deus creare hominem sine charitate et 
-              si<lb ed="#P" n="105" break="no"/>ne culpa: et acceptare talem ad vitam eternam: e 
-              <lb ed="#P" n="106"/>actus eius ad premium: vel ei conferre (sicut 
-              commu<lb ed="#P" n="107" break="no"/>nius putatur de beatitudine anime Christi) 
-              pre<lb ed="#P" n="108" break="no"/>mium sine meritis.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e359">
-      ⁋ Tertiam conclusio patet per 
-              Apo<lb ed="#P" n="109" break="no"/>stolum. prime ad Corum. xiii. Si linguis hominum lo 
-              <lb ed="#P" n="110"/>quar a angelorum: charitatem autem non 
-              habue<lb ed="#P" n="111" break="no"/>ro: nihil mihi prodest.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e369">
-      ⁋ Item: quintodecimo de 
-              <lb ed="#P" n="112"/>trinitate. capite decimooctauo. Ipsa diuidit inter 
-              <lb ed="#P" n="113"/>filios regni et perditionis. est vestis nuptialis: Mat 
-              <lb ed="#P" n="114"/>thei xxii. sine qua non peruenitur ad nuptias.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e378">
-      ⁋ Con 
-              <lb ed="#P" n="115"/>tra primam conclusionem arguitur. argumentis Ma 
-              <lb ed="#P" n="116"/>gistri que introducit in litera: quibus monebatur 
-              <lb ed="#P" n="117"/>nullam ponere charitatem creatam. octauo de tri 
-              <lb ed="#P" n="118"/>nitate. capitulo septimo. qui proximum diligit: con 
-              <lb ed="#P" n="119"/>sequens est vt ipsum dilectione precipua diligat: 
-              <lb ed="#P" n="120"/>deus autem dilectio est. nam qui manet in dilectio 
-              <lb ed="#P" n="121"/>ne indeo manet. octauo capitulo eiusdem libri 
-              si<lb ed="#P" n="122" break="no"/>milem smniam ponit.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e398">
-      ⁋ Sed ad istas auctoritates et 
-              <lb ed="#P" n="123"/>siles sicubi inueniantur dibiter: quod intelliguntur de charita 
-              <lb ed="#P" n="124"/>te increata: charitas increata est speuns sanctus: 
-              crea<lb ed="#P" n="125" break="no"/>ta habitus inclinans habentem in actus meritorios 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e407">
-               <lb ed="#P" n="126"/>⁋ Contra secundam conclusionem argnitur. bene sequitur 
-              sor<lb ed="#P" n="127" break="no"/>tes est saluatus. ergo est deo charus: ergo habet charitatem. 
-              <lb ed="#P" n="128"/>nemo enim potest esse albus sine albedine. ergo neque cha¬ 
-      <!--108.xml-->
-      <pb ed="#P" n="47-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#P" n="1"/>rus sine charitate.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e425">
-      ⁋ Distinguitur primo consequens: vel cha 
-              <lb ed="#P" n="2"/>rus formaliter. et sic non oportet: vel in acceptatione d 
-              <lb ed="#P" n="3"/>uina: et sic conceditur potissimum in actu meritorio est ad 
-              <lb ed="#P" n="4"/>ceptatio diuina. Nec est simile de albo quod fieri non 
-              po<lb ed="#P" n="5" break="no"/>test tale sine albedine.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e436">
-      ⁋ Contra tertiam conclusionem 
-              <lb ed="#P" n="6"/>argumentor. qualibet charitate sine sortes potest sal 
-              <lb ed="#P" n="7"/>uari: ergo sortes potest saluari sine charitate: tenet 
-              <lb ed="#P" n="8"/>consequentia nomina et verba transposita idem significant secundo 
-              <lb ed="#P" n="9"/>peri hermenias seruatis proprietatibus logicalibus: 
-              <lb ed="#P" n="10"/>quemadmodum est hic. de ampliatione non est sermo: quia 
-              <lb ed="#P" n="11"/>termini eodem modo supponunt.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e453">
-      ⁋ Insuper singulares 
-              <lb ed="#P" n="12"/>istarum duarum er parte termini charitate equalent. ergo 
-              <lb ed="#P" n="13"/>ille due equiualent: patet ascendendo sub termino 
-              chari<lb ed="#P" n="14" break="no"/>tate copulatiue: qundam vtrobique distribuitur.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e462">
-      ⁋ Ad primum 
-              <lb ed="#P" n="15"/>nego quod equiualeant ille assumpte: prior enim est vera: se 
-              <lb ed="#P" n="16"/>cunda est falsa: quia est determinatio accepta vnica ac 
-              <lb ed="#P" n="17"/>ceptione cum suo determinabili in secunda: non autem in priori. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e471">
-               <lb ed="#P" n="18"/>⁋ Ad secundum nego quod liceat vniformiter capere 
-              sin<lb ed="#P" n="19" break="no"/>gulares sub isto termino charitate in vtraque. oportet enim 
-              <lb ed="#P" n="20"/>descendere disiunctim in vna sic: sortes potest saluar 
-              <lb ed="#P" n="21"/>sine hac: vel hac charitate: et sic de singulis.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e482">
-      ⁋ Ulte 
-              <lb ed="#P" n="22"/>rius dicitur quando habes hanc modalem diuisam concessam. 
-              <lb ed="#P" n="23"/>sortes potest saluari sine charitate: non habes conclu 
-              <lb ed="#P" n="24"/>sionem que est modalis composita. non pono discrimen 
-              <lb ed="#P" n="25"/>inter potest et possibiliter est: nec dabitur de inesse per 
-              <lb ed="#P" n="26"/>hanc sortes saluatur sine charitate: sed per plures 
-              sin<lb ed="#P" n="27" break="no"/>gulares sic: sortes saluatur sine hac charitate: sortes 
-              <lb ed="#P" n="28"/>aluatur sine haccharitate: modo quelibet illarum es 
-              <lb ed="#P" n="29"/>possibilis. Nulla autem est apparentia talium 
-              consequentia<lb ed="#P" n="30" break="no"/>rum: possibile est sortem saluari sine hac charitate: pos 
-              <lb ed="#P" n="31"/>sibile est sortem saluari sine illa charitate: et sic de sin 
-              <lb ed="#P" n="32"/>gulis: ergo possibile est sortem saluari sine charitate: patet 
-              <lb ed="#P" n="33"/>ex artibus. Non sto in talibus: nullam charitatem habens po 
-              <lb ed="#P" n="34"/>test mereri: nullam charitatem habendo tum potes 
-              mere<lb ed="#P" n="35" break="no"/>ri: omnia illa sunt peruia intelligendi logicam: siue expona 
-              <lb ed="#P" n="36"/>tur per dum / si / vel quia: nulla est difficultas.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e517">
-      ⁋ Secundo 
-              ar<lb ed="#P" n="37" break="no"/>guitur contra eandem conclusionem. aliquis actus est 
-              meri<lb ed="#P" n="38" break="no"/>torius elicitus in peccato mortali: ergo charitas non es 
-              <lb ed="#P" n="39"/>necessaria ad salutem: consequentia claret: et probatur antecedens: elicia 
-              <lb ed="#P" n="40"/>sortes dilectionem proximi in peccato mortali: detestetur 
-              <lb ed="#P" n="41"/>suum peccatum mortale continuando suum actum 
-              dilectio<lb ed="#P" n="42" break="no"/>nis proximi tunc sic: pao isto actu dabitur vita 
-              eter<lb ed="#P" n="43" break="no"/>na: hic actus est elicitus in peccato mortali. ergo pro 
-              <lb ed="#P" n="44"/>actu elicito in peccato mortali dabitur vita eterna. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e537">
-               <lb ed="#P" n="45"/>⁋ Insuper nec hec charitas est necessaria ad 
-              salu<lb ed="#P" n="46" break="no"/>tem nec illa: et sic de singulis. ergo nulla charitas est 
-              <lb ed="#P" n="47"/>necessaria ad salutem. antecedens patet per ascensum 
-              <lb ed="#P" n="48"/>uacumque charitate data sine illa potest esse sorti salus: 
-              <lb ed="#P" n="49"/>igitur.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e551">
-      ⁋ Ad primum pono propositiones.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e554">
-      ⁋ Prima 
-              <lb ed="#P" n="50"/>est pro actufacto in peccato mortali dabitur vita 
-              eter<lb ed="#P" n="51" break="no"/>na. Patet per argumentum: cum pro eo continuato tem 
-              <lb ed="#P" n="52"/>pore infusionis gratie dabitir vita eterna et ille actus 
-              <lb ed="#P" n="53"/>fuit elicitus in peccato mortali. igitur.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e565">
-      ⁋ Secunda 
-              pro<lb ed="#P" n="54" break="no"/>positio aliquis est actus meritorius vite eterne 
-              fa<lb ed="#P" n="55" break="no"/>ctus in peccato mortali patet ex priori: et ex amplia 
-              <lb ed="#P" n="56"/>tione participii factus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e574">
-      ⁋ Tertia propositio: nunquam 
-              <lb ed="#P" n="57"/>pro actu elicito in peccatomortali datur gratia per 
-              <lb ed="#P" n="58"/>talem electionem: et illo tempore quo actus est cum 
-              <lb ed="#P" n="59"/>mortali peccato actum habens non meretur gratiam 
-              <lb ed="#P" n="60"/>nec gloriam: bene tamen pro alio tempore: et hoc 
-              to<lb ed="#P" n="61" break="no"/>tum consurgit: eo quod idem actus nunero qui est 
-              bonu<lb ed="#P" n="62" break="no"/>moraliter elicitus cum mortali continuatus libere posi 
-              <lb ed="#P" n="63"/>instans infusionis gratie incipit esse meritorius in illo 
-              <lb ed="#P" n="64"/>instanti et post illud instans erit meritorius.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e594">
-      ⁋ Ad se 
-              <lb ed="#P" n="65"/>cundum dicitur per propositiones.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e599">
-      ⁋ Prima nulla 
-              <lb ed="#P" n="66"/>charitas est necessaria ad salutem de lege iam posita: 
-      <!--108.xml-->
-      <cb ed="#P" n="b"/>
-               <!-- 47rb -->
-               <lb ed="#P" n="67"/>patet per argumentum.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e613">
-      ⁋ Secunda propositio necesse 
-              <lb ed="#P" n="68"/>est habere charitatem: si sortes debeat saluari secundum 
-              <lb ed="#P" n="69"/>legem vt necesse cadat in totam conditionalem.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e620">
-      ⁋ 
-              Ter<lb ed="#P" n="70" break="no"/>tio arguitur: aliquis est charus deo sine charitate: quod 
-              <lb ed="#P" n="71"/>patet: proferat sacerdos ego te baptizo. etc. super vno 
-              <lb ed="#P" n="72"/>paruulo qui in primo instanti non esse verborum moriatur. 
-              <lb ed="#P" n="73"/>Arguitur sic talis saluabitur. ergo est deo charus 
-              secun<lb ed="#P" n="74" break="no"/>dum legem: et tamen non habuit charitatem in aliquo 
-              <lb ed="#P" n="75"/>instanti vite sue.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e636">
-      ⁋ Insuper ponatur quod deus 
-              preci<lb ed="#P" n="76" break="no"/>piat sorti diligere eum ante a instans terminatiuum 
-              ho<lb ed="#P" n="77" break="no"/>re future omittat sortes: et successiue cadat in furiam 
-              <lb ed="#P" n="78"/>vel temulentiam: iam sortes est in peccato mortali ante 
-              <lb ed="#P" n="79"/>a instans: tenendo alteram solutionum in. xvi. di. quarti et 
-              <lb ed="#P" n="80"/>adhuc est in gratia.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e649">
-      ⁋ Preterea idem actus est meri 
-              <lb ed="#P" n="81"/>torius et demeritorius. patet de actu quo quis facit ali 
-              <lb ed="#P" n="82"/>uid propter deum et inanem gloriam venialem: qui 
-              duo<lb ed="#P" n="83" break="no"/>bus actibus equiualet: quorum alter est bonus. ergo sal 
-              <lb ed="#P" n="84"/>tem iste est bonus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e660">
-      ⁋ Rursus: aliquis simul et semel 
-              <lb ed="#P" n="85"/>meretur et demcretur: nec possunt dari diuersi actus 
-              <lb ed="#P" n="86"/>ad hoc saluandum. ergo per eundem actum. assumptum patet. 
-              <lb ed="#P" n="87"/>precipiat deus sorti nolle mereri toto isto die vel 
-              ho<lb ed="#P" n="88" break="no"/>ra sortes non potest illud preceptum transgredi nihil fa 
-              <lb ed="#P" n="89"/>ciendo: quia sequitur sortes nihil facit. ergo non mere 
-              <lb ed="#P" n="90"/>tur actu elicito. Nec potest preceptum transgredi actu 
-              <lb ed="#P" n="91"/>demeritorio: quia si sic sit ita quod non habeat actum 
-              elici<lb ed="#P" n="92" break="no"/>tum nisi illum quem ponit aduersarius esse demeritorium. 
-              <lb ed="#P" n="93"/>Si ille conceditur simul esse meritorius: habetur propo 
-              <lb ed="#P" n="94"/>situm. Si non: tunc non meretur actuelicito. ergo non 
-              <lb ed="#P" n="95"/>transgreditur preceptum illud. nec potest actu meritorio 
-              <lb ed="#P" n="96"/>pari ratione: nec actu indifferenti. ergo vel nullo actu po 
-              <lb ed="#P" n="97"/>test illud preceptum transgredi: vel actu meritorio 
-              so<lb ed="#P" n="98" break="no"/>lum.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e693">
-      ⁋ Sed dices sortes potest transgredi preceptum 
-              <lb ed="#P" n="99"/>datum licet non mereatur actu elicito: sufficit eim ad  
-              <lb ed="#P" n="100"/>transgressionem quod habeat voluntatem non implendi quod 
-              si<lb ed="#P" n="101" break="no"/>bi precipitur: vel faciendi sibi inhibitum: vt volens 
-              occide<lb ed="#P" n="102" break="no"/>re est transgressor precepti de homicidio: et tamen 
-              vel<lb ed="#P" n="103" break="no"/>le occidere non pius est occidere quam velle mereri actu 
-              <lb ed="#P" n="104"/>elicito scienter contra preceptum sit mereri.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e710">
-      ⁋ 
-              Con<lb ed="#P" n="105" break="no"/>tra: ponatur quod nihil ei imputetur ad transgressionem 
-              <lb ed="#P" n="106"/>illius precepti nisi actus meritorius elicitus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e717">
-      ⁋ Ad  
-              <lb ed="#P" n="107"/>tertium responsum est in sua materia alibi.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e722">
-      ⁋ Ad aliud  
-              <lb ed="#P" n="108"/>dictum est in secunda. q. decimeseptime distinctionis 
-              <lb ed="#P" n="109"/>quarti.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e729">
-      ⁋ Ad aliud dicitur quod talis actus est solum 
-              de<lb ed="#P" n="110" break="no"/>meritorius nec duobus actibus (vt dictum est) 
-              equi<lb ed="#P" n="111" break="no"/>ualet.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e736">
-      ⁋ Ad aliud inter arguendum sufficienter 
-              di<lb ed="#P" n="112" break="no"/>ctum est ad replicam vsque in calce positam. et vlterius 
-              <lb ed="#P" n="113"/>dicitur quod illud non est rationabile quod precipitur. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e743">
-               <lb ed="#P" n="114"/>⁋ Dubitatur: an charitas infundatur secundum quod 
-              <lb ed="#P" n="115"/>homo meretur: an in instanti terminante actuns
-            </p>
-            <p xml:id="jm12w4-e31217-d1e751">
-      ⁋ Re 
-              <lb ed="#P" n="116"/>spondetur: quod deus potest infundere secundum quod ei 
-              <lb ed="#P" n="117"/>placet: sed de lege conforme rationi videtur: quod deus creet 
-              <lb ed="#P" n="118"/>gratiam secundum quod homo meretur: sim instanti: in illo 
-              in<lb ed="#P" n="119" break="no"/>rundit gratiam. si successiue: partibiliter creat gratiam 
-              <lb ed="#P" n="120"/>Ratio est: quia charitas concurrit ad actum meritorium: et 
-              <lb ed="#P" n="121"/>deus dat viro suum auxilium vt mereatur secundum quod ipse 
-              ha<lb ed="#P" n="122" break="no"/>bet bonum actum.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e769">
-      ⁋ Aliqui dicunt quod pro actu remisso 
-              <lb ed="#P" n="123"/>non datur gratia quibus non credimus. Et arguitur quod 
-              <lb ed="#P" n="124"/>sic: vel requiritur quod actus sit alicuius certe intensionis 
-              <lb ed="#P" n="125"/>ad hoc vt gratia infundatur: et quero quanteus et 
-              dice<lb ed="#P" n="126" break="no"/>re nescis. sequitur ergo quod quecumque intensio 
-              gradua<lb ed="#P" n="127" break="no"/>lis sufficit ad gratie infusionem.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e782">
-      ⁋ Sed contra hoc 
-              <lb ed="#P" n="128"/>argumentor. Apocalypsis. iii. Scio ego operatua: quia 
-              <lb ed="#P" n="129"/>neque frigidus es neque calidus: vtinam frigidus esses aut 
-              <lb ed="#P" n="130"/>calidus: sed quia tepidus es etc. incipiam te euomere etc. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e791">
-               <lb ed="#P" n="131"/>⁋ Insuper absonum videtur quod deus expectet concursum vo 
-              <lb ed="#P" n="132"/>luntatis creando gratiam.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e798">
-      ⁋ Respondetur: quod illa aucto¬ 
-      <!--109.xml-->
-      <pb ed="#P" n="47-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#P" n="1"/>ritas nihil est contra nos: per frigidum intelligitur ille 
-              <lb ed="#P" n="2"/>qui timet peccare formidine pene: per tepidum 
-              ocio<lb ed="#P" n="3" break="no"/>sum.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e814">
-      ⁋ Ad aliud negatur id esse ablonu. None enim 
-              <lb ed="#P" n="4"/>deus concurrit cum caula secunda qualibet: et tamen interdum in 
-              <lb ed="#P" n="5"/>creatione expectat dispositionem cause secunde: vt in crea 
-              <lb ed="#P" n="6"/>tione anime intellectiue post materiam dispositam in matter 
-              <lb ed="#P" n="7"/>ce.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e826">
-      ⁋ Circa hanc questionem dubitatur vtrum omnis actus 
-              <lb ed="#P" n="8"/>elicitus a gratia sit meritorius vite eterne.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e831">
-      ⁋ 
-              Respo<lb ed="#P" n="9" break="no"/>detur affirmatiue. Probatur per communem modum loquem 
-              <lb ed="#P" n="10"/>di in theologia.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e838">
-      ⁋ Et confirmatur si hoc non esset 
-              ve<lb ed="#P" n="11" break="no"/>rum: maxime instaretur de actu ipsius reprobi: sed ibi 
-              <lb ed="#P" n="12"/>non est instandum. stat quod eliciat actum elicitum a gratia 
-              <lb ed="#P" n="13"/>cum maiori conatu circa ita bonum obiectum sicut facit 
-              il<lb ed="#P" n="14" break="no"/>le electus: sed constat quod electus meretur vitam eternam 
-              <lb ed="#P" n="15"/>ergo e reprobus.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e851">
-      ⁋ Preterea si non mereretur vitam 
-              <lb ed="#P" n="16"/>eternam hoc ideo esset quia non habebit vitam eternam. 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e856">
-               <lb ed="#P" n="17"/>⁋ hoc autem non valet: quia batuns Petrus in negatione 
-              de<lb ed="#P" n="18" break="no"/>meruit vitam etrnam: et betam Magdalena in suis operi 
-              <lb ed="#P" n="19"/>bus mortalibus: et tamen isti non habuerunt vitam eternam: 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e865">
-               <lb ed="#P" n="20"/>⁋ Similiter si rex statuat quod aliquis propter a actum 
-              <lb ed="#P" n="21"/>mereatur b premium infra vnum annum vel mensem: si 
-              ta<lb ed="#P" n="22" break="no"/>lis incurrat crimem maiestatis lese perdit priora meri 
-              <lb ed="#P" n="23"/>ta: nec habebit premium.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e877">
-      ⁋ Sed contra hanc
-              conclusio<lb ed="#P" n="24" break="no"/>nem arguitur sic: iste simpliciter et absolute meruit
-              pre<lb ed="#P" n="25" break="no"/>mium vite eterne: ergo simpliciter et absolute ipsi 
-              red<lb ed="#P" n="26" break="no"/>detur premium vite eterne: deus enim reddit vnicuique 
-              <lb ed="#P" n="27"/>secundum merita sua: sed si iste non habeat vitam eternam: non 
-              <lb ed="#P" n="28"/>premiabitur premio secundum meritum suum. Non valet
-              d<lb ed="#P" n="29" break="no"/>cere: nunc meretur vitam eternam: sed nunquam meruit vitam 
-              <lb ed="#P" n="30"/>eternam: sicut hericus it romam: sed nunquam iuit romam: 
-              <lb ed="#P" n="31"/>nisi attingat romam.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e897">
-      ⁋ hoc enim non valet si illa de prae 
-              <lb ed="#P" n="32"/>senti sit vera post lapsum temporis metitur veritatem 
-              pro<lb ed="#P" n="33" break="no"/>positionis de praeterito.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e904">
-      ⁋ Insuper susceptio 
-              sacramen<lb ed="#P" n="34" break="no"/>ti non est homini reprobo opus meritorium vite eterne 
-              <lb ed="#P" n="35"/>ergo nec aliqua alia eius operatio. Atecedens patet per 
-              Ma<lb ed="#P" n="36" break="no"/>gistrum sententiarum. iiii. sente. di. iiii. ca. prio recitantem 
-              <lb ed="#P" n="37"/>dicta beati <name xml:id="jm12w4-e31217-Nd1e914" ref="#Augustine">Aug.</name> quod sacramenta in solis electis efficiunt 
-              <lb ed="#P" n="38"/>quod figurant.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e921">
-      ⁋ Ad primum negatur consequentia nisi in consequen 
-              <lb ed="#P" n="39"/>te apponatur / nisi impediat remunerationem 
-              culpabi<lb ed="#P" n="40" break="no"/>liter et perdat merita sua sine recuperatione: nec hoc 
-              <lb ed="#P" n="41"/>est contra legem mie vel iustitie. Sed dictum est in. iiii. di. 
-              <lb ed="#P" n="42"/>xv. quiu. prima: quid habebit pro actibus suis meritoriis 
-            </p>
-            <p xml:id="jm12w4-e31217-d1e932">
-               <lb ed="#P" n="43"/>⁋ Ad aliud negatur antecedens. et ad probationem. non est illud 
-              <lb ed="#P" n="44"/>intelligendum quin vere et realiter recipiant gratiam pe 
-              <lb ed="#P" n="45"/>quam sunt sub merito vite eterne: sed intelligitur quod pe 
-              <lb ed="#P" n="46"/>illam non consequentur de facto vitam eternam: quia cadent a 
-              <lb ed="#P" n="47"/>gratia et merito.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e945">
-      ⁋ Secundo principaliter arguitur: quod 
-              <lb ed="#P" n="48"/>non conuenit alicui nisi sub certa conditione a hypothe 
-              <lb ed="#P" n="49"/>si / si conditio simpliciter non stat: illud simpliciter et ab 
-              <lb ed="#P" n="50"/>solute non conuenit illi: sed isti reprobo existenti in gra 
-              <lb ed="#P" n="51"/>tia non conuenit mereri vitam eternam nisi sub conditi 
-              <lb ed="#P" n="52"/>ne et hypothesi perseuerantie finalis: et cum exclusione 
-              <lb ed="#P" n="53"/>inalis impenitetie.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e962">
-      ⁋ Preterea deus nullos repro 
-              <lb ed="#P" n="54"/>bos potest saluare: igitur nullus reprobus potest 
-              me<lb ed="#P" n="55" break="no"/>reri vitam eternam: ex opposito enim sequitur oppositum: 
-              <lb ed="#P" n="56"/>antecedens enim est verum in sensu composito. ergo con 
-              <lb ed="#P" n="57"/>sequens erit verum in eodem sensu.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e973">
-      ⁋ Ad primum 
-              <lb ed="#P" n="58"/>negatur minor: immo simpliciter et absolute meruit 
-              <lb ed="#P" n="59"/>vitam eternam.
-            </p>
-            <p xml:id="jm12w4-e31217-d1e980">
-      ⁋ Ad aliud. antecedens est falsum 
-              <lb ed="#P" n="60"/>in sensu diuiso: et sic conceditur consequens: in sensu composito con 
-              <lb ed="#P" n="61"/>cedo antecedens negando consequentiam: in quocumque 
-              <lb ed="#P" n="62"/>sensu sumatur consequens. 
-            </p>
-         </div>
-      </body>
-   </text>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="46-v"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jm12w4-e31217"> <!--l1d17q1 -->
+        <head xml:id="jm12w4-e31217-Hd1e106">Quaestio 1</head>
+        <head xml:id="jm12w4-e31217-Hd1e109" type="question-title">
+          An grantia creata sit viatori necessaria ad salutem?
+        </head>
+        <p xml:id="jm12w4-e31217-d1e112">
+          <lb ed="#P" n="34"/>⁋ Iam nunc accedamus ad signandam 
+          mis<lb ed="#P" n="35" break="no"/>sionem spiritus sancti: qua inuisibiliter mittitur 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e119">
+          <lb ed="#P" n="36"/>⁋ Distinctionis decime septime questio vnica. 
+          <lb ed="#P" n="37"/>N hac decimaseptima distinctione Ma 
+          <lb ed="#P" n="38"/>gister loquitur de charitate et eius 
+          au<lb ed="#P" n="39" break="no"/>gmento a decremento. quam distinctio 
+          <lb ed="#P" n="40"/>nem in duas partes precipuas secare cu 
+          <lb ed="#P" n="41"/> Vsrabo: in priori enim parte aliqua theologa 
+          <lb ed="#P" n="42"/>lia: in posteriori aliqua physicalia cum metaphys 
+          <lb ed="#P" n="43"/>calibus ponam. Quo ad priorem partem aliquas qua 
+          <lb ed="#P" n="44"/>stiones queram.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e142">
+          ⁋ Prima est: an charitas creata est 
+          <lb ed="#P" n="45"/>necessaria ad salutem.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e147">
+          ⁋ Secunda: an charitas 
+          infu<lb ed="#P" n="46" break="no"/>sa respectu actus meritorii efficientiam obtineat 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e152">
+          <lb ed="#P" n="47"/>⁋ Tertia: an actus elicitus a maiori gratia sit ma 
+          <lb ed="#P" n="48"/>gis meritorius quam actus elicitus a minori: supposi 
+          <lb ed="#P" n="49"/>ta equali intensione actus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e161">
+          ⁋ Quarta: de 
+          recipro<lb ed="#P" n="50" break="no"/>ca actiuitate actus et habitus instantanee producti 
+          <lb ed="#P" n="51"/>partim occasione vnius argumenti. q. iii. partin 
+          <lb ed="#P" n="52"/>de habitu cquisito charitatis et eius actu.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e170">
+          ⁋ Quin 
+          <lb ed="#P" n="53"/>ta: an quis posset mereri gratiam et gloriam in instanti 
+          <lb ed="#P" n="54"/> Sexta: an circunstantia temporis augeat meritum 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e177">
+          <lb ed="#P" n="55"/>⁋ Septima: an tantum meretur habens actum me 
+          <lb ed="#P" n="56"/>ritorium interiorem tantum: quantum habens exteriorem 
+          <lb ed="#P" n="57"/>iunctum: et tantum gratie infuse acquirat.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e187">
+          ⁋ Dcta 
+          <lb ed="#P" n="58"/>ua: an aliquis actus est intrinsece meritorius.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e192">
+          ⁋ 
+          No<lb ed="#P" n="59" break="no"/>na: an charitas sit diminuibilis.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e197">
+          ⁋ Propterea
+          pri<lb ed="#P" n="60" break="no"/>mo queritur: an gratia creata sit viatori necessaria 
+          <lb ed="#P" n="61"/>ad salutem.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e204">
+          ⁋ Respondetur per aliquas conclusiones 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e207">
+          <lb ed="#P" n="62"/>⁋ Prima est. ponenda est aliqua cbharitas accidens 
+          <lb ed="#P" n="63"/>anime inheres.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e214">
+          ⁋ Secunda conclusio. deus potest 
+          <!--107.xml-->
+          <cb ed="#P" n="b"/>
+          <!-- 46vb -->
+          <lb ed="#P" n="64"/>aliquem saluare de potentia absoluta sine charitate. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e226">
+          <lb ed="#P" n="65"/>⁋ Tertiam conclusio. non est possibile secundum legen 
+          <lb ed="#P" n="66"/>dei iam positam aliquem saluari sine charitate 
+          in<lb ed="#P" n="67" break="no"/>fusa.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e235">
+          ⁋ Prima conclusio probatur auctoritate 
+          Apo<lb ed="#P" n="68" break="no"/>stoli. <ref xml:id="jm12w4-e31217-Rd1e239">prime ad Corin. xiii.</ref> <quote xml:id="jm12w4-e31217-Qd1e242" source="http://scta.info/resource/Icor13_1" synch="1-6">Si linguis hominum 
+          lo<lb ed="#P" n="69" break="no"/>quar et angelorum</quote> etc. Dices ibi. loquitur de charitate 
+          <lb ed="#P" n="70"/>increata.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e244">
+          ⁋ hoc non est ad eius mentem: cum in 
+          fi<lb ed="#P" n="71" break="no"/>ne capt. dicat. manet fides spes et charitas tria hec 
+          <lb ed="#P" n="72"/>Maior autem horum charitas. Non enim comparasset 
+          <lb ed="#P" n="73"/>charitatem increatam cum alis duabus: nec dubium 
+          <lb ed="#P" n="74"/>fuisset quin charitas increata sit maxima horum 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e255">
+          <lb ed="#P" n="75"/>⁋ Item <ref xml:id="jm12w4-e31217-Rd1e259">ad Romanos quinto</ref>. <quote xml:id="jm12w4-e31217-Qd1e262" source="http://scta.info/resource/rom5_5">Charitas dei 
+            diffu<lb ed="#P" n="76" break="no"/>sa est in cordibus nostris per spiritum sanctum qui 
+            <lb ed="#P" n="77"/>datus est nobis.</quote>
+        </p>
+        <p xml:id="jm12w4-e31217-d1e270">
+          ⁋ Insuper hoc patet de summa 
+          tri<lb ed="#P" n="78" break="no"/>nitate et fide catholica. ca. Damnamus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e275">
+          ⁋ Rursus 
+          <lb ed="#P" n="79"/>fides et spes infuse ponuntur accidentia distincta a 
+          <lb ed="#P" n="80"/>spiritusancto per Magistrum: ergo e charitas: vel 
+          <lb ed="#P" n="81"/>detur discrimen.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e285">
+          ⁋ Item <name xml:id="jm12w4-e31217-Nd1e287" ref="#Augustine">Augustinus</name> in libro de 
+          <lb ed="#P" n="82"/>videndo deo. Ecce etiam charitas quantulacunque 
+          <lb ed="#P" n="83"/>etiam in voluntate nostra consistit: nobisque conspi 
+          <lb ed="#P" n="84"/>cua est: nec in loco videtur: nec corporalibus oculis 
+          <lb ed="#P" n="85"/>que nec subscribitur visu nec tactu tenetur: nec au 
+          <lb ed="#P" n="86"/>ditur affatu: nec sequitur incessu: quanto magis deus 
+          <lb ed="#P" n="87"/>ipse cuius hoc pignus in nobis est.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e304">
+          ⁋ hoc idem 
+          pa<lb ed="#P" n="88" break="no"/>tet in Epistola ad Fortunatum. Et Oregorius 
+          se<lb ed="#P" n="89" break="no"/>cundo moralium. alia (inquit) sunt dona 
+          spiritus<lb ed="#P" n="90" break="no"/>sancti: sine quibus ad vitam nequaquam pertingitur: 
+          <lb ed="#P" n="91"/>alia quibus vite sanctitas pro aliorum vtilitate 
+          de<lb ed="#P" n="92" break="no"/>claratur. Et sequitur. Mansuetudo namque / humilitas 
+          <lb ed="#P" n="93"/>patientia / fides / spes / charitas / dona eius sunt: si 
+          <lb ed="#P" n="94"/>ne quibus ad vitam homines pruenire non possunt 
+          <lb ed="#P" n="95"/>Et in tricesimo septimo. bona summa sunt / fides 
+          <lb ed="#P" n="96"/>spes / et charitas: que cum veraciter habentur in ma 
+          <lb ed="#P" n="97"/>lo inflecti non possunt.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e328">
+          ⁋ Secunda conclusio probatur 
+          <lb ed="#P" n="98"/>deus potest dare alicui spiritum sanctum: non 
+          dan<lb ed="#P" n="99" break="no"/>do eius donum. et talis saluabitur. igitur.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e335">
+          ⁋ Insu 
+          <lb ed="#P" n="100"/>per aliquis est scriptus in libro vite secundum 
+          pre<lb ed="#P" n="101" break="no"/>scientiam dei: vel eternam eius predestinationem 
+          <lb ed="#P" n="102"/>et non secundum praesentem iustitiam. et talem potest 
+          <lb ed="#P" n="103"/>deus sic perpetuo seruare sine charitate.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e346">
+          ⁋ 
+          Ter<lb ed="#P" n="104" break="no"/>tio potest deus creare hominem sine charitate et 
+          si<lb ed="#P" n="105" break="no"/>ne culpa: et acceptare talem ad vitam eternam: e 
+          <lb ed="#P" n="106"/>actus eius ad premium: vel ei conferre (sicut 
+          commu<lb ed="#P" n="107" break="no"/>nius putatur de beatitudine anime Christi) 
+          pre<lb ed="#P" n="108" break="no"/>mium sine meritis.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e359">
+          ⁋ Tertiam conclusio patet per 
+          Apo<lb ed="#P" n="109" break="no"/>stolum. prime ad Corum. xiii. Si linguis hominum lo 
+          <lb ed="#P" n="110"/>quar a angelorum: charitatem autem non 
+          habue<lb ed="#P" n="111" break="no"/>ro: nihil mihi prodest.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e369">
+          ⁋ Item: quintodecimo de 
+          <lb ed="#P" n="112"/>trinitate. capite decimooctauo. Ipsa diuidit inter 
+          <lb ed="#P" n="113"/>filios regni et perditionis. est vestis nuptialis: Mat 
+          <lb ed="#P" n="114"/>thei xxii. sine qua non peruenitur ad nuptias.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e378">
+          ⁋ Con 
+          <lb ed="#P" n="115"/>tra primam conclusionem arguitur. argumentis Ma 
+          <lb ed="#P" n="116"/>gistri que introducit in litera: quibus monebatur 
+          <lb ed="#P" n="117"/>nullam ponere charitatem creatam. octauo de tri 
+          <lb ed="#P" n="118"/>nitate. capitulo septimo. qui proximum diligit: con 
+          <lb ed="#P" n="119"/>sequens est vt ipsum dilectione precipua diligat: 
+          <lb ed="#P" n="120"/>deus autem dilectio est. nam qui manet in dilectio 
+          <lb ed="#P" n="121"/>ne indeo manet. octauo capitulo eiusdem libri 
+          si<lb ed="#P" n="122" break="no"/>milem smniam ponit.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e398">
+          ⁋ Sed ad istas auctoritates et 
+          <lb ed="#P" n="123"/>siles sicubi inueniantur dibiter: quod intelliguntur de charita 
+          <lb ed="#P" n="124"/>te increata: charitas increata est speuns sanctus: 
+          crea<lb ed="#P" n="125" break="no"/>ta habitus inclinans habentem in actus meritorios 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e407">
+          <lb ed="#P" n="126"/>⁋ Contra secundam conclusionem argnitur. bene sequitur 
+          sor<lb ed="#P" n="127" break="no"/>tes est saluatus. ergo est deo charus: ergo habet charitatem. 
+          <lb ed="#P" n="128"/>nemo enim potest esse albus sine albedine. ergo neque cha¬ 
+          <!--108.xml-->
+          <pb ed="#P" n="47-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rus sine charitate.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e425">
+          ⁋ Distinguitur primo consequens: vel cha 
+          <lb ed="#P" n="2"/>rus formaliter. et sic non oportet: vel in acceptatione d 
+          <lb ed="#P" n="3"/>uina: et sic conceditur potissimum in actu meritorio est ad 
+          <lb ed="#P" n="4"/>ceptatio diuina. Nec est simile de albo quod fieri non 
+          po<lb ed="#P" n="5" break="no"/>test tale sine albedine.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e436">
+          ⁋ Contra tertiam conclusionem 
+          <lb ed="#P" n="6"/>argumentor. qualibet charitate sine sortes potest sal 
+          <lb ed="#P" n="7"/>uari: ergo sortes potest saluari sine charitate: tenet 
+          <lb ed="#P" n="8"/>consequentia nomina et verba transposita idem significant secundo 
+          <lb ed="#P" n="9"/>peri hermenias seruatis proprietatibus logicalibus: 
+          <lb ed="#P" n="10"/>quemadmodum est hic. de ampliatione non est sermo: quia 
+          <lb ed="#P" n="11"/>termini eodem modo supponunt.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e453">
+          ⁋ Insuper singulares 
+          <lb ed="#P" n="12"/>istarum duarum er parte termini charitate equalent. ergo 
+          <lb ed="#P" n="13"/>ille due equiualent: patet ascendendo sub termino 
+          chari<lb ed="#P" n="14" break="no"/>tate copulatiue: qundam vtrobique distribuitur.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e462">
+          ⁋ Ad primum 
+          <lb ed="#P" n="15"/>nego quod equiualeant ille assumpte: prior enim est vera: se 
+          <lb ed="#P" n="16"/>cunda est falsa: quia est determinatio accepta vnica ac 
+          <lb ed="#P" n="17"/>ceptione cum suo determinabili in secunda: non autem in priori. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e471">
+          <lb ed="#P" n="18"/>⁋ Ad secundum nego quod liceat vniformiter capere 
+          sin<lb ed="#P" n="19" break="no"/>gulares sub isto termino charitate in vtraque. oportet enim 
+          <lb ed="#P" n="20"/>descendere disiunctim in vna sic: sortes potest saluar 
+          <lb ed="#P" n="21"/>sine hac: vel hac charitate: et sic de singulis.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e482">
+          ⁋ Ulte 
+          <lb ed="#P" n="22"/>rius dicitur quando habes hanc modalem diuisam concessam. 
+          <lb ed="#P" n="23"/>sortes potest saluari sine charitate: non habes conclu 
+          <lb ed="#P" n="24"/>sionem que est modalis composita. non pono discrimen 
+          <lb ed="#P" n="25"/>inter potest et possibiliter est: nec dabitur de inesse per 
+          <lb ed="#P" n="26"/>hanc sortes saluatur sine charitate: sed per plures 
+          sin<lb ed="#P" n="27" break="no"/>gulares sic: sortes saluatur sine hac charitate: sortes 
+          <lb ed="#P" n="28"/>aluatur sine haccharitate: modo quelibet illarum es 
+          <lb ed="#P" n="29"/>possibilis. Nulla autem est apparentia talium 
+          consequentia<lb ed="#P" n="30" break="no"/>rum: possibile est sortem saluari sine hac charitate: pos 
+          <lb ed="#P" n="31"/>sibile est sortem saluari sine illa charitate: et sic de sin 
+          <lb ed="#P" n="32"/>gulis: ergo possibile est sortem saluari sine charitate: patet 
+          <lb ed="#P" n="33"/>ex artibus. Non sto in talibus: nullam charitatem habens po 
+          <lb ed="#P" n="34"/>test mereri: nullam charitatem habendo tum potes 
+          mere<lb ed="#P" n="35" break="no"/>ri: omnia illa sunt peruia intelligendi logicam: siue expona 
+          <lb ed="#P" n="36"/>tur per dum / si / vel quia: nulla est difficultas.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e517">
+          ⁋ Secundo 
+          ar<lb ed="#P" n="37" break="no"/>guitur contra eandem conclusionem. aliquis actus est 
+          meri<lb ed="#P" n="38" break="no"/>torius elicitus in peccato mortali: ergo charitas non es 
+          <lb ed="#P" n="39"/>necessaria ad salutem: consequentia claret: et probatur antecedens: elicia 
+          <lb ed="#P" n="40"/>sortes dilectionem proximi in peccato mortali: detestetur 
+          <lb ed="#P" n="41"/>suum peccatum mortale continuando suum actum 
+          dilectio<lb ed="#P" n="42" break="no"/>nis proximi tunc sic: pao isto actu dabitur vita 
+          eter<lb ed="#P" n="43" break="no"/>na: hic actus est elicitus in peccato mortali. ergo pro 
+          <lb ed="#P" n="44"/>actu elicito in peccato mortali dabitur vita eterna. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e537">
+          <lb ed="#P" n="45"/>⁋ Insuper nec hec charitas est necessaria ad 
+          salu<lb ed="#P" n="46" break="no"/>tem nec illa: et sic de singulis. ergo nulla charitas est 
+          <lb ed="#P" n="47"/>necessaria ad salutem. antecedens patet per ascensum 
+          <lb ed="#P" n="48"/>uacumque charitate data sine illa potest esse sorti salus: 
+          <lb ed="#P" n="49"/>igitur.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e551">
+          ⁋ Ad primum pono propositiones.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e554">
+          ⁋ Prima 
+          <lb ed="#P" n="50"/>est pro actufacto in peccato mortali dabitur vita 
+          eter<lb ed="#P" n="51" break="no"/>na. Patet per argumentum: cum pro eo continuato tem 
+          <lb ed="#P" n="52"/>pore infusionis gratie dabitir vita eterna et ille actus 
+          <lb ed="#P" n="53"/>fuit elicitus in peccato mortali. igitur.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e565">
+          ⁋ Secunda 
+          pro<lb ed="#P" n="54" break="no"/>positio aliquis est actus meritorius vite eterne 
+          fa<lb ed="#P" n="55" break="no"/>ctus in peccato mortali patet ex priori: et ex amplia 
+          <lb ed="#P" n="56"/>tione participii factus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e574">
+          ⁋ Tertia propositio: nunquam 
+          <lb ed="#P" n="57"/>pro actu elicito in peccatomortali datur gratia per 
+          <lb ed="#P" n="58"/>talem electionem: et illo tempore quo actus est cum 
+          <lb ed="#P" n="59"/>mortali peccato actum habens non meretur gratiam 
+          <lb ed="#P" n="60"/>nec gloriam: bene tamen pro alio tempore: et hoc 
+          to<lb ed="#P" n="61" break="no"/>tum consurgit: eo quod idem actus nunero qui est 
+          bonu<lb ed="#P" n="62" break="no"/>moraliter elicitus cum mortali continuatus libere posi 
+          <lb ed="#P" n="63"/>instans infusionis gratie incipit esse meritorius in illo 
+          <lb ed="#P" n="64"/>instanti et post illud instans erit meritorius.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e594">
+          ⁋ Ad se 
+          <lb ed="#P" n="65"/>cundum dicitur per propositiones.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e599">
+          ⁋ Prima nulla 
+          <lb ed="#P" n="66"/>charitas est necessaria ad salutem de lege iam posita: 
+          <!--108.xml-->
+          <cb ed="#P" n="b"/>
+          <!-- 47rb -->
+          <lb ed="#P" n="67"/>patet per argumentum.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e613">
+          ⁋ Secunda propositio necesse 
+          <lb ed="#P" n="68"/>est habere charitatem: si sortes debeat saluari secundum 
+          <lb ed="#P" n="69"/>legem vt necesse cadat in totam conditionalem.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e620">
+          ⁋ 
+          Ter<lb ed="#P" n="70" break="no"/>tio arguitur: aliquis est charus deo sine charitate: quod 
+          <lb ed="#P" n="71"/>patet: proferat sacerdos ego te baptizo. etc. super vno 
+          <lb ed="#P" n="72"/>paruulo qui in primo instanti non esse verborum moriatur. 
+          <lb ed="#P" n="73"/>Arguitur sic talis saluabitur. ergo est deo charus 
+          secun<lb ed="#P" n="74" break="no"/>dum legem: et tamen non habuit charitatem in aliquo 
+          <lb ed="#P" n="75"/>instanti vite sue.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e636">
+          ⁋ Insuper ponatur quod deus 
+          preci<lb ed="#P" n="76" break="no"/>piat sorti diligere eum ante a instans terminatiuum 
+          ho<lb ed="#P" n="77" break="no"/>re future omittat sortes: et successiue cadat in furiam 
+          <lb ed="#P" n="78"/>vel temulentiam: iam sortes est in peccato mortali ante 
+          <lb ed="#P" n="79"/>a instans: tenendo alteram solutionum in. xvi. di. quarti et 
+          <lb ed="#P" n="80"/>adhuc est in gratia.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e649">
+          ⁋ Preterea idem actus est meri 
+          <lb ed="#P" n="81"/>torius et demeritorius. patet de actu quo quis facit ali 
+          <lb ed="#P" n="82"/>uid propter deum et inanem gloriam venialem: qui 
+          duo<lb ed="#P" n="83" break="no"/>bus actibus equiualet: quorum alter est bonus. ergo sal 
+          <lb ed="#P" n="84"/>tem iste est bonus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e660">
+          ⁋ Rursus: aliquis simul et semel 
+          <lb ed="#P" n="85"/>meretur et demcretur: nec possunt dari diuersi actus 
+          <lb ed="#P" n="86"/>ad hoc saluandum. ergo per eundem actum. assumptum patet. 
+          <lb ed="#P" n="87"/>precipiat deus sorti nolle mereri toto isto die vel 
+          ho<lb ed="#P" n="88" break="no"/>ra sortes non potest illud preceptum transgredi nihil fa 
+          <lb ed="#P" n="89"/>ciendo: quia sequitur sortes nihil facit. ergo non mere 
+          <lb ed="#P" n="90"/>tur actu elicito. Nec potest preceptum transgredi actu 
+          <lb ed="#P" n="91"/>demeritorio: quia si sic sit ita quod non habeat actum 
+          elici<lb ed="#P" n="92" break="no"/>tum nisi illum quem ponit aduersarius esse demeritorium. 
+          <lb ed="#P" n="93"/>Si ille conceditur simul esse meritorius: habetur propo 
+          <lb ed="#P" n="94"/>situm. Si non: tunc non meretur actuelicito. ergo non 
+          <lb ed="#P" n="95"/>transgreditur preceptum illud. nec potest actu meritorio 
+          <lb ed="#P" n="96"/>pari ratione: nec actu indifferenti. ergo vel nullo actu po 
+          <lb ed="#P" n="97"/>test illud preceptum transgredi: vel actu meritorio 
+          so<lb ed="#P" n="98" break="no"/>lum.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e693">
+          ⁋ Sed dices sortes potest transgredi preceptum 
+          <lb ed="#P" n="99"/>datum licet non mereatur actu elicito: sufficit eim ad  
+          <lb ed="#P" n="100"/>transgressionem quod habeat voluntatem non implendi quod 
+          si<lb ed="#P" n="101" break="no"/>bi precipitur: vel faciendi sibi inhibitum: vt volens 
+          occide<lb ed="#P" n="102" break="no"/>re est transgressor precepti de homicidio: et tamen 
+          vel<lb ed="#P" n="103" break="no"/>le occidere non pius est occidere quam velle mereri actu 
+          <lb ed="#P" n="104"/>elicito scienter contra preceptum sit mereri.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e710">
+          ⁋ 
+          Con<lb ed="#P" n="105" break="no"/>tra: ponatur quod nihil ei imputetur ad transgressionem 
+          <lb ed="#P" n="106"/>illius precepti nisi actus meritorius elicitus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e717">
+          ⁋ Ad  
+          <lb ed="#P" n="107"/>tertium responsum est in sua materia alibi.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e722">
+          ⁋ Ad aliud  
+          <lb ed="#P" n="108"/>dictum est in secunda. q. decimeseptime distinctionis 
+          <lb ed="#P" n="109"/>quarti.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e729">
+          ⁋ Ad aliud dicitur quod talis actus est solum 
+          de<lb ed="#P" n="110" break="no"/>meritorius nec duobus actibus (vt dictum est) 
+          equi<lb ed="#P" n="111" break="no"/>ualet.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e736">
+          ⁋ Ad aliud inter arguendum sufficienter 
+          di<lb ed="#P" n="112" break="no"/>ctum est ad replicam vsque in calce positam. et vlterius 
+          <lb ed="#P" n="113"/>dicitur quod illud non est rationabile quod precipitur. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e743">
+          <lb ed="#P" n="114"/>⁋ Dubitatur: an charitas infundatur secundum quod 
+          <lb ed="#P" n="115"/>homo meretur: an in instanti terminante actuns
+        </p>
+        <p xml:id="jm12w4-e31217-d1e751">
+          ⁋ Re 
+          <lb ed="#P" n="116"/>spondetur: quod deus potest infundere secundum quod ei 
+          <lb ed="#P" n="117"/>placet: sed de lege conforme rationi videtur: quod deus creet 
+          <lb ed="#P" n="118"/>gratiam secundum quod homo meretur: sim instanti: in illo 
+          in<lb ed="#P" n="119" break="no"/>rundit gratiam. si successiue: partibiliter creat gratiam 
+          <lb ed="#P" n="120"/>Ratio est: quia charitas concurrit ad actum meritorium: et 
+          <lb ed="#P" n="121"/>deus dat viro suum auxilium vt mereatur secundum quod ipse 
+          ha<lb ed="#P" n="122" break="no"/>bet bonum actum.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e769">
+          ⁋ Aliqui dicunt quod pro actu remisso 
+          <lb ed="#P" n="123"/>non datur gratia quibus non credimus. Et arguitur quod 
+          <lb ed="#P" n="124"/>sic: vel requiritur quod actus sit alicuius certe intensionis 
+          <lb ed="#P" n="125"/>ad hoc vt gratia infundatur: et quero quanteus et 
+          dice<lb ed="#P" n="126" break="no"/>re nescis. sequitur ergo quod quecumque intensio 
+          gradua<lb ed="#P" n="127" break="no"/>lis sufficit ad gratie infusionem.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e782">
+          ⁋ Sed contra hoc 
+          <lb ed="#P" n="128"/>argumentor. Apocalypsis. iii. Scio ego operatua: quia 
+          <lb ed="#P" n="129"/>neque frigidus es neque calidus: vtinam frigidus esses aut 
+          <lb ed="#P" n="130"/>calidus: sed quia tepidus es etc. incipiam te euomere etc. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e791">
+          <lb ed="#P" n="131"/>⁋ Insuper absonum videtur quod deus expectet concursum vo 
+          <lb ed="#P" n="132"/>luntatis creando gratiam.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e798">
+          ⁋ Respondetur: quod illa aucto¬ 
+          <!--109.xml-->
+          <pb ed="#P" n="47-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ritas nihil est contra nos: per frigidum intelligitur ille 
+          <lb ed="#P" n="2"/>qui timet peccare formidine pene: per tepidum 
+          ocio<lb ed="#P" n="3" break="no"/>sum.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e814">
+          ⁋ Ad aliud negatur id esse ablonu. None enim 
+          <lb ed="#P" n="4"/>deus concurrit cum caula secunda qualibet: et tamen interdum in 
+          <lb ed="#P" n="5"/>creatione expectat dispositionem cause secunde: vt in crea 
+          <lb ed="#P" n="6"/>tione anime intellectiue post materiam dispositam in matter 
+          <lb ed="#P" n="7"/>ce.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e826">
+          ⁋ Circa hanc questionem dubitatur vtrum omnis actus 
+          <lb ed="#P" n="8"/>elicitus a gratia sit meritorius vite eterne.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e831">
+          ⁋ 
+          Respo<lb ed="#P" n="9" break="no"/>detur affirmatiue. Probatur per communem modum loquem 
+          <lb ed="#P" n="10"/>di in theologia.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e838">
+          ⁋ Et confirmatur si hoc non esset 
+          ve<lb ed="#P" n="11" break="no"/>rum: maxime instaretur de actu ipsius reprobi: sed ibi 
+          <lb ed="#P" n="12"/>non est instandum. stat quod eliciat actum elicitum a gratia 
+          <lb ed="#P" n="13"/>cum maiori conatu circa ita bonum obiectum sicut facit 
+          il<lb ed="#P" n="14" break="no"/>le electus: sed constat quod electus meretur vitam eternam 
+          <lb ed="#P" n="15"/>ergo e reprobus.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e851">
+          ⁋ Preterea si non mereretur vitam 
+          <lb ed="#P" n="16"/>eternam hoc ideo esset quia non habebit vitam eternam. 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e856">
+          <lb ed="#P" n="17"/>⁋ hoc autem non valet: quia batuns Petrus in negatione 
+          de<lb ed="#P" n="18" break="no"/>meruit vitam etrnam: et betam Magdalena in suis operi 
+          <lb ed="#P" n="19"/>bus mortalibus: et tamen isti non habuerunt vitam eternam: 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e865">
+          <lb ed="#P" n="20"/>⁋ Similiter si rex statuat quod aliquis propter a actum 
+          <lb ed="#P" n="21"/>mereatur b premium infra vnum annum vel mensem: si 
+          ta<lb ed="#P" n="22" break="no"/>lis incurrat crimem maiestatis lese perdit priora meri 
+          <lb ed="#P" n="23"/>ta: nec habebit premium.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e877">
+          ⁋ Sed contra hanc
+          conclusio<lb ed="#P" n="24" break="no"/>nem arguitur sic: iste simpliciter et absolute meruit
+          pre<lb ed="#P" n="25" break="no"/>mium vite eterne: ergo simpliciter et absolute ipsi 
+          red<lb ed="#P" n="26" break="no"/>detur premium vite eterne: deus enim reddit vnicuique 
+          <lb ed="#P" n="27"/>secundum merita sua: sed si iste non habeat vitam eternam: non 
+          <lb ed="#P" n="28"/>premiabitur premio secundum meritum suum. Non valet
+          d<lb ed="#P" n="29" break="no"/>cere: nunc meretur vitam eternam: sed nunquam meruit vitam 
+          <lb ed="#P" n="30"/>eternam: sicut hericus it romam: sed nunquam iuit romam: 
+          <lb ed="#P" n="31"/>nisi attingat romam.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e897">
+          ⁋ hoc enim non valet si illa de prae 
+          <lb ed="#P" n="32"/>senti sit vera post lapsum temporis metitur veritatem 
+          pro<lb ed="#P" n="33" break="no"/>positionis de praeterito.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e904">
+          ⁋ Insuper susceptio 
+          sacramen<lb ed="#P" n="34" break="no"/>ti non est homini reprobo opus meritorium vite eterne 
+          <lb ed="#P" n="35"/>ergo nec aliqua alia eius operatio. Atecedens patet per 
+          Ma<lb ed="#P" n="36" break="no"/>gistrum sententiarum. iiii. sente. di. iiii. ca. prio recitantem 
+          <lb ed="#P" n="37"/>dicta beati <name xml:id="jm12w4-e31217-Nd1e914" ref="#Augustine">Aug.</name> quod sacramenta in solis electis efficiunt 
+          <lb ed="#P" n="38"/>quod figurant.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e921">
+          ⁋ Ad primum negatur consequentia nisi in consequen 
+          <lb ed="#P" n="39"/>te apponatur / nisi impediat remunerationem 
+          culpabi<lb ed="#P" n="40" break="no"/>liter et perdat merita sua sine recuperatione: nec hoc 
+          <lb ed="#P" n="41"/>est contra legem mie vel iustitie. Sed dictum est in. iiii. di. 
+          <lb ed="#P" n="42"/>xv. quiu. prima: quid habebit pro actibus suis meritoriis 
+        </p>
+        <p xml:id="jm12w4-e31217-d1e932">
+          <lb ed="#P" n="43"/>⁋ Ad aliud negatur antecedens. et ad probationem. non est illud 
+          <lb ed="#P" n="44"/>intelligendum quin vere et realiter recipiant gratiam pe 
+          <lb ed="#P" n="45"/>quam sunt sub merito vite eterne: sed intelligitur quod pe 
+          <lb ed="#P" n="46"/>illam non consequentur de facto vitam eternam: quia cadent a 
+          <lb ed="#P" n="47"/>gratia et merito.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e945">
+          ⁋ Secundo principaliter arguitur: quod 
+          <lb ed="#P" n="48"/>non conuenit alicui nisi sub certa conditione a hypothe 
+          <lb ed="#P" n="49"/>si / si conditio simpliciter non stat: illud simpliciter et ab 
+          <lb ed="#P" n="50"/>solute non conuenit illi: sed isti reprobo existenti in gra 
+          <lb ed="#P" n="51"/>tia non conuenit mereri vitam eternam nisi sub conditi 
+          <lb ed="#P" n="52"/>ne et hypothesi perseuerantie finalis: et cum exclusione 
+          <lb ed="#P" n="53"/>inalis impenitetie.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e962">
+          ⁋ Preterea deus nullos repro 
+          <lb ed="#P" n="54"/>bos potest saluare: igitur nullus reprobus potest 
+          me<lb ed="#P" n="55" break="no"/>reri vitam eternam: ex opposito enim sequitur oppositum: 
+          <lb ed="#P" n="56"/>antecedens enim est verum in sensu composito. ergo con 
+          <lb ed="#P" n="57"/>sequens erit verum in eodem sensu.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e973">
+          ⁋ Ad primum 
+          <lb ed="#P" n="58"/>negatur minor: immo simpliciter et absolute meruit 
+          <lb ed="#P" n="59"/>vitam eternam.
+        </p>
+        <p xml:id="jm12w4-e31217-d1e980">
+          ⁋ Ad aliud. antecedens est falsum 
+          <lb ed="#P" n="60"/>in sensu diuiso: et sic conceditur consequens: in sensu composito con 
+          <lb ed="#P" n="61"/>cedo antecedens negando consequentiam: in quocumque 
+          <lb ed="#P" n="62"/>sensu sumatur consequens. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

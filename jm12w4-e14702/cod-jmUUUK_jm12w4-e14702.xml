@@ -138,9 +138,9 @@
               <lb ed="#P" n="107"/>sed hoc est inconueniens: ergo non distinguitur ab ea. 
             </p>
             <p xml:id="jm12w4-e14702-d1e264">
-              <lb ed="#P" n="108"/>⁋ Item <name xml:id="jm12w4-e14702-Nd1e268" ref="#Augustine">Aug.</name> xiiii. de ciuitate dei capitulo. vii. dicit quod 
-              <lb ed="#P" n="109"/><quote xml:id="jm12w4-e14702-Qd1e272" source="http://scta.info/resource/adcd-l14-d1e2006" synch="182-195">amor fruens est letitia</quote>. et <ref xml:id="jm12w4-e14702-Rd1e275">primo de trinitate capit. x</ref> 
-              <lb ed="#P" n="110"/><quote xml:id="jm12w4-e14702-Qd1e280" source="http://scta.info/resource/adt-l1-d1e93" synch="26-43">plenum gaudium est frui diuinitate</quote>. et <ref xml:id="jm12w4-e14702-Rd1e283">primo ethicorum dicit 
+              <lb ed="#P" n="108"/>⁋ Item <ref xml:id="jm12w4-e14702-Rg77aa7" corresp="#jm12w4-e14702-Qd1e272"><name xml:id="jm12w4-e14702-Nd1e268" ref="#Augustine">Aug.</name> xiiii. de ciuitate dei capitulo. vii.</ref> dicit quod 
+              <lb ed="#P" n="109"/><quote xml:id="jm12w4-e14702-Qd1e272" source="http://scta.info/resource/adcd-l14-d1e2006@182-195">amor fruens est letitia</quote>. et <ref xml:id="jm12w4-e14702-Rd1e275" corresp="#jm12w4-e14702-Qd1e280">primo de trinitate capit. x</ref> 
+              <lb ed="#P" n="110"/><quote xml:id="jm12w4-e14702-Qd1e280" source="http://scta.info/resource/adt-l1-d1e93@26-43">plenum gaudium est frui diuinitate</quote>. et <ref xml:id="jm12w4-e14702-Rd1e283">primo ethicorum dicit 
               <lb ed="#P" n="111"/>Arisio.</ref> quod delectatio perficit operatione. ergo est finis 
               <lb ed="#P" n="112"/>ad quem fiunt operationes.
             </p>

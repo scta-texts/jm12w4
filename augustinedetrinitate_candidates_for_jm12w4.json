@@ -1,0 +1,270 @@
+{
+  "jm12w4-e35095": {
+    "jm12w4-e35095-d1e532": [
+      {
+        "candidate_id": "adt-l14-d1e1535",
+        "intersectionCount": 14,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e54756": {
+    "jm12w4-e54756-d1e1012": [
+      {
+        "candidate_id": "adt-l1-d1e36",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation: beati Augu. primo de tri. capi quarto; @1-34; MS abbreviates, remainder is paraphrase"
+      }
+    ]
+  },
+  "jm12w4-e10781": {
+    "jm12w4-e10781-d1e283": [
+      {
+        "candidate_id": "adt-l10-d1e1166",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation: Augustinum x. de trinitate cap. x; adt-l10-d1e1166@230-243"
+      }
+    ]
+  },
+  "jm12w4-e12850": {
+    "jm12w4-e12850-d1e459": [
+      {
+        "candidate_id": "adt-l15-d1e1972",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation: xv. de trinitate ca. xvi; adt-l15-d1e1972@72-84"
+      }
+    ],
+    "jm12w4-e12850-d1e696": [
+      {
+        "candidate_id": "adt-l10-d1e1125",
+        "intersectionCount": 20,
+        "status": "encoded",
+        "note": "explicit citation: Augustinum decimo de trinitate capitulo primo; adt-l10-d1e1125@97-159"
+      }
+    ]
+  },
+  "jm12w4-e15550": {
+    "jm12w4-e15550-d1e218": [
+      {
+        "candidate_id": "adt-l1-d1e90",
+        "intersectionCount": 14,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e15550-d1e274": [
+      {
+        "candidate_id": "adt-l1-d1e90",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation: primo de trinitate cap. viii; adt-l1-d1e90@237-258; MS interrupts quote with 'Subiungit rationem...' commentary"
+      }
+    ]
+  },
+  "jm12w4-e20256": {
+    "jm12w4-e20256-d1e1279": [
+      {
+        "candidate_id": "adt-l14-d1e1668",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l15-d1e1769",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e21845": {
+    "jm12w4-e21845-d1e681": [
+      {
+        "candidate_id": "adt-l8-d1e971",
+        "intersectionCount": 26,
+        "status": "encoded",
+        "note": "explicit citation: Augustinum viii. de trinitate cap. iiii.; adt-l8-d1e971@163-213"
+      }
+    ]
+  },
+  "jm12w4-e24912": {
+    "jm12w4-e24912-d1e1911": [
+      {
+        "candidate_id": "adt-l1-d1e11",
+        "intersectionCount": 18,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e28202": {
+    "jm12w4-e28202-d1e139": [
+      {
+        "candidate_id": "adt-l1-d1e14",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e29902": {
+    "jm12w4-e29902-d1e322": [
+      {
+        "candidate_id": "adt-l5-d1e753",
+        "intersectionCount": 4,
+        "status": "encoded"
+      }
+    ],
+    "jm12w4-e29902-d1e371": [
+      {
+        "candidate_id": "adt-l5-d1e759",
+        "intersectionCount": 8,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e30240": {
+    "jm12w4-e30240-d1e147": [
+      {
+        "candidate_id": "adt-l15-d1e1978",
+        "intersectionCount": 20,
+        "also_in_bible_candidates": true,
+        "status": "encoded"
+      },
+      {
+        "candidate_id": "adt-l4-d1e646",
+        "intersectionCount": 25,
+        "also_in_bible_candidates": true,
+        "status": "encoded"
+      },
+      {
+        "candidate_id": "adt-l4-d1e643",
+        "intersectionCount": 27,
+        "also_in_bible_candidates": true,
+        "status": "encoded"
+      },
+      {
+        "candidate_id": "adt-l15-d1e1991",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e30240-d1e434": [
+      {
+        "candidate_id": "adt-l5-d1e756",
+        "intersectionCount": 21,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e31217": {
+    "jm12w4-e31217-d1e255": [
+      {
+        "candidate_id": "adt-l15-d1e1893",
+        "intersectionCount": 10,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l13-d1e1460",
+        "intersectionCount": 11,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l8-d1e996",
+        "intersectionCount": 11,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l7-d1e874",
+        "intersectionCount": 7,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e31217-d1e378": [
+      {
+        "candidate_id": "adt-l8-d1e996",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation: octauo de trinitate. capitulo septimo; verbatim quote 'deus autem dilectio est...indeo manet' @296-307; preceding text is paraphrase"
+      }
+    ]
+  },
+  "jm12w4-e38949": {
+    "jm12w4-e38949-d1e112": [
+      {
+        "candidate_id": "adt-l8-d1e1006",
+        "intersectionCount": 6,
+        "status": "not_found",
+        "note": "isolated one-sentence paragraph with no attribution; phrase matches but no attribution marker present"
+      }
+    ]
+  },
+  "jm12w4-e40347": {
+    "jm12w4-e40347-d1e899": [
+      {
+        "candidate_id": "adt-l13-d1e1428",
+        "intersectionCount": 7,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e68048": {
+    "jm12w4-e68048-d1e205": [
+      {
+        "candidate_id": "adt-l1-d1e59",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e68048-d1e545": [
+      {
+        "candidate_id": "adt-l13-d1e1492",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e68048-d1e1216": [
+      {
+        "candidate_id": "adt-l1-d1e49",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l13-d1e1387",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l13-d1e1390",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l4-d1e517",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e80244": {
+    "jm12w4-e80244-d1e1119": [
+      {
+        "candidate_id": "adt-l13-d1e1507",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adt-l15-d1e1696",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e81767": {
+    "jm12w4-e81767-d1e335": [
+      {
+        "candidate_id": "adt-l14-d1e1659",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      }
+    ]
+  }
+}

@@ -309,7 +309,7 @@
               relin<lb ed="#P" n="54" break="no"/>quuntur.
             </p>
             <p xml:id="jm12w4-e40347-d1e573">
-      ⁋ Quito arguitur sic. Marci quinto: <quote source="http://scta.info/resource/mt5_28@6-19">qui
+      ⁋ Quito arguitur sic. Marci quinto: <quote xml:id="jm12w4-e40347-Qd1e567" source="http://scta.info/resource/mt5_28@6-19">qui
               vi<lb ed="#P" n="55" break="no"/>derit mulierem ad concupiscendum eam: iam mechatus
               <lb ed="#P" n="56"/>est in corde suo.</quote>
             </p>
@@ -758,7 +758,7 @@
               di<lb ed="#P" n="100" break="no"/>citur quod talis peccat. potest enim quis tacere verum 
               <lb ed="#P" n="101"/>pro loco a tempore sine peccato: nunquam tamen 
               ab<lb ed="#P" n="102" break="no"/>negare christum quocunque genere mortis applicato:
-              secum<lb ed="#P" n="103" break="no"/>dum illud <ref xml:id="jm12w4-e40347-Rd1e1425">Matthei. x.</ref> <quote source="http://scta.info/resource/mt10_33@1-17">qui me negauerit coram
+              secum<lb ed="#P" n="103" break="no"/>dum illud <ref xml:id="jm12w4-e40347-Rd1e1425">Matthei. x.</ref> <quote xml:id="jm12w4-e40347-Qd1e1424" source="http://scta.info/resource/mt10_33@1-17">qui me negauerit coram
               ho<lb ed="#P" n="104" break="no"/>minibus negabo eum coram patre meo qui in
               ce<lb ed="#P" n="105" break="no"/>lis est</quote>. talis enim preponit suum corpus amori et 
               ho<lb ed="#P" n="106" break="no"/>nori dei: et peruerse peruertit ordinem charitatis: 
@@ -888,7 +888,7 @@
               <lb ed="#P" n="62"/>diuersis prohibitionibus prohibentur: ergo sunt 
               di<lb ed="#P" n="63" break="no"/>uersa peccata. consequentia tenet cum maiore. et 
               mi<lb ed="#P" n="64" break="no"/>nor patet Exodi. xx. Non mechaberis / non furtum
-              <lb ed="#P" n="65"/>facies / <quote source="http://scta.info/resource/ex20_17@1-9">non concupisces domum proximi tui: nec desi
+              <lb ed="#P" n="65"/>facies / <quote xml:id="jm12w4-e40347-Qd1e1675" source="http://scta.info/resource/ex20_17@1-9">non concupisces domum proximi tui: nec desi
       <!--136.xml-->
       <cb ed="#P" n="b"/>
                <!-- 61rb -->

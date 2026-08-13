@@ -301,7 +301,7 @@
             </p>
             <p xml:id="jm12w4-e74842-d1e555">
                <lb ed="#P" n="28"/>⁋ Et patet istud auctoritate dicente salomone 
-              ter<lb ed="#P" n="29" break="no"/>tii regum octauo. <quote source="http://scta.info/resource/Ireg8_27@10-25">Si enim celum et celi celorum te
+              ter<lb ed="#P" n="29" break="no"/>tii regum octauo. <quote xml:id="jm12w4-e74842-Qd1e554" source="http://scta.info/resource/Ireg8_27@10-25">Si enim celum et celi celorum te
               <lb ed="#P" n="30"/>capere non possunt: quanto magis domus hec qua
               <lb ed="#P" n="31"/>edificaui tibi.</quote> Et de beata virgine canit ecclesia 
               <lb ed="#P" n="32"/>Virgo dei genitrix quem totus non capit orbis: in 
@@ -1776,7 +1776,7 @@
                <cb ed="#P" n="a"/>
                <lb ed="#P" n="1"/>gula sensus: pauciores enim notitias actuales potest 
               in<lb ed="#P" n="2" break="no"/>tellectus noster habere quam angelus: cum sit essentia imperfectior 
-              <lb ed="#P" n="3"/>iuxta illud partet. <quote source="http://scta.info/resource/ps8_6@1-5">Minuisti eum paulominus ab angelis</quote>.
+              <lb ed="#P" n="3"/>iuxta illud partet. <quote xml:id="jm12w4-e74842-Qd1e3263" source="http://scta.info/resource/ps8_6@1-5">Minuisti eum paulominus ab angelis</quote>.
             </p>
             <p xml:id="jm12w4-e74842-d1e3269">
                <lb ed="#P" n="4"/>⁋ Secunda propositio quaelibet ca virtutis limitate potest 

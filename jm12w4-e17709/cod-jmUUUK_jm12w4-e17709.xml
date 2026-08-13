@@ -400,7 +400,7 @@
             <p xml:id="jm12w4-e17709-d1e743">
       ⁋ Prima. hec non est per se nota: deus est. 
               <lb ed="#P" n="93"/>probatio. Sennacheribus rex Assyriorum illam dubitauit. 
-              <lb ed="#P" n="94"/>vt patet quarti Regu. xix. et psalmo. xiii. <quote source="http://scta.info/resource/ps13_1@5-12">Dixit
+              <lb ed="#P" n="94"/>vt patet quarti Regu. xix. et psalmo. xiii. <quote xml:id="jm12w4-e17709-Qd1e741" source="http://scta.info/resource/ps13_1@5-12">Dixit
               insipi<lb ed="#P" n="95" break="no"/>ens in corde suo non est deus.</quote> Aliqui de 
               Nabuchodo<lb ed="#P" n="96" break="no"/>nosor intelligunt: sufficit quod ille cogitauit in corde suo 
               <lb ed="#P" n="97"/>quod non erat deus. idem patet psalmo lxxv. Notus in 
@@ -422,7 +422,7 @@
               <lb ed="#P" n="111"/>oportet venire ad vnum mouens non motum. 
               Argua<lb ed="#P" n="112" break="no"/>tur sic in forma: aliquid est causatum: vel igitur a se 
               <lb ed="#P" n="113"/>vel ab alio vel a nullo. non primum: vt patet per bea 
-              <lb ed="#P" n="114"/>tum <ref><name xml:id="jm12w4-e17709-Nd1e798" ref="#Augustine">Augustinum</name> primo de trinitate capite primo</ref>. 
+              <lb ed="#P" n="114"/>tum <ref xml:id="jm12w4-e17709-Rd1e793"><name xml:id="jm12w4-e17709-Nd1e798" ref="#Augustine">Augustinum</name> primo de trinitate capite primo</ref>. 
               Se<lb ed="#P" n="115" break="no"/>cundum membrum non est dandum vio quod a nullo: quia quod nihil 
               <lb ed="#P" n="116"/>est nihil producit. Si ab alio: quero de illo alio: et sit a. 
               <lb ed="#P" n="117"/>quero vel a. est effectibile vel non. si secundum a. est 

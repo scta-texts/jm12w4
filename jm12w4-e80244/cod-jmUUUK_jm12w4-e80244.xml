@@ -85,7 +85,7 @@
             </p>
             <p xml:id="jm12w4-e80244-d1e165">
                <lb ed="#P" n="73"/>⁋ Prima est. deus secundum veritatem est infiniti vigoris. 
-              <lb ed="#P" n="74"/>Probatur per illud parst. <quote source="http://scta.info/resource/ps144_3@7-11">magnitudinis eius non est finis</quote>
+              <lb ed="#P" n="74"/>Probatur per illud parst. <quote xml:id="jm12w4-e80244-Qd1e164" source="http://scta.info/resource/ps144_3@7-11">magnitudinis eius non est finis</quote>
               <lb ed="#P" n="75"/>psal. cxliiii. hoc non intelligitur de magnitudine molis. 
               <lb ed="#P" n="76"/>Et geneseos. xviii. ego sum deus oipotens. et Exod.  
               <lb ed="#P" n="77"/>xv. et ompus nomen eius.
@@ -516,7 +516,7 @@
               pri<lb ed="#P" n="117" break="no"/>mam causam libere constituentem terminos ipsi mari. 
               <lb ed="#P" n="118"/>prouer. vi ii. quando certa lege et gpro vallabat abyssos 
               <lb ed="#P" n="119"/>et legem imponebat aquis ne transirent fines: et 
-              <lb ed="#P" n="120"/>Iob. xxx viii <quote source="http://scta.info/resource/iob38_8@1-4 http://scta.info/resource/iob38_10@1-9 http://scta.info/resource/iob38_11@3-15">Quis conclusit ostiis mare:
+              <lb ed="#P" n="120"/>Iob. xxx viii <quote xml:id="jm12w4-e80244-Qd1e994" source="http://scta.info/resource/iob38_8@1-4 http://scta.info/resource/iob38_10@1-9 http://scta.info/resource/iob38_11@3-15">Quis conclusit ostiis mare:
               circunde<lb ed="#P" n="121" break="no"/>di illud terminis meis et posui vectem: et ostia: et
               <lb ed="#P" n="122"/>dixi. vsque huc venies et non procedes amplius. et
               <lb ed="#P" n="123"/>hic confringes tumentes fiuctus tuos.</quote> Et luce. v. 
@@ -587,7 +587,7 @@
       ⁋ Et confirmatur 
               <lb ed="#P" n="36"/>qui si deus esset infiniti vigoris hoc maxime argue 
               <lb ed="#P" n="37"/>retur ex effectibus ab eo producibilibus: secundum illud ad  
-              <lb ed="#P" n="38"/>R ompitulo primo. <quote source="http://scta.info/resource/rom1_20@1-13">Inuisibilia enim dei per ea quae facta sunt
+              <lb ed="#P" n="38"/>R ompitulo primo. <quote xml:id="jm12w4-e80244-Qd1e1127" source="http://scta.info/resource/rom1_20@1-13">Inuisibilia enim dei per ea quae facta sunt
               in<lb ed="#P" n="39" break="no"/>tellecta conspiciuntur</quote>. hoc autem consequens est falsum. nullus 
               <lb ed="#P" n="40"/>enim effectus infinitus est a deo productus. igitur. 
             </p>

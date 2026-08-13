@@ -81,10 +81,10 @@
               con<lb ed="#P" n="110" break="no"/>clusionem negativam. Probatio non est nisi vnus 
               fi<lb ed="#P" n="111" break="no"/>lius genitus: sed si spiritus sanctus esset generatio 
               passi<lb ed="#P" n="112" break="no"/>ua / esset genitus: quod est falsum. Nam doesiter Ioannis
-              <lb ed="#P" n="113"/>tertio. <quote source="http://scta.info/resource/io3_16@1-10">Sic deus dilexit mundum vt filium suum
+              <lb ed="#P" n="113"/>tertio. <quote xml:id="jm12w4-e30671-Qd1e152" source="http://scta.info/resource/io3_16@1-10">Sic deus dilexit mundum vt filium suum
               vni<lb ed="#P" n="114" break="no"/>genitum daret</quote>. propter quod in symbolo Apostolorum 
               con<lb ed="#P" n="115" break="no"/>fitemur vnicum dei filium. et quia filius: vtique genitus 
-              <lb ed="#P" n="116"/>vt dicit <ref><name xml:id="jm12w4-e30671-Nd1e166" ref="#Augustine">Augustinus.</name> v. de trinitate. ca. vi.</ref>
+              <lb ed="#P" n="116"/>vt dicit <ref xml:id="jm12w4-e30671-Rd1e162"><name xml:id="jm12w4-e30671-Nd1e166" ref="#Augustine">Augustinus.</name> v. de trinitate. ca. vi.</ref>
             </p>
             <p xml:id="jm12w4-e30671-d1e170">
               Con<lb ed="#P" n="117" break="no"/>tra hanc conclusionem arguitur sic. omnis productio vi 
@@ -146,7 +146,7 @@
             <p xml:id="jm12w4-e30671-d1e295">
       ⁋ Alii 
               va<lb ed="#P" n="33" break="no"/>dunt ad principium quod et principium quo. Sed hec 
-              <lb ed="#P" n="34"/>principia hactenus respuimus. <ref><name>Beatus 
+              <lb ed="#P" n="34"/>principia hactenus respuimus. <ref xml:id="jm12w4-e30671-Rd1e299"><name xml:id="jm12w4-e30671-Nd1e300">Beatus 
               Augu<lb ed="#P" n="35" break="no"/>stinus</name> dat alium modum. v. de trinitate. ca. xiiii.</ref> ex 
               <lb ed="#P" n="36"/>diuersitate modi procedendi: quorum vnus procedit 
               <lb ed="#P" n="37"/>quomodo natus alter quomodo datus. sed cum illud 

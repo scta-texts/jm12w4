@@ -1,0 +1,445 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-25T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "dd855e917eb273d06be6537fd3e9ae7ce2c823c5",
+    "generation_method": "hierarchical"
+  },
+
+  "jm12w4-e64517-d1e112": {
+    "summary": "A transitional sentence linking back to a preceding discussion (in the prior distinction) of how all things are said to be 'in God,' and signaling the move to the present question about God's presence in place.",
+    "claims": [],
+    "concepts": ["divine omnipresence", "transition marker"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e119"]
+    }
+  },
+
+  "jm12w4-e64517-d1e119": {
+    "summary": "Formally announces the question for Distinction 37 (a single question), noting that the Master (Peter Lombard) there discusses how God is in place and whether he is everywhere, and states the precise title of the question to be treated: whether God is everywhere, including in infinite imaginary space beyond the heaven.",
+    "claims": [
+      "The question to be examined is whether God is everywhere and in infinite imaginary space beyond the heaven."
+    ],
+    "concepts": ["distinction structure", "imaginary space", "divine omnipresence"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-Hd1e109", "jm12w4-e64517-d1e112"]
+    }
+  },
+
+  "jm12w4-e64517-d1e136": {
+    "summary": "A brief structural rubric announcing that the author will now posit a series of conclusions in answer to the question.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e141", "jm12w4-e64517-d1e146", "jm12w4-e64517-d1e153"]
+    }
+  },
+
+  "jm12w4-e64517-d1e141": {
+    "summary": "States the first conclusion of the question: God is everywhere according to essence, presence, and power.",
+    "claims": [
+      "God is everywhere by essence, presence, and power."
+    ],
+    "concepts": ["divine omnipresence", "essence-presence-power distinction"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e136"]
+    }
+  },
+
+  "jm12w4-e64517-d1e146": {
+    "summary": "States the second conclusion: God can exist outside the heaven together with a creature existing there in the same place.",
+    "claims": [
+      "God can be outside the heaven while a creature exists there together with him."
+    ],
+    "concepts": ["divine omnipresence", "imaginary space"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e141", "jm12w4-e64517-d1e153"]
+    }
+  },
+
+  "jm12w4-e64517-d1e153": {
+    "summary": "States the third conclusion: it is probable that God is (or can be) outside the heaven in infinite imaginary space, even apart from any creature existing there.",
+    "claims": [
+      "It is probable that God exists outside the heaven in infinite imaginary space."
+    ],
+    "concepts": ["imaginary space", "infinity", "probability (theological argument)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e146"]
+    }
+  },
+
+  "jm12w4-e64517-d1e158": {
+    "summary": "Offers scriptural proof for the first conclusion (that God is everywhere), citing Jeremiah 23, Isaiah 66, and a Psalm text affirming that God fills heaven and earth and is present in heaven, on earth, and in the depths.",
+    "claims": [
+      "Scripture (Jeremiah, Isaiah, the Psalms) testifies that God fills and is present in every place."
+    ],
+    "concepts": ["scriptural authority", "divine omnipresence"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e141"]
+    }
+  },
+
+  "jm12w4-e64517-d1e171": {
+    "summary": "Gives a rational proof for the first conclusion: since God exists somewhere, and there is no greater reason for him to be in one place rather than another, it follows that he is in every place.",
+    "claims": [
+      "Because there is no privileged reason for God's presence in one place over another, God must be present everywhere."
+    ],
+    "concepts": ["principle of sufficient reason", "divine omnipresence"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e158"]
+    }
+  },
+
+  "jm12w4-e64517-d1e179": {
+    "summary": "Notes that the Master (Lombard) adduces various authorities of the saints on this point in the text of the Sentences, in support of the first conclusion.",
+    "claims": [],
+    "concepts": ["patristic authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e171"]
+    }
+  },
+
+  "jm12w4-e64517-d1e187": {
+    "summary": "Argues for the second conclusion: it is possible for an angel or a body to exist beyond the heaven, and God would be present together with it there; God could then destroy that creature while remaining in that place (whether real or imaginary). The author flags as remarkable (mirabile) the claim that God could exist there together with a creature yet not remain there once the creature is destroyed.",
+    "claims": [
+      "God can be present with a creature that exists beyond the heaven.",
+      "It would be strange to hold that God could exist in that place with the creature but could not remain there after the creature's destruction."
+    ],
+    "concepts": ["imaginary space", "divine power", "possibility"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e146"]
+    }
+  },
+
+  "jm12w4-e64517-d1e209": {
+    "summary": "Argues for the third conclusion: given the second conclusion, God can exist beyond the heaven with no creature at all existing there, since nothing else would then move him from being there. This is fitting to divine perfection: just as God is infinite in power and exists through infinite time, so he should exist through infinite imaginary place; otherwise he would be circumscribed by place, contrary to what has been established.",
+    "claims": [
+      "God's existence beyond the heaven does not depend on any creature existing there.",
+      "Divine perfection requires that God not be circumscribed by place, just as he is not limited in power or time."
+    ],
+    "concepts": ["divine perfection", "infinity", "circumscription by place"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e153", "jm12w4-e64517-d1e187"]
+    }
+  },
+
+  "jm12w4-e64517-d1e225": {
+    "summary": "Offers a second argument for the same conclusion: God existed in infinite imaginary space beyond the heaven before the creation of the world, and wherever he was before (truly or imaginarily) he still is now. The argument proceeds by asking whether God was present, before creation, precisely and only where the world now is and nowhere else, and demands the reason for such a restriction.",
+    "claims": [
+      "God's presence in infinite imaginary space beyond the heaven did not begin with the creation of the world."
+    ],
+    "concepts": ["imaginary space", "divine eternity", "creation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e209"]
+    }
+  },
+
+  "jm12w4-e64517-d1e238": {
+    "summary": "Continues the argument by anticipating an objection: if one says God's presence was restricted because that is simply where he chose to create the world, the author replies that, by the same reasoning, God could equally have created another world, whether eccentric, concentric, or infinitely many worlds; therefore, by parity of reasoning, one must admit that God was present in infinite imaginary space even before any actual creation.",
+    "claims": [
+      "Since God could have created other or infinitely many worlds elsewhere, he must be conceded to have been present in infinite imaginary space prior to creating this world."
+    ],
+    "concepts": ["divine power", "plurality of worlds", "imaginary space"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e225"]
+    }
+  },
+
+  "jm12w4-e64517-d1e249": {
+    "summary": "Anticipates a further objection: perhaps one will say that before creation God was 'in himself,' as the Master states in the text, and was not in any space, real or imaginary.",
+    "claims": [
+      "An opposing view holds that before creation God existed only 'in himself,' not in any place."
+    ],
+    "concepts": ["divine self-sufficiency", "imaginary space"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e238", "jm12w4-e64517-d1e260"]
+    }
+  },
+
+  "jm12w4-e64517-d1e260": {
+    "summary": "Rejects the preceding objection as insufficient. The author concedes that God was 'in himself,' comparing this to the way the divine persons are mutually in one another through circumincession (perichoresis), but presses the difficulty: how is it intelligible that God existed and yet was in no true place, nor even in any place that is merely possible?",
+    "claims": [
+      "Being 'in oneself' (as the divine persons are in each other through circumincession) does not adequately explain how God could exist without being in any true or even possible place."
+    ],
+    "concepts": ["circumincession/perichoresis", "possibility", "imaginary space"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e249"]
+    }
+  },
+
+  "jm12w4-e64517-d1e271": {
+    "summary": "Supports the preceding difficulty with the authority of Augustine (City of God), quoted at length: those who ask why the world was made when it was, rather than earlier, should be answered by an analogous question about place — for just as they imagine infinite spans of time before the world during which they suppose God could not have ceased from working, they likewise imagine infinite spaces of place beyond the world; and if it is denied that the omnipotent God could leave such spaces empty, the consequence is that one is forced to imagine innumerable worlds — an absurd conclusion Augustine says he does not think they will actually draw.",
+    "claims": [
+      "Augustine draws a parallel between the puzzle of infinite time before creation and infinite space beyond creation, using it to resist the inference that God's omnipotence requires innumerable worlds."
+    ],
+    "concepts": ["divine omnipotence", "infinity", "imaginary space", "patristic authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e260"]
+    }
+  },
+
+  "jm12w4-e64517-d1e310": {
+    "summary": "Presents a further argument by analogy: God is in this library and in every part of it; therefore either God can destroy the air of the library while himself remaining within its walls, or he cannot. If the former, then by parity of reasoning God can exist beyond the heaven with no creature existing there at all; if the latter, that seems absurd.",
+    "claims": [
+      "By analogy with God's presence in a confined space (a library), God's ability to remain in a place after the destruction of what fills it supports his ability to exist beyond the heaven without any creature there."
+    ],
+    "concepts": ["divine omnipresence", "vacuum", "analogy"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e271", "jm12w4-e64517-d1e326"]
+    }
+  },
+
+  "jm12w4-e64517-d1e326": {
+    "summary": "Reports a response attributed (per the marginal note) to Bonaventure: if, per impossibile, a place were emptied out, what would remain is understood to be the capacity of the deprived place; capacity is something, and God is present in it, whereas privation is nothing, and God cannot be present in a mere nothing.",
+    "claims": [
+      "God can be present in the 'capacity' of an emptied place because capacity is something, but not in mere privation, which is nothing."
+    ],
+    "concepts": ["capacity vs. privation", "vacuum"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e310", "jm12w4-e64517-d1e337"]
+    }
+  },
+
+  "jm12w4-e64517-d1e337": {
+    "summary": "Rejects the preceding response as insufficient, on the grounds that God can make an actual vacuum, as is evident.",
+    "claims": [
+      "The distinction between capacity and privation does not resolve the difficulty, since God is able to produce an actual vacuum."
+    ],
+    "concepts": ["vacuum", "divine power"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e326"]
+    }
+  },
+
+  "jm12w4-e64517-d1e344": {
+    "summary": "Presses the point further by asking what exactly this 'passive capacity' is, arguing that wherever it is found it will equally be found beyond the heaven, since place is just as naturally suited to exist beyond the heaven as in this hall; and since God is posited to be present there by power, there is no reason to deny that he is also present there by essence.",
+    "claims": [
+      "If passive capacity for place exists naturally beyond the heaven as much as within it, there is no basis for denying God's essential presence there once his presence by power is granted."
+    ],
+    "concepts": ["passive capacity", "essence-presence-power distinction", "imaginary space"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e337"]
+    }
+  },
+
+  "jm12w4-e64517-d1e356": {
+    "summary": "Adduces further authorities in support of divine immensity beyond any bounded place: Hermes Trismegistus's dictum that God is a sphere whose center is everywhere and circumference nowhere (hence his 'circumference' is not confined by the outermost heaven), together with 3 Kings 8 (Solomon's prayer that the heavens cannot contain God), a liturgical chant on the Virgin containing him whom the whole world cannot contain, Job 11 (God higher than heaven, deeper than hell, longer than earth, wider than the sea), and Baruch 3 (the greatness, vastness, and endlessness of the house and domain of God).",
+    "claims": [
+      "A convergence of philosophical (Hermes) and scriptural/liturgical authorities affirms that God's presence and immensity are not confined by the boundary of the heavens."
+    ],
+    "concepts": ["divine immensity", "scriptural authority", "sphere metaphor"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e344"]
+    }
+  },
+
+  "jm12w4-e64517-d1e393": {
+    "summary": "Raises an objection against the first conclusion: it would follow from it that God is present in evil and vile places, which seems unfitting; therefore the conclusion should be rejected.",
+    "claims": [
+      "If God is truly everywhere, he would be present even in evil and vile places, which appears inappropriate."
+    ],
+    "concepts": ["divine omnipresence", "fittingness"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e402"]
+    }
+  },
+
+  "jm12w4-e64517-d1e402": {
+    "summary": "Responds to the preceding objection by conceding the consequence outright: God is indeed present in vile places, yet he is not contaminated by them, just as the Master explains in the text using the image of the soul present in a filthy body, or of a sunbeam that touches filth without being defiled.",
+    "claims": [
+      "God's presence in vile places does not entail any contamination or defilement of God, analogous to a soul in a filthy body or a sunbeam touching filth."
+    ],
+    "concepts": ["divine impassibility", "analogy (soul/sunbeam)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e393"]
+    }
+  },
+
+  "jm12w4-e64517-d1e414": {
+    "summary": "Raises an objection against the third conclusion: it would follow that God could make something actually infinite, which is false, since an actually infinite thing would possess a perfection equal to God's own.",
+    "claims": [
+      "If God can exist in infinite imaginary space, it seems he could make an actually infinite creature, which would be as perfect as God, which is impossible."
+    ],
+    "concepts": ["actual infinity", "divine perfection"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e439"]
+    }
+  },
+
+  "jm12w4-e64517-d1e423": {
+    "summary": "Reports a further argument made by certain thinkers: a Christian ought to attribute to God nothing beyond what follows from Scripture, over and above what pagan philosophers held; but that God could exist beyond the heaven without any creature there is not shown from Scripture, nor would it be admitted by those speaking in purely natural (philosophical) terms; therefore the third conclusion should not be asserted.",
+    "claims": [
+      "An opposing methodological principle holds that theological claims about God beyond Scripture and natural philosophy (such as God's existence beyond the heaven absent any creature) should not be asserted."
+    ],
+    "concepts": ["scriptural warrant", "natural philosophy vs. theology", "theological method"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e449"]
+    }
+  },
+
+  "jm12w4-e64517-d1e439": {
+    "summary": "Replies to the objection concerning actual infinity: concedes that God can make something infinite, but denies that such a thing would possess infinite perfection or infinite resistance relative to God, since it could be corrupted by God either suddenly or successively.",
+    "claims": [
+      "An actually infinite creature made by God would not rival God's perfection, since it would remain corruptible by God."
+    ],
+    "concepts": ["actual infinity", "divine perfection", "corruptibility"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e414"]
+    }
+  },
+
+  "jm12w4-e64517-d1e449": {
+    "summary": "Replies to the methodological objection: those doctors assume insufficiently; they should instead say that nothing should be posited by a Catholic except what follows from Scripture or what would be granted by those speaking naturally — on the supposition that natural philosophers attribute to God what we attribute to him. The author concedes that one speaking in a purely natural mode would deny that God is everywhere according to essence, but argues that Hermes Trismegistus does not seem to have spoken in a purely natural mode (implying his authority on divine immensity still stands).",
+    "claims": [
+      "The correct methodological principle requires refining the premise about natural philosophers, and Hermes's dictum on divine immensity should not be dismissed as merely 'natural' philosophy."
+    ],
+    "concepts": ["natural philosophy vs. theology", "theological method", "Hermetic authority"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e423", "jm12w4-e64517-d1e356"]
+    }
+  },
+
+  "jm12w4-e64517-d1e469": {
+    "summary": "Adds a brief closing remark on the preceding exchange: authorities have been adduced for this position, and the arguments against it have not been adequately answered; therefore the position stands.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e449"]
+    }
+  },
+
+  "jm12w4-e64517-d1e476": {
+    "summary": "Introduces a new, logically framed objection ('secondo arguitur'): the proposition 'God is in infinite imaginary place beyond the heaven' is an affirmative statement whose predicate term does not supposit for (fails to refer to) anything, and so is not a 'pregnant' (genuinely referential) proposition, and is therefore false; this is shown by asking what the term 'imaginary place' actually supposits for.",
+    "claims": [
+      "The proposition asserting God's presence in infinite imaginary place is logically defective because its key term lacks genuine supposition (reference)."
+    ],
+    "concepts": ["supposition theory", "logical analysis of propositions"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e487"]
+    }
+  },
+
+  "jm12w4-e64517-d1e487": {
+    "summary": "Responds that the preceding logical argument is null: the extreme terms (subject and predicate) supposit for God, and the qualifying phrase 'in infinite imaginary place' supposits for a possible infinite place beyond the heaven, so the proposition is not empty of reference after all.",
+    "claims": [
+      "The terms of the disputed proposition do have genuine supposition: the subject/predicate for God, and 'infinite imaginary place' for a possible infinite place beyond the heaven."
+    ],
+    "concepts": ["supposition theory", "possibility"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e476"]
+    }
+  },
+
+  "jm12w4-e64517-d1e496": {
+    "summary": "Poses a clarifying question: what exactly is meant by saying that God is in a place through essence, presence, and power?",
+    "claims": [],
+    "concepts": ["essence-presence-power distinction"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e503"]
+    }
+  },
+
+  "jm12w4-e64517-d1e503": {
+    "summary": "Answers the preceding question by explaining the three modes of divine presence: God's substance is in a given place; he presentially beholds (intuits) all things of that place; and he has power over the existence of things in that place, as a cause has power over its effect.",
+    "claims": [
+      "Presence 'by essence' means God's substance is in the place; presence 'by presence' means God presentially beholds everything in it; presence 'by power' means God has causal power over what exists there."
+    ],
+    "concepts": ["essence-presence-power distinction", "divine causality"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jm12w4-e64517-d1e496", "jm12w4-e64517-d1e141"]
+    }
+  },
+
+  "jm12w4-e64517": {
+    "summary": "Question 1 (on Distinction 37) of John Mair's commentary asks whether God is everywhere and present in infinite imaginary space beyond the heaven. Mair posits three conclusions: (1) God is everywhere by essence, presence, and power; (2) God can exist beyond the heaven together with a creature there; (3) it is probable that God exists beyond the heaven in infinite imaginary space even without any creature there. He supports these with scriptural authorities (Jeremiah, Isaiah, the Psalms, 3 Kings, Job, Baruch), rational arguments from divine perfection and the absence of any privileging reason for God's presence in one place over another, and philosophical/patristic authorities (Hermes Trismegistus's sphere metaphor, Augustine's City of God on the parallel puzzles of infinite time and infinite space). He works through a series of objections and counter-objections concerning vacuum and the 'capacity' of an emptied place, the propriety of God's presence in vile places, the danger of implying an actually infinite creature, the proper scope of purely natural versus scripturally warranted theological claims, a logical objection based on supposition theory concerning the reference of 'infinite imaginary place,' and finally clarifies precisely what is meant by God's presence 'through essence, presence, and power.'",
+    "claims": [
+      "God is everywhere by essence, presence, and power.",
+      "God can exist beyond the heaven together with a creature existing there.",
+      "It is probable that God exists in infinite imaginary space beyond the heaven, even apart from any creature."
+    ],
+    "concepts": ["divine omnipresence", "divine immensity", "imaginary space", "essence-presence-power distinction", "vacuum", "actual infinity", "supposition theory", "theological method"],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e64517-d1e112", "jm12w4-e64517-d1e119", "jm12w4-e64517-d1e136",
+        "jm12w4-e64517-d1e141", "jm12w4-e64517-d1e146", "jm12w4-e64517-d1e153",
+        "jm12w4-e64517-d1e158", "jm12w4-e64517-d1e171", "jm12w4-e64517-d1e179",
+        "jm12w4-e64517-d1e187", "jm12w4-e64517-d1e209", "jm12w4-e64517-d1e225",
+        "jm12w4-e64517-d1e238", "jm12w4-e64517-d1e249", "jm12w4-e64517-d1e260",
+        "jm12w4-e64517-d1e271", "jm12w4-e64517-d1e310", "jm12w4-e64517-d1e326",
+        "jm12w4-e64517-d1e337", "jm12w4-e64517-d1e344", "jm12w4-e64517-d1e356",
+        "jm12w4-e64517-d1e393", "jm12w4-e64517-d1e402", "jm12w4-e64517-d1e414",
+        "jm12w4-e64517-d1e423", "jm12w4-e64517-d1e439", "jm12w4-e64517-d1e449",
+        "jm12w4-e64517-d1e469", "jm12w4-e64517-d1e476", "jm12w4-e64517-d1e487",
+        "jm12w4-e64517-d1e496", "jm12w4-e64517-d1e503"
+      ]
+    }
+  }
+}

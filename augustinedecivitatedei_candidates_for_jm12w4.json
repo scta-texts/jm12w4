@@ -1,0 +1,177 @@
+{
+  "jm12w4-e98196": {
+    "jm12w4-e98196-d1e959": [
+      {
+        "candidate_id": "adcd-l2-d1e293",
+        "intersectionCount": 4,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e14702": {
+    "jm12w4-e14702-d1e355": [
+      {
+        "candidate_id": "adcd-l14-d1e2000",
+        "intersectionCount": 24,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e17709": {
+    "jm12w4-e17709-d1e743": [
+      {
+        "candidate_id": "adcd-l5-d1e699",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l5-d1e708",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e28202": {
+    "jm12w4-e28202-d1e139": [
+      {
+        "candidate_id": "adcd-l20-d1e3367",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e34621": {
+    "jm12w4-e34621-d1e1343": [
+      {
+        "candidate_id": "adcd-l21-d1e3670",
+        "intersectionCount": 13,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l21-d1e3663",
+        "intersectionCount": 14,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e35941": {
+    "jm12w4-e35941-d1e2526": [
+      {
+        "candidate_id": "adcd-l11-d1e1587",
+        "intersectionCount": 17,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e40347": {
+    "jm12w4-e40347-d1e1415": [
+      {
+        "candidate_id": "adcd-l5-d1e774",
+        "intersectionCount": 10,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l13-d1e1821",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e64517": {
+    "jm12w4-e64517-d1e271": [
+      {
+        "candidate_id": "adcd-l11-d1e1562",
+        "intersectionCount": 33,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e68048": {
+    "jm12w4-e68048-d1e1216": [
+      {
+        "candidate_id": "adcd-l10-d1e1512",
+        "intersectionCount": 8,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e69813": {
+    "jm12w4-e69813-d1e225": [
+      {
+        "candidate_id": "adcd-l10-d1e1477",
+        "intersectionCount": 13,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e80244": {
+    "jm12w4-e80244-d1e1119": [
+      {
+        "candidate_id": "adcd-l11-d1e1616",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l8-d1e1140",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l8-d1e1150",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l22-d1e3827",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e80244-d1e1205": [
+      {
+        "candidate_id": "adcd-l7-d1e1087",
+        "intersectionCount": 7,
+        "status": "encoded"
+      }
+    ]
+  },
+  "jm12w4-e81406": {
+    "jm12w4-e81406-d1e273": [
+      {
+        "candidate_id": "adcd-l11-d1e1574",
+        "intersectionCount": 7,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e81767": {
+    "jm12w4-e81767-d1e335": [
+      {
+        "candidate_id": "adcd-l10-d1e1392",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      },
+      {
+        "candidate_id": "adcd-l22-d1e3720",
+        "intersectionCount": 5,
+        "also_in_bible_candidates": true
+      }
+    ],
+    "jm12w4-e81767-d1e651": [
+      {
+        "candidate_id": "adcd-l1-d1e55",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ]
+  },
+  "jm12w4-e83415": {
+    "jm12w4-e83415-d1e1899": [
+      {
+        "candidate_id": "adcd-l17-d1e2629",
+        "intersectionCount": 4,
+        "also_in_bible_candidates": true
+      }
+    ]
+  }
+}

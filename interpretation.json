@@ -1,0 +1,128 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:27:10Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-ancestors-v1",
+    "source_commit": "9ef9752",
+    "generation_method": "hierarchical",
+    "scope": "Ancestors above item level for the Prologus (jm12w4-d1e68), Distinctio 37 (jm12w4-d1e1924), and the whole work (jm12w4, partial)."
+  },
+  "jm12w4-d1e68": {
+    "summary": "The prologue to Book I of John Mair's Sentences commentary (Redactio A) is a sustained inquiry into the epistemic status of faith and theology. After a prooemium that frames the work as a defence of the faith following Lombard and announces seven questions, Mair first explains how a wayfarer acquires faith: neither demonstration, topical argument, infused faith, nor the will alone suffices, but a motive of credibility (argument or testimony) joined with pious affection, a free act of will, which is why faith falls under precept and can merit. He then grounds this in an account of cognition: mental propositions are composed of subject, copula, and predicate cognitions, and judgment is distinct from, though itself a kind of, apprehension. Evident cognition is fearless true assent caused by necessitating principles; the will cannot overturn first principles, and the wayfarer can have evident knowledge of many theological truths (as philosophers knew God exists) but not of the mysteries of the Trinity, Incarnation, or Eucharist. Since the principles of theology are the truths of Scripture, held by faith, theological discourse yields faith rather than science, and theology is not a science subalternated to the knowledge of God and the blessed. Faith and science about the same conclusion are incompatible as acts (science displaces acquired faith but not infused faith), and opinion's 'fear' is its removability by contrary reasons. Taken strictly theology is neither a speculative nor a practical science; taken collectively it is practical because its principal part directs charity. Finally, the conclusion, its terms, and the things signified are all objects of science and faith, a science is unified by order to a subject of attribution, and God as God is the subject of theology. Throughout, Mair treats many scholastic disputes as verbal, engages Scotus, Aureol, d'Ailly, Holcot, Gerson, and Buridan, and appeals frequently to God's absolute power to test the separability of cognitive acts.",
+    "claims": [
+      "Acquired faith is produced by a motive of credibility together with pious affection, a free act of will.",
+      "The ultimate mental proposition is composed of distinct cognitions functioning as subject, copula, and predicate.",
+      "Evident cognition is true, fearless assent caused by principles that necessitate the intellect; the will cannot make the intellect dissent from a first principle.",
+      "The wayfarer can have evident knowledge of many theological truths but cannot naturally have evident knowledge of the mysteries of faith.",
+      "The truths of Scripture are the principles of theology, so the wayfarer's assent to theological conclusions is faith, not science.",
+      "Acts of faith and science about the same proximate object are incompatible; science displaces acquired but not infused faith.",
+      "Theology is not strictly a science; taken collectively it is practical because its principal part directs charity.",
+      "A science is unified by the ordering of its parts to a principal subject of attribution, and God as God is the subject of theology.",
+      "Truth is identical with the true proposition."
+    ],
+    "concepts": [
+      "acquired and infused faith",
+      "pious affection",
+      "motive of credibility",
+      "mental language",
+      "apprehension and judgment",
+      "evidence",
+      "first principles",
+      "theological discourse",
+      "theology as science",
+      "subalternation",
+      "faith and science",
+      "opinion and formido",
+      "practical vs. speculative",
+      "subject of attribution",
+      "object of science and faith",
+      "divine absolute power"
+    ],
+    "_metadata": {
+      "level": "prologus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e3ad4g",
+        "jm12w4-e11756",
+        "jm12w4-e22015",
+        "jm12w4-e35095",
+        "jm12w4-e54756",
+        "jm12w4-e66726",
+        "jm12w4-e85986",
+        "jm12w4-e98196"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T13:27:10Z",
+      "source_commit": "9ef9752",
+      "source_structure": "~/Projects/scta/scta-projectfiles/jm12w4.xml"
+    }
+  },
+  "jm12w4-d1e1924": {
+    "summary": "Distinction 37 of Book I, which in Mair's commentary consists of a single question, concerns divine omnipresence and asks whether God is everywhere and present in infinite imaginary space beyond the heaven. Mair holds that God is everywhere by essence, presence, and power; that God can exist beyond the heaven together with a creature there; and, as probable, that God exists in infinite imaginary space beyond the heaven even where no creature is. He supports these with scriptural authorities, arguments from divine perfection and from the absence of any reason privileging one place over another, and philosophical and patristic sources (Hermes Trismegistus's infinite sphere, Augustine's parallel between infinite time and infinite space). Objections are addressed concerning vacuum and the capacity of an emptied place, God's presence in vile places, the risk of positing an actually infinite creature, the limits of natural versus scripturally warranted theological claims, and a supposition-theoretic objection about the reference of 'infinite imaginary place,' before the meaning of presence by essence, presence, and power is clarified.",
+    "claims": [
+      "God is everywhere by essence, presence, and power.",
+      "God can exist beyond the heaven together with a creature existing there.",
+      "It is probable that God exists in infinite imaginary space beyond the heaven, even apart from any creature."
+    ],
+    "concepts": [
+      "divine omnipresence",
+      "divine immensity",
+      "imaginary space",
+      "essence-presence-power distinction",
+      "vacuum",
+      "actual infinity",
+      "supposition theory",
+      "theological method"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e64517"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T13:27:10Z",
+      "source_commit": "9ef9752",
+      "source_structure": "~/Projects/scta/scta-projectfiles/jm12w4.xml"
+    }
+  },
+  "jm12w4": {
+    "summary": "PARTIAL: this summary of John Mair's commentary on Book I of the Sentences (Redactio A, Paris 1519) rests only on the Prologue and Distinction 37, 2 of the work's 29 top-level divisions; the remaining distinctions (1-36, 38-48 as grouped in the EDF) have no interpretations yet and are not represented. In the covered portions, the Prologue sets out Mair's account of faith and theological knowledge: acquired faith arises from a motive of credibility joined with a free act of will (pious affection); evident cognition is distinguished sharply from faith and opinion; the wayfarer can know some theological truths evidently but not the mysteries; theology, whose principles are the truths of Scripture, yields faith rather than science and is, taken collectively, practical because ordered to charity, with God as God as its subject. Distinction 37 applies this theology to divine omnipresence, holding that God is everywhere by essence, presence, and power and, probably, present in infinite imaginary space beyond the heaven. Both parts display a nominalist-leaning method that treats many disputes as verbal, tests claims against God's absolute power, and distinguishes what natural reason can establish from what rests on Scripture.",
+    "claims": [
+      "Acquired faith is produced by a motive of credibility together with a free act of will.",
+      "Theological discourse yields faith, not science, in the wayfarer.",
+      "Theology taken collectively is practical and has God as God for its subject.",
+      "God is everywhere by essence, presence, and power, and probably present in infinite imaginary space beyond the heaven."
+    ],
+    "concepts": [
+      "faith and science",
+      "theology as science",
+      "pious affection",
+      "evidence",
+      "divine omnipresence",
+      "imaginary space",
+      "divine absolute power",
+      "theological method"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-d1e68",
+        "jm12w4-d1e1924"
+      ],
+      "partial": true,
+      "coverage": "2 of 29 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-02T13:27:10Z",
+      "source_commit": "9ef9752",
+      "source_structure": "~/Projects/scta/scta-projectfiles/jm12w4.xml"
+    }
+  }
+}

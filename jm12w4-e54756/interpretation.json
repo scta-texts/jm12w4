@@ -1,0 +1,742 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e54756-d1e112": {
+    "summary": "States the fourth prologue question, whether a wayfarer acquires science of theological truths through theological discourse, and announces the method: first explaining the key terms, then answering.",
+    "claims": [],
+    "concepts": [
+      "wayfarer",
+      "theological discourse",
+      "theology as science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e125": {
+    "summary": "Defines the first term, science, through the notion of a knowable proposition: a necessary, dubitable proposition apt to become evident through evident necessary premises applied by syllogistic discourse. Each clause excludes something: contingent truths (even evident ones), self-evident propositions (citing Posterior Analytics II and Grosseteste on aptitude to be doubted), and principles known by sense, memory, and experience. Science is thus evident cognition of a necessary truth caused by premises applied syllogistically; Mair adds that he speaks naturally, since God can supply the causality of the demonstration, and reports a view that cognition of the same species can arise from experience or demonstration (the lunar eclipse example).",
+    "claims": [
+      "Science properly speaking is evident cognition of a necessary truth caused by premises through syllogistic discourse.",
+      "Contingent truths, self-evident propositions, and principles known by experience are not objects of science properly so called.",
+      "A knowable proposition need only be apt to be doubted, not actually doubted.",
+      "God can produce science while supplying the causality of the demonstration."
+    ],
+    "concepts": [
+      "scientia",
+      "knowable proposition",
+      "necessity",
+      "dubitability",
+      "demonstration",
+      "experience",
+      "divine supplying of secondary causes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e255": {
+    "summary": "Objects to the view that the same species of cognition can arise from experience and from demonstration: then science propter quid and quia about the same object would be of one species, contrary to Aristotle; and either all assents to one object by any means share a species (so error, science, faith, and opinion would too) or they differ in species because caused by different means.",
+    "claims": [
+      "Assents to the same object caused by different means differ in species."
+    ],
+    "concepts": [
+      "specific distinction of assents",
+      "propter quid vs. quia",
+      "means of cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e125"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e275": {
+    "summary": "Counter-objection: if specifically distinct productive causes always yield specifically distinct cognitions, then God could not produce science.",
+    "claims": [],
+    "concepts": [
+      "divine causality",
+      "specific distinction of effects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e255"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e286": {
+    "summary": "Records the anticipated reply that the principle is meant only of creatures within the established natural order.",
+    "claims": [
+      "The principle of specific distinction by causes applies within the created natural order."
+    ],
+    "concepts": [
+      "natural order",
+      "created causes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e275"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e291": {
+    "summary": "Objects that then cognitions of the same object preceding and following a habit would differ in species, and acquired moral virtues after the habit would differ specifically from the acts before it, contrary to Aristotle, Ethics II.",
+    "claims": [],
+    "concepts": [
+      "habit",
+      "acts before and after habit",
+      "moral virtue"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e286"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e308": {
+    "summary": "Further objection: heat produced by the sun, by fire, or by hard bodies through friction is of the same most specific species, though the causes differ in species.",
+    "claims": [],
+    "concepts": [
+      "specifically different causes",
+      "univocal effects",
+      "heat"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e286"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e317": {
+    "summary": "Answers the habit objection: the principle does not hold for habits, which do cause acts; the act preceding a habit is of the same species as the act following it, because a habit is a trace of the act inclining the power to similar acts. Intuitive cognition's habit is excepted; otherwise, in cognitions, specific difference in cause brings specific difference in effect.",
+    "claims": [
+      "A habit is a trace of acts inclining the power to similar acts.",
+      "Acts before and after a habit are of the same species.",
+      "In cognitions generally, specifically different causes produce specifically different effects."
+    ],
+    "concepts": [
+      "habit",
+      "causality of habits",
+      "intuitive cognition",
+      "species of cognitions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e291"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e344": {
+    "summary": "Answers the heat objection: some specifically distinct causes do produce same-species effects, but these assents are prime candidates for specific distinction; moreover vital agents differ from others, since slight variation in same-species cognitions causes different judgments, as two viewers of a dove's neck or a fevered person who judges the wall to move.",
+    "claims": [
+      "Vital cognitive agents differ from natural agents in how their effects are individuated.",
+      "Same-species intuitive cognitions can yield different judgments."
+    ],
+    "concepts": [
+      "vital agents",
+      "judgment",
+      "perceptual illusion",
+      "species of effects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e308"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e370": {
+    "summary": "Objects that by parity the cognition of whiteness in a man and in an ass would differ specifically, and, granting this, the intuitive cognitions of a man and an angel would too, so that the angel's beatitude would be entitatively more perfect than Christ's soul's. Further, evident assent acquired by experience is a truthful habit not among the five listed in Ethics VI, and so would be science.",
+    "claims": [],
+    "concepts": [
+      "species of cognitions",
+      "angelic cognition",
+      "beatitude of Christ's soul",
+      "intellectual virtues"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e344"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e399": {
+    "summary": "Refers the reply to the first objection to Mair's treatment in Book IV, distinction 49.",
+    "claims": [],
+    "concepts": [
+      "cross-reference",
+      "beatitude"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e370"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e404": {
+    "summary": "Replies to the second objection that there are more truthful habits than Aristotle lists, such as a judgment that a present wall is white or assent to a self-referential 'this is false,' which is neither faith (being natural) nor error; alternatively, such assent falls under science taken broadly.",
+    "claims": [
+      "Aristotle's list of intellectual habits is not exhaustive.",
+      "Evident experiential assent may count as science only in an extended sense."
+    ],
+    "concepts": [
+      "intellectual virtues",
+      "truthful habits",
+      "self-reference",
+      "broad vs. strict science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e370"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e430": {
+    "summary": "Objects that on this view science produced by one demonstration could never be increased, neither by repeating the same demonstration (which already produced all it could) nor by a different medium (which yields a specifically distinct cognition that cannot intensify it). Also, science and non-science would be of the same species (e.g. a retained judgment after its object is destroyed), so error, faith, and opinion need not differ specifically either.",
+    "claims": [],
+    "concepts": [
+      "augmentation of science",
+      "intension",
+      "species of assents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e255"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e469": {
+    "summary": "Answers that science can increase: the demonstration may produce its effect successively, and intensifying assent to the premises intensifies the scientific assent, since its three partial causes are assent to the major, to the minor, and to the validity of the consequence (with God's general concurrence). Mair works through quantitative cases of how degrees in these causes determine the degree of the conclusion's assent, notes the causal pre-eminence of the major, and argues that the three judgments must be in one intellect, not spread across Mechelen, Antwerp, and Louvain. He rejects the view that intellect is not an active cause, and holds that a syllogism with one evident and one opinative premise yields only a higher grade of opinion, since the conclusion follows the weaker part.",
+    "claims": [
+      "Scientific assent is caused by assent to the major, to the minor, and to the consequence, with God's general concurrence.",
+      "Intensifying assent to the premises intensifies scientific assent.",
+      "The causal judgments must inhere in the same intellect.",
+      "The conclusion follows the weaker premise; one opinative premise yields opinion, not science."
+    ],
+    "concepts": [
+      "intension and remission",
+      "partial causes",
+      "assent",
+      "validity of consequence",
+      "general concurrence",
+      "peiorem sequitur conclusio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e430"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e681": {
+    "summary": "Grants the other main argument: science and non-science can share an essential species, as when half of a science is placed outside its subject, which contradicts nothing said.",
+    "claims": [
+      "Science and non-science can be of the same essential species."
+    ],
+    "concepts": [
+      "essential species",
+      "extrinsic denomination of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e430"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e692": {
+    "summary": "Objects that cognition of the premises can be remitted to zero while scientific assent to the conclusion remains, so science would exist without its premises. Since intuitive cognition cannot naturally persist without its object, science should not persist without its causes; but if premises' assent likewise needs its causes, then knowing Euclid I.21 would require simultaneously holding every prior proposition back to I.1 and the common notions and postulates, which seems unacceptable. A possible reply: actual science of a conclusion requires its premises, but premises once had can persist and be reapplied.",
+    "claims": [],
+    "concepts": [
+      "conservation of cognitions",
+      "dependence on causes",
+      "chains of demonstration",
+      "Euclid"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e469"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e798": {
+    "summary": "Argues against that reply: the scientific assent to one Euclidean conclusion can serve as a premise for another, and so exists without its own premises; likewise assent to the major of a new conclusion exists before minor and consequence are applied, so scientific cognition can exist without its effective cause.",
+    "claims": [
+      "Scientific assent can exist without the concurrent presence of its producing premises."
+    ],
+    "concepts": [
+      "conservation of cognitions",
+      "premises as conclusions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e692"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e818": {
+    "summary": "Responds that intuitive cognition and the judgment following it cannot naturally exist without their object, but evident cognitions deduced through consequential connection may differ, the disanalogy being shown by reduction to absurdity in one case only. On the further point that a scientific habit produces assent without the demonstration, he offers two answers: that assent is of another species, a certain inevident assent like faith (acquired without pious affection or infused faith), whatever one calls it; or, not improbably, that the habit inclines to an assent of the same most specific species as the science that produced it, since habits incline to acts like their generating acts unless shown otherwise.",
+    "claims": [
+      "Intuitive cognition cannot naturally exist without its present object.",
+      "Deduced evident cognitions may persist without their premises.",
+      "A habit generally inclines to acts of the same most specific species as those that generated it."
+    ],
+    "concepts": [
+      "intuitive cognition",
+      "scientific habit",
+      "acquired faith",
+      "naming conventions",
+      "habit inclination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e798",
+        "jm12w4-e54756-d1e692"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e903": {
+    "summary": "Defines science propter quid as assent to a conclusion generated by premises expressing the cause why it is so, and science quia as assent acquired from effect to cause or from a remote cause to the effect; a demonstration needs premises better known than and necessarily implying the conclusion.",
+    "claims": [
+      "Propter quid science proceeds through the proper cause.",
+      "Quia science proceeds from effect to cause or from a remote cause.",
+      "Demonstration requires premises better known than the conclusion that necessarily entail it."
+    ],
+    "concepts": [
+      "demonstratio propter quid",
+      "demonstratio quia",
+      "causal explanation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e125"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e927": {
+    "summary": "First corollary: God does not have science in this sense, both because all science is an act or habit and, more pertinently, because God knows all things equally primarily, not one through another.",
+    "claims": [
+      "God does not have science in the strict sense.",
+      "God knows all things equally immediately, not discursively."
+    ],
+    "concepts": [
+      "divine knowledge",
+      "discursive knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e125"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e939": {
+    "summary": "Second corollary: an angel or a blessed soul can have science, since they can know one thing through another.",
+    "claims": [
+      "Angels and the blessed can have discursive science."
+    ],
+    "concepts": [
+      "angelic knowledge",
+      "beatific knowledge",
+      "discursive knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e927"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e946": {
+    "summary": "Third corollary: knowing in this way is not a pure perfection, since it does not befit God, who knows every truth more evidently; yet it is not an imperfection in creatures, since what befits an inferior may not befit a superior. This concludes the explanation of the first term.",
+    "claims": [
+      "Scientific knowing is not a pure perfection.",
+      "Scientific knowing is not an imperfection for creatures."
+    ],
+    "concepts": [
+      "pure perfection",
+      "divine and creaturely knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e927"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e957": {
+    "summary": "Explains the second term, theological truth: besides the sense in the previous question, it can mean Scripture of the sacred canon or the mental act or habit about it, taken collectively or individually; and theology can mean the habit of what is deduced from the articles of faith and Scripture as conclusions from principles, which is the sense at issue here.",
+    "claims": [
+      "The question concerns theology as the habit of conclusions deduced from the articles and Scripture."
+    ],
+    "concepts": [
+      "theological truth",
+      "sacred canon",
+      "theology as habit",
+      "articles of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e986": {
+    "summary": "First consequence: someone who knows few theological truths is technically a theologian, as with a logician; but common usage reserves the name for one who understands many scriptural passages, can expound one by another, and make all cohere, so theologians differ in quality according to knowledge and ability to settle disputes.",
+    "claims": [
+      "Strictly, anyone with a theological habit is a theologian.",
+      "In common usage a theologian is one who can expound Scripture by Scripture and harmonize it."
+    ],
+    "concepts": [
+      "theologian",
+      "scriptural exegesis",
+      "ordinary usage"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e957"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1012": {
+    "summary": "Second consequence: a heretic or infidel can be a theologian, assenting to many theological propositions while erring in a few. Theological discourse is defined as reasoning from propositions in Scripture or deduced from them, supported by Pseudo-Dionysius (no guidance into theology for one who does not assent to Scripture), the analogy with geometric procedure from geometric principles, and Augustine's statement that writers on the Trinity sought to teach according to the Scriptures.",
+    "claims": [
+      "A heretic or infidel can be a theologian.",
+      "Theological discourse proceeds from propositions contained in or deduced from Scripture."
+    ],
+    "concepts": [
+      "heresy",
+      "theological discourse",
+      "principles of theology",
+      "Scripture"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e957"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1060": {
+    "summary": "Infers that the truths of the sacred canon are the principles of theology, to which theological discourse is ultimately resolved and from which theological conclusions are deduced.",
+    "claims": [
+      "The truths of the sacred canon are theology's principles."
+    ],
+    "concepts": [
+      "principles of theology",
+      "resolution",
+      "sacred canon"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1012"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1077": {
+    "summary": "Infers that theological conclusions properly so called are truths not explicitly in the canon but deduced from it, such as 'Christ has nerves' from 'Christ is a man.'",
+    "claims": [
+      "Proper theological conclusions are truths deduced from, not contained in, Scripture."
+    ],
+    "concepts": [
+      "theological conclusions",
+      "deduction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1060"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1088": {
+    "summary": "Infers, against Aureol, that no discourse from merely probable propositions is theological, since reasoning from probable premises, or mixing faith or evidence with a merely probable premise, generates only opinion, the conclusion following the weaker part.",
+    "claims": [
+      "Discourse from probable premises is not theological.",
+      "Reasoning with any merely probable premise yields only opinion."
+    ],
+    "concepts": [
+      "theological discourse",
+      "probable propositions",
+      "opinion",
+      "peiorem sequitur conclusio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1012"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1107": {
+    "summary": "Infers that assent to the conclusion of theological discourse is faith, since assent to a conclusion held only because of believed premises cannot exceed assent to them; hence such assent is never science. Mair rejects the view that theology is science properly so called as subalternated to the science of God and the blessed: another's evident knowledge of principles does not produce science in me, as a believer in an arithmetician's principles does not thereby have musical science, only believed music.",
+    "claims": [
+      "Assent to a conclusion of theological discourse is faith.",
+      "Theological discourse does not yield science in the wayfarer.",
+      "Another's evident knowledge of principles does not give me science.",
+      "Theology is not a science subalternated to God's knowledge in the relevant sense."
+    ],
+    "concepts": [
+      "faith",
+      "subalternation",
+      "theology as science",
+      "believed principles"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1060",
+        "jm12w4-e54756-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1146": {
+    "summary": "Objects that in human sciences a student's habit is called science even when the principles are evident to the teacher and only believed by the student, as Sophistical Refutations I says the learner must believe.",
+    "claims": [],
+    "concepts": [
+      "learning",
+      "belief in the teacher",
+      "denomination of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1107"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1157": {
+    "summary": "Confirms the objection with Ethics VI: principles of a science are sufficiently known by sense, induction, or some other kind of trust, so faith about a principle suffices for science properly speaking.",
+    "claims": [],
+    "concepts": [
+      "principles of science",
+      "induction",
+      "trust"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1146"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1171": {
+    "summary": "Replies that Aristotle meant that the learner must believe some things because belief disposes to science, and in Ethics VI he extends the term 'science.' The subalternation analogy fails: a subalternated science is always compatible with its subalternating science, while faith and science of the same object are not; and the principles of a subalternate science are conclusions of the higher, whereas the theology of the blessed and of wayfarers share the same principles, evident to one and believed by the other.",
+    "claims": [
+      "Belief disposes toward science but is not science.",
+      "A subalternate science is compatible with its subalternating science; faith and science of the same object are not.",
+      "The principles of a subalternate science are conclusions of the higher science.",
+      "The theology of the blessed and of wayfarers have the same principles."
+    ],
+    "concepts": [
+      "subalternation",
+      "disposition to science",
+      "theology of the blessed",
+      "compatibility of habits"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1146",
+        "jm12w4-e54756-d1e1157"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1208": {
+    "summary": "Objects to the claim that scriptural truths are theology's principles: according to Topics I principles are believed through themselves, but scriptural authorities are believed through something else, the authority of the Church, as Augustine says he would not believe the Gospel unless the Church's authority moved him.",
+    "claims": [],
+    "concepts": [
+      "principles",
+      "authority of the Church",
+      "self-evidence",
+      "Scripture"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1060"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1226": {
+    "summary": "Gives Aureol's argument that the articles are not theology's principles: no science concludes its own first principles, but theology proceeds to conclude the articles and other scriptural contents, as theologians frame questions such as whether God is one, omnipotent, or immense.",
+    "claims": [],
+    "concepts": [
+      "articles of faith",
+      "first principles",
+      "theological method"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1060"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1260": {
+    "summary": "Answers the first objection: principles not being believed 'through another' means not demonstrated from other principles, not that nothing causes assent to them, since principles from experience are caused by experiment. Augustine did not mean he believed the Gospel by demonstrating it from another principle, but that the Church's authority moved him to faith.",
+    "claims": [
+      "Principles are not demonstrated from prior principles, though their assent may have causes.",
+      "The Church's authority is a moving cause of faith, not a demonstrative principle of Scripture."
+    ],
+    "concepts": [
+      "principles",
+      "experience",
+      "authority of the Church",
+      "causes of assent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1208"
+      ]
+    }
+  },
+  "jm12w4-e54756-d1e1294": {
+    "summary": "Answers Aureol by denying the minor: if such a proposition is denied, the theologian's only further proof is to show it written in the canon; doctors who try to prove such propositions do so by metaphysical or physical, not theological, discourse. Mair notes that this resolves the question even though formal conclusions with their objections are not set out.",
+    "claims": [
+      "Theology does not demonstrate its own principles; it can only point to their presence in Scripture.",
+      "Proofs of articles such as God's unity are metaphysical or physical, not theological."
+    ],
+    "concepts": [
+      "principles of theology",
+      "metaphysics vs. theology",
+      "scriptural authority"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e54756-d1e1226"
+      ]
+    }
+  },
+  "jm12w4-e54756": {
+    "summary": "The fourth prologue question asks whether a wayfarer acquires science of theological truths through theological discourse. Mair proceeds by defining terms. Science is evident cognition of a necessary, dubitable truth caused through syllogistic discourse from evident premises; he defends a principle that cognitions from specifically different means differ specifically, examines how scientific assent arises from and is intensified by assents to major, minor, and consequence, debates whether science can persist without its premises (Euclidean chains), distinguishes propter quid and quia science, and draws corollaries that God has no science in this sense while angels and the blessed may. Theological truth, in the relevant sense, is the habit of conclusions deduced from Scripture, whose truths are theology's principles; hence even heretics can be theologians, probable reasoning is not theological (against Aureol), and the assent to theological conclusions is faith, not science. He rejects the subalternation defence of theology's scientific status and answers objections from the Church's authority and Aureol's claim that theology concludes its articles.",
+    "claims": [
+      "Science is evident cognition of a necessary truth caused by syllogistic discourse from evident premises.",
+      "Scientific assent is caused jointly by assent to the premises and to the consequence and varies with their intensity.",
+      "God does not have science in the strict sense; angels and the blessed can.",
+      "The truths of Scripture are the principles of theology.",
+      "Discourse from probable premises is not theological.",
+      "The wayfarer's assent to theological conclusions is faith, not science.",
+      "Theology is not a science subalternated to the knowledge of God and the blessed."
+    ],
+    "concepts": [
+      "scientia",
+      "demonstration",
+      "theological discourse",
+      "principles of theology",
+      "faith",
+      "subalternation",
+      "intension of assent",
+      "divine knowledge",
+      "authority of Scripture and Church"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e54756-d1e112",
+        "jm12w4-e54756-d1e125",
+        "jm12w4-e54756-d1e255",
+        "jm12w4-e54756-d1e275",
+        "jm12w4-e54756-d1e286",
+        "jm12w4-e54756-d1e291",
+        "jm12w4-e54756-d1e308",
+        "jm12w4-e54756-d1e317",
+        "jm12w4-e54756-d1e344",
+        "jm12w4-e54756-d1e370",
+        "jm12w4-e54756-d1e399",
+        "jm12w4-e54756-d1e404",
+        "jm12w4-e54756-d1e430",
+        "jm12w4-e54756-d1e469",
+        "jm12w4-e54756-d1e681",
+        "jm12w4-e54756-d1e692",
+        "jm12w4-e54756-d1e798",
+        "jm12w4-e54756-d1e818",
+        "jm12w4-e54756-d1e903",
+        "jm12w4-e54756-d1e927",
+        "jm12w4-e54756-d1e939",
+        "jm12w4-e54756-d1e946",
+        "jm12w4-e54756-d1e957",
+        "jm12w4-e54756-d1e986",
+        "jm12w4-e54756-d1e1012",
+        "jm12w4-e54756-d1e1060",
+        "jm12w4-e54756-d1e1077",
+        "jm12w4-e54756-d1e1088",
+        "jm12w4-e54756-d1e1107",
+        "jm12w4-e54756-d1e1146",
+        "jm12w4-e54756-d1e1157",
+        "jm12w4-e54756-d1e1171",
+        "jm12w4-e54756-d1e1208",
+        "jm12w4-e54756-d1e1226",
+        "jm12w4-e54756-d1e1260",
+        "jm12w4-e54756-d1e1294"
+      ]
+    }
+  }
+}

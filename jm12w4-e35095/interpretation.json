@@ -1,0 +1,910 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e35095-d1e112": {
+    "summary": "States the third prologue question, whether a wayfarer can have evident knowledge of theological truths, and begins explaining the term 'cognition' (notitia): actual cognition is a quality inhering in a subject (not only the intellect, to include sensory cognition of humans and animals) by which it formally knows, a definition of created cognition since uncreated cognition inheres in no subject; habitual cognition is defined proportionally. Cognitions divide into incomplex and complex, complex into inevident and evident, and evidence into absolute and conditioned.",
+    "claims": [
+      "Actual created cognition is a quality inhering in a subject by which it formally knows.",
+      "Uncreated cognition inheres in no subject."
+    ],
+    "concepts": [
+      "notitia",
+      "actual vs. habitual cognition",
+      "complex vs. incomplex cognition",
+      "absolute vs. conditioned evidence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e156": {
+    "summary": "Defines evident cognition (evidence simply speaking) as true assent without fear, caused by principles that necessitate the intellect, such that the intellect cannot assent in that way and be deceived, explaining each clause: 'true' excludes firm error, 'without fear' excludes suspicion, conjecture, and opinion, 'caused by necessitating principles' excludes faith (which is voluntarily generated), and the last clause excludes conditioned evidence (evidence given God's general influence or absent miracle). First proposition: not every assent to a necessary proposition is evidence, and 'evident cognition' and 'necessary' are impertinent terms.",
+    "claims": [
+      "Evident cognition is true, fearless assent caused by principles that necessitate the intellect and excluding deception.",
+      "Faith is voluntarily generated and therefore not evidence.",
+      "Conditioned evidence holds only given God's general influence.",
+      "Assent to a necessary proposition need not be evident.",
+      "Evidence and necessity are impertinent terms."
+    ],
+    "concepts": [
+      "evidence",
+      "assent",
+      "formido",
+      "faith",
+      "conditioned evidence",
+      "impertinent terms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e214": {
+    "summary": "Second proposition: evident cognition is broader than any of the truthful habits Aristotle enumerates in Ethics VI.",
+    "claims": [
+      "Evident cognition extends beyond each of the Ethics VI intellectual virtues."
+    ],
+    "concepts": [
+      "evidence",
+      "intellectual virtues"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e156"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e221": {
+    "summary": "Third proposition: one can have absolute evidence of many truths whose terms do not stand for God, such as the soul's assent to 'I am,' in which it cannot be deceived, as Augustine says in De trinitate XV: we know we live, since even one who is deceived lives.",
+    "claims": [
+      "The soul has absolute evidence of its own existence.",
+      "Absolute evidence is available for truths not about God."
+    ],
+    "concepts": [
+      "absolute evidence",
+      "self-knowledge",
+      "Augustinian cogito"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e156"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e239": {
+    "summary": "Fourth proposition: one can have absolute evidence of a proposition whose terms do not stand precisely for the knower, as 'a non-man is a non-animal,' expounded conditionally, in assenting to which the soul cannot be deceived.",
+    "claims": [
+      "Absolute evidence extends to propositions not about the knower."
+    ],
+    "concepts": [
+      "absolute evidence",
+      "exposition of propositions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e221"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e255": {
+    "summary": "Fifth proposition: a cognition that is now supreme evidence may later not be, e.g. my assent to my own existence placed in Socrates after I am annihilated. Against Pierre d'Ailly's suggestion that my cognition placed by God in Plato's soul would not be cognition, Mair argues the soul can receive it and God can transfer a quality between subjects, where it would naturally represent the same object.",
+    "claims": [
+      "A cognition's being evident is not intrinsic to it.",
+      "God can transfer a cognition from one subject to another.",
+      "A transferred cognition represents the same object as before."
+    ],
+    "concepts": [
+      "evidence",
+      "divine absolute power",
+      "transfer of accidents",
+      "representation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e221"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e281": {
+    "summary": "Sixth proposition: non-evidence can be of the same most specific species as evidence: God could preserve my intuitive cognition of a white wall after the wall's destruction, and my resulting judgment would not be evidence since it is not of a truth, whatever it is called.",
+    "claims": [
+      "Evident and non-evident judgments can be of the same species.",
+      "God can cause intuitive cognition of a non-existent object."
+    ],
+    "concepts": [
+      "evidence",
+      "intuitive cognition of non-existents",
+      "specific identity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e255"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e297": {
+    "summary": "Seventh proposition: some evidence is caused by mere cognition of terms (first principles), some by intuitive cognition of the things signified ('this paper is white'), and some is deduced from indemonstrable principles (science, wisdom, understanding, prudence, art). Against a doctor who holds that the will, through perverse affection and sophistry, can make the intellect dissent from a first principle, Mair weighs an argument from contrary qualities, admits it may be evaded by distinguishing assent to a conjunction from assent to its parts, then argues that no motive can rival the terms' power to cause assent, that otherwise pagans could be compelled to deny first principles (contrary to Metaphysics III and Posterior Analytics I) and one could will to believe oneself unburnt in a fire, and that we should not admit what contradicts philosophy and experience without warrant from faith. The will can, however, divert the intellect from applying the causes. Buridan's old woman either lied or misunderstood the terms.",
+    "claims": [
+      "Evidence arises from cognition of terms, from intuitive cognition, or by deduction from principles.",
+      "The will cannot make the intellect assent against a first principle.",
+      "Causes of evident assent outweigh any contrary motive and the will.",
+      "The will can prevent evident assent only by diverting attention from its causes.",
+      "Philosophical claims should not be rejected without warrant from faith."
+    ],
+    "concepts": [
+      "first principles",
+      "will and intellect",
+      "voluntary belief",
+      "principle of non-contradiction",
+      "evidence of the senses",
+      "attention"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e156"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e532": {
+    "summary": "Defines the second term: a theological truth is a truth about God, or about a creature as referred to God through creation, governance, restoration, justification, reward, and the like, citing Augustine's De trinitate XIV that this knowledge includes only what generates, nourishes, defends, and strengthens saving faith.",
+    "claims": [
+      "Theological truth concerns God or creatures as referred to God."
+    ],
+    "concepts": [
+      "theological truth",
+      "reductio ad Deum",
+      "saving faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e563": {
+    "summary": "Draws consequences: not all theological truths are matters of faith, some being opinable (God can make an infinite); truths about creatures are not theological unless referred to God; geometric truths are not theological; every proposition of faith is a theological truth but not conversely. To the objection that of contradictories like 'God can make an actual infinite' one must be a theological truth though no one can know which, Mair says doctors misspeak in asking about 'theological truth' rather than 'theological proposition or object'; both contradictories are theological propositions, though which is true cannot be known naturally.",
+    "claims": [
+      "Some theological truths are opinable rather than matters of faith.",
+      "Every proposition of faith is a theological truth, but not conversely.",
+      "Both members of a contradictory pair can be theological propositions.",
+      "Which of certain theological contradictories is true cannot be known naturally."
+    ],
+    "concepts": [
+      "theological truth",
+      "theological proposition",
+      "opinion",
+      "divine power",
+      "actual infinite"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e532"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e646": {
+    "summary": "First conclusion: a wayfarer can have evident knowledge of many theological propositions, since philosophers reached evident knowledge that God exists (Physics VIII, Metaphysics XII), or at least could evidently deduce truths about God or creatures in relation to God.",
+    "claims": [
+      "The wayfarer can have evident knowledge of many theological propositions.",
+      "Philosophers attained evident knowledge of God's existence."
+    ],
+    "concepts": [
+      "natural theology",
+      "evident knowledge",
+      "existence of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e563"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e664": {
+    "summary": "Second conclusion: a wayfarer cannot naturally have, about all theological truths, a cognition greater than faith, since it would be either opinion (which ranks below faith, per Hugh of St Victor: faith is certainty above opinion and below science) or evidence, which cannot be had naturally of the Trinity, the Incarnation, or Christ's presence in the Eucharist; otherwise unbelievers could easily be compelled to believe. The paragraph then raises the first doubt: whether apprehensive and adhesive cognition differ.",
+    "claims": [
+      "The wayfarer cannot naturally have evident knowledge of all theological truths.",
+      "Faith is above opinion and below science.",
+      "The Trinity, Incarnation, and Eucharistic presence cannot be naturally evident."
+    ],
+    "concepts": [
+      "faith",
+      "opinion",
+      "evidence",
+      "mysteries of faith",
+      "apprehension vs. adhesion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e646"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e714": {
+    "summary": "Second doubt: whether adhesive cognition is dissent from the opposite, and whether it is a proposition.",
+    "claims": [],
+    "concepts": [
+      "assent and dissent",
+      "judgment as proposition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e664"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e721": {
+    "summary": "Third doubt: since the title asks about evident cognition of theological truths, what truth is.",
+    "claims": [],
+    "concepts": [
+      "truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e714"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e731": {
+    "summary": "Fourth doubt: whether a proper abstractive cognition of God can be communicated to a wayfarer.",
+    "claims": [],
+    "concepts": [
+      "abstractive cognition of God",
+      "wayfarer"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e721"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e738": {
+    "summary": "Answers the first doubt. Apprehension extends to anything that can terminate a cognitive act, while judgment (adhesion) is only of propositions. There is apprehension of a complex distinct from adhesion to it, since one can apprehend a neutral proposition without assenting and the apprehension seems to persist once one assents; the same plausibly holds even for self-evident propositions, apprehension being naturally prior. Mair discusses whether apprehensive habits cause judgment, and then argues that adhesive cognition is itself apprehensive, since one cannot assent to what one does not apprehend; if every apprehension and adhesion were distinct and neither part of the other, God could preserve assent without apprehension. He rejects the expedient of a connotative sense of 'assent.'",
+    "claims": [
+      "Apprehension extends to complexes and incomplexes; judgment only to propositions.",
+      "Apprehension of a proposition is distinct from adhesion to it.",
+      "Every adhesive cognition is also apprehensive.",
+      "If two things are distinct and neither is part of the other, God can preserve one without the other."
+    ],
+    "concepts": [
+      "apprehension",
+      "judgment",
+      "adhesion",
+      "habits",
+      "divine separability principle",
+      "connotation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e664"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e920": {
+    "summary": "States Mair's preferred view: every assent is an apprehensive cognition, so with respect to one complex there are two specifically distinct apprehensions, pure apprehension and judicative apprehension; God can separate the first from the second but not the second from apprehension, since the judicative act is itself apprehensive. They differ in species because by one we judge and by the other we do not.",
+    "claims": [
+      "Every assent is an apprehensive cognition.",
+      "There are two specifically distinct apprehensions of one complex: pure and judicative.",
+      "Pure apprehension can exist without judgment by divine power, but not conversely."
+    ],
+    "concepts": [
+      "pure apprehension",
+      "judicative apprehension",
+      "specific distinction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e738"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e951": {
+    "summary": "Objects by the principle of parsimony that two apprehensions of the same complex need not be posited; and that since the will can by absolute power be borne toward the unknown, God could likewise preserve assent while destroying the intellect's apprehension.",
+    "claims": [],
+    "concepts": [
+      "parsimony",
+      "will toward the unknown",
+      "divine absolute power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e920"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e973": {
+    "summary": "Grants parsimony but notes he posits no more entities than the opponent, just as sensory and intellectual cognitions of one object differ in species; denies the analogy with the will, which is wholly directed by the intellect, whereas every judgment of the intellect is itself an apprehension.",
+    "claims": [
+      "Mair's view multiplies no entities beyond the opponent's.",
+      "Every judgment is an apprehension; acts of will are not."
+    ],
+    "concepts": [
+      "parsimony",
+      "will and intellect",
+      "judgment as apprehension"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e951"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e993": {
+    "summary": "Objects that simple apprehensions of terms are distinct from complex cognition of them, yet God cannot preserve the latter without the former, falsifying the separability principle; or if he can, someone could assent to 'all rhubarb purges choler' or to a first principle without knowing what its terms signify, which seems absurd.",
+    "claims": [],
+    "concepts": [
+      "separability principle",
+      "cognition of terms",
+      "assent without understanding"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e973",
+        "jm12w4-e35095-d1e738"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1036": {
+    "summary": "Replies that naturally no one assents to a proposition without cognition of its terms, but by God's power one could: God could preserve in Socrates the adhesive apprehension of the whole proposition while destroying the cognitions of its parts, so that someone assents to a conclusion whose terms' signification escapes him.",
+    "claims": [
+      "Naturally, assent requires cognition of the terms.",
+      "By absolute power God can preserve assent while destroying cognition of the terms."
+    ],
+    "concepts": [
+      "absolute vs. ordained power",
+      "assent",
+      "cognition of terms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e993"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1069": {
+    "summary": "Third objection: a concept can represent a thing at one time and not another (a collective term like 'people' after one member is removed; a proposition about the college president's location if Socrates is moved across the bridges), so a cognition might at times not tend to its object; confirmed by divine cognition representing Socrates running and then not running.",
+    "claims": [],
+    "concepts": [
+      "signification",
+      "collective terms",
+      "indexicality",
+      "divine cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1036"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1117": {
+    "summary": "Denies the antecedent. A collective term signifies each member in the sense of representing (broader than supposition); the parts of a whole need not each be signified by the whole's concept, and a term may presuppose things it does not signify (Socrates presupposes matter and humors). Whatever a mental term signifies, it always signifies in the intellect. In the bridge case Socrates would naturally form different mental propositions, but a retained one would always signify the same thing, though hearers might judge it false. The divine-cognition argument fails.",
+    "claims": [
+      "A mental term always signifies what it signifies, wherever it is in the intellect.",
+      "Signifying (representing) is broader than suppositing.",
+      "A term can presuppose things it does not signify."
+    ],
+    "concepts": [
+      "signification vs. supposition",
+      "collective terms",
+      "mental proposition",
+      "indexicals"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1069"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1193": {
+    "summary": "Fourth objection: barking and groaning signify naturally yet can fail to signify; a term naturally supposits for something yet may not; and a term no more represents what it resembles than heat heats, yet heat can fail to heat without a heatable object.",
+    "claims": [],
+    "concepts": [
+      "natural signs",
+      "supposition",
+      "representation",
+      "causal analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1117"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1209": {
+    "summary": "Replies that groaning signifies pain only as an effect signifies its cause, and that effect can arise from another cause, unlike a concept; supposition occurs only in a proposition and can be restricted, unlike signification; and concepts signify their objects whether or not they exist.",
+    "claims": [
+      "Natural signs like groans signify as effects of causes, unlike concepts.",
+      "Supposition can be restricted; signification cannot.",
+      "Concepts signify their objects whether or not those objects exist."
+    ],
+    "concepts": [
+      "natural signification",
+      "supposition",
+      "concepts of non-existents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1193"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1233": {
+    "summary": "Final objection: the concept of 'name' signifies the word 'man,' but if 'man' lost its signification 'name' would not signify it; and a cognition of Socrates placed outside a subject (e.g. in a stone) would be cognition yet not signify, argued by a syllogism and by conversion from 'this cognition is essentially a quality.'",
+    "claims": [],
+    "concepts": [
+      "second-intention terms",
+      "cognition outside a subject",
+      "conversion per accidens"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1209"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1273": {
+    "summary": "Replies that 'name' still signifies 'man' if signifying is taken as broader than suppositing, though not if taken as convertible with it, as with second-intention terms. Granting a cognition inheres in a stone, 'a quality in a stone is a cognition' is true but not 'it is a cognition in the stone.' The conversion fails because 'essentially and intrinsically' must be removed in the converse, explaining the exposition of such propositions (hence 'Socrates is essentially Socrates' and 'Socrates is essentially a number' are respectively false and true); by absolute power this quality is not essentially a cognition, though by ordained power and naturally it is.",
+    "claims": [
+      "Signification can be taken as broader than or convertible with supposition.",
+      "A cognition placed in a stone is a cognition, but not a cognition in the stone.",
+      "Propositions with 'essentially' are expounded by a conjunction including the impossibility of the subject's existing without the predicate.",
+      "By absolute power a given quality is not essentially a cognition."
+    ],
+    "concepts": [
+      "exposition of modal propositions",
+      "essentialiter",
+      "conversion",
+      "absolute vs. ordained power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1233"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1338": {
+    "summary": "Answers the second doubt by criticizing a doctor who divides mental propositions into natural likenesses of spoken words and others, treats judgments (assent with or without cognition) as propositions, and holds that dissent is simply assent to the opposite. Mair faults his improper exclusion of faith and opinion from cognition and his inadequate division (a Latin and a Greek hearer form different mental propositions on hearing the same Latin sentence). One can defend calling a judgment a proposition, but it need not be: a judgment is called true by extrinsic denomination from its true object, and a demonstrative pronoun pointing at a true proposition is not true. He discusses true and false denomination of assent to conjunctions, and holds that every adhesive cognition is apprehensive, that whether judgment is reflexive is verbal, and lists consequences of treating judgments as propositions. Against the doctor, assent and dissent about the same thing are really distinct, as willing and nilling are, though one act might be assent to one contradictory and dissent from the other.",
+    "claims": [
+      "Excluding faith and opinion from 'cognition' is improper usage.",
+      "A judgment is called true by extrinsic denomination from its object.",
+      "It is defensible but unnecessary to call a judgment a proposition.",
+      "Assent and dissent about the same object are really distinct acts.",
+      "One act may be assent to one contradictory and dissent from the other."
+    ],
+    "concepts": [
+      "judgment",
+      "assent and dissent",
+      "extrinsic denomination",
+      "mental proposition",
+      "reflexive cognition",
+      "volition and nolition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e714"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1604": {
+    "summary": "Takes up the third doubt by presenting the realist view that truth is a relation of reason: the intellect compares a proposition with its significate and, finding things to be as signified, produces a conformity that is truth (and a difformity that is falsity); self-falsifying propositions require a qualification. The topic is actual truth, not aptitudinal truth, which is not distinct from the true proposition.",
+    "claims": [],
+    "concepts": [
+      "truth as relation of reason",
+      "conformity",
+      "insolubles",
+      "actual vs. aptitudinal truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e721"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1650": {
+    "summary": "Reports common objections to the relational view: a fly's motion would alter an angel's intellect by changing the truth of a proposition about it; and there would be entities God could not create or annihilate (the truth of 'God creates nothing'). Mair judges these inconclusive: an angel need not be comparing propositions, since without the intellect's operation there is no actual truth (as some nominalist artists say of unread written propositions); and motion in the strict sense concerns only three categories, though extending it to relations is harmless.",
+    "claims": [
+      "Without the intellect's operation there is no actual truth or falsity.",
+      "Strict motion occurs only in quantity, quality, and place."
+    ],
+    "concepts": [
+      "truth as relation",
+      "change in angels",
+      "divine omnipotence",
+      "motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1604"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1713": {
+    "summary": "Answers the second objection with the common reply that if God created nothing there would be no new proposition, since no created cause can produce a proposition without divine concurrence; the opponents would say God can create the truth of 'God creates nothing' only by creating something, which the proposition's de inesse sense excludes.",
+    "claims": [
+      "No proposition can be produced without God's concurrence."
+    ],
+    "concepts": [
+      "divine concurrence",
+      "self-refuting propositions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1650"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1746": {
+    "summary": "Reports another doctor's arguments: if the truth of 'Antichrist will be' is a thing distinct from the proposition, it has been and so is necessary, making future contingents necessary; a self-referential proposition's truth would have to precede itself, since foundation and term precede a relation; and the falsity of 'Adam was not a man' would have no being.",
+    "claims": [],
+    "concepts": [
+      "future contingents",
+      "relations",
+      "self-reference",
+      "truth as distinct entity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1604"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1797": {
+    "summary": "Replies: the truth of 'Antichrist will be' has been, but not necessarily, since it depends on a future contingent; extremes need not precede a relation in time or nature (as creature's relation to God), or the self-referential proposition precedes as foundation and follows as term; and relations of reason do not properly have being.",
+    "claims": [
+      "Past truths about future contingents are not necessary.",
+      "A relation's extremes need not precede it."
+    ],
+    "concepts": [
+      "future contingents",
+      "relations of reason",
+      "foundation and term"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1746"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1834": {
+    "summary": "Mair nonetheless prefers, by parsimony, the view that truth is the true proposition itself and falsity the false proposition.",
+    "claims": [
+      "Truth is identical with the true proposition.",
+      "Falsity is identical with the false proposition."
+    ],
+    "concepts": [
+      "truth",
+      "parsimony",
+      "nominalist theory of truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1604",
+        "jm12w4-e35095-d1e1797"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1843": {
+    "summary": "Objects that 'Socrates runs' has a first instant of existence but its truth has no first instant, since running begins by a last instant of non-being, so truth and proposition differ.",
+    "claims": [],
+    "concepts": [
+      "first and last instants",
+      "truth and time"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1834"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1859": {
+    "summary": "Confirms the objection with De interpretatione I: truth and falsity are in composition and division, and nothing is in itself, so truth differs from the true proposition.",
+    "claims": [],
+    "concepts": [
+      "composition and division",
+      "truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1843"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1868": {
+    "summary": "Denies the consequence: the argument would equally prove that Socrates and running Socrates are distinct things, which even opponents deny, since though running differs from Socrates, Socrates running does not.",
+    "claims": [
+      "The instant argument proves too much."
+    ],
+    "concepts": [
+      "connotative terms",
+      "parity argument"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1843"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1879": {
+    "summary": "Replies to the confirmation that the transitive construction ('truth is in composition') stands for an intransitive one, as in 'wisdom is in God.'",
+    "claims": [
+      "'Truth is in the proposition' is a transitive phrasing of an identity."
+    ],
+    "concepts": [
+      "transitive vs. intransitive construction",
+      "divine attributes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1859"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1896": {
+    "summary": "On the fourth doubt, reports a doctor who denies that a wayfarer can receive cognition of God as triune: no abstractive cognition can be first, since it must be deduced from a prior one, and a pure wayfarer has no prior cognition from which knowledge of God could be deduced. Mair notes the induction holds only in the common course of nature.",
+    "claims": [
+      "The induction that abstractive cognition presupposes prior cognition holds only in the common course of nature."
+    ],
+    "concepts": [
+      "abstractive cognition",
+      "cognition of God",
+      "priority of cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e731"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1920": {
+    "summary": "Reports the doctor's reply: interior powers act naturally only after external sensation, which is why their acts are abstractive; if God made them act on external things without prior sensation, they would have an immediate order to things and their acts would be intuitive; so any abstractive cognition presupposes a prior one.",
+    "claims": [],
+    "concepts": [
+      "intuitive vs. abstractive cognition",
+      "interior senses",
+      "immediate order to objects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1896"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1964": {
+    "summary": "Reports the doctor's second argument: the first cognition must be of a being in act (Metaphysics IX), and such cognition is intuitive.",
+    "claims": [],
+    "concepts": [
+      "first cognition",
+      "being in act",
+      "intuitive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1920"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e1975": {
+    "summary": "Mair judges the doctor's conclusion false: whatever God can do through a secondary efficient cause he can do alone, so if he can give abstractive cognition of the Trinity via intuitive cognition, he can give it without. Moreover, Paul saw the divine essence (Augustine to Orosius) and remained a wayfarer, so a wayfarer can have proper cognition of God and know that he is three in persons and one in essence.",
+    "claims": [
+      "Whatever God can do through a secondary efficient cause, he can do alone.",
+      "God can give a wayfarer proper abstractive cognition of the Trinity.",
+      "Paul saw the divine essence while remaining a wayfarer."
+    ],
+    "concepts": [
+      "divine omnipotence",
+      "secondary causes",
+      "Pauline rapture",
+      "proper cognition of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1896"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e2028": {
+    "summary": "Answers the doctor's reasons: God could give Mair a distinct abstractive cognition of Prester John in India without prior intuition, though by law this does not occur; it is false that all interior acts are abstractive, since the intellect intuits the same objects as external sense, the separated soul intuits external things without sensation, and the soul intuits itself and its acts. The first cognition need not be of a being in act (Aristotle spoke naturally), and in any case God is a being in act; such cognition would not be beatific or of the same species.",
+    "claims": [
+      "Abstractive cognition need not presuppose intuitive cognition by divine power.",
+      "The intellect has intuitive cognition of external objects and of itself.",
+      "The separated soul intuits external things without sensation.",
+      "Abstractive cognition of God given to a wayfarer is not beatific."
+    ],
+    "concepts": [
+      "intuitive cognition",
+      "abstractive cognition",
+      "separated soul",
+      "self-knowledge",
+      "beatific vision"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e1920",
+        "jm12w4-e35095-d1e1964"
+      ]
+    }
+  },
+  "jm12w4-e35095-d1e2072": {
+    "summary": "A closing aphorism: there is a stubborn struggle between asserting the truth and defending one's preference.",
+    "claims": [],
+    "concepts": [
+      "intellectual honesty",
+      "closing formula"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e35095-d1e2028"
+      ]
+    }
+  },
+  "jm12w4-e35095": {
+    "summary": "The third prologue question asks whether a wayfarer can have evident knowledge of theological truths. Mair defines cognition and its divisions, then evident cognition as true, fearless assent caused by necessitating principles without possibility of deception, drawing propositions about absolute evidence (the soul's knowledge of its own existence), the extrinsic character of evidence (a cognition can cease to be evident, and God can preserve intuition of a destroyed object), and the sources of evidence; he argues at length that the will cannot make the intellect dissent from a first principle. He defines theological truth as truth about God or creatures as referred to God, noting that some are opinable and that both contradictories can be theological propositions. He concludes that a wayfarer can have evident knowledge of many theological truths (as philosophers did of God's existence) but cannot naturally have more than faith regarding all, especially the Trinity, Incarnation, and Eucharist. Four doubts follow: apprehension and judgment are distinct, though every judgment is an apprehension, and God could preserve assent without cognition of terms; a judgment is not necessarily a proposition, and assent and dissent are really distinct; truth is best identified with the true proposition rather than a relation of reason; and, against another doctor, God can give a wayfarer proper abstractive cognition of the Trinity without prior intuition, as Paul's vision shows.",
+    "claims": [
+      "Evident cognition is true, fearless assent caused by necessitating principles excluding deception.",
+      "The will cannot make the intellect dissent from a first principle.",
+      "The wayfarer can have evident knowledge of many theological truths.",
+      "The wayfarer cannot naturally have evident knowledge of the mysteries of faith.",
+      "Every judgment is an apprehension, but not every apprehension is a judgment.",
+      "Truth is identical with the true proposition.",
+      "God can give a wayfarer proper abstractive cognition of God as triune."
+    ],
+    "concepts": [
+      "evidence",
+      "assent",
+      "first principles",
+      "theological truth",
+      "faith",
+      "apprehension and judgment",
+      "truth",
+      "intuitive and abstractive cognition",
+      "divine absolute power",
+      "signification"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e35095-d1e112",
+        "jm12w4-e35095-d1e156",
+        "jm12w4-e35095-d1e214",
+        "jm12w4-e35095-d1e221",
+        "jm12w4-e35095-d1e239",
+        "jm12w4-e35095-d1e255",
+        "jm12w4-e35095-d1e281",
+        "jm12w4-e35095-d1e297",
+        "jm12w4-e35095-d1e532",
+        "jm12w4-e35095-d1e563",
+        "jm12w4-e35095-d1e646",
+        "jm12w4-e35095-d1e664",
+        "jm12w4-e35095-d1e714",
+        "jm12w4-e35095-d1e721",
+        "jm12w4-e35095-d1e731",
+        "jm12w4-e35095-d1e738",
+        "jm12w4-e35095-d1e920",
+        "jm12w4-e35095-d1e951",
+        "jm12w4-e35095-d1e973",
+        "jm12w4-e35095-d1e993",
+        "jm12w4-e35095-d1e1036",
+        "jm12w4-e35095-d1e1069",
+        "jm12w4-e35095-d1e1117",
+        "jm12w4-e35095-d1e1193",
+        "jm12w4-e35095-d1e1209",
+        "jm12w4-e35095-d1e1233",
+        "jm12w4-e35095-d1e1273",
+        "jm12w4-e35095-d1e1338",
+        "jm12w4-e35095-d1e1604",
+        "jm12w4-e35095-d1e1650",
+        "jm12w4-e35095-d1e1713",
+        "jm12w4-e35095-d1e1746",
+        "jm12w4-e35095-d1e1797",
+        "jm12w4-e35095-d1e1834",
+        "jm12w4-e35095-d1e1843",
+        "jm12w4-e35095-d1e1859",
+        "jm12w4-e35095-d1e1868",
+        "jm12w4-e35095-d1e1879",
+        "jm12w4-e35095-d1e1896",
+        "jm12w4-e35095-d1e1920",
+        "jm12w4-e35095-d1e1964",
+        "jm12w4-e35095-d1e1975",
+        "jm12w4-e35095-d1e2028",
+        "jm12w4-e35095-d1e2072"
+      ]
+    }
+  }
+}

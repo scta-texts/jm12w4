@@ -1,0 +1,54 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e3ad4g-d1e109": {
+    "summary": "Mair's prooemium to Book I combines a humility topos with a programmatic plan. Drawing on the widow's mite and the Good Samaritan's promise to repay, he presents his undertaking as a task beyond his strength, sustained by zeal for God's house, whose aim is to fortify, or rather to show already fortified, the faith against carnal and animal errors with the shields of David's tower, following Peter Lombard's own prologue. He then announces seven prologue questions: the generation of acquired faith (with an aside that the object of faith is a complex); whether a mental proposition is composed of several partial cognitions; whether a wayfarer under the common law can acquire evident knowledge of theological truths; whether theological discourse yields science; whether faith, opinion, and science about the same complex can coexist in one subject; whether theology is speculative or practical; and the object of science and, incidentally, of faith.",
+    "claims": [
+      "The commentary aims to defend the faith against error in continuity with Lombard's prologue.",
+      "The object of faith is a complex."
+    ],
+    "concepts": [
+      "humility topos",
+      "defense of the faith",
+      "acquired faith",
+      "evident knowledge",
+      "theology as science",
+      "speculative vs. practical",
+      "object of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e3ad4g-Hd1e106"
+      ]
+    }
+  },
+  "jm12w4-e3ad4g": {
+    "summary": "The prooemium introduces Mair's commentary on Book I of the Sentences. Framing his work with biblical images of humble offering and trust in divine recompense, Mair states his purpose of defending the faith against error after Lombard's example, and sets out the programme of seven prologue questions: the generation of acquired faith, the composition of mental propositions, the possibility of evident theological knowledge for the wayfarer, whether theological discourse yields science, the compatibility of faith, opinion, and science, whether theology is speculative or practical, and the object of science and faith.",
+    "claims": [
+      "The commentary aims to defend the faith against error in continuity with Lombard's prologue.",
+      "The prologue will treat seven questions on faith, cognition, and the scientific status of theology."
+    ],
+    "concepts": [
+      "prooemium",
+      "defense of the faith",
+      "acquired faith",
+      "theology as science",
+      "object of faith"
+    ],
+    "_metadata": {
+      "level": "prooemium",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e3ad4g-d1e109"
+      ]
+    }
+  }
+}

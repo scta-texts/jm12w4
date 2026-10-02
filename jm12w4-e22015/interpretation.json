@@ -1,0 +1,528 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e22015-d1e112": {
+    "summary": "States the second prologue question: whether a mental proposition is composed of several partial cognitions, one serving as subject, another as copula, and another as predicate.",
+    "claims": [],
+    "concepts": [
+      "mental proposition",
+      "partial cognitions",
+      "subject-copula-predicate structure"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e123": {
+    "summary": "Sets out the two positions, that the mental proposition is a single simple cognition and Aristotle's view that it has parts, and refuses to save the first by appeal to spoken, written, or non-ultimate mental propositions, since propositional properties belong primarily to mental propositions and only derivatively to conventional signs subordinated to them (De interpretatione I). Arguments: the intellect can form a verbal copula alongside simple concepts of Socrates and Plato; without parts there would be no identical or disparate predication, no three terms in a mental syllogism, and no exchange of terms in conversion. Restricting the discussion to the ultimate mental proposition (noting a disagreement with Buridan about non-ultimate ones), Mair grants that opponents' arguments have some weight but answers the question affirmatively, following the Philosopher and the Fathers.",
+    "claims": [
+      "Propositional properties such as supposition and ampliation belong primarily to mental propositions and derivatively to conventional ones.",
+      "A spoken or written sign is a proposition by subordination to a mental proposition.",
+      "The ultimate mental proposition is composed of several partial cognitions.",
+      "Without distinct parts, mental syllogism, conversion, and kinds of predication could not be explained."
+    ],
+    "concepts": [
+      "mental language",
+      "ultimate vs. non-ultimate mental proposition",
+      "subordination of signs",
+      "copula",
+      "syllogism",
+      "conversion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e214": {
+    "summary": "First objection: since all terms inhere in the indivisible intellectual soul, what makes one term subject rather than another, especially if all are produced in the same instant? The reply given is that the predicate is what is enunciated of another, the subject that of which another is enunciated, and the copula what unites the extremes, which also clarifies hypothetical and compound categorical propositions.",
+    "claims": [
+      "The roles of subject, predicate, and copula are fixed by their function in enunciation, not by temporal order of production."
+    ],
+    "concepts": [
+      "subject",
+      "predicate",
+      "copula",
+      "indivisibility of the soul",
+      "enunciation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e247": {
+    "summary": "Second objection: the composition view implies that two ultimate mental propositions, one possible and one impossible ('every whiteness is a being' and 'every being is whiteness'), would be of the same species despite signifying naturally. Mair rejects an answer appealing to specifically different syncategorematic acts and instead grants the consequence, arguing that such propositions can be entitatively of one species, as with 'Socrates is Plato' and 'Socrates is Socrates' or a proposition that changes truth-value. He turns the opponent's further question (why the three concepts yield 'man is animal' rather than 'animal is man') back on the opponent, judging these arguments inconclusive.",
+    "claims": [
+      "Mental propositions differing in truth or possibility can be of the same entitative species.",
+      "A mental proposition can change truth-value without changing species.",
+      "The opponent faces the same difficulty about ordering that he raises."
+    ],
+    "concepts": [
+      "species of mental propositions",
+      "natural signification",
+      "syncategorematic acts",
+      "truth-value change",
+      "tu quoque"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e214"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e310": {
+    "summary": "Third objection: in 'man is man' or 'Socrates is Socrates' the cognitions of subject and predicate are of the same species in the same subject, so by the Metaphysics V rule they would intensify each other into one quality, leaving no distinct subject or predicate around the copula; hence some ultimate mental proposition is not composed of partial cognitions, and so none is. Even Aquinas, denying two same-species accidents in one subject, must accept this in some propositions.",
+    "claims": [],
+    "concepts": [
+      "intension of qualities",
+      "same-species accidents",
+      "tautological propositions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e247"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e354": {
+    "summary": "Rejects the third objection. Many deny the Metaphysics V rule for spiritual qualities, species, and lights; but granting it, Mair answers that a mental proposition lacking a distinct predicate is not absurd, as with 'Socrates Socrates is' or with adjectival verbs in the mind, where one term is both copula and predicate. The copula need not mediate between the extremes, and even if subject- and predicate-cognitions form one quality, one part of it can be enunciated of another.",
+    "claims": [
+      "A mental proposition may lack a predicate distinct from its copula.",
+      "The copula need not stand between the extremes.",
+      "One part of a single quality can be enunciated of another part."
+    ],
+    "concepts": [
+      "adjectival verbs",
+      "copula",
+      "intension of qualities",
+      "spiritual qualities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e310"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e402": {
+    "summary": "Answers an objection that the cognitions of Socrates and of Plato differ in species, since they differ more than numerically distinct cognitions of Socrates: things in one species may resemble one another more or less, and no two individuals of different species are equally perfect, since species are like numbers (Metaphysics VIII). A further objection follows: then the predicate of 'every man is man' would be distributed along with the subject, making it false.",
+    "claims": [
+      "Cognitions of Socrates and of Plato need not differ in species.",
+      "Members of a single species can resemble one another unequally.",
+      "Individuals of different species are never equally perfect."
+    ],
+    "concepts": [
+      "specific vs. numerical difference",
+      "species as numbers",
+      "distribution"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e354"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e454": {
+    "summary": "Answers that distribution can fall on one part of a single quality and merely confused supposition on another, so two equally proximate same-species concepts can be treated differently; 'nearness' to a sign is not local or temporal. Against the claim that one simple cognition suffices, Mair cites the ancient view, endorsed by Aristotle, of adjectival verbs, and the Aristotelian thesis that same-species accidents in one subject form one thing. He offers alternatives: in 'Socrates is Socrates' the copula mediates by way of conception or enunciation and blocks fusion; the intellect can divide a fused quality by a unitive act. He then defends the intensibility of cognition and other spiritual accidents (science, love of God, species in the medium, which would otherwise yield infinitely many forms with no least one), and dismisses the counterexample of paternity and likeness relations.",
+    "claims": [
+      "Distribution can attach to one part of a single quality while another part has merely confused supposition.",
+      "Proximity in a mental proposition is not local or temporal.",
+      "The copula mediates by way of conception or enunciation, preventing fusion of subject and predicate.",
+      "Cognitions, acts of will, and habits are intensible.",
+      "Species in the medium intensify one another."
+    ],
+    "concepts": [
+      "distribution",
+      "merely confused supposition",
+      "intension and remission",
+      "unitive act",
+      "species in medio",
+      "relations"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e402",
+        "jm12w4-e22015-d1e354"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e676": {
+    "summary": "Raises a sharp difficulty about negation: if a mental negation has parts, 'man is not an animal' could be counted as having two (or three, or infinitely many) negations before the copula, so its quality would become affirmative, negative, or indeterminate; similarly a distributive sign with parts would make two mobilizing signs fall on one term, cancelling distribution.",
+    "claims": [],
+    "concepts": [
+      "negation",
+      "quality of propositions",
+      "parts of syncategoremata",
+      "mobilization"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e454"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e720": {
+    "summary": "First reply, drawn from Mair's arts question on the infinite: deny that syncategorematic acts have parts, which extinguishes the argument; this is not improbable, since some hold the baptismal character, the intellect, or relational accidents to be non-intensible accidents. Mair admits some of what he states here he thinks false, though it colors the position.",
+    "claims": [
+      "Syncategorematic mental acts may lack parts.",
+      "Some accidents plausibly lack intensive parts."
+    ],
+    "concepts": [
+      "syncategoremata",
+      "sacramental character",
+      "intensibility",
+      "dialectical position"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e676"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e753": {
+    "summary": "Second reply, assuming every concept and act has parts: same-species negations, as natural agents, do not impede but reinforce each other, so the gradual parts of a single negation all negate the copula; only negations of different species, the first falling on the second, cancel to produce affirmation. Objections follow: 'not man not on this day is not man' would come out wrongly; a negation placed both at the front and before the copula should be doubled like a fire in two places; and differing species do not oppose more than same-species agents, which actually compete for the same effect.",
+    "claims": [
+      "Same-species negations within a mental act reinforce rather than cancel each other.",
+      "Negations cancel when one falls on another as its object."
+    ],
+    "concepts": [
+      "negation",
+      "malignant nature of negation",
+      "natural agents",
+      "contrariety",
+      "gradual parts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e676",
+        "jm12w4-e22015-d1e720"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e895": {
+    "summary": "Third reply: negations bearing equally on the copula do not cancel, like two negations written one above the other and both linked to the front of a proposition; cancellation requires that one precede the other. Since mental negation is produced simultaneously in an indivisible subject, it has neither place nor ordered parts, and multiplicity of its parts is irrelevant. An objection notes that the intellect could produce negation successively.",
+    "claims": [
+      "Double negation yields affirmation only when one negation precedes and governs the other.",
+      "A mental negation in the indivisible soul has no ordered parts."
+    ],
+    "concepts": [
+      "negation",
+      "order of signs",
+      "indivisibility of the soul",
+      "successive production"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e753"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e941": {
+    "summary": "Fourth reply: when a syncategorematic sign has parts but forms one thing, the intellect uses it as one, regarding the whole, not its parts or specific differences, as a written double negation in different inks still makes affirmation. A conventional duplicated negation moves the intellect to affirm proportionally, which is not arbitrary but follows the rule that negation destroys whatever follows it; like one man carrying in two places, the same negation at the front and before the copula yields affirmation. Negation is 'malignant,' destroying even itself, like the envious man who would lose one eye so that his companion loses both.",
+    "claims": [
+      "The intellect uses a composite syncategorematic sign as a unit.",
+      "Conventional duplications of negation move the intellect to affirm.",
+      "Negation destroys whatever follows it and posits its opposite."
+    ],
+    "concepts": [
+      "negation",
+      "conventional vs. natural signification",
+      "mental use of signs",
+      "malignant nature of negation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e895"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1039": {
+    "summary": "Transitional: introduces the arguments of another doctor who holds the opposing conclusion, denying syncategoremata in the mind and making the copula the whole proposition.",
+    "claims": [],
+    "concepts": [
+      "mental syncategoremata",
+      "copula",
+      "opposing position"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1049": {
+    "summary": "Fourth argument (of the opposing doctor): the soul can apprehend 'a is b' by one simple act just as it judges 'a is b' by one simple act, since a judgment is not composed of assents to subject, predicate, and copula; confirmed because if all parts of a written proposition were in one place nothing would make one subject and another predicate.",
+    "claims": [],
+    "concepts": [
+      "judgment",
+      "apprehension",
+      "simplicity of mental acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1039"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1071": {
+    "summary": "Replies that judgment and apprehension differ: judgment concerns only complexes, while apprehension concerns complexes and incomplexes and follows things as presented, and experience and authority show several apprehensions in a mental proposition. The confirmation fails because written terms jumbled in one place are no longer a proposition, as ink in a pen is not.",
+    "claims": [
+      "Assent is only to complexes; apprehension extends to incomplexes.",
+      "Collocated written terms do not constitute a proposition."
+    ],
+    "concepts": [
+      "judgment vs. apprehension",
+      "complex vs. incomplex",
+      "written proposition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1049"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1104": {
+    "summary": "Fifth argument: if propositions were composed, an intellect with concepts of Peter and Paul could not form 'Peter is white' without also forming 'Paul is white,' since the verbal concept is equally present and composable with both; confirmed by the case of a single letter 'a' imposed to signify 'man is animal,' which is a proposition without parts.",
+    "claims": [],
+    "concepts": [
+      "composition of concepts",
+      "conventional signs",
+      "imposition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1039"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1135": {
+    "summary": "Denies the inference: though both concepts are equally present, the intellect, really identical with the will, chooses to compose one rather than the other, as a printer chooses one of several equal letters. To the confirmation, the letter 'a' is a proposition only by subordination to a mental proposition that has parts; if the mental proposition lacked parts, Mair would deny that 'a' is a proposition.",
+    "claims": [
+      "The intellect freely selects which concepts to compose.",
+      "Intellect and will are really identical.",
+      "A conventional sign is a proposition only through subordination to a composite mental proposition."
+    ],
+    "concepts": [
+      "free composition",
+      "identity of intellect and will",
+      "subordination of signs"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1104"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1168": {
+    "summary": "Sixth argument: the will can will that a is by one act, so the intellect can understand that a is by one act; confirmed because God is a proposition and has no parts.",
+    "claims": [],
+    "concepts": [
+      "unity of acts",
+      "will and intellect",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1039"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1181": {
+    "summary": "Grants the argument concerning judgment: the intellect has one assent or dissent regarding the whole, composed of gradual parts but not parts of different kinds. To the confirmation, God, whose apprehensive and judicative cognition are not distinct, may be called an uncreated proposition, but nothing follows for created ones; otherwise one could argue that the soul itself is a mental proposition. Requiring distinct subject, copula, and predicate, God is not a proposition, and calling him one, even via the three persons, is a dispute over a name.",
+    "claims": [
+      "A judgment is one act with gradual, not heterogeneous, parts.",
+      "In God apprehensive and judicative cognition are identical.",
+      "Properly speaking God is not a proposition."
+    ],
+    "concepts": [
+      "judgment",
+      "gradual parts",
+      "divine cognition",
+      "uncreated proposition",
+      "verbal dispute"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1168"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1232": {
+    "summary": "Seventh argument: there is no syncategorematic act in 'every man is an animal,' since such an act would either not vitally change the cognitive power (and so should not be posited) or would represent an object as a natural likeness, contrary to the position. Against the reply that syncategorematic acts make concepts be taken in a certain way (universal signs copulatively, demonstratives singularly), it objects that the intellect would then have to reflect on its concepts in every such proposition, contrary to experience, and that 'denoting' is signifying.",
+    "claims": [],
+    "concepts": [
+      "syncategorematic acts",
+      "vital change",
+      "natural likeness",
+      "reflection",
+      "distribution"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1039"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1313": {
+    "summary": "Answers the reflection objection by distinguishing senses of 'reflection': a concept signifying itself; representing a concept; colloquial self-assessment; the soul knowing itself; and a concept or act bearing on a concept. Mair grants reflection only in the last sense, not the first.",
+    "claims": [
+      "Syncategorematic acts are reflexive only in the sense that an act bears upon a concept."
+    ],
+    "concepts": [
+      "reflection",
+      "self-cognition",
+      "semantic distinctions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1232"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1346": {
+    "summary": "On whether the intellect can form syncategorematic acts without concepts, Mair thinks it more likely not, citing Aristotle's remark that 'is' said alone is nothing. A syncategorema has a categorema as its object without signifying it, making it be taken in some way, as a zero makes the following figure count as tens without itself signifying any number.",
+    "claims": [
+      "Syncategorematic acts cannot exist in the intellect without categorematic concepts.",
+      "A syncategorema has a categorema as object but does not signify it."
+    ],
+    "concepts": [
+      "syncategoremata",
+      "categoremata",
+      "cipher analogy",
+      "modes of taking terms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1232"
+      ]
+    }
+  },
+  "jm12w4-e22015-d1e1372": {
+    "summary": "Answers the rejoinder that having an object is being its natural likeness, so the syncategorematic act would signify the concept: Mair grants the premises but denies the consequence, since having an object does not require natural likeness, as acts of will show. Being an object means terminating an act and sometimes causing it, both of which concepts do for syncategorematic acts.",
+    "claims": [
+      "Having an object does not require being its natural likeness.",
+      "To be an object is to terminate an act.",
+      "Concepts both cause and terminate syncategorematic acts."
+    ],
+    "concepts": [
+      "object of an act",
+      "natural likeness",
+      "acts of will",
+      "termination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e22015-d1e1346"
+      ]
+    }
+  },
+  "jm12w4-e22015": {
+    "summary": "The second prologue question asks whether a mental proposition is composed of several partial cognitions functioning as subject, copula, and predicate. Following Aristotle and against those who make the mental proposition a single simple cognition, Mair answers affirmatively for ultimate mental propositions, arguing that propositional properties belong first to mental language and derivatively to spoken and written signs, and that syllogism, conversion, and kinds of predication require parts. He defends the view against objections about how subject and predicate are distinguished in an indivisible soul, the specific identity of propositions with different truth-values, the fusion of same-species cognitions in tautologies, and the multiplication of mental negations (where he offers four alternative solutions, culminating in the 'malignant' nature of negation). He then rebuts another doctor's arguments that the copula is the whole proposition and that there are no mental syncategoremata, holding that the intellect freely composes concepts, that syncategorematic acts have categorematic concepts as objects without signifying them, and that God is not properly a proposition.",
+    "claims": [
+      "The ultimate mental proposition is composed of partial cognitions: subject, copula, and predicate.",
+      "Spoken and written propositions are propositions by subordination to mental propositions.",
+      "Mental propositions with different truth-values can share a species.",
+      "Same-species mental negations reinforce rather than cancel one another.",
+      "There are syncategorematic acts in the mind, which have concepts as objects without signifying them.",
+      "God is not properly a proposition."
+    ],
+    "concepts": [
+      "mental language",
+      "mental proposition",
+      "copula",
+      "syncategoremata",
+      "negation",
+      "intension of qualities",
+      "subordination of signs",
+      "judgment vs. apprehension"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e22015-d1e112",
+        "jm12w4-e22015-d1e123",
+        "jm12w4-e22015-d1e214",
+        "jm12w4-e22015-d1e247",
+        "jm12w4-e22015-d1e310",
+        "jm12w4-e22015-d1e354",
+        "jm12w4-e22015-d1e402",
+        "jm12w4-e22015-d1e454",
+        "jm12w4-e22015-d1e676",
+        "jm12w4-e22015-d1e720",
+        "jm12w4-e22015-d1e753",
+        "jm12w4-e22015-d1e895",
+        "jm12w4-e22015-d1e941",
+        "jm12w4-e22015-d1e1039",
+        "jm12w4-e22015-d1e1049",
+        "jm12w4-e22015-d1e1071",
+        "jm12w4-e22015-d1e1104",
+        "jm12w4-e22015-d1e1135",
+        "jm12w4-e22015-d1e1168",
+        "jm12w4-e22015-d1e1181",
+        "jm12w4-e22015-d1e1232",
+        "jm12w4-e22015-d1e1313",
+        "jm12w4-e22015-d1e1346",
+        "jm12w4-e22015-d1e1372"
+      ]
+    }
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:08Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e98196-d1e112": {
+    "summary": "Opens the seventh prologue question by surveying opinions on the object of science and faith: complexe significabilia (dismissed without discussion as voluntary fictions lacking authority or reason), the things signified by the extremes of the conclusion, the conclusion itself (attributed to William of Auxerre and many ancients), and the external thing as known (Aquinas, Alexander of Hales). Mair judges that, once complexe significabilia are set aside, the remaining views do not differ in any important way.",
+    "claims": [
+      "Complexe significabilia are arbitrary fictions without support from authority or reason.",
+      "Apart from the complexe significabilia view, the standard positions on the object of science differ little in substance."
+    ],
+    "concepts": [
+      "object of science",
+      "object of faith",
+      "complexe significabile",
+      "status quaestionis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e170": {
+    "summary": "Gives Mair's answer: the demonstrated conclusion, its terms, and the things they signify are all objects of both science and faith. Being an object of faith or science just means terminating the act of assent, as color terminates vision; the intellect assenting to 'Christ rose from the dead' assents to the complex while also considering its parts and what they signify. Hence the bitter disputes on this point are merely verbal.",
+    "claims": [
+      "The conclusion, its terms, and the things signified by them are all objects of science and of faith.",
+      "To be the object of an act of assent is to terminate that act.",
+      "The controversy over the object of science is largely verbal."
+    ],
+    "concepts": [
+      "object of assent",
+      "termination of an act",
+      "enuntiabile",
+      "verbal dispute"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e206": {
+    "summary": "Raises two objections to the conclusion: it would follow that faith, error, and opinion concern the same object, contrary to what was said in question five; and that science and faith would be reflexive cognitions.",
+    "claims": [],
+    "concepts": [
+      "faith",
+      "opinion",
+      "error",
+      "reflexive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e170"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e217": {
+    "summary": "Replies briefly: the first objection is passed over as easy; to the second, if being any judicative or merely apprehensive cognition of an item suffices for being a reflexive cognition, then the inferred corollary is simply granted.",
+    "claims": [
+      "On a broad sense of 'reflexive cognition,' it may be conceded that science and faith are reflexive."
+    ],
+    "concepts": [
+      "reflexive cognition",
+      "judicative vs. apprehensive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e206"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e228": {
+    "summary": "Objects that on this view science would concern corruptible things that can be otherwise, contrary to Aristotle in Posterior Analytics I, whether conclusions or the things they signify are taken as the objects.",
+    "claims": [],
+    "concepts": [
+      "necessity of scientific objects",
+      "contingency",
+      "corruptibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e170"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e242": {
+    "summary": "Objects further that every science would then be about terms, which is false, as the quadrivial sciences show.",
+    "claims": [],
+    "concepts": [
+      "object of science",
+      "terms",
+      "quadrivium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e170"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e255": {
+    "summary": "Answers the corruptibility objection by distinguishing first and second intentions: science does concern things corruptible in first intention (any creature can be destroyed by God), but not contingent propositions in second intention, because the things themselves have the connection that makes the predicate necessarily united to the subject as the proposition signifies. Mair turns the objection back on the defenders of eternal, incorruptible complexe significabilia, whose ad hoc senses of 'being' he dismisses as an Orléans gloss.",
+    "claims": [
+      "Science can concern things corruptible in first intention.",
+      "Science does not concern contingent propositions in second intention.",
+      "The necessity required by science lies in the connection of the things signified."
+    ],
+    "concepts": [
+      "first and second intention",
+      "necessity",
+      "complexe significabile",
+      "divine power to annihilate"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e228",
+        "jm12w4-e98196-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e279": {
+    "summary": "Answers the objection that every science would be about terms: this holds of the complex object and its parts but not of the things signified, which are the remote object that the intellect principally investigates. Logic, rhetoric, and grammar are called sermocinal because they chiefly consider discourse itself, while physics and the quadrivium have the opposite orientation.",
+    "claims": [
+      "The things signified are the principal, remote object of a science; the complex is the proximate object.",
+      "Logic is sermocinal because it chiefly considers true or false discourse."
+    ],
+    "concepts": [
+      "proximate vs. remote object",
+      "sermocinal sciences",
+      "real sciences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e242"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e306": {
+    "summary": "Objects that if the enunciable is the object of faith, the articles of faith have changed, and our faith differs from that of the ancients, as with 'Christ will die' versus 'Christ has died.'",
+    "claims": [],
+    "concepts": [
+      "articles of faith",
+      "change of faith over time",
+      "tensed propositions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e170"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e315": {
+    "summary": "Rejects the reply that a tense-neutral enunciable ('the Son of God is to be incarnate') is the common article, and instead accepts the consequence: the ancients assented by faith to 'Christ will die' while we assent to its opposite, so the acquired faith of the ancients differs from ours not only numerically but in species, since specifically distinct objects argue specifically distinct acts and habits.",
+    "claims": [
+      "The acquired faith of the ancients differs in species from ours.",
+      "Specific distinction of objects entails specific distinction of acts and habits."
+    ],
+    "concepts": [
+      "acquired faith",
+      "specific distinction",
+      "individuation of habits by objects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e306"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e335": {
+    "summary": "Meets the counter-authority of the Gloss on 1 Corinthians 10 ('one faith under different signs') with three senses of sameness: the same faith in a subaltern species; the same infused faith in its most specific species, since infused faith inclined Abraham to 'the Messiah will come' as it inclines us to 'the Messiah has come'; and the same faith objectively, inasmuch as both concern Christ.",
+    "claims": [
+      "The faith of the ancients and ours are the same in subaltern species.",
+      "Infused faith is the same in its most specific species across times.",
+      "Their faith and ours share the same object, Christ."
+    ],
+    "concepts": [
+      "infused faith",
+      "subaltern species",
+      "unity of faith",
+      "objective identity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e315"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e361": {
+    "summary": "Takes up the doubt of what unity makes logic (or any science) one. Mair rejects the view that a whole science like physics is numerically one habit (also held by Auxerre and Alexander for virtues), since separable habits are distinct and one may know one conclusion while erring about another; he holds that there are as many distinct assents as conclusions, and specifically distinct conclusions yield specifically distinct assents, so there are many logical and geometrical sciences. 'Science' can mean a single habit or a collection that may include opinions and errors. He then expounds Scotus's account (Ordinatio prol. q.3) that a science is one because its first subject first virtually contains all its truths, distinguishing real from cognitive virtual containment and illustrating with the syllogism concluding that man is risible.",
+    "claims": [
+      "There are as many distinct assents as there are conclusions.",
+      "Specifically distinct conclusions yield specifically distinct assents.",
+      "A science taken collectively may include opinions and errors.",
+      "On Scotus's view, the first subject of a science first virtually contains all its truths."
+    ],
+    "concepts": [
+      "unity of science",
+      "numerical vs. specific unity of habits",
+      "virtual containment",
+      "first subject",
+      "esse cognitum",
+      "immediate propositions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e590": {
+    "summary": "Objects to the virtual-containment account: man would virtually contain the evidence of 'man is beatifiable' and the moon that of 'the moon is eclipsable,' hence also the concepts of beatitude and of the eclipsing earth, by the maxim that what virtually contains a thing contains everything required for it.",
+    "claims": [],
+    "concepts": [
+      "virtual containment",
+      "requisites of evidence",
+      "eclipse example"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e361"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e619": {
+    "summary": "Answers by restricting the maxim to a total virtual container; the opinion attributes only partial containment to the subject. A rejoinder follows: first virtual containment means not depending on another in containing, but any partial container depends on a co-agent, so the subject must contain totally.",
+    "claims": [
+      "The maxim holds of total, not partial, virtual containers.",
+      "The subject of a science is only a partial virtual container of its truths."
+    ],
+    "concepts": [
+      "total vs. partial containment",
+      "first virtual containment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e590"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e638": {
+    "summary": "Rebuts the rejoinder by distinguishing dependence in containing (presupposing another container) from dependence in effecting (needing a co-cause). The concept of the subject can be had without the concepts of the definition and the passion, but not conversely, so these depend on it in containing; the discussion concerns the objective, not the qualitative, concept.",
+    "claims": [
+      "Depending in containing differs from depending in effecting.",
+      "The subject's concept is prior in containment to the concepts of its definition and passions."
+    ],
+    "concepts": [
+      "dependence in containing",
+      "dependence in effecting",
+      "objective concept",
+      "qualitative concept"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e619"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e662": {
+    "summary": "Notes that other doctors attack this account in many ways, all answerable by the distinction given, and reports one argument: if every subject so contained its passion, each passion would be a thing distinct from its subject, actual or potential, which the arguer shows at length to be false.",
+    "claims": [],
+    "concepts": [
+      "subject and passion",
+      "real distinction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e638"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e680": {
+    "summary": "Replies that the argument misses the Subtle Doctor's meaning, since he does not speak of effective containment in which the subject produces its passion; the arguer insists that Scotus himself added in the margin, after explaining first virtual containment, 'see the argument.'",
+    "claims": [
+      "Scotus's virtual containment is not effective production of the passion by the subject."
+    ],
+    "concepts": [
+      "effective containment",
+      "authorial marginalia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e662"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e698": {
+    "summary": "Dismisses the marginal-note appeal: Scotus could hardly have meant the subject produces its passion, since he holds them really identical and only formally distinct, and nothing produces itself. Perhaps someone else wrote the note; in any case it must be read in light of his other principles, and Scotists are not bound to defend marginal jottings. Whoever wants to prove passion and subject identical should go to the Thomists.",
+    "claims": [
+      "For Scotus, subject and passion are really identical and formally distinct.",
+      "Nothing produces itself.",
+      "Scotists need not defend marginal annotations attributed to Scotus."
+    ],
+    "concepts": [
+      "formal distinction",
+      "real identity",
+      "textual authority",
+      "Scotism"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e680"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e733": {
+    "summary": "Declines to answer the remaining arguments, because they concern either real containment or total containment in cognized being, neither of which the position asserts.",
+    "claims": [],
+    "concepts": [
+      "real containment",
+      "total containment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e619",
+        "jm12w4-e98196-d1e662"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e744": {
+    "summary": "Presents Mair's preferred position, which he says differs only verbally from the Scotist one: a science like logic is one not by unity of subject but by order to a principal subject of attribution, as soldiers under one emperor form one army. In logic predicables serve the categories, these serve enunciations, and these serve argumentation, which is the subject of attribution; partial books have partial subjects ordered to it. Grammar, though prerequisite and in some respects more similar to logic, aims at congruous speech and so is a different science, as soldiers of Pompey and Caesar may resemble one another more than comrades. The same object treated through different principles yields different sciences, as Avicenna and Averroes show for astronomy and physics on the earth's roundness.",
+    "claims": [
+      "A science is one by the ordering of its parts to a principal subject of attribution.",
+      "Argumentation is the subject of attribution of logic.",
+      "There are as many partial subjects of attribution as partial sciences.",
+      "Order to a common end, not essential similarity, unifies a science.",
+      "The same conclusion demonstrated through different principles belongs to different sciences."
+    ],
+    "concepts": [
+      "subject of attribution",
+      "unity of science",
+      "order to an end",
+      "partial sciences",
+      "subalternation of disciplines",
+      "distinction of sciences by principles"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e361"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e922": {
+    "summary": "Raises the final doubt, the subject of theology. Mair observes that views on subjects of attribution multiply because no strong arguments are available on any side, making curious insistence imprudent; he lists rival views for logic and for theology (God as God, Christ, God as redeemer, God as glorifier) and specifies that he seeks the total subject of attribution, partial subjects being as numerous as partial theological assents.",
+    "claims": [
+      "Disputes about subjects of attribution lack decisive arguments.",
+      "There are as many partial subjects of theology as partial theological assents."
+    ],
+    "concepts": [
+      "subject of theology",
+      "total vs. partial subject of attribution",
+      "intellectual modesty"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e744"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e959": {
+    "summary": "Answers that God as God is the subject of theology, since all theological objects are ordered to him, being considered either as effects manifesting his power, justice, mercy, and providence or as precepts manifesting his will (citing Augustine, City of God II). The rationes of redeemer or glorifier belong rather to the predicate than the subject, and many theological truths, like God's being triune, bear no relation to redemption or glorification.",
+    "claims": [
+      "God under the ratio of deity is the subject of theology.",
+      "Everything in theology is considered by reference to God.",
+      "Redeemer and glorifier are predicates of theology rather than its subject."
+    ],
+    "concepts": [
+      "subject of theology",
+      "analogy of attribution",
+      "deity",
+      "Trinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e922",
+        "jm12w4-e98196-d1e744"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e1012": {
+    "summary": "Objects that if God as God were the subject of our theology, God would be comprehensible by it, since any habit considers everything belonging to its subject under its proper ratio (Aristotle, Physics III and Metaphysics IV), and there is no reason it should consider some such attributes rather than others; but God is incomprehensible to any created cognition.",
+    "claims": [],
+    "concepts": [
+      "divine incomprehensibility",
+      "scope of a science",
+      "subject and attributes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e959"
+      ]
+    }
+  },
+  "jm12w4-e98196-d1e1060": {
+    "summary": "Denies the inference: comprehension properly requires a cognitive act as perfect as its object, knowing it under every predicable; if 'comprehension' just means cognition, the consequence is granted, and the theologian considers whatever belongs to his subject as far as possible. There is a reason for selectivity, since theology considers what is revealed and deducible from revelation, whereas philosophers considered what appeared in natural light.",
+    "claims": [
+      "Proper comprehension requires cognition equal in perfection to its object.",
+      "Theology's scope is set by revelation and what is deducible from it."
+    ],
+    "concepts": [
+      "comprehension",
+      "revelation",
+      "natural light",
+      "theology vs. philosophy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e98196-d1e1012"
+      ]
+    }
+  },
+  "jm12w4-e98196": {
+    "summary": "The seventh and final prologue question addresses the object of science and faith and, incidentally, the unity of a science and the subject of theology. Mair sets aside complexe significabilia as fictions and holds that the demonstrated conclusion, its terms, and the things signified are all objects of science and faith, treating the controversy as largely verbal. He defends this against objections about contingency, terms, and the changeableness of tensed articles of faith, concluding that the acquired faith of the ancients differs specifically from ours while infused faith and its object (Christ) remain the same. On the unity of a science, he rejects numerical unity of whole sciences, holds that each conclusion has a distinct assent, expounds and defends Scotus's doctrine of virtual containment (including a dismissal of an appeal to a Scotist marginal note), and then gives his own account of unity through order to a subject of attribution, illustrated by the army analogy and the distinction of logic and grammar. Finally he argues that God as God is the subject of theology and that this does not make God comprehensible, since theology's scope is fixed by revelation.",
+    "claims": [
+      "The conclusion, its terms, and the things signified are all objects of science and faith.",
+      "The acquired faith of the ancients differs specifically from ours, while infused faith and its object remain the same.",
+      "Each scientific conclusion has its own distinct assent.",
+      "A science is unified by order to a principal subject of attribution.",
+      "God as God is the subject of theology.",
+      "Having God as its subject does not make theology comprehensive of God."
+    ],
+    "concepts": [
+      "object of science",
+      "object of faith",
+      "complexe significabile",
+      "unity of science",
+      "virtual containment",
+      "subject of attribution",
+      "subject of theology",
+      "acquired and infused faith",
+      "comprehension"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e98196-d1e112",
+        "jm12w4-e98196-d1e170",
+        "jm12w4-e98196-d1e206",
+        "jm12w4-e98196-d1e217",
+        "jm12w4-e98196-d1e228",
+        "jm12w4-e98196-d1e242",
+        "jm12w4-e98196-d1e255",
+        "jm12w4-e98196-d1e279",
+        "jm12w4-e98196-d1e306",
+        "jm12w4-e98196-d1e315",
+        "jm12w4-e98196-d1e335",
+        "jm12w4-e98196-d1e361",
+        "jm12w4-e98196-d1e590",
+        "jm12w4-e98196-d1e619",
+        "jm12w4-e98196-d1e638",
+        "jm12w4-e98196-d1e662",
+        "jm12w4-e98196-d1e680",
+        "jm12w4-e98196-d1e698",
+        "jm12w4-e98196-d1e733",
+        "jm12w4-e98196-d1e744",
+        "jm12w4-e98196-d1e922",
+        "jm12w4-e98196-d1e959",
+        "jm12w4-e98196-d1e1012",
+        "jm12w4-e98196-d1e1060"
+      ]
+    }
+  }
+}

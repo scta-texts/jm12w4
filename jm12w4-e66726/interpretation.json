@@ -1,0 +1,1078 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e66726-d1e112": {
+    "summary": "States the fifth prologue question, whether faith and science are compatible, specifying that faith is taken properly, as distinguished from the other truthful acts and habits.",
+    "claims": [],
+    "concepts": [
+      "faith",
+      "science",
+      "compatibility of habits"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e123": {
+    "summary": "First conclusion: acts of faith and science are not compatible in the same subject regarding the same proximate object, i.e. the conclusion itself. That science and faith can concern the same remote object (subject, predicate, or things signified) is not in question.",
+    "claims": [
+      "Acts of faith and science about the same proximate object cannot coexist in one subject.",
+      "Faith and science can share a remote object."
+    ],
+    "concepts": [
+      "proximate vs. remote object",
+      "incompatibility of acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e140": {
+    "summary": "Second conclusion: infused faith is compatible with both the act and the habit of science.",
+    "claims": [
+      "Infused faith is compatible with scientific act and habit."
+    ],
+    "concepts": [
+      "infused faith",
+      "science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e145": {
+    "summary": "Third conclusion: the acquired scientific habit and acquired faith are not compatible regarding the same proximate object.",
+    "claims": [
+      "Acquired scientific habit and acquired faith about the same proximate object are incompatible."
+    ],
+    "concepts": [
+      "acquired faith",
+      "scientific habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e140"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e152": {
+    "summary": "Fourth conclusion: the habit of acquired faith does not conflict with a scientific act, nor conversely.",
+    "claims": [
+      "A habit can coexist with an act opposed to it."
+    ],
+    "concepts": [
+      "habits vs. acts",
+      "acquired faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e145"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e159": {
+    "summary": "Proves the first conclusion by the common argument: otherwise one proposition would be both evidently and inevidently known by the same person, a contradiction. A reply is anticipated: the conclusion is evidently known by one assent and inevidently by another, which is no more contradictory than saying a proposition is evident by this (scientific) assent and not by that (faith) assent.",
+    "claims": [
+      "The same proposition cannot be both evident and inevident to the same person."
+    ],
+    "concepts": [
+      "evident vs. inevident cognition",
+      "contradiction",
+      "relativization to acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e190": {
+    "summary": "Counters the reply: it validly follows that if something is believed by someone, it is not evident to him.",
+    "claims": [
+      "What is believed by someone is not evident to that person."
+    ],
+    "concepts": [
+      "belief excludes evidence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e159"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e197": {
+    "summary": "Second counter: the reply implies proper faith could be had of first principles and something could be both intuitively evident and believed, contrary to all saints and doctors. Rejoinders are considered: one should infer only 'not evident by faith,' and propositions evident by intuition differ from dubitable ones like scientific conclusions. Mair argues that a faith-producing means (authority or topical argument) applied to a first principle fails to generate faith precisely because the clear evident cognition impedes it, and scientific assent is likewise clear, so it prevents or removes faith.",
+    "claims": [
+      "Proper faith cannot be had of first principles.",
+      "Clear evident cognition impedes the generation of faith about the same object.",
+      "Scientific assent, being clear, excludes faith about its conclusion."
+    ],
+    "concepts": [
+      "first principles",
+      "intuitive evidence",
+      "authority",
+      "topical argument",
+      "incompatibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e190"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e250": {
+    "summary": "Supports the first conclusion from Scripture: 1 Corinthians 13 (when the perfect comes, the partial is done away) shows faith and hope will not remain in heaven, but charity will; Hebrews 11 and its gloss say faith concerns what is not seen. Christ's words to Thomas are reconciled: Thomas saw a man and believed God.",
+    "claims": [
+      "Faith and hope do not remain in heaven; charity does.",
+      "Faith concerns what is not seen."
+    ],
+    "concepts": [
+      "faith and vision",
+      "theological virtues in heaven",
+      "doubting Thomas"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e159"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e279": {
+    "summary": "Adds Augustinian authority: De doctrina christiana I says that for those reaching eternal glory faith and hope pass away while charity remains greater and surer; the Soliloquies say the soul seeing God needs neither faith nor hope, while charity increases; also De trinitate VIII.",
+    "claims": [
+      "In the vision of God faith and hope cease and charity grows."
+    ],
+    "concepts": [
+      "beatific vision",
+      "theological virtues",
+      "Augustine"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e250"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e320": {
+    "summary": "Proves the second conclusion: when a believer with infused faith demonstrates 'God exists,' the infused habit is not destroyed; it formerly inclined to that assent and still does, since infused faith inclines not only to what is actually believed but to everything one is obliged to assent to at a given place and time.",
+    "claims": [
+      "Infused faith is not destroyed by demonstration.",
+      "Infused faith inclines to all that one is bound to assent to."
+    ],
+    "concepts": [
+      "infused faith",
+      "demonstration of God's existence",
+      "obligation to assent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e140"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e336": {
+    "summary": "Notes that many hold the opposite of the third conclusion, not improbably in part, and proves it: acquired habits conflict as much as their acts, since (Ethics II) virtues are produced and destroyed by contrary acts, and equally strong opposed habits with intellectual concurrence would produce opposite acts. Otherwise no method would remain for proving incompatibility of habits.",
+    "claims": [
+      "Acquired habits are as incompatible as their acts.",
+      "Incompatibility of habits is known through incompatibility of their acts."
+    ],
+    "concepts": [
+      "habits",
+      "contrariety",
+      "acquired faith and science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e145"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e375": {
+    "summary": "Proves the fourth conclusion inductively: a penitent lecher still feels a strong inclination to past sins, explained only by the remaining habit; so a habit and an opposite act coexist.",
+    "claims": [
+      "Habits and contrary acts can coexist."
+    ],
+    "concepts": [
+      "habit persistence",
+      "repentance",
+      "inclination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e152"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e386": {
+    "summary": "Objects to the first conclusion: Socrates can have obscure abstractive and clear intuitive cognition of the same object at once, and Aristotle often adds authorities after demonstrations, which would be useless unless they produced faith. Mair grants abstractive and intuitive cognitions can coexist but denies the inference, since they need not produce opposed judgments; abstractive cognition yields no present-tense judgment, though memory may yield judgments about the past.",
+    "claims": [
+      "Abstractive and intuitive cognition of the same object can coexist.",
+      "Abstractive cognition causes no judgment about the present."
+    ],
+    "concepts": [
+      "intuitive and abstractive cognition",
+      "memory",
+      "authority after demonstration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e445": {
+    "summary": "Answers the authority objection: Aristotle cites authorities to help those who lack demonstrations or to show agreement, mainly after dialectical arguments; when demonstration and authority are presented together, only scientific assent results, since the soul is not disposed for faith. Assents to different premises do not conflict; only assents to the same conclusion do. A second objection follows: demonstration destroys faith, so it is dangerous to demonstrate what is believed; Gerson says it is false, blasphemous, and heretical to deny proper faith of what is known by experience or reason.",
+    "claims": [
+      "Authority produces no faith when demonstration is simultaneously present.",
+      "The soul is not disposed to receive faith while it has scientific assent."
+    ],
+    "concepts": [
+      "authority",
+      "demonstration",
+      "disposition of the subject",
+      "Gerson"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e386"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e515": {
+    "summary": "Distinguishes: science destroys acquired faith but not infused faith. No merit is lost, since faith, like science, is an intellectual act meritorious only as commanded, and one who seeks to demonstrate 'God exists' while ready to believe merits as much or more. Gregory's dictum that faith has no merit where reason gives proof applies only to one who would believe only if rationally compelled. Belief against strong sophistical arguments is more meritorious, being harder; so believing the Trinity and the Eucharist merits more than believing God exists. Gerson is dismissed, since authorities and doctors reasonably hold the contrary, and Aquinas, whom he cites, opposes him.",
+    "claims": [
+      "Science destroys acquired faith but not infused faith.",
+      "Seeking demonstration does not diminish merit.",
+      "Faith merits only insofar as it is commanded by the will.",
+      "Belief is more meritorious when more difficult.",
+      "Gerson's charge of heresy is unfounded."
+    ],
+    "concepts": [
+      "merit of faith",
+      "acquired vs. infused faith",
+      "commanded acts",
+      "difficulty and virtue",
+      "Gerson",
+      "Gregory the Great"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e445"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e583": {
+    "summary": "Third objection: the light of a star and of the sun in the same part of the medium form one light, so authority and demonstration together could cause one assent.",
+    "claims": [],
+    "concepts": [
+      "light",
+      "fusion of qualities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e594": {
+    "summary": "Replies that it is a philosophical problem whether all stars take their light from the sun (as the moon does, shown by its horns and eclipses); granting the premise, the lights are same-species qualities that intensify each other, unlike faith and science.",
+    "claims": [
+      "Faith and science are not same-species qualities and so do not fuse."
+    ],
+    "concepts": [
+      "stellar light",
+      "intension",
+      "species of qualities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e583"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e610": {
+    "summary": "Fourth objection: opinion is compatible with science and is darker than faith, so faith is too. The case that opinion and science coexist: if the 'fear' attached to opinion is distinct from it, God could remove it; and on any view, repeated topical arguments, each removing an equal amount of finite fear, would eventually eliminate it, leaving a fearless assent. Mair rejects replies by two doctors (that opinion intensifies as fear is remitted, with analogies to continence becoming temperance; that each probable argument brings new fear), since the same difficulty recurs, and notes the only escape is one doctor's metaphysical view that opinion and science are the same species, remiss assent being opinion and intense assent science.",
+    "claims": [],
+    "concepts": [
+      "opinion",
+      "formido",
+      "topical arguments",
+      "intension and remission",
+      "continence and temperance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e738": {
+    "summary": "Draws the absurd consequences of that escape: science would be composed of opinions, topical arguments would produce science, and evident cognition would be produced by inevident assent. The other solution fails because multiplying arguments still eliminates prior fear; and the claim that infinitely many topical arguments generate science while finitely many do not would make topical arguments produce evidence as clear as first principles.",
+    "claims": [
+      "Science is not composed of opinions.",
+      "Topical arguments cannot produce evident cognition."
+    ],
+    "concepts": [
+      "opinion and science",
+      "topical arguments",
+      "evidence",
+      "infinite series of arguments"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e610"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e783": {
+    "summary": "Gives Mair's own account: opinion cannot coexist with science about the same proximate object because it is inevident and 'with fear,' meaning it can be removed by contrary reasons even while its cause remains; evident assent cannot be removed by any reason. Faith is similar: while the will's act and the motive that produce it stand, no motive can weaken it (else one could be compelled into unbelief), but once the volition is removed one can assent to the opposite, as heretics do. Topical arguments do not properly diminish fear but increase assent, which, even if infinitely intense, remains obscure and incompatible with science. The opiner does not assent to, judge, or doubt the opposite.",
+    "claims": [
+      "Opinion is 'with fear' in that it can be removed by contrary reasons while its cause remains.",
+      "No reason can destroy evident assent.",
+      "Faith cannot be weakened by any motive while the producing volition persists.",
+      "Topical arguments increase assent rather than diminish fear.",
+      "Opinion, however intense, remains obscure and incompatible with science."
+    ],
+    "concepts": [
+      "opinion",
+      "formido de opposito",
+      "faith and will",
+      "heresy",
+      "evidence",
+      "obligationes"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e610",
+        "jm12w4-e66726-d1e738"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e866": {
+    "summary": "Fifth objection: contrary corporeal qualities can coexist in remiss degrees, so spiritual ones can too, being no more opposed.",
+    "claims": [],
+    "concepts": [
+      "contrary qualities",
+      "remiss degrees",
+      "spiritual qualities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e879": {
+    "summary": "Further objection: if one person were in two places, with clear intuitive cognition in one and obscure in the other (Socrates disguised in Plato's clothes or a bearskin), he would have contrary judgments simultaneously.",
+    "claims": [],
+    "concepts": [
+      "bilocation",
+      "contrary judgments",
+      "intuitive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e866"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e899": {
+    "summary": "Continues: if this is granted for bilocation, it must be granted naturally, since the soul is in foot and head, and of separated souls and angels in parts of their place. Also, if science destroys opinion in Plato's intellect, they must coexist, otherwise something would destroy what was never with it.",
+    "claims": [],
+    "concepts": [
+      "presence of the soul",
+      "angels",
+      "corruption of contraries"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e879"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e923": {
+    "summary": "Answers the fifth objection by denying the antecedent (to be shown in distinction 17), the consequent, and the inference; many who grant the antecedent deny the consequent because evident cognition expels enigmatic cognition of the same object.",
+    "claims": [
+      "Evident cognition expels enigmatic cognition of the same object."
+    ],
+    "concepts": [
+      "contrary qualities",
+      "evident vs. enigmatic cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e866"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e936": {
+    "summary": "Answers the bilocation case: the judgments may not be contradictory since their terms represent Socrates differently and need not be synonymous; still, contrary qualities may inhere in one subject by miracle when it is in several places. Yet contradictories cannot be verified even by absolute power, and some inferences hold only naturally. The soul's presence in body parts or a separated soul's presence in one place does not yield the result, since the receptivity is equal. The argument does, however, refute Averroes's single intellect, which would simultaneously have science, faith, opinion, and error about the same object.",
+    "claims": [
+      "Contrary qualities can inhere in a bilocated subject by miracle.",
+      "Contradictories cannot be true even by absolute power.",
+      "Averroes's unicity of intellect entails incompatible cognitive states in one subject."
+    ],
+    "concepts": [
+      "bilocation",
+      "synonymy of concepts",
+      "absolute power",
+      "Averroism",
+      "unicity of intellect"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e879",
+        "jm12w4-e66726-d1e899"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1016": {
+    "summary": "Answers the corruption objection: grants the antecedent but denies the consequence; if science is produced instantaneously, its first instant of being is opinion's first instant of non-being, and in spiritual corruptions a later agent can destroy what never coexisted with it, as heat produced near a cold body expels the cold at the instant it begins.",
+    "claims": [
+      "A corrupting form can begin to exist at the first instant of the corrupted form's non-being."
+    ],
+    "concepts": [
+      "instantaneous change",
+      "first and last instants",
+      "corruption of contraries"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e899"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1055": {
+    "summary": "Sixth objection: naturally nothing lasts only an instant, and what is produced successively cannot be corrupted instantaneously; so if a demonstration is applied to someone with opinion, science cannot at once destroy the opinion and must coexist with it for some time. If science is not produced while opinion remains, what destroys the opinion, and how can there be assent to premises and consequence without assent to the conclusion?",
+    "claims": [],
+    "concepts": [
+      "successive vs. instantaneous change",
+      "duration",
+      "causal sufficiency of premises"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1016"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1090": {
+    "summary": "Replies that no creature naturally ceases by a last instant of being, and at the instant the premises are applied no science is produced; Aristotle's dictum that the conclusion is known with major and minor applies when the subject is capable. The opinion is gradually destroyed by the demonstration, as water's form gradually expels heat, until with the impediment removed demonstration produces its effect.",
+    "claims": [
+      "Demonstration gradually removes contrary opinion before producing science.",
+      "Premises produce science only in a disposed subject."
+    ],
+    "concepts": [
+      "disposition of the subject",
+      "gradual corruption",
+      "last instant"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1055"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1115": {
+    "summary": "Seventh objection: error and science are compatible, so opinion, science, and faith are too. The same assent can be error and evidence, as assent to 'John errs' (made by John himself) or 'John is deceived'; and Ethics VII says some cling to opinions as firmly as others to demonstrations.",
+    "claims": [],
+    "concepts": [
+      "self-referential propositions",
+      "error",
+      "evidence",
+      "insolubles"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1170": {
+    "summary": "Replies that error and science may coincide only in self-referential cases where the proposition implies its holder errs, and similarly for deception; in Ethics VII 'opinion' means faith.",
+    "claims": [
+      "Error and science coincide only in reflexive cases."
+    ],
+    "concepts": [
+      "self-reference",
+      "error",
+      "Aristotelian usage"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1115"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1181": {
+    "summary": "Eighth objection: one can know universally that every mule is sterile, yet, seeing a big-bellied mule, assent that this beast is pregnant. The anticipated reply: one can know universally and be ignorant particularly, not by a contradictory singular judgment but by not knowing that this singular falls under the universal.",
+    "claims": [
+      "Universal knowledge is compatible with particular ignorance about whether a singular falls under it."
+    ],
+    "concepts": [
+      "universal vs. particular knowledge",
+      "Prior Analytics mule example"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1217": {
+    "summary": "Ninth objection: Paul did not lose faith in his rapture yet had a clear vision of God; and the blessed need not see everything they believed in via (Jerusalem, the Jordan), so faith remains in heaven.",
+    "claims": [],
+    "concepts": [
+      "Pauline rapture",
+      "faith in heaven"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e250"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1230": {
+    "summary": "Replies that Paul had no act of faith about what he then saw clearly, though he did afterward; the second point is deferred to Book III.",
+    "claims": [
+      "Paul lacked acts of faith about what he saw during his rapture."
+    ],
+    "concepts": [
+      "Pauline rapture",
+      "acts of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1217"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1239": {
+    "summary": "Tenth objection, begun from John 20 ('because you have seen me, Thomas, you have believed'): Thomas had faith about Christ (the sentence continues in the next paragraph).",
+    "claims": [],
+    "concepts": [
+      "doubting Thomas",
+      "faith and sight"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1247"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1247": {
+    "summary": "Continues the tenth objection: Thomas believed about Christ and touched him. Against Gregory's answer that he saw one thing and believed another, it argues that Christ praises the faith of those who did not see more than Thomas's (as does 1 Peter 1), which would be pointless if faith were equally hidden for him; the apostles saw Christ suffer and ascend, the Virgin knew she conceived of the Spirit, and 1 John 1 speaks of what was seen and touched; and faith that is wholly hidden is purer.",
+    "claims": [],
+    "concepts": [
+      "faith and sight",
+      "apostolic witness",
+      "Virgin Mary",
+      "purity of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1239"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1280": {
+    "summary": "Answers all these authorities: what was of faith for the apostles was that Christ suffers and that Christ is God, which they did not know evidently, whereas they evidently knew that this humanity suffers; they had no act of faith about what they saw while seeing it, though they had infused faith. We have faith about some things they did not, e.g. that Christ raised the widow's son, which they saw.",
+    "claims": [
+      "The apostles saw the humanity but believed the divinity.",
+      "There is no act of faith about what is evidently seen at that time."
+    ],
+    "concepts": [
+      "faith and vision",
+      "Christology",
+      "infused faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1247"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1300": {
+    "summary": "Eleventh objection: there would be two specifically distinct loves of God in heaven, since the habit of loving God in via would neither be destroyed nor increased by the beatific act; and propter quid science would destroy quia science about the same object, being a clearer light.",
+    "claims": [],
+    "concepts": [
+      "beatific love",
+      "habit of charity",
+      "propter quid and quia science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e123"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1317": {
+    "summary": "Grants the inference: just as intuitive and abstractive cognitions of the same object differ in species, so two specifically distinct loves dependent on them can coexist; the last inference is allowed to pass.",
+    "claims": [
+      "Two specifically distinct loves of God can coexist in heaven."
+    ],
+    "concepts": [
+      "species of love",
+      "intuitive and abstractive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1300"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1330": {
+    "summary": "Objects to the third conclusion: with an intense opinative habit, actual science produced by demonstration coexists with that habit (by the fourth conclusion), and any act can produce a habit, so scientific and opinative habits would coexist. The reply that science first corrupts the whole opinative habit before introducing its own (leaving the person no readier to assent scientifically after the first demonstration) is stated.",
+    "claims": [],
+    "concepts": [
+      "habit generation",
+      "opinative habit",
+      "scientific habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e145",
+        "jm12w4-e66726-d1e152"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1363": {
+    "summary": "Objects that if scientific act coexists with an opinative habit briefly it can coexist forever, so they are not naturally opposed; and opinative habits have resistance, sciences varying in activity, so a strong opinion could resist a weak science. The reply that science as spiritual light always expels darkness fails, since heat, a higher species than cold, does not always destroy cold.",
+    "claims": [],
+    "concepts": [
+      "resistance and activity",
+      "light and darkness analogy",
+      "contrary qualities"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1330"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1402": {
+    "summary": "Denies the first inference: water's substantial form tolerates heat briefly, not long; the longer a scientific act continues, the more it corrupts the opinative habit, since they are virtually (not formally) contrary. Grants that an opinative habit may resist a small science totally, deriving strength from its whole, while a greater science can extinguish it gradually or suddenly; while science persists, topical arguments cannot strengthen the habit since they cannot produce acts. So a demonstration may be repeated without producing science, owing to the subject's indisposition.",
+    "claims": [
+      "Scientific act and opinative habit are virtually, not formally, contrary.",
+      "A strong opinative habit can resist a weak science.",
+      "Repeated demonstration may fail to produce science in an indisposed subject."
+    ],
+    "concepts": [
+      "virtual vs. formal contrariety",
+      "resistance",
+      "indisposition of the subject"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1363"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1459": {
+    "summary": "Objects that by parity some opinion would be more active than science and naturally corrupt it, as cold strives to destroy heat.",
+    "claims": [],
+    "concepts": [
+      "action and reaction",
+      "corruption of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1402"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1479": {
+    "summary": "Replies that an opinion might resist without being able to corrupt, as humidity and dryness have more resistance than activity; but if greater resistance means greater activity, one may grant an intense opinion could corrupt a small science without undermining the conclusion. A long dialectic follows: then error or the authority of learned men could destroy science, and sophisms could make someone an unwilling heretic by destroying acquired faith, since infused faith and the will resist only finitely (though God aids those who do their best, 1 Cor 10); and sophisms could even destroy evidence of first principles. If instead no sophism can destroy evidence, then an infinitely intense opinion would yield to any tiny science, contrary to the argument that infinitely many resisting degrees resist infinitely. Mair confesses that strong arguments assail every solution.",
+    "claims": [
+      "Some qualities have more resistance than activity.",
+      "God aids those who do what is in them against temptation."
+    ],
+    "concepts": [
+      "resistance and activity",
+      "sophisms",
+      "heresy",
+      "infused faith",
+      "facere quod in se est",
+      "infinite intensity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1459"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1714": {
+    "summary": "Gives the probable resolution: science cannot be corrupted by any opposed error, at least a finite one; though an opinative habit may be so great that a small science cannot affect it, no scientific act can be extinguished by a finite opinion, owing to its specific superiority. Opinion is 'with fear' in being removable by contrary arguments, while evident assent is not. In some qualities a lower species destroys a higher, but for spiritual qualities there are sufficient motives to deny it, some agents having more resistance than activity.",
+    "claims": [
+      "No scientific act can be extinguished by a finite contrary opinion.",
+      "Evident assent cannot be removed by contrary arguments.",
+      "Spiritual qualities of higher species are not destroyed by lower ones."
+    ],
+    "concepts": [
+      "specific superiority",
+      "evidence",
+      "opinion",
+      "spiritual qualities",
+      "resistance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1479",
+        "jm12w4-e66726-d1e783"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1761": {
+    "summary": "Raises again the objection that each topical argument corrupts a finite amount of fear, so fear eventually vanishes entirely.",
+    "claims": [],
+    "concepts": [
+      "formido",
+      "topical arguments"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1714"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1774": {
+    "summary": "Replies that 'fear is corrupted' means only that assent approaches firmness, i.e. becomes harder to remove; an assent may be so strong that no weighty contrary reasons naturally remove it, and then it is not naturally with fear. So not every opinion is with fear, or it suffices that part of it is; even infinite assent remains opinion. Learned men make one waver about evident assent by distracting the mind from its producing motive, so the scientific act ceases for lack of its conserving cause; perhaps a small scientific habit can be corrupted by a great opinative act, though not a scientific act.",
+    "claims": [
+      "The reduction of fear is an increase in firmness of assent.",
+      "Not every opinion is actually with fear.",
+      "Evident assent ceases when the mind is distracted from its cause, not by contrary reasons.",
+      "A small scientific habit might be corrupted by a great opinative act."
+    ],
+    "concepts": [
+      "formido",
+      "firmness of assent",
+      "attention",
+      "conservation of acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1761"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1818": {
+    "summary": "Raises a doubt: whether someone can know that he errs, and whether someone can know that he has faith; error is to be defined first.",
+    "claims": [],
+    "concepts": [
+      "self-knowledge of error",
+      "knowledge of one's faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1831": {
+    "summary": "First preliminary proposition: someone errs precisely by assenting to something true.",
+    "claims": [
+      "One can err by assenting to a truth (in reflexive cases)."
+    ],
+    "concepts": [
+      "error",
+      "self-reference"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1818"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1838": {
+    "summary": "Second proposition: someone does not err by assenting to a false proposition; rather that assent is science in an extended sense.",
+    "claims": [
+      "Assent to a false proposition can be science in an extended sense (in reflexive cases)."
+    ],
+    "concepts": [
+      "error",
+      "self-reference",
+      "extended sense of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1831"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1848": {
+    "summary": "Third proposition: assent to a proposition signifying otherwise than is, or not signifying as is, is not error. The three propositions are illustrated by 'I err,' 'I say something false,' and self-referential propositions about their own signification. Setting aside reflexive cases (treated in Mair's insolubles), error is defined as assent to the false or dissent from the true.",
+    "claims": [
+      "Error is assent to the false or dissent from the true, setting aside reflexive cases."
+    ],
+    "concepts": [
+      "error",
+      "insolubles",
+      "self-reference"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1838"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1885": {
+    "summary": "Concludes that no one can know he errs about a given proposition: knowing he assents to the false, he could not naturally assent to what he knows to be false, just as one cannot assent to a neutral proposition; likewise no one can opine or believe he errs about a specific proposition, though one may opine that some assent of his is erroneous. By divine power, God could transfer Socrates' judgment that Mair errs into Mair, and could destroy Mair's reflexive judgment about his knowledge, leaving him doubting that he knows. Doubt is apprehending without judging either way, and is not distinct from the intellect but connotes something further.",
+    "claims": [
+      "No one can naturally know that he errs about a specific proposition.",
+      "No one can naturally opine or believe that he errs about a specific proposition.",
+      "One can opine that some unspecified assent of one's own is erroneous.",
+      "By divine power one could doubt what one knows.",
+      "Doubt is apprehension without judgment."
+    ],
+    "concepts": [
+      "self-knowledge of error",
+      "doubt",
+      "reflexive cognition",
+      "absolute power",
+      "connotative terms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1848"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1969": {
+    "summary": "Objects that people do know they erred, such as those who lapsed into heresy or Augustine about his pre-conversion life; since 'Socrates knows he erred' is true of the past, 'Socrates knows he errs' must once have been true, the past infinitive being reducible to the present.",
+    "claims": [],
+    "concepts": [
+      "knowledge of past error",
+      "tense",
+      "Augustine's conversion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1885"
+      ]
+    }
+  },
+  "jm12w4-e66726-d1e1991": {
+    "summary": "Replies that the past infinitive need not be reduced to the present ('I know I was in my mother's womb' never had a true present counterpart). One begins to know one erred when reasons lead one to assent to contradictories of previous beliefs and to judge the former reasons frivolous. Yet one can know that one has a quality which is in fact error, and likewise one can evidently know, of one's faith, that one has it, without evidently knowing it as faith.",
+    "claims": [
+      "Past-tense knowledge claims need not correspond to earlier present-tense ones.",
+      "One comes to know one erred by later assenting to the contradictory.",
+      "One can know one has a quality that is error without knowing it as error.",
+      "One can evidently know one's faith de re without evidently knowing it as faith."
+    ],
+    "concepts": [
+      "tense logic",
+      "change of belief",
+      "de re vs. de dicto knowledge",
+      "knowledge of one's faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e66726-d1e1969"
+      ]
+    }
+  },
+  "jm12w4-e66726": {
+    "summary": "The fifth prologue question asks whether faith and science are compatible. Mair posits four conclusions: acts of faith and science about the same proximate object (the conclusion) cannot coexist; infused faith is compatible with science; acquired scientific and fideistic habits are incompatible; and habits can coexist with contrary acts. He supports the first with the contradiction of evident and inevident knowledge, the impeding power of clear cognition, and scriptural and Augustinian texts that faith ceases in vision. Against objections he holds that authority produces no faith alongside demonstration, that science destroys acquired but not infused faith without loss of merit (rejecting Gerson's charge of heresy), and that faith in harder mysteries is more meritorious. A long discussion of opinion argues that its 'fear' means removability by contrary reasons, that topical arguments increase assent without producing evidence, and that no finite contrary opinion can extinguish scientific assent, though Mair admits that every solution faces strong objections. He also addresses bilocation and Averroes's single intellect, Paul's rapture, Thomas and the apostles (who saw the humanity and believed the divinity), and coexisting loves in heaven. A closing doubt concludes that no one can naturally know he errs about a specific proposition, though one can know of a quality one has that it is error, and know one's faith without knowing it as faith.",
+    "claims": [
+      "Acts of faith and science about the same proximate object are incompatible.",
+      "Infused faith is compatible with science.",
+      "Acquired science and acquired faith about the same object are incompatible as habits.",
+      "Habits can coexist with contrary acts.",
+      "Science destroys acquired faith without loss of merit.",
+      "Opinion's 'fear' is its removability by contrary reasons; evident assent is not removable.",
+      "No finite contrary opinion can extinguish scientific assent.",
+      "No one can naturally know that he errs about a specific proposition."
+    ],
+    "concepts": [
+      "faith and science",
+      "acquired and infused faith",
+      "opinion",
+      "formido",
+      "evidence",
+      "merit of faith",
+      "contrariety of habits",
+      "faith and vision",
+      "self-knowledge of error"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e66726-d1e112",
+        "jm12w4-e66726-d1e123",
+        "jm12w4-e66726-d1e140",
+        "jm12w4-e66726-d1e145",
+        "jm12w4-e66726-d1e152",
+        "jm12w4-e66726-d1e159",
+        "jm12w4-e66726-d1e190",
+        "jm12w4-e66726-d1e197",
+        "jm12w4-e66726-d1e250",
+        "jm12w4-e66726-d1e279",
+        "jm12w4-e66726-d1e320",
+        "jm12w4-e66726-d1e336",
+        "jm12w4-e66726-d1e375",
+        "jm12w4-e66726-d1e386",
+        "jm12w4-e66726-d1e445",
+        "jm12w4-e66726-d1e515",
+        "jm12w4-e66726-d1e583",
+        "jm12w4-e66726-d1e594",
+        "jm12w4-e66726-d1e610",
+        "jm12w4-e66726-d1e738",
+        "jm12w4-e66726-d1e783",
+        "jm12w4-e66726-d1e866",
+        "jm12w4-e66726-d1e879",
+        "jm12w4-e66726-d1e899",
+        "jm12w4-e66726-d1e923",
+        "jm12w4-e66726-d1e936",
+        "jm12w4-e66726-d1e1016",
+        "jm12w4-e66726-d1e1055",
+        "jm12w4-e66726-d1e1090",
+        "jm12w4-e66726-d1e1115",
+        "jm12w4-e66726-d1e1170",
+        "jm12w4-e66726-d1e1181",
+        "jm12w4-e66726-d1e1217",
+        "jm12w4-e66726-d1e1230",
+        "jm12w4-e66726-d1e1239",
+        "jm12w4-e66726-d1e1247",
+        "jm12w4-e66726-d1e1280",
+        "jm12w4-e66726-d1e1300",
+        "jm12w4-e66726-d1e1317",
+        "jm12w4-e66726-d1e1330",
+        "jm12w4-e66726-d1e1363",
+        "jm12w4-e66726-d1e1402",
+        "jm12w4-e66726-d1e1459",
+        "jm12w4-e66726-d1e1479",
+        "jm12w4-e66726-d1e1714",
+        "jm12w4-e66726-d1e1761",
+        "jm12w4-e66726-d1e1774",
+        "jm12w4-e66726-d1e1818",
+        "jm12w4-e66726-d1e1831",
+        "jm12w4-e66726-d1e1838",
+        "jm12w4-e66726-d1e1848",
+        "jm12w4-e66726-d1e1885",
+        "jm12w4-e66726-d1e1969",
+        "jm12w4-e66726-d1e1991"
+      ]
+    }
+  }
+}

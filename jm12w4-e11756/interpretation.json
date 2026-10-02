@@ -1,0 +1,1156 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T13:15:07Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "9ef9752b061638683c1f9e1e180e3688e17827af",
+    "generation_method": "hierarchical"
+  },
+  "jm12w4-e11756-d1e112": {
+    "summary": "Opens the first prologue question, how a wayfarer can acquire faith, announcing a method of defining terms, answering, and testing the answer by objections. Defining 'wayfarer,' Mair rejects a definition by lack of ordained possibility of intuitive cognition of God (Paul in rapture had such cognition yet remained a wayfarer, per Augustine) and another doctor's definition as one neither damned nor saved (which would include souls in purgatory). He prefers: one in the state of meriting and demeriting beatitude, or one tending from the way to the term; the state begins with the use of reason and ends at beatitude or at first not being in via (purgatory or hell). The apostles, though confirmed in grace, were still in that state. He warns against insisting curiously on terms. The final sentence introduces the corollaries continued in the next paragraph.",
+    "claims": [
+      "A wayfarer is one in the state of meriting and demeriting beatitude.",
+      "Paul in rapture had clear intuitive cognition of God yet remained a wayfarer.",
+      "Souls in purgatory are not wayfarers.",
+      "The state of merit begins with the use of reason."
+    ],
+    "concepts": [
+      "viator",
+      "state of merit",
+      "Pauline rapture",
+      "purgatory",
+      "intuitive cognition of God",
+      "confirmation in grace"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-Hd1e109"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e197": {
+    "summary": "Corollaries from the definition of wayfarer: Christ in his human nature was not properly a wayfarer, his soul being a comprehensor from creation, though his body lacked its endowments before the Passion (so he was wayfarer in body, comprehensor in soul); Socrates is in a sense both wayfarer and not; the fully drunk, the insane, and infants are wayfarers since they are in the state of merit; one in mortal sin is in the state of meriting, and one in grace in the state of demeriting. Whether Enoch and Elijah merit is left open.",
+    "claims": [
+      "Christ's soul was a comprehensor from its creation.",
+      "Christ was a wayfarer in body but comprehensor in soul.",
+      "Infants and the insane are wayfarers.",
+      "One in mortal sin remains in the state of merit."
+    ],
+    "concepts": [
+      "Christ as viator and comprehensor",
+      "dotes of the glorified body",
+      "state of merit",
+      "Enoch and Elijah"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e246": {
+    "summary": "Explains the second term, 'to believe,' in three senses, beginning with the broadest: to assent in general, in which sense we believe what we know and what we opine, citing Augustine's De praedestinatione sanctorum (whose definition is given in the next paragraph).",
+    "claims": [
+      "In the broadest sense, to believe is to assent."
+    ],
+    "concepts": [
+      "credere",
+      "assent",
+      "senses of believing"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e112"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e260": {
+    "summary": "Completes the Augustinian definition ('to believe is to think with assent') and gives the two narrower senses: strictly, assent without fear to propositions known only by others' testimony (Augustine: faith is believing what you do not see), as a student believes his teacher; properly, assent without fear to propositions pertaining to salvation, as Lombard defines faith as the virtue by which unseen things are believed (restricted, per Augustine's Enchiridion, to what pertains to religion). The question uses the last sense.",
+    "claims": [
+      "Strictly, belief is fearless assent based on testimony.",
+      "Properly, faith is fearless assent to propositions pertaining to salvation.",
+      "The question concerns faith in the proper sense."
+    ],
+    "concepts": [
+      "faith",
+      "testimony",
+      "assent without fear",
+      "salvation",
+      "Lombard's definition of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e246"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e296": {
+    "summary": "Answers affirmatively that the wayfarer can acquire faith and surveys views on its generation: by the will alone, by a means that captivates the intellect alone, or the common middle view. Mair's five propositions: demonstration does not produce faith (it produces science); a topical argument does not (it yields only fearful opinion); intellect with infused faith does not suffice (baptized children raised by Muslims or Tartars cannot believe the articles); the will and its act do not suffice (as one cannot opine at will, De anima II, or else one could assent to 'the stars are even' or 'the pope is sleeping'); and acquired faith is produced by a motive together with pious affection.",
+    "claims": [
+      "Demonstration does not produce faith.",
+      "A topical argument alone does not produce faith.",
+      "Intellect and infused faith do not suffice for acquired faith.",
+      "The will alone cannot produce faith without a motive.",
+      "Acquired faith is produced by a motive together with pious affection."
+    ],
+    "concepts": [
+      "acquired faith",
+      "pious affection",
+      "motive of credibility",
+      "voluntarism",
+      "demonstration",
+      "topical argument",
+      "infused faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e260"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e385": {
+    "summary": "Begins objections to the fifth (principal) proposition, setting aside arguments for special divine aid (treated in Book II). First objection: a topical argument alone produces faith, since pious affection is just the piously affected soul, and soul and topical argument produce opinion, so the same causes would produce opinion and faith.",
+    "claims": [],
+    "concepts": [
+      "pious affection",
+      "topical argument",
+      "special divine aid"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e409": {
+    "summary": "Distinguishes two understandings of pious affection. On the first, it is merely not considering contrary sophisms (e.g. attributing a healing miracle to magic); on that view faith would arise without an act of will as certain but inevident cognition, coinciding with Holcot, and why one believes and another not would be explained by different dispositions, as the sun hardens mud and melts wax. Mair prefers the second and more reasonable view: pious affection is an act of willing what concerns religion. Support: the Gloss on Romans 10 (the Jews do not believe because they will not), God's not obliging us beyond our powers, Augustine (one can enter church unwilling but believe only willingly; assent is a perfection of will), and that faith falls under precept (Hebrews 11, Mark 16), which requires the will's concurrence, as Aquinas and the ancients held; so the will is at least a partial principle. A topical argument is a properly dialectical reason or sufficient authority.",
+    "claims": [
+      "Pious affection is an act of will directed to what concerns religion.",
+      "Faith is in our power and falls under precept, so the will concurs in producing it.",
+      "The will is at least a partial cause of acquired faith.",
+      "The same natural agent can produce different effects in differently disposed patients."
+    ],
+    "concepts": [
+      "pious affection",
+      "will in belief",
+      "precept of faith",
+      "Holcot",
+      "dispositions of the patient",
+      "topical argument"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e385"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e551": {
+    "summary": "Objection: then believing would be an act of the will, not the intellect. Reply: it is an act of the will as commanded, not as elicited; as an assent inhering in the intellect it is really an intellectual act and would inhere in the intellect even if, per impossibile, intellect were separated from will.",
+    "claims": [
+      "Belief is an act commanded by the will but elicited by the intellect.",
+      "Assent inheres primarily in the intellect."
+    ],
+    "concepts": [
+      "elicited vs. commanded acts",
+      "assent",
+      "intellect and will"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e409"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e572": {
+    "summary": "Objection: if a topical argument with the will yields something more perfect than opinion, demonstration with the will would yield something more perfect than science, and likewise for first principles and intuition. Mair denies these inferences: experience shows that willing to see a wall does not make whiteness clearer, and an evident means produces its natural effect from its own perfection, which the will does not augment, unlike a topical argument.",
+    "claims": [
+      "The will does not increase the perfection of evident cognition.",
+      "Evident means produce their effects independently of the will's assistance."
+    ],
+    "concepts": [
+      "evident vs. inevident causes",
+      "will's contribution to assent",
+      "intuitive cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e551"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e618": {
+    "summary": "Objection: if faith of degree two is produced by topical argument and pious affection, one part would be from the will alone. Reply: each is a total cause of the whole effect, though not the total cause. Rejoinder: the same argument would produce more intense faith in one than another, since the will co-causes naturally; then if the will remits its act to zero, the assent persists, so it could have been produced without the will. Mair grants the first, and says the last difficulty concerns only whether the assent of faith can persist without its producing cause, which he affirms.",
+    "claims": [
+      "Topical argument and pious affection are each total cause of the whole effect in the order of effect.",
+      "A more intense volition yields a more intense assent of faith.",
+      "The assent of faith can persist after the will's act ceases."
+    ],
+    "concepts": [
+      "partial and total causes",
+      "intensity of assent",
+      "conservation of effects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e572"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e683": {
+    "summary": "Second objection: if pious affection contributes, one could assent more than reason warrants, and so assent without reason; and since pious affection is a stronger cause than topical reasoning, which produces fearful assent unaided, pious affection should produce assent without topical reasoning.",
+    "claims": [],
+    "concepts": [
+      "assent beyond evidence",
+      "pious affection",
+      "causal strength"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e712": {
+    "summary": "Grants that one may assent more than reason proves but denies that this extends to assent without reason, at least for every credible; and even if pious affection is the stronger cause, neither suffices alone. Motives cannot supply the will's causality, since causes of different kinds cannot substitute for one another, as object and soul cannot in intuitive cognition. Hence one can assent more to a conclusion than to its premises when the extra comes from elsewhere. An objection that infinitely many topical arguments could remove all fear is irrelevant, since it would equally prove they could produce evidence; Mair denies that.",
+    "claims": [
+      "One can assent more firmly than the reasons warrant, but not without reasons.",
+      "Causes of different kinds cannot supply for one another.",
+      "Assent to a conclusion can exceed assent to its premises if it has another source.",
+      "Infinitely many topical arguments cannot produce faith or evidence."
+    ],
+    "concepts": [
+      "heterogeneous causes",
+      "assent to conclusion vs. premises",
+      "topical arguments",
+      "formido"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e683"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e767": {
+    "summary": "Third objection: all the certainty of faith comes from pious affection alone, and certainty is the assent, so pious affection alone produces it. Reply: the major is false; certainty is just the assent by which one assents certainly, which is produced by pious affection and the motive together.",
+    "claims": [
+      "The certainty of faith is the assent itself, caused by pious affection and the motive."
+    ],
+    "concepts": [
+      "certainty of faith",
+      "pious affection"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e785": {
+    "summary": "Fourth objection: a cause naturally ordered to an effect always produces that effect whatever is added, and topical reason alone cannot produce faith, so it cannot with another either; supposing opinion and faith compatible, topical reason with pious affection would produce both opinion and faith, or only opinion.",
+    "claims": [],
+    "concepts": [
+      "natural causes",
+      "same cause same effect",
+      "opinion and faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e830": {
+    "summary": "Denies the major: the sun alone produces light, with an ox produces an ox (Physics II); cognition concurs now with love, now with hatred; a natural cause can concur to different effects, especially when a free co-cause is involved, as with infused faith and charity. Topical argument produces faith as the sun produces both light and an ass.",
+    "claims": [
+      "A natural cause can concur to different effects with different co-causes.",
+      "A free co-cause can determine the effect of a natural cause."
+    ],
+    "concepts": [
+      "concurrent causation",
+      "free and natural causes",
+      "sol et homo generant hominem"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e785"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e859": {
+    "summary": "Fifth objection: the demons believe and tremble (James 2) without pious affection. Reply: there 'believe' means intensely opine; during Christ's earthly life the devil doubted whether Christ was God, hence tempted him (Matthew 4), but by the time James wrote the demons knew Christ's coming with certainty.",
+    "claims": [
+      "Demonic 'belief' is intense opinion or certain knowledge, not faith.",
+      "The devil doubted Christ's divinity during his earthly life."
+    ],
+    "concepts": [
+      "demonic faith",
+      "temptation of Christ",
+      "opinion vs. faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e879": {
+    "summary": "Sixth objection: with four equally balanced reasons on each side, the will can assent to one side (otherwise asserting it would be lying), and pious affection alone would do this, since the opposing reasons cancel like equal weights on a balance; nor can one appeal to the intellect's natural inclination to truth.",
+    "claims": [],
+    "concepts": [
+      "equipollent reasons",
+      "balance analogy",
+      "will and assent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e912": {
+    "summary": "Replies that either answer is not absurd: experience shows the prudent weigh equal reasons unequally through affection; probably the aggregate of pious affection and the four reasons produces the assent, as a small weight tips a balance. Opposing reasons do not wholly cancel but reduce the effect's intensity, as heat six against cold four yields heat two; and the assent's intensity tracks the will's act. If the will remits to zero, the assent becomes infinitely small, as across a geometric series of persons. So one can come to assent or dissent gradually, and heretics are not necessitated but blinded by their own malice.",
+    "claims": [
+      "The aggregate of pious affection and reasons produces the assent, not affection alone.",
+      "Opposing reasons reduce rather than nullify the effect.",
+      "The intensity of assent varies with the intensity of volition.",
+      "Heretics are not necessitated to their heresy but blinded by malice."
+    ],
+    "concepts": [
+      "weighing reasons",
+      "intensity of assent",
+      "action and reaction",
+      "heresy",
+      "geometric series"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e879"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e999": {
+    "summary": "Seventh objection: each believer has a first belief (no infinite regress), and its assent must be caused by the will alone, so by parity the will alone could cause any belief. If the first belief is caused by the first opinion with pious affection, the same regress arises for opinions: the first opinion is either self-evident or requires a prior opinion.",
+    "claims": [],
+    "concepts": [
+      "first belief",
+      "infinite regress",
+      "self-evidence",
+      "foundations of belief"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1041": {
+    "summary": "Replies that there is a first belief and first opinion but no regress: the first belief requires a topical motive, and the first opinion may be deduced from evidents by a merely topical consequence or assented to from the terms (as 'every mother loves her child'). He distinguishes the proper self-evident (known to every reasoner from any apprehension of terms, e.g. 'something is or is not') from propositions whose assent arises from apprehension of terms in some but not all, like 'every mother loves her child' or intuitive judgments. Applying this: 'my mother says God is to be venerated' and 'my mother is truthful,' with an act of will, cause the first acquired faith. Further beliefs follow by consequence, since belief in an antecedent with knowledge of a valid consequence yields firm belief in the consequent.",
+    "claims": [
+      "Each believer has a first belief and a first opinion, without infinite regress.",
+      "The first belief requires a topical motive as well as the will.",
+      "Properly self-evident propositions are evident to every reasoner from any apprehension of terms.",
+      "The first acquired faith can arise from testimony, e.g. a mother's, together with pious volition.",
+      "Belief in an antecedent plus knowledge of the consequence produces firm belief in the consequent."
+    ],
+    "concepts": [
+      "first belief",
+      "self-evidence",
+      "testimony",
+      "acquired faith",
+      "transmission of assent through consequence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e999"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1151": {
+    "summary": "Objection: there is a first opinion from terms alone though not every opinable is so assented to, so likewise there could be a first belief from terms and will alone. Mair grants this is not contrary to his position and not easily refuted, though the cases differ. Alternatively, the first assent of faith might be caused by evident assents (I have never found this preacher lying; he says God is triune), but it seems strange that an inevident assent should be deduced from evident antecedent and consequence.",
+    "claims": [
+      "A first belief from terms plus will is not excluded by Mair's position.",
+      "An inevident assent cannot properly be deduced from evident premises by an evident consequence."
+    ],
+    "concepts": [
+      "first belief",
+      "testimony",
+      "evidence and inevidence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1041"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1188": {
+    "summary": "Eighth objection: God alone, or God with a topical argument, can produce faith, so pious affection is not required; moreover, the assent of faith precedes the act of will, since it is the will's object (I will to assent to 'God is three and one') and the will is only directed to what is known.",
+    "claims": [],
+    "concepts": [
+      "divine causality",
+      "will toward the known",
+      "order of acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1210": {
+    "summary": "Replies that God can produce faith and supply the causality of pious affection or motive, but cannot cause it wholly alone in every respect, since an act in the intellect depends partly on the intellect. The assent need not precede the volition in existence, nor must what is distinctly willed be distinctly known, as reflexive and abstractive cognitions show; the will can will something complex (the first angel desired equality with God) without a corresponding judgment. Alternatively, the will may concur to faith without an elicited act.",
+    "claims": [
+      "God can supply the causality of pious affection or motive.",
+      "An intellectual act depends partly on the intellect it informs.",
+      "The object of volition need not exist or be distinctly known before the volition.",
+      "The will can will a complex without a corresponding judgment."
+    ],
+    "concepts": [
+      "divine supply of causes",
+      "will toward the unknown",
+      "angelic sin",
+      "elicited acts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1188"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1256": {
+    "summary": "Ninth objection: the infidel or heretic has an apparent reason and a will to assent, so faith would be produced in him. If one replies that faith is only of the true and his affection is perverse, pious affection can be of the false (believing a rich man pretending poverty is meritorious), at least under invincible error; and then the heretic too would have fearless assent, and anyone could assent without fear to anything for which he has motives.",
+    "claims": [],
+    "concepts": [
+      "heresy",
+      "pious affection toward falsehood",
+      "invincible error"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1304": {
+    "summary": "Replies that the infidel may firmly assent to his error, but it is not faith, being of the false; infused faith does not incline to it, since he lacks it and even by absolute power it would not incline to falsehood. The true Catholic has sufficient motive, infused faith, and the act of will; the heretic lacks some of these.",
+    "claims": [
+      "Firm assent to falsehood is not faith.",
+      "Infused faith does not incline to falsehood.",
+      "Catholic faith requires sufficient motive, infused faith, and an act of will."
+    ],
+    "concepts": [
+      "heresy",
+      "infused faith",
+      "truth of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1256"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1324": {
+    "summary": "Tenth objection: an agent would concur in destroying its own effect, contrary to natural striving; a topical argument produces opinion, then the same argument with pious affection produces faith, which (if incompatible) destroys that opinion.",
+    "claims": [],
+    "concepts": [
+      "self-defeating causation",
+      "incompatibility of opinion and faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1356": {
+    "summary": "Replies that this is not unfitting when effects are incompatible: nature does what is better among possibilities, and faith being more perfect than opinion, one effect is destroyed to produce the more perfect.",
+    "claims": [
+      "Nature does the better among possible outcomes.",
+      "Faith is more perfect than opinion."
+    ],
+    "concepts": [
+      "natura facit quod melius est",
+      "perfection of effects"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1324"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1367": {
+    "summary": "Eleventh objection: the first act of faith would be meritorious, being commanded by the will, but faith is first among theological virtues and precedes love (Lombard, the Gloss, Ambrose). The reply that merit requires a prudential dictate is countered: an opinative judgment can suffice. Mair grants the first act of faith may be meritorious, requiring only that the intellect present a judgment conformable to reason that the will wills; fuller treatment is deferred to Book III.",
+    "claims": [
+      "The first act of faith can be meritorious.",
+      "Merit requires only that the will follow a judgment conformable to reason."
+    ],
+    "concepts": [
+      "merit",
+      "order of theological virtues",
+      "prudential dictate"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e409"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1407": {
+    "summary": "Twelfth objection: all articles could be believed from pure naturals. Mair distinguishes: no one can by natural investigation, or by reasons drawn from the proper nature of the objects, reach certain cognition of the articles (Hebrews 11: faith is the argument of things not apparent); but someone in pure naturals, relying on natural reason, can be led by other believers through fitting appearances and motives to assent without fear as the Church believes, and so to all the articles.",
+    "claims": [
+      "The articles cannot be known with certainty by natural investigation.",
+      "A person in pure naturals can be brought by motives to fearless assent to all the articles."
+    ],
+    "concepts": [
+      "pure naturals",
+      "articles of faith",
+      "motives of credibility",
+      "natural reason"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1438": {
+    "summary": "Thirteenth objection: anyone reading the Bible with only a topical reason or opinion and no pious affection would be a heretic, since canon law says a doubter in faith is an infidel and one must firmly believe to be saved. Mair denies the inference: a doubter neither assents nor dissents, while an opiner assents, and one can opine about a proposition of faith without sin if pious affection is present at the due time and place; a general pious affection with a specific motive suffices. Those troubled by sophisms but ready to believe and swat them away like flies are not heretics, and the learned have acquired habits that produce faith without fresh motives.",
+    "claims": [
+      "Doubting differs from opining: the doubter neither assents nor dissents.",
+      "One can opine about matters of faith without sin given due pious affection.",
+      "General pious affection with a particular motive suffices for faith.",
+      "Being assailed by sophisms does not make one a heretic.",
+      "An acquired habit of faith can produce acts of faith without a new motive."
+    ],
+    "concepts": [
+      "doubt",
+      "heresy",
+      "canon law on doubt",
+      "pious affection",
+      "acquired habit of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1486": {
+    "summary": "Fourteenth objection: a habit of assenting to 'Terah had three sons' inclines to belief without pious affection. Replies: acts from acquired habits need not involve fresh affection, and such acts are mediately produced by the pious affection that concurred in forming the habit.",
+    "claims": [
+      "Acts from an acquired habit of faith are mediately caused by the pious affection that formed the habit."
+    ],
+    "concepts": [
+      "acquired habit",
+      "mediate causation",
+      "pious affection"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1438"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1502": {
+    "summary": "Raises four doubts: whether infused faith inclines to the first act of believing; whether infused faith alone concurs to produce faith; whether the articles are contrary to natural reason; and why more learned people than simple ones are heretics.",
+    "claims": [],
+    "concepts": [
+      "infused faith",
+      "faith and reason",
+      "heresy among the learned"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1519": {
+    "summary": "Reports that some (Ockham is named in the annotation) answer the first doubt negatively: infused faith does not incline to the first act of believing.",
+    "claims": [],
+    "concepts": [
+      "infused faith",
+      "first act of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1502"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1526": {
+    "summary": "Argues against them: charity inclines to the first meritorious act, so by parity faith inclines to every act of believing; and when motive and pious affection produce the first act, infused faith is present as an unimpeded natural agent and so concurs, there being no more reason for it to concur later than now.",
+    "claims": [
+      "Infused faith inclines to and concurs in the first act of believing."
+    ],
+    "concepts": [
+      "infused faith",
+      "charity",
+      "natural agents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1519"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1544": {
+    "summary": "On the second doubt, infused faith without a motive does not suffice to produce faith (God, intellect, and apprehension of terms aside). Against this, acquired faith's habit produces acts, so the more perfect infused habit should too; replies are referred to Book IV d.4 q.1. On the third doubt, against a doctor who says the articles are contrary to natural reason, Mair argues that truly natural reason proceeds from true principles known in natural light and compels assent, which no argument against the articles does; sophistical reasons are not natural reason. That one thing is three things none of which is another seems contrary to philosophy only to those who philosophize badly; diligent inquiry finds the truth, and philosophers who failed were blinded (Romans 1–2).",
+    "claims": [
+      "Infused faith without a motive does not suffice to produce acts of faith.",
+      "The articles of faith are not contrary to natural reason.",
+      "Truly natural reason proceeds from principles certain in natural light.",
+      "Apparent conflicts between articles and philosophy arise from bad philosophizing."
+    ],
+    "concepts": [
+      "infused faith",
+      "faith and reason",
+      "natural light",
+      "Trinity",
+      "sophistical reasoning"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1502"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1626": {
+    "summary": "On the fourth doubt, denies the presupposition: proportionally more heretics are unlearned, but a learned heretic infects more people and leaves larger traces, so seems more common. Granting it, the learned encounter more doubts because they read more, but one who governs himself religiously and keeps within his limits will find nothing in the law to turn him from the faith. Study remains necessary so the learned may instruct the ignorant.",
+    "claims": [
+      "Heresy is proportionally more common among the unlearned.",
+      "Learned heretics are more visible because their influence is greater.",
+      "Study is necessary for instructing the ignorant."
+    ],
+    "concepts": [
+      "heresy",
+      "learning and faith",
+      "intellectual humility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1502"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1661": {
+    "summary": "Fifth doubt: whether one can have the first act of faith without the concurrence of infused faith. By God's law it is unlikely: whoever wills to assent and does what is in him receives infused faith, which then concurs in the first act.",
+    "claims": [
+      "God infuses faith in those who do what is in them toward believing.",
+      "By law, the first act of faith involves the concurrence of infused faith."
+    ],
+    "concepts": [
+      "facere quod in se est",
+      "infused faith",
+      "first act of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1526"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1679": {
+    "summary": "Sixth doubt: the object of faith. Setting aside the debate between external things and complexe significabilia, Mair holds that the believed complex, its extremes, and the things they signify are the object, since the object is what terminates the assent and the act of believing bears on the complex, its parts, and the things signified; the same issues as for the object of science arise and are treated later in the prologue.",
+    "claims": [
+      "The object of faith includes the believed proposition, its terms, and the things signified.",
+      "The object of faith is what terminates the assent."
+    ],
+    "concepts": [
+      "object of faith",
+      "complexe significabile",
+      "termination of assent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1502"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1711": {
+    "summary": "Objects that faith could then be of the false, since future contingents like 'Christ will be incarnate' can become false; and faith would incline to assent to 'Christ's body is under these species' even when the priest is wicked or the bread not wheaten.",
+    "claims": [],
+    "concepts": [
+      "future contingents",
+      "Eucharistic consecration",
+      "falsity of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1679"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1733": {
+    "summary": "Answers the first objection with three propositions distinguishing modal and non-modal readings: faith can be of the false; it is not possible for faith to be of the false; no assent of faith can be of the false (in the de inesse sense).",
+    "claims": [
+      "In the de inesse sense, no assent of faith is of the false."
+    ],
+    "concepts": [
+      "modal distinctions",
+      "de inesse",
+      "truth of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1711"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1744": {
+    "summary": "Answers the second objection: one is not bound to assent by faith that Christ's body is under this host, which one holds with moral certainty compatible with error; one assents by faith to the conditional: if this is a priest who did what was in him with the requisite conditions, Christ's body is there.",
+    "claims": [
+      "Belief in the presence of Christ in a particular host is moral certainty, not faith.",
+      "The object of faith here is a conditional about valid consecration."
+    ],
+    "concepts": [
+      "Eucharist",
+      "moral certainty",
+      "conditional faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1711"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1760": {
+    "summary": "Objection: the Church can err in judging divorce and canonizing saints, yet I must assent that it judges rightly. Reply: the Church can err in matters of fact but the universal Church cannot err in morals, and a particular prelate can err in both; one is not bound to believe by faith that a particular woman is someone's wife. On canonization, Mair holds probable that the pontiff cannot err if he proceeds legitimately, investigating miracles and especially the holiness of life by separate examination of witnesses (as Daniel did with Susanna, per canon and civil law); then God does not permit error, as Caiaphas prophesied unknowingly as high priest. Canonization is enrolling in the catalogue of saints with a solemn feast.",
+    "claims": [
+      "The Church can err in matters of fact but not the universal Church in morals.",
+      "Particular prelates can err in both fact and morals.",
+      "A pope who canonizes after legitimate inquiry cannot err.",
+      "Canonization is enrollment in the catalogue of saints with a public feast."
+    ],
+    "concepts": [
+      "ecclesial infallibility",
+      "canonization",
+      "facts vs. morals",
+      "papal authority",
+      "examination of witnesses"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1711"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1836": {
+    "summary": "Objects that neither miracles alone nor testimony alone suffices, and a conjunction is no more certain than its parts; and it is compatible with faith to judge a hypocrite holy or a host consecrated when not, without sin, so one can judge someone a saint who is not.",
+    "claims": [],
+    "concepts": [
+      "certainty of conjunctions",
+      "canonization",
+      "innocent error"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1760"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1862": {
+    "summary": "Replies that miracles and testimony are jointly sufficient as premises are, though neither alone. Judging someone a saint who is not would not be demeritorious, but piety holds that God does not permit error after a pontifical sentence. The Eucharist case differs: there a single priest may be deceived or deceive, while canonization involves careful examination of witnesses and miracles and prayers that God not allow the Church to be deceived (John 14). Otherwise devotion to great saints would collapse; for relics, believing many reliable witnesses suffices.",
+    "claims": [
+      "Miracles and testimony jointly suffice for canonization.",
+      "God does not permit error after a legitimate pontifical canonization.",
+      "Relics require only reliable human testimony."
+    ],
+    "concepts": [
+      "canonization",
+      "joint sufficiency",
+      "relics",
+      "Holy Spirit guiding the Church",
+      "devotion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1836"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1915": {
+    "summary": "Second objection, from the saying that many are venerated on earth whose souls are buried in hell. Mair notes he cannot find the source attributed to Augustine or Gregory, and if found it should be understood of the uncanonized, as the life of St Martin shows deception can occur.",
+    "claims": [
+      "The popular saying about venerated damned souls concerns uncanonized persons."
+    ],
+    "concepts": [
+      "source criticism",
+      "veneration of saints",
+      "St Martin"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1862"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1940": {
+    "summary": "Seventh doubt: whether one may publicly venerate as a saint someone not canonized, given the papal prohibition in the decretal on relics, against widespread custom. First proposition: one may privately ask an uncanonized person to intercede, since one judges him holy, and the prohibition concerns solemn worship.",
+    "claims": [
+      "It is licit privately to invoke the intercession of an uncanonized person."
+    ],
+    "concepts": [
+      "cult of saints",
+      "canon law",
+      "private vs. public veneration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1760"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e1979": {
+    "summary": "Second proposition: one may publicly venerate a saint not formally canonized, otherwise many regions would be condemned, e.g. the Scots who venerate St Ninian, son of a British king; where miracles abound and holiness was undoubted, the Church tacitly consents over many years, and the approval of the regional Church suffices. Canonization is only the declaration of someone's holiness, and saints whose holiness is undoubted are virtually canonized.",
+    "claims": [
+      "Public veneration of an uncanonized saint can be licit.",
+      "The tacit consent of the regional Church suffices.",
+      "Canonization is a declaration of holiness.",
+      "Saints of undoubted holiness are virtually canonized."
+    ],
+    "concepts": [
+      "virtual canonization",
+      "St Ninian",
+      "regional cult",
+      "tacit consent of the Church"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1940"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2018": {
+    "summary": "Third proposition: no one should publicly venerate as a saint someone whose holiness is or should be doubtful, per the decretal and the episode in St Martin's life; those who first venerated famous saints did not sin, their holiness having been notorious in life and testimony sufficient at death.",
+    "claims": [
+      "One should not publicly venerate someone of doubtful sanctity.",
+      "Early veneration of notorious saints was not sinful."
+    ],
+    "concepts": [
+      "doubtful sanctity",
+      "public cult",
+      "St Martin"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1979"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2038": {
+    "summary": "Eighth doubt: what should an infidel do before opposing parties, like Moses and Aaron versus Pharaoh's magicians? He should suspend belief while they contend reasonably, pray, and do what is in him, and God will not abandon him in what is necessary for salvation; as matter disposed by qualities receives a substantial form, sometimes created directly, so God infuses faith into the well-watered garden of the soul.",
+    "claims": [
+      "Faced with equal contending claims, one should suspend judgment, pray, and do what is in one.",
+      "God provides what is necessary for salvation to one who does what is in him."
+    ],
+    "concepts": [
+      "suspension of judgment",
+      "facere quod in se est",
+      "disposition and infusion",
+      "Moses and the magicians"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1661"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2064": {
+    "summary": "Ninth doubt: whether as small an act of will suffices to cause assent to 'God is three and one' as to 'God exists.'",
+    "claims": [],
+    "concepts": [
+      "intensity of volition",
+      "Trinity",
+      "existence of God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e296"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2072": {
+    "summary": "Tenth doubt: whether faith is infused without charity.",
+    "claims": [],
+    "concepts": [
+      "infused faith",
+      "charity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e1661"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2077": {
+    "summary": "Eleventh doubt: whether faith is intensified like charity, and likewise whether it is remitted.",
+    "claims": [],
+    "concepts": [
+      "intension of faith",
+      "remission of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e2072"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2082": {
+    "summary": "Answers the ninth doubt: perhaps not, but there is a maximal act of will that does not suffice with a given motive and a minimal one that does; since even a remiss act is free, believing the Trinity is as free as believing God exists, and likewise for the Incarnation and the Eucharist. For every credible a sufficient motive is available with a spontaneous act of will; more motive requires less will, and neither topical reasons nor volitions alone suffice.",
+    "claims": [
+      "Belief in higher mysteries is as free as belief in God's existence.",
+      "Motive and volition vary inversely in what is required for belief.",
+      "Neither topical reasons nor volition alone suffice for faith."
+    ],
+    "concepts": [
+      "freedom of belief",
+      "motive and volition",
+      "mysteries of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e2064"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2113": {
+    "summary": "Answers the tenth doubt affirmatively: faith (and perhaps hope) is infused without charity in an adult baptized in mortal sin; just as mortal sin removes charity while faith and hope remain, so at first infusion. Faith and hope are removed by pertinacious heresy and despair; charity is connected to them and not had without them, but not conversely.",
+    "claims": [
+      "Faith can be infused without charity.",
+      "Mortal sin removes charity but not faith and hope.",
+      "Charity requires faith and hope, but not conversely."
+    ],
+    "concepts": [
+      "infused virtues",
+      "connection of virtues",
+      "baptism in mortal sin",
+      "unformed faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e2072"
+      ]
+    }
+  },
+  "jm12w4-e11756-d1e2137": {
+    "summary": "Answers the eleventh doubt: acquired faith clearly increases and decreases in act and habit; infused faith is increased by law, as Christ's words ('of little faith,' 'great is your faith,' the centurion) show, and by parity with charity, which increases with meritorious acts; infused faith grows through acts of believing, formed or unformed. God removes infused faith and hope from those who die in mortal sin; the converted desperate return to greater faith. Infused faith is not remitted by law, though remissible, since pertinacious heresy removes it entirely at once (at the first instant of heresy, or the last instant of faith if heresy is gradual), which God can do instantly.",
+    "claims": [
+      "Acquired faith increases and decreases in act and habit.",
+      "Infused faith is increased by acts of believing.",
+      "God removes infused faith and hope from those who die in mortal sin.",
+      "Infused faith is not gradually remitted; pertinacious heresy removes it entirely."
+    ],
+    "concepts": [
+      "intension of infused faith",
+      "pertinacious heresy",
+      "first and last instants",
+      "infused virtues of the damned",
+      "conversion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jm12w4-e11756-d1e2077"
+      ]
+    }
+  },
+  "jm12w4-e11756": {
+    "summary": "The first prologue question asks how a wayfarer can acquire faith. Mair defines the wayfarer as one in the state of meriting and demeriting (rejecting definitions that would exclude Paul in rapture or include souls in purgatory) and draws corollaries about Christ, infants, and sinners; he takes 'believe' in its proper sense of fearless assent to salvific propositions. Against pure voluntarist and pure intellectualist accounts, he holds that acquired faith is produced neither by demonstration, topical argument, infused faith, nor will alone, but by a motive (topical reason or authority) together with pious affection, understood as a free act of will, which explains why faith falls under precept and is meritorious. Fourteen objections refine the account: belief is commanded by the will but elicited by the intellect; heterogeneous causes cannot substitute; opposing reasons reduce rather than cancel assent; there is a first belief, typically grounded in testimony; demons merely opine; heretics' firm assent is not faith; the first act of faith can be meritorious; and the articles, though not naturally demonstrable, can be believed by one in pure naturals given suitable motives. Further doubts establish that infused faith concurs in the first act, that the articles are not contrary to natural reason, that the object of faith is the proposition with its terms and significates, that faith attaches to the conditional in Eucharistic belief, that the universal Church cannot err in morals and the pope in legitimate canonization, that uncanonized saints like Ninian may be venerated, and that infused faith can exist without charity and is increased by acts but lost entirely through heresy.",
+    "claims": [
+      "A wayfarer is one in the state of meriting and demeriting beatitude.",
+      "Acquired faith is produced by a motive together with pious affection, a free act of will.",
+      "Neither demonstration, topical argument, infused faith, nor will alone suffices for acquired faith.",
+      "Belief is commanded by the will but elicited by the intellect.",
+      "The first acquired belief is typically grounded in testimony with pious volition.",
+      "The articles of faith are not contrary to natural reason, though not naturally demonstrable.",
+      "Infused faith concurs in the first act of believing.",
+      "The pope cannot err in a legitimate canonization; regional cults of uncanonized saints can be licit.",
+      "Infused faith can exist without charity and is lost entirely through pertinacious heresy."
+    ],
+    "concepts": [
+      "viator",
+      "acquired faith",
+      "pious affection",
+      "motive of credibility",
+      "will and intellect",
+      "testimony",
+      "infused faith",
+      "faith and reason",
+      "object of faith",
+      "canonization",
+      "merit",
+      "heresy"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jm12w4-e11756-d1e112",
+        "jm12w4-e11756-d1e197",
+        "jm12w4-e11756-d1e246",
+        "jm12w4-e11756-d1e260",
+        "jm12w4-e11756-d1e296",
+        "jm12w4-e11756-d1e385",
+        "jm12w4-e11756-d1e409",
+        "jm12w4-e11756-d1e551",
+        "jm12w4-e11756-d1e572",
+        "jm12w4-e11756-d1e618",
+        "jm12w4-e11756-d1e683",
+        "jm12w4-e11756-d1e712",
+        "jm12w4-e11756-d1e767",
+        "jm12w4-e11756-d1e785",
+        "jm12w4-e11756-d1e830",
+        "jm12w4-e11756-d1e859",
+        "jm12w4-e11756-d1e879",
+        "jm12w4-e11756-d1e912",
+        "jm12w4-e11756-d1e999",
+        "jm12w4-e11756-d1e1041",
+        "jm12w4-e11756-d1e1151",
+        "jm12w4-e11756-d1e1188",
+        "jm12w4-e11756-d1e1210",
+        "jm12w4-e11756-d1e1256",
+        "jm12w4-e11756-d1e1304",
+        "jm12w4-e11756-d1e1324",
+        "jm12w4-e11756-d1e1356",
+        "jm12w4-e11756-d1e1367",
+        "jm12w4-e11756-d1e1407",
+        "jm12w4-e11756-d1e1438",
+        "jm12w4-e11756-d1e1486",
+        "jm12w4-e11756-d1e1502",
+        "jm12w4-e11756-d1e1519",
+        "jm12w4-e11756-d1e1526",
+        "jm12w4-e11756-d1e1544",
+        "jm12w4-e11756-d1e1626",
+        "jm12w4-e11756-d1e1661",
+        "jm12w4-e11756-d1e1679",
+        "jm12w4-e11756-d1e1711",
+        "jm12w4-e11756-d1e1733",
+        "jm12w4-e11756-d1e1744",
+        "jm12w4-e11756-d1e1760",
+        "jm12w4-e11756-d1e1836",
+        "jm12w4-e11756-d1e1862",
+        "jm12w4-e11756-d1e1915",
+        "jm12w4-e11756-d1e1940",
+        "jm12w4-e11756-d1e1979",
+        "jm12w4-e11756-d1e2018",
+        "jm12w4-e11756-d1e2038",
+        "jm12w4-e11756-d1e2064",
+        "jm12w4-e11756-d1e2072",
+        "jm12w4-e11756-d1e2077",
+        "jm12w4-e11756-d1e2082",
+        "jm12w4-e11756-d1e2113",
+        "jm12w4-e11756-d1e2137"
+      ]
+    }
+  }
+}
